@@ -69,6 +69,18 @@ Instrukcje co do zrozumienia i operowania treścią nie opierają się wyłączn
 
 *Uwaga* Wymogi dotyczące koloru opisane są w <a href="#visual-audio-contrast">Wytycznej 1.4</a>.
 
+#### 1.3.4 Orientacja
+Zawartość nie ogranicza swojego widoku i działania do jednej orientacji wyświetlania, takiej jak pionowa lub pozioma, chyba że określona orientacja wyświetlania jest niezbędna.
+
+#### 1.3.5 Określenie pożądanej wartości
+Cel każdego pola zbierającego informacje o użytkowniku może być programowo określony, gdy
+
+- Pole zbierające dane służy celowi określonemu w sekcji cele wejściowe dla komponentów interfejsu użytkownika; oraz
+- Zawartość jest implementowana przy użyciu technologii z obsługą identyfikacji oczekiwanej wartości danych wprowadzanych w polach formularza.
+
+#### 1.3.6 Określenie przeznaczenia
+W treściach zaimplementowanych przy użyciu języków znaczników przeznaczenie komponentów interfejsu użytkownika, ikon i regionów może zostać określone programowo.
+						
 ### Wytyczna 1.4 Możliwość rozróżnienia
 Użytkownik powinien móc dobrze widzieć bądź słyszeć treści — mieć możliwość oddzielenia informacji od tła.
 
@@ -142,3 +154,40 @@ odczytać cały wiersz, przesuwania tekstu w poziomie przy <a title="definicja: 
 <a title="definicja: obraz tekstu" href="#images-of-textdef" class="termref">Teksty w postaci grafiki</a> są wykorzystywane jedynie w celach <a title="definicja: wyłącznie dekoracyjny" href="#puredecdef" class="termref">czysto dekoracyjnych</a> lub też w przypadkach, gdy takie przedstawienie <a title="definicja: tekst" href="#textdef" class="termref">tekstu</a> jest <a title="definicja: istotny" href="#essentialdef" class="termref">istotne</a> dla przekazywanej informacji. (Poziom AAA)
 
 *Uwaga* ekst, który jest częścią logo lub nazwy własnej produktu, jest w tym przypadku uznawany za istotny.
+
+#### 1.4.10 Dopasowanie do ekranu
+Treść może być prezentowana bez utraty informacji lub funkcjonalności, bez konieczności przewijania w dwóch wymiarach dla:
+
+- Pionowego przewijania zawartości o szerokości odpowiadającej 320 pikselom CSS;
+- Poziomego przewijania zawartości na wysokości odpowiadającej 256 pikselom CSS.
+
+*Wyjątkiem* są te części treści, które wymagają dwuwymiarowego układu ze względu na sposób używania lub znaczenie.
+
+#### 1.4.11 Kontrast elementów nietekstowych
+Wizualna prezentacja następujących elementów ma współczynnik kontrastu co najmniej 3:1 względem sąsiednich kolorów:
+
+- **Elementy interfejsu użytkownika:** Informacje wizualne wymagane do identyfikacji komponentów i stanów interfejsu użytkownika, z wyjątkiem nieaktywnych składników lub gdy wygląd komponentu jest określony przez agenta użytkownika i nie jest modyfikowany przez autora;
+- **Obiekty graficzne:** Części grafiki wymagane do zrozumienia treści, z wyjątkiem sytuacji, gdy konkretna prezentacja grafiki ma zasadnicze znaczenie dla przekazywanych informacji.
+
+#### 1.4.12 Odstępy w tekście
+W treści zaimplementowanej przy użyciu języków znaczników, które obsługują poniższe właściwości stylu tekstowego, nie następuje utrata treści lub funkcjonalności przez ustawienie wszystkich następujących elementów i przez zmianę żadnej innej właściwości stylu:
+
+- Wysokość linii (odstęp między wierszami) do co najmniej 1,5-krotności rozmiaru czcionki;
+- Rozstaw następujących akapitów co najmniej 2 razy większy od rozmiaru czcionki;
+- Odstępy między literami (tracking) do co najmniej 0,12-krotności rozmiaru czcionki;
+- Odstępy między wyrazami do co najmniej 0,16 wielkości czcionki.
+                                ]
+*Wyjątek*: Języki naturalne i skrypty, które nie wykorzystują jednej lub więcej z tych właściwości stylu tekstowego w tekście pisanym, mogą być zgodne przy użyciu tylko tych właściwości, które istnieją dla tej kombinacji języka i skryptu.
+
+#### 1.4.13 Treść spod kursora lub fokusa
+Tam, gdzie odbieranie, a następnie usuwanie wskaźnika myszy lub fokusa klawiatury powoduje wyświetlenie dodatkowej zawartości, a następnie jej ukrycie, prawdziwe są poniższe stwierdzenia:
+
+- **Odrzucone**: Dostępny jest mechanizm umożliwiający odrzucenie dodatkowej zawartości bez przesuwania wskaźnika myszy lub koncentracji na klawiaturze, chyba że dodatkowa treść przekazuje błąd wejściowy lub nie przesłania ani nie zastępuje innej zawartości;
+- **Wskazywane**: Jeśli wskaźnik myszy (hover) może wyzwolić dodatkową zawartość, wówczas wskaźnik może zostać przeniesiony na dodatkową zawartość bez znikania dodatkowej zawartości;
+- **Trwałe**: Dodatkowa treść pozostaje widoczna do momentu usunięcia wyzwalacza aktywacji lub fokusa, użytkownik odrzuca go lub jego informacje nie są już ważne.
+
+*Wyjątek*: Wizualna prezentacja dodatkowej zawartości jest kontrolowana przez agenta użytkownika i nie jest modyfikowana przez autora.
+
+*Uwaga 1* Przykłady dodatkowej zawartości kontrolowanej przez agenta użytkownika obejmują podpowiedzi przeglądarki utworzone przy użyciu atrybutu HTML title.
+
+*Uwaga 2* Niestandardowe podpowiedzi, podmenu i inne niemodalne wyskakujące okienka wyświetlane w dymku i fokusie to przykłady dodatkowej treści objętej tym kryterium.
