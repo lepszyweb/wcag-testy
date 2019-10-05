@@ -1,3 +1,3 @@
 - [Szybki start](slownik/)
-- [Slownik dostępności](slownik/slownik-dostepnosci)
+- [Slownik WCAG](slownik/slownik)
 - [Słownik niepełnosprawnosci](slownik/slownik-niepelnosprawnosci)
