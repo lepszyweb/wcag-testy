@@ -9,7 +9,7 @@ WET - zestaw.
 ## Stosowanie
 Za pomocą narzędzi na badanej stronie możemy zobaczyć właściwości niewidoczne bez dokładniejszej analizy albo wręcz niewidoczne.
 
-![Pasek narzędzi skryptozakładki WET](wet.png)
+![Pasek narzędzi skryptozakładki WET](img/wet.png)
 - **Headings** - wyróżnia nagłówki, w tym ukryte,
 - **ARIA Landmarks** - wyróżnia punkty orientacyjne wraz z etykietami, jeśli istnieją (nie wyróżnia obszarów oznaczonych atrybutem role="region"),
 - **Aria Roles** - wyróżnia obiekty z jawnie określonymi atrybutami role, innymi niż punkty orientacyjne, a także obszary z atrybutem role="region",
