@@ -1,4 +1,4 @@
-# Metodyka testów zgodności z WCAG
+# Testy zgodności z WCAG
 
 ## Co to jest?
 

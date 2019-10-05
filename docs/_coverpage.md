@@ -1,11 +1,13 @@
 ![logo](_images/lepszyweb.svg)
 
 
-# Metodyka testów zgodności z WCAG
+# Testy zgodności z WCAG
 
 > WCAG 2.1
 
-> Metoyka testowania
+> Testy
+
+> Narzędzia
 
 > Słownik
 

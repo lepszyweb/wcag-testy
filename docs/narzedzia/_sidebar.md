@@ -1,5 +1,2 @@
-- **Rozpoczynamy**
- - [Szybki start](narzedzia/)
-- **Przykłady**
- - [Wprowadzenie](narzedzia/wprowadzenie)
- - [ANDI](narzedzia/andi)
+- [Wprowadzenie](narzedzia/wprowadzenie)
+- [ANDI](narzedzia/andi)

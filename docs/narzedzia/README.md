@@ -1,10 +1,4 @@
-# Metodyka testów zgodności z WCAG
+# Narzędzia oceny dostępności cyfrowej
+
 ## Co to jest?
 
-
-## Dla kogo jest to repozytorium?
-
-## Jak możesz pomóć?
-
-
-## Licencja
