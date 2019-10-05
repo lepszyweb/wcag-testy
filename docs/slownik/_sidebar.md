@@ -1,0 +1,3 @@
+- [Szybki start](slownik/)
+- [Slownik dostępności](slownik/slownik-dostepnosci)
+- [Słownik niepełnosprawnosci](slownik/slownik-niepelnosprawnosci)

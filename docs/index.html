@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Metodyka testów zgodności z WCAG</title>
+	<link rel="icon" href="_images/favicon/favicon.ico">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="_media/vue.css" title="vue">
+</head>
+
+<body>
+
+	<div id="app"></div>
+</body>
+<script>
+	window.$docsify = {
+		name: 'Metodyka testów zgodności z WCAG',
+		maxLevel: 4,
+		subMaxLevel: 3,
+		auto2top: true,
+		coverpage: true,
+		loadSidebar: true,
+		loadNavbar: true,
+		executeScript: true
+		//    alias: {
+		//      '/zh-cn/changelog': '/changelog',
+		//      '/changelog': 'https://raw.githubusercontent.com/QingWei-Li/docsify/master/CHANGELOG'
+		//    }
+
+	}
+
+	if (typeof navigator.serviceWorker !== 'undefined') {
+		navigator.serviceWorker.register('sw.js')
+	}
+
+</script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>
+<script src="//unpkg.com/prismjs/components/prism-nginx.min.js"></script>
+</html>
