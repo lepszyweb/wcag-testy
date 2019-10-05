@@ -1,8 +1,26 @@
+## Zasada nr 1: Postrzegalność
+Informacje oraz komponenty interfejsu użytkownika muszą być przedstawione użytkownikom w sposób dostępny dla ich zmysłów.
 
-<h2><a name="guidelines" id="guidelines"> </a>Wytyczne WCAG 2.0</h2>
-    <p>
-      Ta sekcja pełni funkcję <a title="definicja: normatywny" href="#normativedef" class="termref">normatywną</a>.
-    </p>
+### Wytyczna 1.1 Alternatywa w postaci tekstu
+Dla każdej treści nietekstowej należy dostarczyć alternatywną treść w formie tekstu, która może być zamieniona przez użytkownika w inne formy (np. powiększony druk, brajl, mowa syntetyczna, symbole lub język uproszczony).
+
+#### 1.1.1 Treść nietekstowa
+Wszelkie <a title="definicja: treść nietekstowa" href="#non-text-contentdef" class="termref">treści nietekstowe</a> przedstawione użytkownikowi posiadają swoją <a title="definicja: tekst alternatywny" href="#text-altdef" class="termref">tekstową alternatywę</a>, która pełni tę samą funkcję, za wyjątkiem sytuacji 
+opisanych poniżej (Poziom A):
+
+- **Kontrolki użytkownika i wprowadzanie danych przez użytkownika:** Jeśli treść nietekstowa jest kontrolką użytkownika lub polem wprowadzania danych, wtedy posiada <a title="definicja: nazwa" href="#namedef" class="termref">nazwę</a> opisującą jej przeznaczenie. (<a href="#_Wytyczna_4.1_Kompatybilno%C5%9B%C4%87:">Wytyczna 4.1</a> podaje dodatkowe wymagania dotyczące kontrolek oraz wprowadzania danych przez użytkownika.)
+- **Media zmienne w czasie:** Jeśli treść nietekstowa to media zmienne w czasie, wtedy alternatywa w formie tekstu zawiera opis pozwalający zrozumieć przeznaczenie treści nietekstowej. (<a href="http://fdc.org.pl/wcag2/#_Wytyczna_1.2_Media">Wytyczna 1.2</a> podaje dodatkowe wymagania, jeśli chodzi o media.)
+- **Media zmienne w czasie:**Jeśli treść nietekstowa to media zmienne w czasie, wtedy alternatywa w formie 
+tekstu zawiera opis pozwalający zrozumieć przeznaczenie treści nietekstowej. (<a href="http://fdc.org.pl/wcag2/#_Wytyczna_1.2_Media">Wytyczna 1.2</a> podaje dodatkowe wymagania, jeśli chodzi o media.)
+- **Test:**Jeśli treść nietekstowa jest testem 
+lub ćwiczeniem, które utraciłoby swój sens ze względu na przedstawienie 
+tej samej treści w postaci <a title="definicja: tekst" href="#textdef" class="termref">tekstu</a>, wtedy alternatywa w postaci tekstu podawać powinna przynajmniej opis pozwalający zrozumieć przeznaczenie 
+treści nietekstowej.
+
+
+
+
+
     <h2 class="principle"><a name="perceivable" id="perceivable"> </a>Zasada nr 1: Postrzegalność — informacje oraz 
 komponenty interfejsu użytkownika muszą być przedstawione użytkownikom w
  sposób dostępny dla ich zmysłów.
