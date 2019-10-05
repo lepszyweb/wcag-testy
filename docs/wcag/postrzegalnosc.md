@@ -16,121 +16,42 @@ tekstu zawiera opis pozwalający zrozumieć przeznaczenie treści nietekstowej. 
 lub ćwiczeniem, które utraciłoby swój sens ze względu na przedstawienie 
 tej samej treści w postaci <a title="definicja: tekst" href="#textdef" class="termref">tekstu</a>, wtedy alternatywa w postaci tekstu podawać powinna przynajmniej opis pozwalający zrozumieć przeznaczenie 
 treści nietekstowej.
-
-
-
-
-
-    <h2 class="principle"><a name="perceivable" id="perceivable"> </a>Zasada nr 1: Postrzegalność — informacje oraz 
-komponenty interfejsu użytkownika muszą być przedstawione użytkownikom w
- sposób dostępny dla ich zmysłów.
-    </h2>
-<div class="guideline">
-<h3><a name="text-equiv" id="text-equiv"></a> Wytyczna 1.1 Alternatywa w postaci tekstu: Dla każdej treści nietekstowej należy dostarczyć alternatywną treść w formie tekstu,
-która może być zamieniona przez użytkownika w inne formy 
-(np. powiększony druk, brajl, mowa syntetyczna, symbole lub język 
-uproszczony).
-    </h3>
-</div>
-    <p>
-      <strong>1.1.1 Treść nietekstowa:</strong> Wszelkie <a title="definicja: treść nietekstowa" href="#non-text-contentdef" class="termref">treści nietekstowe</a> przedstawione użytkownikowi posiadają swoją <a title="definicja: tekst alternatywny" href="#text-altdef" class="termref">tekstową alternatywę</a>, która pełni tę samą funkcję, za wyjątkiem sytuacji 
-opisanych poniżej (Poziom A):
-    </p>
-
-    <ul>
-      <li>
-        <p><strong>Kontrolki użytkownika i wprowadzanie danych przez użytkownika:</strong> Jeśli treść nietekstowa jest kontrolką użytkownika lub polem wprowadzania danych, wtedy posiada <a title="definicja: nazwa" href="#namedef" class="termref">nazwę</a> opisującą jej przeznaczenie. (<a href="#_Wytyczna_4.1_Kompatybilno%C5%9B%C4%87:">Wytyczna 4.1</a> podaje dodatkowe wymagania dotyczące kontrolek oraz wprowadzania danych przez użytkownika.)
-        </p>
-      </li>
-      <li>
-        <p><strong>Media zmienne w czasie:</strong> Jeśli treść 
-nietekstowa to media zmienne w czasie, wtedy alternatywa w formie 
-tekstu zawiera opis pozwalający zrozumieć przeznaczenie treści nietekstowej. (<a href="http://fdc.org.pl/wcag2/#_Wytyczna_1.2_Media">Wytyczna 1.2</a> podaje dodatkowe wymagania, jeśli chodzi o media.)
-        </p>
-      </li>
-      <li>
-        <p><strong>Test:</strong> Jeśli treść nietekstowa jest testem 
-lub ćwiczeniem, które utraciłoby swój sens ze względu na przedstawienie 
-tej samej treści w postaci <a title="definicja: tekst" href="#textdef" class="termref">tekstu</a>, wtedy alternatywa w postaci tekstu podawać powinna przynajmniej opis pozwalający zrozumieć przeznaczenie 
-treści nietekstowej.
-        </p>
-      </li>
-      <li>
-        <p><strong>Odczucie zmysłowe:</strong> Jeśli treść nietekstowa 
+- **Odczucie zmysłowe:** Jeśli treść nietekstowa 
 ma za zadanie przede wszystkim tworzyć <a title="definicja: konkretne odczucie zmysłowe" href="#sensoryexpdef" class="termref">konkretne odczucie zmysłowe</a>,
  wtedy alternatywa w postaci tekstu jest opisem pozwalającym zrozumieć 
 przeznaczenie treści nietekstowej.
-        </p>
-      </li>
-      <li>
-        <p><strong><a title="definicja: CAPTCHA" href="#CAPTCHAdef" class="termref">CAPTCHA</a>:</strong> Jeśli celem treści nietekstowej 
-jest potwierdzenie, że do treści ma dostęp człowiek, a nie komputer, 
-wtedy dostarcza się alternatywę w postaci tekstu, która identyfikuje 
-oraz opisuje cel treści nietekstowej. Dostarcza się również alternatywnych
- zabezpieczeń typu CAPTCHA, dostosowanych do różnych możliwości 
-percepcji użytkowników, uwzględniając różne rodzaje niepełnosprawności.
-        </p>
-      </li>
-      <li>
-        <p><strong>Cele dekoracyjne, formatowanie, treść niewidoczna:</strong>
- Jeśli treść nietekstowa pełni <a title="definicja: wyłącznie dekoracyjny" href="#puredecdef" class="termref">jedynie funkcję dekoracyjną</a>, używana jest do formatowania wizualnego lub też nie jest przedstawiana 
-użytkownikowi, powinna być wdrożona w sposób umożliwiający <a title="definicja: technologie wspomagające (w rozumieniu tego dokumentu)" href="#atdef" class="termref">technologiom 
-wspomagającym</a> jej zignorowanie.
-        </p>
-      </li>
-    </ul>
-<div class="guideline">   
-<a name="media-equiv" id="media-equiv"> </a> <h3>Wytyczna 1.2 Media zmienne w czasie: Należy dostarczyć alternatywę dla mediów zmiennych w czasie.</h3>
-</div>
-    <p>
-      <strong>1.2.1 Tylko audio lub tylko wideo (nagranie):</strong> 
+- **<a title="definicja: CAPTCHA" href="#CAPTCHAdef" class="termref">CAPTCHA</a>:** Jeśli celem treści nietekstowej jest potwierdzenie, że do treści ma dostęp człowiek, a nie komputer, wtedy dostarcza się alternatywę w postaci tekstu, która identyfikuje oraz opisuje cel treści nietekstowej. Dostarcza się również alternatywnych zabezpieczeń typu CAPTCHA, dostosowanych do różnych możliwości percepcji użytkowników, uwzględniając różne rodzaje niepełnosprawności.
+- **Cele dekoracyjne, formatowanie, treść niewidoczna:** Jeśli treść nietekstowa pełni [funkcję dekoracyjną](slownik/wylaczniedekoracyjna), używana jest do formatowania wizualnego lub też nie jest przedstawiana użytkownikowi, powinna być wdrożona w sposób umożliwiający [technologiom wspomagającym](slownik/technologiewspomagające) jej zignorowanie.
+
+### Wytyczna 1.2 Media zmienne w czasie
+Należy dostarczyć alternatywę dla mediów zmiennych w czasie.
+
+#### 1.2.1 Tylko audio lub tylko wideo (nagranie)
 Dla <a title="definicja: nagranie" href="#prerecordeddef" class="termref">mediów nagranych</a> w systemie <a title="definicja: materiał dźwiękowy" href="#audio-onlydef" class="termref">tylko audio</a> lub <a title="definicja: tylko wideo" href="#video-onlydef" class="termref">tylko wideo</a> stosuje się następujące zasady, za wyjątkiem sytuacji, kiedy nagranie audio lub wideo jest <a title="definicja: multimedia alternatywne dla tekstu" href="#multimedia-alt-textdef" class="termref">alternatywą dla tekstu</a> i w taki sposób jest oznaczone: (Poziom A)
-    </p>
-    <ul>
-      <li>
-        <p>
-          <strong>Nagranie tylko audio:</strong> Zapewniona jest <a title="definicja: alternatywa dla mediów zmiennych w czasie" href="#alt-time-based-mediadef" class="termref">alternatywa dla mediów zmiennych w czasie</a>, przedstawiająca tę samą treść, co w nagraniu audio.
-        </p>
-      </li>
-      <li>
-        <p>
-          <strong>Nagranie tylko wideo:</strong> Zapewniona jest alternatywa dla mediów zmiennych w czasie, albo nagranie audio, przedstawiające te same informacje, jak w nagraniu wideo.
-        </p>
-      </li>
-    </ul>
-    <p>
-      <strong>1.2.2 Napisy rozszerzone (nagranie):</strong> <a title="definicja: napisy rozszerzone" href="#captionsdef" class="termref">Napisy rozszerzone</a> dołączone są do wszystkich <a title="definicja: nagranie" href="#prerecordeddef" class="termref">nagrań</a> <a title="definicja: audio" href="#audiodef" class="termref">audio</a> w <a title="definicja: zsynchronizowane multimedia" href="#synchronizedmediadef" class="termref">multimediach zsynchronizowanych</a> (dźwięk i obraz), za wyjątkiem sytuacji, kiedy są one <a title="definicja: multimedia alternatywne dla tekstu" href="#multimedia-alt-textdef" class="termref">alternatywami dla tekstu</a> i w taki sposób są oznaczone. (Poziom A)
-    </p>
-    <p>
-      <strong>1.2.3 Audiodeskrypcja lub alternatywa dla mediów (nagranie):</strong>
- Zapewnia się <a title="definicja: alternatywa dla mediów zmiennych w czasie" href="#alt-time-based-mediadef" class="termref">alternatywę dla mediów zmiennych w czasie</a> lub <a title="definicja: audiodeskrypcja" href="#audiodescdef" class="termref">audiodeskrypcję</a> dla <a title="definicja: nagranie" href="#prerecordeddef" class="termref">nagrań wideo</a> w <a title="definicja: zsynchronizowane multimedia" href="#synchronizedmediadef" class="termref">multimediach zsynchronizowanych</a> 
+- **Nagranie tylko audio:** Zapewniona jest <a title="definicja: alternatywa dla mediów zmiennych w czasie" href="#alt-time-based-mediadef" class="termref">alternatywa dla mediów zmiennych w czasie</a>, przedstawiająca tę samą treść, co w nagraniu audio.
+- **Nagranie tylko wideo:** Zapewniona jest alternatywa dla mediów zmiennych w czasie, albo nagranie audio, przedstawiające te same informacje, jak w nagraniu wideo.
+
+#### 1.2.2 Napisy rozszerzone (nagranie)
+<a title="definicja: napisy rozszerzone" href="#captionsdef" class="termref">Napisy rozszerzone</a> dołączone są do wszystkich <a title="definicja: nagranie" href="#prerecordeddef" class="termref">nagrań</a> <a title="definicja: audio" href="#audiodef" class="termref">audio</a> w <a title="definicja: zsynchronizowane multimedia" href="#synchronizedmediadef" class="termref">multimediach zsynchronizowanych</a> (dźwięk i obraz), za wyjątkiem sytuacji, kiedy są one <a title="definicja: multimedia alternatywne dla tekstu" href="#multimedia-alt-textdef" class="termref">alternatywami dla tekstu</a> i w taki sposób są oznaczone. (Poziom A)
+#### 1.2.3 Audiodeskrypcja lub alternatywa dla mediów (nagranie)
+Zapewnia się <a title="definicja: alternatywa dla mediów zmiennych w czasie" href="#alt-time-based-mediadef" class="termref">alternatywę dla mediów zmiennych w czasie</a> lub <a title="definicja: audiodeskrypcja" href="#audiodescdef" class="termref">audiodeskrypcję</a> dla <a title="definicja: nagranie" href="#prerecordeddef" class="termref">nagrań wideo</a> w <a title="definicja: zsynchronizowane multimedia" href="#synchronizedmediadef" class="termref">multimediach zsynchronizowanych</a> 
 (dźwięk i obraz), za wyjątkiem sytuacji, kiedy są one alternatywami dla tekstu i w taki sposób są oznaczone. (Poziom A)
-    </p>
-    <hr>
-    <p>
-      <strong>1.2.4 Napisy rozszerzone (na żywo):</strong> <a title="definicja: napisy rozszerzone" href="#captionsdef" class="termref">Napisy rozszerzone</a> dołączone są do wszystkich treści <a title="definicja: audio" href="#audiodef" class="termref">audio</a> przekazywanych <a title="definicja: na żywo" href="#livedef" class="termref">na żywo</a> w <a title="definicja: zsynchronizowane multimedia" href="#synchronizedmediadef" class="termref">multimediach zsynchronizowanych</a> (dźwięk i obraz). (Poziom AA)
-    </p>
-    <p>
-      <strong>1.2.5 Audiodeskrypcja (nagranie):</strong> Zapewniona jest <a title="definicja: audiodeskrypcja" href="#audiodescdef" class="termref">audiodeskrypcja</a> dla wszystkich <a title="definicja: nagranie" href="#prerecordeddef" class="termref">nagrań</a> <a title="definicja: wideo" href="#videodef" class="termref">wideo</a> w <a title="definicja: zsynchronizowane multimedia" href="#synchronizedmediadef" class="termref">multimediach zsynchronizowanych</a> (dźwięk i obraz). (Poziom AA)
-    </p>
-    <hr>
-    <p>
-      <strong>1.2.6 Język migowy (nagranie):</strong> Zapewnione jest 
+#### 1.2.4 Napisy rozszerzone (na żywo)
+<a title="definicja: napisy rozszerzone" href="#captionsdef" class="termref">Napisy rozszerzone</a> dołączone są do wszystkich treści <a title="definicja: audio" href="#audiodef" class="termref">audio</a> przekazywanych <a title="definicja: na żywo" href="#livedef" class="termref">na żywo</a> w <a title="definicja: zsynchronizowane multimedia" href="#synchronizedmediadef" class="termref">multimediach zsynchronizowanych</a> (dźwięk i obraz). (Poziom AA)
+#### 1.2.5 Audiodeskrypcja (nagranie):
+Zapewniona jest <a title="definicja: audiodeskrypcja" href="#audiodescdef" class="termref">audiodeskrypcja</a> dla wszystkich <a title="definicja: nagranie" href="#prerecordeddef" class="termref">nagrań</a> <a title="definicja: wideo" href="#videodef" class="termref">wideo</a> w <a title="definicja: zsynchronizowane multimedia" href="#synchronizedmediadef" class="termref">multimediach zsynchronizowanych</a> (dźwięk i obraz). (Poziom AA)
+#### 1.2.6 Język migowy (nagranie):
+Zapewnione jest 
 <a title="definicja: tłumaczenie języka migowego" href="#sign-languageinterpdef" class="termref">tłumaczenie w języku migowym</a> wszystkich <a title="definicja: nagranie" href="#prerecordeddef" class="termref">nagrań</a>  <a title="definicja: audio" href="#audiodef" class="termref">audio</a> w <a title="definicja: zsynchronizowane multimedia" href="#synchronizedmediadef" class="termref">multimediach zsynchronizowanych</a> (dźwięk i obraz). (Poziom AAA)
-    </p>
-    <p>
-      <strong>1.2.7 Rozszerzona audiodeskrypcja (nagranie):</strong> 
+#### 1.2.7 Rozszerzona audiodeskrypcja (nagranie)
 Zapewniona jest <a title="definicja: rozszerzona audiodeskrypcja" href="#extended-addef" class="termref">rozszerzona audiodeskrypcja</a> dla wszystkich <a title="definicja: nagranie" href="#prerecordeddef" class="termref">nagrań</a> <a title="definicja: wideo" href="#videodef" class="termref">wideo</a> w <a title="definicja: zsynchronizowane multimedia" href="#synchronizedmediadef" class="termref">multimediach zsynchronizowanych</a> (dźwięk i obraz), jeśli przerwy w ścieżce dźwiękowej danego nagrania nie pozwalają na zamieszczenie <a title="definicja: audiodeskrypcja" href="#audiodescdef" class="termref">audiodeskrypcji</a>, przekazującej sens treści w wystarczającym stopniu. (Poziom AAA)
-    </p>
-    <p>
-      <strong>1.2.8 Alternatywa dla mediów (nagranie):</strong> Zapewnia
+#### 1.2.8 Alternatywa dla mediów (nagranie)
+Zapewnia
  się <a title="definicja: alternatywa dla mediów zmiennych w czasie" href="#alt-time-based-mediadef" class="termref">alternatywę dla wszystkich mediów zmiennych w czasie</a> — <a title="definicja: nagranie" href="#prerecordeddef" class="termref">nagrań</a> w <a title="definicja: zsynchronizowane multimedia" href="#synchronizedmediadef" class="termref">multimediach zsynchronizowanych</a> (dźwięk i obraz) oraz dla wszystkich nagrań <a title="definicja: tylko wideo" href="#video-onlydef" class="termref">tylko wideo</a> (sam obraz). (Poziom AAA)
-    </p>
-    <p>
-      <strong>1.2.9 Tylko audio (na żywo):</strong> Zapewniona jest 
+#### 1.2.9 Tylko audio (na żywo)
+Zapewniona jest 
 <a title="definicja: alternatywa dla mediów zmiennych w czasie" href="#alt-time-based-mediadef" class="termref">alternatywa dla mediów zmiennych w czasie</a>, przedstawiająca informacje takie same, jak w przekazie <a title="definicja: materiał dźwiękowy" href="#audio-onlydef" class="termref">tylko audio</a> <a title="definicja: na żywo" href="#livedef" class="termref">na żywo</a>. (Poziom AAA)
-    </p>
-    <hr>
+
 
 <div class="guideline">
 <h3><a name="content-structure-separation" id="content-structure-separation"> </a> Wytyczna 1.3 Możliwość adaptacji: Należy tworzyć treści, które mogą być prezentowane na różne sposoby (np. uproszczony układ wizualny), bez utraty informacji czy struktury.</h3>
