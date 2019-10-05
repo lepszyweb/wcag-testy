@@ -1,10 +1,1 @@
-# Metodyka testów zgodności z WCAG
-## Co to jest?
-
-
-## Dla kogo jest to repozytorium?
-
-## Jak możesz pomóć?
-
-
-## Licencja
+# WCAG 2.1
