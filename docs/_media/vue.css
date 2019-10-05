@@ -623,10 +623,10 @@ section.cover ul {
 }
 
 section.cover .cover-main > p:last-child a {
-  color:#cd87de;
+  color:#ddafe9;
   border-radius: 2em;
-  border-color: #cd87de;
-  border: 1px solid var(--theme-color, #cd87de);
+  border-color: #ddafe9;
+  border: 1px solid var(--theme-color, #ddafe9);
   box-sizing: border-box;
   font-size: 1.05em;
   letter-spacing: .1em;
@@ -640,18 +640,18 @@ section.cover .cover-main > p:last-child a {
 
 section.cover .cover-main > p:last-child a:last-child {
   margin-right: 0;
-  color:#cd87de;
+  color:#ddafe9;
 }
 
 section.cover .cover-main > p:last-child a:last-child:hover {
   opacity: .8;
-  background-color: #cd87de;
+  background-color: #ddafe9;
   color: #fff
 }
 
 section.cover .cover-main > p:last-child a:hover {
   opacity: .8;
-  background-color: #cd87de;
+  background-color: #ddafe9;
   color: #fff
 }
 
@@ -959,19 +959,19 @@ section.cover.show {
 }
 
 section.cover .cover-main h1 > .anchor span {
-  color: #cd87de
+  color: #ddafe9
 }
 body[data-page="README.md"] nav.app-nav a {
-  color:  #cd87de;	
+  color:  #ddafe9;	
 }
 
 body[data-page="README.md"] nav.app-nav a.active  {
-  color: #cd87de;
-  color: var(--theme-color, #cd87de)
+  color: #ddafe9;
+  color: var(--theme-color, #ddafe9)
 }
 body[data-page="README.md"] nav.app-nav a:hover {
-  color: #a2d6f5;
-  color: var(--theme-color, #a2d6f5)
+  color: #eed7f4;
+  color: var(--theme-color, #eed7f4)
 }
 
 body[data-page="README.md"] nav.app-nav a.active {
