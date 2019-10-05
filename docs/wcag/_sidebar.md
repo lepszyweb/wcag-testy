@@ -1,2 +1,5 @@
  - [Wprowadzenie](wcag/wprowadzenie)
  - [Postrzegalność](wcag/postrzegalnosc)
+ - [Funkcjonalność](wcag/funkcjonalność)
+ - [Zrozumiałość](wcag/zrozumiałosc)
+ - [Rzetelnoość](wcag/rzetelnosc)

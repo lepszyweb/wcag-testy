@@ -53,7 +53,7 @@ Zapewniona jest
 <a title="definicja: alternatywa dla mediów zmiennych w czasie" href="#alt-time-based-mediadef" class="termref">alternatywa dla mediów zmiennych w czasie</a>, przedstawiająca informacje takie same, jak w przekazie <a title="definicja: materiał dźwiękowy" href="#audio-onlydef" class="termref">tylko audio</a> <a title="definicja: na żywo" href="#livedef" class="termref">na żywo</a>. (Poziom AAA)
 
 
-### Wytyczna Wytyczna 1.3 Możliwość adaptacji
+### Wytyczna 1.3 Możliwość adaptacji
 Należy tworzyć treści, które mogą być prezentowane na różne sposoby (np. uproszczony układ wizualny), bez utraty informacji czy struktury.
 
 #### 1.3.1 Informacje i relacje
@@ -69,7 +69,7 @@ Instrukcje co do zrozumienia i operowania treścią nie opierają się wyłączn
 
 *Uwaga* Wymogi dotyczące koloru opisane są w <a href="#visual-audio-contrast">Wytycznej 1.4</a>.
 
-### Wytyczna Wytyczna 1.4 Możliwość rozróżnienia
+### Wytyczna 1.4 Możliwość rozróżnienia
 Użytkownik powinien móc dobrze widzieć bądź słyszeć treści — mieć możliwość oddzielenia informacji od tła.
 
 #### 1.4.1 Użycie koloru
