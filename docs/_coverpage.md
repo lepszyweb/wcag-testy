@@ -1,4 +1,4 @@
-![logo](_images/80px-lepszyweb.png)
+![logo](_images/lepszyweb.svg)
 
 
 # Metodyka testów zgodności z WCAG
@@ -11,7 +11,7 @@
 
 
 [GitHub](https://github.com/lepszyweb/wcag-testy)
-[Get Started](tutorials/)
+[Rozpocznij](testy/)
 
 <!-- background color -->
-![color](rgb(126, 71, 149))
+![color](#7e4795)
