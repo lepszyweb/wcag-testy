@@ -1,2 +1,3 @@
 - [Wprowadzenie](narzedzia/wprowadzenie)
 - [ANDI](narzedzia/andi)
+- [WET](narzedzia/wet)
