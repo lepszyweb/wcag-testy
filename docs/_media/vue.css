@@ -33,8 +33,8 @@ div#app:empty:before {
 }
 
 .progress {
-  background-color: #1b63a2;
-  background-color: var(--theme-color, #1b63a2);
+  background-color: #4d245e;
+  background-color: var(--theme-color, #4d245e);
   height: 2px;
   left: 0;
   position: fixed;
@@ -47,8 +47,8 @@ div#app:empty:before {
 }
 
 .search .search-keyword, .search a:hover {
-  color: #1b63a2;
-  color: var(--theme-color, #1b63a2)
+  color: #4d245e;
+  color: var(--theme-color, #4d245e)
 }
 
 .search .search-keyword {
@@ -112,7 +112,7 @@ nav.app-nav li, nav.app-nav ul {
 nav.app-nav a {
   font-size: 16px;
   text-decoration: none;
-  color:  #1b63a2;
+  color:  #4d245e;
   -webkit-transition: color .3s;
   transition: color .3s
 }
@@ -192,8 +192,8 @@ nav.app-nav.no-badge {
   color: #fff;
   height: 80px;
   width: 80px;
-  fill: #1b63a2;
-  fill: var(--theme-color, #1b63a2)
+  fill: #4d245e;
+  fill: var(--theme-color, #4d245e)
 }
 
 .github-corner:hover .octo-arm {
@@ -216,7 +216,7 @@ main {
 }
 
 .anchor span {
-  color: #1b63a2
+  color: #4d245e
 }
 
 .anchor:hover {
@@ -313,8 +313,8 @@ main {
 }
 
 .sidebar-toggle span {
-  background-color: #1b63a2;
-  background-color: var(--theme-color, #1b63a2);
+  background-color: #4d245e;
+  background-color: var(--theme-color, #4d245e);
   display: block;
   width: 16px;
   height: 2px;
@@ -656,15 +656,15 @@ section.cover .cover-main > p:last-child a:hover {
 }
 
 section.cover blockquote > p > a {
-  border-bottom: 2px solid #1b63a2;
-  border-bottom: 2px solid var(--theme-color, #1b63a2);
+  border-bottom: 2px solid #4d245e;
+  border-bottom: 2px solid var(--theme-color, #4d245e);
   -webkit-transition: color .3s;
   transition: color .3s
 }
 
 section.cover blockquote > p > a:hover {
   background-color: #fff;
-  color: #1b63a2
+  color: #4d245e
 }
 
 section.cover.show {
@@ -713,8 +713,8 @@ section.cover.has-mask .mask {
 }
 
 .sidebar ul li.active > a {
-  color: #1b63a2;
-  color: var(--theme-color, #1b63a2);
+  color: #4d245e;
+  color: var(--theme-color, #4d245e);
   font-weight: 600;
   border-right: 2px solid
 }
@@ -731,8 +731,8 @@ section.cover.has-mask .mask {
 }
 
 .markdown-section a {
-  color: #1b63a2;
-  color: var(--theme-color, #1b63a2);
+  color: #4d245e;
+  color: var(--theme-color, #4d245e);
   font-weight: 600
 }
 
@@ -780,8 +780,8 @@ section.cover.has-mask .mask {
 
 .markdown-section blockquote {
   color: #858585;
-  border-left: 4px solid #1b63a2;
-  border-left: 4px solid var(--theme-color, #1b63a2);
+  border-left: 4px solid #4d245e;
+  border-left: 4px solid var(--theme-color, #4d245e);
   margin: 2em 0;
   padding-left: 20px
 }
@@ -849,8 +849,8 @@ section.cover.has-mask .mask {
 }
 
 .token.string {
-  color: #1b63a2;
-  color: var(--theme-color, #1b63a2)
+  color: #4d245e;
+  color: var(--theme-color, #4d245e)
 }
 
 .token.selector {
@@ -867,8 +867,8 @@ section.cover.has-mask .mask {
 }
 
 .token.attr-value, .token.control, .token.directive, .token.unit {
-  color: #1b63a2;
-  color: var(--theme-color, #1b63a2)
+  color: #4d245e;
+  color: var(--theme-color, #4d245e)
 }
 
 .token.keyword {
@@ -975,8 +975,8 @@ body[data-page="README.md"] nav.app-nav a:hover {
 }
 
 body[data-page="README.md"] nav.app-nav a.active {
-  border-bottom: 2px solid #1b63a2;
-  border-bottom: 2px solid var(--theme-color, #1b63a2)
+  border-bottom: 2px solid #4d245e;
+  border-bottom: 2px solid var(--theme-color, #4d245e)
 }
 
 p img[align="right"] {margin-left:1em} 

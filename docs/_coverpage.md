@@ -14,4 +14,4 @@
 [Rozpocznij](testy/)
 
 <!-- background color -->
-![color](#7e4795)
+![color](#4d245e)
