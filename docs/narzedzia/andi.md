@@ -1,6 +1,8 @@
 # ANDI: Accessible Name and Description Inspector
 ANDI jest skryptozakładką, czyli niewielkim skryptem JS, który dodajemy w przeglądarce do zakładek, aby móc swobodnie korzystać z jego funkcjonalności. A są niemałe! 
 
+![logo](img/skryptozakladka_andi.png)
+
 ANDI z powodzeniem zastąpi Ci, przynajmniej na pewien czas, eksperta ds. dostępności. Oczywiście, będzie to ekspert z ograniczonymi, ale niemałymi kompetencjami. Na pewno pomoże w dużym stopniu poprawić dostępność Twoich stron. Niezależnie od tego, czy Twoja wiedza na temat dostępności jest duża, czy dopiero stawiasz w dostępności pierwsze kroki, wskazówki, jakich udzieli Ci ANDI spowodują większą dostępność Twojej witryny dla użytkowników.
 
 ANDI jest stosowany z powodzeniem w testach dostępności prowadzonych przez amerykańskie agencje federalne, dla których jest zalecanym narzęędziem badania dostępności..  
