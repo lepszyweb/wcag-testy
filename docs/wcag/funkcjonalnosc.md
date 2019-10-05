@@ -40,7 +40,7 @@ rzeczywistym (np. aukcji) i nie ma możliwości zmiany limitu, lub:
 *Uwaga:* To kryterium sukcesu ma na celu zapewnienie użytkownikowi wystarczającego czasu na wykonanie czynności, bez 
 niespodziewanych zmian treści lub kontekstu, które mogą być wynikiem limitu czasowego. Powinien on być rozpatrywany w połączeniu z <a href="#consistent-behavior-receive-focus">kryterium sukcesu 3.2.1</a>, które nakłada ograniczenia na zmiany treści lub kontekstu w wyniku działania użytkownika.
 
-### 2.2.2: Wstrzymywanie (pauza), zatrzymywanie, ukrywanie:**
+### 2.2.2: Wstrzymywanie (pauza), zatrzymywanie, ukrywanie
 Wszystkie poniższe zasady obowiązują w przypadku informacji, która przesuwa się, porusza, <a title="definicja: migotanie" href="#blinksdef" class="termref">migota</a> lub automatycznie jest aktualizowana: (Poziom A)
 
 - <p>**Poruszanie się, przesuwanie, migotanie:** Każdą informację, która porusza się, przesuwa lub mruga, a takie działanie (1) włącza się automatycznie, (2) jest widoczne dłużej niż 5 sekund, (3) jest przedstawiane równolegle z inną treścią — użytkownik może <a title="definicja: wstrzymane" href="#pauseddef" class="termref">wstrzymać</a>, zatrzymać lub ukryć za pomocą dostępnego mechanizmu, chyba, że poruszanie się, przesuwanie lub migotanie jest częścią czynności gdzie takie działanie jest <a title="definicja: istotny" href="#essentialdef" class="termref">istotne</a>, oraz:
@@ -67,15 +67,14 @@ Kiedy kończy się czas sesji autoryzowanej przez użytkownika, może on kontynu
 ## Wytyczna 2.3 Ataki padaczki
 Nie należy projektować treści w taki sposób, aby prowokować ataki padaczki.
 
-### 2.3.1 Trzy błyski lub wartości poniżej progu:** 
+### 2.3.1 Trzy błyski lub wartości poniżej progu
 <a title="definicja: strona internetowa" href="#webpagedef" class="termref">Strony internetowe</a> nie zawierają w swojej treści niczego, co migocze częściej niż trzy razy w ciągu jednej sekundy, lub też <a title="definicja: błysk" href="#flash-def" class="termref">błysk</a> nie przekracza <a title="definicja: informacje o granicznych wartościach dowolnych błysków i czerwonych błysków" href="#general-thresholddef" class="termref">wartości granicznych dla błysków ogólnych i czerwonych</a>. (Poziom A)
 
 *Uwaga:* Ponieważ każda treść, która nie spełnia tego kryterium sukcesu może utrudnić użytkownikowi skorzystanie z całej 
 strony, cała zawartość danej strony (bez względu na to, czy spełnia inne kryteria, czy nie) musi spełnić powyższe kryterium. Więcej informacji: <a href="http://www.w3.org/TR/WCAG/#cc5">Spełnienie wymagań: brak zakłóceń: Non-Interference</a>.
 
-### 2.3.2 Trzy błyski:** <a title="definicja: strona internetowa" href="#webpagedef" class="termref">Strony internetowe</a> nie 
-zawierają w swojej treści niczego, co <a title="definicja: błysk" href="#flash-def" class="termref">migocze</a> częściej niż trzy razy w 
-ciągu jednej sekundy. (Poziom AAA)
+### 2.3.2 Trzy błyski:
+<a title="definicja: strona internetowa" href="#webpagedef" class="termref">Strony internetowe</a> nie zawierają w swojej treści niczego, co <a title="definicja: błysk" href="#flash-def" class="termref">migocze</a> częściej niż trzy razy w ciągu jednej sekundy. (Poziom AAA)
 
 ### Wytyczna 2.4 Możliwość nawigacji
 Dostarczenie narzędzi ułatwiających użytkownikowi nawigowanie, znajdowanie treści i ustalanie, gdzie się w danym momencie znajduje.
