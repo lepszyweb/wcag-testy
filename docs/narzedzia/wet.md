@@ -3,7 +3,7 @@ Web Evaluation Tools bookmarklet to zestaw 10 narzędzi pomagających zbadać i 
 
 ## Dane źródłowe
 - **Autor:** IT Accessibility z [NC State University](https://accessibility.oit.ncsu.edu/)
-- **Pobierz skryptozakładkę**: [Web Evaluation Tools Bookmarklet](https://accessibility.oit.ncsu.edu/tools/web-evaluation-tools/)
+- **Źródło**: [Web Evaluation Tools Bookmarklet](https://accessibility.oit.ncsu.edu/tools/web-evaluation-tools/)
 
 ## Stosowanie
 Aby korzystać z narzędzia, dodaj do zakładek w swojej przeglądarce następujący link: [Web Evaluation Tools](javascript:%20(function()%7Bvar%20yourURL=(window.location.protocol=='http:'?'http://webapps.ncsu.edu/web-evaluation-tools/web-evaluation-tools.php':'https://webapps.ncsu.edu/web-evaluation-tools/web-evaluation-tools.php');function%20getScript(url,success)%7Bvar%20script=document.createElement('script');script.src=url;var%20head=document.getElementsByTagName('head')%5B0%5D,done=false;script.onload=script.onreadystatechange=function()%7Bif(!done&&(!this.readyState%7C%7Cthis.readyState=='loaded'%7C%7Cthis.readyState=='complete'))%7Bdone=true;success();script.onload=script.onreadystatechange=null;head.removeChild(script);%7D%7D;head.appendChild(script);%7D%20getScript(yourURL,function()%7B%7D);%7D)();)
