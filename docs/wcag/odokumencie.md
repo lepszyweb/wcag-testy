@@ -9,9 +9,9 @@
     <dd><span lang="en">Coordinator of the translation:</span> Anna Rozborska (e-mail: <a href="mailto:anna.rozborska@firr.org.pl">anna.rozborska@firr.org.pl</a>)</dd>
   </dl>
 
-  <h1 class="transtitle">Autoryzowane tłumaczenie na język polski</h1>
+# Autoryzowane tłumaczenie na język polski
 
-  <h2 class="transtitle">Data publikacji tłumaczenia 09.07.2013</h2>
+## Data publikacji tłumaczenia 09.07.2013
   <dl>
     <dt>Wcześniejsza wersja:</dt>
       <dd><a href="http://www.fdc.org.pl/wcag2/old/">http://www.fdc.org.pl/wcag2/old/</a></dd>
@@ -38,9 +38,8 @@
   Authorized Translations”</a>. W przypadku jakichkolwiek wątpliwości lub sporów, dokumentem nadrzędnym jest specyfikacja WCAG 2.0 w języku angielskim.</p>
 </div>
 
-
-    <h1>Wytyczne dla dostępności treści internetowych 2.0 (WCAG 2.0)</h1>
-    <h2>Rekomendacja Konsorcjum W3C, 11 grudnia 2008 r.</h2>
+# Wytyczne dla dostępności treści internetowych 2.0 (WCAG 2.0)
+## Rekomendacja Konsorcjum W3C, 11 grudnia 2008 r.
     <dl>
       <dt>Niniejsza wersja:</dt>
         <dd><a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/">http://www.w3.org/TR/2008/REC-WCAG20-20081211/</a></dd>
@@ -64,16 +63,11 @@
         <dd>Dominik Paszkiewicz, <a href="http://dostepne.info">Dostepne.info</a></dd>
     </dl>
 
-
-  <p>W <a href="http://www.w3.org/WAI/WCAG20/errata/"><strong>erracie</strong></a> do poniższego dokumentu mogą znajdować się normatywne poprawki.</p>
+W <a href="http://www.w3.org/WAI/WCAG20/errata/"><strong>erracie</strong></a> do poniższego dokumentu mogą znajdować się normatywne poprawki.
   
-  <p> Tutaj znajdują się <a href="http://www.w3.org/2003/03/Translations/byTechnology?technology=WCAG20"><strong>tłumaczenia dokumentu</strong></a>.</p>
+Tutaj znajdują się <a href="http://www.w3.org/2003/03/Translations/byTechnology?technology=WCAG20"><strong>tłumaczenia dokumentu</strong></a>.
   
-  <p>
-      Niniejszy dokument jest również dostępny w formatach nienormatywnych, na stronie <a href="http://www.w3.org/WAI/WCAG20/versions/guidelines/">Alternate Versions of Web Content Accessibility Guidelines 2.0</a>.
-  </p>
+Niniejszy dokument jest również dostępny w formatach nienormatywnych, na stronie <a href="http://www.w3.org/WAI/WCAG20/versions/guidelines/">Alternate Versions of Web Content Accessibility Guidelines 2.0</a>.
   
-  <p class="copyright">
-      <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2008 <a href="http://www.w3.org/Consortium/Legal/ipr-notice"><abbr title="World Wide Web Consortium">W3C</abbr></a>® (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.org/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>), wszelkie prawa zastrzeżone. Obowiązują zasady Konsorcjum W3C dotyczące <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">odpowiedzialności</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">znaku towarowego</a> oraz <a href="http://www.w3.org/Consortium/Legal/copyright-documents">wykorzystania dokumentu</a>.
-  </p>
+<a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2008 <a href="http://www.w3.org/Consortium/Legal/ipr-notice"><abbr title="World Wide Web Consortium">W3C</abbr></a>® (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.org/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>), wszelkie prawa zastrzeżone. Obowiązują zasady Konsorcjum W3C dotyczące <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">odpowiedzialności</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">znaku towarowego</a> oraz <a href="http://www.w3.org/Consortium/Legal/copyright-documents">wykorzystania dokumentu</a>.
 
