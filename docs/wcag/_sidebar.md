@@ -1,3 +1,5 @@
+
+ - [O dokumencie WCAG 2.0](wcag/odokumencie)
  - [Streszczenie](wcag/streszczenie)
  - [Wprowadzenie](wcag/wprowadzenie)
  - [Postrzegalność](wcag/postrzegalnosc)
