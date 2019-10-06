@@ -1,3 +1,4 @@
+ - [Streszczenie](wcag/streszczenie)
  - [Wprowadzenie](wcag/wprowadzenie)
  - [Postrzegalność](wcag/postrzegalnosc)
  - [Funkcjonalność](wcag/funkcjonalnosc)
