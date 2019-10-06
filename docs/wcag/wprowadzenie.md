@@ -56,29 +56,19 @@ W dokumencie „[Web Content Accessibility Guidelines (WCAG) Overview](http://ww
     
 WCAG 2.0 zawiera trzy ważne pojęcia, które były inaczej definiowane w WCAG 1.0. Są one w skrócie opisane poniżej, a zdefiniowane szerzej w słowniku terminów.
 <dl>   
-    <dt class="label">
-      Strona internetowa
-    </dt>
-    <dd>
-      Należy zauważyć, iż w niniejszym standardzie termin „<a title="definicja: strona internetowa" href="#webpagedef" class="termref">strona internetowa</a>” to coś więcej, niż statyczna strona HTML. Ten termin obejmuje również coraz bardziej dynamiczne strony internetowe, które pojawiają się w sieci, w tym „strony” prezentujące całe wirtualne, interaktywne społeczności. Przykładowo, pojęcie „strona internetowa” będzie prawidłowym określeniem na stronę zawierającą elementy interaktywne i filmowe, znajdujące się pod jednym adresem internetowym (URI). Więcej informacji: „[Understanding «Web Page»](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-web-page-head)”.
-    </dd>
-    <dt>
-      Możliwość odczytania przez program komputerowy
-    </dt>
-    <dd>
-      W kilku kryteriach sukcesu wymaga się, aby treści (albo pewne ich aspekty) były „<a title="definicja: możliwy do odczytania przez program komputerowy" href="#programmaticallydetermineddef" class="termref">możliwe do odczytania przez program komputerowy</a>”. 
+<dt class="label">Strona internetowa</dt>
+<dd>Należy zauważyć, iż w niniejszym standardzie termin „<a title="definicja: strona internetowa" href="#webpagedef" class="termref">strona internetowa</a>” to coś więcej, niż statyczna strona HTML. Ten termin obejmuje również coraz bardziej dynamiczne strony internetowe, które pojawiają się w sieci, w tym „strony” prezentujące całe wirtualne, interaktywne społeczności. Przykładowo, pojęcie „strona internetowa” będzie prawidłowym określeniem na stronę zawierającą elementy interaktywne i filmowe, znajdujące się pod jednym adresem internetowym (URI). Więcej informacji: [„Understanding «Web Page»”](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-web-page-head).</dd>
+<dt>Możliwość odczytania przez program komputerowy</dt>
+<dd>W kilku kryteriach sukcesu wymaga się, aby treści (albo pewne ich aspekty) były „<a title="definicja: możliwy do odczytania przez program komputerowy" href="#programmaticallydetermineddef" class="termref">możliwe do odczytania przez program komputerowy</a>”. 
 Oznacza to, że treść jest dostarczona w taki sposób, aby <a title="definicja: program użytkownika" href="#useragentdef" class="termref">programy używane przez użytkownika (user agents)</a>, w tym programy z kategorii <a title="definicja: technologie wspomagające (w rozumieniu tego dokumentu)" href="#atdef" class="termref">technologii wspomagających</a>, mogły odczytać i przedstawić użytkownikowi 
-dane informacje w odpowiedni sposób. Więcej informacji: „[Understanding Programmatically Determined](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-programmatically-determined-head)”.
-    </dd>
-    <dt>
-      Wsparcie dla dostępności
-    </dt>
-    <dd>
-     Używanie technologii w taki sposób, aby wspierana była dostępność oznacza, iż współpracuje ona z technologiami wspomagającymi użytkownika (AT — ang. assistive technologies) jak również z odpowiednimi właściwościami dostępności systemów operacyjnych,
+dane informacje w odpowiedni sposób. Więcej informacji: [„Understanding Programmatically Determined”](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-programmatically-determined-head).</dd>
+<dt>Wsparcie dla dostępności</dt>
+<dd>Używanie technologii w taki sposób, aby wspierana była dostępność oznacza, iż współpracuje ona z technologiami wspomagającymi użytkownika (AT — ang. assistive technologies) jak również z odpowiednimi właściwościami dostępności systemów operacyjnych,
  przeglądarek oraz programów użytkownika (user agents). Żeby daną technologię zakwalifikować, jako stanowiącą <a title="definicja: (technologie) stanowiące podstawę zgodności" href="#reliedupondef" class="termref">wiarygodną podstawę</a> spełnienia kryteriów sukcesu wytycznych WCAG 2.0, musi ona być użyta w taki sposób, aby „<a title="definicja: wspierający dostępność" href="#accessibility-supporteddef" class="termref">wspierać dostępność</a>”. Technologie mogą być używane w sposób nie wspierający dostępności (np. nie współpracują z technologiami wspomagającymi, itp.), pod warunkiem, że nie podlegają kryteriom 
-sukcesu (tzn. ta sama informacja czy funkcja jest dostępna w sposób wspomagany).</p>
-        
-      <p>Definicja „wsparcia dla dostępności” znajduje się <a href="#_Za%C5%82%C4%85cznik_A:_S%C5%82ownik">w słowniku terminów w załączniku A</a> do niniejszego dokumentu. Więcej informacji: [Understanding Accessibility Support](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-accessibility-support-head).</p>
-    </dd>
-  </dl>
+sukcesu (tzn. ta sama informacja czy funkcja jest dostępna w sposób wspomagany).
+
+
+Definicja „wsparcia dla dostępności” znajduje się <a href="#_Za%C5%82%C4%85cznik_A:_S%C5%82ownik">w słowniku terminów w załączniku A</a> do niniejszego dokumentu. Więcej informacji: [Understanding Accessibility Support](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-accessibility-support-head).</p>
+</dd>
+</dl>
 
