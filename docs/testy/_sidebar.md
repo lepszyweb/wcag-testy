@@ -18,7 +18,7 @@
 15. [Język](testy/15_Jezyk.md)
 16. [Tylko audio i tylko wideo](testy/16_TylkoAudioTylkoWideo.md)
 17. [Media zsynchronizowane ](testy/17_MediaZsynchronizowane.md)
-18. [Zależność od CSS](testy/18_ArkuszeStylow.md)
+18. [Zależność od CSS](testy/18_ZaleznoscOdCSS.md)
 19. [Ramki i iFrames](testy/19_Ramki.md)
 20. [Zgodność z wersją alternatywną](testy/20_WersjeAlternatywne.md)
 21. [Limity czasu](testy/21_LimityCzasu.md)

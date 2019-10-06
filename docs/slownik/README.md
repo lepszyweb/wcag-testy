@@ -1,1 +1,1 @@
-# Metodyka testów zgodności z WCAG
+# Testy zgodności z WCAG

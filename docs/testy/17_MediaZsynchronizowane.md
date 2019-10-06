@@ -81,4 +81,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [G78: Zapewnienie drugiej, wybranej przez użytkownika ścieżki dźwiękowej, która zawiera opis dźwiękowy (audiodeskrypcję)](http://www.w3.org/TR/WCAG20-TECHS/G78.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](16TylkoAudioTylkoWideo.md) | [[Następny]](18ArkuszeStylow.md)
+[Początek/Spis treści](index.md) | [Poprzedni](16TylkoAudioTylkoWideo.md) | [[Następny]](18_ZaleznoscOdCSS.md)
