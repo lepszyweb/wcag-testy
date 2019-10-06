@@ -3,4 +3,5 @@
  - [Postrzegalność](wcag/postrzegalnosc)
  - [Funkcjonalność](wcag/funkcjonalnosc)
  - [Zrozumiałość](wcag/zrozumialosc)
- - [Rzetelnoość](wcag/rzetelnosc)
+ - [Rzetelność](wcag/rzetelnosc)
+ - [Zgodność](wcag/zgodnosc) 
