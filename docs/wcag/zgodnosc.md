@@ -31,9 +31,7 @@ Aby strona internetowa była zgodna z wytycznymi WCAG 2.0, wszystkie poniższe w
    5. **Brak zakłóceń:** Jeśli na stronie wykorzystywane są <a title="definicja: technologie tworzenia treści internetowych" href="#technologydef" class="termref">technologie</a>, które nie <a title="definicja: wspierający dostępność" href="#accessibility-supporteddef" class="termref">wspierają dostępności</a> lub są użyte tak, że nie wspierają dostępności, użytkownicy powinni mieć swobodny dostęp do pozostałej części strony. Dodatkowo, <a title="definicja: strona internetowa" href="#webpagedef" class="termref">strona</a> nadal spełnia wymogi zgodności pod każdym z następujących warunków:
 
      1. kiedy technologia, która nie jest <a title="definicja: (technologie) stanowiące podstawę zgodności" href="#reliedupondef" class="termref">uwzględniana</a>, jest włączona w programie użytkownika,
-
      2. kiedy technologia, która nie jest uwzględniana, jest wyłączona w programie użytkownika, oraz
-
      3. kiedy technologia, która nie jest uwzględniana, nie jest wspierana przez program użytkownika.
 
      Dodatkowo, następujące kryteria sukcesu dotyczą całej treści na stronie, włącznie z treścią, która w innych przypadkach nie jest podstawą spełnienia wymogów zgodności, gdyż niezastosowanie poniższych kryteriów mogłoby uniemożliwić jakiekolwiek skorzystanie ze strony:
@@ -54,17 +52,13 @@ Zgodność zdefiniowana została tylko dla (pojedynczych)  <a title="definicja: 
 #### Wymagane części składowe oświadczenia zgodności
 Oświadczenie zgodności **nie jest wymagane**. Autorzy mogą wdrożyć wytyczne WCAG 2.0 bez oświadczania zgodności. Jednak jeśli takie oświadczenie zostanie wykonane, wtedy **musi** zawierać następujące informacje:
 
-1. **Data** stwierdzenia.</p>
-2. **Tytuł wytycznych, wersja oraz adres URI** („Wytyczne dla dostępności treści internetowych 2.0” pod adresem <a href="http://www.w3.org/TR/2008/REC-WCAG20-20081211/">http://www.w3.org/TR/2008/REC-WCAG20-20081211/</a> (wersja anglojęzyczna).</p>
-3. Osiągnięty **poziom zgodności** (Poziom A, AA lub AAA).
-4. **Zwięzły opis stron internetowych**, taki jak lista adresów URI objętych oświadczeniem, wraz z adnotacją czy włączone są również poddomeny.
-
-*Uwaga 1:* Strony mogą być opisane oddzielnie, ale również może być użyty jeden opis dla wszystkich adresów URI.
-
-*Uwaga 2:* Produkty internetowe nie posiadające adresów URI przed instalacją na stronie klienta, mogą zostać opatrzone informacją, 
-że po instalacji będą spełniać wymogi.
-
-5. Lista **<a title="definition: relied upon (technologies that are)" href="#reliedupondef" class="termref">uwzględnionych</a> <a title="definicja: technologie tworzenia treści internetowych" href="#technologydef" class="termref">technologii tworzenia treści internetowych</a>**.
+  1. **Data** stwierdzenia.</p>
+  2. **Tytuł wytycznych, wersja oraz adres URI** („Wytyczne dla dostępności treści internetowych 2.0” pod adresem http://www.w3.org/TR/2008/REC-WCAG20-20081211/ (wersja anglojęzyczna).
+  3. Osiągnięty **poziom zgodności** (Poziom A, AA lub AAA).
+  4. **Zwięzły opis stron internetowych**, taki jak lista adresów URI objętych oświadczeniem, wraz z adnotacją czy włączone są również poddomeny.
+  *Uwaga 1:* Strony mogą być opisane oddzielnie, ale również może być użyty jeden opis dla wszystkich adresów URI.
+  *Uwaga 2:* Produkty internetowe nie posiadające adresów URI przed instalacją na stronie klienta, mogą zostać opatrzone informacją, że po instalacji będą spełniać wymogi.
+  5. Lista **<a title="definition: relied upon (technologies that are)" href="#reliedupondef" class="termref">uwzględnionych</a> <a title="definicja: technologie tworzenia treści internetowych" href="#technologydef" class="termref">technologii tworzenia treści internetowych</a>**.
 
 *Uwaga:* Jeśli wykorzystywane jest logo zgodności, oznacza to de facto oświadczenie zgodności i musi wystąpić razem z wymaganymi, wyżej wymienionymi składowymi oświadczenia zgodności.
 

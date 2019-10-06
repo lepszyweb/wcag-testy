@@ -4,4 +4,5 @@
  - [Funkcjonalność](wcag/funkcjonalnosc)
  - [Zrozumiałość](wcag/zrozumialosc)
  - [Rzetelność](wcag/rzetelnosc)
- - [Zgodność](wcag/zgodnosc) 
+ - [Zgodność](wcag/zgodnosc)
+ - [Podziękowania](wcag/podziekowania)  
