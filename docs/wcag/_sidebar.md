@@ -4,5 +4,6 @@
  - [Funkcjonalność](wcag/funkcjonalnosc)
  - [Zrozumiałość](wcag/zrozumialosc)
  - [Rzetelność](wcag/rzetelnosc)
- - [Zgodność](wcag/zgodnosc)
- - [Podziękowania](wcag/podziekowania)  
+ - [Załącznik A. Zgodność](wcag/zgodnosc)
+ - [Załącznik B. Podziękowania](wcag/podziekowania)
+ - [Załącznik C. Literatura](wcag/literatura)
