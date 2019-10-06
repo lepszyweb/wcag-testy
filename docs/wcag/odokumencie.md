@@ -64,9 +64,9 @@ To jest autoryzowane tłumaczenie dokumentu W3C. Publikacja tego tłumaczenia zo
 
 W **[erracie](http://www.w3.org/WAI/WCAG20/errata/)** do poniższego dokumentu mogą znajdować się normatywne poprawki.
   
-Tutaj znajdują się **[tłumaczenia dokumentu](http://www.w3.org/2003/03/Translations/byTechnology?technology=WCAG20**.
+Tutaj znajdują się **[tłumaczenia dokumentu](http://www.w3.org/2003/03/Translations/byTechnology?technology=WCAG20)**.
   
 Niniejszy dokument jest również dostępny w formatach nienormatywnych, na stronie <a href="http://www.w3.org/WAI/WCAG20/versions/guidelines/">Alternate Versions of Web Content Accessibility Guidelines 2.0</a>.
   
-<a href="http://www.w3.org/Consortium/Legal/ipr-notice#Copyright">Copyright</a> © 2008 <a href="http://www.w3.org/Consortium/Legal/ipr-notice"><abbr title="World Wide Web Consortium">W3C</abbr></a>® (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.org/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>), wszelkie prawa zastrzeżone. Obowiązują zasady Konsorcjum W3C dotyczące <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">odpowiedzialności</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">znaku towarowego</a> oraz <a href="http://www.w3.org/Consortium/Legal/copyright-documents">wykorzystania dokumentu</a>.
+[Copyright](http://www.w3.org/Consortium/Legal/ipr-notice#Copyright) © 2008 <abbr title="World Wide Web Consortium">[W3C](http://www.w3.org/Consortium/Legal/ipr-notice)</abbr>® (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.org/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>), wszelkie prawa zastrzeżone. Obowiązują zasady Konsorcjum W3C dotyczące <a href="http://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer">odpowiedzialności</a>, <a href="http://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks">znaku towarowego</a> oraz <a href="http://www.w3.org/Consortium/Legal/copyright-documents">wykorzystania dokumentu</a>.
 
