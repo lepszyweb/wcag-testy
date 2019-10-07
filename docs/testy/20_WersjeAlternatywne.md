@@ -48,7 +48,7 @@ Jeżeli którakolwiek z powyższych próbzakończy się niepowodzeniem, wówczas
 
 ## Porada: Wskazówki dotyczące usprawniania procesu testów
 
--   Jeśli zapewniona jest wersja alternatywna zapewniająca zgodność, niezgodne wersje tej treści są testowane tylko pod kątem [Wymagania zgodności nr 5 Brak zakłóceń](25BrakZaklocen.md). Nie jest konieczne testowanie wykonywanie innych testów podstawowych dla wersji niezgodnych.
+-   Jeśli zapewniona jest wersja alternatywna zapewniająca zgodność, niezgodne wersje tej treści są testowane tylko pod kątem [Wymagania zgodności nr 5 Brak zakłóceń](25_BrakZaklocen.md). Nie jest konieczne testowanie wykonywanie innych testów podstawowych dla wersji niezgodnych.
 -   Jeśli istnieją wersje alternatywne zapewniające zgodność, należy podjąć decyzję, czy i w jakim zakresie wersja niezgodna wymaga przetestowania. Aby zaoszczędzić czas i wysiłek, zaleca się, aby był to jeden z pierwszych testów.
 
 ## Techniki WCAG 2.1
