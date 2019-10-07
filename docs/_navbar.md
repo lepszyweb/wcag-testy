@@ -1,4 +1,4 @@
-[WCAG 2.1](/wcag/)
+[Procesy](/procesy/)
 [Testy](/testy/)
 [Narzędzia](/narzedzia/)
 [Słownik](/slownik/)

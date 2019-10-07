@@ -3,7 +3,7 @@
 
 # Testy zgodności z WCAG
 
-> WCAG 2.1
+> Procesy
 
 > Testy
 

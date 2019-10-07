@@ -1,8 +1,4 @@
 # Testy zgodności z WCAG
-
-## Co to jest?
-
-
 ## Wprowadzenie
 W literaturze polskiej istnieją aktualnie dwa systematyczne opracowania poświęcone ocenianiu dostępności:
 
@@ -32,13 +28,13 @@ Charakterystyka metod sprowadza się zestawionych w 13 tabelkach zwięzłych 1-3
 
 Na etapie badania z użytkownikiem autorzy proponują obserwację uczestniczącą realizacji przez kilku użytkowników z niepełnosprawnościami zestawu  trzech do pięciu zadań, których dobór zależy od charakteru i celów strony, np. założenie swojego konta na stronie, odnalezienie numeru telefonu kontaktowego, odnalezienie informacji przy pomocy wyszukiwarki, zamówienie towaru w sklepie internetowym.
 
-Druga pozycja - [Badanie dostępności strony internetowej w oparciu o WCAG](http://www.widzialni.org/badanie-dostepnosci-strony-www-w-oparciu-o-wcag,new,mg,5,254) jest opracowanym przez Artura Marcinkowskiego rozwinięciem pierwszej, z nieco wzbogaconymi wskazówkami dotyczącymi sposobu oceniania zgodności z poszczególnymi kryteriami sukcesu WCAG oraz o obszerną, blisko 50-stronicową prezentację narzędzi do badnia i oceniania dostępności autorstwa Sebastiana Depty. 
+Druga pozycja - [Badanie dostępności strony internetowej w oparciu o WCAG](http://www.widzialni.org/badanie-dostepnosci-strony-www-w-oparciu-o-wcag,new,mg,5,254) jest opracowanym przez Artura Marcinkowskiego rozwinięciem pierwszej, z nieco wzbogaconymi wskazówkami dotyczącymi sposobu oceniania zgodności z poszczególnymi kryteriami sukcesu WCAG oraz o obszerną, blisko 50-stronicową prezentacją narzędzi do badnia i oceniania dostępności autorstwa Sebastiana Depty. 
 
-Jeśli przyjąć choćby za Wikipedią, że [metodologia](https://pl.wikipedia.org/wiki/Metodologia) to „nauka o metodach badań naukowych, ich skuteczności i wartości poznawczej”, omówione opracowanie, nie umniejszając w najmniejszym stopniu jego znaczenia, trudno byłoby nawet uznać za wstęp, zarys czy nawet szkic do metodologii. 
+Jeśli przyjąć choćby za Wikipedią, że [metodologia](https://pl.wikipedia.org/wiki/Metodologia) to „nauka o metodach badań naukowych, ich skuteczności i wartości poznawczej”, omówione opracowanie, nie umniejszając w żadnym stopniu jego znaczenia, trudno byłoby nawet uznać za wstęp, zarys czy nawet szkic do metodologii. 
 
 Tym bardziej nie jest to rzecz, którą można by nazwać „polską metodologią”. Określenie to w założeniu sugeruje, że wypracowana została jakaś oryginalna **polska** metodologia badania i oceniania zgodności z WCAG, czy szerzej dostępności cyfrowej. Żadna z przedstawionych w broszurze metod nie jest oryginalna, żadna nie postuluje niczego nowego, czego wcześniej nie prezentowano w dość już bogatej w 2013 roku anglojęzycznej literaturze przedmiotu.
 
-Obie pozycje można traktować co najwyżej jako dobry początek drogi do opracowania, **niekoniecznie polskiej**, ale **po polsku**metodologii, a raczej podstaw metodologii badania dostepności cyfrowej, która oby jak najszybciej stała się przedmiotem systematycznych dociekań naukowych.
+Obie pozycje można traktować co najwyżej jako dobry **początek drogi** do opracowania, **niekoniecznie polskiej**, ale **po polsku**  metodologii, a raczej podstaw metodologii badania dostepności cyfrowej, która oby jak najszybciej stała się przedmiotem systematycznych dociekań naukowych.
 
 ### O metodyce RGAA
 [RGAA](https://www.gov.pl/web/dostepnosc-cyfrowa/francuska-metodyka-badania-dostepnosci-rgaa) to kompleksowa propozycją systemu oceniania zgodności stron internetowych z wymogami dostępności zdefiniowanymi w WCAG 2.0. 
