@@ -5,20 +5,33 @@ Ta sekcja pełni funkcję [normatywną](#normatywny).
 
 <dl>
 <dt>alternatywa dla mediów zmiennych w czasie</dt>
-<dd><p>(ang. [alternative for time-based media](https://www.w3.org/TR/WCAG21/#glossarydfn-alternative-for-time-based-media))</p>
+<dd><p>(ang. <a href="https://www.w3.org/TR/WCAG21/#glossarydfn-alternative-for-time-based-media">alternative for time-based media</a></p>
 <p>dokument zawierający prawidłowo uporządkowany tekst opisujący wizualną i dźwiękową informację zmienną w czasie oraz uwzględniający końcowy stan interakcji z tymi mediami.</p>
 <p>*Uwaga:* Scenariusz użyty do stworzenia zsynchronizowanych multimediów może być objęty taką definicją tylko wówczas, gdy został 
 poprawiony, tak, by odpowiadać dokładnej końcowej wersji multimediów po zakończeniu edycji.</dd>
 </dl>
 
-#### ASCII art
-Obraz utworzony przez rozmieszczenie w przestrzeni liter i innych znaków, zazwyczaj spośród 95 drukowalnych znaków zdefiniowanych w standardzie ASCII.
+<dl>
+<dt>ASCII art</dt>
+<dd>Obraz utworzony przez rozmieszczenie w przestrzeni liter i innych znaków, zazwyczaj spośród 95 drukowalnych znaków zdefiniowanych w standardzie ASCII.</dd>
+</dl>
 
-#### audio
-technologia odtwarzania dźwięku
 
-*Uwaga:* Audio może być tworzone w sposób sztuczny (włączając w  to syntezę mowy), przez nagrywanie prawdziwego dźwięku lub na oba 
-sposoby.
+<dl>
+<dt>audio</dt>
+<dd>technologia odtwarzania dźwięku</dd>
+<dd><p>*Uwaga:* Audio może być tworzone w sposób sztuczny (włączając w  to syntezę mowy), przez nagrywanie prawdziwego dźwięku lub na oba 
+sposoby.</p></dd>
+</dl>
+
+<dl>
+<dt></dt>
+<dd></dd>
+</dl>
+#### 
+
+
+
 
 #### audiodeskrypcja
 (ang. audio description)
