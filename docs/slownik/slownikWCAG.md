@@ -1,15 +1,15 @@
 ## Załącznik A: Słownik terminów
-Ta sekcja pełni funkcję <a title="definicja: normatywny" href="#normativedef" class="termref">normatywną</a>.
+Ta sekcja pełni funkcję [normatywną](#normatywny).
 
 ### A
 
-#### alternatywa dla mediów zmiennych w czasie 
-(ang. alternative for time-based media)
-
-dokument zawierający prawidłowo uporządkowany tekst opisujący wizualną i dźwiękową informację zmienną w czasie oraz uwzględniający końcowy stan interakcji z tymi mediami.
-
-*Uwaga:* Scenariusz użyty do stworzenia zsynchronizowanych multimediów może być objęty taką definicją tylko wówczas, gdy został 
-poprawiony, tak, by odpowiadać dokładnej końcowej wersji multimediów po zakończeniu edycji.
+<dl>
+<dt>alternatywa dla mediów zmiennych w czasie</dt>
+<dd><p>(ang. [alternative for time-based media](https://www.w3.org/TR/WCAG21/#glossarydfn-alternative-for-time-based-media))</p>
+<p>dokument zawierający prawidłowo uporządkowany tekst opisujący wizualną i dźwiękową informację zmienną w czasie oraz uwzględniający końcowy stan interakcji z tymi mediami.</p>
+<p>*Uwaga:* Scenariusz użyty do stworzenia zsynchronizowanych multimediów może być objęty taką definicją tylko wówczas, gdy został 
+poprawiony, tak, by odpowiadać dokładnej końcowej wersji multimediów po zakończeniu edycji.</dd>
+</dl>
 
 #### ASCII art
 Obraz utworzony przez rozmieszczenie w przestrzeni liter i innych znaków, zazwyczaj spośród 95 drukowalnych znaków zdefiniowanych w standardzie ASCII.
