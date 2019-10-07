@@ -3,13 +3,7 @@
 
 # Testy zgodności z WCAG
 
-> Procesy
-
-> Testy
-
-> Narzędzia
-
-> Słownik
+> Procesy - Testy - Narzędzia - Słownik
 
 
 [GitHub](https://github.com/lepszyweb/wcag-testy)
