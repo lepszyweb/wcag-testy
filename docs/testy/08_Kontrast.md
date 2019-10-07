@@ -20,7 +20,7 @@ Ten test jest przeprowadzany w celu oceny równego dostępu do informacji dla ws
     -   Czysto dekoracyjne i nieistotne, bez żadnej funkcjonalności
     -   Zawarte w obrazach, które zawierają inną znaczącą treść wizualną
 -   Testowanie zmian w kontraście tekstu obejmuje zmiany wynikające z najechania myszą i stanu zaznaczenia.
--   Wyłączone elementy wejściowe, które nie otrzymują fokusa klawiatury, których nie można ich wybrać ani modyfikować. Nie są one wymagane do spełnienia wymagań dotyczących kontrastu. ** Uwaga: ** Komponenty interfejsu *tylko do odczytu* i wyłączone to nie to samo. Wyłączone komponenty interfejsu można uznać za nieaktywne komponenty interfejsu; komponenty interfejsu *tylko do odczytu* są aktywnymi elementami interfejsu i muszą spełniać wymagania dotyczące współczynnika kontrastu.
+-   Wyłączone elementy wejściowe, które nie otrzymują fokusa klawiatury, których nie można ich wybrać ani modyfikować. Nie są one wymagane do spełnienia wymagań dotyczących kontrastu. **Uwaga:** Komponenty interfejsu *tylko do odczytu* i wyłączone to nie to samo. Wyłączone komponenty interfejsu można uznać za nieaktywne komponenty interfejsu; komponenty interfejsu *tylko do odczytu* są aktywnymi elementami interfejsu i muszą spełniać wymagania dotyczące współczynnika kontrastu.
 -   Duży tekst to tekst co najmniej 18-punktowy lub tekst pogrubiony 14-punktowy.
 
 ## Procedura testu dla KS 1.4.3 Kontrast (minimum)
@@ -40,7 +40,7 @@ Jeżeli OBIE powyższe próby zakończą się niepowodzeniem, wówczas test KS 1
 
 ## Porada: Wskazówki dotyczące usprawniania procesu testów
 -----------------------------------------------------------
--   Istnieje wiele narzędzi do kontrastu kolorów, które mogą wykonać algorytmy niezbędne do określenia kontrastu. Zobacz <http://www.w3.org/TR/WCAG20-TECHS/G18.html>,  aby uzyskać informacje na temat możliwych narzędzi testujących, które wykorzystują odpowiedni algorytm.
+-   Istnieje wiele narzędzi do kontrastu kolorów, które mogą wykonać algorytmy niezbędne do określenia kontrastu. Zobacz technike [G18: Zapewnienie, że istnieje kontrast wynoszący co najmniej 4,5:1 między tekstem (i obrazami tekstu) a tłem za tekstem](https://www.w3.org/TR/WCAG20-TECHS/G18.html), aby uzyskać informacje na temat możliwych narzędzi testujących, które wykorzystują odpowiedni algorytm.
 -   Chociaż tekst zawarty w logo renderowanym jako obrazy jest zwolniony z tego wymogu, obraz musi nadal zapewniać tekst alternatywny (np. w postaci atrybutu alt).
 
 
@@ -51,4 +51,4 @@ Jeżeli OBIE powyższe próby zakończą się niepowodzeniem, wówczas test KS 1
     -   [G145: Zapewnienie, że kontrast między tekstem (i obrazami tekstu) a tłem pod tekstem wynosi co najmniej 3:1](http://www.w3.org/TR/WCAG20-TECHS/G145.html) (gdy tekst ma co najmniej 18 punktów, jeśli nie jest pogrubiony i co najmniej 14 punktów, jeśli jest pogrubiony).
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](07WlasciwościZmyslowe.md) | [[Następny]](09Miganie.md)
+[Początek/Spis treści](index.md) | [Poprzedni](07_WlasciwościZmyslowe.md) | [[Następny]](09_Miganie.md)

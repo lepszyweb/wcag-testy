@@ -9,7 +9,7 @@ Ręczna nawigacja lub sterowanie interfejsem tylko za pomocą klawiatury umożli
 ## Ograniczenia, założenia lub wyjątki
 -   Niektóre elementy interfejsu (np. tekst na ekranie do instrukcji wypełniania formularzy), które nie są zwykle uważane za interaktywne, mogą być w kolejności tabulacji. Takie komponenty interfejsu powinny otrzymywać widoczny fokus, gdy użytkownik nawiguje do nich za pomocą klawiatury.
 -   Częścią tego testu jest widoczność fokusa na łączach pomijajacych.
--   Przełączanie fokusa na odkrywane treści nie jest tutaj testowane. Zobacz [5. Zmienianie treści](05ZmienianieTresci.md)
+-   Przełączanie fokusa na odkrywane treści nie jest tutaj testowane. Zobacz [5. Treść zmienna](05_TrescZmienna.md)
 -   Utrata widocznego fokusa nie powinna wystąpić podczas ręcznego przesuwania fokusa przez stronę (za pomocą TAB lub klawiszy strzałek). Jednak po uruchomieniu funkcji, która przemieszcza fokus (np. odsłonięcie wewnętrznego łącza strony lub ukrytej zawartości), może być konieczne ręczne przesunięcie fokusa za pomocą klawiatury, zanim fokus stanie się ponownie widoczny. To nie jest uważane za defekt.
 
 ## Procedura testu dla KS 2.4.7 Widoczny fokus
@@ -28,7 +28,7 @@ Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, ro
 ## Porada: Wskazówki dotyczące usprawniania procesu testów
 
 -   Wyrazistość widocznego fokusa jest subiektywna, a minimalnym poziomem jest domyślne ustawienie wyświetlacza przeglądarki (lub platformy systemu operacyjnego) do wskazywania fokusa. Przeglądarki mogą również inaczej przedstawiać fokus w określonych sytuacjach.
--   Ten test można przeprowadzić równocześnie z testem [Podstawowy 1: Dostęp z klawiatury](https://lepszyweb.github.io/wcag-podstawowe-testy/01Klawiatura.html).
+-   Ten test można przeprowadzić równocześnie z testem [1. Dostęp z klawiatury](01_Klawiatura.md).
 -   Podczas testowania nie należy włączać żadnych modyfikacji fokusa w środowisku testowym. Niektóre narzędzia testowe dodają widoczny kontur wokół elementów, które otrzymują fokus. Chociaż narzędzia testujące mogą pomóc testerom w śledzeniu fokusa, żadne znaczniki dostarczone przez narzędzie testujące nie powinny być używane jako wskaźnik widocznego fokusa dla spełnienia tego wymagania.
 -   Biorąc pod uwagę zmienność sposobu, w jaki przeglądarki mogą prezentować fokus w określonych sytuacjach, raporty z testów powinny zawierać szczegółowe informacje na temat środowiska testowego, w tym przeglądarki i wersji.
 
@@ -40,4 +40,4 @@ Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, ro
     -   [G195: Korzystanie z dobrze widocznego wskaźnika fokusa dostarczonego przez autora](https://www.w3.org/TR/WCAG20-TECHS/G195.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](01Klawiatura.md) | [[Następny]](03KolejnoscFokusa.md)
+[Początek/Spis treści](index.md) | [Poprzedni](01_Klawiatura.md) | [[Następny]](03_KolejnoscFokusa.md)

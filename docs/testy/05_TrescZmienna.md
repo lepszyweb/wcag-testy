@@ -25,7 +25,7 @@ Zidentyfikuj zmiany w prezentowanej treści (zarówno wywołane przez użytkowni
    - Powiadomienia o zdarzeniach programowych obejmują okna dialogowe z alertami, przeniesienie fokusa na zmienioną treść oraz aktywne (*live*) regiony ARIA.
 1. Przy każdej zmianie treści sprawdź, czy kombinacja nazwy, roli, stanu i wartości zmienionej treści jest odpowiednia.
     - Nazwa: nazwa jest odpowiednia po zmianie. 
-        - Zastosuj [accessible name and description computation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), jeśli zmiana nazwy miała miejsce. 
+        - Zastosuj [kombinację dostępnej nazwy i opisu](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), jeśli zmiana nazwy miała miejsce. 
     - Rola: rola dokładnie opisuje cel elementu po zmianie, jeśli ma to zastosowanie.
         - Rozważ role ARIA, typ elementu i inny opisowy tekst.
     - Rola: rola dokładnie opisuje cel elementu po zmianie, jeżeli ma zastosowanie. 
@@ -36,8 +36,8 @@ Zidentyfikuj zmiany w prezentowanej treści (zarówno wywołane przez użytkowni
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 4.1.2 oraz wymaganie podstawowe nr 5 kończy się niepowodzeniem.
 
 ## Porada: Wskazówki dotyczące usprawniania procesu testów
--   Zmiana treści może również obejmować zmiany koloru w celu przekazania informacji. Jeśli tak, ten test powinien sprawdzić, czy nazwa została zaktualizowana, aby odzwierciedlić znaczenie zmienionego koloru. Jeśli kolor zostanie użyty jako jedyny wizualny sposób przekazywania informacji (lub zmian informacji), wówczas treść nie spełnia wymagań KS 1.4.1 Uzycie koloru (omówione w punkcie 7 [Właściwości zmysłowe](07WlasciwościZmyslowe.md)).
+-   Zmiana treści może również obejmować zmiany koloru w celu przekazania informacji. Jeśli tak, ten test powinien sprawdzić, czy nazwa została zaktualizowana, aby odzwierciedlić znaczenie zmienionego koloru. Jeśli kolor zostanie użyty jako jedyny wizualny sposób przekazywania informacji (lub zmian informacji), wówczas treść nie spełnia wymagań KS 1.4.1 Uzycie koloru (omówione w punkcie 7 [Właściwości zmysłowe](07_WlasciwościZmyslowe.md)).
 -   Liczba powiadomień o zdarzeniach może być bardzo duża; jeśli liczba zmian w elemencie jest nieznana lub bardzo duża, konieczne może być zastosowanie próbkowania.
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](04TrescPowtarzalna.md) | [[Następny]](06Obrazy.md)
+[Początek/Spis treści](index.md) | [Poprzedni](04_TrescPowtarzalna.md) | [[Następny]](06_Obrazy.md)

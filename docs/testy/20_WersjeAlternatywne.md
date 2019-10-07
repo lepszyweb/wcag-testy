@@ -58,4 +58,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [C29: Używanie przełącznika stylu do zapewnienia zgodnej wersji alternatywnej (CSS)](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/C29)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](19Ramki.md) | [[Następny]](21LimityCzasu.md)
+[Początek/Spis treści](index.md) | [Poprzedni](19_Ramki.md) | [[Następny]](21_LimityCzasu.md)

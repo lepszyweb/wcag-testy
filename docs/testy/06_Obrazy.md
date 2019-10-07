@@ -29,10 +29,11 @@ Wszystkie obrazy  znaczące i dekoracyjne muszą zostać ocenione. Określono te
 ### Obrazy znaczące
 #### Instrukcja testowania
 Jeśli jest to obraz znaczący (przekazuje informacje):
-1.  Sprawdź, czy kombinacja dostępnej nazwy i dostępnego opisu zapewnia równoważny opis. Wiele atrybutów służy do ustalenia dostępnej nazwy i dostępnego opisu. Zobacz [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
+1.  Sprawdź, czy kombinacja dostępnej nazwy i dostępnego opisu zapewnia równoważny opis. Wiele atrybutów służy do ustalenia dostępnej nazwy i dostępnego opisu. Zobacz [Mapowanie API dostępności HTML 1.0 dla img](https://www.w3.org/TR/html-aam-1.0/#img-element).
     1.  Opisy obrazu dostarczane w treści strony muszą być powiązane programowo.
 2.  Sprawdź, czy NIE określono dla obrazu atrybutu ARIA role="presentation".
 3.  Sprawdź, czy atrybut aria-hidden NIE jest ustawiona na "true".
+
 
 #### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 1.1.1, KS 4.1.2  oraz wymaganie podstawowe nr 6 kończy się niepowodzeniem.
@@ -43,8 +44,8 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 Jeśli obraz jest dekoracyjny, sprawdź, czy spełniony jest przynajmniej jeden z poniższych warunków:
 1.  Ustawiono  dla obrazu atrybut ARIA role="presentation".
 2.  Ustawiono  dla obrazu atrybut aria-hidden="true".
-3.  Kombinacja dostępnej nazwy i dostępnego opisu jest pusta (np. ""). Wiele atrybutów służy do ustalenia dostępnej nazwy i dostępnego opisu. Zobacz [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
-4.  Obraz jest wstawiany za pomocą CSS (np. za pomoca właściwości background image).
+3.  Kombinacja dostępnej nazwy i dostępnego opisu jest pusta (np. ""). Wiele atrybutów służy do ustalenia dostępnej nazwy i dostępnego opisu. Zobacz [Mapowanie API dostępności HTML 1.0 dla img](https://www.w3.org/TR/html-aam-1.0/#img-element).
+4.  Obraz jest wstawiany za pomocą CSS (np. za pomoca właściwości *background-image*).
 
 #### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 1.1.1, KS 4.1.2  oraz wymaganie podstawowe nr 6 kończy się niepowodzeniem.

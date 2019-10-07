@@ -47,4 +47,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [H64: Używanie atrybutu title do tytułowania elementów frame i iframe](http://www.w3.org/TR/WCAG20-TECHS/H64.html)
     
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](18_ZaleznoscOdCSS.md) | [[Następny]](20WersjeAlternatywne.md)
+[Początek/Spis treści](index.md) | [Poprzedni](18_ZaleznoscOdCSS.md) | [[Następny]](20_WersjeAlternatywne.md)

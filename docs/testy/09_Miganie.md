@@ -2,7 +2,7 @@
 
 ## Wymogi dostępności
 ---------------------
--   [KS WCAG: 2.3.1 Trzy błyski lub wartości poniżej progu](http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html) - \[Strony internetowe\] nie zawierają w swojej treści niczego, co migocze częściej niż trzy razy w ciągu jednej sekundy, lub też błysk nie przekracza wartości granicznych dla błysków ogólnych i czerwonych.](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#general-thresholddef).
+-   [KS WCAG: 2.3.1 Trzy błyski lub wartości poniżej progu](http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html) - \[Strony internetowe\] nie zawierają w swojej treści niczego, co migocze częściej niż trzy razy w ciągu jednej sekundy, lub też błysk [nie przekracza wartości granicznych dla błysków ogólnych i czerwonych.](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#general-thresholddef).
 -   [Wymogi zgodności: 5. Brak zakłóceń](https://www.w3.org/TR/WCAG20/#cc5) - Następujące kryteria sukcesu dotyczą całej treści na stronie, włącznie z treścią, która w innych przypadkach nie jest podstawą spełnienia wymogów zgodności, gdyż niezastosowanie poniższych kryteriów mogłoby uniemożliwić jakiekolwiek skorzystanie ze strony: 1.4.2 - Kontrola odtwarzania dźwięku, 2.1.2 - Brak pułapki na klawiaturę, 2.3.1 Trzy błyski lub wartości poniżej progu, 2.2.2: Wstrzymywanie (pauza), zatrzymywanie, ukrywanie.
 
 ## Uzasadnienie metody badania
@@ -19,14 +19,14 @@ Ten test rozwiązuje problem migania spowodowanego przez samą treść, w tym:
 --------------------------------------
 - Możliwe jest, że użytkownicy będą mogli oglądać zawartość w rozdzielczości lub z odległości znacznie różniącej się od rozdzielczości i odległości przewidywanej (założonej).
 - Do celów tego testu podstawowego terminy migani i mruganie mogą być używane synonimicznie z terminem błysk, blyskanie.
-- Migające elementy, które spełniają ten wymóg, nadal muszą spełniać wymagania KS 2.2.2 2.2.2 Wstrzymywanie (pauza), zatrzymywanie, ukrywanie, jeśli miganie trwa dłużej niż 5 sekund ([Wymaganie podstawowe 21. Limity czasu](21LimityCzasu.md)).
+- Migające elementy, które spełniają ten wymóg, nadal muszą spełniać wymagania KS 2.2.2 2.2.2 Wstrzymywanie (pauza), zatrzymywanie, ukrywanie, jeśli miganie trwa dłużej niż 5 sekund ([Wymaganie podstawowe 21. Limity czasu](21_LimityCzasu.md)).
 - Uwaga z KS 2.3.1:
     - Uwaga 1: Ponieważ każda treść, która nie spełnia tego kryterium sukcesu może utrudnić użytkownikowi skorzystanie z całej strony, cała zawartość danej strony (bez względu na to, czy spełnia inne kryteria, czy nie) musi spełnić powyższe kryterium. Zobacz: Wymagania zgodności: Brak zakłóceń.
 	
 ## Procedura testu dla KS 2.3.1 Trzy błyski lub wartości poniżej progu
 -----------------------------------------------------------------------
 ### Identyfikacja treści
-Wizualnie określ zawartość, która [błyska](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#flash-def) ((poza wyjątkami odnotowanymi w zekcji Ograniczenia, założenia lub wyjątki powyżej).
+Wizualnie określ zawartość, która [błyska](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#flash-def) (poza wyjątkami odnotowanymi w zekcji Ograniczenia, założenia lub wyjątki powyżej).
 
 
 ### Instrukcja testowania
@@ -51,4 +51,4 @@ Jeżeli WSZYSTKIE powyższe próby zakończą się niepowodzeniem, wówczas test
     -   [G176: Ograniczanie obszaru migania do bezpiecznego rozmiaru](https://www.w3.org/TR/WCAG20-TECHS/G176.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](08Kontrast.md) | [[Następny]](10Formularze.md)
+[Początek/Spis treści](index.md) | [Poprzedni](08_Kontrast.md) | [[Następny]](10_Formularze.md)
