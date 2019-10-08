@@ -1,6 +1,6 @@
 # 12. Tabele
 
-## Wymogi dostępności
+## Wymagania dostępności
 --------------------------
 -   [KS WCAG: 1.3.1 Informacje i relacje](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html): Informacje, struktura oraz relacje pomiędzy treściami przedstawiane w treści mogą być odczytane przez program komputerowy lub są dostępne w postaci tekstu.
 
@@ -61,7 +61,7 @@ Wszystkie treści/dane przedstawione wizualnie w tabeli z nagłówkami kolumn i/
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 1.3.1 oraz wymaganie podstawowe nr 12 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 
 Treści, które są prezentowana za pomocą CSS, aby wyglądały jak tabela, ale nie polegają na powiązaniu komórek z nagłówkami, można najłatwiej zidentyfikować przez linearyzację. Innym pomocnym wskaźnikiem może być to, że tabela zawiera tylko nagłówki wierszy albo tylko nagłówki kolumn.
 

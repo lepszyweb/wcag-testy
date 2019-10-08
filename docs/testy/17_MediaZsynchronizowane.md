@@ -1,6 +1,6 @@
 # 17. Multimedia zsynchronizowane 
 
-## Wymogi dostępności
+## Wymagania dostępności
 ------------------------------
 -   [KS WCAG: 1.2.2 Napisy rozszerzone (nagranie)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html) -- Napisy rozszerzone dołączone są do wszystkich nagrań audio w multimediach zsynchronizowanych (dźwięk i obraz), za wyjątkiem sytuacji, kiedy są one alternatywami dla tekstu i w taki sposób są oznaczone.
 -   [KS WCAG: 1.2.3 Audiodeskrypcja lub alternatywa dla mediów (nagranie)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html) -- Zapewnia się alternatywę dla mediów zmiennych w czasie lub audiodeskrypcję dla nagrań wideo w multimediach zsynchronizowanych (dźwięk i obraz), za wyjątkiem sytuacji, kiedy są one alternatywami dla tekstu i w taki sposób są oznaczone.
@@ -66,7 +66,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test 1.2.5 oraz Wymaganie podstawowe nr 17 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 ------------------------------
 -   Testowanie zsynchronizowanych multimediów różni się od testów podstawowych [16. Tylko audio i tylko wideo](16TylkoAudioTylkoWideo.md).
 -   Zsynchronizowane odtwarzacze multimedialne mogą być programami (aplikacjami) lub komponentami HTML.

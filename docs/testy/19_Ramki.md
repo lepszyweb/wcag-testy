@@ -1,6 +1,6 @@
 # 19. Ramki i ramki wbudowane
 
-## Wymogi dostępności
+## Wymagania dostępności
 --------------------------
 -   [KS WCAG 4.1.2 Nazwa, rola, wartość](http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html) -- Dla wszystkich komponentów interfejsu użytkownika (włączając w to, ale nie ograniczając jedynie do elementów formularzy, linków oraz komponentów wygenerowanych przez skrypty) nazwa oraz rola (przeznaczenie) mogą być odczytane przez program komputerowy, a stan, właściwości oraz wartości, które mogą być ustawione przez użytkownika, mogą również być ustawione przez program komputerowy; zawiadomienie o zmianach w tych elementach dostępne jest dla programów użytkownika, w tym technologii wspomagających.
 
@@ -39,7 +39,7 @@ Wszystkie ramki wbudowanne (*iFrames*).
 ### Wynik testów
 Jeżeli powyższa próba zakończy się niepowodzeniem, wówczas test KS 4.1.2 oraz wymaganie podstawowe nr 19 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 
 ---------------------------------------------
 ## Techniki WCAG 2.1

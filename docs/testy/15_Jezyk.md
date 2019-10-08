@@ -1,6 +1,6 @@
 # 15. Język
 
-## Wymogi dostępności
+## Wymagania dostępności
 ---------------------
 -   [KS WCAG: 3.1.1 Język strony](http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html) -- Domyślny język naturalny każdej strony internetowej może zostać odczytany przez program komputerowy.
 -   [KS WCAG: 3.1.2 Język części](http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html) -- Język naturalny każdej części lub frazy zawartej w treści może zostać odczytany przez program komputerowy, za wyjątkiem nazw własnych, wyrażeń technicznych, słów w nieokreślonym języku oraz słów i fraz, które stanowią część żargonu w bezpośrednio otaczającym je tekście.
@@ -43,7 +43,7 @@ Zawartość tekstowa, która różni się od domyślnego naturalnego języka str
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.1.2  oraz wymaganie podstawowe nr 15 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 ----------------------------------------------------------
 Brak.
 

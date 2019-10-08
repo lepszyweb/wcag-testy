@@ -1,6 +1,6 @@
 # 14. Łącza i przyciski
 
-## Wymogi dostępności
+## Wymagania dostępności
 ---------------------
 -   [KS WCAG 2.4.4 Cel linku (w kontekście)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html) -- Cel każdego linku może wynikać z samej treści linku, lub też z treści linku powiązanej z programistycznie określonym kontekstem, poza tymi przypadkami, kiedy cel łącza i tak byłby niejasny dla użytkowników.
 -   [WCAG2 SC 4.1.2 Nazwa, rola, wartość](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html) -- Dla wszystkich komponentów interfejsu użytkownika (włączając w to, ale nie ograniczając jedynie do elementów formularzy, linków oraz komponentów wygenerowanych przez skrypty) nazwa oraz rola (przeznaczenie) mogą być odczytane przez program komputerowy, a stan, właściwości oraz wartości, które mogą być ustawione przez użytkownika, mogą również być ustawione przez program komputerowy; zawiadomienie o zmianach w tych elementach dostępne jest dla programów użytkownika, w tym technologii wspomagających.
@@ -29,7 +29,7 @@ Wszystkie łącza i przyciski, w tym te, które są elementami skryptowymi i kt�
 
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test 2.4.4, KS 4.1.2 oraz Wymaganie podstawowe nr 14 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 ----------------------------------------------------------
 
 -   W przypadku, gdy łącze / przycisk prowadzi do dokumentu lub aplikacji internetowej, nazwa dokumentu lub aplikacji internetowej wystarcza do opisania celu linku/przycisku (czyli odesłanie do dokumentu lub aplikacji internetowej).

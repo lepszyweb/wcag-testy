@@ -1,6 +1,6 @@
 # 23. Wiele dróg
 
-## Wymogi dostępności
+## Wymagania dostępności
 
 -   [KS WCAG 2.4.5 Wiele dróg](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html) -- Istnieje więcej niż jedna droga umożliwiająca zlokalizowanie strony w danym serwisie internetowym, za wyjątkiem sytuacji, kiedy dana strona jest wynikiem jakiejś procedury lub jednym z jej etapów.
 
@@ -28,7 +28,7 @@ Strony internetowe w zestawie powiązanych stron (witrynie).
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 2.4.5  oraz Wymaganie podstawowe nr 23 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 
 -   Oprócz wymienionych w instrukcji testowania mogą istnieć inne sposoby lokalizacji stron w witrynie internetowej.
 

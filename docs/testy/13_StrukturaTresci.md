@@ -1,6 +1,6 @@
 # 13. Struktura treści
 
-## Wymogi dostępności
+## Wymagania dostępności
 ----------------------
 -   [KS WCAG: 2.4.6 Nagłówki i etykiety](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html) -- Nagłówki i etykiety opisują temat lub cel treści.
 -   [KS WCAG: 1.3.1 Informacje i relacje](http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html) -- Informacje, struktura oraz relacje pomiędzy treściami przedstawiane w treści mogą być odczytane przez program komputerowy lub są dostępne w postaci tekstu.
@@ -79,7 +79,7 @@ Widoczne wizualnie listy. Dla każdej listy określ, czy wygląda na uporządkow
 #### Wynik testów
 Jeżeli powyższa próba zakończy się niepowodzeniem, wówczas test KS 1.3.1 oraz wymaganie podstawowe nr 13 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 ----------------------------------------------------------
 ## Techniki WCAG 2.1
 --------------------

@@ -1,6 +1,6 @@
 # 4. Treść powtarzalna
 
-## Wymogi dostępności
+## Wymagania dostępności
 -   [KS WCAG: 2.4.1 Możliwość pominięcia bloków](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html) -- Dostępny jest mechanizm, który umożliwia pominięcie bloków treści powtarzanych na wielu stronach internetowych.
 -   [KS WCAG: 3.2.3 Konsekwentna nawigacja](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html) -- Mechanizmy nawigacji, które powtarzają się na wielu stronach w serwisie internetowym, w danym porządku względnym wobec siebie, za każdym razem pojawiają się w tym samym porządku, chyba, że użytkownik sam wprowadzi zmiany.
 -   [KS WCAG: 3.2.4 Konsekwentna identyfikacja](http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html) -- Komponenty, które posiadają tę samą funkcjonalność w danym serwisie internetowym, są w taki sam sposób zidentyfikowane.
@@ -54,7 +54,7 @@ Komponenty, które mają tę samą funkcjonalność w zestawie stron internetowy
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.2.4 oraz wymaganie podstawowe nr 4 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 
 -   Niektóre metody pomijania mogą wymagać określonego skrótu klawiaturowego (np. domyślnie do nawigacji między ramkami jest to klawisz F6 ).
 -   Jeśli podano metodę obejścia, ale nie można jej aktywować za pomocą klawiatury, jest to również defekt wymagania podstawowego 1. Dostęp z klawiatury.

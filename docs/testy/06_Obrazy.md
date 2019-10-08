@@ -1,6 +1,6 @@
 # 6. Obrazy
 
-## Wymogi dostępności
+## Wymagania dostępności
 -   [KS WCAG: 1.1.1. Treść nietekstowa](https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html) -- Wszelkie treści nietekstowe przedstawione użytkownikowi posiadają swoją tekstową alternatywę, która pełni tę samą funkcję, za wyjątkiem sytuacji \[specyficznych wyszczególnionych sytuacji\].
 -   [KS WCAG: 1.4.5 Obrazy tekstu](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html) -- Jeśli wykorzystywane technologie mogą przedstawiać treść wizualnie, do przekazywania informacji wykorzystuje się tekst, a nie tekst w postaci grafiki, za wyjątkiem \[specyficznych wyszczególnionych sytuacji\].
 -   [KS WCAG: 4.1.2 Nazwa, rola, wartość](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html) -- Dla wszystkich komponentów interfejsu użytkownika (włączając w to, ale nie ograniczając jedynie do elementów formularzy, linków oraz komponentów wygenerowanych przez skrypty) nazwa oraz rola (przeznaczenie) mogą być odczytane przez program komputerowy, a stan, właściwości oraz wartości, które mogą być ustawione przez użytkownika, mogą również być ustawione przez program komputerowy; zawiadomienie o zmianach w tych elementach dostępne jest dla programów użytkownika, w tym technologii wspomagających.
@@ -74,7 +74,7 @@ Zidentyfikuj wszelkie obrazy tekstu, z wyjątkiem przypadków, w których konkre
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 1.4.5  oraz wymaganie podstawowe nr 6 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 ## Techniki WCAG 2.1
 
 -   Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:

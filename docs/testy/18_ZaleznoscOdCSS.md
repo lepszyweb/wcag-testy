@@ -1,6 +1,6 @@
 # 18. Zależność od CSS
 
-## Wymogi dostępności
+## Wymagania dostępności
 ---------------------
 -   [KS WCAG 1.1.1 Treść nietekstowa](http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html) -- Wszelkie treści nietekstowe przedstawione użytkownikowi posiadają swoją tekstową alternatywę, która pełni tę samą funkcję, za wyjątkiem sytuacji opisanych poniżej.
     -   **Cele dekoracyjne, formatowanie, treść niewidoczna:** Jeśli treść nietekstowa pełni jedynie funkcję dekoracyjną, używana jest do formatowania wizualnego lub też nie jest przedstawiana użytkownikowi, powinna być wdrożona w sposób umożliwiający technologiom wspomagającym jej zignorowanie.
@@ -61,7 +61,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 -----------------------------------------------
 Zobacz: [5. Treść zmienna.md](05TrescZmienna.md).
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 ---------------------------------------------
 ## Techniki WCAG 2.1
 ---------------------

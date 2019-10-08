@@ -1,6 +1,6 @@
 # 22. Zmiana rozmiaru tekstu
 
-## Wymogi dostępności
+## Wymagania dostępności
 
 -   [KS WCAG 1.4.4 Zmiana rozmiaru tekstu](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html) -- Oprócz napisów rozszerzonych oraz tekstu w postaci grafiki, rozmiar tekstu może zostać powiększony do 200% bez użycia technologii wspomagających oraz bez utraty treści lub funkcjonalności.
 

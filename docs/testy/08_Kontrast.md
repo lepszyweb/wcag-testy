@@ -1,6 +1,6 @@
 # 8. Kontrast
 
-## Wymogi dostępności
+## Wymagania dostępności
 ---------------------
 -   [KS WCAG: 1.4.3 Kontrast (minimum)](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) -- Wizualne przedstawienie tekstu, lub obrazu tekstu posiada kontrast wynoszący przynajmniej 4,5:1, poza następującymi wyjątkami::
     -   **Duży tekst**: Duży tekst oraz grafiki takiego tekstu posiadają kontrast przynajmniej 3:1.;
@@ -38,7 +38,7 @@ Cały widoczny tekst ORAZ obrazy tekstu (z wyjątkiem tych wymienionych powyżej
 ### Wynik testów
 Jeżeli OBIE powyższe próby zakończą się niepowodzeniem, wówczas test KS 1.4.3 oraz wymaganie podstawowe nr 8 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 -----------------------------------------------------------
 -   Istnieje wiele narzędzi do kontrastu kolorów, które mogą wykonać algorytmy niezbędne do określenia kontrastu. Zobacz technike [G18: Zapewnienie, że istnieje kontrast wynoszący co najmniej 4,5:1 między tekstem (i obrazami tekstu) a tłem za tekstem](https://www.w3.org/TR/WCAG20-TECHS/G18.html), aby uzyskać informacje na temat możliwych narzędzi testujących, które wykorzystują odpowiedni algorytm.
 -   Chociaż tekst zawarty w logo renderowanym jako obrazy jest zwolniony z tego wymogu, obraz musi nadal zapewniać tekst alternatywny (np. w postaci atrybutu alt).

@@ -1,6 +1,6 @@
 # 3. Kolejność fokusa
 
-## Wymogi dostępności
+## Wymagania dostępności
 -   [KS WCAG: 2.4.3 Kolejność fokusa](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html) -- Jeśli strona internetowa może być nawigowana sekwencyjnie, a kolejność nawigacji wpływa na zrozumienie lub funkcjonalność strony, komponenty przyjmujące fokus zachowują kolejność, dzięki której zachowany jest sens i funkcjonalność treści.
 -   [KS WCAG: 3.2.1 Po oznaczeniu fokusem](http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) -- Jeśli jakikolwiek komponent jest oznaczony fokusem, nie powoduje to zmiany kontekstu.
 
@@ -54,7 +54,7 @@ Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, ro
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.2.1 oraz wymaganie podstawowe nr 3 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 -   Kolejność tabulacji, która początkowo wydaje się nielogiczna, może nadal spełniać to wymaganie ze względu na logikę biznesową specyficzną dla danej aplikacji.
 -   Przydatne może być połączenie tych testów z testami nawigacji klawiatury i widoczności fokusa.
 -   Przydatne może być przekazanie testerowi instrukcji na temat tego, czym są „modalne okna dialogowe” i jak powinny się zachowywać.

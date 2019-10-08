@@ -1,6 +1,6 @@
 # 9. Miganie
 
-## Wymogi dostępności
+## Wymagania dostępności
 ---------------------
 -   [KS WCAG: 2.3.1 Trzy błyski lub wartości poniżej progu](http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html) - \[Strony internetowe\] nie zawierają w swojej treści niczego, co migocze częściej niż trzy razy w ciągu jednej sekundy, lub też błysk [nie przekracza wartości granicznych dla błysków ogólnych i czerwonych.](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#general-thresholddef).
 -   [Wymogi zgodności: 5. Brak zakłóceń](https://www.w3.org/TR/WCAG20/#cc5) - Następujące kryteria sukcesu dotyczą całej treści na stronie, włącznie z treścią, która w innych przypadkach nie jest podstawą spełnienia wymogów zgodności, gdyż niezastosowanie poniższych kryteriów mogłoby uniemożliwić jakiekolwiek skorzystanie ze strony: 1.4.2 - Kontrola odtwarzania dźwięku, 2.1.2 - Brak pułapki na klawiaturę, 2.3.1 Trzy błyski lub wartości poniżej progu, 2.2.2: Wstrzymywanie (pauza), zatrzymywanie, ukrywanie.
@@ -40,7 +40,7 @@ Wizualnie określ zawartość, która [błyska](https://www.w3.org/TR/UNDERSTAN
 ### Wynik testów
 Jeżeli WSZYSTKIE powyższe próby zakończą się niepowodzeniem, wówczas test KS 2.3.1, 5 wymóg zgodności oraz wymaganie podstawowe nr 9 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 ----------------------------------------------------------
 - Jeśli treść będzie wyświetlana lub wyświetlana w znacznie różnych rozmiarach lub odległościach (np. treści responsywne przeznaczone do wyświetlania na pulpicie, w telefonie komórkowym i/lub innych wyświetlaczach), treść należy ocenić dla każdego scenariusza..
 

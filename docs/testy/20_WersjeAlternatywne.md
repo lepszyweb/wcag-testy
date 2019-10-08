@@ -1,6 +1,6 @@
 # 20. Zgodność z wersją alternatywną
 
-## Wymogi dostępności
+## Wymagania dostępności
 ---------------------
 -   [WCAG: Wersja alternatywna zapewniająca zgodność](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-conforming-alt-versions-head): Wersja alternatywna zapewniająca zgodność - Poziom AA: w przypadku zgodności z poziomem AA, \[treść\] spełnia wszystkie kryteria powodzenia poziomu A i poziomu AA lub dostarczana jest wersja alternatywna zgodna z poziomem AA. Wymóg zgodności \#1 pozwala na włączenie stron niezgodnych ze sobą w zakres zgodności tak długo, jak długo istnieje „Wersja alternatywna zapewniająca zgodność”, która
     1.  jest zgodna z określonym poziomem oraz
@@ -46,7 +46,7 @@ Inne wersje tej samej treści.
 ### Wynik testów
 Jeżeli którakolwiek z powyższych próbzakończy się niepowodzeniem, wówczas nie istnieje zgodna **wersja alternatywna**  i Wymaganiem podstawowe nr 20 NIE MA ZASTOSOWANIA.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 
 -   Jeśli zapewniona jest wersja alternatywna zapewniająca zgodność, niezgodne wersje tej treści są testowane tylko pod kątem [Wymagania zgodności nr 5 Brak zakłóceń](25_BrakZaklocen.md). Nie jest konieczne testowanie wykonywanie innych testów podstawowych dla wersji niezgodnych.
 -   Jeśli istnieją wersje alternatywne zapewniające zgodność, należy podjąć decyzję, czy i w jakim zakresie wersja niezgodna wymaga przetestowania. Aby zaoszczędzić czas i wysiłek, zaleca się, aby był to jeden z pierwszych testów.

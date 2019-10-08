@@ -1,6 +1,6 @@
 # 10. Formularze
 
-## Wymogi dostępności
+## Wymagania dostępności
 ---------------------
 -   [WCAG: 1.3.1 Informacje i relacje](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html): Informacje, struktura oraz relacje pomiędzy treściami przedstawiane w treści mogą być odczytane przez program komputerowy lub są dostępne w postaci tekstu.
 -   [WCAG: 2.4.6 Nagłówki i etykiety](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html): Nagłówki i etykiety opisują temat lub cel treści.
@@ -144,7 +144,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 ----------------------------------------------------
 Zobacz [5. Treść zmienna](05TrescZmienna.md)
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 ----------------------------------------------------------
 -   W przypadku KS 3.3.1 dopuszczalne techniki obejmują: a) przeniesienie fokusa na komunikat o błędzie informujący użytkownika, że ​​poprzednie pole wymaga korekty i opisujące błąd, b) odświeżenie strony po przesłaniu formularza i wyświetlenie na górze strony opisów i lokalizacji błędów. **Uwaga**: Ponowne wyświetlenie formularza i wskazanie błędnych pól w formularzu jest niewystarczające, aby spełnić to wymaganie. Użytkownik nie powinien przeszukiwać formularza, aby dowiedzieć się, gdzie popełniono błędy.
 -   W przypadku KS 3.3.4: ponieważ użytkownik może przejrzeć prosty, 1-stronicowy formularz przed naciśnięciem przycisku wysyłania na stronie, inny specjalny mechanizm weryfikacji poprawności nie jest wymagany.

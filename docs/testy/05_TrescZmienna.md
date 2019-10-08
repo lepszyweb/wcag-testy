@@ -1,6 +1,6 @@
 # 5. Treść zmienna
 
-## Wymogi dostępności
+## Wymagania dostępności
 -   [KS WCAG: 4.1.2 Nazwa, rola, wartość](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html): Dla wszystkich komponentów interfejsu użytkownika (włączając w to, ale nie ograniczając jedynie do elementów formularzy, linków oraz komponentów wygenerowanych przez skrypty) nazwa oraz rola (przeznaczenie) mogą być odczytane przez program komputerowy, a stan, właściwości oraz wartości, które mogą być ustawione przez użytkownika, mogą również być ustawione przez program komputerowy; zawiadomienie o zmianach w tych elementach dostępne jest dla programów użytkownika, w tym technologii wspomagających.
 
 ## Uzasadnienie metody badania
@@ -35,7 +35,7 @@ Zidentyfikuj zmiany w prezentowanej treści (zarówno wywołane przez użytkowni
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 4.1.2 oraz wymaganie podstawowe nr 5 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 -   Zmiana treści może również obejmować zmiany koloru w celu przekazania informacji. Jeśli tak, ten test powinien sprawdzić, czy nazwa została zaktualizowana, aby odzwierciedlić znaczenie zmienionego koloru. Jeśli kolor zostanie użyty jako jedyny wizualny sposób przekazywania informacji (lub zmian informacji), wówczas treść nie spełnia wymagań KS 1.4.1 Uzycie koloru (omówione w punkcie 7 [Właściwości zmysłowe](07_WlasciwościZmyslowe.md)).
 -   Liczba powiadomień o zdarzeniach może być bardzo duża; jeśli liczba zmian w elemencie jest nieznana lub bardzo duża, konieczne może być zastosowanie próbkowania.
 

@@ -1,6 +1,6 @@
 # 21. Limity czasu
 
-## Wymogi dostępności
+## Wymagania dostępności
 --------------------------
 -   [KS WCAG: 2.2.1 Możliwość dostosowania czasu](http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html) -- Dla każdego limitu czasowego, ustawionego na odbiór treści, spełnione jest przynajmniej jedno z poniższych założeń:
     -   **Wyłączenie:** Użytkownik może wyłączyć limit czasowy zanim czas upłynie; lub:
@@ -93,7 +93,7 @@ Elementy strony odtwarzajace dźwięk dłużej niż 3 sekundy.
 ### Wynik testów
 Jeżeli powyższa próba zakończy się niepowodzeniem, wówczas test KS  1.4.2, Wymaganie zgodności nr 5: Brak zakłóceń oraz Wymaganie podstawowe nr 21 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 
 -   Przypomnij testerom, że w przypadku przekroczenia limitu czasu wskaźnik fokusa powinien powinien się przemieścić  do komunikatu o limicie czasu, aby spełnić kryteria sukcesu dotyczące dostępności klawiatury i kolejności fokusa.
 -   W niektórych przypadkach może być konieczne skontaktowanie się z autorami aplikacji w celu wyjaśnienia warunków przekroczenia limitu czasu.

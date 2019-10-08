@@ -1,6 +1,6 @@
 # 2. Widoczny fokus
 
-## Wymogi dostępności
+## Wymagania dostępności
 -   [KS WCAG: 2.4.7 Widoczny fokus](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html) -- Każdy interfejs możliwy do nawigacji za pomocą klawiatury, posiada widoczny wskaźnik fokusa klawiatury.
 
 ## Uzasadnienie metody badania
@@ -25,7 +25,7 @@ Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, ro
 ### Wynik testów
 -   Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 2.4.7 oraz wymaganie podstawowe nr 2 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 
 -   Wyrazistość widocznego fokusa jest subiektywna, a minimalnym poziomem jest domyślne ustawienie wyświetlacza przeglądarki (lub platformy systemu operacyjnego) do wskazywania fokusa. Przeglądarki mogą również inaczej przedstawiać fokus w określonych sytuacjach.
 -   Ten test można przeprowadzić równocześnie z testem [1. Dostęp z klawiatury](01_Klawiatura.md).

@@ -1,6 +1,6 @@
 # 16. Tylko audio i tylko wideo
 
-## Wymogi dostępności
+## Wymagania dostępności
 ------------------------
 -   [KS WCAG: 1.2.1 Tylko audio lub tylko wideo (nagranie)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-av-only-alt.html) -- Dla mediów nagranych w systemie tylko audio lub tylko wideo stosuje się następujące zasady, za wyjątkiem sytuacji, kiedy nagranie audio lub wideo jest alternatywą dla tekstu i w taki sposób jest oznaczone:
     -   **Nagranie tylko audio:** Zapewniona jest alternatywa dla mediów zmiennych w czasie, przedstawiająca tę samą treść, co w nagraniu audio.
@@ -52,7 +52,7 @@ Nagrane treści tylko wideo.
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 1.2.1  oraz wymaganie podstawowe nr 16 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 ----------------------------------------------------------
 Brak.
 ### Techniki WCAG 2.1

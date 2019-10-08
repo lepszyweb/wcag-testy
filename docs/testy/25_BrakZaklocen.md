@@ -1,6 +1,6 @@
 # 25. Brak zakłóceń
 
-## Wymogi dostępności
+## Wymagania dostępności
 
 -   [WCAG Wymagania zgodności 5: Brak zakłóceń](https://www.w3.org/TR/WCAG20/#cc5) -- Następujące kryteria sukcesu dotyczą całej treści na stronie, włącznie z treścią, która w innych przypadkach nie jest podstawą spełnienia wymogów zgodności, gdyż niezastosowanie poniższych kryteriów mogłoby uniemożliwić jakiekolwiek skorzystanie ze strony:
     -   1.4.2 - Kontrola odtwarzania dźwięku,
@@ -26,7 +26,7 @@ Podstawowe testy dla [1.4.2 oraz 2.2.2](2121LimityCzasu.md), [2.1.2](01Klawiat
 ### Wynik testów
 Jeżeli którakolwiek z testów zakończył się niepowodzeniem, wówczas Wymaganie zgodności nr 5 oraz Wymaganaie podstawowe 25 kończy się niepowodzeniem.
 
-## Porada: Wskazówki dotyczące usprawniania procesu testów
+##  Wskazówki dotyczące usprawniania procesu testowego
 -   Wszystkie testy wskazane w tym teście podstawowym muszą się zakończyć pomyślnie, aby cały test został uznany za zaliczony.
 
 
