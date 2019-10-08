@@ -11,6 +11,7 @@
  - [9. Alternatywy multimediów](testy/09_pw_multimedia.md)
  - [10. Układ i struktura](testy/10_pw_ukladIStruktura.md)
  - [Następne kroki](testy/11_pw_nastepneKroki.md) 
+ - [Uproszczony](testy/uproszczony.md) 
 - **Testy podstawowe**
  - [Wprowadzenie](testy/00_wprowadzenie.md)
  - [1. Dostęp z klawiatury](testy/01_Klawiatura.md)
