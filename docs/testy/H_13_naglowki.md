@@ -26,7 +26,7 @@ Uwaga: Nagłówki mogą być również zdefiniowane za pomocą atrybutu ARIA `ro
 -	Opcja *struktures* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
 
 ### Wykorzystanie skryptozkładki ANDI
-![Wykorzystanie skryptozkładki ANDI](andi_headings.png)
+![Wykorzystanie skryptozkładki ANDI](/img/andi_headings.png)
 1.	Uruchom skryptozakładkę ANDI. 
 2.	Wybierz z menu ANDI opcję *struktures*, a następnie z menu poziomego *XX headings* (XX oznacza liczbę nagłówków wykrytych na stronie) 
 3.	Użyj łącza *View outline*, aby rozwinąć konspekt i sprawdź, czy hierarchia nagłówków nie jest bez istotnego powodu zaburzona. 

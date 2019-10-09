@@ -3,7 +3,7 @@
  - [Identyfikacja języka](testy/H_02_identyfikacja_jezyka.md)
  - [Nagłówek - logo](testy/H_03_logo.md)
  - [Nagłówek - wyszukiwanie](testy/H_04_wyszukiwarka.md)
- - [CAPTCHA](testy/H_05_linkipomijajace.md)
+ - [Nawigacja pomijająca](testy/H_05_linkipomijajace.md)
  - [Nawigacja - Punkty orientacyjne](testy/H_06_punktyorientacyjne.md)
  - [Wiele dróg](testy/H_07_wieledrog.md)
  - [Menu nawigacyjne](testy/H_08_menunawigacyjne.md) 
@@ -12,6 +12,13 @@
  - [Tytuł strony](testy/H_11_tytulstrony.md)
  - [Kontrast](testy/H_12_kontrast.md) 
  - [Nagłówki](testy/H_13_naglowki.md) 
+ - [Listy](testy/H_14_listy.md)
+ - [Tabele](testy/H_15_tabele.md)
+ - [Nawigacja sekwencyjna](testy/H_16_nawigacja-sekwencyjna.md) 
+ - [Łąćza](H_17_linki.md) 
+ 
+ 
+ 
 - **Przegląd wstępny**
  - [Wprowadzenie](testy/00_pw_wprowadzenie.md)
  - [1. Tytuł strony](testy/01_pw_tytulStrony.md)

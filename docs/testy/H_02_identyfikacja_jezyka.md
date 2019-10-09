@@ -2,11 +2,13 @@
 
 ### Metoda badania: 
 Kontrola wzrokowa. Inspekcja kodu HTML. 
+
 ### Oczekiwania:
 Kryterium sukcesu: [3.1.1 Język strony](https://wcag.lepszyweb.pl/#language-of-page), kryterium sukcesu: [3.1.2 Język części](https://wcag.lepszyweb.pl/#language-of-parts).
 
 - Element `<html>` zawiera atrybut języka `lang`, a określony w nim język pasuje do głównego języka strony. 
 - Treść w innych językach ma odpowiednio zdefiniowany atrybut językowy na elemencie obejmującym fragment innojęzyczny. 
+
 ### Instrukcja testowania: 
 1.	Przeglądając treść strony, zidentyfikuj domyślny naturalny język strony. Domyślnym jest język, w którym prezentowana jest większość treści.
 2.	Zobacz źródło strony i sprawdź, czy w znaczniku `<html>` zdefiniowany jest atrybut `lang`.
