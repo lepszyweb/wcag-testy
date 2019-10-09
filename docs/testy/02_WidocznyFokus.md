@@ -28,6 +28,7 @@ Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, ro
 ##  Wskazówki dotyczące usprawniania procesu testowego
 
 -   Wyrazistość widocznego fokusa jest subiektywna, a minimalnym poziomem jest domyślne ustawienie wyświetlacza przeglądarki (lub platformy systemu operacyjnego) do wskazywania fokusa. Przeglądarki mogą również inaczej przedstawiać fokus w określonych sytuacjach.
+-   Wskaźnik fokusa może przybierać różne formy: obramowania elementu, migającego kursora w polu tekstowym, wizualnej zmiany wyglądu przycisku. 
 -   Ten test można przeprowadzić równocześnie z testem [1. Dostęp z klawiatury](01_Klawiatura.md).
 -   Podczas testowania nie należy włączać żadnych modyfikacji fokusa w środowisku testowym. Niektóre narzędzia testowe dodają widoczny kontur wokół elementów, które otrzymują fokus. Chociaż narzędzia testujące mogą pomóc testerom w śledzeniu fokusa, żadne znaczniki dostarczone przez narzędzie testujące nie powinny być używane jako wskaźnik widocznego fokusa dla spełnienia tego wymagania.
 -   Biorąc pod uwagę zmienność sposobu, w jaki przeglądarki mogą prezentować fokus w określonych sytuacjach, raporty z testów powinny zawierać szczegółowe informacje na temat środowiska testowego, w tym przeglądarki i wersji.

@@ -29,11 +29,11 @@ Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, ro
 
 ### Instrukcja testowania
 1.  Użyj klawiatury, aby poruszać się po komponentach interfejsu.
-    1.  Za pomocą klawiatury aktywuj elementy wyzwalające, które odkrywają ukrytą zawartość (np. menu, okna dialogowe, rozwijana lista drzewa).
-        1.  Sprawdź, czy ostrość została przeniesiona na odsłoniętą zawartość. (Dopuszczalne jest jednokrotne użycie TAB lub użycie klawisza strzałki, aby przesunąć fokus do przodu odsłoniętej zawartości).
+    1.  Za pomocą klawiatury aktywuj elementy wyzwalające, które odkrywają schowaną treść (np. menu, okna dialogowe, rozwijana lista drzewa).
+        1.  Sprawdź, czy wskaźnik fokusa został przeniesiony na odsłoniętą treść. (Dopuszczalne jest jednokrotne użycie TAB lub użycie klawisza strzałki, aby przesunąć fokus w przód do odsłoniętej zawartości).
         2.  Przesuwaj fokus w odsłoniętej treści.
-    2.  Użyj klawiatury, aby zamknąć/ukryć odsłoniętą zawartość.
-        1.  Sprawdź, czy fokus powrócił do elementu wyzwalającego. (Dopuszczalne jest jednokrotne użycie przycisku [Shift+ TAB\] lub użycie klawisza strzałki, aby przesunąć fokus do tyłu do elementu wyzwalającego.
+    2.  Użyj klawiatury, aby zamknąć/ukryć odsłoniętą treść.
+        1.  Sprawdź, czy fokus powrócił do elementu wyzwalającego. (Dopuszczalne jest jednokrotne użycie przycisku [Shift+ TAB\] lub użycie klawisza strzałki, aby przesunąć fokus w tył do elementu wyzwalającego.
 2.  Sprawdź, czy kolejność ustawiania fokusa zachowuje znaczenie i użyteczność strony.
 
 ### Wynik testów

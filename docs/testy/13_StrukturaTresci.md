@@ -60,20 +60,22 @@ Nagłówki [możliwe do odczytania przez program komputerowy](https://www.w3.org
 #### Wynik testów
 Jeżeli powyższa próba zakończy się niepowodzeniem, wówczas test KS 1.3.1 oraz wymaganie podstawowe nr 13 kończy się niepowodzeniem.
 
-### Wykazy wyglądajace jak listy
+### Wykazy wyglądające jak listy
+Ten warunek testu NIE MA ZASTOSOWANIA, jeśli nie ma żadnych widocznych list.
 
 #### Identyfikacja treści
-Widoczne wizualnie listy. Dla każdej listy określ, czy wygląda na uporządkowaną, nieuporządkowaną czy listę definicji..
+Widoczne wizualnie listy. Dla każdej listy określ, czy wygląda na uporządkowaną, nieuporządkowaną czy listę asocjacji.
 -   **Listy uporządkowane** numeruje się sekwencyjnie, a jeśli to konieczne, także hierarchicznie (np. 1, 2, 2a, 2ai, itd.). List uporządkowanych używa się tam, gdzie ważna jest kolejność albo konieczne jest odwoływanie się do konkretnych pozycji na liście według liczby/litery.
 -   **Listy nieuporządkowane** nie są numerowane i używa się ich w przypadkach, gdy kolejność elementtów nie jest istotna, ani nie ma konieczności odwoływania się do konkretnych pozycji na liście według liczby/litery.
--   **List asocjacji** (dawniej definicji) (dl) używa się do grupowania dowolnych danych w zestawy nazwa-wartość. Rolę grupy nazwa-wartość mogą spełniać terminy i ich definicje, elementy metadanych i ich wartości oraz dowolne inne grupy danych, na przykład autorzy i tytuły ich książek.
+-   **List opisów** (asocjacji, dawniej definicji) (dl) używa się do grupowania dowolnych danych w zestawy nazwa-wartość. Rolę grupy nazwa-wartość mogą spełniać terminy i ich definicje, elementy metadanych i ich wartości oraz dowolne inne grupy danych, na przykład autorzy i tytuły ich książek.
 
+*Uwaga*: Programiści mogą używać elementów listy do prezentacji pogrupowanych elementów, takich jak menu i podmenu, usuwając z nich punktownie lub numerację. Takie użycie elementów listy jest dopuszczalne i zgodne z warunkami testu określonymi poniżej.
 
 #### Instrukcja testowania
 1.  Dla każdej widocznej listy:
     1.  Sprawdź, czy treści, które mają wygląd listy (z punktorami lub bez), a nie zawierają elementów w uporządkowanej kolejności, zostały oznaczone jako listy nieuporządkowane.
     2.  Sprawdź, czy treści, które mają wygląd listy, zostały oznaczone jako listy uporządkowane.
-    3.  Sprawdź, czy treści, które prezentują grupy elementów powiązanych na zasadzie nazwa-wartość sa oznakowne jako listy asocjacyjne.
+    3.  Sprawdź, czy treści, które prezentują grupy elementów powiązanych na zasadzie nazwa-wartość sa oznakowane jako listy opisów.
 
 
 #### Wynik testów

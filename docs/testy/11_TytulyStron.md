@@ -22,8 +22,8 @@ Element &lt;title&gt; dla strony.
 ### Instrukcja testowania
 
 1.  Sprawdź, czy dla strony jest zdefiniowany element &lt;title&gt;.
-2.  Sprawdź, czy tytuł strony określa zawartość lub przeznaczenie strony internetowej.
-    1.  W przypadku stron w witrynie internetowej sprawdź, czy po tytułąch stron można je rozróżniać.
+2.  Sprawdź, czy tytuł strony określa treść lub przeznaczenie strony internetowej.
+    1.  W przypadku stron w witrynie internetowej sprawdź, czy po tytułach stron można je rozróżniać.
     2.  W przypadku dokumentów lub aplikacji internetowych, do opisania celu wystarcza nazwa dokumentu lub aplikacji internetowej.
 
 ### Wynik testów

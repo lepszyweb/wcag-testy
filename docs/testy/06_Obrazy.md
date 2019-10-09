@@ -54,7 +54,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 #### Instrukcja testowania
 
 Jeśli obraz jest obrazem Captcha:
-1.  Sprawdź, czy kombinacja dostępnej nazwy i dostępnego wskazuje i opisuje sens CAPTCHA.
+1.  Sprawdź, czy kombinacja [dostępnej nazwy i dostępnego opisu](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation) wskazuje i wyjaśnia sens CAPTCHA.
 2.  Sprawdź, czy zapewnione są alternatywne formy CAPTCHA przynajmniej dla użytkowników niewidomych i niedosłyszących.
 
 #### Wynik testów

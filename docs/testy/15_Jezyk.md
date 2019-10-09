@@ -7,7 +7,7 @@
 
 ## Uzasadnienie metody badania
 ------------------------------
-Domyślny język naturalny (ludzki) dla każdej strony musi być zidentyfikowany programowo. Fragmenty, które używają języka innego niż domyślny, muszą zostać okreśłone programowo.
+Domyślny język naturalny (ludzki) dla każdej strony musi być zidentyfikowany programowo. Fragmenty, które używają języka innego niż domyślny, muszą zostać określone programowo.
 
 ## Ograniczenia, założenia lub wyjątki
 --------------------------------------
@@ -20,7 +20,7 @@ Domyślny język naturalny (ludzki) dla każdej strony musi być zidentyfikowany
 Strony z tekstem (w tym z tekstem alternatywnym).
 
 ### Instrukcja testowania
-1.  Przeglądając treść strony, zidentyfikuj domyślny naturalny język strony. Domyślnym językiem ludzkim strony jest język, w którym prezentowana jest większość treści.
+1.  Przeglądając treść strony, zidentyfikuj domyślny naturalny język strony. Domyślnym jest język, w którym prezentowana jest większość treści.
 2.  Sprawdź, czy w znaczniku &lt;html&gt; strony zdefiniowany jest atrybut *lang*.
 3.  Sprawdź, czy wartość atrybutu *lang* odpowiada określonemu domyślnemu naturalnemu językowi strony.
     1.  Podznacznik języka podstawowego jest pierwszym 2 lub 3 znakowym kodem w wartości atrybutu *lang*. (Nie sprawdzajj dodatkowych specyfikacji języka, które mogą występować po podznaczniku języka podstawowego).

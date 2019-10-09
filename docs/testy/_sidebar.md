@@ -1,3 +1,8 @@
+- **Nowe**
+ - [CAPTCHA](testy/H_01_captcha.md)
+ - [Identyfikacja języka](testy/H_02_identyfikacja_jezyka.md)
+ - [Nagłówek - logo](testy/H_03_logo.md)
+ - [Nagłówek - wyszukiwanie](testy/H_04_wyszukiwarka.md)  
 - **Przegląd wstępny**
  - [Wprowadzenie](testy/00_pw_wprowadzenie.md)
  - [1. Tytuł strony](testy/01_pw_tytulStrony.md)
