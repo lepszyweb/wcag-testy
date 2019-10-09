@@ -19,9 +19,9 @@ Kryterium sukcesu
 6.	Odsłuchaj stronę czytnikiem ekranu i sprawdź, czy czytnik ogłasza etykiety pola wyszukiwania i przycisku wyzwalającego wyszukiwanie.  
 
 ### Pomocne narzędzia:
-•	skryptozakładka [Sr-only Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access. Wyświetla zawartość objętą znacznikiem z klasą „sr-only”, czyli „widoczną” tylko dla czytników ekranu.
-•	skryptozakładka [[Forms](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
-•	skryptozakładka [Form Labels](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera. Oznacza etykiety formularzy, zlicza i wyróżnia błędy etykietowania.
+-	skryptozakładka [Sr-only Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access. Wyświetla zawartość objętą znacznikiem z klasą „sr-only”, czyli „widoczną” tylko dla czytników ekranu.
+-	skryptozakładka [[Forms](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
+-	skryptozakładka [Form Labels](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera. Oznacza etykiety formularzy, zlicza i wyróżnia błędy etykietowania.
 
 ### Wykorzystanie skryptozkładki ANDI
 ![Wykorzystanie skryptozakłądki ANDI](img/andi-wyszukiwarka2.png)
