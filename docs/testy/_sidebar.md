@@ -15,7 +15,7 @@
  - [Listy](testy/H_14_listy.md)
  - [Tabele](testy/H_15_tabele.md)
  - [Nawigacja sekwencyjna](testy/H_16_nawigacja-sekwencyjna.md) 
- - [Łąćza](H_17_linki.md) 
+ - [Łącza](H_17_linki.md) 
  
  
  
