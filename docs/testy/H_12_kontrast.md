@@ -24,7 +24,7 @@ Kryteria sukcesu: [1.4.3 Kontrast (minimalny)](https://wcag.lepszyweb.pl/#contra
 ### Pomocne narzędzia:
 -	[Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/)
 -	skryptozakładka [Tota11y](https://khan.github.io/tota11y/) 
--	skryptozakładka [Grayscale] - http://pauljadam.com/bookmarklets/index.html z kolekcji Paula J. Adama
+-	skryptozakładka [Grayscale](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
 -	skryptozakładka [Grayscale](https://thomaspark.co/2013/11/3-simple-design-bookmarklets-to-improve-your-aesthetics/) z kolekcji Thomasa Parka. Wyświetla stronę w skali szarości. Pomaga wykryć obszary, które mogą mieć wystarczający kontrast w kolorze, ale nie mają wystarczającego kontrastu w skali szarości, co ma znaczenie dla dostępności dla osób dotkniętych zaburzeniami widzenia kolorów.
 
 

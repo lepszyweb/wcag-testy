@@ -31,7 +31,7 @@ Kryteria sukcesu: [3.2.3 Konsekwentna nawigacja](https://wcag.lepszyweb.pl/#cons
 -	skryptozakładka [Ladmarks](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama. Oznacza punkty orientacyjne. Jeśli zdefiniowane są znacznikiem html – umieszcza etykietę ze znacznikiem na żółtym tle. Jeśli zdefiniowane są atrybutem role, umieszcza etykietę z wartością atrybutu
 -	skryptozakładka [Duplicate-landmark-roles](https://github.com/ThePacielloGroup/bookmarklets) z kolekcji Pacciello Group. Oznacza obszary, którym zdefiniowano nadmiarowy niepotrzebny atrybut role.
 -	skryptozakładka [Ladmarks](https://accessibility-bookmarklets.org/install.html) z kolekcji Pixo i University of Illinois. Oznacza nakładkami punkty orientacyjne. W etykiecie nakładki komunikuje zastosowany element HTML oraz dostępną nazwę punktu orientacyjnego.
--	opcja Landmarks w skryptozakładce [Tota11y] – https://khan.github.io/tota11y/ 
+-	opcja Landmarks w skryptozakładce [Tota11y](https://khan.github.io/tota11y/) 
 -	skryptozakładka [Web Evaluation Tools](https://accessibility.oit.ncsu.edu/tools/web-evaluation-tools/) udostępniona przez IT Accessibility z NC State University 
 
 
