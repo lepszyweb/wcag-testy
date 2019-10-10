@@ -17,21 +17,21 @@ Kryterium sukcesu: [1.3.4 Orientacja](https://wcag.lepszyweb.pl/?showtechniques=
 
 ### Instrukcje testowania:
 1.	Sprawdź, czy możliwe jest skorzystanie z mechanizmu zmiany rozmiaru, skalowania lub powiększenia treści co najmniej do 200% oryginalnego rozmiaru. Mogą to być m.in. poniższe rozwiązania:
--	funkcja powiększania w przeglądarce,
--	funkcje powiększania zapewniane przez platformę lub system operacyjny,
--	przełączniki rozmiaru tekstu zapewnione przez stronę  
+    -	funkcja powiększania w przeglądarce,
+    -	funkcje powiększania zapewniane przez platformę lub system operacyjny,
+    -	przełączniki rozmiaru tekstu zapewnione przez stronę  
 2.	Sprawdź, czy po dwukrotnym powiększeniu szerokości i wysokości obszaru roboczego (o 200 %):
--	cała treść strony jest nadal dostępna,
--	cała funkcjonalność strony jest nadal dostępna, 
--	tekst nie jest skracany, obcinany ani zasłaniany,
--	tekst w polach formularza również zmienia rozmiar,
+    -	cała treść strony jest nadal dostępna,
+    -	cała funkcjonalność strony jest nadal dostępna, 
+    -	tekst nie jest skracany, obcinany ani zasłaniany,
+    -	tekst w polach formularza również zmienia rozmiar,
 3.	Sprawdź, czy po dwukrotnym powiększeniu szerokości i wysokości tekstu (o 200 %):
--	cała treść strony jest nadal dostępna,
--	cała funkcjonalność strony jest nadal dostępna, 
--	tekst nie jest skracany, obcinany ani zasłaniany,
--	tekst w polach formularza również zmienia rozmiar,
+    -	cała treść strony jest nadal dostępna,
+    -	cała funkcjonalność strony jest nadal dostępna, 
+    -	tekst nie jest skracany, obcinany ani zasłaniany,
+    -	tekst w polach formularza również zmienia rozmiar,
 4.	Sprawdź czy po zmianie ułożenia (orientacji) wyświetlacza z poziomego na pionowe i odwrotnie cała treść dostosowuje swój rozmiar do zmienionej orientacji wyświetlacza, z wyjątkiem przypadków, gdy do wyświetlenia zawartości konieczna jest określona orientacja ekranu.
--	Sprawdź czy po zmianie ułożenia (orientacji) wyświetlacza z poziomego na pionowe i odwrotnie całą treść można przeglądać bez konieczności przewijania jej w dwóch kierunkach, z wyjątkiem przypadków, gdy określona orientacja jest niezbędna ze względu na znaczenie lub funkcjonalność.
+    -	Sprawdź czy po zmianie ułożenia (orientacji) wyświetlacza z poziomego na pionowe i odwrotnie całą treść można przeglądać bez konieczności przewijania jej w dwóch kierunkach, z wyjątkiem przypadków, gdy określona orientacja jest niezbędna ze względu na znaczenie lub funkcjonalność.
 
 ### Pomocne narzędzia:
 -	skryptozakładka [Reset Text Size](http://adrianroselli.com/2015/01/css-bookmarklets-for-testing-and-fixing.html) z kolekcji Adriana Roselliego. Przywraca domyślny rozmiar tekstu dla elementu body, dostosowując rozmiar tekstu do preferencji ustawionych w przeglądarce.
