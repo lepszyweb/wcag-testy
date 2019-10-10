@@ -1,4 +1,5 @@
 - **Nowe**
+ - [Limity czasu](testy/H_00_limitczasu.md) 
  - [CAPTCHA](testy/H_01_captcha.md)
  - [Identyfikacja języka](testy/H_02_identyfikacja_jezyka.md)
  - [Nagłówek - logo](testy/H_03_logo.md)
@@ -16,7 +17,7 @@
  - [Tabele](testy/H_15_tabele.md)
  - [Nawigacja sekwencyjna](testy/H_16_nawigacja-sekwencyjna.md) 
  - [Łącza](testy/H_17_linki.md) 
- 
+  - [Obrazy](testy/H_18_obrazy.md) 
  
  
 - **Przegląd wstępny**
