@@ -35,9 +35,9 @@ Zidentyfikuj instrukcje dotyczące rozumienia i obsługi treści, które wykorzy
 
 ### Instrukcja testowania
 1.  Sprawdź, czy instrukcje zawierają dodatkowe informacje, które pozwalają na lokalizację, identyfikację i zrozumienie elementu bez jakiejkolwiek wiedzy o jego kształcie, rozmiarze lub względnej pozycji. Na przykład,
-    -   Aby zobaczyć zmiany, wybierz okrągły przycisk z napisem „Idź” (dodatkowa informcja o napisie na przycisku).
-    -   Linki po prawej stronie, z nagłówkiem „Zasoby”, zawierają dalsze informacje (dodatkowa informcja o nagłówku).
-    -   Wybierz przycisk \[CAnuluj\] w prawym dolnym rogu, aby zamknąć tę sesję (podana nazwa przycisku).
+    -   Aby zobaczyć zmiany, wybierz okrągły przycisk z napisem „Idź” (dodatkowa informacja o napisie na przycisku).
+    -   Linki po prawej stronie, z nagłówkiem „Zasoby”, zawierają dalsze informacje (dodatkowa informacja o nagłówku).
+    -   Wybierz przycisk \[Anuluj\] w prawym dolnym rogu, aby zamknąć tę sesję (podana nazwa przycisku).
 2.  Sprawdź, czy wszelkie wskazówki dźwiękowe dostarczają wskazówek wizualne i/lub tekstowych określonych programowo. Na przykład,
     -   Rozpocznij quiz po usłyszeniu sygnału dźwiękowego i pojawieniu się czasomierza.
 

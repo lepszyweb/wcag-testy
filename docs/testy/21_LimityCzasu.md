@@ -16,7 +16,7 @@
 Określić, czy i w jaki sposób użytkownik może modyfikować ograniczenia czasowe, automatyczne odtwarzanie i automatyczną aktualizację.
 
 ## Ograniczenia, założenia lub wyjątki
-- Ograniczenie czas z powodów spełniajacych którekolwiek z poniższych kryteriów nie jest uwzględniane w tym teście:
+- Ograniczenie czasu z powodów spełniajacych którekolwiek z poniższych kryteriów nie jest uwzględniane w tym teście:
     -   **Wyjątek dotyczący czasu rzeczywistego:** Limit czasowy jest wymaganym komponentem jakiejś czynności w czasie rzeczywistym (np. aukcji) i nie ma możliwości zmiany limitu, lub:
     -   **Wyjątek dotyczący istoty czynności:** Limit czasowy jest istotny i wydłużenie go anulowałoby lub zaburzałoby daną czynność, lub:
     -   **Wyjątek 20 godzin:** Limit czasowy przekracza 20 godzin.
