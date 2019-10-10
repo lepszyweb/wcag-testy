@@ -36,7 +36,7 @@ Kryterium sukcesu: [1.3.4 Orientacja](https://wcag.lepszyweb.pl/?showtechniques=
 ### Pomocne narzędzia:
 -	skryptozakładka [Reset Text Size](http://adrianroselli.com/2015/01/css-bookmarklets-for-testing-and-fixing.html) z kolekcji Adriana Roselliego. Przywraca domyślny rozmiar tekstu dla elementu body, dostosowując rozmiar tekstu do preferencji ustawionych w przeglądarce.
 -	skryptozakładka [Text Spacing Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access. Zwiększa odstępy w tekście, aby przetestować kryterium sukcesu 1.4.12
--	skryptozakładka [LargeText](https://jimthatcher.com/favelets/ z kolekcji Jima Tatchera
+-	skryptozakładka [LargeText](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera
 -	skryptozakładka [Set text size](https://github.com/ThePacielloGroup/bookmarklets) z kolekcji Pacciello Group 
 -	skryptozakładka [Text spacing](https://github.com/ThePacielloGroup/bookmarklets) z kolekcji Pacciello Group 
 
