@@ -4,7 +4,7 @@
 Test nawigacji klawiaturą, narzędzie ujawniającego sekwencję nawigacji po stronie tabulatorem. 
 
 ### Oczekiwania:
-Kryterium sukcesu: 2.4.3 Kolejność fokusa
+Kryterium sukcesu: [2.4.3 Kolejność fokusa](https://wcag.lepszyweb.pl/#focus-order)
 -	Podczas nawigacji po stronie  tabulatorem (klawiszem Tab na klawiaturze) wszystkie interaktywne obiekty otrzymują fokus w momencie oznaczenia są ustawiane ostrością podczas nawigacji za pomocą klawisza tabulatora.
 -	Żaden nieinteraktywny element strony nie otrzymuje wskaźnika fokusu (pola formularzy oznaczone „tylko do odczytu” uznajemy za elementy interaktywne).
 -	Kolejność, w jakiej obiekty otrzymują fokus, jest logiczna i odpowiada oczekiwanej kolejności wizualnej.

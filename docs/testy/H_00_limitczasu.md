@@ -26,5 +26,5 @@ Kryterium sukcesu: [2.2.1 Możliwość dostosowania czasu](https://wcag.lepszywe
 3.	Sprawdź, czy użytkownik jest powiadamiany, że sesja wygasła oraz czy w powiadomieniu znajduje się prosta instrukcja, jak powrócić do sesji (np. „Zaloguj się ponownie”).
 
 ### Pomocne narzędzia i zasoby:
-•	Przeczytaj: [SSA Accessibility Best Practices Library](https://www.ssa.gov/accessibility/bpl/bps/forms/timeout/default.htm)
-•	Przeczytaj: [Accessible timeout notifications](https://tink.uk/accessible-timeout-notifications/)
+-	Przeczytaj: [SSA Accessibility Best Practices Library](https://www.ssa.gov/accessibility/bpl/bps/forms/timeout/default.htm)
+-	Przeczytaj: [Accessible timeout notifications](https://tink.uk/accessible-timeout-notifications/)

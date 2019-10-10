@@ -1,34 +1,45 @@
-# Porządek nawigacji tabulatorem
+## Obrazy
 
 ### Metoda badania: 
-Test nawigacji klawiaturą, narzędzie ujawniającego sekwencję nawigacji po stronie tabulatorem. 
+Inspekcja kodu, wyłączenie wyświetlania obrazów, użycie narzędzia ujawniającego teksty alternatywne
 
 ### Oczekiwania:
-Kryterium sukcesu: 2.4.3 Kolejność fokusa
--	Podczas nawigacji po stronie  tabulatorem (klawiszem Tab na klawiaturze) wszystkie interaktywne obiekty otrzymują fokus w momencie oznaczenia są ustawiane ostrością podczas nawigacji za pomocą klawisza tabulatora.
--	Żaden nieinteraktywny element strony nie otrzymuje wskaźnika fokusu (pola formularzy oznaczone „tylko do odczytu” uznajemy za elementy interaktywne).
--	Kolejność, w jakiej obiekty otrzymują fokus, jest logiczna i odpowiada oczekiwanej kolejności wizualnej.
--	Jeśli na stronie pojawia się dialogowe okno modalne, fokus przechodzi do okna dialogowego i pozostaje w nim dopóki użytkownik nie zamknie okna.  
--	Zmiany treści w obszarach dynamicznych (*live regions*), o ile nie zawierają treści interaktywnych, nie wymagają zmiany fokusa 
-
-*Uwaga*: Chociaż jest to powszechna i dobra praktyka, nie jest wymagane, aby oznaczanie fokusem następowało w kolejności od lewej do prawej krawędzi strony i od góry do dołu.
+Kryterium sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-text-content), [1.4.11 Kontrast elementów nietekstowych](https://wcag.lepszyweb.pl/#non-text-contrast)
+-	Strona z wyłączonym wyświetlaniem obrazów przekazuje te same informacje i posiada tę samą funkcjonalność, co strona z włączonym wyświetlaniem obrazów.  
+-	Każdy obraz, który przekazuje informację, znaczenie lub kontekst ma:
+    - tekst alternatywny, który zapewnia te same informacje, znaczenie, kontekst **ALBO**
+    - dostępny odpowiednik tekstowy w sąsiedztwie obrazu, który zapewnia te same informacje, znaczenie, kontekst **ALBO**
+    - zwięzły tekst alternatywny i łącze do odpowiednika tekstowego, który zapewnia te same informacje, znaczenie, kontekst
+-	Każdy obraz, dla którego w bezpośrednim sąsiedztwie zapewniono równoważny odpowiednik tekstowy, może mieć, ale nie musi, zwięzły tekst alternatywny. 
+-	Każdy obraz, który jest łączem lub kontrolką formularza, np. przyciskiem, posiada tekst alternatywny, który przekazuje cel łącza lub funkcję kontrolki.
+-	Każdy obraz dekoracyjny, który nie przekazuje informacji, znaczenia ani kontekstu, spełnia co najmniej jeden z poniższych warunków:
+    - posiada pusty tekst alternatywny **ALBO**
+    - posiada atrybut roli ARIA: `role="presentation"`, **ALBO**
+    - posiada atrybut `aria-hidden="true"`, **ALBO**
+    - jest osadzony w tle za pomocą CSS.
+-	Obrazy nie są wykorzystywane do przekazywania informacji tekstowych, chyba że prezentacja tekstu w formacie obrazu jest konieczna.
+-	Każdy obraz, który przekazuje informacje tekstowe, posiada tekst alternatywny, który przekazuje dokładnie te same informacje.
+-	Każdy obraz, który służy jako łącze lub kontrolka formularza, zachowuje wymagany współczynnik kontrastu pierwszego planu do tła wynoszący co najmniej 3:1  
+-	Każdy obraz, który przekazuje informacje tekstowe, spełnia wymagania dotyczące kontrastu, z wyjątkiem, gdy jest to obraz logo.
 
 ### Instrukcja testowania:
-1.	Ustaw kursor w pasku adresu przeglądarki, a następnie użyj klawisza Tab, aby przemieszczać się do kolejnych interaktywnych elementów strony (łącza, przyciski, przełączniki, pola formularzy, itd.).  Nie używaj myszy.
-2.	Sprawdź, czy kolejność ustawiania fokusa zachowuje znaczenie i użyteczność strony.
+1.	Znajdź wszystkie obrazy na stronie i oceń każdy obraz, czy jest znaczący, czy dekoracyjny. 
+2.	Sprawdź, czy kombinacja dostępnej nazwy i dostępnego opisu każdego obrazu niosącego informacje, znaczenie lub kontekst zapewnia równoważne informacje, znaczenie lub kontekst.
+3.	Sprawdź, czy znajdujący się w treści strony odpowiednik tekstowy każdego obrazu niosącego informacje, znaczenie lub kontekst jest programowo powiązany z obrazem, którego dotyczy.
 
 ### Pomocne narzędzia:
--	skryptozakładka [Focus Interactive Controls](http://adrianroselli.com/2015/01/css-bookmarklets-for-testing-and-fixing.html) z kolekcji Adriana Roselliego. Zamiast uderzać wielokrotnie w klawisz tabulatura, aby sprawdzić style fokusa, kolejność odczytu, usłyszeć, jak czytnik ekranu ogłasza kolejne elementy, uruchom tę zakładkę. Nie będzie można jej zatrzymać do ukończenia zadania. Na każdym elemencie wskaźnik fokusa zostanie zatrzymany na 1 sekundę (możesz dostosować ten czas w kodzie zakładki). Możesz również dostosować selektor CSS, aby testować interaktywne elementy np. tylko w obszarze main.
--	skryptozakładka [Force show focus](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama. Dodaje jednolity pomarańczowy kontur o rozmiarze 4 pikseli wokół wszystkich elementów interaktywnych, gdy staja się punktem uwagi podczas tabulacji.
--	Opcja *tables* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
--	Opcja *Trace tab path* oferowana w dodatku [ChromeLens](https://chrome.google.com/webstore/detail/chromelens/idikgljglpfilbhaboonnpnnincjhjkd). Z testu tabulacji otrzymasz plik graficzny w formacie PNG pokazujący trasę fokusa.  
--	Opcja *Show Tab Stops* w narzędziu [Accessibility Insights for Web](https://accessibilityinsights.io/) firmy Microsoft 
+-	skryptozakładka [Images](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
+-	skryptozakładka [Active Images](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera
+-	skryptozakładka [Img-Alt Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access
+-	opcja graphics/images w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
 
 ### Wykorzystanie skryptozkładki ANDI
-![Wykorzystanie skryptozkładki ANDI](/img/andi_kolejnosc_fokusa.png)
-1.	Uruchom skryptozakładkę ANDI. 
-2.	Wybierz z menu ANDI opcję *focusable elements* i zaznacz w menu poziomym opcję *tab order*. 
-3.	Sprawdź czy porządek otrzymywania fokusa przez elementy interaktywne oznaczony liczbami odpowiada jest logiczny i oczekiwany.  
+![Wykorzystanie skryptozkładki ANDI](/img/andi-images.png)
+1.	Uruchom skryptozakładkę ANDI i wybierz z menu ANDI opcję *graphic/images*.  
+2.	ANDI wykryje wszystkie elementy graficzne na stronie i poda zwięzłą statystykę (Znalezionych obrazów (*Images found*) – XX, XX obrazów w tekście (*inline images*), X obrazów łączy (*image links*), XX ikon z fontów (*font icons*) oraz XX obrazów tła (*background-images*)
+3.	Sprawdź w sekcji *Element*, czy obraz posiada dostępną nazwę lub opis powiązane programowo (atrybut `alt`, `title` i inne).
+4.	Sprawdź w sekcji *ANDI Output*, treść tekstowego odpowiednika obrazu, jaką ogłoszą czytniki ekranu.  
+5.	Rozważ ostrzeżenia wyszczególnione w sekcji *Graphics Alerts*.
+6.	Za pomocą przełącznika wykrytych elementów przejdź do testowania następnego obrazu.  
 
-
-
+*Uwaga*: ANDI oznacza na stronie analizowane obrazy wyraźnym konturem.  
