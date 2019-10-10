@@ -20,6 +20,7 @@
  - [Obrazy](testy/H_18_obrazy.md) 
  - [Kolor](testy/H_19_kolor.md) 
  - [Odwołania do cech zmysłowych](testy/H_20_cechy-zmyslowe.md) 
+ - [Zmiany rozmiaru i orientacjii](testy/H_21_zmiany-rozmiaru-i-orientacji.md) 
  
 - **Przegląd wstępny**
  - [Wprowadzenie](testy/00_pw_wprowadzenie.md)
