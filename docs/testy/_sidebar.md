@@ -17,8 +17,9 @@
  - [Tabele](testy/H_15_tabele.md)
  - [Nawigacja sekwencyjna](testy/H_16_nawigacja-sekwencyjna.md) 
  - [Łącza](testy/H_17_linki.md) 
-  - [Obrazy](testy/H_18_obrazy.md) 
- 
+ - [Obrazy](testy/H_18_obrazy.md) 
+ - [Kolor](testy/H_19_kolor.md) 
+ - [Odwołania do cech zmysłowych](testy/H_20_cechy-zmyslowe.md) 
  
 - **Przegląd wstępny**
  - [Wprowadzenie](testy/00_pw_wprowadzenie.md)
