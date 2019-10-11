@@ -24,7 +24,7 @@
  - [Mruganie, miganie, błyskanie](testy/H_22_mruganie-i-miganiei.md) 
  - [Porządek czytania](testy/H_23_porzadek-czytania.md) 
  - [Formularze: Etykiety i instrukcje](testy/H_24_formularze-etykiety-i-instrukcje.md) 
- 
+ - [Formularze: Wykrywanie i poprawianei błędów](testy/H_25_formularze-bledy.md) 
 - **Przegląd wstępny**
  - [Wprowadzenie](testy/00_pw_wprowadzenie.md)
  - [1. Tytuł strony](testy/01_pw_tytulStrony.md)

@@ -14,7 +14,7 @@ Wszystkie obrazy  znaczące i dekoracyjne muszą zostać ocenione. Określono te
 -   **CAPTCHA**: Jeśli celem treści nietekstowej jest potwierdzenie, że do treści ma dostęp człowiek, a nie komputer, wtedy dostarcza się alternatywę w postaci tekstu, która identyfikuje oraz opisuje cel treści nietekstowej. Dostarcza się również alternatywnych zabezpieczeń typu CAPTCHA, dostosowanych do różnych możliwości percepcji użytkowników, uwzględniając różne rodzaje niepełnosprawności.
 -   Obrazy tekstu, które są niezbędne do przekazywania informacji, są wyłączone z KS 1.4.5. Tekst, który jest częścią logo lub nazwy własnej produktu, jest w tym przypadku uznawany za istotny.
 -   [Definicja obrazu tekstu](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html#images-of-textdef) zawiera uwagę: „Uwaga: Nie dotyczy to tekstu znajdującego się na obrazie, w którym ważna jest inna treść wizualna.” Przykłady takich zdjęć obejmują wykresy, zrzuty ekranu i diagramy, które wizualnie przekazują ważne informacje za pomocą czegoś więcej niż tylko tekstu.
--   Równoważne opisy obrazu w tekście strony mogą pozwolić na uznanie obrazu za dekoracyjny. Nie wymaga to jednak usunięcia z obrazu żadnych dostępnych atrybutów tekstowych.
+-   Równoważne opisy obrazu w tekście strony pozwolają uznać obraz za dekoracyjny. Nie wymaga to jednak usunięcia z obrazu żadnych dostępnych atrybutów tekstowych.
 -   Chociaż historycznie atrybut longdesc był używany w celu zapewnienia rozszerzonego opisu obrazów i jest wymieniony jako wystarczająca technika w WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), technika  ta [nie jest obecnie dobrze obsługiwana pod względem dostępności ](https://webaim.org/techniques/alttext/longdesctestcases.htm) i nie jest częścią [dostępnej nazwy ani sposobem zapewnienia dostępnego opisu dla obrazu](https://www.w3.org/TR/html-aam-1.0/#img-element); dlatego ten test podstawowy nie akceptuje wspomnianej techniki.
 
 ## Procedura testu dla KS 1.1.1 Treść nietekstowa oraz 4.1.2 Nazwa, rola, wartość
@@ -27,6 +27,7 @@ Wszystkie obrazy  znaczące i dekoracyjne muszą zostać ocenione. Określono te
     -   **Tekst:** obraz tekstu, z wyjątkiem sytuacji, gdy tekst jest częścią logo
 
 ### Obrazy znaczące
+
 #### Instrukcja testowania
 Jeśli jest to obraz znaczący (przekazuje informacje):
 1.  Sprawdź, czy kombinacja dostępnej nazwy i dostępnego opisu zapewnia równoważny opis. Wiele atrybutów służy do ustalenia dostępnej nazwy i dostępnego opisu. Zobacz [Mapowanie API dostępności HTML 1.0 dla img](https://www.w3.org/TR/html-aam-1.0/#img-element).

@@ -23,7 +23,7 @@ Wszystkie łącza i przyciski, w tym te, które są elementami skryptowymi i kt�
 
 ### Instrukcja testowania
 
-1.  Sprawdź, czy cel każdego linku i przycisku można określić na podstawie dowolnej kombinacji tekstu linku, [dostępnej nazwy, dostępnego opisu](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation) lub poprzedzajacego bezpośrednio kontekstu strony (ten sam akapit, lista lub komórka tabeli, w której znajduje się łącza lub komórka nagłówka tabeli, z którą jest powiązana komórka zawierająca łącze).
+1.  Sprawdź, czy cel każdego linku i przycisku można określić na podstawie dowolnej kombinacji tekstu linku, [dostępnej nazwy, dostępnego opisu](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation) lub poprzedzającego bezpośrednio kontekstu strony (ten sam akapit, lista lub komórka tabeli, w której znajduje się łącza lub komórka nagłówka tabeli, z którą jest powiązana komórka zawierająca łącze).
 
 ### Wynik testów
 

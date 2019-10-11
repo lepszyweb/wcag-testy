@@ -24,8 +24,8 @@ Cały tekst na stronie.
     -   Kontrolki do zmiany rozmiaru tekstu. (Jeśli funkcja powiększenia przeglądarki, systemu operacyjnego lub platformy nie jest obsługiwana przez stronę, strona musi zawierać mechanizm zmiany rozmiaru).
 2.  Zmodyfikuj rozmiar czcionki, aby zwiększyć dwukrotnie szerokość i wysokość lub zwiększyć ją o 200%.
 3.  Sprawdź wszystkie następujące elementy:
-    -   tekst nie jest obcinany, obcinany ani zasłaniany
-    -   tekst wprowadzany wpolach formularza równiez mienia rozmiar
+    -   tekst nie jest skracany, obcinany ani zasłaniany
+    -   tekst wprowadzany w polach formularza również zmienia rozmiar
     -   cała funkcjonalność jest dostępna
     -   cała zawartość jest dostępna
 

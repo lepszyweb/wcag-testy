@@ -40,3 +40,10 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
 
 ### Wykorzystanie skryptozkładki ANDI
 ![Wykorzystanie skryptozkładki ANDI](/img/andi-forms.png) 
+1.	Uruchom skryptozakładkę ANDI i wybierz z menu opcję *focusable elements*.
+2.	Użyj przełącznika między wykrytymi elementami strony, aby wybierać komponenty formularzy do analizy.
+3.	Dane wybranego komponentu (znacznik, typ,...) pojawiają obok etykiety *Element*.
+4.	Sprawdź w sekcji podsumowującej informacje statystyczne o liczbie wykrytych elementów i możliwych problemach 
+5.	Sprawdź w sekcji *Accessibility Component*, jakie właściwości decydujące o dostępności komponentu zostały wdrożone oraz jakie defekty lub możliwe defekty zostały wykryte. Zbadaj dokładnie każdy z wykrytych defektów. 
+6.	Sprawdź w sekcji *ANDI Output*, czy użytkownik technologii wspomagającej zostanie wystarczająco i odpowiednio poinstruowany, jakie podać dane i w jakim formacie.   
+
