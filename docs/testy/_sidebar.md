@@ -23,6 +23,7 @@
  - [Zmiany rozmiaru i orientacji](testy/H_21_zmiany-rozmiaru-i-orientacji.md) 
  - [Mruganie, miganie, błyskanie](testy/H_22_mruganie-i-miganiei.md) 
  - [Porządek czytania](testy/H_23_porzadek-czytania.md) 
+ - [Formularze: Etykiety i instrukcje](testy/H_24_formularze-etykiety-i-instrukcje.md) 
  
 - **Przegląd wstępny**
  - [Wprowadzenie](testy/00_pw_wprowadzenie.md)

@@ -26,5 +26,14 @@ Kryteria sukcesu: [1.4.3 Kontrast (minimalny)](https://wcag.lepszyweb.pl/#contra
 -	skryptozakładka [Tota11y](https://khan.github.io/tota11y/) 
 -	skryptozakładka [Grayscale](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
 -	skryptozakładka [Grayscale](https://thomaspark.co/2013/11/3-simple-design-bookmarklets-to-improve-your-aesthetics/) z kolekcji Thomasa Parka. Wyświetla stronę w skali szarości. Pomaga wykryć obszary, które mogą mieć wystarczający kontrast w kolorze, ale nie mają wystarczającego kontrastu w skali szarości, co ma znaczenie dla dostępności dla osób dotkniętych zaburzeniami widzenia kolorów.
+-	opcja contrast w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
 
+### Wykorzystanie skryptozkładki ANDI
+![Wykorzystanie skryptozkładki ANDI]() 
+1.	Uruchom skryptozakładkę ANDI i wybierz z menu ANDI opcję *color contrast*. 
+2.	Zobacz informację o liczbie wykrytych na stronie elementów oraz zapoznaj się z alertami dotyczącymi wykrytych problemów z kontrastem.  
+3.	ANDI przedstawia wynik testu kontrastu dla każdego wykrytego na stronie elementu.
+4.	Informacja obejmuje faktyczny współczynnik kontrastu, stwierdzenie zgodności z wymaganiami (*FAIL* – niezgodny, *PASS* – zgodny), właściwości stylu (kolor tekstu, kolor tła, rozmiar fontu) oraz sugerowaną wartość koloru tła, aby zapewnić zgodność).
+5.	Jeżeli kontrast jest niezgodny z wymaganiami, ANDI wyświetla stosowny komunikat.   
+6.	Posługując się przełącznikiem między wykrytymi elementami struktury strony, sprawdź poprawność kontrastu wszystkich wykrytych na stronie elementów 
 
