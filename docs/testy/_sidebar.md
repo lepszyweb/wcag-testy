@@ -25,6 +25,9 @@
  - [Porządek czytania](testy/H_23_porzadek-czytania.md) 
  - [Formularze: Etykiety i instrukcje](testy/H_24_formularze-etykiety-i-instrukcje.md) 
  - [Formularze: Wykrywanie i korygowanie błędów](testy/H_25_formularze-bledy.md) 
+ - [Media dynamiczne - tylko audio](testy/H_26_media-tylko-audio.md) 
+ - [Media dynamiczne - tylko wideo](testy/H_27_media-tylko-wideo.md) 
+ 
 - **Przegląd wstępny**
  - [Wprowadzenie](testy/00_pw_wprowadzenie.md)
  - [1. Tytuł strony](testy/01_pw_tytulStrony.md)
