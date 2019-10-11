@@ -8,7 +8,7 @@ Kontrola wzrokowa, inspekcja kodu
 -	Wszystkie instrukcje i wskazówki tekstowe i graficzne związane z kontrolkami formularzy, w tym dotyczące zgrupowania pól, kolejności wypełniania, specjalnych warunków lub kwalifikatorów, instrukcji formatowania, itp.   
 
 ### Oczekiwania:
-Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-text-content), [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#headings-and-labels), [2.4.6 Nagłówki i etykiety](https://wcag.lepszyweb.pl/#headings-and-labels), [3.3.2 Etykiety lub instrukcje](https://wcag.lepszyweb.pl/#labels-or-instructions), [1.3.5 Określenie pożądanej wartości](https://wcag.lepszyweb.pl/#identify-input-purpose), 
+Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-text-content), [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#headings-and-labels), [1.3.5 Określenie pożądanej wartości](https://wcag.lepszyweb.pl/#identify-input-purpose), [2.4.6 Nagłówki i etykiety](https://wcag.lepszyweb.pl/#headings-and-labels), [3.3.2 Etykiety lub instrukcje](https://wcag.lepszyweb.pl/#labels-or-instructions), [2.5.3 Etykieta w nazwie](https://wcag.lepszyweb.pl/#label-in-name)
 -	Wszystkie pola i kontrolki w formularzu posiadają powiązaną programowo etykietę tekstową (grupy pól mogą współdzielić etykietę). 
 -	Pola formularza z wieloma etykietami są oznaczone za pomocą legendy grupy pól lub etykietą wskazaną atrybutem `aria-labelldedby`.
 -	Elementom `label` zawierającym unikalne etykiety tekstowe w atrybucie `for` przypisane są prawidłowe wartości identyfikatorów pól, do których się odnoszą  
