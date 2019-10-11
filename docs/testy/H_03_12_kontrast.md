@@ -29,7 +29,7 @@ Kryteria sukcesu: [1.4.3 Kontrast (minimalny)](https://wcag.lepszyweb.pl/#contra
 -	opcja contrast w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
 
 ### Wykorzystanie skryptozkładki ANDI
-![Wykorzystanie skryptozkładki ANDI]() 
+![Wykorzystanie skryptozkładki ANDI](andi-kontrast.png) 
 1.	Uruchom skryptozakładkę ANDI i wybierz z menu ANDI opcję *color contrast*. 
 2.	Zobacz informację o liczbie wykrytych na stronie elementów oraz zapoznaj się z alertami dotyczącymi wykrytych problemów z kontrastem.  
 3.	ANDI przedstawia wynik testu kontrastu dla każdego wykrytego na stronie elementu.
