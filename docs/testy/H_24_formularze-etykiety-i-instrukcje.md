@@ -17,7 +17,7 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
 -	Etykieta tekstowa pozostaje widoczna, gdy pole posiada fokus klawiatury i po wypełnieniu pola 
 -	Etykiety i instrukcje zawierają wystarczające szczegóły, w tym wszelkie wymagania dotyczące formatowania (w tym reguły dotyczące hasła) oraz informacje, czy pole jest wymagane.
 -	Opisy formatowania lub inne krytyczne instrukcje w celu prawidłowego wypełnienia pola są dodawane za pomocą atrybutu `aria-describedby` lub w etykiecie pola formularza.
--	Stosowane są odpowiednie atrybuty typu danych ([HTML 5 input types](http://www.w3.org/TR/html52/sec-forms.html#sec-states-of-the-type-attribute)).
+-	Stosowane są odpowiednie atrybuty typu danych (Zobacz: [HTML 5 input types](http://www.w3.org/TR/html52/sec-forms.html#sec-states-of-the-type-attribute)).
 -	Stosuje się odpowiednie atrybuty autouzupełniania.
 
 ### Instrukcje testowania
@@ -39,4 +39,4 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
 -	Opcja links/buttons w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
 
 ### Wykorzystanie skryptozkładki ANDI
-![Wykorzystanie skryptozkładki ANDI](/img/andi-tabela.png) 
+![Wykorzystanie skryptozkładki ANDI](/img/andi-forms.png) 
