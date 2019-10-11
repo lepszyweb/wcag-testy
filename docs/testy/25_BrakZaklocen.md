@@ -18,7 +18,7 @@ Brak.
 ## Procedura testu dla Wymagania zgodności 5
 
 ### Identyfikacja treści
-Podstawowe testy dla [1.4.2 oraz 2.2.2](2121LimityCzasu.md), [2.1.2](01Klawiatura.md), [2.3.1](09Miganie.md).
+Podstawowe testy dla [1.4.2 oraz 2.2.2](21_LimityCzasu.md), [2.1.2](01_Klawiatura.md), [2.3.1](09_Miganie.md).
 
 ### Instrukcja testowania
 1.  Sprawdź, czy wszystkie testy zakończyły się powodzeniem (zostły zaliczone). 

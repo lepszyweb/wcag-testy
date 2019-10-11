@@ -2,7 +2,7 @@
 
 ## Wymagania dostępności
 ---------------------
--   [KS WCAG: 1.4.3 Kontrast (minimum)](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) -- Wizualne przedstawienie tekstu, lub obrazu tekstu posiada kontrast wynoszący przynajmniej 4,5:1, poza następującymi wyjątkami::
+-   [KS WCAG: 1.4.3 Kontrast (minimum)](https://wcag.lepszyweb.pl/#contrast-minimum) -- Wizualne przedstawienie tekstu, lub obrazu tekstu posiada kontrast wynoszący przynajmniej 4,5:1, poza następującymi wyjątkami:
     -   **Duży tekst**: Duży tekst oraz grafiki takiego tekstu posiadają kontrast przynajmniej 3:1.;
     -   **Przypadkowość**: Nie stosuje się wymogów minimalnego kontrastu dla tekstów lub obrazu tekstu, będących elementem nieużywanych części interfejsu użytkownika, mających cel czysto dekoracyjny, nie są widoczne lub też są częścią obrazu zawierającego inne istotne treści wizualne.
     -   **Logo**: Nie wymaga się minimalnego kontrastu dla tekstu, który jest częścią logo lub nazwy własnej produktu (marki)

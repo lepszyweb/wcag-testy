@@ -2,7 +2,7 @@
 
 ## Wymagania dostępności
 
--   [KS WCAG 2.4.5 Wiele dróg](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html) -- Istnieje więcej niż jedna droga umożliwiająca zlokalizowanie strony w danym serwisie internetowym, za wyjątkiem sytuacji, kiedy dana strona jest wynikiem jakiejś procedury lub jednym z jej etapów.
+-   [KS WCAG 2.4.5 Wiele dróg](https://wcag.lepszyweb.pl/#multiple-ways) -- Istnieje więcej niż jedna droga umożliwiająca zlokalizowanie strony w danym serwisie internetowym, za wyjątkiem sytuacji, kiedy dana strona jest wynikiem jakiejś procedury lub jednym z jej etapów.
 
 ## Uzasadnienie metody badania
 Ten test podstwowy wymaga ręcznego sprawdzenia kilku różnych technik służacych lokalizacji strony w zestawie stron.

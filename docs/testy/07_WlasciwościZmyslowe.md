@@ -2,8 +2,8 @@
 
 ## Wymagania dostępności
 ----------------------
--   [KS WCAG 1.4.1 Użycie koloru](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html) -- Kolor nie jest wykorzystywany jako jedyny wizualny sposób przekazywania informacji, wskazywania czynności do wykonania lub oczekiwania na odpowiedź, czy też wyróżniania elementów wizualnych.
--   [KS WCAG 1.3.3 Właściwości zmysłowe](http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html) -- Instrukcje co do zrozumienia i operowania treścią nie opierają się wyłącznie na właściwościach zmysłowych, takich, jak kształt, rozmiar, wzrokowa lokalizacja, orientacja w przestrzeni lub dźwięk.
+-   [KS WCAG 1.4.1 Użycie koloru](https://wcag.lepszyweb.pl/#use-of-color) -- Kolor nie jest wykorzystywany jako jedyny wizualny sposób przekazywania informacji, wskazywania czynności do wykonania lub oczekiwania na odpowiedź, czy też wyróżniania elementów wizualnych.
+-   [KS WCAG 1.3.3 Właściwości zmysłowe](https://wcag.lepszyweb.pl/#sensory-characteristics) -- Instrukcje co do zrozumienia i operowania treścią nie opierają się wyłącznie na właściwościach zmysłowych, takich, jak kształt, rozmiar, wzrokowa lokalizacja, orientacja w przestrzeni lub dźwięk.
 
 ## Uzasadnienie metody badania
 ------------------------------

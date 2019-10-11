@@ -1,14 +1,14 @@
 # 2. Widoczny fokus
 
 ## Wymagania dostępności
--   [KS WCAG: 2.4.7 Widoczny fokus](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html) -- Każdy interfejs możliwy do nawigacji za pomocą klawiatury, posiada widoczny wskaźnik fokusa klawiatury.
+-   [KS WCAG: 2.4.7 Widoczny fokus](https://wcag.lepszyweb.pl/#focus-visible) -- Każdy interfejs możliwy do nawigacji za pomocą klawiatury, posiada widoczny wskaźnik fokusa klawiatury.
 
 ## Uzasadnienie metody badania
 Ręczna nawigacja lub sterowanie interfejsem tylko za pomocą klawiatury umożliwi testerowi rozpoznanie, kiedy nie ma wizualnego rozróżnienia między elementem posiadajacym fokus a resztą interfejsu lub zawartości.
 
 ## Ograniczenia, założenia lub wyjątki
 -   Niektóre elementy interfejsu (np. tekst na ekranie do instrukcji wypełniania formularzy), które nie są zwykle uważane za interaktywne, mogą być w kolejności tabulacji. Takie komponenty interfejsu powinny otrzymywać widoczny fokus, gdy użytkownik nawiguje do nich za pomocą klawiatury.
--   Częścią tego testu jest widoczność fokusa na łączach pomijajacych.
+-   Częścią tego testu jest widoczność fokusa na łączach pomijających.
 -   Przełączanie fokusa na odkrywane treści nie jest tutaj testowane. Zobacz [5. Treść zmienna](05_TrescZmienna.md)
 -   Utrata widocznego fokusa nie powinna wystąpić podczas ręcznego przesuwania fokusa przez stronę (za pomocą TAB lub klawiszy strzałek). Jednak po uruchomieniu funkcji, która przemieszcza fokus (np. odsłonięcie wewnętrznego łącza strony lub ukrytej zawartości), może być konieczne ręczne przesunięcie fokusa za pomocą klawiatury, zanim fokus stanie się ponownie widoczny. To nie jest uważane za defekt.
 

@@ -2,7 +2,7 @@
 
 ## Wymagania dostępności
 --------------------------
--   [WCAG2: KS 2.4.2 Tytuły stron](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html) -- Strony internetowe posiadają tytuły, które opisują ich cel lub przedstawiają ich temat.
+-   [WCAG2: KS 2.4.2 Tytuły stron](https://wcag.lepszyweb.pl/#page-titled) -- Strony internetowe posiadają tytuły, które opisują ich cel lub przedstawiają ich temat.
 
 ## Uzasadnienie metody badania
 ------------------------------

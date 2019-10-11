@@ -1,8 +1,8 @@
 # 3. Kolejność fokusa
 
 ## Wymagania dostępności
--   [KS WCAG: 2.4.3 Kolejność fokusa](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html) -- Jeśli strona internetowa może być nawigowana sekwencyjnie, a kolejność nawigacji wpływa na zrozumienie lub funkcjonalność strony, komponenty przyjmujące fokus zachowują kolejność, dzięki której zachowany jest sens i funkcjonalność treści.
--   [KS WCAG: 3.2.1 Po oznaczeniu fokusem](http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) -- Jeśli jakikolwiek komponent jest oznaczony fokusem, nie powoduje to zmiany kontekstu.
+-   [KS WCAG: 2.4.3 Kolejność fokusa](https://wcag.lepszyweb.pl/#focus-order) -- Jeśli strona internetowa może być nawigowana sekwencyjnie, a kolejność nawigacji wpływa na zrozumienie lub funkcjonalność strony, komponenty przyjmujące fokus zachowują kolejność, dzięki której zachowany jest sens i funkcjonalność treści.
+-   [KS WCAG: 3.2.1 Po oznaczeniu fokusem](https://wcag.lepszyweb.pl/#on-focus) -- Jeśli jakikolwiek komponent jest oznaczony fokusem, nie powoduje to zmiany kontekstu.
 
 ## Uzasadnienie metody badania
 Korzystanie z klawiatury do nawigacji ułatwia kontrolę kolejności ustawiania fokusa.
@@ -47,9 +47,9 @@ Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, ro
 ### Instrukcja testowania
 1.  Użyj klawiatury, aby przenieść fokus i przejść przez każdy komponent interaktywnego interfejsu (w tym listy rozwijane formularzy i pola formularzy).
 2.  Sprawdź, czy gdy komponent otrzymuje fokus, nie powoduje to nieoczekiwanej zmiany kontekstu. Przykłady zmiany kontekstu obejmują:
-    -   Automatyczne przesłanie formularza, gdy komponent otrzyma fokus
-    -   Uruchamienie nowego okna, gdy komponent otrzyma fokus
-    -   Przeniesienie fokusa na inny komponent interfejsu
+    -   Automatyczne przesłanie formularza, gdy komponent otrzyma fokus.
+    -   Uruchamienie nowego okna, gdy komponent otrzyma fokus.
+    -   Przeniesienie fokusa na inny komponent interfejsu.
 
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.2.1 oraz wymaganie podstawowe nr 3 kończy się niepowodzeniem.

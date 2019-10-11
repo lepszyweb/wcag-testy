@@ -1,9 +1,9 @@
 # 4. Treść powtarzalna
 
 ## Wymagania dostępności
--   [KS WCAG: 2.4.1 Możliwość pominięcia bloków](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html) -- Dostępny jest mechanizm, który umożliwia pominięcie bloków treści powtarzanych na wielu stronach internetowych.
--   [KS WCAG: 3.2.3 Konsekwentna nawigacja](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html) -- Mechanizmy nawigacji, które powtarzają się na wielu stronach w serwisie internetowym, w danym porządku względnym wobec siebie, za każdym razem pojawiają się w tym samym porządku, chyba, że użytkownik sam wprowadzi zmiany.
--   [KS WCAG: 3.2.4 Konsekwentna identyfikacja](http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html) -- Komponenty, które posiadają tę samą funkcjonalność w danym serwisie internetowym, są w taki sam sposób zidentyfikowane.
+-   [KS WCAG: 2.4.1 Możliwość pominięcia bloków](https://wcag.lepszyweb.pl/#bypass-blocks) -- Dostępny jest mechanizm, który umożliwia pominięcie bloków treści powtarzanych na wielu stronach internetowych.
+-   [KS WCAG: 3.2.3 Konsekwentna nawigacja](https://wcag.lepszyweb.pl/#consistent-navigation) -- Mechanizmy nawigacji, które powtarzają się na wielu stronach w serwisie internetowym, w danym porządku względnym wobec siebie, za każdym razem pojawiają się w tym samym porządku, chyba, że użytkownik sam wprowadzi zmiany.
+-   [KS WCAG: 3.2.4 Konsekwentna identyfikacja](https://wcag.lepszyweb.pl/#consistent-identification) -- Komponenty, które posiadają tę samą funkcjonalność w danym serwisie internetowym, są w taki sam sposób zidentyfikowane.
 
 ## Uzasadnienie metody badania
 Aby umożliwić równe korzystanie ze strony przez użytkowników osbługujących ją wyłącznie z klawiatury, musi istnieć metoda umożliwiająca obejście powtarzających się treści bez konieczności użycia dodatkowych narzędzi. Powszechnie stosowaną metodą omijania powtarzalnych treści są łącza wewnętrzne (do miejsc na tej samej stronie), ale inne metody, takie jak ukrywanie menu i drzewo nawigacji, są dopuszczalne. Powtarzane treści są również oceniane pod kątem konsekwentnej kolejności względnej.

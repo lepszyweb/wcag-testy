@@ -2,11 +2,11 @@
 
 ## Wymagania dostępności
 ---------------------
--   [KS WCAG 1.1.1 Treść nietekstowa](http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html) -- Wszelkie treści nietekstowe przedstawione użytkownikowi posiadają swoją tekstową alternatywę, która pełni tę samą funkcję, za wyjątkiem sytuacji opisanych poniżej.
+-   [KS WCAG 1.1.1 Treść nietekstowa](https://wcag.lepszyweb.pl/#non-text-content) -- Wszelkie treści nietekstowe przedstawione użytkownikowi posiadają swoją tekstową alternatywę, która pełni tę samą funkcję, za wyjątkiem sytuacji opisanych poniżej.
     -   **Cele dekoracyjne, formatowanie, treść niewidoczna:** Jeśli treść nietekstowa pełni jedynie funkcję dekoracyjną, używana jest do formatowania wizualnego lub też nie jest przedstawiana użytkownikowi, powinna być wdrożona w sposób umożliwiający technologiom wspomagającym jej zignorowanie.
--   [KS WCAG 1.3.1 Informacje i relacje](http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html) -- Informacje, struktura oraz relacje pomiędzy treściami przedstawiane w treści mogą być odczytane przez program komputerowy lub są dostępne w postaci tekstu.
--   [KS WCAG 1.3.2 Zrozumiała kolejność](http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html) -- Jeśli kolejność, w jakiej przedstawiona jest treść, ma znaczenie dla zrozumienia treści — kolejność taka musi być możliwa do odczytania przez program komputerowy.
--   [WCAG2 SC 4.1.2 Nazwa, rola, wartość](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html) -- Dla wszystkich komponentów interfejsu użytkownika (włączając w to, ale nie ograniczając jedynie do elementów formularzy, linków oraz komponentów wygenerowanych przez skrypty) nazwa oraz rola (przeznaczenie) mogą być odczytane przez program komputerowy, a stan, właściwości oraz wartości, które mogą być ustawione przez użytkownika, mogą również być ustawione przez program komputerowy; zawiadomienie o zmianach w tych elementach dostępne jest dla programów użytkownika, w tym technologii wspomagających.
+-   [KS WCAG 1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-and-relationships) -- Informacje, struktura oraz relacje pomiędzy treściami przedstawiane w treści mogą być odczytane przez program komputerowy lub są dostępne w postaci tekstu.
+-   [KS WCAG 1.3.2 Zrozumiała kolejność](https://wcag.lepszyweb.pl/#meaningful-sequence) -- Jeśli kolejność, w jakiej przedstawiona jest treść, ma znaczenie dla zrozumienia treści — kolejność taka musi być możliwa do odczytania przez program komputerowy.
+-   [WCAG2 SC 4.1.2 Nazwa, rola, wartość](https://wcag.lepszyweb.pl/#name-role-value) -- Dla wszystkich komponentów interfejsu użytkownika (włączając w to, ale nie ograniczając jedynie do elementów formularzy, linków oraz komponentów wygenerowanych przez skrypty) nazwa oraz rola (przeznaczenie) mogą być odczytane przez program komputerowy, a stan, właściwości oraz wartości, które mogą być ustawione przez użytkownika, mogą również być ustawione przez program komputerowy; zawiadomienie o zmianach w tych elementach dostępne jest dla programów użytkownika, w tym technologii wspomagających.
 
 ## Uzasadnienie metody badania
 ------------------------------
@@ -26,8 +26,8 @@ Znaczące obrazy tła renderowane przez CSS
 
 ### Instrukcja testowania
 1.  Sprawdź, czy znaczący obraz CSS zawiera równoważny tekstowy opis alternatywny:
-    1.  dodany za pomocą atrybutu ARIA role="img" i niepustej wartości atrybutu aria-label ORAZ
-    2.  wartości atrybutu aria-label zapewnia te same informacje, co znaczący obraz tła
+    1.  dodany za pomocą atrybutu ARIA `role="img"` i niepustej wartości atrybutu `aria-label` ORAZ
+    2.  wartości atrybutu `aria-label` zapewnia te same informacje, co znaczący obraz tła
 
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 1.1.1, KS 4.1.2  oraz wymaganie podstawowe nr 18 kończy się niepowodzeniem.
@@ -36,7 +36,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 ---------------------------------------------------
 
 ### Identyfikacja treści
-Znacząca treść strony wstawiana przez CSS przy użyciu *::before* lub *::after*
+Znacząca treść strony wstawiana przez CSS przy użyciu `::before` lub `::after`.
 
 ### Instrukcja testowania
 1.  W przypadku treści znaczących dostarczanych za pośrednictwem CSS sprawdź, czy dostępne są równoważne informacje bez zawartości CSS.
@@ -51,15 +51,15 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 Treść pozycjonowana za pomocą CSS::
 
 ### Instrukcja testowania
-1.  Sprawdź, czy kolejność czytania treści (w kontekście) jest poprawna bez właściwości CSS *position*.
-2.  Sprawdź, czy znaczenie treści (w kontekście) jest zachowane bez właściwości position CSS *position*.
+1.  Sprawdź, czy kolejność czytania treści (w kontekście) jest poprawna bez właściwości CSS `position`.
+2.  Sprawdź, czy znaczenie treści (w kontekście) jest zachowane bez właściwości position CSS `position`.
 
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 1.3.2 oraz wymaganie podstawowe nr 18 kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 4.1.2 Nazwa, rola, wartość
 -----------------------------------------------
-Zobacz: [5. Treść zmienna.md](05TrescZmienna.md).
+Zobacz: [5. Treść zmienna.md](05_TrescZmienna.md).
 
 ##  Wskazówki dotyczące usprawniania procesu testowego
 ---------------------------------------------
@@ -72,4 +72,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [F1: Niespełnienie kryterium sukcesu 1.3.2 z powodu zmiany znaczenia treści poprzez umieszczenie informacji w CSS](https://www.w3.org/TR/WCAG20-TECHS/F1.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](17MediaZsynchronizowane.md) | [[Następny]](19Ramki.md)
+[Początek/Spis treści](index.md) | [Poprzedni](17_MediaZsynchronizowane.md) | [[Następny]](19_Ramki.md)

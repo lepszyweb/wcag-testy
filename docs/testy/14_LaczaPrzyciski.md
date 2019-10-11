@@ -2,8 +2,8 @@
 
 ## Wymagania dostępności
 ---------------------
--   [KS WCAG 2.4.4 Cel linku (w kontekście)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html) -- Cel każdego linku może wynikać z samej treści linku, lub też z treści linku powiązanej z programistycznie określonym kontekstem, poza tymi przypadkami, kiedy cel łącza i tak byłby niejasny dla użytkowników.
--   [WCAG2 SC 4.1.2 Nazwa, rola, wartość](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html) -- Dla wszystkich komponentów interfejsu użytkownika (włączając w to, ale nie ograniczając jedynie do elementów formularzy, linków oraz komponentów wygenerowanych przez skrypty) nazwa oraz rola (przeznaczenie) mogą być odczytane przez program komputerowy, a stan, właściwości oraz wartości, które mogą być ustawione przez użytkownika, mogą również być ustawione przez program komputerowy; zawiadomienie o zmianach w tych elementach dostępne jest dla programów użytkownika, w tym technologii wspomagających.
+-   [KS WCAG 2.4.4 Cel linku (w kontekście)](https://wcag.lepszyweb.pl/#link-purpose-in-context) -- Cel każdego linku może wynikać z samej treści linku, lub też z treści linku powiązanej z programistycznie określonym kontekstem, poza tymi przypadkami, kiedy cel łącza i tak byłby niejasny dla użytkowników.
+-   [WCAG2 SC 4.1.2 Nazwa, rola, wartość](https://wcag.lepszyweb.pl/#name-role-value) -- Dla wszystkich komponentów interfejsu użytkownika (włączając w to, ale nie ograniczając jedynie do elementów formularzy, linków oraz komponentów wygenerowanych przez skrypty) nazwa oraz rola (przeznaczenie) mogą być odczytane przez program komputerowy, a stan, właściwości oraz wartości, które mogą być ustawione przez użytkownika, mogą również być ustawione przez program komputerowy; zawiadomienie o zmianach w tych elementach dostępne jest dla programów użytkownika, w tym technologii wspomagających.
 
 ## Uzasadnienie metody badania
 ------------------------------
@@ -47,4 +47,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [F89: Niespełnienie kryterium sukcesu 2.4.4, 2.4.9 i 4.1.2 ze względu na brak podania dostępnej nazwy obrazu, który jest jedyną treścią w linku](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F89)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](13StrukturaTresci.md) | [[Następny]](15Jezyk.md)
+[Początek/Spis treści](index.md) | [Poprzedni](13_StrukturaTresci.md) | [[Następny]](15_Jezyk.md)

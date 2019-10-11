@@ -2,7 +2,7 @@
 
 ## Wymogi dostępności
 
--   [KS WCAG 4.1.1 Parsowanie](http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html) -- W treści wprowadzonej przy użyciu języka znaczników, elementy posiadają pełne znaczniki początkowe i końcowe, elementy są zagnieżdżane według swoich specyfikacji, elementy nie posiadają zduplikowanych atrybutów oraz wszystkie ID są unikalne, za wyjątkiem przypadków, kiedy specyfikacja zezwala na wyżej wymienione cechy.
+-   [KS WCAG 4.1.1 Parsowanie](https://wcag.lepszyweb.pl/#parsing) -- W treści wprowadzonej przy użyciu języka znaczników, elementy posiadają pełne znaczniki początkowe i końcowe, elementy są zagnieżdżane według swoich specyfikacji, elementy nie posiadają zduplikowanych atrybutów oraz wszystkie ID są unikalne, za wyjątkiem przypadków, kiedy specyfikacja zezwala na wyżej wymienione cechy.
 
 ## Uzasadnienie metody badania
 Ten test podstawowy wymaga, aby treść nie zawierała błędów w składni elementów i atrybutów oraz zapewniała prawidłowo zagnieżdżone znaczniki początku/końca, aby uniknąć błędów, które uniemożliwiają programom użytkowników niezawodne przetwarzanie zawartości. Jeśli treści nie można przetworzyć w strukturę danych, wówczas różne programy użytkownika, w tym technologie wspomagające, mogą ją prezentować  odmiennie lub w ogóle nie potrafią jej przetworzyć.
@@ -44,4 +44,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [H74: Zapewnienie, że znaczniki otwierające i zamykające są używane zgodnie ze specyfikacją](https://www.w3.org/TR/WCAG20-TECHS/H74.html) ORAZ [H93: Zapewnienie, że atrybuty id są unikalne](https://www.w3.org/TR/WCAG20-TECHS/H93.html) AND [H94: Zapewnienie, że elementy nie zawierają zduplikowanych atrybutów](https://www.w3.org/TR/WCAG20-TECHS/H94.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](23WieleDrog.md) | [[Następny]](25BrakZaklocen.md)
+[Początek/Spis treści](index.md) | [Poprzedni](23_WieleDrog.md) | [[Następny]](25_BrakZaklocen.md)
