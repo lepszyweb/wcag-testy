@@ -15,7 +15,7 @@ Ten skromny zestaw został wzbogacony tłumaczeniem na język polski francuskiej
 
 W skrótowej formie, wręcz lapidarnie autorzy sygnalizują problemy i hipotezy, metody, technik i strategie, organizację i przebieg audytu oraz kwestie raportowania i interpretacji wyników audytu. 
 
-Proponowana „metodologia badań dostepności” autorzy opierają na metodzie analizy realizowanej w dwóch etapach badania – **analizie eksperckiej** i **badania z użytkownikami**. 
+Proponowaną „metodologię badań dostepności” autorzy opierają na metodzie analizy realizowanej w dwóch etapach badania – **analizie eksperckiej** i **badaniu z użytkownikami**. 
 
 Na etapie analizy eksperckiej proponują zastosowanie czterech metod: 
 
@@ -24,17 +24,17 @@ Na etapie analizy eksperckiej proponują zastosowanie czterech metod:
 - **metoda III problemowa** – sprawdzenie zgodności z WCAG 2.0 z wykorzystaniem swego rodzaju list kontrolnych zestawionych w 13 tabelach, zbierających wskazówki do audytu według kryterium zasad i wytycznych zdefiniowanych w WCAG.
 - **metoda IV** – analiza kontrastu z użyciem narzędzia Contrast Analyzer oferowanego przez PacielloGroup oraz trybu wysokiego kontrastu w systemie operacyjnym MS Windows.      
 
-Charakterystyka metod sprowadza się zestawionych w 13 tabelkach zwięzłych 1-3 zdaniowych wskazówek, co należy poddać badaniu i z rzadka, jakiego użyć narzędzia.
+Charakterystyka metod sprowadza się zestawionych w 13 tabelkach zwięzłych 1-3 zdaniowych wskazówek, co należy poddać badaniu i&nbsp;z&nbsp;rzadka, jakiego użyć narzędzia.
 
-Na etapie badania z użytkownikiem autorzy proponują obserwację uczestniczącą realizacji przez kilku użytkowników z niepełnosprawnościami zestawu  trzech do pięciu zadań, których dobór zależy od charakteru i celów strony, np. założenie swojego konta na stronie, odnalezienie numeru telefonu kontaktowego, odnalezienie informacji przy pomocy wyszukiwarki, zamówienie towaru w sklepie internetowym.
+Na etapie badania z użytkownikiem autorzy proponują obserwację uczestniczącą realizacji przez kilku użytkowników z&nbsp;niepełnosprawnościami zestawu  trzech do pięciu zadań, których dobór zależy od charakteru i&nbsp;celów strony, np. założenie swojego konta na stronie, odnalezienie numeru telefonu kontaktowego, odnalezienie informacji przy pomocy wyszukiwarki, zamówienie towaru w sklepie internetowym.
 
-Druga pozycja - [Badanie dostępności strony internetowej w oparciu o WCAG](http://www.widzialni.org/badanie-dostepnosci-strony-www-w-oparciu-o-wcag,new,mg,5,254) jest opracowanym przez Artura Marcinkowskiego rozwinięciem pierwszej, z nieco wzbogaconymi wskazówkami dotyczącymi sposobu oceniania zgodności z poszczególnymi kryteriami sukcesu WCAG oraz o obszerną, blisko 50-stronicową prezentacją narzędzi do badnia i oceniania dostępności autorstwa Sebastiana Depty. 
+Druga pozycja - [Badanie dostępności strony internetowej w oparciu o WCAG](http://www.widzialni.org/badanie-dostepnosci-strony-www-w-oparciu-o-wcag,new,mg,5,254) jest opracowanym przez Artura Marcinkowskiego rozwinięciem pierwszej, z&nbsp;nieco wzbogaconymi wskazówkami dotyczącymi sposobu oceniania zgodności z&nbsp;poszczególnymi kryteriami sukcesu WCAG oraz o&nbsp;obszerną, blisko 50-stronicową prezentacją narzędzi do badnia i&nbsp;oceniania dostępności autorstwa Sebastiana Depty. 
 
-Jeśli przyjąć choćby za Wikipedią, że [metodologia](https://pl.wikipedia.org/wiki/Metodologia) to „nauka o metodach badań naukowych, ich skuteczności i wartości poznawczej”, omówione opracowanie, nie umniejszając w żadnym stopniu jego znaczenia, trudno byłoby nawet uznać za wstęp, zarys czy nawet szkic do metodologii. 
+Jeśli przyjąć choćby za Wikipedią, że [metodologia](https://pl.wikipedia.org/wiki/Metodologia) to „nauka o&nbsp;metodach badań naukowych, ich skuteczności i&nbsp;wartości poznawczej”, omówione opracowanie, nie umniejszając w żadnym stopniu jego znaczenia, trudno byłoby nawet uznać za wstęp, zarys czy nawet szkic do metodologii. 
 
-Tym bardziej nie jest to rzecz, którą można by nazwać „polską metodologią”. Określenie to w założeniu sugeruje, że wypracowana została jakaś oryginalna **polska** metodologia badania i oceniania zgodności z WCAG, czy szerzej dostępności cyfrowej. Żadna z przedstawionych w broszurze metod nie jest oryginalna, żadna nie postuluje niczego nowego, czego wcześniej nie prezentowano w dość już bogatej w 2013 roku anglojęzycznej literaturze przedmiotu.
+Tym bardziej nie jest to rzecz, którą można by nazwać „polską metodologią”. Określenie to w&nbsp;założeniu sugeruje, że wypracowana została jakaś oryginalna **polska** metodologia badania i&nbsp;oceniania zgodności z WCAG, czy szerzej dostępności cyfrowej. Żadna z przedstawionych w broszurze metod nie jest oryginalna, żadna nie postuluje niczego nowego, czego wcześniej nie prezentowano w&nbsp;dość już bogatej w 2013 roku anglojęzycznej literaturze przedmiotu.
 
-Obie pozycje można traktować co najwyżej jako dobry **początek drogi** do opracowania, **niekoniecznie polskiej**, ale **po polsku**  metodologii, a raczej podstaw metodologii badania dostepności cyfrowej, która oby jak najszybciej stała się przedmiotem systematycznych dociekań naukowych.
+Obie pozycje można traktować co najwyżej jako dobry **początek drogi** do opracowania, **niekoniecznie polskiej**, ale **po polsku**  metodologii, a raczej metodyki badania dostepności cyfrowej, która oby jak najszybciej stała się przedmiotem systematycznych dociekań naukowych.
 
 ### O metodyce RGAA
 [RGAA](https://www.gov.pl/web/dostepnosc-cyfrowa/francuska-metodyka-badania-dostepnosci-rgaa) to kompleksowa propozycją systemu oceniania zgodności stron internetowych z wymogami dostępności zdefiniowanymi w WCAG 2.0. 
@@ -45,7 +45,7 @@ W 2009 roku francuska administracja rządowa opublikowała pierwszą wersję „
 
 W 2014 roku stowarzyszenie BraileNet z grupą firm wygrało przetarg na aktualizację RGAA, w wyniku którego zostało wykonawca tego rządowego zamówienia. 29 kwietnia 2015 roku udostępniono wersję 3.0 RGAA, kktóra w dużej mierze korzysta z repozytorium AccessiWeb HTML5/ARIA.   
 
-W swej istocie RGAA to nie są tylko „ogólne wytyczne”, jak można by wnosić z nazwy. Jest to bogaty zasób cyfrowy, dostarczający precyzyjnych sposobów badania i oceniania dostępności stron internetowych.
+W swej istocie RGAA to nie są tylko „ogólne wytyczne”, jak można by wnosić z&nbsp;nazwy. Jest to bogaty zasób cyfrowy, dostarczający precyzyjnych sposobów badania i&nbsp;oceniania dostępności stron internetowych.
 
 Całe repozytorium składa się z 6 sekcji:
 
@@ -53,16 +53,16 @@ Całe repozytorium składa się z 6 sekcji:
 2. Słownik - definiujący i ujednoznaczniający stosowane terminy,
 3. Przypadki szczególne - prezentacja odstępstw od wymogów zdefiniowanych w kryteriach,
 4. Uwagi techniczne - wyjaśnienia dotyczące obsługi niektórych elementów HTML5,
-5. Baza referencyjna - kombinacje technologii, systemów operacyjnych i przeglądarek, które pozwalają stwierdzić, że oprogramowanie oparte na HTML5/ARIA „wspiera dostępność”, jak zdefiniowano w WCAG 2.0.
+5. Baza referencyjna - kombinacje technologii, systemów operacyjnych i przeglądarek, które pozwalają stwierdzić, że oprogramowanie oparte na HTML5/ARIA „wspiera dostępność”, jak zdefiniowano w&nbsp;WCAG 2.0.
 6. Referencje - lista wykorzystanych źródeł i referencji
 
 #### Polskie tłumaczenie RGAA 
 
 W 2018 roku tłumaczenie RGAA wykonane przez pracowników Ministerstwa Cyfryzacji udostępniono na stronie [Dostępność cyfrowa](https://www.gov.pl/web/dostepnosc-cyfrowa/francuska-metodyka-badania-dostepnosci-rgaa). Dzięki temu polskie zasoby poświęcone dostępności cyfrowej wzbogaciły się o niezwykle cenne i jedyne w takim wymiarze źródło metodyki oceniania dostępności.
 
-Specyfikacja RGAA zawiera ogółem blisko 280 testów dla 133 kryteriów uporządkowanych w 13 kategorii. RGAA stosuje wprawdzie własne kryteria sukcesu, ale każde z nich jest zmapowane z odpowiednimi kryetriami sukcesu oraz technikami WCAG, cco powoduje, że RGAA jest **w pełni zgodne** z WCAG. Nie znaczy to - oczywiscie - że odwrotne stwierdzenie jest prawdziwe. WCAG nie są w pełni zgodne z RGAA.
+Specyfikacja RGAA zawiera ogółem blisko 280 testów dla 133 kryteriów uporządkowanych w&nbsp;13 kategorii. RGAA stosuje wprawdzie własne kryteria sukcesu, ale każde z&nbsp;nich jest zmapowane z&nbsp;odpowiednimi kryetriami sukcesu oraz technikami WCAG, co powoduje, że RGAA są **w pełni zgodne** z WCAG. Nie znaczy to - oczywiscie - że odwrotne stwierdzenie jest prawdziwe. WCAG nie są w pełni zgodne z RGAA.
 
-Na podstawie tłumaczenia udostępnionego przez Ministerstwo Cyfryzacji Pracownia Dostępności Cyfrowej LepszyWeb.pl przygotowała i opublikowała [internetową wersję RGAA](https://rgaa.lepszyweb.pl) systematycznie poprawianą.
+Na podstawie tłumaczenia udostępnionego przez Ministerstwo Cyfryzacji Pracownia Dostępności Cyfrowej LepszyWeb.pl przygotowała i&nbsp;opublikowała [internetową wersję RGAA](https://rgaa.lepszyweb.pl) systematycznie poprawianą.
    
 
 
