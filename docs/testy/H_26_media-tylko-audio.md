@@ -1,4 +1,4 @@
-# Media dynamiczne - tylko audio
+## Media dynamiczne - tylko audio
 
 ### Metoda badania: 
 Odtwarzanie nagrania, porównanie treści nagrania i transkrypcji.
