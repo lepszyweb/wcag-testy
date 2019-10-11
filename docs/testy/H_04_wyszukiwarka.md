@@ -4,7 +4,7 @@
 Kontrola wizualna, test ręczny, inspekcja kodu, test obsługi z czytnikiem ekranu 
 
 ### Oczekiwania:
-Kryterium sukcesu
+Kryterium sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-and-relationships), [2.4.6 Nagłówki i etykiety](https://wcag.lepszyweb.pl/#headings-and-labels), [2.4.5 Wiele dróg](https://wcag.lepszyweb.pl/#multiple-ways).
 -	Wyszukiwarka znajduje się na początku strony w miejscu, w którym spodziewają się ją znaleźć użytkownicy
 -	Wyszukiwarka jest łatwo rozpoznawalna na podstawie stylizacji graficznej lub etykiety „Szukaj” lub równorzędnej ogłoszonej użytkownikom czytników ekranu.    
 -	Wyszukiwanie rozpoczyna się tylko na żądanie użytkownika – po naciśnięciu klawisza Enter bądź odpowiedniego przycisku.

@@ -8,7 +8,7 @@ Testy ręczne, kontrola wzrokowa
 -	Wszystkie treści, które można powiększyć za pomocą funkcji oprogramowania użytkownika, 
 
 ### Oczekiwania:
-Kryterium sukcesu: [1.3.4 Orientacja](https://wcag.lepszyweb.pl/?showtechniques=134#orientation), [1.4.4 Zmiana rozmiaru tekstu](https://wcag.lepszyweb.pl/?showtechniques=134#resize-text), [1.4.10 Dopasowanie do ekranu](https://wcag.lepszyweb.pl/?showtechniques=134#reflow), [1.4.12 Odstępy w tekście](https://wcag.lepszyweb.pl/?showtechniques=134#text-spacing) 
+Kryterium sukcesu: [1.3.4 Orientacja](https://wcag.lepszyweb.pl/#orientation), [1.4.4 Zmiana rozmiaru tekstu](https://wcag.lepszyweb.pl/#resize-text), [1.4.10 Dopasowanie do ekranu](https://wcag.lepszyweb.pl/#reflow), [1.4.12 Odstępy w tekście](https://wcag.lepszyweb.pl/#text-spacing) 
 -	Całą treść strony można powiększyć na ekranie wyświetlacza do 200% bez utraty informacji lub funkcjonalności, w tym czytelności.
 -	Powiększenie na stronie tekstu do 200% za pomocą oprogramowania użytkownika lub kontrolek zapewnionych przez stronę nie zaburza czytelności strony i nie powoduje utraty informacji lub funkcjonalności.
 -	Jeśli można na stronie lub ekranie powiększyć do 200% tylko tekst Cały tekst na stronie można powiększyć  

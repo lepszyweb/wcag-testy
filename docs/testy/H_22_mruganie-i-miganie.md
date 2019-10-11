@@ -9,7 +9,7 @@ Uwaga: Miganie oznacza treść, która zmianami swego stanu może rozpraszać uw
 Błyskanie treści oznacza dwie lub więcej zmian stanów, które różnią się znacznie kontrastem, i odnosi się do treści, które mogą wywołać napady padaczki światłoczułej, gdy są częstsze niż 3 na sekundę oraz wystarczająco duże i jasne. Nie są dozwolone nawet przez sekundę, ponieważ mogą wywołać napad. Nie ma znaczenia, czy można je zatrzymać, ponieważ napad może nastąpić przed wyłączeniem. Mruganie zwykle nie jest częstsze, niż 3 razy na sekundę. Gdyby było częstsze, należy uznawać je za błyski.
 
 ### Oczekiwania:
-Kryteria sukcesu: [2.2.2. Wstrzymywanie (pauza), zatrzymywanie, ukrywanie](https://wcag.lepszyweb.pl/?showtechniques=134%2C231%2C232#pause-stop-hide), [2.3.1 Trzy błyski lub wartości poniżej progu](https://wcag.lepszyweb.pl/?showtechniques=134%2C231%2C232#three-flashes-or-below-threshold)
+Kryteria sukcesu: [2.2.2. Wstrzymywanie (pauza), zatrzymywanie, ukrywanie](https://wcag.lepszyweb.pl/#pause-stop-hide), [2.3.1 Trzy błyski lub wartości poniżej progu](https://wcag.lepszyweb.pl/#three-flashes-or-below-threshold)
 -	Nic nie miga częściej niż trzy razy na sekundę (sytuacja preferowana) ALBO
     - Migający obszar jest wystarczająco mały LUB
     - Miganie nie przekracza dozwolonych wartości granicznych dla błysków ogólnych i czerwonych
