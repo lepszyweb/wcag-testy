@@ -1,3 +1,4 @@
 - [Wprowadzenie](narzedzia/wprowadzenie)
 - [ANDI](narzedzia/andi)
+- [ARC Toolkit](narzedzia/arc)
 - [WET](narzedzia/wet)
