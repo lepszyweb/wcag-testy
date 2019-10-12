@@ -51,4 +51,4 @@ Jeżeli OBIE powyższe próby zakończą się niepowodzeniem, wówczas test KS 1
     -   [G145: Zapewnienie, że kontrast między tekstem (i obrazami tekstu) a tłem pod tekstem wynosi co najmniej 3:1](http://www.w3.org/TR/WCAG20-TECHS/G145.html) (gdy tekst ma co najmniej 18 punktów, jeśli nie jest pogrubiony i co najmniej 14 punktów, jeśli jest pogrubiony).
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](07_WlasciwościZmyslowe.md) | [[Następny]](09_Miganie.md)
+[Początek/Spis treści](index.md) | [Poprzedni](ICT_07_wlasciwosci-zmyslowe.md) | [[Następny]](ICT_09_miganie.md)

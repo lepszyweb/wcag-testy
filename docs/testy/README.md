@@ -1,25 +1,16 @@
-# Metodyki testów zgodności z WCAG
+# Testy dostępności
+W polskojęzycznych zasobach poświeconych dostępności cyfrowej nie ma, niestety, ani jednego opracowania odpowiadającego rzeczowo i konkretnie na pytania o to, jak badać i oceniać zgodność stron internetowych i aplikacji mobilnych z normami dostępności.  
 
-## Co to jest?
-„Metodyki testów zgodności z WCAG” to zestaw kilku podejść do oceniania dostępności cyfrowej, które mają pomóc w ocenie zgodności stron internetowych i aplikacji mobilnych z aktualnym standardem WCAG 2.1 (Wytyczne dotyczące dostępności stron internetowych), który ustawą z 4 kwietnia 2019 stał się w Polsce obowiązującym dla wszystkich podmiotów publicznych:
+**Baza testów dostępności cyfrowej** ma wypełnić tę lukę. Zapraszamy do jej współtworzenia wszystkich, którzy mogą i chcą pomóc.
 
-- **Przegląd wstępny. Łatwe testy dostępności**: 
-- **Baza testów dostępności**: zestaw testów opracowanych na podstawie różnych źródeł 
-- **ICT Testing Baseline**: 
-- **Wielostopniowa ocena zgodności z WCAG 2.1 AA**: metodyka stosowana na   
+## Co znajdziesz w tej części?
+W tej części znajdzie sie docelowo kilka zasobów
 
-gromadzcej 
-prezentującej podejścia do oceny dostępności cyfrowej
+- [Wstępny przegląd dostępności](testy/00_P_Wprowadzenie.md): adaptacja zestawu [Easy Checks - A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/) 
+- [Baza testów dostępności](H0_00_wprowadzenie.md): zestaw testów opracowanych na podstawie różnych źródeł 
+- [Podstawa testowania TIK](ITC_00_wprowadzenie.md): tłumaczenie amerykańskiego zestawu [ICT Testing Baseline](https://section508coordinators.github.io/ICTTestingBaseline/)
+- [A3Web - testy](0-0-0_wprowadzenie.md): Zestaw testów opracowany przez Stowarzyszenie Twoje nowe mmożliwości(http://www.tnm.org.pl/)
+- [Wielostopniowa ocena zgodności z WCAG 2.1 AA](wplanie): uproszczony protokół testów zgodności stosowany na [Michigan State University](https://uarc.msu.edu/resources/tools)
 
-projekt Pracowni Dostępności Cyfrowej LepszyWeb.pl,    
+## Jak możesz pomóc?
 
-
-
-
- stron internetowych i aplikacji mobilnych, w tym Niezbędnik Audytora Dostępności    
-
-W dziale „Metodyki testów zgodności” chcemy zaprezentować różne podejścia  
-
-## Dla kogo jest to repozytorium?
-## Jak możesz pomóć?
-## Licencja

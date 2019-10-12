@@ -76,6 +76,7 @@ Zidentyfikuj wszelkie obrazy tekstu, z wyjątkiem przypadków, w których konkre
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 1.4.5  oraz wymaganie podstawowe nr 6 kończy się niepowodzeniem.
 
 ##  Wskazówki dotyczące usprawniania procesu testowego
+
 ## Techniki WCAG 2.1
 
 -   Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
@@ -94,4 +95,4 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
     -   [C9: Używanie CSS do dodawania obrazów dekoracyjnych](http://www.w3.org/TR/WCAG20-TECHS/C9.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](05TrescZmienna.md) | [[Następny]](07WlasciwościZmyslowe.md)
+[Początek/Spis treści](index.md) | [Poprzedni](ICT_05_tresc-zmienna.md) | [[Następny]](ICT_07_wlasciwosci-zmyslowe.md)

@@ -14,7 +14,7 @@ Gdy elementy `<table>` są używane do celów układu, niedozwolone sa elementy
 ## Ograniczenia, założenia lub wyjątki
 --------------------------------------
 -   **Tabele danych** to tabele, w których informacje w komórce wymagają nagłówka wiersza lub kolumny, który odpowiednio opisuje zawartość komórek. Jeśli tabela jest używana do rozmieszczania na stronie komponentów ze względu na estetykę wizualną, wówczas jest uważana za **tabelę układu**.
--   Technikę tę można zastosować w  projektach responsywnych. Te elementy wykorzystują CSS i/lub inne metody stylizacji do prezentacji zawartości w kolumnach lub wierszach. Przekazywana informacja nie opiera się na zrozumiałych relacjach programowych z nagłówkami kolumn lub wierszy. Taka treść nie jest tabelą danych i nie powinna wykorzystywać elementu tabeli, atrybutu ARIA `role="table"` ani powiązanych atrybutów tabeli programowej. Powinna być baddana przy użyciu innych testów podstawowych, takich jak [13. Struktura treści](13_StrukturaTresci.md) lub ewentualnie [10. Formularze (powiązane instrukcje)](10_Formularze.md).
+-   Technikę tę można zastosować w  projektach responsywnych. Te elementy wykorzystują CSS i/lub inne metody stylizacji do prezentacji zawartości w kolumnach lub wierszach. Przekazywana informacja nie opiera się na zrozumiałych relacjach programowych z nagłówkami kolumn lub wierszy. Taka treść nie jest tabelą danych i nie powinna wykorzystywać elementu tabeli, atrybutu ARIA `role="table"` ani powiązanych atrybutów tabeli programowej. Powinna być baddana przy użyciu innych testów podstawowych, takich jak [13. Struktura treści](13_StrukturaTresci.md) lub ewentualnie [10. Formularze (powiązane instrukcje)](ICT_10_formularze.md).
 -   Wiersze powiązanych danych muszą mieć nagłówek wiersza, aby użytkownicy technologii wspomagających mogli zrozumieć relacje między komórkami danych wiersza. Nie każda tabela wymaga nagłówka wiersza. Na przykład miesiąc kalendarzowy to tabela danych, zwykle z nagłówkami kolumn dniami tygodnia. Daty w rzędach nie są powiązane, więc zazwyczaj nie ma nagłówka wiersza. Gdyby jednak w każdym wierszu znajdowałaby się komórka wskazująca kolejny tydzień roku, komórka ta służyłaby jako nagłówek wiersza dla dat w tym wierszu.
 
 ## Procedura testu dla 1.3.1 Informacje i relacje
@@ -75,4 +75,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [F46: Niespełnienie kryterium sukcesu 1.3.1 z powodu użycia elementów th, elementów caption lub niepustych atrybutów summary w tabelach formujących układ](http://www.w3.org/TR/WCAG20-TECHS/F46.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](11TytulyStron.md) | [[Następny]](13StrukturaTresci.md)
+[Początek/Spis treści](index.md) | [Poprzedni](ICT_11_tytuly-stron.md) | [[Następny]](ICT_13_struktura-tresci.md)

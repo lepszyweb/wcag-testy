@@ -69,4 +69,4 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
     -   [G21: Zapewnienie, że użytkownicy nie zostaną uwięzieni w treści](http://www.w3.org/TR/WCAG20-TECHS/G21.html)
 
 -------------------------------------------------
-[Początek/Spis treści](index.md)    |    [[Następny]](02_WidocznyFokus.md)
+[Początek/Spis treści](index.md)    |    [[Następny]](ICT_02_widoczny-fokus.md)

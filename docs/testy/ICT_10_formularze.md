@@ -167,4 +167,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [F37: Niespełnienie kryterium sukcesu 3.2.2 z powodu uruchomienia nowego okna bez uprzedniego ostrzeżenia po zmianie wyboru przycisku radiowego, pola wyboru lub listy wyboru](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F37)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](09Miganie.md) | [[Następny]](11TytulyStron.md)
+[Początek/Spis treści](index.md) | [Poprzedni](ICT_09_miganie.md) | [[Następny]](ICT_11_tytuly-stron.md)

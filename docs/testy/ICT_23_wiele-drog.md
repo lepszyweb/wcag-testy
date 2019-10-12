@@ -42,4 +42,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [G185: Łączenie do wszystkich stron witryny ze strony głównej](https://www.w3.org/TR/WCAG20-TECHS/G185.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](22_ZmianaRozmiaruTekstu.md) | [[Następny]](24_Parsowanie.md)
+[Początek/Spis treści](index.md) | [Poprzedni](ICT_22_zmiana-rozmiaru-tekstu.md) | [[Następny]](ICT_24_parsowanie.md)

@@ -1,4 +1,8 @@
-# Cele i efekty wstępnego przeglądu dostępności
+## Wstępny przegląd dostępności
+
+### Co to jest wstępny przegląd dostępności
+
+### Cele i efekty wstępnego przeglądu dostępności
 Są trzy główne cele wstępnego przeglądu dostępności:
 - sprawdzenie, czy witryna spełnia podstawowe wymogi dostępności,
 - zidentyfikowanie problemów dostępności, które wymagają pilnego rozwiązania,

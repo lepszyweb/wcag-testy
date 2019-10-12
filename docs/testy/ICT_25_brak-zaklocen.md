@@ -34,4 +34,4 @@ Jeżeli którakolwiek z testów zakończył się niepowodzeniem, wówczas Wymaga
 Nie dotyczy
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](24_Parsowanie.md) | [Dodatek A - Słownik terminów](DodatekASlownikTerminow.md)
+[Początek](ICT_00_wprowadzenie.md) | [Poprzedni](ICT_24_parsowanie.md) | [Wprowadzenie](ICT_00_wprowadzenie.md)
