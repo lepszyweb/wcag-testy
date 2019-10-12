@@ -1,5 +1,5 @@
 - **Baza testów**
-  - [Tytuł strony](testy/H0_00_wprowadzenie.md)
+  - [Wprowadzenie](testy/H0_00_wprowadzenie.md)
   - **Orientacja i nawigacja**
     - [Tytuł strony](testy/H1_01_tytul-strony.md)
     - [Punkty orientacyjne](testy/H1_02_punkty-orientacyjne.md)
@@ -79,7 +79,7 @@
  - [25. Brak zakłóceń](testy/ITC_25_brak-zaklocen.md)
  
 - **Zestaw testów A3Web**
- - [1-1-1 Treść nietekstowa](testy/0-0-0_wprowadzenie.md)
+ - [Wprowadzenie](testy/0-0-0_wprowadzenie.md)
  - [1-1-1 Treść nietekstowa](testy/1-1-1_Tresc-nietekstowa.md)
  - [1-2-1 Tylko audio... (nagranie)](testy/1-2-1_Tylko-audio.md)
  - [1-2-1 Tylko wideo (nagranie)](testy/1-2-1_Tylko-wideo.md)
