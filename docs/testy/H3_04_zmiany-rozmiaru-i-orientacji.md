@@ -7,6 +7,12 @@ Testy ręczne, kontrola wzrokowa
 -	Wszystkie treści przeznaczone do prezentacji zarówno na dużych stacjonarnych wyświetlaczach, jak i na wyświetlaczach urządzeń mobilnych.
 -	Wszystkie treści, które można powiększyć za pomocą funkcji oprogramowania użytkownika, 
 
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryterium sukcesu: [1.3.4 Orientacja](https://wcag.lepszyweb.pl/#orientation), [1.4.4 Zmiana rozmiaru tekstu](https://wcag.lepszyweb.pl/#resize-text), [1.4.10 Dopasowanie do ekranu](https://wcag.lepszyweb.pl/#reflow), [1.4.12 Odstępy w tekście](https://wcag.lepszyweb.pl/#text-spacing) 
 -	Całą treść strony można powiększyć na ekranie wyświetlacza do 200% bez utraty informacji lub funkcjonalności, w tym czytelności.

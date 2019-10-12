@@ -3,6 +3,14 @@
 ### Metoda badania: 
 Użyj narzędzia do testowania kontrastu, aby określić współczynniki kontrastu.
 
+## Zastosowanie
+_do opracowania_
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryteria sukcesu: [1.4.3 Kontrast (minimalny)](https://wcag.lepszyweb.pl/#contrast-minimum), [1.4.11 Kontrast elementów nietekstowych](https://wcag.lepszyweb.pl/#non-text-contrast)
 -	Współczynnik kontrastu dla wszystkich standardowych tekstów na stronie jest równy lub większy niż 4,5:1.

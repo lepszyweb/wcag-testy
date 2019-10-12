@@ -3,6 +3,14 @@
 ### Metoda badania: 
 Inspekcja kodu
 
+## Zastosowanie
+_do opracowania_
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryterium sukcesu: [2.4.4. Cel linku w kontekście](https://wcag.lepszyweb.pl/#link-purpose-in-context) 
 -	Każde łącze na stronie prowadzi do miejsca na stronie lub innej strony albo do dokumentu  

@@ -6,6 +6,12 @@ Kontrola wzrokowa.
 ### Zastosowanie
 Każda instrukcja dotycząca rozumienia i obsługi treści, która wskazuje na kształt, rozmiar, położenie, orientację lub dźwięk (odwołuje się do kształtu, rozmiaru, położenia, orientacji lub dźwięku)
 
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryterium sukcesu: [1.3.3 Właściwości zmysłowe](https://wcag.lepszyweb.pl/#sensory-characteristics)
 -	Każde znaczenie treści przekazywane kształtem, położeniem, rozmiarem jest również przekazywane odpowiednim tekstem. 

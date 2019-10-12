@@ -6,6 +6,12 @@ Kontrola wzrokowa.
 ### Zastosowanie
 Każda treść, która przekazuje znaczenie kolorem, np. wyróżnia treść,  określa typ komunikatu, wskazuje błędy.  
 
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryterium sukcesu: [1.4.1 Użycie koloru](https://wcag.lepszyweb.pl/#use-of-color)
 -	Każde znaczenie przekazywane kolorem treści jest również przekazywane innym wskaźnikiem wizualnym lub odpowiednim tekstem   

@@ -6,6 +6,12 @@ Testy ręczne – niewypełnianie pól wymaganych, podawanie danych w formacie n
 ### Zastosowanie:
 Wszystkie komponenty formularzy zbierające dane oznaczone jako wymagane oraz pola z  określonym formatem danych
 
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwanie:
 Kryteria sukcesu: [3.3.1 Identyfikacja błędu](https://wcag.lepszyweb.pl/#error-identification), [3.3.3 Sugestie korekty błędów](https://wcag.lepszyweb.pl/#error-suggestion), [3.3.4 Zapobieganie błędom (kontekst prawny, finansowy, związany z podawaniem danych)](https://wcag.lepszyweb.pl/#error-prevention-legal-financial-data)
 -	Każdy komunikat o błędzie dokładnie opisuje błąd i wskazuje, jak go usunąć.

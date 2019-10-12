@@ -3,6 +3,14 @@
 ### Metoda badania: 
 Inspekcja kodu, wykorzystanie narzędzia ujawniającego listy, kontrola wzrokowa
 
+## Zastosowanie
+_do opracowania_
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryterium sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-and-relationships)
 -	Autor zastosował odpowiednie typy list (nieuporządkowane, uporządkowane, opisów) 

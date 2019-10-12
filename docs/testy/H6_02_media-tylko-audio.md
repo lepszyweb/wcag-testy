@@ -6,7 +6,7 @@ Odtwarzanie nagrania, porównanie treści nagrania i transkrypcji.
 ### Zastosowanie:
 Wszystkie nagrania dźwiękowe zarejestrowane wcześniej (transmisje na żywo nie są objęte tym testem.
 
-## Założenia, ograniczenia lub wyjątki
+## Założenia, zastrzeżenia lub wyjątki
 _do opracowania_
 
 ## Obsługa dostępności

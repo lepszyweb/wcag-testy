@@ -6,8 +6,11 @@ Odtwarzanie nagrania, porównanie treści nagrania z zapewnionymi alternatywami.
 ### Zastosowanie:
 Nagrane wcześniej treści dynamiczne złożone z kliku form przekazu (tekstu, dźwięku, grafiki, animacji, wideo), w tym zarejestrowane transmisje internetowe, konferencje prasowe i internetowe prezentacje szkoleniowe. 
 
-### Zastrzeżenia:
+## Założenia, zastrzeżenia lub wyjątki
 Test nie obejmuje treści multimedialnych, które zostały umieszczone i wyraźnie oznaczone jako alternatywa dla treści audio lub wideo. 
+
+## Obsługa dostępności
+_do opracowania_
 
 ### Oczekiwania:
 Kryteria sukcesu: [1.2.2 Napisy rozszerzone (nagranie)](https://wcag.lepszyweb.pl/#captions-prerecorded), [1.2.3 Audiodeskrypcja lub alternatywa dla mediów (nagranie)](https://wcag.lepszyweb.pl/#audio-description-or-media-alternative-prerecorded), [1.2.5 Audiodeskrypcja (nagranie)](https://wcag.lepszyweb.pl/#audio-description-prerecorded)

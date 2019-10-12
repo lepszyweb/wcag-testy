@@ -3,6 +3,12 @@
 ### Metoda badania: 
 Inspekcja kodu, wyłączenie wyświetlania obrazów, użycie narzędzia ujawniającego teksty alternatywne
 
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryterium sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-text-content), [1.4.11 Kontrast elementów nietekstowych](https://wcag.lepszyweb.pl/#non-text-contrast)
 -	Strona z wyłączonym wyświetlaniem obrazów przekazuje te same informacje i posiada tę samą funkcjonalność, co strona z włączonym wyświetlaniem obrazów.  

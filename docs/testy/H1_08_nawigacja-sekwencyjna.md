@@ -3,6 +3,14 @@
 ### Metoda badania: 
 Test nawigacji klawiaturą, narzędzie ujawniającego sekwencję nawigacji po stronie tabulatorem. 
 
+## Zastosowanie
+_do opracowania_
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryterium sukcesu: [2.4.3 Kolejność fokusa](https://wcag.lepszyweb.pl/#focus-order)
 -	Podczas nawigacji po stronie  tabulatorem (klawiszem Tab na klawiaturze) wszystkie interaktywne obiekty otrzymują fokus w momencie oznaczenia są ustawiane ostrością podczas nawigacji za pomocą klawisza tabulatora.

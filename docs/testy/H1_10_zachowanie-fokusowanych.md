@@ -3,6 +3,14 @@
 ### Metoda badania: 
 Kontrola wizualna. Test nawigacji za pomocą klawiatury, wykorzystanie narzędzia ujawniającego interaktywne elementy strony
 
+## Zastosowanie
+_do opracowania_
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryteria sukcesu: [2.1.2 Brak pułapki na klawiaturę](https://wcag.lepszyweb.pl/#no-keyboard-trap), [3.2.1 Po oznaczeniu fokusem](https://wcag.lepszyweb.pl/#on-focus)
 -	Z każdego komponentu strony, na który został przeniesiony fokus klawiatury można go przenieść na inny komponent za pomocą klawiatury (klawisza Tab lub kombinacji Tab+Shitf)

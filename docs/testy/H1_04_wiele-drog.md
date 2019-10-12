@@ -3,6 +3,14 @@
 ### Metoda badania:
 Kontrola wzrokowa
 
+## Zastosowanie
+_do opracowania_
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryterium sukcesu: [2.4.5 Wiele dróg](https://wcag.lepszyweb.pl/#multiple-ways).
 -	W witrynie złożonej z wielu stron istnieją co najmniej dwa sposoby zlokalizowania określonej strony internetowej, np. menu nawigacyjne lub menu rozwijane, wyszukiwarka, mapa strony, łącza między stronami.

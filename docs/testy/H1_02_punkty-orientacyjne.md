@@ -3,6 +3,14 @@
 ### Metoda badania:
 Wykorzystanie narzędzia ujawniającego punkty orientacyjne, inspekcja kodu.
 
+## Zastosowanie
+_do opracowania_
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 *Uwaga*: Kryteria sukcesu WCAG nie wymagają, aby stosować na stronie znaczniki definiujące obszary strony i punkty orientacyjne. Czy strona spełnia wymienione poniżej oczekiwania sprawdzamy tylko wtedy, gdy stosowane są punkty orientacyjne  i oznaczenia sekcji strony. 
    

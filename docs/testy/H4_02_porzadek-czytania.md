@@ -6,6 +6,12 @@ Kontrola wizualna, test z czytnikiem ekranu, linearyzacja treści
 ### Zastosowanie:
 Cała treść strony.
 
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryterium sukcesu: [1.3.2 Zrozumiała kolejność](https://wcag.lepszyweb.pl/#meaningful-sequence)
 -	Kolejność odczytu treści strony jest logiczna i zrozumiała. 

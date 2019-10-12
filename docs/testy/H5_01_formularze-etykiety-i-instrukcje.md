@@ -7,6 +7,12 @@ Kontrola wzrokowa, inspekcja kodu
 -	Wszystkie komponenty zbierające dane (kontrolki formularzy), takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru oraz przyciski zarządzania wypełnionymi formularzami (wyślij, zrezygnuj, wyczyść).
 -	Wszystkie instrukcje i wskazówki tekstowe i graficzne związane z kontrolkami formularzy, w tym dotyczące zgrupowania pól, kolejności wypełniania, specjalnych warunków lub kwalifikatorów, instrukcji formatowania, itp.   
 
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-text-content), [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#headings-and-labels), [1.3.5 Określenie pożądanej wartości](https://wcag.lepszyweb.pl/#identify-input-purpose), [2.4.6 Nagłówki i etykiety](https://wcag.lepszyweb.pl/#headings-and-labels), [3.3.2 Etykiety lub instrukcje](https://wcag.lepszyweb.pl/#labels-or-instructions), [2.5.3 Etykieta w nazwie](https://wcag.lepszyweb.pl/#label-in-name)
 -	Wszystkie pola i kontrolki w formularzu posiadają powiązaną programowo etykietę tekstową (grupy pól mogą współdzielić etykietę). 

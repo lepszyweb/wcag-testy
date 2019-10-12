@@ -10,7 +10,7 @@ Wszystkie wideo bez dźwięku (tylko wideo) nagrane wcześniej.
 
 *Uwaga*: Krótkie efekty animacji, takie jak zmiana stanu przycisku na „wciśnięty” lub „niewciśnięty”, zmniejszanie ikony pliku po zamknięciu pliku, nie są treściami wideo.
 
-## Założenia, ograniczenia lub wyjątki
+## Założenia, zastrzeżenia lub wyjątki
 _do opracowania_
 
 ## Obsługa dostępności

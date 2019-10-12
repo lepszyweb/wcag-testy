@@ -3,6 +3,14 @@
 ### Metoda badania: 
 Inspekcja kodu, wykorzystanie narzędzia ujawniającego elementy nagłówka i zakres.
 
+## Zastosowanie
+_do opracowania_
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryteria sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-and-relationships), [1.3.2 Zrozumiała kolejność](https://wcag.lepszyweb.pl/#meaningful-sequence)
 -	Tabele są wykorzystywane wyłącznie do prezentacji danych (najlepsza praktyka).

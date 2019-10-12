@@ -3,6 +3,14 @@
 ### Metoda badania: 
 Kontrola wizualna. Test nawigacji za pomocą klawiatury
 
+## Zastosowanie
+_do opracowania_
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryterium sukcesu: [2.4.7 Widoczny fokus](https://wcag.lepszyweb.pl/#focus-visible)
 -	Wskaźnik punktu uwagi (fokus) podczas nawigacji klawiaturą po stronie jest zawsze widoczny i wyraźny:

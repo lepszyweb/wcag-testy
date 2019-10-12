@@ -3,6 +3,12 @@
 ### Metoda badania: 
 Zidentyfikować wszystkie dostępne metody ukończenia CAPTCHA.
 
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryterium sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-text-content)
 -	Nazwa i opis CAPTCHA zwięźle i zrozumiale wyjaśnia sens CAPTCHA i procedurę tego testu  

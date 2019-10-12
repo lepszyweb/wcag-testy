@@ -3,6 +3,14 @@
 ### Metoda badania:
 Kontrola wzrokowa i test ręczny 
 
+## Zastosowanie
+_do opracowania_
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryterium sukcesu: [2.4.1 Możliwość pominięcia bloków](https://wcag.lepszyweb.pl/#bypass-blocks) 
 -	Jeśli pomiędzy górną krawędzią strony a jej zawartością główną znajduje się więcej niż pięć elementów interaktywnych, to na początku strony znajduje się nawigacja pomijająca – co najmniej jedno łącze do głównej treści strony.

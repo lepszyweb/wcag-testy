@@ -3,6 +3,14 @@
 ### Metoda badania:
 Inspekcja kodu, użycie narzędzia ujawniającego tekst alternatywny.
 
+## Zastosowanie
+_do opracowania_
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryterium sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-text-content)
 -	Logo jest łączem do głównej strony witryny (startowej). 

@@ -3,6 +3,14 @@
 ### Metoda badania: 
 Inspekcja kodu, wykorzystanie narzędzia ujawniającego nagłówki i kontrola wzrokowa
 
+## Zastosowanie
+_do opracowania_
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryteria sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-and-relationships), [2.4.6 Nagłówki i etykiety](https://wcag.lepszyweb.pl/#headings-and-labels)
 -	Nagłówki służą do określania części strony.  

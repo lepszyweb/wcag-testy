@@ -3,6 +3,14 @@
 ### Metoda badania: 
 Obserwacja, test ręczny 
 
+## Zastosowanie
+_do opracowania_
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania: 
 Kryterium sukcesu: [2.2.1 Możliwość dostosowania czasu](https://wcag.lepszyweb.pl/#timing-adjustable)
 -	Użytkownik jest informowany, jak długo trwa czas sesji.

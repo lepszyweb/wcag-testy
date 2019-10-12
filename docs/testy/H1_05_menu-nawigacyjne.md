@@ -3,6 +3,14 @@
 ### Metoda badania:
 Kontrola wizualna. Test obsługi za pomocą klawiatury. Test obsługi za pomocą czytnika ekranu. Inspekcja kodu. 
 
+## Zastosowanie
+_do opracowania_
+## Założenia, zastrzeżenia lub wyjątki
+_do opracowania_
+
+## Obsługa dostępności
+_do opracowania_
+
 ### Oczekiwania:
 Kryterium sukcesu: [2.4.5 Wiele dróg](https://wcag.lepszyweb.pl/#multiple-ways).
 -	Menu można rozpoznać jako takie dzięki odpowiedniej stylizacji i oznaczeniu np. etykietą.  
