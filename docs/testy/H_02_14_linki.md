@@ -14,7 +14,7 @@ Kryterium sukcesu: [2.4.4. Cel linku w kontekście](https://wcag.lepszyweb.pl/#l
 -	Naciśnięcie łącza klawiszem Enter wywołuje połączenie z docelową stroną, miejscem lub dokumentem.
 -	Łącza z takim samym celem mają taki sam tekst łącza, łącza do różnych celów mają różniące je teksty łączy. 
 
-### Instrukcje testowania:
+### Procedura testowania:
 1.	Sprawdź na stronie każdy element, który został wyróżniony jako łącze (podkreślony, umieszczony w grupie łączy), czy działa on jako łącze, tzn. przenosi do treści na tej samej lub innej stronie.
 2.	Sprawdź, czy cel każdego łącza wynika z jego tekstu (jeśli łącze prowadzi do innej strony lub dokumentu, to nazwa lub tytuł strony albo dokumentu jest wystarczająca).
 3.	Sprawdź, czy łącza prowadzące do tego samego celu mają takie same teksty łączy ORAZ czy łącza prowadzące do różnych celów mają odróżniające je teksty łączy.

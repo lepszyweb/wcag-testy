@@ -20,7 +20,7 @@ Kryteria sukcesu: [3.3.1 Identyfikacja błędu](https://wcag.lepszyweb.pl/#error
     - **Sprawdzanie**: Dane są sprawdzane pod kątem błędów, a użytkownik ma możliwość poprawienia ewentualnych błędów lub
     - **Potwierdzenie**: Istnieje mechanizm, umożliwiający użytkownikowi sprawdzenie, skorygowanie i potwierdzenie poprawności danych przed ich ostatecznym przesłaniem.
 
-### Instrukcje testowania:
+### Procedura testowania:
 1.	Wprowadzaj nieprawidłowe wartości w polach zbierających dane, aby uruchomić automatyczne wykrywanie błędów, które powodują powiadomienia o błędach, np.:
     - pomiń wpisywanie danych w polach oznaczonych jako wymagane,
     - w polach daty użyj innego format, niż oczekiwany,

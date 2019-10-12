@@ -16,13 +16,17 @@ ARC Toolkit instalujemy jak każde inne rozszerzenie przeglądarki Chrome.
 
 3.	Po zainstalowaniu, otwórz w Chrome menu Ustawienia i wybierz opcję **Więcej narzędzi > Narzędzia dla deweloperów** albo użyj klawiszy F12 lub kombinacji Ctrl+Shift+ I w Windows, a w Mac – Option + CMD + I. Możesz również wskazać myszką dowolny element na badanej  stronie i wybrać z menu kontekstowego polecenie **Zbadaj element**.
 4.	Na pasku narzędzi programisty wybierz ARC Toolkit.
+
 ![Opcja ARC Toolkit na pasku narzędzi dewelopera](/img/arc-toolkit_na-pasku-dewelopera.png)
+
 *Uwaga*: Po zainstalowaniu w Chrome ARC Toolkit jest włączony z domyślnymi ustawieniami. Nie wymaga dodatkowych czynności konfiguracyjnych. Jeśli będziesz zmieniać ustawienia domyślne, w grupie opcji Dostęp do stron pozostaw włączoną opcję **We wszystkich witrynach**.  
 *Uwaga 2*: Możesz zmieniać miejsce, w którym osadzone są Narzędzia programisty. Jeśli dysponujesz dwoma ekranami, to najlepszym wyborem będzie wyświetlenie narzędzi programisty w odrębnym oknie.
 
 ### Testowanie strony
-Aby rozpocząć testowanie strony internetowej, naciśnij na pasku przycisk Run Tests (Uruchom testy).
+Aby rozpocząć testowanie strony internetowej, naciśnij na pasku przycisk _Run Tests_ (Uruchom testy).
+
 ![Opcja Urudhom testy](/img/arc_toolkit-uruchom-test.png)
+
 Po chwili otrzymamy wyniki. Przyjrzyjmy się bliżej funkcjom oferowanym przez ARC Toolkit.
 Narzędzie składa się z dwóch obszarów: paska bocznego i głównego okna. Pasek boczny zawiera tabelę ze statystyką wyników.
 Oceniane reguły silnika ARC są zorganizowane w kategorie i podkategorie:
@@ -34,7 +38,9 @@ Oceniane reguły silnika ARC są zorganizowane w kategorie i podkategorie:
 -	**Identyfikatory** (*IDs*).
 Nazwy kategorii i podkategorii są nagłówkami wierszy tabeli, prezentującej wyniki w sześciu kolumnach.
 Kolumny w tabeli wyników pokazują liczbę widocznych i niewidocznych wystąpień, w tym błędów i ostrzeżeń. Nagłówkami kolumn są ikony symbolizujące kolejno:
+
 ![Nagłówki kolumn w tabeli w pasku bocznym](/img/arc-toolkit-nglowki-kolumn.png)
+
 1.	Widoczne wystąpienia (*Visible Instance*)
 2.	Błędy widoczne (*Visible Errors*)
 3.	Ostrzeżenia widoczne (*Visible Warnings*)
@@ -43,12 +49,16 @@ Kolumny w tabeli wyników pokazują liczbę widocznych i niewidocznych wystąpie
 6.	Ukryte ostrzeżenia (*Hidden Warnings*)
 Elementy ukryte to elementy niewidoczne w przeglądarkach, ale istniejące w kodzie strony, widoczne m.in. dla technologii wspomagających.  Ostrzeżenia dotyczą sytuacji, które mogą być problemami, ale wymaga to oceny człowieka.
 Po wykonaniu testów w oknie głównym wyświetlana jest tabela wyników prezentowanych w czterech kolumnach. W pierwszej znajdziemy systemowy opis testu (reguły ARC), w drugiej liczbę błędów, w trzeciej liczbę ostrzeżeń, a w czwartej nazwę kategorii błędu lub ostrzeżenia.  
+
 ![Interejs ARC Toolkit. Pasek boczny i główne okno](/img/arc-toolkit-okno.png)
+
 Wybranie podkategorii na pasku bocznym ograniczy wyniki w głównym oknie do problemów określonego typu, takich jak związane z obrazami lub nagłówkami, przy czym domyślnie uwzględnione są tylko elementy widoczne w przeglądarkach. Aby wyświetlić także informacje o elementach ukrytych, należy zaznaczyć w pasku menu w oknie głównym opcję: Ukryte (*Hidden*). Pozostałe trzy opcje ograniczają wyświetlanie wyników do błędów (*Errors*), ostrzeżeń (Warnings) i aktualnie wybranego węzła (*Limit to Selected Node*).
 
 ### Definicje wyników
 Szczegółowe wyniki testów sklasyfikowane są jako:
+
 ![Oznaczenia wyników](/img/arc_klasyfikacja.png)
+
 -	**Zaliczone** – wyniki testów, w przypadku których nie stwierdzono żadnych problemów z dostępnością.
 -	**Błędy** – wyniki, w przypadku których stwierdzono problemy z dostępnością.
 -	**Ostrzeżenia** - potencjalne problemy, które wymagają ręcznej weryfikacji.
@@ -61,6 +71,7 @@ W oknie głównym ARC zostaną wyświetlone szczegółowe wyniki. Każde z wyst�
 Gdy ARC wykryje błąd lub możliwy błąd (ERR bądź WARN), w informacji o wystąpieniu znajduje się zwięzły opis problemu i zalecone działanie.
 
 ![Wyniki szczegółowe](/img/arc-toolkit-szczegolowe.png)
+
 Informacje te wyświetlane są w języku angielskim. W razie potrzeby można je skopiować i przetłumaczyć za pomocą translatora internetowego (Google, Deepl i inne).
 
 ### Lokalizacja problemów w kodzie strony
@@ -74,9 +85,11 @@ ARC Toolkit posiada ponadto kilka innych cennych funkcji, które wspomagają pro
 
 #### Porządek tabulacji
 Gdy wybierzesz w bocznym pasku tę podkategorię, ARC Toolkit natychmiast wyświetli na stronie graficzną reprezentację porządku tabulacji. Wszystkie punkty interaktywne zostaną wyróżnione czerwonymi kółeczkami i ponumerowane liczbami wskazującymi kolejność tabulacji oraz połączone odcinkami. Wśród narzędzi oferujących tę funkcję ARC jest niewątpliwym liderem.
+
 ![Graficzna reprezentacja porządku tabulacji](/img/arc-toolkit-tab-order.png)
+
 #### Wzmocnienie fokusa
-   Zaznacz opcję **Show and Track Focus** (Pokaż i śledź skupienie) i wybierz w pasku bocznym podkategorię Tabindex (Indeks tabulatora). Następnie użyj klawisza Tab, by nawigować po stronie. Elementy, które uzyskują skupienie, zostaną wyróżnione wzmocnionym czerwonym obramowaniem. Jest to szczególnie pomocne narzędzie,  gdy projektant strony zmodyfikuje style tak, że fokus będzie niewidoczny lub nawet ukryty przed użytkownikiem.
+Zaznacz opcję **Show and Track Focus** (Pokaż i śledź skupienie) i wybierz w pasku bocznym podkategorię Tabindex (Indeks tabulatora). Następnie użyj klawisza Tab, by nawigować po stronie. Elementy, które uzyskują skupienie, zostaną wyróżnione wzmocnionym czerwonym obramowaniem. Jest to szczególnie pomocne narzędzie,  gdy projektant strony zmodyfikuje style tak, że fokus będzie niewidoczny lub nawet ukryty przed użytkownikiem.
 #### Przewijanie ekranu
 Włączenie funkcji **Check Page Reflow** (Wlej zawartość ponownie) spowoduje przeładowanie strony, powiększenie jej zawartości do 400% i ponowne wlanie do jednej kolumny dopasowanej do szerokości okna (rzutni). Funkcja ta pozwala sprawdzić zgodność z nowym w WCAG 2.1 kryterium sukcesu 1.4.10 Przewijanie tekstu. Tester może sprawdzić, czy użytkownik może przewijać i przeglądać zawartość pionowo lub poziomo, w jednym wymiarze bez konieczności przewijania w dwóch wymiarach (z wyjątkiem przypadków szczególnych). Równocześnie sprawdzamy, czy kolejność odczytu jest poprawna (logiczna).
 #### Odstępy w tekście

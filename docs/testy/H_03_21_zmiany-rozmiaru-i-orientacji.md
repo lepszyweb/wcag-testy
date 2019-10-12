@@ -15,7 +15,7 @@ Kryterium sukcesu: [1.3.4 Orientacja](https://wcag.lepszyweb.pl/#orientation), [
 -	Całą treść strony można wyświetlać zarówno w pionowym, jak i poziomym ułożeniu ekranu wyświetlacza, z wyjątkiem przypadków, gdy określona orientacja jest niezbędna ze względu na znaczenie lub funkcjonalność.
 -	Całą treść strony można przeglądać bez konieczności przewijania w dwóch kierunkach zarówno w pionowym, jak i poziomym ułożeniu ekranu wyświetlacza, z wyjątkiem przypadków, gdy określona orientacja jest niezbędna ze względu na znaczenie lub funkcjonalność.
 
-### Instrukcje testowania:
+### Procedura testowania:
 1.	Sprawdź, czy możliwe jest skorzystanie z mechanizmu zmiany rozmiaru, skalowania lub powiększenia treści co najmniej do 200% oryginalnego rozmiaru. Mogą to być m.in. poniższe rozwiązania:
     -	funkcja powiększania w przeglądarce,
     -	funkcje powiększania zapewniane przez platformę lub system operacyjny,

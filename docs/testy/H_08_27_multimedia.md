@@ -21,7 +21,7 @@ Kryteria sukcesu: [1.2.2 Napisy rozszerzone (nagranie)](https://wcag.lepszyweb.p
 -	Opis dźwiękowy nie powiela informacji zawartych w dialogach i dźwiękach niewerbalnych.
 -	Opis dźwiękowy nadąża za akcją prezentowaną na wideo, relacjonuje ją na bieżąco, w czasie teraźniejszym.
 
-### Instrukcje testowania:
+### Procedura testowania:
 1.	Sprawdź, czy do treści multimedialnej dołączono odpowiednią alternatywę – napisy, transkrypcje lub audiodeskrypcje (opisy dźwiękowe).
 2.	Sprawdź, czy napisy są dokładne i zawierają wszystkie dialogi i odpowiedniki dla dźwięków niewerbalnych niezbędnych do zrozumienia treści programu, w tym efektów dźwiękowych, muzyki, śmiechu, identyfikacji i lokalizacji osób mówiących.
 3.	Porównaj dźwięk z napisami, sprawdź dokładność, synchronizację czasową i równoważność.

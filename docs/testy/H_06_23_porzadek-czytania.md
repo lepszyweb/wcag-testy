@@ -14,7 +14,7 @@ Kryterium sukcesu: [1.3.2 Zrozumiała kolejność](https://wcag.lepszyweb.pl/#me
 -	Wszystkie widoczne teksty są odczytywane przez czytnik ekranu.
 -	Wszystkie treści ukryte przed osobami widzącymi, są ukryte również przed czytnikami ekranu.
 
-### Instrukcje testowania:
+### Procedura testowania:
 1.	Sprawdź, czy zawartość jest uporządkowana w znaczącej kolejności po linearyzacji, na przykład gdy arkusze stylów są wyłączone. *Uwaga*: po wyłączeniu CSS mogą być widoczne niektóre treści przeznaczone do ukrycia.
 2.	Sprawdź, czy kolejność, w jakiej treść strony jest odczytywana przez czytnik ekranu, jest logiczna i znacząca.
 
