@@ -51,7 +51,7 @@
  - [Następne kroki](testy/PW_11_nastepne-kroki.md) 
 
 - **Podstawa testowania TIK**
- - [Wprowadzenie](testy/ITC_00_wprowadzenie.md)
+ - [Wprowadzenie](testy/ICT_00_wprowadzenie.md)
  - [1. Dostęp z klawiatury](testy/ITC_01_klawiatura.md)
  - [2. Widoczny fokus](testy/ITC_02_widoczny-fokus.md)
  - [3. Kolejność fokusa](testy/ITC_03_kolejnosc-fokusa.md)

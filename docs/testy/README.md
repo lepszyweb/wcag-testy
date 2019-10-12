@@ -10,7 +10,7 @@ Ta część jest podzielona na dwie sekcje:
   - [Baza testów podstawowych](H0_00_wprowadzenie.md): projekt zbióru testów zgodności ze standardami WCAG 2.1, 
   z normami dostępności  
 - **2 xxxx**, na którą składają się:
-- [Podstawa testowania TIK](ITC_00_wprowadzenie.md): robocze tłumaczenie zestawu [ICT Testing Baseline](https://section508coordinators.github.io/ICTTestingBaseline/) stosowanego przez amerykańskie agencje rządowe
+- [Podstawa testowania TIK](testy/ICT_00_wprowadzenie.md): robocze tłumaczenie zestawu [ICT Testing Baseline](https://section508coordinators.github.io/ICTTestingBaseline/) stosowanego przez amerykańskie agencje rządowe
 - [A3Web - testy](0-0-0_wprowadzenie.md): zestaw testów opracowany przez Stowarzyszenie Twoje nowe mmożliwości(http://www.tnm.org.pl/)
 - [Wielostopniowa ocena zgodności z WCAG 2.1 AA](wplanie): uproszczony protokół testów zgodności stosowany na [Michigan State University](https://uarc.msu.edu/resources/tools)
 
