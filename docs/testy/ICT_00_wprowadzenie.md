@@ -4,7 +4,7 @@ Jest to robocze tłumaczenie SZKICU wersji 3.0 pakietu testów [*ICT Testing Bas
 
 *ICT Testing Baseline* obejmują uporządkowane w 25 podstawowych wymagań testy zgodności z kryteriami sukcesu WCAG 2.0. Nie obejmują, niestety, kryteriów sukcesu dodanych w WCAG 2.1. 
 
-Pierwsza wersja *ICT Testing Baseline* powstała w 2009 roku, aby zapewnić spójność w testach zgodności technologii informacyjno-komunikacyjnych (ITC) z wymaganiami Section 508. Test podstawowe zostały później wykorzystane w przygotowaniu [Trusted Tester](https://section508coordinators.github.io/TrustedTester/) - procesu testowania zgodności, opublikowanegow lipcu 2019 roku w&nbsp;wersji&nbsp;5.
+Pierwsza wersja *ICT Testing Baseline* powstała w 2009 roku, aby zapewnić spójność w testach zgodności technologii informacyjno-komunikacyjnych (ITC) z wymaganiami Section 508. Test podstawowe zostały później wykorzystane w przygotowaniu [Trusted Tester: Section 508 Conformance Test Process For Web](https://section508coordinators.github.io/TrustedTester/) - procesu testowania zgodności internetowej z Sekcją 508, opublikowanego w&nbsp;lipcu 2019 roku w&nbsp;wersji&nbsp;5.
 
 Po oparciu norm Sekcji 508 w 2017 roku na *Web Content Accessibility Guidelines* (WCAG) *ICT Testing Baseline* oraz *Trusted Tester Conformance Test Process* zostały odpowiednio zmodernizowane.
 
@@ -14,7 +14,7 @@ Jeśli chcesz dowiedzieć się więcej na temat amerykańskich rozwiązań, odwi
 
 Licencja *ICT Testing Baseline* pozwala na ich wykorzystanie bez ograniczeń, między innymi daje prawo do używania, kopiowania, modyfikowania, łączenia, publikowania, rozpowszechniać, udzielać podlicencji i/lub sprzedawania kopii pod warunkiem uznania praw autorskich twórców i stosowanych zastrzerzeń dotyczących nieudzielania jakichkolwiek gwarancji związanych z użytkowniem.
 
-Korzystając z tej licencji, przedstawiamy do wykorzystania polską adaptację nazwaną **Podstawa testowania TIK, licząc, że:
+Korzystając z tej licencji, przedstawiamy do wykorzystania polską adaptację nazwaną **Podstawa testowania TIK**, licząc, że:
 
 - **po pierwsze**, będą pomocne w ocenianiu dostępnosci stron internetowych i aplikacji mobilnych oraz
 - **po drugie**, pomogą w stworzeniu polskiej bazy podstawowych testów dostępności cyfrowej.
