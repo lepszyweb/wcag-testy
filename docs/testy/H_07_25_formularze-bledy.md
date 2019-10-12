@@ -33,7 +33,19 @@ Kryteria sukcesu: [3.3.1 Identyfikacja błędu](https://wcag.lepszyweb.pl/#error
     - pole z błędem jest wyróżnione.
 4.	Sprawdź, czy komunikaty o błędach zapewniają dodatkowe wskazówki, jak poprawić błędy, lub przykłady.   
 
+### Zasoby
 
-### Pomocne narzędzia:
+#### Pomocne narzędzia:
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 
   
 

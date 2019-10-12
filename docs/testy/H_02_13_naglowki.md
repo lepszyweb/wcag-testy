@@ -20,11 +20,6 @@ Uwaga: Nagłówki mogą być również zdefiniowane za pomocą atrybutu ARIA `ro
 3.	Sprawdź, czy nagłówki z wyższym poziomem rozpoczynają nowe sekcje, a nagłówki z niższym poziomem nowe podsekcje, które są częścią sekcji o wyższym poziomie.
 4.	Sprawdź, czy każdy element zdefiniowany w kodzie jako nagłówek służy rzeczywiście jako nagłówek (tytuł, śródtytuł).
 
-### Pomocne narzędzia:
--	skryptozakładka [Headings](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
--	skryptozakladka [H123](https://hinderlingvolkart.github.io/h123/). Wyświetla konspekt nagłówków przeglądanej strony. Autorzy z Hinderling Volkart AG  promują ją hasłem „Zobacz nagłówki jak czytnik ekranu!”.
--	Opcja *struktures* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
-
 ### Wykorzystanie skryptozkładki ANDI
 ![Wykorzystanie skryptozkładki ANDI](/img/andi_headings.png)
 1.	Uruchom skryptozakładkę ANDI. 
@@ -33,4 +28,20 @@ Uwaga: Nagłówki mogą być również zdefiniowane za pomocą atrybutu ARIA `ro
 4.	Posługując się przełącznikiem między wykrytymi elementami struktury strony, przejrzyj wszystkie nagłówki na stronie. 
 5.	Zbadaj każdy nagłówek według zaleceń powyżej w sekcji Instrukcje.    
  
+### Zasoby
 
+#### Pomocne narzędzia:
+-	skryptozakładka [Headings](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
+-	skryptozakladka [H123](https://hinderlingvolkart.github.io/h123/). Wyświetla konspekt nagłówków przeglądanej strony. Autorzy z Hinderling Volkart AG  promują ją hasłem „Zobacz nagłówki jak czytnik ekranu!”.
+-	Opcja *struktures* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 

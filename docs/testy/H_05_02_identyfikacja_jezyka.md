@@ -16,7 +16,20 @@ Kryterium sukcesu: [3.1.1 Język strony](https://wcag.lepszyweb.pl/#language-of-
 4.	Przejrzyj ponownie stronę i sprawdź, czy pojawiają się na stronie pojedyncze słowa lub zestawienia słów w innych językach, niż naturalny język strony.
 5.	Korzystając z funkcji Zbadaj element w przeglądarce, sprawdź, czy każdy znaleziony innojęzyczny element strony został objęty odpowiednim znacznikiem z poprawną wartością atrybutu `lang`.
 
-### Pomocne narzędzia:
 
+### Zasoby
+
+#### Pomocne narzędzia:
 - skryptozakładka [Images](http://pauljadam.com/bookmarklets/index.html)  z kolekcji Paula J. Adama
 - skryptozakładka [Lang Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 

@@ -28,14 +28,6 @@ o	W przypadku tabel układu, poprawna jest kolejność odczytu, gdy tabela jest 
 5.	Sprawdź, czy w złożonych tabelach danych (tabele, w których istnieją połączone komórki danych opisujące więcej niż jedną kolumnę lub jeden wiersz powiązanych z nimi danych), komórki nagłówkowe mają unikalne identyfikatory, a komórki danych atrybuty `headers` z identyfikatorami wymienionymi w poprawnej kolejności.
 6.	Sprawdź w tabelach prezentacyjnych, czy NIE zastosowano w nich znaczników i atrybutów wskazujących na relacje (znaczniki i atrybuty  komórek nagłówkowych, znacznik `caption`, atrybuty identyfikatorów i powiązań z identyfikatorami – `headers`)      
 
-### Pomocne narzędzia:
--	skryptozakładka [tables](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama. Wstawia znaczniki i atrybuty tabeli danych na żółtym tle, dzięki czemu można łatwo identyfikować błędy dostępności w tabeli.
--	skryptozakładka [Data Tables](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera. Wyświetla wszystkie wykryte znaczniki tabel - `th`, `summary`, `scope`, `axis`, `id`, i `headers`. Tester może sprawdzić, czy tabela jest wystarczająco oznakowana.
--	skryptozakładka [Complex Tables Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access. Pobiera powiązaną zawartość komórki nagłówka z każdej komórki, do której odwołuje się atrybut nagłówka, i umieszcza je na ekranie w komórce danych w taki sam sposób, w jaki czytnik ekranu może prezentować nagłówki użytkownikom czytnika ekranu.
--	skryptozakładka [tables](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama. Wstawia znaczniki i atrybuty tabeli danych na żółtym tle, dzięki czemu można łatwo identyfikować błędy dostępności w tabeli.
--	skryptozakładka [Content Structure](https://accessibility-bookmarklets.org/install.html) z kolekcji Pixo i University of Illinois. z kolekcji Pixo i University of Illinois. Autorzy wykorzystali skrypt Inhalte gegliedert, wzbogacając go o rozpoznawanie struktury list, tabel, linków i elementów formularzy.
--	Opcja *tables* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
-
 ### Wykorzystanie skryptozkładki ANDI
 ![Wykorzystanie skryptozkładki ANDI](/img/andi-tabela.png) 
 1.	Uruchom skryptozakładkę ANDI. 
@@ -49,3 +41,25 @@ o	W przypadku tabel układu, poprawna jest kolejność odczytu, gdy tabela jest 
     - opis: podana jest dostępna nazwa i sposób jej oznaczenia albo ostrzeżenie, że nie wykryto komponentów posiadających dostępną nazwę
     - *ANDI Output*: Treść, która zostanie przekazana użytkownikom czytników ekranu. Często także komunikat informujący o wykrytych usterkach. 
 7.	Obejrzyj informacje widoczne w obszarze analizowanej tabeli. Jeśli włączona została opcja *markup* (2), w obszarze analizowanej tabeli widoczne będą użyte do jej utworzenia znaczniki i atrybuty.           
+
+### Zasoby
+
+#### Pomocne narzędzia:
+-	skryptozakładka [tables](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama. Wstawia znaczniki i atrybuty tabeli danych na żółtym tle, dzięki czemu można łatwo identyfikować błędy dostępności w tabeli.
+-	skryptozakładka [Data Tables](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera. Wyświetla wszystkie wykryte znaczniki tabel - `th`, `summary`, `scope`, `axis`, `id`, i `headers`. Tester może sprawdzić, czy tabela jest wystarczająco oznakowana.
+-	skryptozakładka [Complex Tables Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access. Pobiera powiązaną zawartość komórki nagłówka z każdej komórki, do której odwołuje się atrybut nagłówka, i umieszcza je na ekranie w komórce danych w taki sam sposób, w jaki czytnik ekranu może prezentować nagłówki użytkownikom czytnika ekranu.
+-	skryptozakładka [tables](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama. Wstawia znaczniki i atrybuty tabeli danych na żółtym tle, dzięki czemu można łatwo identyfikować błędy dostępności w tabeli.
+-	skryptozakładka [Content Structure](https://accessibility-bookmarklets.org/install.html) z kolekcji Pixo i University of Illinois. z kolekcji Pixo i University of Illinois. Autorzy wykorzystali skrypt Inhalte gegliedert, wzbogacając go o rozpoznawanie struktury list, tabel, linków i elementów formularzy.
+-	Opcja *tables* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 
+

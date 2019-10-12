@@ -27,5 +27,18 @@ Kryteria sukcesu: [1.2.2 Napisy rozszerzone (nagranie)](https://wcag.lepszyweb.p
 3.	Porównaj dźwięk z napisami, sprawdź dokładność, synchronizację czasową i równoważność.
 4.	Sprawdź, czy napisy nie zasłaniają ani nie utrudniają odczytania istotnych informacji w wideo.
 
-### Pomocne narzędzia:
+### Zasoby
+
+#### Pomocne narzędzia:
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 
 

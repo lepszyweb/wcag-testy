@@ -13,5 +13,18 @@ Kryterium sukcesu: [2.4.5 Wiele dróg](https://wcag.lepszyweb.pl/#multiple-ways)
     -	Łącza w menu lub na mapie witryny prowadzą do odpowiednich stron witryny.
     -	Formularz wyszukiwania prowadzi do strony, która zawiera wyszukiwane hasło.
 
-### Pomocne narzędzia:
+### Zasoby
+
+#### Pomocne narzędzia:
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 
 

@@ -27,12 +27,6 @@ Kryterium sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-t
 2.	Sprawdź, czy kombinacja dostępnej nazwy i dostępnego opisu każdego obrazu niosącego informacje, znaczenie lub kontekst zapewnia równoważne informacje, znaczenie lub kontekst.
 3.	Sprawdź, czy znajdujący się w treści strony odpowiednik tekstowy każdego obrazu niosącego informacje, znaczenie lub kontekst jest programowo powiązany z obrazem, którego dotyczy.
 
-### Pomocne narzędzia:
--	skryptozakładka [Images](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
--	skryptozakładka [Active Images](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera
--	skryptozakładka [Img-Alt Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access
--	opcja graphics/images w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
-
 ### Wykorzystanie skryptozkładki ANDI
 ![Wykorzystanie skryptozkładki ANDI](/img/andi-images.png)
 1.	Uruchom skryptozakładkę ANDI i wybierz z menu ANDI opcję *graphic/images*.  
@@ -43,3 +37,21 @@ Kryterium sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-t
 6.	Za pomocą przełącznika wykrytych elementów przejdź do testowania następnego obrazu.  
 
 *Uwaga*: ANDI oznacza na stronie analizowane obrazy wyraźnym konturem.  
+### Zasoby
+
+#### Pomocne narzędzia:
+-	skryptozakładka [Images](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
+-	skryptozakładka [Active Images](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera
+-	skryptozakładka [Img-Alt Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access
+-	opcja graphics/images w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 

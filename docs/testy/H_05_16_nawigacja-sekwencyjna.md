@@ -17,16 +17,27 @@ Kryterium sukcesu: [2.4.3 Kolejność fokusa](https://wcag.lepszyweb.pl/#focus-o
 1.	Ustaw kursor w pasku adresu przeglądarki, a następnie użyj klawisza Tab, aby przemieszczać się do kolejnych interaktywnych elementów strony (łącza, przyciski, przełączniki, pola formularzy, itd.).  Nie używaj myszy.
 2.	Sprawdź, czy kolejność ustawiania fokusa zachowuje znaczenie i użyteczność strony.
 
-### Pomocne narzędzia:
+### Wykorzystanie skryptozkładki ANDI
+ ![Wykorzystanie skryptozkładki ANDI](/img/andi_kolejnosc_fokusa.png)
+1.	Uruchom skryptozakładkę ANDI. 
+2.	Wybierz z menu ANDI opcję *focusable elements* i zaznacz w menu poziomym opcję *tab order*. 
+3.	Sprawdź czy porządek otrzymywania fokusa przez elementy interaktywne oznaczony liczbami odpowiada jest logiczny i oczekiwany.  
+### Zasoby
+
+#### Pomocne narzędzia:
 -	skryptozakładka [Focus Interactive Controls](http://adrianroselli.com/2015/01/css-bookmarklets-for-testing-and-fixing.html) z kolekcji Adriana Roselliego. Zamiast uderzać wielokrotnie w klawisz tabulatura, aby sprawdzić style fokusa, kolejność odczytu, usłyszeć, jak czytnik ekranu ogłasza kolejne elementy, uruchom tę zakładkę. Nie będzie można jej zatrzymać do ukończenia zadania. Na każdym elemencie wskaźnik fokusa zostanie zatrzymany na 1 sekundę (możesz dostosować ten czas w kodzie zakładki). Możesz również dostosować selektor CSS, aby testować interaktywne elementy np. tylko w obszarze main.
 -	skryptozakładka [Force show focus](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama. Dodaje jednolity pomarańczowy kontur o rozmiarze 4 pikseli wokół wszystkich elementów interaktywnych, gdy staja się punktem uwagi podczas tabulacji.
 -	Opcja *tables* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
 -	Opcja *Trace tab path* oferowana w dodatku [ChromeLens](https://chrome.google.com/webstore/detail/chromelens/idikgljglpfilbhaboonnpnnincjhjkd). Z testu tabulacji otrzymasz plik graficzny w formacie PNG pokazujący trasę fokusa.  
 -	Opcja *Show Tab Stops* w narzędziu [Accessibility Insights for Web](https://accessibilityinsights.io/) firmy Microsoft 
 
+#### Techniki WCAG 2.1
+_do opracowania_
 
-### Wykorzystanie skryptozkładki ANDI
- ![Wykorzystanie skryptozkładki ANDI](/img/andi_kolejnosc_fokusa.png)
-1.	Uruchom skryptozakładkę ANDI. 
-2.	Wybierz z menu ANDI opcję *focusable elements* i zaznacz w menu poziomym opcję *tab order*. 
-3.	Sprawdź czy porządek otrzymywania fokusa przez elementy interaktywne oznaczony liczbami odpowiada jest logiczny i oczekiwany.  
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 

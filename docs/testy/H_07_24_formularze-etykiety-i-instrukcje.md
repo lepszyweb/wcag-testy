@@ -30,14 +30,6 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
     - atrybuty `aria-describedby` wskazuje na identyfikator elementu z dodatkowymi informacjami instruktażowymi, takich jak formatowanie lub wymagania dotyczące hasła.
     - atrybuty `aria-label` są używane tylko wtedy, gdy etykieta tekstowa nie byłaby odpowiednia dla osoby korzystającej z czytnika ekranu (preferowany tytuł)
 
-
-### Pomocne narzędzia:
--	skryptozakładka [Forms](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
--	skryptozakładka [Form Labels](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera
--	skryptozakładka [Forms](https://accessibility-bookmarklets.org/install.html) z kolekcji Pixo i University of Illinois. z kolekcji Pixo i University of Illinois.
--	Opcja focusable elements w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
--	Opcja links/buttons w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
-
 ### Wykorzystanie skryptozkładki ANDI
 ![Wykorzystanie skryptozkładki ANDI](/img/andi-forms.png) 
 1.	Uruchom skryptozakładkę ANDI i wybierz z menu opcję *focusable elements*.
@@ -47,3 +39,22 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
 5.	Sprawdź w sekcji *Accessibility Component*, jakie właściwości decydujące o dostępności komponentu zostały wdrożone oraz jakie defekty lub możliwe defekty zostały wykryte. Zbadaj dokładnie każdy z wykrytych defektów. 
 6.	Sprawdź w sekcji *ANDI Output*, czy użytkownik technologii wspomagającej zostanie wystarczająco i odpowiednio poinstruowany, jakie podać dane i w jakim formacie.   
 
+### Zasoby
+
+#### Pomocne narzędzia:
+-	skryptozakładka [Forms](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
+-	skryptozakładka [Form Labels](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera
+-	skryptozakładka [Forms](https://accessibility-bookmarklets.org/install.html) z kolekcji Pixo i University of Illinois. z kolekcji Pixo i University of Illinois.
+-	Opcja focusable elements w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
+-	Opcja links/buttons w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 

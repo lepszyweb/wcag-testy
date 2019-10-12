@@ -17,9 +17,20 @@ Kryterium sukcesu: [2.4.1 Możliwość pominięcia bloków](https://wcag.lepszyw
 4.	Jeśli tak, sprawdź, czy istnieje mechanizm umożliwiający pomijanie bloków treści, które poprzedzają główną treść strony (nawigacja pomijająca). 
 5.	Przetestuj każde łącze w nawigacji pomijającej i sprawdź, czy po uaktywnieniu punkt uwagi (fokus) przenosi się na początek głównej treści strony lub do pierwszego interaktywnego elementu w wybranym obszarze strony.   
 
-### Pomocne narzędzia:
+### Zasoby
+
+#### Pomocne narzędzia:
 -	skryptozakładka [Skip Links](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera.  Oznacza łącza pomijające oraz miejsca, do których zostanie przeniesiony użytkownik po wybraniu łącza.
 -	skryptozakładka [Track focus](https://github.com/ThePacielloGroup/bookmarklets) z kolekcji Pacciello Group 
 
- 
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 
  

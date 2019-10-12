@@ -30,9 +30,10 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 -  wynik całego testu: niepowodzenie, niezaliczony
 -  ocena zgodności z KS 1.2.1 = niezgodne
 
-### Pomocne narzędzia:
 
 ### Zasoby
+#### Pomocne narzędzia:
+_do opracowania_
 
 #### Techniki WCAG 2.1
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:

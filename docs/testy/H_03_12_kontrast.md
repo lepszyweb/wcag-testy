@@ -21,13 +21,6 @@ Kryteria sukcesu: [1.4.3 Kontrast (minimalny)](https://wcag.lepszyweb.pl/#contra
 3.	Sprawdź, czy na obiektach graficznych między elementami pierwszego planu wymaganymi do zrozumienia treści a tłem współczynnik kontrastu wynosi co najmniej 3:1
 4.	Sprawdź, czy współczynnik kontrastu między wizualnymi wskaźnikami aktywnych elementów interfejsu w stosunku do tła wynosi co najmniej 3:1. Przetestuj te wskaźniki kontrastu w każdym stanie.
 
-### Pomocne narzędzia:
--	[Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/)
--	skryptozakładka [Tota11y](https://khan.github.io/tota11y/) 
--	skryptozakładka [Grayscale](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
--	skryptozakładka [Grayscale](https://thomaspark.co/2013/11/3-simple-design-bookmarklets-to-improve-your-aesthetics/) z kolekcji Thomasa Parka. Wyświetla stronę w skali szarości. Pomaga wykryć obszary, które mogą mieć wystarczający kontrast w kolorze, ale nie mają wystarczającego kontrastu w skali szarości, co ma znaczenie dla dostępności dla osób dotkniętych zaburzeniami widzenia kolorów.
--	opcja contrast w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
-
 ### Wykorzystanie skryptozkładki ANDI
 ![Wykorzystanie skryptozkładki ANDI](andi-kontrast.png) 
 1.	Uruchom skryptozakładkę ANDI i wybierz z menu ANDI opcję *color contrast*. 
@@ -37,3 +30,22 @@ Kryteria sukcesu: [1.4.3 Kontrast (minimalny)](https://wcag.lepszyweb.pl/#contra
 5.	Jeżeli kontrast jest niezgodny z wymaganiami, ANDI wyświetla stosowny komunikat.   
 6.	Posługując się przełącznikiem między wykrytymi elementami struktury strony, sprawdź poprawność kontrastu wszystkich wykrytych na stronie elementów 
 
+### Zasoby
+
+#### Pomocne narzędzia:
+-	[Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/)
+-	skryptozakładka [Tota11y](https://khan.github.io/tota11y/) 
+-	skryptozakładka [Grayscale](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
+-	skryptozakładka [Grayscale](https://thomaspark.co/2013/11/3-simple-design-bookmarklets-to-improve-your-aesthetics/) z kolekcji Thomasa Parka. Wyświetla stronę w skali szarości. Pomaga wykryć obszary, które mogą mieć wystarczający kontrast w kolorze, ale nie mają wystarczającego kontrastu w skali szarości, co ma znaczenie dla dostępności dla osób dotkniętych zaburzeniami widzenia kolorów.
+-	opcja contrast w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 

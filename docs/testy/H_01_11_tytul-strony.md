@@ -17,9 +17,20 @@ Kryterium sukcesu: [2.4.2 Tytuły stron](https://wcag.lepszyweb.pl/#page-titled)
 4.	Sprawdź, czy tytuł krótko i odpowiednio opisuje treść strony.
 5.	Sprawdź, czy tytuł nie zawiera zbędnej interpunkcji.
 
-### Pomocne narzędzia:
+### Zasoby
+
+#### Pomocne narzędzia:
 -	skryptozakładka [Page Title](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama. Wyświetla tytuł strony w oknie dialogowym. Umożliwia skopiowanie tytułu do schowka.
 
+#### Techniki WCAG 2.1
+_do opracowania_
 
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 
 
 

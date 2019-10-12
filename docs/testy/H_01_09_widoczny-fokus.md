@@ -20,4 +20,17 @@ Uwaga: W środowisku testowym podczas testowania nie należy używać żadnych n
     2.	Użyj klawiszy strzałek, aby poruszać się między elementami, na których można ustawiać fokus w złożonym widżecie.
 2.	Gdy przenosisz fokus do każdego kolejnego komponentu, sprawdź, czy następuje widoczna i wyraźna zmiana wyglądu elementu, wskazująca, że otrzymał fokus. 
 
-### Pomocne narzędzia:
+### Zasoby
+
+#### Pomocne narzędzia:
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 

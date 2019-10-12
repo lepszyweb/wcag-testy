@@ -24,4 +24,17 @@ Kryterium sukcesu: [2.4.5 Wiele dróg](https://wcag.lepszyweb.pl/#multiple-ways)
 4.	Testuj ręcznie za pomocą klawiatury i czytnika ekranu, aby ustalić, czy podmenu otwiera się tylko po akcji użytkownika
 5.	Testuj ręcznie za pomocą czytnika ekranu, aby ustalić, czy stan jest przekazywany poprawnie
 
-### Pomocne narzędzia:
+### Zasoby
+
+#### Pomocne narzędzia:
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 

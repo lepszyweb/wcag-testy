@@ -18,13 +18,8 @@ Kryterium sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-
 5.	Sprawdź, czy w kodzie źródłowym łącze do wyszukiwarki pojawia się zawsze w tym samym porządku.
 6.	Odsłuchaj stronę czytnikiem ekranu i sprawdź, czy czytnik ogłasza etykiety pola wyszukiwania i przycisku wyzwalającego wyszukiwanie.  
 
-### Pomocne narzędzia:
--	skryptozakładka [Sr-only Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access. Wyświetla zawartość objętą znacznikiem z klasą „sr-only”, czyli „widoczną” tylko dla czytników ekranu.
--	skryptozakładka [[Forms](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
--	skryptozakładka [Form Labels](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera. Oznacza etykiety formularzy, zlicza i wyróżnia błędy etykietowania.
-
-### Wykorzystanie skryptozkładki ANDI
-![Wykorzystanie skryptozakłądki ANDI](img/andi-wyszukiwarka2.png)
+### Test z wykorzystaniem ANDI
+![Wykorzystanie skryptozakładki ANDI](img/andi-wyszukiwarka2.png)
 
 1.	Uruchom skryptozakładkę ANDI. 
 2.	Wybierz z menu ANDI opcję *focusable elements*, a następnie z menu poziomego *label tags*. 
@@ -33,3 +28,20 @@ Kryterium sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-
 5.	Sprawdź, czy w sekcji *ANDI Output* znajduje się ikona symbolizująca dźwięk i napis z tekstem etykiety Szukaj lub równoważnym (jest to tekst ogłaszany przez czytnik ekranu).
 6.	Jeśli obok pola wyszukiwania umieszczony jest przycisk „Znajdź”, „Idź” lub podobny, wybierz go za pomocą przełącznika między wykrytymi elementami struktury i sprawdź, czy posiada dostępną nazwę ogłaszaną przez czytnik ekranu.       
  
+### Zasoby
+
+#### Pomocne narzędzia:
+-	skryptozakładka [Sr-only Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access. Wyświetla zawartość objętą znacznikiem z klasą „sr-only”, czyli „widoczną” tylko dla czytników ekranu.
+-	skryptozakładka [[Forms](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
+-	skryptozakładka [Form Labels](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera. Oznacza etykiety formularzy, zlicza i wyróżnia błędy etykietowania.
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_

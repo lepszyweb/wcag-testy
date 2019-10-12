@@ -17,7 +17,20 @@ Kryteria sukcesu: [2.1.2 Brak pułapki na klawiaturę](https://wcag.lepszyweb.pl
 3.	Gdy trafisz na tzw. pułapkę klawiatury (czyli nie będzie możliwe przeniesienie fokusa za pomocą klawiatury na inny element), odnotuj ten defekt w ustaleniach, a następnie myszki, aby wyprowadzić fokus z pułapki.
 4.	Sprawdź również, czy przeniesienie fokusa klawiatury nie powoduje niespodziewanych zdarzeń, np. nie wywołuje akcji skojarzonej z pozycją na rozwijanej liście wyboru w formularzu    
 
-### Pomocne narzędzia:
+### Zasoby
+
+#### Pomocne narzędzia:
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 
 
 
 

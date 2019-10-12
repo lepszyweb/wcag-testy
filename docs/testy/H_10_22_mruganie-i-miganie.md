@@ -26,6 +26,19 @@ Kryteria sukcesu: [2.2.2. Wstrzymywanie (pauza), zatrzymywanie, ukrywanie](https
 3.	Sprawdź, czy istnieje mechanizm umożliwiający użytkownikowi wstrzymanie, zatrzymanie lub ukrycie treści, które się poruszają, przesuwają, migają, są aktualizowane automatycznie.
 4.	Sprawdź, czy istnieje mechanizm dostosowania częstotliwości, z jaką następuje automatyczna aktualizacja treści.   
 
-### Pomocne narzędzia:
+### Zasoby
+
+#### Pomocne narzędzia:
 -	[PEAT](https://trace.umd.edu/peat) - narzędzie do analizy ryzyka padaczki światłoczułej. Bezpłatne narzędzie dla programistów, redaktorów, autorów. PEAT może pomóc autorom ustalić, czy animacje lub wideo w ich treści mogą powodować napady padaczkowe.
 -	[Harding FPA](https://www.hardingfpa.com/) - komercyjna aplikacja do badania zgodności z normami dotyczącymi migania w materiałach wideo  
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 

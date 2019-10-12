@@ -18,10 +18,6 @@ Kryterium sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-
 5.	Sprawdź, czy wykazy z hierarchią zagnieżdżonych elementów są zagnieżdżone poprawnie, to znaczy listy podrzędne umieszczone są wewnątrz znaczników `<li>` .  
 
 
-### Pomocne narzędzia:
--	skryptozakładka [Lists](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
--	Opcja Structures w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
-
 ### Wykorzystanie skryptozkładki ANDI
 ![Wykorzystanie skryptozkładki ANDI](/img/andi-listy.png)
 1.	Uruchom skryptozakładkę ANDI. 
@@ -29,4 +25,19 @@ Kryterium sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-
 3.	Zobacz szczegółową informację o liczbie i typie wykrytych list.
 4.	Posługując się przełącznikiem między wykrytymi elementami struktury strony, zbadaj każdą listę według zaleceń powyżej w sekcji Instrukcje.    
  
+### Zasoby
 
+#### Pomocne narzędzia:
+-	skryptozakładka [Lists](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
+-	Opcja *structures* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 

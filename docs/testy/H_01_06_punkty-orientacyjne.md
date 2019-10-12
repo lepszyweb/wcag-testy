@@ -1,4 +1,4 @@
-## Nawigacja - Punkty orientacyjne lub oznaczenia kluczowych sekcji strony
+## Punkty orientacyjne lub oznaczenia kluczowych sekcji strony
 
 ### Metoda badania:
 Wykorzystanie narzędzia ujawniającego punkty orientacyjne, inspekcja kodu.
@@ -26,12 +26,24 @@ Kryteria sukcesu: [3.2.3 Konsekwentna nawigacja](https://wcag.lepszyweb.pl/#cons
 3.	Jeżeli na stronie występuje więcej niż jeden obszar tego samego typu, sprawdź, czy każdy z nich został oznaczony odróżniającą go etykietą lub nagłówkiem. (*Uwaga*: jeżeli jakiś obszar nawigacyjny jest powtórzony na stronie dwukrotnie, np. w nagłówku i stopce, wówczas może być oznaczony taką samą etykietą)     
 4.	Sprawdź czy w obszarze głównego punktu orientacyjnego (`main`), znajdują się tylko niepowtarzalne treści (obszar `main` nie może zawierać żadnych bloków treści, które powtarzają się na stronach).
 
-### Pomocne narzędzia:
--	skryptozakładka [Active Images](https://jimthatcher.com/favelets/)z kolekcji Jima Tatchera. Oznacza punkty orientacyjne. Sprawdza i wyświetla etykiety zdefiniowane przez aria-labelledby, a nawet poprawność ortograficzną nazwy tego atrybutu (częsty błąd =jedno 'l' zamiast dwóch).
+
+### Zasoby
+
+#### Pomocne narzędzia:
+-	skryptozakładka [Active Images](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera. Oznacza punkty orientacyjne. Sprawdza i wyświetla etykiety zdefiniowane przez aria-labelledby, a nawet poprawność ortograficzną nazwy tego atrybutu (częsty błąd =jedno 'l' zamiast dwóch).
 -	skryptozakładka [Ladmarks](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama. Oznacza punkty orientacyjne. Jeśli zdefiniowane są znacznikiem html – umieszcza etykietę ze znacznikiem na żółtym tle. Jeśli zdefiniowane są atrybutem role, umieszcza etykietę z wartością atrybutu
 -	skryptozakładka [Duplicate-landmark-roles](https://github.com/ThePacielloGroup/bookmarklets) z kolekcji Pacciello Group. Oznacza obszary, którym zdefiniowano nadmiarowy niepotrzebny atrybut role.
 -	skryptozakładka [Ladmarks](https://accessibility-bookmarklets.org/install.html) z kolekcji Pixo i University of Illinois. Oznacza nakładkami punkty orientacyjne. W etykiecie nakładki komunikuje zastosowany element HTML oraz dostępną nazwę punktu orientacyjnego.
 -	opcja Landmarks w skryptozakładce [Tota11y](https://khan.github.io/tota11y/) 
 -	skryptozakładka [Web Evaluation Tools](https://accessibility.oit.ncsu.edu/tools/web-evaluation-tools/) udostępniona przez IT Accessibility z NC State University 
 
+#### Techniki WCAG 2.1
+_do opracowania_
 
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 

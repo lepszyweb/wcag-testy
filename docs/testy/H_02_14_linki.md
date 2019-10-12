@@ -23,12 +23,6 @@ Kryterium sukcesu: [2.4.4. Cel linku w kontekście](https://wcag.lepszyweb.pl/#l
 -	tekstu w nadrzędnym elemencie listy, ALBO
 -	tekstu w komórce nagłówka tabeli, z którym jest powiązana komórka z łączem.  
 
-### Pomocne narzędzia:
--	opcja *Link Text* w skryptozakładce [Tota11y](https://khan.github.io/tota11y/)  
--	skryptozakładka [Restore Link Underlines](http://adrianroselli.com/2015/01/css-bookmarklets-for-testing-and-fixing.html) Adriana Roselliego. Podkreśla łącza na całej stronie.
--	skryptozakładka [Link underlines] https://github.com/ThePacielloGroup/bookmarklets  z kolekcji Pacciello Group 
--	opcja tables w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
-
 ### Wykorzystanie skryptozkładki ANDI
 ![Wykorzystanie skryptozkładki ANDI](/img/andi-linki.png)
 1.	Uruchom skryptozakładkę ANDI. 
@@ -38,3 +32,22 @@ Kryterium sukcesu: [2.4.4. Cel linku w kontekście](https://wcag.lepszyweb.pl/#l
 5.	Sprawdź, czy wybrane łącze ma dostępną nazwę oraz atrybut href wskazujący cel łącza
 6.	Sprawdź, czy tekst, jaki ogłosi czytnik ekranu, będzie zrozumiały bez kontekstu. Jeśli nie, sprawdź kontekst łącza i oceń, czy cel łącza będzie zrozumiały z kontekstu.   
 7.	Użyj przełącznika między wykrytymi elementami strony, aby sprawdzić kolejne łącze.
+
+### Zasoby
+
+#### Pomocne narzędzia:
+-	opcja *Link Text* w skryptozakładce [Tota11y](https://khan.github.io/tota11y/)  
+-	skryptozakładka [Restore Link Underlines](http://adrianroselli.com/2015/01/css-bookmarklets-for-testing-and-fixing.html) Adriana Roselliego. Podkreśla łącza na całej stronie.
+-	skryptozakładka [Link underlines] https://github.com/ThePacielloGroup/bookmarklets  z kolekcji Pacciello Group 
+-	opcja tables w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 

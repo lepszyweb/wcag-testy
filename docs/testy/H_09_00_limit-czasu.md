@@ -25,6 +25,20 @@ Kryterium sukcesu: [2.2.1 Możliwość dostosowania czasu](https://wcag.lepszywe
 2.	Sprawdź, czy alert ostrzegający o upływającym limicie czasu jest przekazywany w sposób wymuszający uwagę użytkownika, np. jest wyświetlany w oknie modalnym.
 3.	Sprawdź, czy użytkownik jest powiadamiany, że sesja wygasła oraz czy w powiadomieniu znajduje się prosta instrukcja, jak powrócić do sesji (np. „Zaloguj się ponownie”).
 
-### Pomocne narzędzia i zasoby:
+
+### Zasoby
 -	Przeczytaj: [SSA Accessibility Best Practices Library](https://www.ssa.gov/accessibility/bpl/bps/forms/timeout/default.htm)
 -	Przeczytaj: [Accessible timeout notifications](https://tink.uk/accessible-timeout-notifications/)
+
+#### Pomocne narzędzia:
+
+#### Techniki WCAG 2.1
+_do opracowania_
+
+### Przypadki testowe
+
+#### Zaliczone
+_do opracowania_
+
+#### Niezaliczone
+_do opracowania_ 
