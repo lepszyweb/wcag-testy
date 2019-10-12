@@ -17,7 +17,7 @@ Kryterium sukcesu: [2.4.5 Wiele dróg](https://wcag.lepszyweb.pl/#multiple-ways)
 -	Podczas nawigacji klawiszem Tab podmenu nie rozwija się i można je pominąć.
 -	Istnienie i stan podmenu są ogłaszane użytkownikom czytników ekranu dzięki zastosowaniu atrybutów `aria-haspopup` i `aria-expanded`.
 
-### Instrukcja testowania:
+### Procedura testowania:
 1.	Sprawdź, czy na wszystkich stronach menu znajdują się w spodziewanych tych samych miejscach. 
 2.	Nawiguj między wszystkimi pozycjami menu za pomocą klawisza Tab i klawiszy strzałek, sprawdź, czy w każdym momencie możesz przejść do następnej i poprzedniej pozycji oraz opuścić menu.
 3.	Użyj narzędzia kontrolnego, aby określić rolę i stan pozycji menu z podmenu

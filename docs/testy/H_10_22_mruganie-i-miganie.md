@@ -16,7 +16,7 @@ Kryteria sukcesu: [2.2.2. Wstrzymywanie (pauza), zatrzymywanie, ukrywanie](https
 -	Użytkownik może wstrzymać, zatrzymać lub ukryć, a także wznowić każdą treść ruchomą i odtwarzaną automatycznie
 -	Użytkownik może dostosować częstotliwość aktualizacji treści zmienianej dynamicznie 
 
-### Instrukcja testowania:
+### Procedura testowania:
 1.	Określ częstotliwość migania. Jeśli częstotliwość migania wynosi 3 Hz lub mniej (trzy błyski w ciągu jednej sekundy), dalsze badanie nie jest konieczne.
 2.	Jeśli zawartość miga powyżej 3 Hz lub nie można ustalić częstotliwości, sprawdź, czy spełnia ona jedną z następujących warunków:
     - Łączny obszar błysków pojawiających się jednocześnie nie przekracza „małego bezpiecznego obszaru” w obrębie 10 stopni pola widzenia monitora dla osoby patrzącej na monitor z przeciętnej odległości.

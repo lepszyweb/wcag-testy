@@ -10,7 +10,7 @@ Kryterium sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-
 -	Wyszukiwanie rozpoczyna się tylko na żądanie użytkownika – po naciśnięciu klawisza Enter bądź odpowiedniego przycisku.
 -	Użytkownik klawiatury może opuścić pole wyszukiwania (brak pułapki na klawiaturę).
 
-### Instrukcja testowania:
+### Procedura testowania:
 1.	Sprawdź, czy na każdej stronie wyszukiwarka znajduje się w tym samym miejscu.
 2.	Sprawdź, czy na każdej stronie wyszukiwarka ma taką samą funkcjonalność.
 3.	Sprawdź, czy do pola wyszukiwania można wejść i opuścić je tylko za pomocą klawiatury (klawisza Tab).

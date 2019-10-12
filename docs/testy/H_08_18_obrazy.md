@@ -22,7 +22,7 @@ Kryterium sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-t
 -	Każdy obraz, który służy jako łącze lub kontrolka formularza, zachowuje wymagany współczynnik kontrastu pierwszego planu do tła wynoszący co najmniej 3:1  
 -	Każdy obraz, który przekazuje informacje tekstowe, spełnia wymagania dotyczące kontrastu, z wyjątkiem, gdy jest to obraz logo.
 
-### Instrukcja testowania:
+### Procedura testowania:
 1.	Znajdź wszystkie obrazy na stronie i oceń każdy obraz, czy jest znaczący, czy dekoracyjny. 
 2.	Sprawdź, czy kombinacja dostępnej nazwy i dostępnego opisu każdego obrazu niosącego informacje, znaczenie lub kontekst zapewnia równoważne informacje, znaczenie lub kontekst.
 3.	Sprawdź, czy znajdujący się w treści strony odpowiednik tekstowy każdego obrazu niosącego informacje, znaczenie lub kontekst jest programowo powiązany z obrazem, którego dotyczy.

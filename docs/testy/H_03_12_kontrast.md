@@ -13,7 +13,7 @@ Kryteria sukcesu: [1.4.3 Kontrast (minimalny)](https://wcag.lepszyweb.pl/#contra
 -	Aktywne elementy interfejsu strony, takie jak linki, przyciski, kontrolki formularzy, styl domyślnego fokusa,  mają współczynnik kontrastu  w stosunku do tła 3:1 zarówno w stanie domyślnym, po wczytaniu strony, jak i w stanie aktywności (wskazywania, po otrzymaniu fokusa) 
 -	Obiekty graficzne na grafikach wymaganych do zrozumienia treści mają współczynnik kontrastu w stosunku do tła co najmniej 3:1
 
-### Instrukcja testowania:
+### Procedura testowania:
 1.	Użyj wybranego narzędzia, aby sprawdzić czy współczynnik kontrastu między tekstem a tłem wynosi co najmniej 4.5:1.
 2.	 Jeśli współczynnik kontrastu jest mniejszy niż 4.5:1, sprawdź, czy współczynnik wynosi co najmniej 3:1  ORAZ czy czcionka spełnia jedno z poniższych wymagań: 
    -	ma rozmiar co najmniej 18 punktów (23,94 pikseli)

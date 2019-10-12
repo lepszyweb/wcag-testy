@@ -13,7 +13,7 @@ Kryterium sukcesu: [2.4.7 Widoczny fokus](https://wcag.lepszyweb.pl/#focus-visib
 
 *Uwaga2*: Wskaźnik fokusa może przybierać różne formy: obramowania elementu, migającego kursora w polu tekstowym, wizualnej zmiany wyglądu przycisku.
 
-### Instrukcja testowania:
+### Procedura testowania:
 Uwaga: W środowisku testowym podczas testowania nie należy używać żadnych narzędzi modyfikujących wygląd fokusa. Niektóre narzędzia testowe dodają widoczny kontur wokół elementów, które otrzymują fokus.  Chociaż takie narzędzia mogą być pomocne w śledzeniu fokusa, to w testowaniu zgodności z KS [2.4.7 Widoczny fokus](https://wcag.lepszyweb.pl/#focus-visible) nie mogą być stosowane, bo spowodują uzyskanie nieprawdziwych wyników testu.  
 1.	Użyj klawiatury, aby poruszać się po wszystkich interaktywnych komponentach strony.
     1.	Użyj Tab i kombinacji klawiszy Shift+Tab, aby poruszać się między widżetami zarówno do przodu, jak i do tyłu.

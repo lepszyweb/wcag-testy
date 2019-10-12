@@ -10,7 +10,7 @@ Kryterium sukcesu: [2.4.1 Możliwość pominięcia bloków](https://wcag.lepszyw
 -	Łącza są zawsze widoczne albo stają się widoczne po otrzymaniu fokusa klawiatury
 -	Uruchomienie łącza powoduje, że punkt uwagi (fokus) przenosi się na początek głównej treści strony lub do pierwszego interaktywnego elementu w wybranym obszarze strony, jeśli nawigacja pomijająca zawiera więcej  łączy. 
 
-### Instrukcja testowania:
+### Procedura testowania:
 1.	Odśwież stronę, aby mieć pewność, że znajduje się w stanie domyślnym.
 2.	Obejrzyj stronę i zlokalizuj miejsce, w którym rozpoczyna się główna zawartość strony 
 3.	Sprawdź za pomocą nawigacji klawiaturą  albo za pomocą narzędzia ujawniającego interaktywne elementy strony, czy przed główną zawartością strony znajduje się więcej niż pięć elementów interaktywnych.

@@ -20,7 +20,7 @@ Kryteria sukcesu: [3.2.3 Konsekwentna nawigacja](https://wcag.lepszyweb.pl/#cons
 -	Obszar oznaczony głównym punktem orientacyjnym nie zawiera żadnych bloków treści, które powtarzają się na pozostałych stronach witryny, np. powtarzalnego obszaru nawigacyjnego (nie dotyczy ścieżki powrotu – jej treść jest inna na każdej stronie). 
 -	Liczba obszarów została zminimalizowana.
 
-### Instrukcja testowania:
+### Procedura testowania:
 1.	Uruchom podgląd rozmieszczenia punktów orientacyjnych na stronie za pomocą jednego z narzędzi ujawniających punkty orientacyjne (zobacz niżej: *Pomocne narzędzia*).
 2.	Sprawdź, czy typy punktów orientacyjnych określone użytymi znacznikami bądź atrybutami role zostały odpowiednio zastosowane do kluczowych obszarów strony (tzn. czy znacznik header bądź rola banner została zastosowana do nagłówka strony, znacznik bądź rola main została zastosowana do obszaru zawierającego główną treść strony, itd.
 3.	Jeżeli na stronie występuje więcej niż jeden obszar tego samego typu, sprawdź, czy każdy z nich został oznaczony odróżniającą go etykietą lub nagłówkiem. (*Uwaga*: jeżeli jakiś obszar nawigacyjny jest powtórzony na stronie dwukrotnie, np. w nagłówku i stopce, wówczas może być oznaczony taką samą etykietą)     

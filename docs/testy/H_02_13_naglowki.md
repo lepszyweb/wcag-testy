@@ -14,7 +14,7 @@ Kryteria sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-a
 
 Uwaga: Nagłówki mogą być również zdefiniowane za pomocą atrybutu ARIA `role="heading"`, a poziom nagłówków za pomocą atrybutu `aria-level="x"`, gdzie x to liczba definiująca poziom nagłówka.  
 
-### Instrukcja testowania: 
+### Procedura testowania: 
 1.	Sprawdź, czy każdy nagłówek opisuje temat lub cel następującej po nim treści.
 2.	Sprawdź, czy ważniejsze nagłówki mają wyższy poziom. Na przykład, `<h1>` jest poziomem wyższym niż `<h2>`, który jest wyższy niż `<h3>`.
 3.	Sprawdź, czy nagłówki z wyższym poziomem rozpoczynają nowe sekcje, a nagłówki z niższym poziomem nowe podsekcje, które są częścią sekcji o wyższym poziomie.

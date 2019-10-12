@@ -17,7 +17,7 @@ Kryterium sukcesu: [2.2.1 Możliwość dostosowania czasu](https://wcag.lepszywe
 -	Wyjątek dotyczący istoty czynności: sytuacje, gdy wydłużenie limitu czasu powodowałoby zaburzenie sensu czynności, przekroczenie istotnych warunków (np. w przypadku testów, w których istotnym kryterium jest czas reakcji.   
 -	Wyjątek 20 godzin: sytuacje, w których limit czasowy jest dłuższy niż 20 godzin.   
 
-### Instrukcja testowania:
+### Procedura testowania:
 1.	Sprawdź przed upływem limitu czasu, czy:
 -	Użytkownik jest ostrzegany o ograniczonym limicie czasu
 -	Użytkownik ma możliwość wyłączenia albo przedłużenia limitu czasu co najmniej dziesięciokrotnie

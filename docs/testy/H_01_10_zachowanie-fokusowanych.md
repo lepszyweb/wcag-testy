@@ -9,7 +9,7 @@ Kryteria sukcesu: [2.1.2 Brak pułapki na klawiaturę](https://wcag.lepszyweb.pl
 -	Wprowadzenie lub usunięcie danych w polu formularza, w tym w opcjach wyboru nie powoduje zmiany położenia fokusa.
 -	Gdy przeniesienie fokusa klawiatury na interaktywny element strony odsłania schowaną treść,  w której znajdują się elementy interaktywne, nawigacja klawiaturą przenosi fokus na pierwszy element interaktywny w odkrytej treści. 
 
-### Instrukcja testowania:
+### Procedura testowania:
 1.	Użyj klawiatury, aby poruszać się po wszystkich interaktywnych komponentach strony.
     1.	Użyj Tab i kombinacji klawiszy Shift+Tab, aby poruszać się między widżetami zarówno do przodu, jak i do tyłu.
     2.	Użyj klawiszy strzałek, aby poruszać się między elementami, na których można ustawiać fokus w złożonym widżecie.

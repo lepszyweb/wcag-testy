@@ -20,7 +20,7 @@ o	W przypadku tabel układu, poprawna jest kolejność odczytu, gdy tabela jest 
 
 *Uwaga*: Tabele mogą być utworzone również za pomocą atrybutów WAI ARIA. Przedstawiona tutaj  procedura testowania nie uwzględnia takich przypadków. 
 
-### Instrukcja testowania:
+### Procedura testowania:
 1.	Sprawdź, czy każda tabela ma kod, który poprawnie definiuje cała tabelę i jej elementy – podpis, komórki nagłówkowe, komórki danych.  
 2.	Sprawdź, czy w tabeli danych do elementu `<table>` NIE został przypisany atrybut ARIA `role="presentation"`. Gdyby tak było, czytniki ekranu nie otrzymają informacji o strukturze tabeli i nie przekażą ich użytkownikowi.
 3.	Sprawdź, czy tabela ma dostępną nazwę – podpis określony znacznikiem `<caption>`. Podpis może być ukryty przed użytkownikami przeglądającymi tabelę na ekranie.

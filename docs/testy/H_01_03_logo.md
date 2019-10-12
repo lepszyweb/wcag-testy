@@ -8,7 +8,7 @@ Kryterium sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-t
 -	Logo jest łączem do głównej strony witryny (startowej). 
 -	Znacznik HTML osadzający logo, zwykle `<img>`,  zawiera tekst znajdujący się w logo i wskazuje na podmiot będący właścicielem strony. 
 
-### Instrukcja testowania:
+### Procedura testowania:
 1.	Korzystając z funkcji Zbadaj element w przeglądarce, sprawdź, czy znacznik osadzający logo posiada atrybut `alt` z tekstem zawierającym tekst umieszczony w logo i nazwę wydawcy witryny.
 
 ### Pomocne narzędzia:

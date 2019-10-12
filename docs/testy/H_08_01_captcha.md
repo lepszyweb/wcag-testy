@@ -8,7 +8,7 @@ Kryterium sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-t
 -	Nazwa i opis CAPTCHA zwięźle i zrozumiale wyjaśnia sens CAPTCHA i procedurę tego testu  
 -	Istnieją metody uzupełnienia CAPTCHA przy użyciu różnych zmysłów.
 
-### Instrukcja testowania:
+### Procedura testowania:
 Jeśli na stronie znajduje się obraz CAPTCHA:
 1.	Sprawdź, czy kombinacja dostępnej nazwy i opisu wskazuje i wyjaśnia sens CAPTCHA.
 2.	Sprawdź, czy zapewnione są alternatywne formy CAPTCHA przynajmniej dla użytkowników niewidomych i niedosłyszących.

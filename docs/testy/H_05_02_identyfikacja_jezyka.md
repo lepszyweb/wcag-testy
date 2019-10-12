@@ -9,7 +9,7 @@ Kryterium sukcesu: [3.1.1 Język strony](https://wcag.lepszyweb.pl/#language-of-
 - Element `<html>` zawiera atrybut języka `lang`, a określony w nim język pasuje do głównego języka strony. 
 - Treść w innych językach ma odpowiednio zdefiniowany atrybut językowy na elemencie obejmującym fragment innojęzyczny. 
 
-### Instrukcja testowania: 
+### Procedura testowania: 
 1.	Przeglądając treść strony, zidentyfikuj domyślny naturalny język strony. Domyślnym jest język, w którym prezentowana jest większość treści.
 2.	Zobacz źródło strony i sprawdź, czy w znaczniku `<html>` zdefiniowany jest atrybut `lang`.
 3.	Sprawdź, czy wartość atrybutu `lang` odpowiada domyślnemu językowi strony.

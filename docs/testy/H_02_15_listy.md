@@ -10,7 +10,7 @@ Kryterium sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-
 -	Elementy na listach uporządkowanych i nieuporządkowanych objęte są znacznikami `<li>`, a na listach opisów znacznika `<dd>`. 
 -	Zagnieżdżenia list podrzędnych na listach wielopoziomowych są poprawne (listy podrzędne umieszczone są wewnątrz znaczników `<li>`).
 
-### Instrukcja testowania:
+### Procedura testowania:
 1.	Przejrzyj stronę. Znajdź na stronie zestawienia elementów wyglądające jak listy.
 2.	Sprawdź, czy wykazy, w których kolejność elementów nie ma istotnego znaczenia, zostały oznaczone jako listy nieuporządkowane (za pomocą znacznika `<ul>`.
 3.	Sprawdź, czy wykazy, w których kolejność elementów jest istotna, bo np. przedstawiają kolejność kroków w procedurze, zostały oznaczone jako listy uporządkowane (za pomocą znacznika `<ol>`.

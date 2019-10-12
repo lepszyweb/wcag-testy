@@ -13,7 +13,7 @@ Kryterium sukcesu: [2.4.3 Kolejność fokusa](https://wcag.lepszyweb.pl/#focus-o
 
 *Uwaga*: Chociaż jest to powszechna i dobra praktyka, nie jest wymagane, aby oznaczanie fokusem następowało w kolejności od lewej do prawej krawędzi strony i od góry do dołu.
 
-### Instrukcja testowania:
+### Procedura testowania:
 1.	Ustaw kursor w pasku adresu przeglądarki, a następnie użyj klawisza Tab, aby przemieszczać się do kolejnych interaktywnych elementów strony (łącza, przyciski, przełączniki, pola formularzy, itd.).  Nie używaj myszy.
 2.	Sprawdź, czy kolejność ustawiania fokusa zachowuje znaczenie i użyteczność strony.
 
