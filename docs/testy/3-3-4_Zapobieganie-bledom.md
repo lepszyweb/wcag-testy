@@ -1,5 +1,6 @@
 ## 3-3-4 Zapobieganie błędom 
 (kontekst prawny, finansowy, związany z podawaniem danych)
+
 **Czy serwis posiada odpowiednie zabezpieczenia przed popełnieniem błędów o konsekwencjach prawnych, finansowych lub związanych z wprowadzaniem i modyfikowaniem danych?**
 
 ### Wyjaśnienie
