@@ -6,7 +6,7 @@ W polskojęzycznych zasobach poświeconych dostępności cyfrowej nie ma, nieste
 ## Co znajduje się w tej części?
 - **Jednolita baza testów**, w tym:
   - [Baza testów wstępnych](testy/00_P_Wprowadzenie.md): zestaw prostych i łatwych testów „dla każdego”, dzięki którym osoby nie będące ekspertami mogą wykryć typowe problemy dostepności.
-  - [Baza testów podstawowych](H0_00_wprowadzenie.md): zestaw testów zgodności z normami dostępności przeznaczonych do projektowania własnych procedur testowych przez osoby odpowiedzialne za ocenę jakości - projektantów, programistów, webmasterów, integratorów, administratorów, audytorów i innych specjalistów.
+  - [Baza testów podstawowych](testy/H0_00_wprowadzenie.md): zestaw testów zgodności z normami dostępności przeznaczonych do projektowania własnych procedur testowych przez osoby odpowiedzialne za ocenę jakości - projektantów, programistów, webmasterów, integratorów, administratorów, audytorów i innych specjalistów.
 - **Bazy źródłowe**, dzięki którym można tworzyć własne opisy testów oraz wzbogacać i korygować opisy w bazie testów podstawowych. W zbiorze baz źródłowych może znaleźć się każdy zwarty testów i procedur testowych przetłumaczonych na język polski, o ile nie są opublikowane w zwartej formie w innym miejscu.   
   W pierwszej kolejności opublikowane zostaną:
 - [ICT Testing Baseline](testy/ICT_00_wprowadzenie.md): robocze tłumaczenie [bazy testów](https://section508coordinators.github.io/ICTTestingBaseline/) stosowanej w amerykańskich agencjach rządowych
