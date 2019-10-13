@@ -12,7 +12,11 @@ Testy powinny spełniać następujące wymagania:
 - **powtarzalność** (replikacyjność): przeprowadzenie tych samych testów na tej samej stronie przez różnych oceniajacych powinno przynosić te same wyniki w ramach określonej tolerancji.
 
 ## Źródła opisów
-
+Opisy testów powinny opierać się na sprawdzonych wzorach testów publikowanych w otwartych źródłach oraz doświadczeniu autorów opisów. Źródłami opisów mogą być w szczególności:
+- [Unified Web Evaluation Methodology](http://www.wabcluster.org/uwem1_2/) - Jednolita metodologia oceny dostępności internetowej zaprojektowana dla oceny zgodności z WCAG 1.0
+- [RGAA](https://rgaa.lepszyweb.pl) - francuska metodyka oceny dostępności 
+- [ICT Testing Baseline](https://section508coordinators.github.io/ICTTestingBaseline/)  
+- [Trusted Tester: Section 508 Conformance Test Process For Web](https://section508coordinators.github.io/TrustedTester/)
 
 ## Format opisów
 Opis testów powinien uwzględniać, na ile to możliwe, wymagania [formatu reguł ACT](https://w3c.github.io/wcag-act/act-rules-format.html), 
