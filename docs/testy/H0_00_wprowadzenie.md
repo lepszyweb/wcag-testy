@@ -1,0 +1,22 @@
+## Jednolita baza testów dostępności cyfrowej
+
+## Cel projektu
+Celem projektu Jednolita baza testów dostępności cyfrowej jest:
+- zapewnienie podstawy do eksperckiej oceny dostępności cyfrowej zasobów internetowych ORAZ
+- zwiększenie wartości ocen poprzez oparcie ich na wspólnej interpretacji WCAG i zestawie testów, które są wystarczająco solidne, aby dać zaiteresowanym stronom zafanie do wyników.
+
+Testy powinny spełniać następujące wymagania:
+- **zgodność techniczna** z dokumentami W3C WAI: [WCAG 2.1](), [Zrozumieć WCAG 2.1]() oraz [Techniki WCAG 2.1](),
+- **niezależność od narzędzi i programów użytkownika** (przeglądarek): opisy oczekiwań i testów powinny być sformułowane tak, aby nie wymagały stosowania konkretnych narzędzi i przeglądarek,
+- **jednoznaczność**: opisy oczekiwań i testów powinny być interpretowane tylko w jeden sposób,    
+- **powtarzalność** (replikacyjność): przeprowadzenie tych samych testów na tej samej stronie przez różnych oceniajacych powinno przynosić te same wyniki w ramach określonej tolerancji.
+
+## Źródłą opisów
+
+
+## Format opisów
+Opis testów powinien uwzględniać, na ile to możliwe, wymagania [formatu reguł ACT](https://w3c.github.io/wcag-act/act-rules-format.html), 
+
+ACT określa wspólny format pisania reguł testów dostępności, który pozwala wszystkim zaangażowanym w testowanie dostępności dokumentować i udostępniać swoje procedury testowe w sposób solidny, przejrzysty i zrozumiały, a tym samym zwiększać rzetelność i porównywalność ocen dostępności, minimalizować zamieszanie powodowane różnymi interpretacjami norm dostępnosci cyfrowej. 
+
+- Zobacz [Format opisu testu](testy/szablon_opisu_testu.md)
