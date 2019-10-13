@@ -6,12 +6,12 @@ Celem projektu Jednolita baza testów dostępności cyfrowej jest:
 - zwiększenie wartości ocen poprzez oparcie ich na wspólnej interpretacji WCAG i zestawie testów, które są wystarczająco solidne, aby dać zaiteresowanym stronom zafanie do wyników.
 
 Testy powinny spełniać następujące wymagania:
-- **zgodność techniczna** z dokumentami W3C WAI: [WCAG 2.1](), [Zrozumieć WCAG 2.1]() oraz [Techniki WCAG 2.1](),
+- **zgodność techniczna** z dokumentami W3C WAI: [WCAG 2.1](https://www.w3.org/TR/WCAG21/), [Zrozumieć WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/), [Jak spełnić WCAG](https://wcag.lepszyweb.pl) oraz [Techniki WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/#techniques),
 - **niezależność od narzędzi i programów użytkownika** (przeglądarek): opisy oczekiwań i testów powinny być sformułowane tak, aby nie wymagały stosowania konkretnych narzędzi i przeglądarek,
 - **jednoznaczność**: opisy oczekiwań i testów powinny być interpretowane tylko w jeden sposób,    
 - **powtarzalność** (replikacyjność): przeprowadzenie tych samych testów na tej samej stronie przez różnych oceniajacych powinno przynosić te same wyniki w ramach określonej tolerancji.
 
-## Źródłą opisów
+## Źródła opisów
 
 
 ## Format opisów
