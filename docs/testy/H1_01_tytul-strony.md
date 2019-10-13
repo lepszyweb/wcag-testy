@@ -13,7 +13,6 @@ _do opracowania_
 
 ### Oczekiwania:
 Kryterium sukcesu: [2.4.2 Tytuły stron](https://wcag.lepszyweb.pl/#page-titled)
--	Tytuł strony jest unikalny dla strony w interfejsie i dokładnie opisuje cel strony.
 -	Tytuł strony jest unikalny i opisuje jej treść.
 -	Tytuł strony zawiera temat strony i nazwę witryny.
 -	Tytuł strony nie zawiera zbędnej interpunkcji. 

@@ -5,8 +5,8 @@ Zależy od rodzaju serwisu. Czy jest to strona typu wizytówka, czy mała witryn
 
 Małą witrynę spełniającą funkcję wizytówki, liczącą kilka – kilkanaście stron, można i trzeba przetestować w całości – każdą stronę. 
 
-## Małe strony
-Rozróżnienia na małe i duże strony można dokonać w oparciu o kryterium liczby podstron. Zwykle przyjmuje się, że małymi są witryny liczące około 20-50 stron. Czy to oznacza, że witrynę z 60 podstronami trzeba zakwalifikować do dużych? Ogólnie rzecz biorąc, tak. Ale to kwestia decyzji w konkretnym przypadku. Jeśli na witrynie mamy w jednym z działów zamieszczony poradnik, w którym jest nawet i 50 instrukcji o podobnej strukturze i układzie zawartości, to nawet jeśli na tej witrynie będzie ogółem 70-90 podstron, nadal można uznać ją za małą.     
+## Małe witryny
+Rozróżnienia na małe i duże witryny można dokonać w oparciu o kryterium liczby podstron. Zwykle przyjmuje się, że małymi są witryny liczące około 20-50 stron. Czy to oznacza, że witrynę z 60 podstronami trzeba zakwalifikować do dużych? Ogólnie rzecz biorąc, tak. Ale to kwestia decyzji w konkretnym przypadku. Jeśli na witrynie mamy w jednym z działów zamieszczony poradnik, w którym jest 50 instrukcji o podobnej strukturze i układzie zawartości, to nawet jeśli na tej witrynie będzie ogółem 70-90 podstron, nadal można uznać ją za małą.     
 
 Na małej witrynie należałoby przetestować około 1/3 stron, a wśród nich:
 
@@ -17,7 +17,7 @@ Na małej witrynie należałoby przetestować około 1/3 stron, a wśród nich:
 Przyjmując, że w małej witrynie mamy 4-7 pozycji menu oraz 2-4 różne typy stron docelowych, to z prostego sumowania wynika, że powinniśmy zbadać około 12 stron, aby uzyskać na tyle bogaty zestaw informacji, by zidentyfikować wszystkie istotne problemy dostępności występujące na witrynie, a następnie wdrożyć działania naprawcze, prowadzące do ich eliminacji.
 
 ## Duże serwisy informacyjne
-Duże serwisy informacyjne działają zwykle w oparciu o jakiś system CMS – powszechnie znany albo mniej znany autorski. Oznacza to, najogólniej, że strony serwisu są generowane automatycznie przez system z dodawanych za pomocą specjalnego interfejsu treści. Oznacza to także, że autorzy treści mają niewielki wpływ na wygląd stron i sposób prezentacji konkretnych treści, bo ten zależy od zaimplementowanych w systemie CMS szablonów definiujących poszczególne widoki oraz szablonu głównego, zarządzającego całością prezentacji. Konfiguracja szablonów serwisu i poszczególnych widoków należy zwykle do głównego administratora lub wąskiego zespołu zarządzającego serwisem.  
+Duże serwisy informacyjne działają zwykle w oparciu o jakiś system CMS – powszechnie znany albo mniej znany, autorski. Oznacza to, najogólniej, że strony serwisu są generowane automatycznie przez system z dodawanych za pomocą specjalnego interfejsu treści. Oznacza to także, że autorzy treści mają niewielki wpływ na wygląd stron i sposób prezentacji konkretnych treści, bo ten zależy od zaimplementowanych w systemie CMS szablonów definiujących poszczególne widoki oraz szablonu głównego, zarządzającego całością prezentacji. Konfiguracja szablonów serwisu i poszczególnych widoków należy zwykle do głównego administratora lub wąskiego zespołu zarządzającego serwisem.  
 
 
 
