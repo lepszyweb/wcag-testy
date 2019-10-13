@@ -1,4 +1,4 @@
-- **Baza testów**
+- **Baza testów podstawowych**
   - [Wprowadzenie](testy/H0_00_wprowadzenie.md)
   - **Orientacja i nawigacja**
     - [Tytuł strony](testy/H1_01_tytul-strony.md)
@@ -36,7 +36,7 @@
     - [Media dynamiczne - Multimedia](testy/H6_04_multimedia.md) 
   - **Brak zkłóceń**	
     - [Mruganie, miganie, błyskanie](testy/H7_01_mruganie-i-miganie.md) 
-- **Przegląd wstępny**
+- **Baza testów wstępnych**
  - [Wprowadzenie](testy/PW_00_wprowadzenie.md)
  - [1. Tytuł strony](testy/PW_01_tytul-strony.md)
  - [2. Odpowiedniki tekstowe](testy/PW_02_odpowiedniki-tekstowe.md)
@@ -50,7 +50,7 @@
  - [10. Układ i struktura](testy/PW_10_uklad-i-struktura.md)
  - [Następne kroki](testy/PW_11_nastepne-kroki.md) 
 
-- **Podstawa testowania TIK**
+- **ICT Testing Baseline**
  - [Wprowadzenie](testy/ICT_00_wprowadzenie.md)
  - [1. Dostęp z klawiatury](testy/ICT_01_klawiatura.md)
  - [2. Widoczny fokus](testy/ICT_02_widoczny-fokus.md)
@@ -119,3 +119,5 @@
  - [3-3-4 Zapobieganie błedom](testy/3-3-4_Zapobieganie-bledom.md)
  - [4-1-1 Parsowanie](testy/4-1-1_Parsowanie.md)
  - [4-1-2 Nazwa, rola, wartość](testy/4-1-2_Nazwa-rola-wartosc.md) 
+- **ICT Testing Baseline**
+ - [Wielostopniowa ocena zgodności](testy/MSU_00_wprowadzenie.md)
