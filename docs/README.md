@@ -1,7 +1,7 @@
 # Testy zgodności z WCAG
 Najwięksi gracze na rynku cyfrowym od dawna mają świadomość znaczenia dostępności cyfrowej. Do powszechnej świadomości projektantów, programistów, twórców, wydawców, autorów stron internetowych i aplikacji mobilnych przebija się powoli, choć coraz skuteczniej.
 
-Nieodzownym warunkiem zapewnienia dostepności cyfrowej jest jej testowanie i&nbsp;ocenianie w&nbsp;procesach projektowania, tworzenia i&nbsp;aktualizacji wydawnictw cyfrowych. Nie tylko stron internetowych i aplikacji mobilnych, ale wszelkich publikacji cyfrowych.
+Nieodzownym warunkiem zapewnienia dostepności cyfrowej jest jej testowanie i&nbsp;ocenianie w&nbsp;procesach projektowania, tworzenia i&nbsp;aktualizacji stron internetowych i aplikacji mobilnych.
 
 ## Co to jest?
 Repozytorium „Testy zgodności z WCAG” jest inicjatywą projektu [Pracownia Dostepności Cyfrowej LepszyWeb.pl](https://lepszyweb.pl).
@@ -9,8 +9,8 @@ Celem tego repozytorium jest **pomóc wszystkim zainteresowanym w planowaniu, or
 
 Repozytorium składa się z czterech zasadniczych części:
 
-- **Procesy oceniania dostępności**, - prezentacja podstaw oceniania dostępności cyfrowej.
-- **Testy dostępności cyfrowej** - baza testów podstawowych
+- **Procesy oceniania dostępności** - prezentacja podstaw oceniania dostępności cyfrowej.
+- **Testy dostępności cyfrowej** - jednolita baza testów dostępności cyfrowej
 - **Narzędzia testera dostępności** - opisy użytecznych narzędzi 
 - **Słownik dostępności cyfrowej**, zawierającej objaśnienia terminów.
 
