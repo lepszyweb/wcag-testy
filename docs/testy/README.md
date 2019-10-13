@@ -9,9 +9,9 @@ W polskojęzycznych zasobach poświeconych dostępności cyfrowej nie ma, nieste
   - [Baza testów podstawowych](testy/H0_00_wprowadzenie.md): zestaw testów zgodności z normami dostępności przeznaczonych do projektowania własnych procedur testowych przez osoby odpowiedzialne za ocenę jakości - projektantów, programistów, webmasterów, integratorów, administratorów, audytorów i innych specjalistów.
 - **Bazy źródłowe**, dzięki którym można tworzyć własne opisy testów oraz wzbogacać i korygować opisy w bazie testów podstawowych. W zbiorze baz źródłowych może znaleźć się każdy zwarty testów i procedur testowych przetłumaczonych na język polski, o ile nie są opublikowane w zwartej formie w innym miejscu.   
   W pierwszej kolejności opublikowane zostaną:
-- [ICT Testing Baseline](testy/ICT_00_wprowadzenie.md): robocze tłumaczenie [bazy testów](https://section508coordinators.github.io/ICTTestingBaseline/) stosowanej w amerykańskich agencjach rządowych
-- [A3Web - testy](0-0-0_wprowadzenie.md): zestaw testów opracowany przez Stowarzyszenie Twoje nowe mmożliwości(http://www.tnm.org.pl/)
-- [Wielostopniowa ocena zgodności z WCAG 2.1 AA](testy/MSU_00_wprowadzenie.md) (w planie): uproszczony protokół testów zgodności stosowany na [Michigan State University](https://uarc.msu.edu/resources/tools)
+  - [ICT Testing Baseline](testy/ICT_00_wprowadzenie.md): robocze tłumaczenie [bazy testów](https://section508coordinators.github.io/ICTTestingBaseline/) stosowanej w amerykańskich agencjach rządowych
+  - [A3Web - testy](0-0-0_wprowadzenie.md): zestaw testów opracowany przez Stowarzyszenie Twoje nowe mmożliwości(http://www.tnm.org.pl/)
+  - [Wielostopniowa ocena zgodności z WCAG 2.1 AA](testy/MSU_00_wprowadzenie.md) (w planie): uproszczony protokół testów zgodności stosowany na [Michigan State University](https://uarc.msu.edu/resources/tools)
 
 ## Jak możesz pomóc?
 - **Zostań współtwórcą**. Zaproponuj i opracuj test lub zestaw testów. Prześlij swoje propozycje. Skorzystaj z [szablonu opisu testu](szablon_opisu_testu.md)
