@@ -7,7 +7,7 @@ Celem projektu Jednolita baza testów dostępności cyfrowej jest:
 
 Testy powinny spełniać następujące wymagania:
 - **zgodność techniczna** z dokumentami W3C WAI: [WCAG 2.1](https://www.w3.org/TR/WCAG21/), [Zrozumieć WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/), [Jak spełnić WCAG](https://wcag.lepszyweb.pl) oraz [Techniki WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/#techniques),
-- **niezależność od narzędzi i programów użytkownika** (przeglądarek): opisy oczekiwań i testów powinny być sformułowane tak, aby nie wymagały stosowania konkretnych narzędzi i przeglądarek,
+- **niezależność od narzędzi i programów użytkownika**: opisy oczekiwań i testów powinny być sformułowane tak, aby nie wymagały stosowania konkretnych narzędzi, przeglądarek, technologii wspomagających.
 - **jednoznaczność**: opisy oczekiwań i testów powinny być interpretowane tylko w jeden sposób,    
 - **powtarzalność** (replikacyjność): przeprowadzenie tych samych testów na tej samej stronie przez różnych oceniajacych powinno przynosić te same wyniki w ramach określonej tolerancji.
 
@@ -15,8 +15,8 @@ Testy powinny spełniać następujące wymagania:
 Opisy testów powinny opierać się na sprawdzonych wzorach testów publikowanych w otwartych źródłach oraz doświadczeniu autorów opisów. Źródłami opisów mogą być w szczególności:
 - [Unified Web Evaluation Methodology](http://www.wabcluster.org/uwem1_2/) - Jednolita metodologia oceny dostępności internetowej zaprojektowana dla oceny zgodności z WCAG 1.0
 - [RGAA](https://rgaa.lepszyweb.pl) - francuska metodyka oceny dostępności 
-- [ICT Testing Baseline](https://section508coordinators.github.io/ICTTestingBaseline/)  
-- [Trusted Tester: Section 508 Conformance Test Process For Web](https://section508coordinators.github.io/TrustedTester/)
+- [ICT Testing Baseline](https://section508coordinators.github.io/ICTTestingBaseline/) - stosowana w amerykańskich agencjach rządowych  
+- [Trusted Tester: Section 508 Conformance Test Process For Web](https://section508coordinators.github.io/TrustedTester/) - amerykańska baza testów dla „zaufanych” (certyfikowanych?) testerów 
 
 ## Format opisów
 Opis testów powinien uwzględniać, na ile to możliwe, wymagania [formatu reguł ACT](https://w3c.github.io/wcag-act/act-rules-format.html), 
