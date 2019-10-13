@@ -119,5 +119,5 @@
  - [3-3-4 Zapobieganie błedom](testy/3-3-4_Zapobieganie-bledom.md)
  - [4-1-1 Parsowanie](testy/4-1-1_Parsowanie.md)
  - [4-1-2 Nazwa, rola, wartość](testy/4-1-2_Nazwa-rola-wartosc.md) 
-- **ICT Testing Baseline**
- - [Wielostopniowa ocena zgodności](testy/MSU_00_wprowadzenie.md)
+- **Wielostopniowa ocena zgodności**
+ - [Wprowadzenie](testy/MSU_00_wprowadzenie.md)
