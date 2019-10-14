@@ -122,3 +122,8 @@
 - **Wielostopniowa ocena zgodności**
  - [Wprowadzenie](testy/MSU_00_wprowadzenie.md)
  - [Poziom 1](testy/MSU_01_poziom_1.md)
+ - [Poziom 2](testy/MSU_01_poziom_2.md)
+ - [Poziom 3](testy/MSU_01_poziom_3.md)
+ - [Poziom 4](testy/MSU_01_poziom_4.md)
+ - [Poziom 5](testy/MSU_01_poziom_5.md)
+ - [Poziom 6](testy/MSU_01_poziom_6.md)
