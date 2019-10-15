@@ -37,7 +37,7 @@
   - **Brak zkłóceń**	
     - [Mruganie, miganie, błyskanie](testy/H7_01_mruganie-i-miganie.md) 
 - **Baza testów wstępnych**
- - [Wprowadzenie](testy/PW_00_wprowadzenie.md)
+<!-- - [Wprowadzenie](testy/PW_00_wprowadzenie.md)
  - [1. Tytuł strony](testy/PW_01_tytul-strony.md)
  - [2. Odpowiedniki tekstowe](testy/PW_02_odpowiedniki-tekstowe.md)
  - [3. Nagłówki](testy/PW_03_naglowki.md)
@@ -49,7 +49,7 @@
  - [9. Alternatywy multimediów](testy/PW_09_multimedia.md)
  - [10. Układ i struktura](testy/PW_10_uklad-i-struktura.md)
  - [Następne kroki](testy/PW_11_nastepne-kroki.md) 
-
+-->
 - **ICT Testing Baseline**
  - [Wprowadzenie](testy/ICT_00_wprowadzenie.md)
  - [1. Dostęp z klawiatury](testy/ICT_01_klawiatura.md)
