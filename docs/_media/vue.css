@@ -295,16 +295,16 @@ main {
 .sidebar-toggle {
   background-color: transparent;
   border: 0;
-  top: 3em;
+  top: 0;
   left: 0;
   position: absolute;
   text-align: center;
   -webkit-transition: opacity .3s;
   transition: opacity .3s;
-  width: 30px;
+  width: 3em;
   z-index: 4;
   outline: none;
-  width: 284px;
+/*  width: 284px;*/
   padding: 10px;
   background-color: hsla(0, 0%, 100%, .8)
 }
@@ -981,3 +981,4 @@ body[data-page="README.md"] nav.app-nav a.active {
 }
 
 p img[align="right"] {margin-left:1em} 
+
