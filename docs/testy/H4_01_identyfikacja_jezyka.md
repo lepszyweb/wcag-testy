@@ -28,6 +28,16 @@ Kryterium sukcesu: [3.1.1 Język strony](https://wcag.lepszyweb.pl/#language-of-
 #### Pomocne narzędzia:
 - skryptozakładka [Images](http://pauljadam.com/bookmarklets/index.html)  z kolekcji Paula J. Adama
 - skryptozakładka [Lang Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access
+- opcja *structure* w skryptozakładce ANDI  https://www.ssa.gov/accessibility/andi/help/install.html 
+
+#### Wykorzystanie skryptozkładki ANDI
+![Wykorzystanie skryptozkładki ANDI](/img/andi_lang.png) 
+1.	Uruchom skryptozakładkę ANDI i wybierz z menu opcję *structure*. 
+2.	Wybierz z menu poziomego opcję  *more details*  (więcej szczegółów).
+3.	Wybierz z rozwijanej listy opcję *page language* (język strony) 
+4.	Sprawdź w oknie dialogowym, czy domyślny język strony  został określony poprawnie.
+
+
 
 #### Techniki WCAG 2.1
 _do opracowania_
