@@ -1,27 +1,27 @@
 # Nazwa i identyfikator
 
 ## Metody testów
-_Wskaź sposoby przeprowadzenia testu (inspekcja kodu, kontroola wzrokowa, badanie za pomocą narzędzia ujawniającego problemy, testy z użytkownikami_)
+*Wskaź sposoby przeprowadzenia testu (inspekcja kodu, kontroola wzrokowa, badanie za pomocą narzędzia ujawniającego problemy, testy z użytkownikami)*
 
 ## Zastosowanie
 
-_Wskaż treści, komponenty, do których test ma zastosowanie_
+*Wskaż treści, komponenty, do których test ma zastosowanie*
 
 ## Oczekiwania
 
-_Wypunktuj o ocenianych komponentach twierdzenia, które opisują zgodne z WCAG wdrożenie wymagań._   
+*Wypunktuj o ocenianych komponentach twierdzenia, które opisują zgodne z WCAG wdrożenie wymagań.*
 
 ## Założenia
 
-_Wypunktuj wszystkie przyjęte dla testu założenia, ograniczenia, wyjątki _
+*Wypunktuj wszystkie przyjęte dla testu założenia, ograniczenia, wyjątki*
 
 ## Obsługa dostępności
 
-_Jeśli istnieją, wypunktuj istotne problemy związane z dostępnością, znane w odniesieniu do teg testu._
+*Jeśli istnieją, wypunktuj istotne problemy związane z dostępnością, znane w odniesieniu do tego testu.*
 
 ## Procedura testowania
 
-_Opisz szczegółowe, co i w jaki sposób należy przetestować_ 
+*Opisz szczegółowe, co i w jaki sposób należy przetestować*
 
 ## Tło, zasoby
 
