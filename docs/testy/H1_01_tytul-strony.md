@@ -46,7 +46,10 @@ Kryterium sukcesu: [2.4.2 Tytuły stron](https://wcag.lepszyweb.pl/#page-titled)
 -   [H25: Zapewnienie tytułu za pomocą elementu title](https://www.w3.org/TR/WCAG20-TECHS/H25.html)
 -   [F25: Niespełnienie kryterium sukcesu 2.4.2 ze względu na tytuł strony internetowej, która nie identyfikuje treści](https://www.w3.org/TR/WCAG20-TECHS/F25.html)
 -   [[G127: Określenie relacji strony internetowej z większym zbiorem stron internetowych](https://www.w3.org/WAI/WCAG21/Techniques/general/G127.html)
+
 ### Przypadki testowe
+
+
 
 #### Zaliczone
 _do opracowania_

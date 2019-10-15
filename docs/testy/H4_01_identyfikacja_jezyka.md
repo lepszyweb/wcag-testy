@@ -37,10 +37,10 @@ Kryterium sukcesu: [3.1.1 Język strony](https://wcag.lepszyweb.pl/#language-of-
 3.	Wybierz z rozwijanej listy opcję *page language* (język strony) 
 4.	Sprawdź w oknie dialogowym, czy domyślny język strony  został określony poprawnie.
 
-
-
 #### Techniki WCAG 2.1
-_do opracowania_
+-   [H57: Używanie atrybutu lang dla elementu html](https://www.w3.org/WAI/WCAG21/Techniques/html/H57.html)
+-   [H58: Używanie atrybutu lang do wskazywania zmian w języku naturalnym](https://www.w3.org/WAI/WCAG21/Techniques/html/H58.html)
+-   [FLASH13: Użycie atrybutów lang HTML w celu określenia języka treści we Flashu](https://www.w3.org/WAI/WCAG21/Techniques/flash/FLASH13.html)
 
 ### Przypadki testowe
 
