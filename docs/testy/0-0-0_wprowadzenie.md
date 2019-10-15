@@ -14,4 +14,4 @@ Na każdy test składa się:
    
 Zestaw pytań obejmuje tylko krytyria sukcesu WCAG 2.0. 
 
-Możesz pomóc w uzupłnieniu zestawu o brakujące testy.
+Możesz pomóc w uzupełnieniu zestawu o brakujące testy. [Zgłoś brakujący opis](https://github.com/lepszyweb/wcag-testy/issues) w  systemie śledzenia błedów.
