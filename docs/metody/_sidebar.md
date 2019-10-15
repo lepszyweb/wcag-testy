@@ -1,5 +1,5 @@
 **Metodologia** 
- - [Wprowadzenie](metodologie/README.md)
+ - [Wprowadzenie](metody/README.md)
 **Koncepcje oceniania dostępności**
 **Procesy oceniania dostępności**
 **Zarządzanie ocenianiem dostępności** 
