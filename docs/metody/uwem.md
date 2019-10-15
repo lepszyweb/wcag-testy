@@ -43,6 +43,7 @@ UWEM wskazuje na trzy zasadnicze procedury testowania dostepności:
 - testowanie automatycznej,
 - badanie eksperckie,
 - testowanie przez użytkowników.   
+
 Każda z tych procedur ma swoje mocne i słabe strony. Żadna nie jest kompletna i wyczerpująca. 
 
 Najlepszym sposobem zapewnienia rzetelnej i warygodnej oceny dostępności i&nbsp;zgodności z&nbsp;normami jest zastosowanie podejścia łączonego, obejmującego wszystkie metody oceny: ocenę automatyczną, ocenę ekspercką i testowanie stron internetowych przez użytkowników.
