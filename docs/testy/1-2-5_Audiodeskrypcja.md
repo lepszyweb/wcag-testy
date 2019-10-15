@@ -1,5 +1,5 @@
 ## 1-2-5 Audiodeskrypcja (nagranie)
-**Czy wszystkie nagrania audiowideo (filmy) są zaopatrzone w audiodeskrypcję?**
+**Czy wszystkie nagrania audio-wideo (filmy) są zaopatrzone w audiodeskrypcję?**
 
 ### Wyjaśnienie
 Każdy opublikowany w serwisie film powinien być uzupełniony o audiodeskrypcję, czyli dodatkową ścieżkę dźwiękową przeznaczoną dla niewidomych użytkowników. Zsynchronizowana z samym filmem ścieżka powinna zawierać opis tego, co dzieje się na ekranie. Audiodeskrypcja nie jest potrzebna, gdy wszystkie informacje można wywnioskować z podstawowej ścieżki dźwiękowej, co jednak zdarza się dosyć rzadko.
