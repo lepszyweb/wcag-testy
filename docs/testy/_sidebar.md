@@ -78,7 +78,7 @@
  - [24. Parsowanie](testy/ICT_24_Parsowanie.md)
  - [25. Brak zakłóceń](testy/ICT_25_brak-zaklocen.md)
  
-- **Zestaw testów A3Web**
+- **Pomocnik adepta dostępności**
  - [Wprowadzenie](testy/0-0-0_wprowadzenie.md)
  - [1-1-1 Treść nietekstowa](testy/1-1-1_Tresc-nietekstowa.md)
  - [1-2-1 Tylko audio... (nagranie)](testy/1-2-1_Tylko-audio.md)
