@@ -1,10 +1,4 @@
-## Słownik 
-
-## Zastrzeżenia:
-
-- **Słownik jest w trakcie opracowywania**
-- Definicje terminów zwiazannych z testowaniem za: [Słownikiem wyrażeń związanych z testowaniem wykorzystywanych w sylabusie CTFL 2018](https://sjsi.org/ist-qb/do-pobrania/)
-
+# Słownik 
 
 ## A
 
@@ -26,12 +20,11 @@ poprawiony, tak, by odpowiadać dokładnej końcowej wersji multimediów po zako
 
 
 ### ASCII art
-Obraz utworzony przez rozmieszczenie w przestrzeni liter i innych znaków, zazwyczaj spośród 95 drukowalnych znaków zdefiniowanych w standardzie ASCII.
-
-
+Proste rysunki tworzone za pomoca znaków ASCII układanych na obszarze o stałej szerokości kolumn oraz o stałej wysokości znaków. Ten sposób tworzenia grafiki, a raczej jej symbolizowania, nazywa się semigrafiką lub pseudografiką. ASCII-Art były początkowo tworzone z myślą o wydrukowaniu ich na drukarkach znakowych. Przykładem prostych ASCII-Art są ikony emocji (emotikony).
 
 ### audio
-technologia odtwarzania dźwięku
+Treści przekazywane elektronicznie dźwiękiem, technika rejestrowania i przekazywania sygnałów dźwiękowych. 
+ 
 *Uwaga:* Audio może być tworzone w sposób sztuczny (włączając w  to syntezę mowy), przez nagrywanie prawdziwego dźwięku lub na oba sposoby.
 
 
@@ -128,6 +121,17 @@ Osoba odpowiedzialna za zarządzanie czynnościami testowymi, zasobami oraz ocen
 Wszystkie kroki, etapy składajace się na cały proces, procedurę. 
 [Zgodność]() (oraz poziomy zgodności) dotyczy kompletnych procesów. Proces spełnia wymogi zgodności na określonym poziomie tylko wtedy, gdy wszystkie strony prezentujące etapy procesu spełniają wymogi co najmniej na tym sammym poziomie. Gdy tylko niektóre etapy procesu spełniają wymogi zgodności na wyższym poziomie, to cały proces (i strony, na których jest obsługiwany) spełniają wyniki na niższym poziomie. Inaczej - zgodność na określonym poziomie nie jest osiągnięta, jeżeli którakolwiek ze stron prezentujących którykolwiek z etapów procesu nie spełnia wszystkich wymogów zgodności na tym poziomie.
 
+## M
+
+### Media
+To, za pośrednictwem czego są przekazywane lub wyrażane jakieś treści, środek przekazu.
+
+media umożliwiają wykorzystanie wszystkich środków prezentacyjnych i reprezentacyjnych takich jak: głos, wzrok, twarz, mimika, gesty, jak również teksty, obrazy, rysunki, fotografie, filmy
+
+
+
+### Media zmienne w czasie
+Media dynamiczne, oparte na sekwencji obrazów i dźwięków
 
 ## O
 
@@ -266,6 +270,10 @@ Aspekt podstawy testów, który jest istotny dla osiągnięcia określonych cel�
 
 ### WCAG
 Akronim od angielskiego tytułu zbioru dokumentów [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) – opublikowanego przez zob. =>  WAI, zawierający zalecenia dotyczące tworzenia dostępnych treści internetowych. 15 października 2012 roku wytyczne WCAG w wersji 2.0 zyskały status międzynarodowej normy ISO/IEC 40500:2012.  
+
+
+### wideo
+Treści przekazywane elektronicznie złożone z sekwencji obrazów, technika rejestrowania i przekazywania sygnałów wizyjnych. 
 
 
 ### Witryna  internetowa
