@@ -9,7 +9,7 @@ Celem tego repozytorium jest **pomóc wszystkim zainteresowanym w planowaniu, or
 
 Repozytorium składa się z czterech zasadniczych części:
 
-- **Procesy oceniania dostępności** - prezentacja podstaw oceniania dostępności cyfrowej.
+- **Metody oceniania dostępności** - prezentacja podstaw oceniania dostępności cyfrowej.
 - **Testy dostępności cyfrowej** - jednolita baza testów dostępności cyfrowej
 - **Narzędzia testera dostępności** - opisy użytecznych narzędzi 
 - **Słownik dostępności cyfrowej**, zawierającej objaśnienia terminów.
