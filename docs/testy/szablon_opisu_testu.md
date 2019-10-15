@@ -40,7 +40,7 @@
 Opis...
 
 ```html
-<!-- code -->
+<!-- kod -->
 ```
 
 #### Przykład 2
@@ -54,7 +54,7 @@ Opis...
 Opis...
 
 ```html
-<!-- code -->
+<!-- kod -->
 ```
 
 #### Przykład 2
@@ -68,7 +68,7 @@ Opis...
 Opis...
 
 ```html
-<!-- code -->
+<!-- kod -->
 ```
 
 #### Przykład 2
