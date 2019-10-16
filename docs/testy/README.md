@@ -1,4 +1,4 @@
-# Testy dostępności
+# Testy zgodności z WCAG
 W polskojęzycznych zasobach poświeconych dostępności cyfrowej nie ma, niestety, ani jednego opracowania odpowiadającego rzeczowo i konkretnie na pytania o to, jak badać i oceniać zgodność stron internetowych i aplikacji mobilnych z normami dostępności.  
 
 **Jednolita baza testów dostępności cyfrowej** ma wypełnić tę lukę. Zapraszamy do jej współtworzenia wszystkich, którzy mogą i chcą pomóc. 
