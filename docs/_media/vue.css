@@ -119,13 +119,13 @@ nav.app-nav a {
 }
 
 nav.app-nav a.active, nav.app-nav a:hover {
-  color: #4086c4;
-  color: var(--theme-color, #4086c4)
+  color: #440055;
+  color: var(--theme-color, #440055)
 }
 
 nav.app-nav a.active {
-  border-bottom: 2px solid #4086c4;
-  border-bottom: 2px solid var(--theme-color, #4086c4)
+  border-bottom: 2px solid #440055;
+  border-bottom: 2px solid var(--theme-color, #440055)
 }
 
 nav.app-nav li {
