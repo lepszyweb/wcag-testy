@@ -19,7 +19,7 @@ Kryterium sukcesu: [2.4.2 Tytuły stron](https://wcag.lepszyweb.pl/#page-titled)
 -	Tytuł strony nie zawiera zbędnej interpunkcji. 
 
 ### Procedura testowania:
-1.	Sprawdź, strona ma tytuł zdefiniowany w kodzie znacznikiem `<title>`.
+1.	Sprawdź, czy strona ma tytuł zdefiniowany w kodzie znacznikiem `<title>`.
 2.	Sprawdź, czy tytuł strony jest inny od pozostałych.
 3.	Sprawdź, czy tytuł zawiera temat strony i nazwę witryny.
 4.	Sprawdź, czy tytuł krótko i odpowiednio opisuje treść strony.
