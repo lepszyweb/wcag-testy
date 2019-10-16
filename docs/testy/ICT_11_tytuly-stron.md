@@ -6,18 +6,18 @@
 
 ## Uzasadnienie metody badania
 ------------------------------
-Element &lt;title&gt; określa tytuł dokumentu i jest wymagany we wszystkich dokumentach HTML/XHTML. Ten test ocenia obecność opisowego tytułu dla strony internetowej.
+Element Element `<title>` dla strony. Określa tytuł dokumentu i jest wymagany we wszystkich dokumentach HTML/XHTML. Ten test ocenia obecność opisowego tytułu dla strony internetowej.
 
 ## Ograniczenia, założenia lub wyjątki
 -   Każda strona internetowa musi mieć opisowy tytuł. Ten test jest zawsze obowiązkowy.
--   Element &lt;title&gt; w tym teście różni się od atrybutu *title* używanego do dodawania podpowiedzi/dodatkowych informacji o elemencie.
+-   Element `<title>` w tym teście różni się od atrybutu *title* używanego do dodawania podpowiedzi/dodatkowych informacji o elemencie.
 -   Niektóre aplikacje internetowe i inne niż internetowe mogą zawierać treści, które zmieniają się dynamicznie. W takich przypadkach tytuł strony powinien wystarczająco opisywać cel aplikacji.
--   [Specyfikacja HTML5](https://www.w3.org/TR/html50/document-metadata.html#the-title-element) stanowi, że dokument HTML powinien mieć tylko jeden element &lt;title&gt; ORAZ że element &lt;title&gt; powinien być dzieckiem elementu &lt;head&gt; element.Jednak w praktyce wszystkie nowoczesne przeglądarki korygują błędy składniowe związane z lokalizacją i zagnieżdżaniem elementu &lt;title&gt;.  Dlatego gdy programy klienckie korzystające z Obiektowego MOdelu Dokumentu (DOM)  umieszczą element &lt;title&gt; w prawidłowej lokalizacji i zazwyczaj będą przedstawiać użytkownikowi tylko pierwszy element &lt;title&gt; (jeśli jest więcej niż jeden).
+-   [Specyfikacja HTML5](https://www.w3.org/TR/html50/document-metadata.html#the-title-element) stanowi, że dokument HTML powinien mieć tylko jeden element `<title>` ORAZ że element `<title>` powinien być dzieckiem elementu `<head>` element.Jednak w praktyce wszystkie nowoczesne przeglądarki korygują błędy składniowe związane z lokalizacją i zagnieżdżaniem elementu `<title>`.  Dlatego gdy programy klienckie korzystające z Obiektowego Modelu Dokumentu (DOM)  umieszczą element `<title>` w prawidłowej lokalizacji i zazwyczaj będą przedstawiać użytkownikowi tylko pierwszy element `<title>` (jeśli jest więcej niż jeden).
 
 ## Procedura testu dla KS 2.4.2 Tytuły stron
 ---------------------------------------
 ### Identyfikacja treści
-Element &lt;title&gt; dla strony.
+Element `<title>` dla strony.
 
 ### Instrukcja testowania
 

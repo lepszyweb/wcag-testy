@@ -77,7 +77,7 @@
  - [23. Wiele dróg](testy/ICT_23_wiele-drog.md)
  - [24. Parsowanie](testy/ICT_24_parsowanie.md)
  - [25. Brak zakłóceń](testy/ICT_25_brak-zaklocen.md)
- 
+ - [Dodatek A. Tabela porównawcza](testy/ICT_26_dodatekA.md) 
 - **Pomocnik adepta dostępności**
  - [Wprowadzenie](testy/0-0-0_wprowadzenie.md)
  - [1-1-1 Treść nietekstowa](testy/1-1-1_Tresc-nietekstowa.md)
