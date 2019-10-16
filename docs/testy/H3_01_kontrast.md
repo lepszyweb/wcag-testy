@@ -30,7 +30,7 @@ Kryteria sukcesu: [1.4.3 Kontrast (minimalny)](https://wcag.lepszyweb.pl/#contra
 4.	Sprawdź, czy współczynnik kontrastu między wizualnymi wskaźnikami aktywnych elementów interfejsu w stosunku do tła wynosi co najmniej 3:1. Przetestuj te wskaźniki kontrastu w każdym stanie.
 
 ### Wykorzystanie skryptozkładki ANDI
-![Wykorzystanie skryptozkładki ANDI](andi-kontrast.png) 
+![Wykorzystanie skryptozkładki ANDI](/img/andi-kontrast.png) 
 1.	Uruchom skryptozakładkę ANDI i wybierz z menu ANDI opcję *color contrast*. 
 2.	Zobacz informację o liczbie wykrytych na stronie elementów oraz zapoznaj się z alertami dotyczącymi wykrytych problemów z kontrastem.  
 3.	ANDI przedstawia wynik testu kontrastu dla każdego wykrytego na stronie elementu.
