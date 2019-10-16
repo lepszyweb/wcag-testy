@@ -40,6 +40,9 @@ Kryteria sukcesu: [1.4.3 Kontrast (minimalny)](https://wcag.lepszyweb.pl/#contra
 
 ### Zasoby
 
+- [The Myths of Color Contrast Accessibility])(https://uxmovement.com/buttons/the-myths-of-color-contrast-accessibility/)
+
+
 #### Pomocne narzędzia:
 -	[Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/)
 -	skryptozakładka [Tota11y](https://khan.github.io/tota11y/) 

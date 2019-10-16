@@ -22,6 +22,7 @@ Kryterium sukcesu: [1.4.1 Użycie koloru](https://wcag.lepszyweb.pl/#use-of-colo
     -	Treści wyróżnionej kolorem towarzyszy widoczny na ekranie odpowiednik tekstowy opisujący kolor lub znaczenie przekazywane przez kolor
 
 ### Zasoby
+- [The Myths of Color Contrast Accessibility])(https://uxmovement.com/buttons/the-myths-of-color-contrast-accessibility/)
 
 #### Pomocne narzędzia:
 

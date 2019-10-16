@@ -36,6 +36,9 @@
     - [Media dynamiczne - Multimedia](testy/H6_04_multimedia.md) 
   - **Brak zkłóceń**	
     - [Mruganie, miganie, błyskanie](testy/H7_01_mruganie-i-miganie.md) 
+  - **Dodatki**
+    - [A. Testy podstawowe a kryteria sukcesu](testy/0_50_dodatekA.md)
+    - [A. Kryteria sukcesu a testy podstawowe](testy/0_51_dodatekB.md)	
 - **Baza testów wstępnych**
 <!-- - [Wprowadzenie](testy/PW_00_wprowadzenie.md)
  - [1. Tytuł strony](testy/PW_01_tytul-strony.md)
