@@ -1,4 +1,4 @@
-## Teksty altenratywne obrazów ( „odpowiedniki tekstowe”)
+## Teksty alternatywne obrazów ( „odpowiedniki tekstowe”)
 
 Współczesne technologie nie potrafią jeszcze odczytać i przekazać odpowiednio treści obrazów osobom, które ich z różnych względów nie mogą zobaczyć. Dlatego każdy obraz w dokumencie i na stronie internetowej musi posiadać odpowiednik tekstowy, inaczej zwany tekstem alternatywnym lub alternatywą tekstową.
 
@@ -62,10 +62,12 @@ Istnieją kilka możliwości, aby sprawdzić tekst alternatywny. Dwie przedstawi
 	
 -	Następnie wyłącz opcję *Outline Images Without Alt Atttributes*, a włącz opcję *Outline All Images* ('Obrysuj wszystkie obrazy') oraz *Display Alt Attributes* ('Wyświetlaj atrybuty alt')  
 Wokół wszystkich obrazów pojawią się czerwone obrysy. Obok obrazów z atrybutem alt pojawią teksty alternatywne (białe na czerwonym tle).  
+
 	![Menu paska narzędzi Web Developer z wybranymi opcjami Obrysuj wszystkie obrazy i Wyświetl atrybuty alt oraz fragment strony z obrysowanymi obrrazami i tekstami alternatywnymi](/img/02_P_alt_web-developer-z-alt.png)
 	
 -	Rozważ, czy tekst alternatywny każdego obrazu właściwie przekazuje informacje o obrazie, zgodnie ze wskazówkami powyżej. Zanotuj uwagi.
 -	Na koniec włącz opcję *Outline Images With Empty Alt Attributes* ('Obrysuj wszystkie obrazy z pustym atrybutem alt'). Opcję *Outline Alt Images* możesz wyłączyć. 
+
 	![Menu paska narzędzi Web Developer i oznaczone obrazy z pustym atrybutem alt](/img/02_P_alt_web-developer-z-alt.png)
 
 -	Rozważ, czy pozostawienie pustego atrybutu alt w przypadku każdego obrazu jest uzasadnione, czy rzeczywiście w każdym przypadku jest to obraz dekoracyjny, a treść będzie kompletna i zrozumiała bez obrazu. Zanotuj uwagi.
@@ -82,6 +84,20 @@ Twoja strona internetowa pojawi się w przeglądarce z mnóstwem małych ikon na
 -	**Aby sprawdzić, czy nie brakuje atrybutu alt dla obrazków „funkcjonalnych”**: wyszukaj ikonę (![Ikona Obraz odstępu bez alta](/img/02_P_alt_link_missing.png)) lub poszukaj tekstu alternatywnego ERRORS: Linked image missing alternative text.
 -	**Aby sprawdzić, czy tekst alt jest odpowiedni**: 
 Poszukaj ikony zielonej alt (![Tekst alternatywny](/img/02_P_alt_alt.png)). Obok jest tekst na jasnozielonym tle; tekst alt jest między gwiazdkami (*). czy tekst alt przekazuje informacje o obrazie stosownie do wskazówek powyżej.
+ 
+## Przećwicz sprawdzanie tekstu alternatywnego w demo PrzediPo  
+ 
+W ramach ćwiczeń przygotowawczych do powyższych testów możesz skorzystać z prezentacji niedostępnej strony głównej w demo [Przed i Po](https://przedipo.lepszyweb.pl/before/home.html)
+
+### Wskazówki:
+-	**Brakujący alt**:
+	-	Na stronie jest wiele obrazów bez tekstu alternatywnego. (Wiele z nich jest tylko dekoracyjnych, więc powinny mieć pusty tekst alternatywny, zgodnie ze wskazówkami powyżej.)
+	-	Obraz pogodynki przedstawiający chmurę i słońce nie ma atrybutu alt.
+-	**Niewłaściwy tekst alternatywny**:
+	-	Nieco poniżej górnej krawędzi znajduje się długi tekst alternatywny dla obrazu logo strony, zaczynający się od słów: Logo. Niebieska kropka z białą literą 'M'. Opis ten jest zbyt szczegółowy i zawiera nieistotne informacje. Odpowiedni tekst alternatywny na stronie dostępnej stronie brzmi: "Światła Miasta: Twoje okno na miasto.".
+	-	Na dole, w obszarze treści głównej znajduje się obraz tekstu (1)269 K-A-R-C-Z-O-C-H” (numer telefonu w systemie amerykańskim). Alternatywą dla tego tekstu jest ciąg cyfr: „123456789”, który nie jest równoważny tekstowi na obrazku.  
+-	**Odpowiedni tekst alternatywny**:
+	-	W nagłówku strony wyświetlane jest logo pracowni LepszyWeb. Tekstem alternatywnym dla logo jest „LepszyWeb.pl. Pracownia Dostępności Cyfrowej”.
  
 ## Dowiedz się więcej o tekście alternatywnym 
 -	[Text alternatives for non-text content](http://www.w3.org/WAI/intro/people-use-web/principles#alternatives) (Tekst alternatywny dla terści nietekstowych)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google

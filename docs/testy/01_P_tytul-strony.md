@@ -109,4 +109,4 @@ Aby sprawdzić tytuły stron w różnych przeglądarkach:
 - [Zrozumienie kryterium sukcesu 2.4.2 Tytuły stron w WCAG 2.1 (poziom A](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 
 -------------------------------------
-[Baza testów wstępnych. Wprowadzenie &lt; Poprzednia strona](testy/00_P_wprowadzenie.md) | [Następna strona &gt; Odpowiedniki tekstowe obrazów](testy/02_P_odpowiedniki-tekstowe-obrazow.md)
+[Baza testów wstępnych. Wprowadzenie &lt; Poprzednia strona](testy/00_P_wprowadzenie.md) | [Następna strona &gt; Teksty alternatywne obrazów](testy/02_P_odpowiedniki-tekstowe-obrazow.md)
