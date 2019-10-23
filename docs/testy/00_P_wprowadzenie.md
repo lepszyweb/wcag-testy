@@ -2,7 +2,7 @@
 Baza testów wstępnych pomaga rozpocząć ocenę dostępności cyfrowej strony internetowej. Dzięki tym prostym testom można się zorientować, czy dostępność treści strony internetowej została zapewniona w najbardziej elementarny sposób.
 
 ### Zakres  
-Baza testów wstępnych obejmuje tylko kilka kwestii związanych z dostępnoscią cyfrową strony internetowej zaprojektowanych tak, aby były łatwe i szybkie, ale nie ostateczne. Może się zdarzyć, że strona internetowa przejdzie pomyślnie przez wszystkie testy wstępne, ale nadal będą na niej występować znaczące bariery dostępności. 
+Baza testów wstępnych obejmuje tylko kilka kwestii związanych z dostępnością cyfrową strony internetowej zaprojektowanych tak, aby były łatwe i szybkie, ale nie ostateczne. Może się zdarzyć, że strona internetowa przejdzie pomyślnie przez wszystkie testy wstępne, ale nadal będą na niej występować znaczące bariery dostępności. 
 
 Aby kompleksowo ocenić dostępność strony, potrzebne jest solidniejsze badanie, niż tylko tych kilka testów wstępnych.
  
