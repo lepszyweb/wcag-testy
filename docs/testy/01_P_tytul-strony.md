@@ -1,7 +1,7 @@
 ## Tytuł strony
 Wszystkie strony internetowe i dokumenty powinny mieć tytuły opisujące ich temat, funkcję lub cel. 
 
-W witrynach internetowych tytuł każdej strony powinien zawierać nazwę witryny i temat strony. Ogromnym plusem jest także unikatowość tytułu.
+W witrynach internetowych tytuł każdej strony powinien zawierać temat strony i nazwę witryny.
 
 Tytuły stron są:
 -	wyświetlane na kartach przeglądarek,
@@ -30,16 +30,16 @@ W kodzie strony tytuł strony określony jest za pomocą znacznika `<title>` umi
 ### Nadawanie tytułów stronom w systemach zarządzania treścią
 W systemach do zarządzania treścią stron internetowych, a także w wielu generatorach witryn statycznych tworzenie tytułów stron jest zwykle zautomatyzowane. 
 
-Sposób generowania tytułów stron zależy od przyjętego przez twórców programu rozwiązania projektowego. Zazwyczaj źródłem tytułu konkretnej strony jest tytuł umieszczonej na tej stronie głównej zawartości, np. tytuł artykułu. W niektórych systemach można zdefiniować tytuły stron w opcjach pozycji menu, np. dla stron z przeglądami artykułów czy produktów w kategorii.
+Sposób generowania tytułów stron zależy od przyjętego przez twórców programu rozwiązania projektowego. Zazwyczaj źródłem tytułu konkretnej strony jest tytuł umieszczonej na tej stronie głównej zawartości, np. tytuł artykułu. W&nbsp;niektórych systemach można zdefiniować tytuły stron w opcjach pozycji menu, np. dla stron z&nbsp;przeglądami artykułów czy produktów w kategorii.
 
-Ogólną zasadę generowania tytułu można często określić w sekcji globalnej konfiguracji witryny.  Na przykład w Joomla można zdecydować, czy do tytułów stron dodawać nazwę witryny oraz czy umieszczać ją przed, czy za tytułem.    
+Ogólną zasadę generowania tytułu można często określić w sekcji globalnej konfiguracji witryny.  Na przykład w&nbsp;Joomla można zdecydować, czy do tytułów stron dodawać nazwę witryny oraz czy umieszczać ją przed, czy za tytułem.    
 
 ### Dobre praktyki
 Tytuł strony powinien być:
--	zwięzły, aby go łatwo zapamiętać – nie więcej niż 60-70 znaków (tyle wyświetla Google),
--	wyjątkowy, aby odróżniał stronę od innych,
--	odpowiedni, aby precyzyjnie opisywał treść strony, jej główny temat,
--	sensowny: aby przekazywał przemyślaną, racjonalną informację, a nie dekoracje.
+-	**zwięzły**, aby go łatwo zapamiętać – nie więcej niż 60-70 znaków (tyle wyświetla Google),
+-	**wyjątkowy**, aby odróżniał stronę od innych,
+-	**odpowiedni**, aby precyzyjnie opisywał treść strony, jej główny temat,
+-	**sensowny**: aby przekazywał przemyślaną, racjonalną informację, a nie dekoracje.
 
 Dobrą praktyką jest, aby tytuł strony internetowej na witrynie składał się z dwóch części: 
 -	unikatowego tematu strony i 
@@ -64,21 +64,36 @@ Nie należy natomiast używać w tytułach znaków interpunkcyjnych do celów de
 
 Zwróć uwagę, że pełna nazwa witryny w przykładach powyżej została zastosowana tylko na stronie głównej. 
 
-Poniższy obraz przedstawia tytuły trzech stron na zakładkach kart na pasku tytułowym w przeglądarce Firefox. Zauważ, że w kartach wyświetlana jest tylko pierwsza część tytułu strony. Ale gdy otworzymy więcej kart, zakładki z tytułami mogą ulec tak dużemu zwężeniu, że będzie na nich widać jedynie ikonę witryny (favicon).
+Obraz poniżej przedstawia tytuły trzech stron na zakładkach kart w przeglądarce Firefox. Zauważ, że w kartach wyświetlana jest tylko pierwsza część tytułu strony. Ale gdy otworzymy więcej kart, zakładki z&nbsp;tytułami mogą ulec tak dużemu zwężeniu, że będzie na nich widać jedynie ikonę witryny (favicon).
+![Tytuły stron na zakładkach kart w przeglądarce Firefox](/img/01_P_tytul-strony-firefox.png)
  
 Podobnie jest w przeglądarce Chrome.
- 
+![Tytuły stron na zakładkach kart w przeglądarce Chrome](/img/01_P_tytul-strony-chrome.png)
 Jeśli jednak ustawisz kursor myszki nad zakładką, zobaczysz w dymku pełny tytuł witryny.
 
-## Jak testować (co robić):
--	Spójrz na tytuł głównej strony witryny (lub odsłuchaj go, jeśli korzystasz z czytnika ekranu).
--	Spójrz na tytuły co najmniej kilku innych stron w witrynie.
+## Co robić:
+-	Spójrz na tytuł głównej strony witryny lub odsłuchaj go, jeśli korzystasz z czytnika ekranu.
+-	Zobacz tytuły co najmniej kilku innych stron w witrynie.
 ## Co sprawdzać:
 -	Czy każda strona ma tytuł? 
 -	Czy tytuł każdej strony krótko i odpowiednio opisuje jej treść?
 -	Czy tytuł każdej strony jest inny od pozostałych?
 -	Czy tytuły nie zawierają zbędnej interpunkcji?
 -	Czy tytuły zawierają nazwę witryny?
+## Testowanie tytułów stron
+Aby sprawdzić tytuły stron w róznych przeglądarkach:
+-	Jeśli masz przeglądarkę, która domyślnie wyświetla tytuł strony na pasku tytułowym okna, użyj tej przeglądarki. W&nbsp;nowoczesnych przeglądarkach trudno spotkać tę opcje, ale być może wciąż używasz starszej wersji Firefoxa, Opery, czy Internet Explorer. Aktualnie  (2019 rok) z popularnych przeglądarek Safari wyświetla tytuły stron na pasku tytułowym okna.
+![Tytuł strony na pasku tytułowym okna w przeglądarce Safari](/img/01_P_tytul-strony-safari.png) 
+- Jeśli twoja pzeglądarka nie ma paska tytułu, możesz spróbować jednego z następujących sposobów:
+  - Najedź wskaźnikiem myszy na zakłądkę karty przeglądarki, abby zobaczyć tytuł strony tak, jak na ilustracji poniżej:
+![Tytuł strony w okienku wyskakującym, wyświetlany po najechaniu myszką na zakładkę karty w przeglądarce Firefox](/img/01_P_tytul-strony-firefox.png)
+  - Skorzystaj z funkcji **Dodaj zakładkę**, aby wyświetlić okno dialogowe, które zawiera tytuł strony. Aby wywołać okno dialogowe Dodaj zakładkę, mozesz użyć w niektórych przeglądarkach systemu Windows skrótu klawiaturowego Ctrl + D, a&nbsp;w&nbsp;systemie Mac skrótu cmd + D. Ten sposob umożliwia skopiowanie tytułów badanych stron do raportu z&nbsp;przeglądu.    
+![Tytuł strony w oknie dialogowym Dodaj zakładkę w przeglądarce Chrome](/img/01_P_tytul-strony-okno-dialogowe.png)
+  - Jeśli używasz przeglądarki Opera, skorzystaj z&nbsp;funkcji Menu kart, którą wywołasz skrótem Ctrl + M. Po uaktywnieniu menu kart wskaż kartę interesującej cię strony, a&nbsp;poniżej zobaczysz sporych rozmiarów podgląd strony z&nbsp;widocznnym tytułem, jak na iluustracji poniżej:
+![Tytuł strony na podglądzie strony w menu kart w przeglądarce Opera](/img/01_P_tytul-strony-opera.png)  
+
+## Dowiedz się więcej o tytułach stron 
+- [Zrozuumienie kryterium sukcesu 2.4.2 Tytuły stron w WCAG 2.1 (poziom A](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html) - artykuł w języku angielskim, skorzystaj z tłumacza Google
 
 -------------------------------------
 [Baza testów wstępnych. Wprowadzenie &lt; Poprzednia strona](00_P_Wprowadzenie.md) | [Następna strona &gt; Odpowiendiki tekstowe obrazów](testy/02_P_odpowiedniki-tekstowe-obrazow.md)

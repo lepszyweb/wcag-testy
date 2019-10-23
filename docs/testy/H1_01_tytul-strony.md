@@ -6,10 +6,12 @@ Inspekcja kodu. Użycie narzędzia ujawniającego tytuł strony.
 ## Zastosowanie
 Znacznik `<title>` dla strony.
 ## Założenia, zastrzeżenia lub wyjątki
-_do opracowania_
+-   [Specyfikacja HTML5](https://www.w3.org/TR/html50/document-metadata.html#the-title-element) stanowi, że dokument HTML powinien mieć tylko jeden element `<title>` ORAZ że element `<title>` powinien być dzieckiem elementu `<head>`. Ale w praktyce wszystkie nowoczesne przeglądarki korygują błędy składniowe związane z lokalizacją i zagnieżdżaniem elementu `<title>`. Oznacza to, że nawet jeśli w kodzie sttrony zostanie umieszczonych więcej niż jeden element `<title>`, to programy korzystające z Obiektowego Modelu Dokumentu (DOM) umieszczą element `<title>` w prawidłowej lokalizacji i zazwyczaj będą przedstawiać użytkownikowi tylko pierwszy element `<title>`.
+-   Niektóre aplikacje internetowe mogą zawierać treści, które zmieniają się dynamicznie. W takich przypadkach tytuł strony powinien wystarczająco opisywać cel aplikacji.
 
 ## Obsługa dostępności
-_do opracowania_
+W HTML do nadawania stronie tytułu istnieje znacznik `<title>` potomny do znacznika <head>.
+Technologie pomocnicze odczytują tytuł strony ze znacznika `<title>`.
 
 ### Oczekiwania:
 Kryterium sukcesu: [2.4.2 Tytuły stron](https://wcag.lepszyweb.pl/#page-titled)
@@ -17,6 +19,7 @@ Kryterium sukcesu: [2.4.2 Tytuły stron](https://wcag.lepszyweb.pl/#page-titled)
 -	Tytuł strony jest unikalny i opisuje jej treść.
 -	Tytuł strony zawiera temat strony i nazwę witryny.
 -	Tytuł strony nie zawiera zbędnej interpunkcji. 
+-	Strona posiada tylko jeden tytuł.
 
 ### Procedura testowania:
 1.	Sprawdź, czy strona ma tytuł zdefiniowany w kodzie znacznikiem `<title>`.
@@ -24,6 +27,7 @@ Kryterium sukcesu: [2.4.2 Tytuły stron](https://wcag.lepszyweb.pl/#page-titled)
 3.	Sprawdź, czy tytuł zawiera temat strony i nazwę witryny.
 4.	Sprawdź, czy tytuł krótko i odpowiednio opisuje treść strony.
 5.	Sprawdź, czy tytuł nie zawiera zbędnej interpunkcji.
+5.	Sprawdź, czy w kodzie strony nie znajduje się więcej niż jeden  tytuł w znaczniku `title`.
 
 ### Zasoby
 - [Easy Checks - A First Review of Web Accessibility. Title](https://www.w3.org/WAI/test-evaluate/preliminary/#title)
@@ -49,12 +53,17 @@ Kryterium sukcesu: [2.4.2 Tytuły stron](https://wcag.lepszyweb.pl/#page-titled)
 
 ### Przypadki testowe
 
-
-
 #### Zaliczone
-_do opracowania_
+```<title>Strona główna | Pracownia Dostępności Cyfrowej LepszyWeb.pl</title>```
+```<title>O nas | LepszyWeb.pl</title>```
+```<title>Usługi | LepszyWeb.pl</title>```
 
 #### Niezaliczone
-_do opracowania_ 
-
-
+- brak tytułu w znaczniku `<title>` (pusty znacznik)
+  ```<title></title>```
+- tytuły nieopisujące treści:
+  ```<title>xxxx</title>```
+  ```<title>12345</title>```
+- tytuły z nagromadzeniem zbędnych znaków interpunkcyjnych:
+  ```<title>... == Jakiś tytuł strony == ...</title>```
+  ```<title>:: Jakiś tytuł strony :: </title>```
