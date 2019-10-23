@@ -42,9 +42,9 @@
 - **Baza testów wstępnych**
  - [Wprowadzenie](testy/00_P_wprowadzenie.md)
  - [1. Tytuł strony](testy/01_P_tytul-strony.md)
-
-<!-- - [2. Odpowiedniki tekstowe](testy/02_P_odpowiedniki-tekstowe-obrazow.md)
- - [3. Nagłówki](testy/03_P_naglowki.md)
+ - [2. Odpowiedniki tekstowe](testy/02_P_odpowiedniki-tekstowe-obrazow.md)
+ 
+<!-- - [3. Nagłówki](testy/03_P_naglowki.md)
  - [4. Kontrast kolorów](testy/PW_04_kontrast-kolorow.md)
  - [5. Zmiana rozmiaru tekstu](testy/PW_05_zmiana-rozmiaru.md)
  - [6. Dostęp z klawiatury i widoczny fokus](testy/PW_pw_-klawiatura.md)

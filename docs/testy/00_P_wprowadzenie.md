@@ -15,7 +15,7 @@ Najnowsze aktualizacje pochodzą z roku 2017.
 Baza testów wstępnych obejmuje sprawdzenie kilku wymienionych poniżej aspektów strony internetowej oraz zawiera wskazówki dotyczące kolejnych kroków i łącza do dodatkowych zasobów.
 
 - [Tytuł strony](testy/01_P_tytul-strony.md)
-- [Odpowiedniki tekstowe obrazu](testy/02_P_odpowiedniki-tekstowe-obrazow.md) ( „alternatywy tekstowe” zdjęć, ilustracji, wykresów, etc.)
+- [Teksty altenratywne obrazów](testy/02_P_odpowiedniki-tekstowe-obrazow.md) ( „alternatywy tekstowe” zdjęć, ilustracji, wykresów, etc.)
 - **Tekst**:
   - [Nagłówki](testy/03_P_naglowki.md)
   - [Kontrast kolorów](testy/04_P_kontrast-kolorów) ( „współczynnik kontrastu”)
