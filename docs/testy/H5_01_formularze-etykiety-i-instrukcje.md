@@ -47,6 +47,21 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
 
 ### Zasoby
 
+- [Form accessibility: a practical guide](https://itnext.io/form-accessibility-a-practical-guide-4062b7e2dd14)
+- [The Anatomy of Accessible Forms: The Problem with Placeholders](https://www.deque.com/blog/accessible-forms-the-problem-with-placeholders/)
+- [The Anatomy of Accessible Forms: Required Form Fields](https://www.deque.com/blog/anatomy-of-accessible-forms-required-form-fields/)
+- [The Anatomy of Accessible Forms: Best Practices](https://www.deque.com/blog/anatomy-of-accessible-forms-best-practices/)
+- [The Anatomy of Accessible Forms: Error Messages](https://www.deque.com/blog/anatomy-of-accessible-forms-error-messages/)
+- [Forms, Form Validation, and CAPTCHAs](http://web-accessibility.carnegiemuseums.org/code/forms/)
+- [How to make an accessible form: it’s easier than you think](https://www.freecodecamp.org/news/how-to-make-an-accessible-form-its-easier-than-you-think-672d3f4ff573/)
+- [Forms Concepts](https://www.w3.org/WAI/tutorials/forms/)
+- [Creating Accessible Forms](https://webaim.org/techniques/forms/controls)
+- [Designing Accessible Forms](https://blog.prototypr.io/designing-accessible-forms-82f2ea11697f)
+- [Jim Allan’s Slides on Accessible Forms](http://www.tsbvi.edu/web/forms/index.html)
+- [A Definitive Guide to Sensible Form Validations](http://form.guide/best-practices/form-validations-definitive-guide.html)
+- [Form data validation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation)
+
+
 #### Pomocne narzędzia:
 -	skryptozakładka [Forms](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
 -	skryptozakładka [Form Labels](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera
