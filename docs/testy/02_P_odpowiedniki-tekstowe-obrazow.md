@@ -87,7 +87,7 @@ Poszukaj ikony zielonej alt (![Tekst alternatywny](/img/02_P_alt_alt.png)). Obok
  
 ## Przećwicz sprawdzanie tekstu alternatywnego w demo PrzediPo  
  
-W ramach ćwiczeń przygotowawczych do powyższych testów możesz skorzystać z prezentacji niedostępnej strony głównej w demo [Przed i Po](https://przedipo.lepszyweb.pl/before/home.html)
+W ramach ćwiczeń przygotowawczych do powyższych testów możesz sprawdzić problemów z dostępnością obrazów w naszym [Demo PrzediPo: Niedostępna strona główna](https://przedipo.lepszyweb.pl/before/home.html). 
 
 ### Wskazówki:
 -	**Brakujący alt**:
@@ -100,7 +100,7 @@ W ramach ćwiczeń przygotowawczych do powyższych testów możesz skorzystać z
 	-	W nagłówku strony wyświetlane jest logo pracowni LepszyWeb. Tekstem alternatywnym dla logo jest „LepszyWeb.pl. Pracownia Dostępności Cyfrowej”.
  
 ## Dowiedz się więcej o tekście alternatywnym 
--	[Text alternatives for non-text content](http://www.w3.org/WAI/intro/people-use-web/principles#alternatives) (Tekst alternatywny dla terści nietekstowych)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google
+-	[Text alternatives for non-text content](http://www.w3.org/WAI/intro/people-use-web/principles#alternatives) (Tekst alternatywny dla terści nietekstowych)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Zrozumieć kryterium sukcesu 1.1.1 Treść nietekstowa](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[An alt text decision tree](https://www.w3.org/WAI/tutorials/images/decision-tree/) (Drzewo decyzji o atrybucie alt) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google. 
 -------------------------------------
