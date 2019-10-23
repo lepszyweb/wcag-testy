@@ -35,6 +35,7 @@ Sposób generowania tytułów stron zależy od przyjętego przez twórców progr
 Ogólną zasadę generowania tytułu można często określić w sekcji globalnej konfiguracji witryny.  Na przykład w&nbsp;Joomla można zdecydować, czy do tytułów stron dodawać nazwę witryny oraz czy umieszczać ją przed, czy za tytułem.    
 
 ### Dobre praktyki
+
 Tytuł strony powinien być:
 -	**zwięzły**, aby go łatwo zapamiętać – nie więcej niż 60-70 znaków (tyle wyświetla Google),
 -	**wyjątkowy**, aby odróżniał stronę od innych,
@@ -46,6 +47,7 @@ Dobrą praktyką jest, aby tytuł strony internetowej na witrynie składał się
 -	nazwy witryny.
 
 Anglojęzyczni specjaliści dostępności podkreślają, że tytuły stron powinny być „front-loaded”, czyli żeby ważne i unikatowe informacje identyfikujące stronę znajdowały się z przodu, a nazwa witryny czy nazwa wydawcy za unikatowym tytułem.
+
 #### Zasady pisowni
 Według zasad pisowni polskiej po tytułach, śródtytułach i wyrażeniach hasłowych nie stawiamy kropki. Reguła ta odnosi się również do tytułów stron internetowych. Na końcu tytułu kropki nie stawiamy. Ale inne znaki interpunkcyjne – wykrzykniki i pytajniki – stawiamy. Gdy jednak pytanie w tytule jest pozbawione tonu pytającego, to można znak zapytania pominąć. 
 
@@ -56,6 +58,7 @@ Nie należy natomiast używać w tytułach znaków interpunkcyjnych do celów de
 -	Pracownia Dostępności Cyfrowej LepszyWeb.pl | O nas
 -	Pracownia Dostępności Cyfrowej LepszyWeb.pl – Usługi
 -	Pracownia Dostępności Cyfrowej LepszyWeb.pl :: Skontaktuj się z nami
+
 #### Przykłady dobrych praktyk
 -	Strona główna | Pracownia Dostępności Cyfrowej LepszyWeb.pl
 -	O nas | LepszyWeb.pl
@@ -74,14 +77,17 @@ Jeśli jednak ustawisz kursor myszki nad zakładką, zobaczysz w dymku pełny ty
 ## Co robić:
 -	Spójrz na tytuł głównej strony witryny lub odsłuchaj go, jeśli korzystasz z czytnika ekranu.
 -	Zobacz tytuły co najmniej kilku innych stron w witrynie.
+
 ## Co sprawdzać:
 -	Czy każda strona ma tytuł? 
 -	Czy tytuł każdej strony krótko i odpowiednio opisuje jej treść?
 -	Czy tytuł każdej strony jest inny od pozostałych?
 -	Czy tytuły nie zawierają zbędnej interpunkcji?
 -	Czy tytuły zawierają nazwę witryny?
+
 ## Testowanie tytułów stron
-Aby sprawdzić tytuły stron w róznych przeglądarkach:
+Aby sprawdzić tytuły stron w różnych przeglądarkach:
+
 -	Jeśli masz przeglądarkę, która domyślnie wyświetla tytuł strony na pasku tytułowym okna, użyj tej przeglądarki. W&nbsp;nowoczesnych przeglądarkach trudno spotkać tę opcje, ale być może wciąż używasz starszej wersji Firefoxa, Opery, czy Internet Explorer. Aktualnie  (2019 rok) z popularnych przeglądarek Safari wyświetla tytuły stron na pasku tytułowym okna.
 ![Tytuł strony na pasku tytułowym okna w przeglądarce Safari](/img/01_P_tytul-strony-safari.png) 
 - Jeśli twoja pzeglądarka nie ma paska tytułu, możesz spróbować jednego z następujących sposobów:
