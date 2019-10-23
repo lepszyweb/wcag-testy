@@ -14,19 +14,19 @@ Najnowsze aktualizacje pochodzą z roku 2017.
 
 Baza testów wstępnych obejmuje sprawdzenie kilku wymienionych poniżej aspektów strony internetowej oraz zawiera wskazówki dotyczące kolejnych kroków i łącza do dodatkowych zasobów.
 
-- [Tytuł strony](testy/00_P_tytul-strony.md)
-- [Odpowiedniki tekstowe obrazu](testy/00_P_odpowiedniki-tekstowe-obrazow.md) ( „alternatywy tekstowe” zdjęć, ilustracji, wykresów, etc.)
+- [Tytuł strony](testy/01_P_tytul-strony.md)
+- [Odpowiedniki tekstowe obrazu](testy/02_P_odpowiedniki-tekstowe-obrazow.md) ( „alternatywy tekstowe” zdjęć, ilustracji, wykresów, etc.)
 - **Tekst**:
-  - [Nagłówki](testy/00_P_naglowki.md)
-  - [Kontrast kolorów](testy/00_P_kontrast-kolorów) ( „współczynnik kontrastu”)
-  - [Zmiana rozmiaru tekstu](testy/00_P_zmiana-rozmiaru-tekstu.md]
+  - [Nagłówki](testy/03_P_naglowki.md)
+  - [Kontrast kolorów](testy/04_P_kontrast-kolorów) ( „współczynnik kontrastu”)
+  - [Zmiana rozmiaru tekstu](testy/05_P_zmiana-rozmiaru-tekstu.md)
 - **Interakcja**:
-  - [Dostęp za pomocą klawiatury i widoczność fokusa](testy/00_P_klawiatura.md)
-  - [Formularze, etykiety i błędy](testy/formularze.md) (w tym pól Szukaj)
+  - [Dostęp za pomocą klawiatury i widoczność fokusa](testy/06_P_klawiatura.md)
+  - [Formularze, etykiety i błędy](testy/07_P_formularze.md) (w tym pól Szukaj)
 - **Ogólne**:
-  - [Treść przesuwana, migocąca lub błyskająca](testy/00_P_poruszanie-i-blyski.md)
-  - [Odpowiedniki multimediów](testy/00_P_multimedia.md) (wideo, audio)
-  - [Podstawowa struktura](testy/00_P_struktura.md)
+  - [Treść przesuwana, migocąca lub błyskająca](testy/08_P_poruszanie-i-blyski.md)
+  - [Odpowiedniki multimediów](testy/09_P_multimedia.md) (wideo, audio)
+  - [Podstawowa struktura](testy/10_P_struktura.md)
 
 ### Co to jest wstępny przegląd dostępności
 Wstępny przegląd dostępności strony internetowej jest formalną, uznaną i zalecaną przez WAI W3C procedurą oceny dostępności strony internetwowej, którą można wykorzystać, aby wykryć i naprrawić elementarne błędy dostępności cyfrowej witryny, zanim zostanie wykonane badania kompleksowe, obejmujące testy zgodności ze wszystkimi wymaganiami zdefiniowanymi w standardzie WCAG.   
