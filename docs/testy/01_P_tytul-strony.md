@@ -90,7 +90,7 @@ Aby sprawdzić tytuły stron w różnych przeglądarkach:
 
 -	Jeśli masz przeglądarkę, która domyślnie wyświetla tytuł strony na pasku tytułowym okna, użyj tej przeglądarki. W&nbsp;nowoczesnych przeglądarkach trudno spotkać tę opcje, ale być może wciąż używasz starszej wersji Firefoxa, Opery, czy Internet Explorer. Aktualnie  (2019 rok) z popularnych przeglądarek Safari wyświetla tytuły stron na pasku tytułowym okna.
 ![Tytuł strony na pasku tytułowym okna w przeglądarce Safari](/img/01_P_tytul-strony-safari.png) 
-- Jeśli twoja pzeglądarka nie ma paska tytułu, możesz spróbować jednego z następujących sposobów:
+- Jeśli twoja przeglądarka nie ma paska tytułu, możesz spróbować jednego z następujących sposobów:
   - Najedź wskaźnikiem myszy na zakłądkę karty przeglądarki, abby zobaczyć tytuł strony tak, jak na ilustracji poniżej:
 ![Tytuł strony w okienku wyskakującym, wyświetlany po najechaniu myszką na zakładkę karty w przeglądarce Firefox](/img/01_P_tytul-strony-firefox.png)
   - Skorzystaj z funkcji **Dodaj zakładkę**, aby wyświetlić okno dialogowe, które zawiera tytuł strony. Aby wywołać okno dialogowe Dodaj zakładkę, mozesz użyć w niektórych przeglądarkach systemu Windows skrótu klawiaturowego Ctrl + D, a&nbsp;w&nbsp;systemie Mac skrótu cmd + D. Ten sposob umożliwia skopiowanie tytułów badanych stron do raportu z&nbsp;przeglądu.    
@@ -102,4 +102,4 @@ Aby sprawdzić tytuły stron w różnych przeglądarkach:
 - [Zrozumienie kryterium sukcesu 2.4.2 Tytuły stron w WCAG 2.1 (poziom A](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html) - artykuł w języku angielskim, skorzystaj z tłumacza Google
 
 -------------------------------------
-[Baza testów wstępnych. Wprowadzenie &lt; Poprzednia strona](00_P_Wprowadzenie.md) | [Następna strona &gt; Odpowiendiki tekstowe obrazów](testy/02_P_odpowiedniki-tekstowe-obrazow.md)
+[Baza testów wstępnych. Wprowadzenie &lt; Poprzednia strona](00_P_Wprowadzenie.md) | [Następna strona &gt; Odpowiedniki tekstowe obrazów](testy/02_P_odpowiedniki-tekstowe-obrazow.md)
