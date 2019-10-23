@@ -89,13 +89,20 @@ Jeśli jednak ustawisz kursor myszki nad zakładką, zobaczysz w dymku pełny ty
 Aby sprawdzić tytuły stron w różnych przeglądarkach:
 
 -	Jeśli masz przeglądarkę, która domyślnie wyświetla tytuł strony na pasku tytułowym okna, użyj tej przeglądarki. W&nbsp;nowoczesnych przeglądarkach trudno spotkać tę opcje, ale być może wciąż używasz starszej wersji Firefoxa, Opery, czy Internet Explorer. Aktualnie  (2019 rok) z popularnych przeglądarek Safari wyświetla tytuły stron na pasku tytułowym okna.
+
 ![Tytuł strony na pasku tytułowym okna w przeglądarce Safari](/img/01_P_tytul-strony-safari.png) 
+
 - Jeśli twoja przeglądarka nie ma paska tytułu, możesz spróbować jednego z następujących sposobów:
-  - Najedź wskaźnikiem myszy na zakłądkę karty przeglądarki, abby zobaczyć tytuł strony tak, jak na ilustracji poniżej:
+  - Najedź wskaźnikiem myszy na zakładkę karty przeglądarki, aby zobaczyć tytuł strony tak, jak na ilustracji poniżej:
+  
 ![Tytuł strony w okienku wyskakującym, wyświetlany po najechaniu myszką na zakładkę karty w przeglądarce Firefox](/img/01_P_tytul-strony-firefox.png)
-  - Skorzystaj z funkcji **Dodaj zakładkę**, aby wyświetlić okno dialogowe, które zawiera tytuł strony. Aby wywołać okno dialogowe Dodaj zakładkę, mozesz użyć w niektórych przeglądarkach systemu Windows skrótu klawiaturowego Ctrl + D, a&nbsp;w&nbsp;systemie Mac skrótu cmd + D. Ten sposob umożliwia skopiowanie tytułów badanych stron do raportu z&nbsp;przeglądu.    
+
+  - Skorzystaj z funkcji **Dodaj zakładkę**, aby wyświetlić okno dialogowe, które zawiera tytuł strony. Aby wywołać okno dialogowe Dodaj zakładkę, mozesz użyć w niektórych przeglądarkach systemu Windows skrótu klawiaturowego Ctrl + D, a&nbsp;w&nbsp;systemie Mac skrótu cmd + D. Ten sposob umożliwia skopiowanie tytułów badanych stron do raportu z&nbsp;przeglądu. 
+  
 ![Tytuł strony w oknie dialogowym Dodaj zakładkę w przeglądarce Chrome](/img/01_P_tytul-strony-okno-dialogowe.png)
-  - Jeśli używasz przeglądarki Opera, skorzystaj z&nbsp;funkcji Menu kart, którą wywołasz skrótem Ctrl + M. Po uaktywnieniu menu kart wskaż kartę interesującej cię strony, a&nbsp;poniżej zobaczysz sporych rozmiarów podgląd strony z&nbsp;widocznnym tytułem, jak na iluustracji poniżej:
+
+  - Jeśli używasz przeglądarki Opera, skorzystaj z&nbsp;funkcji *Menu kart*, którą wywołasz skrótem Ctrl + M. Po uaktywnieniu menu kart wskaż kartę interesującej cię strony, a&nbsp;poniżej zobaczysz sporych rozmiarów podgląd strony z&nbsp;widocznnym tytułem, jak na iluustracji poniżej:
+  
 ![Tytuł strony na podglądzie strony w menu kart w przeglądarce Opera](/img/01_P_tytul-strony-opera.png)  
 
 ## Dowiedz się więcej o tytułach stron 
