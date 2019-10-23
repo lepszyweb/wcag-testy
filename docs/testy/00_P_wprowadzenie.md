@@ -7,9 +7,9 @@ Baza testów wstępnych obejmuje tylko kilka kwestii związanych z dostępności
 Aby kompleksowo ocenić dostępność strony, potrzebne jest solidniejsze badanie, niż tylko tych kilka testów wstępnych.
  
 
-Baza testów stępnych została opracowana na podstawie dokumentu W3C WAI zatytułowanego [Easy Checks - A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/), co można przetłumaczyć na język polski: Łatwe testy - Pierwszy przegląd dostępności cyfrowej.
+Baza testów wstępnych została opracowana na podstawie dokumentu W3C WAI zatytułowanego [Easy Checks - A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/), co można przetłumaczyć na język polski: Łatwe testy - Pierwszy przegląd dostępności cyfrowej.
 
-Opracowanie W3C ma już swoją blisko 20-letnią historię. Pierwotnie była to jedna sekcja dokumentu Ocena witryn internetowych pod kątem dostępności zredagowana przez Judy Brewera i Chucka Letourneau i opublikowana w październiku 2001 rooku. W 2005 roku została ona wyodrębniona jako Wstępny przegląd witryn internetowych pod kątem dostępności. Dokument zredagował Shadi Abou-Zahra. 
+Opracowanie W3C ma już swoją blisko 20-letnią historię. Pierwotnie była to jedna sekcja dokumentu Ocena witryn internetowych pod kątem dostępności zredagowana przez Judy Brewera i Chucka Letourneau i opublikowana w październiku 2001 roku. W 2005 roku została ona wyodrębniona jako Wstępny przegląd witryn internetowych pod kątem dostępności. Dokument zredagował Shadi Abou-Zahra. 
 Najnowsze aktualizacje pochodzą z roku 2017.
 
 Baza testów wstępnych obejmuje sprawdzenie kilku wymienionych poniżej aspektów strony internetowej oraz zawiera wskazówki dotyczące kolejnych kroków i łącza do dodatkowych zasobów.
@@ -29,7 +29,7 @@ Baza testów wstępnych obejmuje sprawdzenie kilku wymienionych poniżej aspekt�
   - [Podstawowa struktura](testy/10_P_struktura.md)
 
 ### Co to jest wstępny przegląd dostępności
-Wstępny przegląd dostępności strony internetowej jest formalną, uznaną i zalecaną przez WAI W3C procedurą oceny dostępności strony internetwowej, którą można wykorzystać, aby wykryć i naprrawić elementarne błędy dostępności cyfrowej witryny, zanim zostanie wykonane badania kompleksowe, obejmujące testy zgodności ze wszystkimi wymaganiami zdefiniowanymi w standardzie WCAG.   
+Wstępny przegląd dostępności strony internetowej jest formalną, uznaną i zalecaną przez WAI W3C procedurą oceny dostępności strony internetowej, którą można wykorzystać, aby wykryć i naprawić elementarne błędy dostępności cyfrowej witryny, zanim zostanie wykonane badania kompleksowe, obejmujące testy zgodności ze wszystkimi wymaganiami zdefiniowanymi w standardzie WCAG.   
 
 ### Cele i efekty wstępnego przeglądu dostępności
 Są trzy główne cele wstępnego przeglądu dostępności:

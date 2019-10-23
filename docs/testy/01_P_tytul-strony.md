@@ -97,11 +97,11 @@ Aby sprawdzić tytuły stron w różnych przeglądarkach:
   
 ![Tytuł strony w okienku wyskakującym, wyświetlany po najechaniu myszką na zakładkę karty w przeglądarce Firefox](/img/01_P_tytul-strony-firefox.png)
 
-  - Skorzystaj z funkcji **Dodaj zakładkę**, aby wyświetlić okno dialogowe, które zawiera tytuł strony. Aby wywołać okno dialogowe Dodaj zakładkę, mozesz użyć w niektórych przeglądarkach systemu Windows skrótu klawiaturowego Ctrl + D, a&nbsp;w&nbsp;systemie Mac skrótu cmd + D. Ten sposob umożliwia skopiowanie tytułów badanych stron do raportu z&nbsp;przeglądu. 
+  - Skorzystaj z funkcji **Dodaj zakładkę**, aby wyświetlić okno dialogowe, które zawiera tytuł strony. Aby wywołać okno dialogowe Dodaj zakładkę, możesz użyć w niektórych przeglądarkach systemu Windows skrótu klawiaturowego Ctrl + D, a&nbsp;w&nbsp;systemie Mac skrótu cmd + D. Ten sposób umożliwia skopiowanie tytułów badanych stron do raportu z&nbsp;przeglądu. 
   
 ![Tytuł strony w oknie dialogowym Dodaj zakładkę w przeglądarce Chrome](/img/01_P_tytul-strony-okno-dialogowe.png)
 
-  - Jeśli używasz przeglądarki Opera, skorzystaj z&nbsp;funkcji *Menu kart*, którą wywołasz skrótem Ctrl + M. Po uaktywnieniu menu kart wskaż kartę interesującej cię strony, a&nbsp;poniżej zobaczysz sporych rozmiarów podgląd strony z&nbsp;widocznnym tytułem, jak na iluustracji poniżej:
+  - Jeśli używasz przeglądarki Opera, skorzystaj z&nbsp;funkcji *Menu kart*, którą wywołasz skrótem Ctrl + M. Po uaktywnieniu menu kart wskaż kartę interesującej cię strony, a&nbsp;poniżej zobaczysz sporych rozmiarów podgląd strony z&nbsp;widocznym tytułem, jak na ilustracji poniżej:
   
 ![Tytuł strony na podglądzie strony w menu kart w przeglądarce Opera](/img/01_P_tytul-strony-opera.png)  
 
