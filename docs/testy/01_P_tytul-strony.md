@@ -106,7 +106,7 @@ Aby sprawdzić tytuły stron w różnych przeglądarkach:
 ![Tytuł strony na podglądzie strony w menu kart w przeglądarce Opera](/img/01_P_tytul-strony-opera.png)  
 
 ## Dowiedz się więcej o tytułach stron 
-- [Zrozumienie kryterium sukcesu 2.4.2 Tytuły stron w WCAG 2.1 (poziom A](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html) - artykuł w języku angielskim, skorzystaj z tłumacza Google
+- [Zrozumienie kryterium sukcesu 2.4.2 Tytuły stron w WCAG 2.1 (poziom A](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 
 -------------------------------------
 [Baza testów wstępnych. Wprowadzenie &lt; Poprzednia strona](testy/00_P_wprowadzenie.md) | [Następna strona &gt; Odpowiedniki tekstowe obrazów](testy/02_P_odpowiedniki-tekstowe-obrazow.md)

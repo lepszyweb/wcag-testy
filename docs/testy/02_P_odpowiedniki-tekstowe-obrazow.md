@@ -4,7 +4,7 @@ Współczesne technologie nie potrafią jeszcze odczytać i przekazać odpowiedn
 
 Odpowiedniki tekstowe przekazują cel obrazów, w tym zdjęć, ilustracji, wykresów, itp. Odpowiedniki tekstowe są przeznaczone dla osób, które nie widzą obrazu. Na przykład osoby niewidome, które używają czytników ekranu, usłyszą tekst alternatywny. A osoby, które wyłączyły zdjęcia, aby przyspieszyć pobieranie stron, mogą zobaczyć i odczytać teksty alternatywne.
 
-Odpowiednik tekstowy powinien spełniać tę samą rolę, co obraz i zapewnić użytkownikom, którzy nie widzą obrazu, równoważne doświadczenie, a niekoniecznie opisać obraz. Na przykład właściwym odpowiednikiem tekstowym dla przycisku wyszukiwania ![Szukaj](/img/szukaj.png)  będzie słowo  „Szukaj”, a nie „lupa” czy „Szkło powiększające”.  
+Odpowiednik tekstowy powinien spełniać tę samą rolę, co obraz i zapewnić użytkownikom, którzy nie widzą obrazu, równoważne doświadczenie, a niekoniecznie opisać obraz. Na przykład właściwym odpowiednikiem tekstowym dla przycisku wyszukiwania ![Szukaj](/img/02_P_przycisk-szukaj.png)  będzie słowo  „Szukaj”, a nie „lupa” czy „Szkło powiększające”.  
 
 Tekstu alternatywnego zwykle nie widać na stronie, znajduje się on jednak w kodzie strony jako atrybut znaczników, które osadzają obraz na stronie, np.
 
@@ -21,14 +21,14 @@ Testy automatyczne mogą cię poinformować, jedynie o tym, w których znacznika
 ### Wskazówki
 Formułowanie odpowiednich tekstów alternatywnych adekwatnych do treści i funkcji obrazów nie opiera się na ścisłych regułach, które prowadziłyby do sytuacji, że bez względu na to, kto opracowuje tekst alternatywny, to zawsze ten tekst będzie taki sam (w przypadku tego samego obrazu. Ponadto, niektórzy ludzie wolą, aby obrazy posiadały szczegółowe opisy; a inni wolą zwięzłe, znacznie mniej dokładne opisy.
 
-Odpowiedni tekst alternatywny: 
+#### Odpowiedni tekst alternatywny: 
 -	Tekst alternatywny musi przekazać to samo znaczenie co obraz. Oznacza to, że jeśli ktoś nie widzi obrazu, to ważne informacje wyrażane obrazem otrzymuje w tekście alternatywnym.
 -	Tekst alternatywny zależy od kontekstu. Na przykład tekst alternatywny dla obrazu psa na stronie klubu hodowców psów może zawierać rasę psa; ale ten sam obraz na stronie internetowej o parku psów może tylko sprawiać, że strona będzie bardziej atrakcyjna, ale obraz nie wnosi do niej żadnej treści. W takim przypadku obraz może nie potrzebować żadnego tekstu alternatywnego, a wiec powinien mieć pusty atrybut alt. Jednym ze sposobów pomagającym ustalić odpowiedni tekst atrybutu alt jest odpowiedź na pytanie: co można by powiedzieć o obrazie, gdy komuś pomagasz czytać i wchodzić w interakcje ze stroną internetową, której nie może zobaczyć?
 -	Obrazy „funkcjonalne” - na przykład inicjujące akcje (takie jak przyciski Wyślij) czy obrazy linkujące (np. ikony w nawigacji) - potrzebują tekstu alternatywnego, który przekazuje funkcję obrazu, a więc nie tekstu, który opisuje obraz, lecz tekstu, który wskazuje cel łącza albo funkcję przycisku. 
 -	Jeśli na obrazie znajduje się tekst - na przykład w logo - ten tekst musi zostać uwzględniony w tekście alternatywnym.
 -	Jeśli obraz przekazuje złożone informacje - np. wykres lub graf – to w tekście alternatywnym należy umieścić zwięzłe określenie roli obrazu, a w treści zawierającej obraz umieścić szczegółowe informacje przekazywane przez obraz (na prrzykład w tabeli danych).
 
-Co nie jest potrzebne w tekście alternatywnym: 
+#### Co nie jest potrzebne w tekście alternatywnym: 
 -	**opis wyglądu obrazu**: jeśli obraz nie jest istotny dla zrozumienia treści - na przykład jest to tylko ozdoba  - powinien mieć pusty atrybut alt (alt = ""). Jednym ze sposobów na określenie, czy obraz powinien mieć pusty alt jest zadać sobie pytanie: Czy użytkownik nadal otrzyma wszystkie informacje ze strony, jeśli obraz zostanie usunięty?
 -	**zbędne słowa takie jak „obraz”, „przycisk”, „link”**. Czytniki ekranu zapewniają te informacje automatycznie.
 -	**powtórzenia opisu zawartego w treści**: jeśli obraz jest wystarczająco opisany w tekście - na przykład prosty diagram ilustrujący to, co jest napisane w tekście strony - może zawierać krótki tekst alt, taki jak " Schemat przepływu pracy opisany powyżej.”
@@ -50,7 +50,7 @@ Istnieją kilka możliwości, aby sprawdzić tekst alternatywny. Dwie przedstawi
 **Uwaga**: Jeśli nie masz zainstalowanego w swojej przeglądarce paska narzędzi Web Developer:
 -	[Pobierz narzędzie Web Developer dla przeglądarki Chrome](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=pl)
 -	[Pobierz narzędzie Web Developer dla przeglądarki Firefox](https://addons.mozilla.org/pl/firefox/addon/web-developer/) 
--	[Pobierz narzędzie Web Developer dla przeglądarki Opera](https://addons.opera.com/pl/extensions/details/web-developer/
+-	[Pobierz narzędzie Web Developer dla przeglądarki Opera](https://addons.opera.com/pl/extensions/details/web-developer/)
   
 **Aby sprawdzić tekst alternatywny za pomocą narzędzia Web Developer:**  
 -	Otwórz stronę internetową, którą sprawdzasz.
@@ -84,8 +84,8 @@ Twoja strona internetowa pojawi się w przeglądarce z mnóstwem małych ikon na
 Poszukaj ikony zielonej alt (![Tekst alternatywny](/img/02_P_alt_alt.png)). Obok jest tekst na jasnozielonym tle; tekst alt jest między gwiazdkami (*). czy tekst alt przekazuje informacje o obrazie stosownie do wskazówek powyżej.
  
 ## Dowiedz się więcej o tekście alternatywnym 
--	[Text alternatives for non-text content](http://www.w3.org/WAI/intro/people-use-web/principles#alternatives)
--	[Zrozumieć kryterium sukcesu 1.1.1 Treść nietekstowa](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html) 
--	[An alt text decision tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)
+-	[Text alternatives for non-text content](http://www.w3.org/WAI/intro/people-use-web/principles#alternatives) (Tekst alternatywny dla terści nietekstowych)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google
+-	[Zrozumieć kryterium sukcesu 1.1.1 Treść nietekstowa](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+-	[An alt text decision tree](https://www.w3.org/WAI/tutorials/images/decision-tree/) (Drzewo decyzji o atrybucie alt) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google. 
 -------------------------------------
-[Baza testów wstępnych. Wprowadzenie &lt; Poprzednia strona](testy/00_P_wprowadzenie.md) | [Następna strona &gt; Odpowiedniki tekstowe obrazów](testy/02_P_odpowiedniki-tekstowe-obrazow.md)
+[Tytuł strony &lt; Poprzednia strona](testy/01_P_tytul-strony.md) | [Następna strona &gt; Nagłówki](testy/03_P_naglowki.md)
