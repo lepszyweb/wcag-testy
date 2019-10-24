@@ -73,17 +73,16 @@ Wokół wszystkich obrazów pojawią się czerwone obrysy. Obok obrazów z atryb
 -	Rozważ, czy pozostawienie pustego atrybutu alt w przypadku każdego obrazu jest uzasadnione, czy rzeczywiście w każdym przypadku jest to obraz dekoracyjny, a treść będzie kompletna i zrozumiała bez obrazu. Zanotuj uwagi.
 
 **Aby sprawdzić tekst alt w dowolnej przeglądarce**
--	Otwórz stronę internetową [narzędzia oceny dostępności WAVE](http://wave.webaim.org).
+1.	Otwórz stronę internetową [narzędzia oceny dostępności WAVE](http://wave.webaim.org).
 
 	![Strona WAVE z polem na adres strony, którą chcesz zbadać](/img/02_P_alt_wave_wpisz_adres.png)
 	
--	W polu *Web page address* ('Adres strony internetowej') wpisz adres strony internetowej, którą chcesz ocenić.
--	Kliknij przycisk strzałki *WAVE this page!* ('Testuj tę stronę'). 
+2.	W polu *Web page address* ('Adres strony internetowej') wpisz adres strony internetowej, którą chcesz ocenić.
+3.	Kliknij przycisk strzałki *WAVE this page!* ('Testuj tę stronę'). 
 Twoja strona internetowa pojawi się w przeglądarce z mnóstwem małych ikon na jej temat. Po lewej stronie w ramce pojawi się panel zarządzania narzędziem WAVE. 
--	**Aby sprawdzić, czy brakuje alt**: wyszukaj czerwoną ikonę alt (![Ikona Brak alta](/img/02_P_alt_missing.png)) lub poszukaj tekstu alt *ERROR: Missing alt text*. Jeśli go znajdziesz, oznacza to, że poniższy obraz nie ma atrybutu `alt`. Być może na starszych witrynach znajdziesz także ikonę (![Ikona Obraz odstępu bez alta](/img/02_P_alt_spacer_missing.png)) oznaczającą obrazy użyte do formatowania odstępów między elementami (ERRORS: Spacer image missing alternative text)  
--	**Aby sprawdzić, czy nie brakuje atrybutu alt dla obrazków „funkcjonalnych”**: wyszukaj ikonę (![Ikona Obraz odstępu bez alta](/img/02_P_alt_link_missing.png)) lub poszukaj tekstu alternatywnego ERRORS: Linked image missing alternative text.
--	**Aby sprawdzić, czy tekst alt jest odpowiedni**: 
-Poszukaj ikony zielonej alt (![Tekst alternatywny](/img/02_P_alt_alt.png)). Obok jest tekst na jasnozielonym tle; tekst alt jest między gwiazdkami (*). czy tekst alt przekazuje informacje o obrazie stosownie do wskazówek powyżej.
+	-	**Aby sprawdzić, czy brakuje alt**: wyszukaj czerwoną ikonę alt (![Ikona Brak alta](/img/02_P_alt_missing.png)) lub poszukaj tekstu alt *ERROR: Missing alt text*. Jeśli go znajdziesz, oznacza to, że poniższy obraz nie ma atrybutu `alt`. Być może na starszych witrynach znajdziesz także ikonę (![Ikona Obraz odstępu bez alta](/img/02_P_alt_spacer_missing.png)) oznaczającą obrazy użyte do formatowania odstępów między elementami (*ERRORS: Spacer image missing alternative text*)  
+	-	**Aby sprawdzić, czy nie brakuje atrybutu alt dla obrazków „funkcjonalnych”**: wyszukaj ikonę (![Ikona Obraz odstępu bez alta](/img/02_P_alt_link_missing.png)) lub poszukaj tekstu alternatywnego *ERRORS: Linked image missing alternative text*.
+	-	**Aby sprawdzić, czy tekst alt jest odpowiedni**: Poszukaj ikony zielonej alt (![Tekst alternatywny](/img/02_P_alt_alt.png)). Obok jest tekst na jasnozielonym tle; tekst alt jest między gwiazdkami (\*). Czy tekst alt przekazuje informacje o obrazie stosownie do wskazówek powyżej.
  
 ## Przećwicz sprawdzanie tekstu alternatywnego w demo PrzediPo  
  
@@ -100,7 +99,7 @@ W ramach ćwiczeń przygotowawczych do powyższych testów możesz sprawdzić pr
 	-	W nagłówku strony wyświetlane jest logo pracowni LepszyWeb. Tekstem alternatywnym dla logo jest „LepszyWeb.pl. Pracownia Dostępności Cyfrowej”.
  
 ## Dowiedz się więcej o tekście alternatywnym 
--	[Text alternatives for non-text content](http://www.w3.org/WAI/intro/people-use-web/principles#alternatives) (Tekst alternatywny dla terści nietekstowych)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+-	[Text alternatives for non-text content](http://www.w3.org/WAI/intro/people-use-web/principles#alternatives) (Tekst alternatywny dla treści nietekstowych) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Zrozumieć kryterium sukcesu 1.1.1 Treść nietekstowa](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[An alt text decision tree](https://www.w3.org/WAI/tutorials/images/decision-tree/) (Drzewo decyzji o atrybucie alt) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google. 
 -------------------------------------
