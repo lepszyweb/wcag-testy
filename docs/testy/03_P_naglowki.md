@@ -61,13 +61,18 @@ Aby sprawdzić nagłówki w dowolnej przeglądarce:
 3.	Wybierz opcję *Check by address* (Sprawdź wg adresu).
 4.  W polu poniżej wpisz adres URI strony internetowej, którą sprawdzasz (np www.w3.org).
 
+   ![Konfigurowanie testu](/img/03_P_naglowki_nu-html.png)
  
 5.	Kliknij przycisk *Check* (Sprawdź). Po chwili pojawi się strona wyników.
 6.	Przewiń stronę z wynikami w dół, aby przejść do sekcji *Heading-level outline* (Konspekt nagłówków).
- 
 7.	**Kontrola niewzrokowa**:
 	- Czy coś tam jest? Jeżeli nie ma tekstu pomiędzy „Heding-level outline” albo nie wygląda to jak rzeczywisty konspekt strony”, to oznacza, że na stronie nie ma nagłówków.
+	
+	![Sekcja konspektu bez konspektu](/img/03_P_naglowki_nu-html-brak.png)
+	   
 	- Czy konspekt rozpoczyna się od `H1`] i ułożony jest hierarchicznie z zachowaniem poziomów nagłówków? (To nie jest to wymagane, ale wysoce zalecane).
+	
+	![Sekcja konspektu z konspektem nagłówków](/img/03_P_naglowki_nu-html-konspekt.png)
  
 8.	**Kontrola wzrokowa**. Porównanie konspektu dokumentu z wizualną prezentacją (renderowaniem) strony.
 	- Czy wszystkie napisy, które na stronie wyglądają jak nagłówki, znajdują się w konspekcie dokumentu?
@@ -79,7 +84,7 @@ Aby sprawdzić nagłówki w dowolnej przeglądarce:
 2.	W polu *Web page address* ('Adres strony internetowej') wpisz adres strony internetowej, którą chcesz ocenić.
 3.	Kliknij przycisk strzałki *WAVE this page!* ('Testuj tę stronę'). Twoja strona internetowa pojawi się w przeglądarce z mnóstwem małych ikon na jej temat. Po lewej stronie w ramce pojawi się panel zarządzania narzędziem WAVE.
 4.	Wszystko, co pełni funkcję nagłówka powinno mieć ikonę nagłówka (![h1](/img/03_P_h1.png), ![h2](/img/03_P_h2.png), ![h3](/img/03_P_h3.png),  itd.)
-5.	Nic, co nie pełni funkcji nagłówka, nie powinno mieć ikony nagłowka.   
+5.	Nic, co nie pełni funkcji nagłówka, nie powinno mieć ikony nagłówka.   
 
 
 
