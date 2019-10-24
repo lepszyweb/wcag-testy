@@ -41,7 +41,7 @@ Aby sprawdzić nagłówki za pomocą paska narzędzi Web Devoloper
     - Czy konspekt zaczyna się od nagłówka `[H1]`, a hierarchia nagłówków jest sensowna, poziomy nagłówków nie są pomijane? (Nie jest to wymagane, ale zdecydowanie zalecane.)
 4.	**Kontrola wzrokowa**: Porównanie konspektu dokumentu z wizualną prezentacją (renderowaniem) strony.
     - Czy wszystkie napisy, które na stronie wyglądają jak nagłówki, znajdują się w konspekcie dokumentu?
-    - CCzy w konspekcie dokumentu znajdują się napisy, które na stronie nie są nagłówkami (nie wyglądają jak nagłówki)? 
+    - Czy w konspekcie dokumentu znajdują się napisy, które na stronie nie są nagłówkami (nie wyglądają jak nagłówki)? 
 
 **Oznakowanie nagłówków**:
 
@@ -106,11 +106,11 @@ Aby sprawdzić nagłówki w dowolnej przeglądarce:
    ![Napisy na niedostępnej stronie Nowiny wyglądające jak nagłówki](/img/03_P_naglowki_przed.png)  
    2. Następnie sprawdź, jak to powinno wyglądać. Wykonać jedną z instrukcji z sekcji „Znaczniki nagłówków na stronie” powyżej na naszym demo PrzediPo na dostępnej wersji strony NOWINY: https://przedipo.lepszyweb.pl/after/news.html. Na przykłaąd skorzystaj z narzędzia WAVE. Zauważ, że obok nagłówków pojawiają się ikony nagłówków.
    
-   ![Wynik testu WAVE - oznakowane nagłówki na dostępnej stronie Nowiny](/img/03_P_naglowki_wave-przed.png)
+   ![Wynik testu WAVE - oznakowane nagłówki na dostępnej stronie Nowiny](/img/03_P_naglowki_wave-po.png)
  
    3. Następnie zobaczyć, jak to wygląda, gdy nagłówki nie są oznakowane. Przetestuj niedostępną wersję strony NOWINY: https://przedipo.lepszyweb.pl/before/news.html Zauważ, że teksty w kilku miejscach wyglądają na nagłówki, ale nie obok nich nie ma ikon symbolizujących nagłówki. (Są żółte ikony z „h?”, ponieważ WAVE uważa, że prawdopodobnie powinny to być nagłówki).
    
-   ![Wynik testu WAVE - brak oznakowania nagłówków na niedostępnej stronie Nowiny](/img/03_P_naglowki_wave-po.png)
+   ![Wynik testu WAVE - brak oznakowania nagłówków na niedostępnej stronie Nowiny](/img/03_P_naglowki_wave-przed.png)
  
 ### Dowiedz się więcej o nagłówkach 
 -	[Zrozumieć kryterium sukcesu 1.3.1 Informacje i relacje](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
