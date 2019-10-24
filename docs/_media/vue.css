@@ -802,7 +802,7 @@ section.cover.has-mask .mask {
 
 .markdown-section code {
   border-radius: 2px;
-  color: #e96900;
+  color: #B85300;
   margin: 0 2px;
   padding: 3px 5px;
   white-space: nowrap;
@@ -873,7 +873,7 @@ section.cover.has-mask .mask {
 }
 
 .token.keyword {
-  color: #e96900
+  color: #B85300
 }
 
 .token.atrule, .token.regex, .token.statement {
