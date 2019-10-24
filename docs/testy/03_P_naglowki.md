@@ -23,11 +23,11 @@ Poniższe testy zawierają instrukcje, w jaki sposób w różnych przeglądarkac
 
 **Konspekt nagłówków**: przykład konspektu nagłówków na stronie:
 
-![Konspekt nagłówków na stronie](03_P_naglowki-konspekt.png) 
+![Konspekt nagłówków na stronie](/img/03_P_naglowki-konspekt.png) 
 
 **Oznakowanie nagłówków**: przykład widoku strony z oznakowanymi nagłówkami:
 
-![Oznakowanie nagłówków](03_P_naglowki-znaczniki.png) 
+![Oznakowanie nagłówków](/img/03_P_naglowki-znaczniki.png) 
 
 #### Test z użyciem paska narzędzi Web Developer
 Aby sprawdzić nagłówki za pomocą paska narzędzi Web Devoloper
@@ -78,7 +78,7 @@ Aby sprawdzić nagłówki w dowolnej przeglądarce:
 1.	Otwórz stronę internetową [narzędzia oceny dostępności WAVE](http://wave.webaim.org).
 2.	W polu *Web page address* ('Adres strony internetowej') wpisz adres strony internetowej, którą chcesz ocenić.
 3.	Kliknij przycisk strzałki *WAVE this page!* ('Testuj tę stronę'). Twoja strona internetowa pojawi się w przeglądarce z mnóstwem małych ikon na jej temat. Po lewej stronie w ramce pojawi się panel zarządzania narzędziem WAVE.
-4.	Wszystko, co pełni funkcję nagłówka powinno mieć ikonę nagłówka (![h1](03_P_h1.png), ![h2](03_P_h2.png), ![h3](03_P_h3.png),  itd.)
+4.	Wszystko, co pełni funkcję nagłówka powinno mieć ikonę nagłówka (![h1](/img/03_P_h1.png), ![h2](/img/03_P_h2.png), ![h3](/img/03_P_h3.png),  itd.)
 5.	Nic, co nie pełni funkcji nagłówka, nie powinno mieć ikony nagłowka.   
 
 
@@ -88,24 +88,24 @@ Aby sprawdzić nagłówki w dowolnej przeglądarce:
 1. **Konspekt nagłówków:**
    1. Postępuj zgodnie z jednym scenariuszy określonych powyżej w sekcjach „Konspekt nagłówków” powyżej i zbadaj dostępną stronę NOWINY: https://przedipo.lepszyweb.pl/after/news.html. Zauważ, że istnieje ładna hierarchiczna struktura.
 
-![Wynik testu w Walidatorze HTML - Konspekt nagłówków na dostępnej stronie Nowiny](03_P_naglowki_nu-html-po.png)
+![Wynik testu w Walidatorze HTML - Konspekt nagłówków na dostępnej stronie Nowiny](/img/03_P_naglowki_nu-html-po.png)
 
    2. Następnie za pomocą niedostępnych stronę NOWINY: https://przedipo.lepszyweb.pl/before/news.html. (W HTML Validator, przycisk „Sprawdź” może teraz powiedzieć: „Ponownie zweryfikuj”). Zauważ, że na stronie nie ma ani jednego nagłówka.
 
-![Wynik testu w Walidatorze HTML - brak konspektu nagłówków na niedostępnej stronie Nowiny]](03_P_naglowki_nu-html-przed.png)
+![Wynik testu w Walidatorze HTML - brak konspektu nagłówków na niedostępnej stronie Nowiny]](/img/03_P_naglowki_nu-html-przed.png)
  
 2. **Oznakowanie nagłówków**:
 
    1. Zacznij od kontroli wzrokowej, patrząc na naszym demo PrzediPO na niedostępną wersję strony NOWINY: https://przedipo.lepszyweb.pl/before/news.html. Co wygląda na nagłówki? (Nowiny Świateł Miasta, Klimatyzacja źródłem fali upałów, 9 miesięcy za kradzież skrzypiec, Twardy Przewałek, Zwrot do nadawcy, Twój krzyk, Brak mózgów utrudnia badania naukowe,)
    
-   ![Napisy na niedostępnej stronie Nowiny wyglądające jak nagłówki]](03_P_naglowki_przed.png)  
+   ![Napisy na niedostępnej stronie Nowiny wyglądające jak nagłówki]](/img/03_P_naglowki_przed.png)  
    2. Następnie sprawdź, jak to powinno wyglądać. Wykonać jedną z instrukcji z sekcji „Znaczniki nagłówków na stronie” powyżej na naszym demo PrzediPo na dostępnej wersji strony NOWINY: https://przedipo.lepszyweb.pl/after/news.html. Na przykłaąd skorzystaj z narzędzia WAVE. Zauważ, że obok nagłówków pojawiają się ikony nagłówków.
    
-   ![Wynik testu WAVE - oznakowane nagłówki na dostępnej stronie Nowiny]](03_P_naglowki_wave-przed.png)
+   ![Wynik testu WAVE - oznakowane nagłówki na dostępnej stronie Nowiny]](/img/03_P_naglowki_wave-przed.png)
  
    3. Następnie zobaczyć, jak to wygląda, gdy nagłówki nie są oznakowane. Przetestuj niedostępną wersję strony NOWINY: https://przedipo.lepszyweb.pl/before/news.html Zauważ, że teksty w kilku miejscach wyglądają na nagłówki, ale nie obok nich nie ma ikon symbolizujących nagłówki. (Są żółte ikony z „h?”, ponieważ WAVE uważa, że prawdopodobnie powinny to być nagłówki).
    
-   ![Wynik testu WAVE - brak oznakowania nagłówków na niedostępnej stronie Nowiny]](03_P_naglowki_wave-po.png)
+   ![Wynik testu WAVE - brak oznakowania nagłówków na niedostępnej stronie Nowiny]](/img/03_P_naglowki_wave-po.png)
  
 ### Dowiedz się więcej o nagłówkach 
 -	[Zrozumieć kryterium sukcesu 1.3.1 Informacje i relacje](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
