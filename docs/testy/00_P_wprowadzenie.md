@@ -18,7 +18,7 @@ Baza testów wstępnych obejmuje sprawdzenie kilku wymienionych poniżej aspekt�
 - [Teksty altenratywne obrazów](testy/02_P_odpowiedniki-tekstowe-obrazow.md) ( „alternatywy tekstowe” zdjęć, ilustracji, wykresów, etc.)
 - **Tekst**:
   - [Nagłówki](testy/03_P_naglowki.md)
-  - [Kontrast kolorów](testy/04_P_kontrast-kolorów) ( „współczynnik kontrastu”)
+  - [Kontrast kolorów](testy/04_P_wspolczynnik_kontrastu.md) ( „współczynnik kontrastu”)
   - [Zmiana rozmiaru tekstu](testy/05_P_zmiana-rozmiaru-tekstu.md)
 - **Interakcja**:
   - [Dostęp za pomocą klawiatury i widoczność fokusa](testy/06_P_klawiatura.md)
