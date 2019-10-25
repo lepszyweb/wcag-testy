@@ -15,13 +15,13 @@ Każdy obraz osadzony na stronie powinien zawierać atrybut w osadzającym go zn
 -	Jeżeli obraz spełnia tylko funkcję dekoracyjną i użytkownicy nie muszą wiedzieć o obrazie, żeby poznać treść strony i wykonać zadania na stronie, to obraz powinien mieć pusty atrybut alt ( `alt=""`), czyli bez żadnego tekstu.
 Testy automatyczne mogą cię poinformować, jedynie o tym, w których znacznikach brakuje atrybutu `alt`. Aby ustalić, czy tekst alternatywny jest odpowiedni, trzeba zobaczyć obraz i oceniać go w kontekście.
 
-### Co sprawdzać:
+### Co sprawdzać
 -	Czy każdy obraz ma atrybut alt z odpowiednim tekstem alternatywnym.
 
 ### Wskazówki
 Formułowanie odpowiednich tekstów alternatywnych adekwatnych do treści i funkcji obrazów nie opiera się na ścisłych regułach, które prowadziłyby do sytuacji, że bez względu na to, kto opracowuje tekst alternatywny, to zawsze ten tekst będzie taki sam (w przypadku tego samego obrazu. Ponadto, niektórzy ludzie wolą, aby obrazy posiadały szczegółowe opisy; a inni wolą zwięzłe, znacznie mniej dokładne opisy.
 
-#### Odpowiedni tekst alternatywny: 
+#### Odpowiedni tekst alternatywny
 -	Tekst alternatywny musi przekazać to samo znaczenie co obraz. Oznacza to, że jeśli ktoś nie widzi obrazu, to ważne informacje wyrażane obrazem otrzymuje w tekście alternatywnym.
 -	Tekst alternatywny zależy od kontekstu. Na przykład tekst alternatywny dla obrazu psa na stronie klubu hodowców psów może zawierać rasę psa; ale ten sam obraz na stronie internetowej o parku psów może tylko sprawiać, że strona będzie bardziej atrakcyjna, ale obraz nie wnosi do niej żadnej treści. W takim przypadku obraz może nie potrzebować żadnego tekstu alternatywnego, a wiec powinien mieć pusty atrybut alt. Jednym ze sposobów pomagającym ustalić odpowiedni tekst atrybutu alt jest odpowiedź na pytanie: co można by powiedzieć o obrazie, gdy komuś pomagasz czytać i wchodzić w interakcje ze stroną internetową, której nie może zobaczyć?
 -	Obrazy „funkcjonalne” - na przykład inicjujące akcje (takie jak przyciski Wyślij) czy obrazy linkujące (np. ikony w nawigacji) - potrzebują tekstu alternatywnego, który przekazuje funkcję obrazu, a więc nie tekstu, który opisuje obraz, lecz tekstu, który wskazuje cel łącza albo funkcję przycisku. 
@@ -84,9 +84,9 @@ Twoja strona internetowa pojawi się w przeglądarce z mnóstwem małych ikon na
 	-	**Aby sprawdzić, czy nie brakuje atrybutu alt dla obrazków „funkcjonalnych”**: wyszukaj ikonę (![Ikona Obraz odstępu bez alta](/img/02_P_alt_link_missing.png)) lub poszukaj tekstu alternatywnego *ERRORS: Linked image missing alternative text*.
 	-	**Aby sprawdzić, czy tekst alt jest odpowiedni**: Poszukaj ikony zielonej alt (![Tekst alternatywny](/img/02_P_alt_alt.png)). Obok jest tekst na jasnozielonym tle; tekst alt jest między gwiazdkami (\*). Czy tekst alt przekazuje informacje o obrazie stosownie do wskazówek powyżej.
  
-## Przećwicz sprawdzanie tekstu alternatywnego w demo PrzediPo  
+## Ćwiczenie sprawdzania tekstu alternatywnego na stronie demo PrzediPo  
  
-W ramach ćwiczeń przygotowawczych do powyższych testów możesz sprawdzić problemów z dostępnością obrazów w naszym [Demo PrzediPo: Niedostępna strona główna](https://przedipo.lepszyweb.pl/before/home.html). 
+W ramach ćwiczeń przygotowawczych do powyższych testów możesz sprawdzić problemy z dostępnością obrazów w naszym [Demo PrzediPo: Niedostępna strona główna](https://przedipo.lepszyweb.pl/before/home.html). 
 
 ### Wskazówki:
 -	**Brakujący alt**:

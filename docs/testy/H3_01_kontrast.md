@@ -40,7 +40,7 @@ Kryteria sukcesu: [1.4.3 Kontrast (minimalny)](https://wcag.lepszyweb.pl/#contra
 
 ### Zasoby
 
-- [The Myths of Color Contrast Accessibility])(https://uxmovement.com/buttons/the-myths-of-color-contrast-accessibility/)
+- [The Myths of Color Contrast Accessibility](https://uxmovement.com/buttons/the-myths-of-color-contrast-accessibility/)
 
 
 #### Pomocne narzędzia:
