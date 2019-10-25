@@ -115,7 +115,7 @@ Aby sprawdzić kontrasty w dowolnej przeglądarce:
 	  - obok etykiety *Contrast ratio* wyświetlany jest wyliczony współczynnik kontrastu
 	  - poniżej podane jest podsumowanie dla normalnego i dużego tekstu z rozbiciem na poziommy zgodność AA i AAA. Słowo *fail* oznacza niewuystarczający kontrast. Słowo *Pass* oznacza wystarczajacy kontrast. 
 	  
-   ![Wyniki testu kontrastu w narzędziu WAVE](04_P_kontrast_WAVE_3.png)
+   ![Wyniki testu kontrastu w narzędziu WAVE](/img/04_P_kontrast_WAVE_3.png)
 
 **Uwaga**: WAVE umożliwia również wzrokowe sprawdzenie kontrastu za pomocą opcji wyświetlenia strony w skali szarości. W tym celu wybierz w panelu kontrolnym łącze: *Desaturate page*.    
 
