@@ -22,14 +22,6 @@ Przeglądarki internetowe powinny umożliwić ludziom zmianę koloru tekstu i t�
 - Czy współczynnik kontrastu między dużym tekstem a tłem wynosi co najmniej 3,0:1? 
 - Czy obiekty na grafikach wymaganych do zrozumienia treści mają współczynnik kontrastu w stosunku do tła co najmniej 3:1?
 
-
-WCAG 2.1 wyznacza dwa współczynniki kontrastu, minimalny i podwyższony. Minimalny współczynnik kontrastu wymagany jest dla tekstu 18-punktowego lub 14-punktowego pogrubiongo 
-
-zawiera dwa kryteria sukcesu, które wskazują, jaki powinien być kontrast między treścią a jej tłem, żeby treść była w pełni zauważalna. Kryterium sukcesu 1.4.3 wyznacza minimalne progi kontrastu (poziom AA), a kryterium 1.4.6 podwyższone progi kontrastu (poziom AAA) 
- 
-Według tych kryteriów sukcesu, aby zapewnić, że wizualna prezentacja tekstu i obrazów tekstu będzie rozpoznawalna, współczynnik kontrastu powinien wynosić co najmniej: 
- 
- 
 WCAG 2.1 zawiera dwa kryteria sukcesu, które wskazują, jaki powinien być kontrast między treścią a jej tłem, żeby treść była w&nbsp;pełni zauważalna. Kryterium sukcesu 1.4.3 wyznacza minimalne progi kontrastu, gdy wymagany jest poziom AA zgodności z WCAG 2.1), a kryterium 1.4.6 podwyższone progi kontrastu, gdy wymagany jest poziom AAA.
 
 Według tych kryteriów sukcesu, aby zapewnić, że wizualna prezentacja tekstu i obrazów tekstu będzie rozpoznawalna, współczynnik kontrastu powinien wynosić co najmniej: 
@@ -40,7 +32,7 @@ Według tych kryteriów sukcesu, aby zapewnić, że wizualna prezentacja tekstu 
   - **7,0** w przypadku małego tekstu,
   - **4,5** w przypadku dużego tekstu.  
 
-Jako tekst wystarczajaco duży, aby wymagać niższego współczynnika kontrastu uznaje się tekst 18-punktowy lub 14-punktowy pogrubiony, czyli:
+Jako tekst wystarczająco duży, aby wymagać niższego współczynnika kontrastu uznaje się tekst 18-punktowy lub 14-punktowy pogrubiony, czyli:
  
 - **Mały tekst**, według WCAG, jest wtedy, gdy:
   - ma rozmiar mniejszy niż 18 punktów (24 piksele) ALBO
@@ -64,7 +56,7 @@ Istnieją zasadniczo trzy sposoby sprawdzania kontrastu. Każdy ma mocne i słab
 
    
 ### Sprawdzanie kontrastu
-Istnieje wiele narzędzi umożliwiajacych sprawdzanie kontrastu. Lista kilku narzędzi, z których można skorzystać, została podana w ostatniej sekcji tego poradnika.  
+Istnieje wiele narzędzi umożliwiających sprawdzanie kontrastu. Lista kilku narzędzi, z których można skorzystać, została podana w ostatniej sekcji tego poradnika.  
 
 Poniżej znajdują się instrukcje dotyczące sprawdzania kontrastu za pomocą rozszerzenia WCAG Color Contrast Checker przeznaczonego dla przeglądarek Chrome i Firefox.  
 
@@ -75,7 +67,7 @@ Poniżej znajdują się instrukcje dotyczące sprawdzania kontrastu za pomocą r
 
 1.	Otwórz stronę, którą chcesz sprawdzić.
 2.	Uruchom narzędzie WCAG Color Contrast Checker. Kontroler zostanie wyświetlony w panelu po lewej stronie ekranu. Niestety, nie można manipulować jego położeniem, a  często zasłania część sprawdzanej strony. Kontroler domyślnie sprawdza poprawność kontrastu na poziomie wymagań AA. Jeśli wymagana jest zgodność z WCAG 2.1 na poziomie AAA, można zmienić ustawienie domyślne na liście rozwijanej w gónej części kontrolera, opisanej etykietą *Level* (Poziom).   
-	- **Tabela współczynników kontrastu.** W głównej części panelu wyświetlana jest tabela wykrytych kombinacji kolorów tekstu inbsp;tła oraz danych dotyczących kontrastu. **Zielona fiszka** oznacza wystarczający kontrast, czerwony znak **x** oznacza niewystarczający kontrast. Obok ikony podawany jest wyliczony współczynnik kontrastu. Następnie rozmiar tekstu – słowo *small* oznacza mały tekst, a słowo *large* duży tekst. Dla małego tekstu wymagany jest wyższy współczynnik kontrastu, dla dużego – niższy. W następnej kolumnie wyświetlana jest próbka kombinacji kolorów, a w ostatniej kolumnie liczba wykrytych elementów strony i znaczniki HTML, w których dany współczynnik kontrastu został rozpoznany. Aby zobaczyć dokładniejszą statystykę, wystarczy za pomocą przełącznika z lewej strony współczynnika kontrastu rozwinąć szczegółowe informacje. Jeśli wskażesz w&nbsp;tabeli dowolną pozycję, wszystkie wystąpienia elementów z&nbsp;wybranym współczynnikiem kontrastu zostaną otoczone czerwonym obrysem. Niestety, niekiedy trudno go znaleźć, bo może być ukryty pod panelem kontrolera.
+	- **Tabela współczynników kontrastu.** W głównej części panelu wyświetlana jest tabela wykrytych kombinacji kolorów tekstu i&nbsp;tła oraz danych dotyczących kontrastu. **Zielona fiszka** oznacza wystarczający kontrast, czerwony znak **x** oznacza niewystarczający kontrast. Obok ikony podawany jest wyliczony współczynnik kontrastu. Następnie rozmiar tekstu – słowo *small* oznacza mały tekst, a słowo *large* duży tekst. Dla małego tekstu wymagany jest wyższy współczynnik kontrastu, dla dużego – niższy. W następnej kolumnie wyświetlana jest próbka kombinacji kolorów, a w ostatniej kolumnie liczba wykrytych elementów strony i znaczniki HTML, w których dany współczynnik kontrastu został rozpoznany. Aby zobaczyć dokładniejszą statystykę, wystarczy za pomocą przełącznika z lewej strony współczynnika kontrastu rozwinąć szczegółowe informacje. Jeśli wskażesz w&nbsp;tabeli dowolną pozycję, wszystkie wystąpienia elementów z&nbsp;wybranym współczynnikiem kontrastu zostaną otoczone czerwonym obrysem. Niestety, niekiedy trudno go znaleźć, bo może być ukryty pod panelem kontrolera.
 	
 	![Tabela wyników testu współczynników kontrastu w panelu narzędzia WCAG Color Contrast Checker](/img/04_P_kontrast_WCAG_1.png)
  
@@ -101,7 +93,7 @@ Aby sprawdzić kontrasty w dowolnej przeglądarce:
 1. Otwórz stronę internetową [narzędzia oceny dostępności WAVE](http://wave.webaim.org).
 2. W polu *Web page address* ('Adres strony internetowej') wpisz adres strony internetowej, którą chcesz ocenić.
 3. Kliknij przycisk strzałki *WAVE this page!* ('Testuj tę stronę'). Twoja strona internetowa pojawi się w przeglądarce z mnóstwem małych ikon na jej temat. Po lewej stronie w ramce pojawi się panel zarządzania narzędziem WAVE. 
-4. W panelu kontrolnym narzędzia WAVE wybierz z paska menu opcję *Contrast*. Widok sprawdzanej strony zostanie przełączony. W miejscach, w których narzędzie stwierdzi niewystarczajacy kontrast, znajdują się ikony ![błędu kontrastu](/img/04_P_contrast.png).
+4. W panelu kontrolnym narzędzia WAVE wybierz z paska menu opcję *Contrast*. Widok sprawdzanej strony zostanie przełączony. W miejscach, w których narzędzie stwierdzi niewystarczający kontrast, znajdują się ikony ![błędu kontrastu](/img/04_P_contrast.png).
 
    ![Lokalizacja opcji Kontrast w narzędziu WAVE](/img/04_P_kontrast_WAVE_1.png)
 
@@ -113,7 +105,7 @@ Aby sprawdzić kontrasty w dowolnej przeglądarce:
       - w polu *Foreground color* wyświetlany jest szesnastkowy kod koloru pierwszego planu (tekstu),
 	  - w polu *Background color* wyświetlany jest szesnastkowy kod koloru tła,
 	  - obok etykiety *Contrast ratio* wyświetlany jest wyliczony współczynnik kontrastu
-	  - poniżej podane jest podsumowanie dla normalnego i dużego tekstu z rozbiciem na poziommy zgodność AA i AAA. Słowo *fail* oznacza niewuystarczający kontrast. Słowo *Pass* oznacza wystarczajacy kontrast. 
+	  - poniżej podane jest podsumowanie dla normalnego i dużego tekstu z rozbiciem na poziommy zgodność AA i AAA. Słowo *fail* oznacza niewystarczający kontrast. Słowo *Pass* oznacza wystarczający kontrast. 
 	  
    ![Wyniki testu kontrastu w narzędziu WAVE](/img/04_P_kontrast_WAVE_3.png)
 
@@ -126,13 +118,13 @@ W ramach ćwiczeń przygotowawczych do powyższych testów możesz sprawdzić pr
 
 1. Otwórz niedostępną wersję strony Bilety https://przedipo.lepszyweb.pl/before/tickets.html 
 2. Użyj jednego z opisanych powyżej sposobów sprawdzania kontrastu:
-   - Zwróć uwagę na tabelkę zatytułowaną „daty koncertu”. W nagłówku tabeli znajduje się czarny tekst na szarym tle. Współczynnik kontrastu tego tekstu wynosi 3,88, a tekst, choć pogrubiony, jest zbyt mały, by uznać ten współćzynnik kontrasttu za wystarczający.
-   - Sprawdź również współczynniki kontrastu w komórkach nagłówkowych w tabeli poniżej, przedstawiajacej ceny biletów. Tu również współczynnik kontrastu wynosi 3,88.
+   - Zwróć uwagę na tabelkę zatytułowaną „daty koncertu”. W nagłówku tabeli znajduje się czarny tekst na szarym tle. Współczynnik kontrastu tego tekstu wynosi 3,88, a tekst, choć pogrubiony, jest zbyt mały, by uznać ten współczynnik kontrastu za wystarczający.
+   - Sprawdź również współczynniki kontrastu w komórkach nagłówkowych w tabeli poniżej, przedstawiającej ceny biletów. Tu również współczynnik kontrastu wynosi 3,88.
 3. Otwórz dostępną wersję strony Bilety https://przedipo.lepszyweb.pl/after/tickets.html.
-4. Sprawdź, czy w poprawionej wersji strony zoostał zwiększony współczynnik kontrastu.  
+4. Sprawdź, czy w poprawionej wersji strony został zwiększony współczynnik kontrastu.  
    
 ## Dowiedz się więcej o współczynniku kontrastu 
--	[Understanding Success Criterion 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) (Zrozumieć kryterium sukcesu 1.4.3: Kontrast minimmalny) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+-	[Understanding Success Criterion 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) (Zrozumieć kryterium sukcesu 1.4.3: Kontrast minimalny) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Understanding Success Criterion 1.4.6: Contrast (Enhanced)](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)  Zrozumieć kryterium sukcesu 1.4.6: Kontrast rozszerzony) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 
 ## Narzędzia sprawdzające kontrast
