@@ -77,7 +77,7 @@ Poniżej znajdują się instrukcje dotyczące sprawdzania kontrastu za pomocą r
 2.	Uruchom narzędzie WCAG Color Contrast Checker. Kontroler zostanie wyświetlony w panelu po lewej stronie ekranu. Niestety, nie można manipulować jego położeniem, a  często zasłania część sprawdzanej strony. Kontroler domyślnie sprawdza poprawność kontrastu na poziomie wymagań AA. Jeśli wymagana jest zgodność z WCAG 2.1 na poziomie AAA, można zmienić ustawienie domyślne na liście rozwijanej w gónej części kontrolera, opisanej etykietą *Level* (Poziom).   
 	- **Tabela współczynników kontrastu.** W głównej części panelu wyświetlana jest tabela wykrytych kombinacji kolorów tekstu inbsp;tła oraz danych dotyczących kontrastu. **Zielona fiszka** oznacza wystarczający kontrast, czerwony znak **x** oznacza niewystarczający kontrast. Obok ikony podawany jest wyliczony współczynnik kontrastu. Następnie rozmiar tekstu – słowo *small* oznacza mały tekst, a słowo *large* duży tekst. Dla małego tekstu wymagany jest wyższy współczynnik kontrastu, dla dużego – niższy. W następnej kolumnie wyświetlana jest próbka kombinacji kolorów, a w ostatniej kolumnie liczba wykrytych elementów strony i znaczniki HTML, w których dany współczynnik kontrastu został rozpoznany. Aby zobaczyć dokładniejszą statystykę, wystarczy za pomocą przełącznika z lewej strony współczynnika kontrastu rozwinąć szczegółowe informacje. Jeśli wskażesz w&nbsp;tabeli dowolną pozycję, wszystkie wystąpienia elementów z&nbsp;wybranym współczynnikiem kontrastu zostaną otoczone czerwonym obrysem. Niestety, niekiedy trudno go znaleźć, bo może być ukryty pod panelem kontrolera.
 	
-	![Tabela wyników testu współczynników kontrastu w panelu narzędzia WCAG Color Contrast Checker](04_P_kontrast_WCAG_1.png)
+	![Tabela wyników testu współczynników kontrastu w panelu narzędzia WCAG Color Contrast Checker](/img/04_P_kontrast_WCAG_1.png)
  
 	- **Próbnik koloru (zakraplacz)**: Kontroler umożliwia również zbadanie współczynnika kontrastu dowolnej pary kolorów i&nbsp;odczytanie wartości użytych kolorów.  Aby zbadać współczynnik kontrastu  między treścią i tłem dowolnego elementu strony:
 	  1. W sekcji *Color tool* (Narzędzia koloru) zaznacz próbnik koloru obok pola zatytułowanego *Foreground color hex* (Kolor pierwszego planu w formacie szesnastkowym). 
@@ -85,13 +85,13 @@ Poniżej znajdują się instrukcje dotyczące sprawdzania kontrastu za pomocą r
 	  3. Powtórz tę czynność, by zbadać kolor tła. Tym razem użyj próbnika koloru obok pola zatytułowanego *Background color...* (Kolor tła). W polu tekstowym pojawi się szesnastkowy kod wskazanego koloru tła, a poniżej zostanie wyświetlona próbka małego i dużego tekstu na tle we wskazanych kolorach.
 	  4. Sprawdź w tabeli poniżej wyniki wyliczenia współczynnika  kontrastu  dla małego i dużego tekstu na poziomie AA i AAA.  
 
-	![Testowanie współczynnika kontrastu za pomocą próbnika kolorów](04_P_kontrast_WCAG_2.png)	  
+	![Testowanie współczynnika kontrastu za pomocą próbnika kolorów](/img/04_P_kontrast_WCAG_2.png)	  
  
 	- **Wyłączenie kolorów**: WCAG Color Contrast Checker zapewnia również możliwość sprawdzenia kontrastów za pomocą symulatora widzenia przez osoby z różnymi odmianami ślepoty barw, w tym achromatopsji, czyli osoby widzące tylko w odcieniach szarości:
 	  1. Z listy rozwijanej *color-blindness* (ślepota barw) – wybieraj kolejne opcje.
 	  2. Sprawdź na stronie dla każdej wybranej opcji, czy wszystkie treści są czytelne i mają wystarczający kontrast. Uwaga:  Możesz sprawdzić współczynniki kontrastu dla wszystkich wykrytych oryginalnych kombinacji kolorów po przekształceniu ich do skali barw charakterystycznej dla danego typu ślepoty barw.   
 
-	![Testowanie współczynnika kontrastu z wykorzystaniem symulatora ślepoty barw](04_P_kontrast_WCAG_3.png)	
+	![Testowanie współczynnika kontrastu z wykorzystaniem symulatora ślepoty barw](/img/04_P_kontrast_WCAG_3.png)	
 
 
 #### Testy w dowolnej przeglądarce  
@@ -101,13 +101,13 @@ Aby sprawdzić kontrasty w dowolnej przeglądarce:
 1. Otwórz stronę internetową [narzędzia oceny dostępności WAVE](http://wave.webaim.org).
 2. W polu *Web page address* ('Adres strony internetowej') wpisz adres strony internetowej, którą chcesz ocenić.
 3. Kliknij przycisk strzałki *WAVE this page!* ('Testuj tę stronę'). Twoja strona internetowa pojawi się w przeglądarce z mnóstwem małych ikon na jej temat. Po lewej stronie w ramce pojawi się panel zarządzania narzędziem WAVE. 
-4. W panelu kontrolnym narzędzia WAVE wybierz z paska menu opcję *Contrast*. Widok sprawdzanej strony zostanie przełączony. W miejscach, w których narzędzie stwierdzi niewystarczajacy kontrast, znajdują się ikony ![błędu kontrastu](04_P_contrast.png).
+4. W panelu kontrolnym narzędzia WAVE wybierz z paska menu opcję *Contrast*. Widok sprawdzanej strony zostanie przełączony. W miejscach, w których narzędzie stwierdzi niewystarczajacy kontrast, znajdują się ikony ![błędu kontrastu](/img/04_P_contrast.png).
 
-   ![Lokalizacja opcji Kontrast w narzędziu WAVE](04_P_kontrast_WAVE_1.png)
+   ![Lokalizacja opcji Kontrast w narzędziu WAVE](/img/04_P_kontrast_WAVE_1.png)
 
    1. Kliknij ikonę, aby wyświetlić komunikat błędu z łączem do szczegółowych objaśnień (w języku angielskim).
 
-   ![Testowanie kontrastu za pomocą narzędzia WAVE](04_P_kontrast_WAVE_2.png)
+   ![Testowanie kontrastu za pomocą narzędzia WAVE](/img/04_P_kontrast_WAVE_2.png)
    
    2. Sprawdź w panelu kontrolnym WAVE w sekcji *Contrast Tools* (Narzędzia kontrastu) szczegółowe informacje o wykrytych niewystarczających współczynnikach kontrastu.
       - w polu *Foreground color* wyświetlany jest szesnastkowy kod koloru pierwszego planu (tekstu),
