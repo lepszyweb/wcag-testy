@@ -45,9 +45,9 @@
  - [2. Teksty alternatywne obrazów](testy/02_P_odpowiedniki-tekstowe-obrazow.md)
  - [3. Nagłówki](testy/03_P_naglowki.md)
  - [4. Kontrast kolorów](testy/04_P_wspolczynnik_kontrastu.md)
+ - [5. Zmiana rozmiaru tekstu](testy/PW_05_zmiana-rozmiaru.md)
 
-<!--  - [5. Zmiana rozmiaru tekstu](testy/PW_05_zmiana-rozmiaru.md)
- - [6. Dostęp z klawiatury i widoczny fokus](testy/PW_pw_-klawiatura.md)
+<!-- - [6. Dostęp z klawiatury i widoczny fokus](testy/PW_pw_-klawiatura.md)
  - [7. Formularze, etykiety i błedy](testy/PW_07_formularze.md)
  - [8. Poruszanie, miganie, przesuwanie](testy/PW_08_poruszanie.md)
  - [9. Alternatywy multimediów](testy/PW_09_multimedia.md)

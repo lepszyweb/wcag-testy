@@ -23,9 +23,11 @@ Rysunek: Pierwszy obraz przedstawia tekst normalnej wielkości. Na drugim obrazi
 
 ### Sposoby zmiany rozmiaru tekstu 
 Współczesne przeglądarki umożliwiają zmianę rozmiaru tekstu, obrazów i filmów na jednej lub wszystkich stronach.  
-Niektóre, np. Firefox, umożliwiają tylko zmianę rozmiaru tekstu bez zmian rozmiaru innych elementow strony.
+Dwie z popularnycch przeglądarek umożliwiają zmianę rozmiaru tekstu bez zmian rozmiaru innych elementow strony: Firefox i Internet Explorer.
 
-Niekiedy twórcy witryn dodają do nich specjalne przełączniki umożliwiajace zmianę rozmiaru tekstu na całej stronie albo w artykułach.     
+Niekiedy twórcy witryn dodają do nich specjalne przełączniki umożliwiajace zmianę rozmiaru tekstu na całej stronie albo w artykułach. 
+
+We wszystkich przeglądarkach rozmiar zawartości można również zwiększać lub zmniejszać pokrętłem myszki po wciśnięciu na klawiaturze klawisza Ctrl.     
 
 ### Co robić
 -	Zwiększaj rozmiar tekstu, przede wszzystkim za pomocą funkcji przeglądarki lub urządzenia. Jeśli na stronie znajdują się specjalne przełączniki zmiany rozmiaru tekstu, również je przetestuj.
@@ -38,7 +40,7 @@ Niekiedy twórcy witryn dodają do nich specjalne przełączniki umożliwiajace 
 -	Czy czytanie zdań lub bloków tekstu nie wymaga przewijania w poziomie? Najlepszą praktyką jest, aby po zwiększeniu rozmiaru tekstu bez przewijania w poziomie wszystkie wyrazy w zdaniach następujące po sobie były widoczne. Przewijanie w poziomie jest dopuszczalne tylko w przypadku tabel z dużą liczbą kolumn albo po to, by przejść do innych sekcji strony  (W przypadku języków, w których tekst zapisuje się od góry do dołu, „przewijanie w poziomie” w tekście powyżej należy zamienić na  „przewijanie w pionie” i odwrotnie).
 
 ### Sprawdzanie możliwości zmiany rozmiaru tekstu
-Instrukcje poniżej dotyczą funkcji powiększania w popularnych przeglądarkach - Chrome, Firefox, Internet Explorer i Microsoft Edge. Oprócz funkcji powiększania tekstu bądź całej zawartości stron, w przeglądarkach można zmienić ustawienia rozmiaru tekstu i innych jego właściwości. Aby nie komplikować poradnika (i testowania), nie opisujemy tutaj sposobów zmiany tych ustawień.
+Instrukcje poniżej dotyczą funkcji powiększania w popularnych przeglądarkach - Firefox, Chrome,Internet Explorer i Microsoft Edge. Oprócz funkcji powiększania tekstu bądź całej zawartości stron, w przeglądarkach można zmienić ustawienia rozmiaru tekstu i innych jego właściwości. Aby nie komplikować poradnika (i testowania), nie opisujemy tutaj sposobów zmiany tych ustawień.
  
 #### Zwiększanie rozmiaru tekstu w przeglądarce Firefox 
 Aby powiększyć rozmiar tekstu w przeglądarce Firefox
@@ -63,3 +65,61 @@ Aby powiększyć rozmiar tekstu w przeglądarce Firefox
      - Użyj w opcjach powiększania przycisku minus (-), aby zmniejszyć albo przycisku plus (+), aby zwiększyć rozmiar tekstu Liczba między przyciskami oznacza aktualny procent powiększenia.
 
 Aby potwierdzić, że w kroku 1 zostało ustawione tylko powiększanie tekstu, upewnij się, że powiększa się tylko tekst, a nie obrazy.
+
+ 
+#### Zwiększanie rozmiaru tekstu w przeglądarce Chrome 
+Przeglądarka Chrome umożliwia zmianę rozmiaru całej zawartości strony. Użytkownicy potrzebujący powiększenia tekstu mogą korzystać ze specjalnych narzędzi. Dla przeglądrki Chrome istnieje dodatek [A+ FontSize Changer Lite](https://chrome.google.com/webstore/detail/a%20-fontsize-changer-lite/ckihgechpahhpompcinglebkgcdgpkil). . (W bezpłatnej wersji Lite umożliwia ono nie tylko zmianę rozmiaru tekstu, ale także zmianę koloru tekstu i tła oraz podkreślanie łączy. Wersja Pro jest bogatsza w opcje i możliwości konfiguracyjne.)
+
+Aby powiększyć rozmiar strony w prrzeglądarce Chrome: 
+
+1. W prawym górnym rogu kliknij przycisk rozwijający menu lub użyj skrótu klawiszowego Alt + f lub Alt + e.
+2. Przejdź do opcji i wybierz odpowiednie polecenie:
+   - kliknij przycisk Pomniejsz (znak minus: '-'), aby zmniejszyć rozmiar zawartości,
+   - kliknij przycisk Powiększ (znak '+'), aby zwiększyć rozmiar zawartości,
+
+	 ![Powiększanie zawartości strony w Chrome](/img/05_P_ie-powieksz-tekst.png)
+	 
+Aby powiększyć lub pomniejszyć zawartość strony, możesz też użyć skrótów klawiszowych:
+
+-  Powiększenie całej zawartości strony:
+   - Windows i Linux: naciśnij Ctrl i +.
+   - Mac: naciśnij ⌘ i +.
+-  Pomniejszenie całej zawartości strony:
+   - Windows i Linux: naciśnij Ctrl i -.
+   - Mac: naciśnij ⌘ i -.
+-  Rzywrócenie domyślnego rozmiaru:   
+   - Windows i Linux: naciśnij Ctrl i 0.
+   - Mac: naciśnij ⌘ i 0.
+
+#### Zwiększanie rozmiaru tekstu w przeglądarkach Internet Explorer 11
+
+Aby sprawdzić skutki zmiany rozmiaru tekstu zawartości w IE:
+
+1. Użyj skrótu klawiaturowego Alt + P, aby wyświetlić pasek menu, a następnie zaznacz opcję Paski narzęędzi > Pasek menu. 
+2. Z paska menu wybierz opcję Widok > Rozmiar tekstu albo użyj skrótu klawiaturowego Alt + W, T, N.
+
+	 ![Powiększanie tekstu w Internet Explorer](/img/05_P_ie-powieksz-tekst.png)
+
+#### Zwiększanie rozmiaru tekstu w przeglądarce Microsoft Edge 
+Aby sprawdzić skutki zmiany rozmiaru tekstu zawartości w przeglądarce Microsoft Edge:
+
+1. W prawym górnym rogu kliknij przycisk rozwijający menu lub użyj skrótu klawiszowego Alt + x.
+2. Przejdź do opcji i wybierz odpowiednie polecenie:
+   - aby zmniejszyć rozmiar zawartości, kliknij przycisk Pomniejsz (znak minus: '-') lub użyj kombinacji klawiszy  Ctrl i  - (minus)
+   - aby zwiększyć rozmiar zawartości, kliknij przycisk Powiększ (znak '+') lub użyj kombinacji klawiszy Ctrl i + (plus)
+   - aby przywrócić domyslny rozmiar zawartości, użyj kombinacji klawiszy Ctrl + 0.
+
+ 
+### Dowiedz się więcej o zmianie rozmiaru tekstu 
+•	Zmiana rozmiaru tekstu - rozumienie kryterium sukcesu 1.4.4 dla WCAG 2.0 (Poziom AA)
+•	Obrazy Tekst - Zrozumienie Kryterium sukcesu 1.4.5 dla WCAG 2.0 (Poziom AA)
+
+ 
+### Dowiedz się więcej o nagłówkach 
+-	[Zrozumieć kryterium sukcesu 1.4.4 Zmiana rozmiaru tekstu](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+-	[Zrozumieć kryterium sukcesu 1.4.5 Obrazy tekstu](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+
+
+
+-------------------------------------
+[Współczynnik konttrastu &lt; Poprzednia strona](testy/04_P_wspolczynnik_kontrastu.md) | [Następna strona &gt; Dostęp z klawiatury i widoczny fokus](06_P_klawiatura.md)
