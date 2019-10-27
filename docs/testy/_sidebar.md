@@ -47,14 +47,11 @@
  - [4. Kontrast kolorów](testy/04_P_wspolczynnik_kontrastu.md)
  - [5. Zmiana rozmiaru tekstu](testy/05_P_zmiana-rozmiaru-tekstu.md)
  - [6. Dostęp z klawiatury i widoczny fokus](testy/06_P_klawiatura.md)
+ - [8. Poruszanie, miganie, przesuwanie](testy/08_P_poruszanie-i-blyski.md)
+ - [9. Alternatywy multimediów](testy/09_P_multimedia.md)
  
 <!-- - [7. Formularze, etykiety i błedy](testy/07_P_formularze.md)
--->
 
- - [8. Poruszanie, miganie, przesuwanie](testy/08_P_poruszanie-i-blyski.md)
- - [9. Alternatywy multimediów](testy/P09_P_multimedia.md)
- 
-<!--  
  - [10. Układ i struktura](testy/10_P_struktura.md)
  - [Następne kroki](testy/PW_11_nastepne-kroki.md) 
 -->
