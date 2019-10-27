@@ -16,8 +16,8 @@ Rysunek: Dwa zrzuty ekranu pokazują, że gdy rozmiar tekstu jest zwiększony, n
 
 Gdy rozmiar tekstu zostanie zwiększony, czasami część zdań nie jest widoczna, a użytkownicy muszą przewijać stronę w poziomie, aby przeczytać zdanie, jak pokazano poniżej w trzecim przykładzie. Większość ludzi nie potrafi efektywnie czytać tekstu wymagającego przewijania w poziomie, a niektóre niepełnosprawności powodują, że jest to niemożliwe.
 
-![Tekst niepowiększony](/img/05_p_powieksz3.png) ![Tekst powiększony](/img/04_p_powieksz4.png) 
- ![Tekst powiększony](/img/05_p_powieksz5.png)  
+![Tekst niepowiększony](/img/05_p_powieksz31.png) ![Tekst powiększony](/img/05_p_powieksz41.png) 
+ ![Tekst powiększony](/img/05_p_powieksz51.png)  
 
 Rysunek: Pierwszy obraz przedstawia tekst normalnej wielkości. Na drugim obrazie powiększony tekst „zawija się”, aby się dopasować do szerokości okna lub obszaru na stronie. Na trzecim obrazie części powiększonego tekstu nie można zobaczyć bez przewijania w poziomie.
 
@@ -63,4 +63,3 @@ Aby powiększyć rozmiar tekstu w przeglądarce Firefox
      - Użyj w opcjach powiększania przycisku minus (-), aby zmniejszyć albo przycisku plus (+), aby zwiększyć rozmiar tekstu Liczba między przyciskami oznacza aktualny procent powiększenia.
 
 Aby potwierdzić, że w kroku 1 zostało ustawione tylko powiększanie tekstu, upewnij się, że powiększa się tylko tekst, a nie obrazy.
-
