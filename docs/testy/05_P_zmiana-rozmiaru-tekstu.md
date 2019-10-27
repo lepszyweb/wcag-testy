@@ -17,7 +17,7 @@ Rysunek: Dwa zrzuty ekranu pokazują, że gdy rozmiar tekstu jest zwiększony, n
 Gdy rozmiar tekstu zostanie zwiększony, czasami część zdań nie jest widoczna, a użytkownicy muszą przewijać stronę w poziomie, aby przeczytać zdanie, jak pokazano poniżej w trzecim przykładzie. Większość ludzi nie potrafi efektywnie czytać tekstu wymagającego przewijania w poziomie, a niektóre niepełnosprawności powodują, że jest to niemożliwe.
 
 ![Tekst niepowiększony](/img/05_p_powieksz31.png) ![Tekst powiększony](/img/05_p_powieksz41.png) 
- ![Tekst powiększony](/img/05_p_powieksz51.png)  
+![Tekst powiększony](/img/05_p_powiększ51.png)  
 
 Rysunek: Pierwszy obraz przedstawia tekst normalnej wielkości. Na drugim obrazie powiększony tekst „zawija się”, aby się dopasować do szerokości okna lub obszaru na stronie. Na trzecim obrazie części powiększonego tekstu nie można zobaczyć bez przewijania w poziomie.
 
