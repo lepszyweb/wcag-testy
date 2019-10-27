@@ -1,4 +1,4 @@
-## Ruchoma, migająca lub błyskająca treść
+## Treść ruchoma, migająca lub błyskająca
 
 Ruchome, migające lub błyskające treści to karuzele (np. [przykład karuzeli](https://www.w3.org/WAI/tutorials/carousels/animations/#c), reklamy, filmy wideo, automatyczne aktualizowanie aukcji internetowych, notowań giełdowych, przewijanie wiadomości w kanałach informacyjnych i inne. Użytkownicy muszą mieć możliwość kontrolowania ruchomych treści, zwłaszcza niektóre osoby z zaburzeniami uwagi lub zaburzeniami przetwarzania obrazów.
 
@@ -25,4 +25,4 @@ Ponadto migająca lub błyskająca treść może powodować drgawki u osób z pa
 
 
 -------------------------------------
-[Forrmularze &lt; Poprzednia strona](testy/07_P_formularze.md) | [Następna strona &gt; Multimedia](09_P_multimedia.md)
+[Formularze &lt; Poprzednia strona](testy/07_P_formularze.md) | [Następna strona &gt; Alternatywy multimediów](09_P_multimedia.md)
