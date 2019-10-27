@@ -111,11 +111,6 @@ Aby sprawdzić skutki zmiany rozmiaru tekstu zawartości w przeglądarce Microso
 
  
 ### Dowiedz się więcej o zmianie rozmiaru tekstu 
-•	Zmiana rozmiaru tekstu - rozumienie kryterium sukcesu 1.4.4 dla WCAG 2.0 (Poziom AA)
-•	Obrazy Tekst - Zrozumienie Kryterium sukcesu 1.4.5 dla WCAG 2.0 (Poziom AA)
-
- 
-### Dowiedz się więcej o nagłówkach 
 -	[Zrozumieć kryterium sukcesu 1.4.4 Zmiana rozmiaru tekstu](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Zrozumieć kryterium sukcesu 1.4.5 Obrazy tekstu](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 
