@@ -19,7 +19,7 @@ Większość filmów w Internecie z napisami zawiera „napisy zamknięte”, to
 
 Napisy generowane automatyczne nie zapewniają dostępności, ponieważ nie są wystarczająco dokładne. Na przykład, jeśli w serwisie YouTube wymienione są tylko napisy „wygenerowane automatycznie”, to oznacza, że wymóg zapewnienia napisów dla niesłyszących nie został spełniony i film wideo jest niedostępny. Napisy w danym języku muszą być wymienione jako dodane, a nie wygenerowane automatycznie.  
 
-![Dołaczone napisy w języku angielskim ] (/img/09_P_napisy_youtube.png)
+![Dołączone napisy w języku angielskim ](/img/09_P_napisy_youtube.png)
  
 Jeśli napisy istnieją, możesz sprawdzić, czy:
 -	Napisy wydają się być zsynchronizowane z treścią mówioną.
@@ -54,3 +54,7 @@ Audiodeskrypcja, nazywana teź narracją dźwiękową, opisem dźwiękowym, opis
 - [AudioMovie. Informator dla producentów i dystrybutorów](http://audiomovie.pl/wp-content/uploads/2016/11/INFORMATOR-DLA-PRODUCENT%C3%93W-I-DYSTRYBUTOR%C3%93W.pdf)
 - [Standardy tworzenia audiodeskrypcji do produkcji audiowizualnych](http://avt.ils.uw.edu.pl/files/2010/12/AD-_standardy_tworzenia.pdf)
 - [Audiodeskrypcja w teorii i praktyce](http://avt.ils.uw.edu.pl/files/2014/01/Szarkowska_Kuenstler_AD-w-kinie-teatrze-i-muzeum.pdf)
+
+
+-------------------------------------
+[Treść ruchoma, migająca lub błyskająca &lt; Poprzednia strona](testy/08_P_poruszanie-i-blyski.md) | [Następna strona &gt; Multimedia](10_P_struktura.md)
