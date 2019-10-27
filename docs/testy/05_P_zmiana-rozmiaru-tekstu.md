@@ -122,4 +122,4 @@ Aby sprawdzić skutki zmiany rozmiaru tekstu zawartości w przeglądarce Microso
 
 
 -------------------------------------
-[Współczynnik konttrastu &lt; Poprzednia strona](testy/04_P_wspolczynnik_kontrastu.md) | [Następna strona &gt; Dostęp z klawiatury i widoczny fokus](06_P_klawiatura.md)
+[Współczynnik kontrastu &lt; Poprzednia strona](testy/04_P_wspolczynnik_kontrastu.md) | [Następna strona &gt; Dostęp z klawiatury i widoczny fokus](06_P_klawiatura.md)
