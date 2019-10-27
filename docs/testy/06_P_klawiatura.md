@@ -7,11 +7,11 @@ Podczas nawigacji klawiaturą po stronie, nazywanej nawigacją sekwencyjną, fok
 
 Aby zapewnić widoczność fokusa, twórcy stron mogą posłużyć się różnymi wskaźnikami, np. obramowaniem lub podkreśleniem elementu, który uzyskał fokus, odwróceniem (inwersją) kolorów elementu – wyświetleniem jasnego tekstu na ciemnym tle lub odwrotnie. W&nbsp;polach formularzy domyślnym wskaźnikiem fokusa jest migający kursor. Autorzy stron są zachęcani, by wzmocnić widoczność fokusa, który jest użyteczny dla wszystkich, a niezbędny dla osób z niepełnosprawnościami wzroku i ruchu.  
 
-![Kontur wokół śródkowego łacza](/img/06_P_fokus-linki.png)
+![Kontur wokół środkowego łacza](/img/06_P_fokus-linki.png)
 Rysunek: Zwróć uwagę na kontur wokół śródkowego łacza
 
 ![Przycisk bez fokusa po lewej stronie i z fokusem po prawej stronie](/img/06_P_fokus-przycisk.png)
-Rysunek: Porównaj ten sam przycisk bez fokusa (po prawej - fioletowy napis na białym obramowanym tle) i z fokusem (po prawej biały napis na fioletowym tle i otoczka)
+Rysunek: Porównaj ten sam przycisk bez fokusa (po prawej - fioletowy napis na białym obramowanym tle) i z fokusem (po prawej - biały napis na fioletowym tle i otoczka)
 
 
 ### Co robić
@@ -41,7 +41,7 @@ Otwórz dostępną wersję strony Ankieta: https://przedipo.lepszyweb.pl/after/s
 Przejdź przez wszystkie elementy strony klawiszem Tab, a w obrębie złożonej grupy elementów poruszaj się strzałkami. Zwróć uwagę, 
 -	że wiele elementów w chwili uzyskania fokusa otrzymuje zielone tło
 -	że niektóre  elementy w chwili uzyskania fokusa są obrysowane przerywaną linią
--	że przyciski opcji są otaczane przerywanym obrysem i prrzenoszone jest do nich zaznaczenie (kropka)
+-	że przyciski opcji są otaczane przerywanym obrysem i przenoszone jest do nich zaznaczenie (kropka)
 -	że między opcjami w grupie opcji można się poruszać strzałkami
 -	że pozycje na liście rozwijanej można wybierać strzałkami.   
 

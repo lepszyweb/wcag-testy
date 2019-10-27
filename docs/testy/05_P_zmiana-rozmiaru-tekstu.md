@@ -68,9 +68,9 @@ Aby potwierdzić, że w kroku 1 zostało ustawione tylko powiększanie tekstu, u
 
  
 #### Zwiększanie rozmiaru tekstu w przeglądarce Chrome 
-Przeglądarka Chrome umożliwia zmianę rozmiaru całej zawartości strony. Użytkownicy potrzebujący powiększenia tekstu mogą korzystać ze specjalnych narzędzi. Dla przeglądrki Chrome istnieje dodatek [A+ FontSize Changer Lite](https://chrome.google.com/webstore/detail/a%20-fontsize-changer-lite/ckihgechpahhpompcinglebkgcdgpkil). . (W bezpłatnej wersji Lite umożliwia ono nie tylko zmianę rozmiaru tekstu, ale także zmianę koloru tekstu i tła oraz podkreślanie łączy. Wersja Pro jest bogatsza w opcje i możliwości konfiguracyjne.)
+Przeglądarka Chrome umożliwia zmianę rozmiaru całej zawartości strony. Użytkownicy potrzebujący powiększenia tekstu mogą korzystać ze specjalnych narzędzi. Dla przeglądarki Chrome istnieje dodatek [A+ FontSize Changer Lite](https://chrome.google.com/webstore/detail/a%20-fontsize-changer-lite/ckihgechpahhpompcinglebkgcdgpkil). . (W bezpłatnej wersji Lite umożliwia ono nie tylko zmianę rozmiaru tekstu, ale także zmianę koloru tekstu i tła oraz podkreślanie łączy. Wersja Pro jest bogatsza w opcje i możliwości konfiguracyjne.)
 
-Aby powiększyć rozmiar strony w prrzeglądarce Chrome: 
+Aby powiększyć rozmiar strony w przeglądarce Chrome: 
 
 1. W prawym górnym rogu kliknij przycisk rozwijający menu lub użyj skrótu klawiszowego Alt + f lub Alt + e.
 2. Przejdź do opcji i wybierz odpowiednie polecenie:
@@ -87,7 +87,7 @@ Aby powiększyć lub pomniejszyć zawartość strony, możesz też użyć skrót
 -  Pomniejszenie całej zawartości strony:
    - Windows i Linux: naciśnij Ctrl i -.
    - Mac: naciśnij ⌘ i -.
--  Rzywrócenie domyślnego rozmiaru:   
+-  Przywrócenie domyślnego rozmiaru:   
    - Windows i Linux: naciśnij Ctrl i 0.
    - Mac: naciśnij ⌘ i 0.
 
@@ -95,7 +95,7 @@ Aby powiększyć lub pomniejszyć zawartość strony, możesz też użyć skrót
 
 Aby sprawdzić skutki zmiany rozmiaru tekstu zawartości w IE:
 
-1. Użyj skrótu klawiaturowego Alt + P, aby wyświetlić pasek menu, a następnie zaznacz opcję Paski narzęędzi > Pasek menu. 
+1. Użyj skrótu klawiaturowego Alt + P, aby wyświetlić pasek menu, a następnie zaznacz opcję Paski narzędzi > Pasek menu. 
 2. Z paska menu wybierz opcję Widok > Rozmiar tekstu albo użyj skrótu klawiaturowego Alt + W, T, N.
 
 	 ![Powiększanie tekstu w Internet Explorer](/img/05_P_ie-powieksz-tekst.png)
@@ -107,7 +107,7 @@ Aby sprawdzić skutki zmiany rozmiaru tekstu zawartości w przeglądarce Microso
 2. Przejdź do opcji i wybierz odpowiednie polecenie:
    - aby zmniejszyć rozmiar zawartości, kliknij przycisk Pomniejsz (znak minus: '-') lub użyj kombinacji klawiszy  Ctrl i  - (minus)
    - aby zwiększyć rozmiar zawartości, kliknij przycisk Powiększ (znak '+') lub użyj kombinacji klawiszy Ctrl i + (plus)
-   - aby przywrócić domyslny rozmiar zawartości, użyj kombinacji klawiszy Ctrl + 0.
+   - aby przywrócić domyślny rozmiar zawartości, użyj kombinacji klawiszy Ctrl + 0.
 
  
 ### Dowiedz się więcej o zmianie rozmiaru tekstu 
