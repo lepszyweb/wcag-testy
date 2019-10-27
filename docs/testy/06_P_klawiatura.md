@@ -7,10 +7,10 @@ Podczas nawigacji klawiaturą po stronie, nazywanej nawigacją sekwencyjną, fok
 
 Aby zapewnić widoczność fokusa, twórcy stron mogą posłużyć się różnymi wskaźnikami, np. obramowaniem lub podkreśleniem elementu, który uzyskał fokus, odwróceniem (inwersją) kolorów elementu – wyświetleniem jasnego tekstu na ciemnym tle lub odwrotnie. W&nbsp;polach formularzy domyślnym wskaźnikiem fokusa jest migający kursor. Autorzy stron są zachęcani, by wzmocnić widoczność fokusa, który jest użyteczny dla wszystkich, a niezbędny dla osób z niepełnosprawnościami wzroku i ruchu.  
 
- 
-Rysunek: Kropkowana linia krawędzi na środkowym linku.
- 
-Rysunek: Pole Nazwa jest podświetlony na czerwono.
+![Kontur wokół śródkowego łacza](06_P_fokus-linki.png)
+
+![Przycisk bez fokusa po lewej stronie i z fokusem po prawej stronie](06_P_fokus-przycisk.png)
+
 
 ### Co robić
 W przeglądarkach, która obsługują nawigację za pomocą klawiatury za pomocą klawisza Tab (na przykład, Firefox, IE, Chrome i Safari):
