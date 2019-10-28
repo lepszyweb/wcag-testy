@@ -9,26 +9,26 @@ Podstawowy test struktury polega na sprawdzeniu, jak strona działa, gdy jest  �
 Poniższe zdjęcia ilustrują domyślny sposób wyświetlania strony internetowej w 3 kolumnach i zmieniony sposób wyświetlania.
 Rysunek A pokazuje domyślne wyświetlanie trzech kolumn z nawigacją po lewej stronie.
 
-![Rysunek A](10_P_linear_01.png) 
+![Rysunek A](/img/10_P_linear_01.png) 
 RysunekA
  
 Rysunek B pokazuje stronę zlinearyzowaną w jedną kolumnę, z nawigacją u góry. Rysunek C pokazuje stronę zlinearyzowaną, z nawigacją na dole. Kolejność sekcji (np. nawigacja u góry, u dołu lub w innym miejscu) zależy od projektu strony internetowej - użytkownik zwykle nie może kontrolować kolejności.
  
-![Rysunek B](10_P_linear_02.png)
+![Rysunek B](/img/10_P_linear_02.png)
 Rysunek B 
 
-![Rysunek C](10_P_linear_03.png)
+![Rysunek C](/img/10_P_linear_03.png)
 Rysunek C 
 
 Rysunek D pokazuje stronę zlinearyzowaną z wyłączonymi stylami. Gdy wykonasz poniższe kroki sprawdzania struktury podstawowej, twoja strona będzie wyglądać mniej więcej tak:
  
-![Rysunek D](10_P_linear_04.png)
+![Rysunek D](/img/10_P_linear_04.png)
 Rysunek D  
  
 Rysunek E pokazuje stronę zmienioną przez osobę słabowidzącą, aby była bardziej czytelna, na przykład główny tekst jest duży, tekst stopki jest bardzo mały, a nagłówki mają inny kolor.
  
  
-![Rysunek E](10_P_linear_04.png)
+![Rysunek E](/img/10_P_linear_05.png)
 Rysunek E  
  
 Chociaż dobrze jest mieć doświadczonego użytkownika czytnika ekranu testującego strony internetowe, każdy może uzyskać wstępne wyobrażenie o potencjalnych barierach dostępu dla użytkowników czytników ekranu i innych osób, które zmieniają sposób prezentacji strony. Poniższe kroki pokazują, jak wyłączyć obrazy, wyłączyć style wyświetlania strony i linearyzować stronę w&nbsp;celu sprawdzenia struktury strony.
