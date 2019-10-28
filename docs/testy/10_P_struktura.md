@@ -48,3 +48,34 @@ Uzyskaj widok podstawowej struktury strony, postępując zgodnie z instrukcjami 
 -	Sprawdź, czy tekst alternatywny zawiera odpowiednie informacje o brakujących obrazach (zgodnie z sekcją [Teksty alternatywne obrazów](02_P_odpowiedniki-tekstowe-obrazow.md)).
 -	Sprawdź, czy bloki informacji mają wyraźne nagłówki (zobacz także sekcja [Nagłówki](03_P_naglowki.md)). Gdy nawigacja, główna treść i inne sekcje mają dobre nagłówki, łatwiej jest ludziom znaleźć informacje.
 
+### Podstawowe testy struktury strony
+
+### Sprawdzanie za pomocą paska narzędzi WebDeveloper
+Aby sprawdzić podstawową strukturę za pomocą paska narzędzi WebDeveloper:
+
+1. Otwórz stronę internetową, którą sprawdzasz, w przeglądarce z zainstalowanym paskiem narzędzi WebDeveloper.
+2. Na pasku narzędzi wybierz opcję *Images* (Obrazy), a następnie *Disable Images* (Wyłącz obrazy).
+3. Na pasku narzędzi wybierz *CSS*, a następnie *Disable All Styles* (Wyłącz wszystkie style).
+4. Na pasku narzędzi wybierz *Miscellaneous* (Różne), a następnie *Linearize Page* (Linearyzuj stronę).
+
+### Sprawdzenie struktury na stronie demo PrzediPo  
+
+1. Najpierw sprawdź strukturę dostępnej wersji strony głównej: https://przedipo.lepszyweb.pl/after/home.html
+   1. Wykonaj kolejno przedstawione powyzej testy, aby wyłączyć obrazy i wyłączyć CSS.
+   2. Przewiń stronę w dół i zauważ, że w sekcji „Witamy w Światłach Miasta” znajdują się 3 nagłówki artykułów z tekstami zwiastunów (zapowiedzi, streszczenia, lidu) pod każdym z nagłówków.
+   
+   ![Fragment dostępnej wersji strony z wyłączonymi stylami](/img/10_P_linear-home-dostepna.png)    
+   
+2. Następnie sprawdź strukturę niedostępnej wersji strony głównej: https://przedipo.lepszyweb.pl/before/reports/home.html 
+   1. Wykonaj kolejno przedstawione powyzej testy, aby wyłączyć obrazy i wyłączyć CSS.   
+   2. Przewiń stronę w dół i zauważ, że w sekcji „Witamy w Światłach Miasta” trzy nagłówki następują jeden po drugim, a nie  przed testami, które tytułują. Teksty wszystkich trzech zwiatunów artykułów następują po sobie, tak, jakby to był jeden tekst.
+   
+   ![Fragment niedostępnej wersji strony z wyłączonymi stylami](/img/10_P_linear-home-niedostepna.png)  
+	
+3. Sprawdź także formularz na niedostępnej wersji strony Ankieta: https://przedipo.lepszyweb.pl/before/survey.html.
+   1. Wykonaj kolejno przedstawione powyzej testy, aby wyłączyć obrazy, wyłączyć CSS i właczyć linearyzację strony (najlepiej widać w przeglądarce Firefox). Zróć uwagę, jak rozmieszczone są pola pzeznaczone na adres e-mail. Zauważ, że etykiety nie są powiązane z polami (jest tak, ponieważ strona nieprawidłowo używa tabeli układu):
+   
+   ![Linearyzacja strony z formularzem. Fragment](/img/10_P_linear-formularz.png)
+
+-------------------------------------
+[Alternatywy multimediów &lt; Poprzednia strona](testy/09_P_multimedia.md) | [Następna strona &gt; Multimedia](11_P_nastepne-kroki.md)

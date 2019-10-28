@@ -36,7 +36,7 @@ W przeglądarkach, która obsługują nawigację za pomocą klawiatury za pomoc�
 -	**Rozwijane listy**: Sprawdź, czy po przejściu tabulatorem do listy rozwijanej, można użyć klawiszy strzałek, aby przejść przez wszystkie opcje bez wywołania działania. (Częstym problemem w przypadku list rozwijanych używanych do nawigacji jest to, że gdy tylko strzałka przeniesie fokus na następną pozycję, to ta pozycja zostaje automatycznie wybrana i nie można już przejść do innych pozycji na liście albo następuje przekierowanie na inną stronę lub w inne miejsce strony. 
 -	**Linki graficzne**: Sprawdź, gdy obrazy, które są łączami, mają wyraźnie widoczny fokus i czy łącza mogą być aktywowane za pomocą klawiatury (zwykle przez naciśnięcie klawisza Enter).
 
-### Sprawdzenie widoczności i  na stronie demo PrzediPo  
+### Sprawdzenie widoczności fokusa na stronie demo PrzediPo  
 Otwórz dostępną wersję strony Ankieta: https://przedipo.lepszyweb.pl/after/survey.html
 Przejdź przez wszystkie elementy strony klawiszem Tab, a w obrębie złożonej grupy elementów poruszaj się strzałkami. Zwróć uwagę, 
 -	że wiele elementów w chwili uzyskania fokusa otrzymuje zielone tło
