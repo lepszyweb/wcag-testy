@@ -99,3 +99,51 @@ Zobacz na ilustracji poniżej, że test skryptozakładki nie oznacza jako błęd
 **Uwaga**: Niekiedy niezbędne jest podzielenie etykiety na 2 lub więcej części. Programiści mogą w takich przypadkach, z myślą o osobach korzystających z czytników ekranu, posłużyć się rozwiązaniem oferowanym przez ARIA. Atrybut labelledby umożliwia wskazanie więcej niż jednego elementu z etykietą dla jednego pola.  
  
 ![Jedno pole, ale dwie etykiety](/img/07_P_form_labels-wieleetykiet.png) 
+
+### Sprawdzenie formularza na stronie demo PrzediPo  
+
+Aby poćwiczyć sprawdzanie etykiet formularzy i błędów na stronie demo PrzediPo:
+
+#### Etykiety:
+1.	Otwórz dostępną wersję strony Ankieta: https://przedipo.lepszyweb.pl/after/survey.html, na której jest kilka formularzy. Sprawdź poprawność etykiet. Zwróć uwagę na występowanie znacznika `label`, atrybutu `for` oraz zgodność atrybutów `id` ze wskazywanym w atrybucie `for`.
+
+   ![Widok wyników testu na stronie PrzediPo](/img/07_P_przedipo-ok.png)
+
+2.	Otwórz niedostępną wersję strony Ankieta: https://przedipo.lepszyweb.pl/before/survey.html i powtórz test. Najpierw pojawi się okna dialogowe z informacją, że w 13 formularzach wykryto 13 błędów. Po zamknięciu okna dialogowego zobaczysz oznaczone błędy.  
+
+#### Błędy 
+1.	Otwórz dostępną wersję strony Ankieta: https://przedipo.lepszyweb.pl/after/survey.html. Pozostaw pola puste i prześlij formularz. Zwróć uwagę na komunikat o błędach u góry formularza i wyróżnienie wymaganych pól. Sprawdź również [Tytuł strony](01_P_tytul-strony.md). Tytuł zawiera informację, że „Wysyłka nieudana”.
+
+   ![Widok wyników testu na stronie PrzediPo](/img/07_P_przedipo_bledy.png)
+
+2.	Otwórz niedostępną wersję strony Ankieta: https://przedipo.lepszyweb.pl/before/survey.html i powtórz test. Zauważ, że błędy są wskazywane tylko przez czerwoną kolor etykiet  i nie są wyjaśnione.
+
+   ![Widok wyników testu na stronie PrzediPo](/img/07_P_przedipo_bledy-na-niedostepnej.png)
+   
+### Dowiedz się więcej o formularzach
+
+-	[Zrozumieć kryterium sukcesu 3.3.2 Etykiety lub instrukcje](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)(poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+-	[Zrozumieć kryterium sukcesu 1.3.1 Informacje i relacje](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html)(poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+-	[Zrozumieć kryterium sukcesu 3.3.1 Identyfikacja błędu](https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html)(poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+-	[Zrozumieć kryterium sukcesu 3.3.3 Sugestie korekty błędów](https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html)(poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+-	[Zrozumieć kryterium sukcesu 3.3.4 Zapobieganie błędom&hellip;](https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html)(poziom AA); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -39,7 +39,7 @@ Audiodeskrypcja, nazywana teź narracją dźwiękową, opisem dźwiękowym, opis
 -	Transkrypcję, która zawiera opis znaczących informacji wizualnych (więc jest to coś w rodzaju scenariusza).
 
 ### Dowiedz się więcej o alternatywach multimediów
--	Często zadawane pytania dotyczące dostępności multimediów W3C
+
 -	[Zrozumieć kryterium sukcesu 1.2.2 Napisy (rozszerzone)](https://www.w3.org/WAI/WCAG21/Understanding/captions-prerecorded.html)(poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Zrozumieć kryterium sukcesu 1.2.3 Audiodeskrypcja lub alternatywa dla mediów (nagranie)
 ](https://www.w3.org/WAI/WCAG21/Understanding/audio-description-or-media-alternative-prerecorded.html)(poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
