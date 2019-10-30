@@ -4,7 +4,7 @@ Współczesne technologie nie potrafią jeszcze odczytać i przekazać odpowiedn
 
 Odpowiedniki tekstowe przekazują cel obrazów, w tym zdjęć, ilustracji, wykresów, itp. Odpowiedniki tekstowe są przeznaczone dla osób, które nie widzą obrazu. Na przykład osoby niewidome, które używają czytników ekranu, usłyszą tekst alternatywny. A osoby, które wyłączyły zdjęcia, aby przyspieszyć pobieranie stron, mogą zobaczyć i odczytać teksty alternatywne.
 
-Odpowiednik tekstowy powinien spełniać tę samą rolę, co obraz i zapewnić użytkownikom, którzy nie widzą obrazu, równoważne doświadczenie, a niekoniecznie opisać obraz. Na przykład właściwym odpowiednikiem tekstowym dla przycisku wyszukiwania ![Szukaj](/img/02_P_przycisk-szukaj.png)  będzie słowo  „Szukaj”, a nie „lupa” czy „Szkło powiększające”.  
+Odpowiednik tekstowy powinien spełniać tę samą rolę, co obraz i zapewnić użytkownikom, którzy nie widzą obrazu, równoważne doświadczenie, a niekoniecznie opisać obraz. Na przykład właściwym odpowiednikiem tekstowym dla przycisku wyszukiwania ![Szukaj](/img/02_P_przycisk-szukaj.png)  będzie słowo  „Szukaj”, a nie „Lupa” czy „Szkło powiększające”.  
 
 Tekstu alternatywnego zwykle nie widać na stronie, znajduje się on jednak w kodzie strony jako atrybut znaczników, które osadzają obraz na stronie, np.
 
@@ -26,7 +26,7 @@ Formułowanie odpowiednich tekstów alternatywnych adekwatnych do treści i funk
 -	Tekst alternatywny zależy od kontekstu. Na przykład tekst alternatywny dla obrazu psa na stronie klubu hodowców psów może zawierać rasę psa; ale ten sam obraz na stronie internetowej o parku psów może tylko sprawiać, że strona będzie bardziej atrakcyjna, ale obraz nie wnosi do niej żadnej treści. W takim przypadku obraz może nie potrzebować żadnego tekstu alternatywnego, a wiec powinien mieć pusty atrybut alt. Jednym ze sposobów pomagającym ustalić odpowiedni tekst atrybutu alt jest odpowiedź na pytanie: co można by powiedzieć o obrazie, gdy komuś pomagasz czytać i wchodzić w interakcje ze stroną internetową, której nie może zobaczyć?
 -	Obrazy „funkcjonalne” - na przykład inicjujące akcje (takie jak przyciski Wyślij) czy obrazy linkujące (np. ikony w nawigacji) - potrzebują tekstu alternatywnego, który przekazuje funkcję obrazu, a więc nie tekstu, który opisuje obraz, lecz tekstu, który wskazuje cel łącza albo funkcję przycisku. 
 -	Jeśli na obrazie znajduje się tekst - na przykład w logo - ten tekst musi zostać uwzględniony w tekście alternatywnym.
--	Jeśli obraz przekazuje złożone informacje - np. wykres lub graf – to w tekście alternatywnym należy umieścić zwięzłe określenie roli obrazu, a w treści zawierającej obraz umieścić szczegółowe informacje przekazywane przez obraz (na prrzykład w tabeli danych).
+-	Jeśli obraz przekazuje złożone informacje - np. wykres lub graf – to w tekście alternatywnym należy umieścić zwięzłe określenie roli obrazu, a w treści zawierającej obraz umieścić szczegółowe informacje przekazywane przez obraz (na przykład w tabeli danych).
 
 #### Co nie jest potrzebne w tekście alternatywnym: 
 -	**opis wyglądu obrazu**: jeśli obraz nie jest istotny dla zrozumienia treści - na przykład jest to tylko ozdoba  - powinien mieć pusty atrybut alt (alt = ""). Jednym ze sposobów na określenie, czy obraz powinien mieć pusty alt jest zadać sobie pytanie: Czy użytkownik nadal otrzyma wszystkie informacje ze strony, jeśli obraz zostanie usunięty?
@@ -48,36 +48,38 @@ Każdy z tych terminów jest poprawny i każdy z nich można zastosować do opis
 Istnieją kilka możliwości, aby sprawdzić tekst alternatywny. Dwie przedstawiamy poniżej
   
 **Aby sprawdzić tekst alternatywny za pomocą narzędzia Web Developer:**  
--	Otwórz stronę internetową, którą sprawdzasz.
--	Rozwiń pasek Web Developer i wybierz opcję *Images* ('Obrazy'), a następnie opcję  *Outline Images Without Alt Atttributes* ('Obrysuj wszystkie obrazy bez atrybutu alt'). Wokół wszystkich obrazów bez atrybutu alt pojawią się czerwone obrysy. 
+1.	Otwórz stronę internetową, którą sprawdzasz.
+2.	Rozwiń pasek Web Developer i wybierz opcję *Images* ('Obrazy'), a następnie opcję  *Outline Images Without Alt Atttributes* ('Obrysuj wszystkie obrazy bez atrybutu alt'). Wokół wszystkich obrazów bez atrybutu alt pojawią się czerwone obrysy. 
+
 	![Menu paska narzędzi Web Developer i czerwone kontury obrazków bez atrybutu alt](/img/02_P_alt_web-developer-bez-alt.png)
--	Zanotuj informację o wszystkich obrazach, które nie posiadają tekstu alternatywnego. Najlepiej wykonaj zrzut ekranu, aby dysponować zestawieniem obrazów, które nie posiadają tekstu alternatywnego.  Możesz również wskazać kolejno każdy z obrazków i wybrać z menu kontekstowego przeglądarki opcję Zbadaj element, a następnie skopiować z panelu kod osadzający obrazek:
+
+3.	Zanotuj informację o wszystkich obrazach, które nie posiadają tekstu alternatywnego. Najlepiej wykonaj zrzut ekranu, aby dysponować zestawieniem obrazów, które nie posiadają tekstu alternatywnego.  Możesz również wskazać kolejno każdy z obrazków i wybrać z menu kontekstowego przeglądarki opcję Zbadaj element, a następnie skopiować z panelu kod osadzający obrazek:
 
 	![Kod obrazka w kodzie strony](/img/02_P_alt_skopiuj_kod_obrazka.png) 
 	
--	Następnie wyłącz opcję *Outline Images Without Alt Atttributes*, a włącz opcję *Outline All Images* ('Obrysuj wszystkie obrazy') oraz *Display Alt Attributes* ('Wyświetlaj atrybuty alt')  
+4.	Następnie wyłącz opcję *Outline Images Without Alt Atttributes*, a włącz opcję *Outline All Images* ('Obrysuj wszystkie obrazy') oraz *Display Alt Attributes* ('Wyświetlaj atrybuty alt')  
 Wokół wszystkich obrazów pojawią się czerwone obrysy. Obok obrazów z atrybutem alt pojawią teksty alternatywne (białe na czerwonym tle).  
 
-	![Menu paska narzędzi Web Developer z wybranymi opcjami Obrysuj wszystkie obrazy i Wyświetl atrybuty alt oraz fragment strony z obrysowanymi obrrazami i tekstami alternatywnymi](/img/02_P_alt_web-developer-z-alt.png)
+	![Menu paska narzędzi Web Developer z wybranymi opcjami Obrysuj wszystkie obrazy i Wyświetl atrybuty alt oraz fragment strony z obrysowanymi obrazami i tekstami alternatywnymi](/img/02_P_alt_web-developer-z-alt.png)
 	
--	Rozważ, czy tekst alternatywny każdego obrazu właściwie przekazuje informacje o obrazie, zgodnie ze wskazówkami powyżej. Zanotuj uwagi.
--	Na koniec włącz opcję *Outline Images With Empty Alt Attributes* ('Obrysuj wszystkie obrazy z pustym atrybutem alt'). Opcję *Outline Alt Images* możesz wyłączyć. 
+5.	Rozważ, czy tekst alternatywny każdego obrazu właściwie przekazuje informacje o obrazie, zgodnie ze wskazówkami powyżej. Zanotuj uwagi.
+6.	Na koniec włącz opcję *Outline Images With Empty Alt Attributes* ('Obrysuj wszystkie obrazy z pustym atrybutem alt'). Opcję *Outline Alt Images* możesz wyłączyć. 
 
-	![Menu paska narzędzi Web Developer i oznaczone obrazy z pustym atrybutem alt](/img/02_P_alt_web-developer-z-alt.png)
+	![Menu paska narzędzi Web Developer i oznaczone obrazy z pustym atrybutem alt](/img/02_P_alt_web-developer-pusty-alt.png)
 
--	Rozważ, czy pozostawienie pustego atrybutu alt w przypadku każdego obrazu jest uzasadnione, czy rzeczywiście w każdym przypadku jest to obraz dekoracyjny, a treść będzie kompletna i zrozumiała bez obrazu. Zanotuj uwagi.
+7.	Rozważ, czy pozostawienie pustego atrybutu alt w przypadku każdego obrazu jest uzasadnione, czy rzeczywiście w każdym przypadku jest to obraz dekoracyjny, a treść będzie kompletna i zrozumiała bez obrazu. Zanotuj uwagi.
 
 **Aby sprawdzić tekst alt w dowolnej przeglądarce**
 1.	Otwórz stronę internetową [narzędzia oceny dostępności WAVE](http://wave.webaim.org).
 
-	![Strona WAVE z polem na adres strony, którą chcesz zbadać](/img/02_P_alt_wave_wpisz_adres.png)
+	![Strona WAVE z polem na adres strony, którą chcesz zbadać](/img/03_P_WAVE.png)
 	
 2.	W polu *Web page address* ('Adres strony internetowej') wpisz adres strony internetowej, którą chcesz ocenić.
 3.	Kliknij przycisk strzałki *WAVE this page!* ('Testuj tę stronę'). 
 Twoja strona internetowa pojawi się w przeglądarce z mnóstwem małych ikon na jej temat. Po lewej stronie w ramce pojawi się panel zarządzania narzędziem WAVE. 
-	-	**Aby sprawdzić, czy brakuje alt**: wyszukaj czerwoną ikonę alt (![Ikona Brak alta](/img/02_P_alt_missing.png)) lub poszukaj tekstu alt *ERROR: Missing alt text*. Jeśli go znajdziesz, oznacza to, że poniższy obraz nie ma atrybutu `alt`. Być może na starszych witrynach znajdziesz także ikonę (![Ikona Obraz odstępu bez alta](/img/02_P_alt_spacer_missing.png)) oznaczającą obrazy użyte do formatowania odstępów między elementami (*ERRORS: Spacer image missing alternative text*)  
-	-	**Aby sprawdzić, czy nie brakuje atrybutu alt dla obrazków „funkcjonalnych”**: wyszukaj ikonę (![Ikona Obraz odstępu bez alta](/img/02_P_alt_link_missing.png)) lub poszukaj tekstu alternatywnego *ERRORS: Linked image missing alternative text*.
-	-	**Aby sprawdzić, czy tekst alt jest odpowiedni**: Poszukaj ikony zielonej alt (![Tekst alternatywny](/img/02_P_alt_alt.png)). Obok jest tekst na jasnozielonym tle; tekst alt jest między gwiazdkami (\*). Czy tekst alt przekazuje informacje o obrazie stosownie do wskazówek powyżej.
+	-	**Aby sprawdzić, czy brakuje alt**: wyszukaj czerwoną ikonę alt (![Ikona Brak alta](/img/02_P_alt_missing.png)), (![Ikona Brak alta](/img/02_P_alt_missing1.png)) lub poszukaj tekstu alt *ERROR: Missing alt text*. Jeśli go znajdziesz, oznacza to, że poniższy obraz nie ma atrybutu `alt`. Być może na starszych witrynach znajdziesz także ikonę (![Ikona Obraz odstępu bez alta](/img/02_P_alt_spacer_missing.png)) oznaczającą obrazy użyte do formatowania odstępów między elementami (*ERRORS: Spacer image missing alternative text*)  
+	-	**Aby sprawdzić, czy nie brakuje atrybutu alt dla obrazków „funkcjonalnych”**: wyszukaj ikonę (![Ikona Obraz odstępu bez alta](/img/02_P_alt_link_missing.png)), (![Ikona Obraz odstępu bez alta](/img/02_P_alt_link_missing1.png)) lub poszukaj tekstu alternatywnego *ERRORS: Linked image missing alternative text*.
+	-	**Aby sprawdzić, czy tekst alt jest odpowiedni**: Poszukaj ikony zielonej alt (![Tekst alternatywny](/img/02_P_alt_alt.png)), (![Tekst alternatywny](/img/02_P_alt_alt1.png)). Obok jest tekst na jasnozielonym tle; tekst alt jest między gwiazdkami (\*). Czy tekst alt przekazuje informacje o obrazie stosownie do wskazówek powyżej.
  
 ## Ćwiczenie sprawdzania tekstu alternatywnego na stronie demo PrzediPo  
  

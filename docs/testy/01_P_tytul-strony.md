@@ -40,7 +40,7 @@ Tytuł strony powinien być:
 -	**zwięzły**, aby go łatwo zapamiętać – nie więcej niż 60-70 znaków (tyle wyświetla Google),
 -	**wyjątkowy**, aby odróżniał stronę od innych,
 -	**odpowiedni**, aby precyzyjnie opisywał treść strony, jej główny temat,
--	**sensowny**: aby przekazywał przemyślaną, racjonalną informację, a nie dekoracje.
+-	**sensowny**, aby przekazywał przemyślaną, racjonalną informację, a nie dekoracje.
 
 Dobrą praktyką jest, aby tytuł strony internetowej na witrynie składał się z dwóch części: 
 -	unikatowego tematu strony i 
