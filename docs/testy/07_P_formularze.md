@@ -17,7 +17,7 @@ Znajdź dowolne formularze na stronie. Formularz może być pojedynczym polem te
 -	Sprawdź, czy wszystkie kontrolki formularza są dostępne z klawiatury, wykonując testy [dostępu z klawiatury](/img/06_P_klawiatura.md), w tym sprawdzając, czy możesz dostać się do wszystkich pozycji na dowolnych listach rozwijanych.
 
 #### Etykiety
--	Sprawdź, czy do każdej kontrolki formularza jest przypisana etykieta przy użyciu `label`, `for` i `id` , jak pokazano poniżej w sekcji [Sprawdzanie etykiet formularza](). (Jest to najlepsza praktyka w większości przypadków, choć nie jest to wymóg, ponieważ etykietę kontroli formularza można powiązać na inne sposoby).
+-	Sprawdź, czy do każdej kontrolki formularza jest przypisana etykieta przy użyciu `label`, `for` i `id` , jak pokazano poniżej w sekcji [Sprawdzanie etykiet formularza](#/testy/07_P_formularze?id=sprawdzanie-etykiet-formularza-za-pomoc%c4%85-skryptozak%c5%82adki-form-labels). (Jest to najlepsza praktyka w większości przypadków, choć nie jest to wymóg, ponieważ etykietę kontroli formularza można powiązać na inne sposoby).
 -	Sprawdź, czy etykiety są prawidłowo umieszczone. W przypadku języków z kierunkiem pisma od lewej do prawej etykiety powinny zwykle być umieszczone:
 -	Po lewej stronie pól tekstowych i list rozwijanych (lub bezpośrednio nad nimi).
 
@@ -46,8 +46,8 @@ Obsługa niektórych prostych formularzy, takich jak pojedyncze pole wyszukiwani
   
 ### Sprawdzanie etykiet formularza
 Nie ma prostego sposobu sprawdzenia powiązania etykiet z kontrolkami formularzy. Ale istnieją dwa bardzo dobre i przy tym nietrudne w uruchomieniu i obsłudze, które pomagają sprawdzić, czy formularze posiadają etykiety poprawnie powiązane z polami. Ponieważ umieszczamy je w przeglądarkach na paskach zakładek i uruchamiamy, posługując się linkiem na pasku zakładek nazywane są skryptozakładkami, a po angielsku „bookmarkletami” albo „favletami”.
--	[Form labels]( javascript:void((function(){var element=document.createElement('script');element.setAttribute('src','https://jimthatcher.com/IBM/js/FormLabels.js');document.body.appendChild(element)})());) autorstwa Jima Thatchera, którą można pobrać [ze strony autora]( https://jimthatcher.com/favelets/)   
--	[Forms]( javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/forms.js';var iframes=document.getElementsByTagName('iframe');for(i=0;i<iframes.length;i++) {iframes[i].contentDocument.body.appendChild(document.createElement('script')).src='https://cdn.jsdelivr.net/gh/pauljadam/bookmarklets@master/forms.js';}})();) autorstwa Paula J. Adama, którą można pobrać [z jego strony demonstracyjnej]( http://pauljadam.com/bookmarklets/index.html)
+-	[Form labels](https://jimthatcher.com/favelets/) autorstwa Jima Thatchera,
+-	[Forms]( http://pauljadam.com/bookmarklets/index.html)  autorstwa Paula J. Adama.
 
 „Instalacja” tych skryptów, zwanych skryptozakładkami, jest bardzo prosta. Wystarczy je dodać do przeglądarek jako zakładki, co można zrobić co najmniej na dwa sposoby:
 -	**sposób pierwszy**: przeciągnąć link do skryptozakładki na pasek zakładem w przeglądarce
@@ -60,25 +60,27 @@ Aby sprawdzić dostępność etykiet za pomocą skryptozakładki Form labels:
 2.	Wybierz z paska lub menu zakładek zakładkę Form labels. 
 3.	W oknie dialogowym zostanie wyświetlony komunikat z informacją, ile znaleziono kontrolek formularzy, w ilu wśród znalezionych stwierdzono błędy oraz ile wymaga przeglądu testera.   
 
-![Komunikat o liczbie elementów formularza i etykiet](/img/07_P_labels-komunikat.png)
-Okno dialogowe informuje o liczbie zidentyfikowanych błędów, całkowitej liczbie kontrolek formularza i liczbie kontrolek, które należy sprawdzić „ręcznie”. W kolejnych krokach musisz spojrzeć na tekst wokół etykiet. Jeśli jest to trudne, możesz pominąć kolejne kroki.
+   ![Komunikat o liczbie elementów formularza i etykiet](/img/07_P_labels-komunikat.png)
+   Okno dialogowe informuje o liczbie zidentyfikowanych błędów, całkowitej liczbie kontrolek formularza i liczbie kontrolek, które należy sprawdzić „ręcznie”. W kolejnych krokach musisz spojrzeć na tekst wokół etykiet. Jeśli jest to trudne, możesz pominąć kolejne kroki.
 4.	Sprawdź, czy obok każdej kontrolki znajduje się etykieta wskazująca w atrybucie for na ID kontrolki. Na dwóch ilustracjach poniżej pokazano kilka poprawnych przykładów. Zobacz, że np. w pierwszym przed etykietą „Pole  1” znajduje się wyróżniony kod `<label for id="id-pole1">`, a w kodzie pola masz dokładnie ten sam identyfikator: `<input id="id-pole1">`. Identyfikatory mogą być dowolne, ale muszą do siebie pasować.
 
-![wynik testu - etykiety powiązane poprawnie](/img/07_P_form_labels-bez-bledu1.png) 
+   ![Wynik testu - etykiety powiązane poprawnie](/img/07_P_form_labels-bez-bledu1.png) 
 
-![wynik testu - etykiety powiązane poprawnie](/img/07_P_form_labels-bez-bledu1.png) 
+   ![Wynik testu - etykiety powiązane poprawnie](/img/07_P_form_labels-bez-bledu2.png) 
  
    - Jeśli brakuje etykiety, obok pola pojawi się tylko informacja o polu z komunikatem, jak np. w pierwszym przypadku na ilustracji poniżej:  `<No Match id="bez-etykiety" Error>`.
    - Jeśli identyfikator wskazany w FOR nie będzie taki sam, jak identyfikator kontrolki, komunikat poinformuje jak w przykładzie 2 na ilustracji poniżej:  `No ID Match` i `<input No Match id="id-zle" Error>`
    - Jeśli znacznik etykiety nie będzie mieć atrybutu FOR, komunikat poinformuje jak w trzecim przykładzie poniżej: `<label No for>` oraz `<input No Match id="brak-id" Error>` 
+
+   ![Wynik testu z błędami](/img/07_P_form_labels-z-bledami1.png) 
  
 **Uwaga**: Może się jednak zdarzyć, że etykieta zostanie powiązana z polem w inny sposób, niż za pomocą `FOR`, a test skryptozakładki Form Labels zgłosi błąd. Takie przypadki wymagają głębszej analizy. Dwie ilustracje poniżej pokazują różnice w interpretacji tego samego przypadku przez skryptozakładkę Forms i Forms Labels. Pole zostało w tym przypadku powiązane z etykietą dopuszczalnym i zapewniającym dostępność sposobem polegającym, na umieszczeniu pola między początkowym i końcowym znacznikiem label. Na pierwszej ilustracji widzimy, że skryptozakładka oznaczyła etykietę i pole zielonym obrysem wskazującym, że to rozwiązanie jest poprawne i dostępne.
 
 Ale na drugiej ilustracji z testu za pomocą skryptozakładki Form labels mamy komunikat błędu.        
 
-![Wynik testu według Form labels](/img/07_P_labels-interpret1.png) 
+   ![Wynik testu według Form labels](/img/07_P_labels-interpret1.png) 
 
-![Wynik testu według Forms](/img/07_P_labels-interpret2.png)  
+   ![Wynik testu według Forms](/img/07_P_labels-interpret2.png)  
  
 5.	Sprawdź, czy wskaźnik pola wymaganego (np. gwiazdka lub słowo „wymagane” znajduje się na etykiecie pola albo – w przypadku grupy przycisków wyboru lub opcji znajduje się w legendzie grupy pól. 
     - Prawidłowo: gwiazdka  (\*) znajduje się na etykiecie. 
