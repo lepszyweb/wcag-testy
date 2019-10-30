@@ -107,14 +107,16 @@ Aby poćwiczyć sprawdzanie etykiet formularzy i błędów na stronie demo Przed
 #### Etykiety:
 1.	Otwórz dostępną wersję strony Ankieta: https://przedipo.lepszyweb.pl/after/survey.html, na której jest kilka formularzy. Sprawdź poprawność etykiet. Zwróć uwagę na występowanie znacznika `label`, atrybutu `for` oraz zgodność atrybutów `id` ze wskazywanym w atrybucie `for`.
 
-   ![Widok wyników testu na stronie PrzediPo](/img/07_P_przedipo_bledy-ok.png)
+   ![Widok wyników testu na stronie PrzediPo](/img/07_P_przedipo_ok.png)
 
 2.	Otwórz niedostępną wersję strony Ankieta: https://przedipo.lepszyweb.pl/before/survey.html i powtórz test. Najpierw pojawi się okna dialogowe z informacją, że w 13 formularzach wykryto 13 błędów. Po zamknięciu okna dialogowego zobaczysz oznaczone błędy.  
 
+   ![Widok wyników testu na stronie PrzediPo](/img/07_P_przedipo_bledy.png)
+   
 #### Błędy 
 1.	Otwórz dostępną wersję strony Ankieta: https://przedipo.lepszyweb.pl/after/survey.html. Pozostaw pola puste i prześlij formularz. Zwróć uwagę na komunikat o błędach u góry formularza i wyróżnienie wymaganych pól. Sprawdź również [Tytuł strony](01_P_tytul-strony.md). Tytuł zawiera informację, że „Wysyłka nieudana”.
 
-   ![Widok wyników testu na stronie PrzediPo](/img/07_P_przedipo_bledy.png)
+   ![Widok wyników testu na stronie PrzediPo](/img/07_P_przedipo_bledy-ok.png)
 
 2.	Otwórz niedostępną wersję strony Ankieta: https://przedipo.lepszyweb.pl/before/survey.html i powtórz test. Zauważ, że błędy są wskazywane tylko przez czerwoną kolor etykiet  i nie są wyjaśnione.
 
