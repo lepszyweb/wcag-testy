@@ -46,11 +46,6 @@ Każdy z tych terminów jest poprawny i każdy z nich można zastosować do opis
 
 ###  Sprawdzanie tekstów alternatywnych
 Istnieją kilka możliwości, aby sprawdzić tekst alternatywny. Dwie przedstawiamy poniżej
-### Użyj narzędzi paska Web Developer
-**Uwaga**: Jeśli nie masz zainstalowanego w swojej przeglądarce paska narzędzi Web Developer:
--	[Pobierz narzędzie Web Developer dla przeglądarki Chrome](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=pl)
--	[Pobierz narzędzie Web Developer dla przeglądarki Firefox](https://addons.mozilla.org/pl/firefox/addon/web-developer/) 
--	[Pobierz narzędzie Web Developer dla przeglądarki Opera](https://addons.opera.com/pl/extensions/details/web-developer/)
   
 **Aby sprawdzić tekst alternatywny za pomocą narzędzia Web Developer:**  
 -	Otwórz stronę internetową, którą sprawdzasz.
