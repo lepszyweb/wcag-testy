@@ -28,13 +28,13 @@ Znajdź dowolne formularze na stronie. Formularz może być pojedynczym polem te
 ![Etykiety w grupie pól](/img/07_P_labels-grupapol.png ) 
 
 #### Wymagane pola i inne instrukcje
--	Sprawdź, czy wszystkie pola wymagane / obowiązkowe są wyraźnie wskazane.
+-	Sprawdź, czy wszystkie pola wymagane (obowiązkowe) są wyraźnie wskazane.
 -	Sprawdź, czy wskaźnik nie opiera się wyłącznie na kolorze, na przykład jeśli wymagane pola były oznaczone tylko czerwonymi etykietami, nie byłyby one dostępne dla osób, które nie widzą różnych kolorów.
 -	Sprawdź, czy wskaźniki pól wymaganych (takie jak gwiazdki '\*' albo słowo „wymagane”) są zawarte w zaznaczonej etykiecie w&nbsp;przypadku pól tekstowych i list rozwijanych lub w legendzie przycisków opcji i pól wyboru, jak pokazano poniżej w sekcji [Sprawdzanie etykiet formularza]().
 -	Sprawdź, czy instrukcje wypełniania formularza znajdują się w bezpośrednim sąsiedztwie formularza, na przykład:
     - Ogólne instrukcje powinny zwykle znajdować się na górze formularza lub w sekcji, której dotyczą.
     - Instrukcje dotyczące wypełniania pól powinny się znajdować tuż obok pola, nad polem lub pod polem (powinny być również powiązane programowo z polem, aby czytnik ekranu mógł je przekazać osobom niewidomym lub słabowidzącym) 
-    - Wymagane formaty, takie jak daty (rok-miesiąc-data w formacie 0000-00-00), powinny być zawarte oznakowanej etykiecie (to jest najlepsza praktyka, ale mogą być również zawarte w odpowiednio oznakowanej wskazówce, któa będzie czytana przez czytnik ekranu.
+    - Wymagane formaty, takie jak daty (rok-miesiąc-dzień w formacie RRRR-MM-DD), powinny być zawarte oznakowanej etykiecie (to jest najlepsza praktyka, ale mogą być również zawarte w odpowiednio oznakowanej wskazówce, która będzie czytana przez czytnik ekranu.
 
 #### Obsługa błędów
 Obsługa niektórych prostych formularzy, takich jak pojedyncze pole wyszukiwania, może nie wiązać się z możliwością popełnienia błędu. Jeśli uważasz, że formularze na sprawdzanej stronie powinny zgłaszać komunikaty o błędach, spróbuj pozostawić wymagane pola puste lub wprowadzić nieprawidłowo sformatowane informacje (takie jak numer telefonu lub adres e-mail), a następnie prześlij formularz i:
@@ -47,10 +47,10 @@ Obsługa niektórych prostych formularzy, takich jak pojedyncze pole wyszukiwani
 ### Sprawdzanie etykiet formularza
 Nie ma prostego sposobu sprawdzenia powiązania etykiet z kontrolkami formularzy. Ale istnieją dwa bardzo dobre i przy tym nietrudne w uruchomieniu i obsłudze, które pomagają sprawdzić, czy formularze posiadają etykiety poprawnie powiązane z polami. Ponieważ umieszczamy je w przeglądarkach na paskach zakładek i uruchamiamy, posługując się linkiem na pasku zakładek nazywane są skryptozakładkami, a po angielsku „bookmarkletami” albo „favletami”.
 -	[Form labels](https://jimthatcher.com/favelets/) autorstwa Jima Thatchera,
--	[Forms]( http://pauljadam.com/bookmarklets/index.html)  autorstwa Paula J. Adama.
+-	[Forms](http://pauljadam.com/bookmarklets/index.html)  autorstwa Paula J. Adama.
 
-„Instalacja” tych skryptów, zwanych skryptozakładkami, jest bardzo prosta. Wystarczy je dodać do przeglądarek jako zakładki, co można zrobić co najmniej na dwa sposoby:
--	**sposób pierwszy**: przeciągnąć link do skryptozakładki na pasek zakładem w przeglądarce
+„Instalacja” tych skryptów jest bardzo prosta. Wystarczy je dodać do przeglądarek jako zakładki, co można zrobić co najmniej na dwa sposoby:
+-	**sposób pierwszy**: przeciągnąć link skryptozakładki na pasek zakładek w przeglądarce
 -	**sposób drugi**: użyć opcji *Dodaj do zakładek*. Najłatwiej użyć tego sposobu w przeglądarce Firefox, w której wystarczy wskazać link do zakładki prawym przyciskiem myszki i wybrać opcję Dodaj odnośnik do zakładki (błędne tłumaczenie, powinno być – *Dodaj zakładkę do odnośnika*).
  
 **Uwaga**: Pasek narzędziowy WebDeveloper posiada w zestawie opcji dotyczących formularzy opcję *Outline Form Fields Without Labels* (Obrysuj pola formularzy bez etykiet), ale jej użycie nie uwidacznia informacji niezbędnych do oceny.

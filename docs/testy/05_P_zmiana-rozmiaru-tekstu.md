@@ -8,7 +8,7 @@ Większość przeglądarek pozwala użytkownikom na zmianę rozmiaru tekstu popr
 -	powiększanie całej strony (włącznie z obrazami, polami formularzy, przyciskami itp.)
 
 Jeśli strony nie są odpowiednio zaprojektowane, mogą nie nadawać się do użytku, gdy zmienia się rozmiar tekstu, zwłaszcza gdy 
-powiększany jest wyłącznie rozmiar tekstu albo zmieniane sa inne ustawienia tekstu, np. odstępy między znakami. Czasami nakładają się na siebie kolumny i sekcje poboczne, znika odstęp między wierszami, wiersze tekstu stają się zbyt długie lub tekst znika.
+powiększany jest wyłącznie rozmiar tekstu albo zmieniane są inne ustawienia tekstu, np. odstępy między znakami. Czasami nakładają się na siebie kolumny i sekcje poboczne, znika odstęp między wierszami, wiersze tekstu stają się zbyt długie lub tekst znika.
 
 ![Tekst niepowiększony](/img/05_p_powieksz1.png) ![Tekst powiększony](/img/05_p_powieksz2.png) 
 
@@ -23,14 +23,14 @@ Rysunek: Pierwszy obraz przedstawia tekst normalnej wielkości. Na drugim obrazi
 
 ### Sposoby zmiany rozmiaru tekstu 
 Współczesne przeglądarki umożliwiają zmianę rozmiaru tekstu, obrazów i filmów na jednej lub wszystkich stronach.  
-Dwie z popularnycch przeglądarek umożliwiają zmianę rozmiaru tekstu bez zmian rozmiaru innych elementow strony: Firefox i Internet Explorer.
+Dwie z popularnych przeglądarek umożliwiają zmianę rozmiaru tekstu bez zmian rozmiaru innych elementów strony: Firefox i Internet Explorer.
 
-Niekiedy twórcy witryn dodają do nich specjalne przełączniki umożliwiajace zmianę rozmiaru tekstu na całej stronie albo w artykułach. 
+Niekiedy twórcy witryn dodają do nich specjalne przełączniki umożliwiające zmianę rozmiaru tekstu na całej stronie albo w artykułach. 
 
 We wszystkich przeglądarkach rozmiar zawartości można również zwiększać lub zmniejszać pokrętłem myszki po wciśnięciu na klawiaturze klawisza Ctrl.     
 
 ### Co robić
--	Zwiększaj rozmiar tekstu, przede wszzystkim za pomocą funkcji przeglądarki lub urządzenia. Jeśli na stronie znajdują się specjalne przełączniki zmiany rozmiaru tekstu, również je przetestuj.
+-	Zwiększaj rozmiar tekstu, przede wszystkim za pomocą funkcji przeglądarki lub urządzenia. Jeśli na stronie znajdują się specjalne przełączniki zmiany rozmiaru tekstu, również je przetestuj.
 
 ### Co sprawdzać
 -	Czy cały tekst staje się większy? (Niekiedy zamiast rzeczywistego tekstu na stronach znajdują się obrazy tekstu. Tekst w obrazach nie powiększa się, gdy użytkownicy powiększają rozmiar czcionek.)
@@ -40,7 +40,7 @@ We wszystkich przeglądarkach rozmiar zawartości można również zwiększać l
 -	Czy czytanie zdań lub bloków tekstu nie wymaga przewijania w poziomie? Najlepszą praktyką jest, aby po zwiększeniu rozmiaru tekstu bez przewijania w poziomie wszystkie wyrazy w zdaniach następujące po sobie były widoczne. Przewijanie w poziomie jest dopuszczalne tylko w przypadku tabel z dużą liczbą kolumn albo po to, by przejść do innych sekcji strony  (W przypadku języków, w których tekst zapisuje się od góry do dołu, „przewijanie w poziomie” w tekście powyżej należy zamienić na  „przewijanie w pionie” i odwrotnie).
 
 ### Sprawdzanie możliwości zmiany rozmiaru tekstu
-Instrukcje poniżej dotyczą funkcji powiększania w popularnych przeglądarkach - Firefox, Chrome,Internet Explorer i Microsoft Edge. Oprócz funkcji powiększania tekstu bądź całej zawartości stron, w przeglądarkach można zmienić ustawienia rozmiaru tekstu i innych jego właściwości. Aby nie komplikować poradnika (i testowania), nie opisujemy tutaj sposobów zmiany tych ustawień.
+Instrukcje poniżej dotyczą funkcji powiększania w popularnych przeglądarkach - Firefox, Chrome, Internet Explorer i Microsoft Edge. Oprócz funkcji powiększania tekstu bądź całej zawartości stron, w przeglądarkach można zmienić ustawienia rozmiaru tekstu i innych jego właściwości. Aby nie komplikować poradnika (i testowania), nie opisujemy tutaj sposobów zmiany tych ustawień.
  
 #### Zwiększanie rozmiaru tekstu w przeglądarce Firefox 
 Aby powiększyć rozmiar tekstu w przeglądarce Firefox
@@ -68,7 +68,7 @@ Aby potwierdzić, że w kroku 1 zostało ustawione tylko powiększanie tekstu, u
 
  
 #### Zwiększanie rozmiaru tekstu w przeglądarce Chrome 
-Przeglądarka Chrome umożliwia zmianę rozmiaru całej zawartości strony. Użytkownicy potrzebujący powiększenia tekstu mogą korzystać ze specjalnych narzędzi. Dla przeglądarki Chrome istnieje dodatek [A+ FontSize Changer Lite](https://chrome.google.com/webstore/detail/a%20-fontsize-changer-lite/ckihgechpahhpompcinglebkgcdgpkil). . (W bezpłatnej wersji Lite umożliwia ono nie tylko zmianę rozmiaru tekstu, ale także zmianę koloru tekstu i tła oraz podkreślanie łączy. Wersja Pro jest bogatsza w opcje i możliwości konfiguracyjne.)
+Przeglądarka Chrome umożliwia zmianę rozmiaru całej zawartości strony. Użytkownicy potrzebujący powiększenia tekstu mogą korzystać ze specjalnych narzędzi. Dla przeglądarki Chrome istnieje dodatek [A+ FontSize Changer Lite](https://chrome.google.com/webstore/detail/a%20-fontsize-changer-lite/ckihgechpahhpompcinglebkgcdgpkil). (W bezpłatnej wersji Lite umożliwia ono nie tylko zmianę rozmiaru tekstu, ale także zmianę koloru tekstu i tła oraz podkreślanie łączy. Wersja Pro jest bogatsza w opcje i możliwości konfiguracyjne.)
 
 Aby powiększyć rozmiar strony w przeglądarce Chrome: 
 

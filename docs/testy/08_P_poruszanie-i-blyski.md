@@ -18,8 +18,8 @@ Ponadto migająca lub błyskająca treść może powodować drgawki u osób z pa
 -	Sprawdź, czy istnieje jakaś treść, która błyska częściej niż trzy razy w ciągu jednej sekundy. Jeśli tak, to konieczna jest dalsza ocena, jak wyjaśniono w [Zrozumieć kryterium sukcesu 2.3.1 Trzy błyski lub wartości poniżej progu](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html).
 
 
-### Dowiedz się więcej o treściach ruchomych, migajacych i błyskajacych  
--	[Zrozumieć Kryterium sukcesu 2.2.2 Wstrzymywanie (pauza), zatrzymywanie, ukrywanie](https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html)(poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.	
+### Dowiedz się więcej o treściach ruchomych, migających i błyskających  
+-	[Zrozumieć Kryterium sukcesu 2.2.2 Wstrzymywanie (pauza), zatrzymywanie, ukrywanie](https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html) (poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.	
 -	[Zrozumieć kryterium sukcesu 2.3.1 Trzy błyski lub wartości poniżej progu](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html) (Poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Animacje - WAI Web Accessibility Tutorial](https://www.w3.org/WAI/tutorials/carousels/animations/) - poradnik w języku angielskim, skorzystaj z tłumaczenia Google.
 
