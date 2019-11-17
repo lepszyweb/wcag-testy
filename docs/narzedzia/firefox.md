@@ -1,3 +1,4 @@
+# Inspektor dostępności w przeglądarce Firefox
 Od wydania w czerwcu 2018 roku wersji 63 Firefox oferuje Inspektora dostępności - potężne narzędzie, które pomaga wykryć i naprawić wiele typowych problemów związanych z dostępnością. Dzięki inspektorowi dostępności można dotrzeć do istotnych znajdujących się na stronie informacji przeznaczonych dla technologii wspomagających i wykryć, czego brakuje lub co wymaga specjalnej uwagi.
 
 ## Dostęp do Inspektora dostępności
@@ -136,4 +137,5 @@ Natomiast w inspektorze DOM ta opcja ma nazwę *Wyświetl własności dostępno�
 Po wybraniu z menu kontekstowego opcji *Zbadaj własności dostępności* oraz *Wyświetl własności dostępności* natychmiast otwiera się karta Dostępność i wyświetla odpowiedni element drzewa dostępności i jego właściwości.
 
 **Uwaga**: Niektóre elementy DOM nie mają właściwości dostępności - w takim przypadku elementy menu kontekstowego *Wyświetl własności dostępności* jest wyszarzona.
+
 ![Nieaktywna opcja menu](/img/firefox_ID_16_nieaktywne-menu-kontekstowe.png)
