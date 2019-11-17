@@ -18,7 +18,7 @@ Kryteria sukcesu: [3.3.1 Identyfikacja błędu](https://wcag.lepszyweb.pl/#error
 -	Komunikaty o błędach są łatwo wykrywalny przez wszystkich użytkowników. Możliwe sposoby prezentacji:
     - komunikat o błędzie jest wyświetlany w wyskakującym oknie dialogowym,
     - komunikat o błędzie jest wyświetlany bezpośrednio obok pola błędu ORAZ:
-      - Jest powiązany z polem jako część etykiety za pomocą atrybutu `aria-labelledby` lub `aria-describedby` przez ALBO
+      - Jest powiązany z polem jako część etykiety za pomocą atrybutu `aria-labelledby` lub `aria-describedby` ALBO
       - Jest częścią obszaru z treścią dynamiczną (`aria-live`) i ogłaszaną jako *alert*.
     - Komunikat o błędach prezentowany jest na liście błędów, a fokus klawiatury umieszczany jest tuż przed początkiem listy umieszczonej nad formularzem.
 -	Jeśli w polach formularza wprowadzane są dane, który skutkują podjęciem przez użytkownika zobowiązań prawnych lub finansowych albo dotyczą ważnych danych osobowych, wówczas:

@@ -9,7 +9,7 @@ Testy powinny spełniać następujące wymagania:
 - **zgodność techniczna** z dokumentami W3C WAI: [WCAG 2.1](https://www.w3.org/TR/WCAG21/), [Zrozumieć WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/), [Jak spełnić WCAG](https://wcag.lepszyweb.pl) oraz [Techniki WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/#techniques),
 - **niezależność od narzędzi i programów użytkownika**: opisy oczekiwań i testów powinny być sformułowane tak, aby nie wymagały stosowania konkretnych narzędzi, przeglądarek, technologii wspomagających.
 - **jednoznaczność**: opisy oczekiwań i testów powinny być interpretowane tylko w jeden sposób,    
-- **powtarzalność** (replikacyjność): przeprowadzenie tych samych testów na tej samej stronie przez różnych oceniajacych powinno przynosić te same wyniki w ramach określonej tolerancji.
+- **powtarzalność** (replikacyjność): przeprowadzenie tych samych testów na tej samej stronie przez różnych oceniających powinno przynosić te same wyniki w ramach określonej tolerancji.
 
 ## Źródła opisów
 Opisy testów powinny opierać się na sprawdzonych wzorach testów publikowanych w otwartych źródłach oraz doświadczeniu autorów opisów. Źródłami opisów mogą być w szczególności:

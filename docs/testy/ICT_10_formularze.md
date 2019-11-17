@@ -153,7 +153,7 @@ Zobacz [5. Treść zmienna](05TrescZmienna.md)
 ## Techniki WCAG 2.1
 ---------------------
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
--   [G115: Używanie znaczników semantycznych do oznaczania struktury](http://www.w3.org/TR/WCAG20-TECHS/G115.html) AND [H49: Using semantic markup to mark emphasized or special text](http://www.w3.org/TR/WCAG20-TECHS/H49.html)
+-   [G115: Używanie znaczników semantycznych do oznaczania struktury](http://www.w3.org/TR/WCAG20-TECHS/G115.html) AND [H49: Używanie semantycznych znaczników do oznaczenia tekstu wyróżnionego lub specjalnego](http://www.w3.org/TR/WCAG20-TECHS/H49.html)
 -   [G80: Zapewnienie przycisku przesyłania w celu zainicjowania zmiany kontekstu](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G80)
 -   [G13: Opisywanie, co się stanie, zanim nastąpi zmiana w formancie formularza, który powoduje zmianę kontekstu](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G13)
 -   [G131: Zapewnienie opisowych etykiet](http://www.w3.org/TR/WCAG20-TECHS/G131.html)
