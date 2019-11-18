@@ -23,7 +23,7 @@ W prawym panelu wyświetlane są szczegółowe informacje na temat aktualnie wyb
 Każdy obiekt charakteryzowany jest przez następujący zestaw właściwości: 
 -	*name* – nazwa elementu, jak opisano powyżej.
 -	*role* - rola elementu, jak opisano powyżej.
--	*actions* (akcje)- lista akcji, które można wykonać na elemencie, na przykład akcją dla przycisku będzie „Naciśnij”, a dla łącza „Skocz”; zauważ, że akcje są zdefiniowane w języku użytkownika
+-	*actions* (akcje) - lista akcji, które można wykonać na elemencie, na przykład akcją dla przycisku będzie „Naciśnij”, a dla łącza „Skocz”; zauważ, że akcje są zdefiniowane w języku użytkownika
 -	*value* – wartość elementu. Może to oznaczać różne rzeczy w zależności od typu elementu; na przykład pola danych w formularzu (role: *entry*) będą miały wartość tego, co zostanie wprowadzone w polu, a wartością łącza będzie adres URL podany w atrybucie `<href>` elementu `<a>`.
 -	*DOMNode* – rodzaj węzła w Obiektowym Modelu Dokumentu (DOM). 
    ![Ikona celu obok określenia węzła DOM](/img/firefox_ID_03_DOMnode.png) 
@@ -49,7 +49,7 @@ Każdy obiekt charakteryzowany jest przez następujący zestaw właściwości:
 ### Obsługa za pomocą klawiatury
 Karta Dostępność jest w pełni dostępna z klawiatury:
 -	Klawiszem <kbd>Tab</kbd> możesz się poruszać między przyciskami *Wyłącz funkcje dostępności* i *Wyszukaj problemy* oraz między lewym i prawym panelem karty.
--	Gdy punkt uwagi znajduje się w panelu, możesz przesuwać fokus w górę i w dół za pomocą klawiszy strzałek w górę i w dół oraz używać klawiszy strzałek w lewo i w prawo do rozwijania i zwijania rozwijanych wierszy (np. różnych poziomów hierarchii drzewa dostępności) .
+-	Gdy punkt uwagi znajduje się w panelu, możesz przesuwać fokus w górę i w dół za pomocą klawiszy strzałek w górę i w dół oraz używać klawiszy strzałek w lewo i w prawo do rozwijania i zwijania rozwijanych wierszy (np. różnych poziomów hierarchii drzewa dostępności).
 
 ### Wyświetlanie drzewa dostępności w formacie JSON
 Zawartość drzewa dostępności można wyświetlić w przeglądarce JSON. W tym celu wystarczy prawym przyciskiem myszy kliknąć dowolny wpis na karcie Dostępność i wybrać polecenie *Wyświetl jako JSON*.
@@ -110,7 +110,7 @@ Ponadto moduł sprawdzania kontrastu kolorów zapewnia informacje o współczynn
 ### Symulator niedoboru widzenia kolorów
 Od wersji Firefox 70 inspektor dostępności oferuje możliwość symulacji niedostatków widzenia kolorów, znanych szerzej jako ślepota barw, oraz utratą wrażliwości na kontrast. O ile problemy z widzeniem kolorów dotyczą około 8% mężczyzn i 0,5% kobiet na całym świecie, co już stanowi spory odsetek populacji, to problemy z utratą wrażliwości na kontrast, są znacznie częstsze, bo mogą być powodowane przez inne schorzenia siatkówki oka, na przykład zwyrodnienie plamki związane z wiekiem.
  
-Symulator niedowidzenia kolorów domyślnie jest wyłączony. Aby go włączyć, należy w about:config przełączyć właściwość *gfx.webrender.all* na *true* (Wpisz w pasku adresu przeglądarki *about:config*, a następnie – po potwierdzeniu, że rozumiesz skutki zmian w ustawieniach, wyszukaj właściwość *gfx.webrender.all* i kliknij dwukrotnie w wierszu z tą właściwością. Wartość false powinna się zmienic na *true*.) 
+Symulator niedowidzenia kolorów domyślnie jest wyłączony. Aby go włączyć, należy w about:config przełączyć właściwość *gfx.webrender.all* na *true* (Wpisz w pasku adresu przeglądarki *about:config*, a następnie – po potwierdzeniu, że rozumiesz skutki zmian w ustawieniach, wyszukaj właściwość *gfx.webrender.all* i kliknij dwukrotnie w wierszu z tą właściwością. Wartość *false* powinna się zmienić na *true*.) 
  
 Po włączeniu symulatora pojawi się dodatkowe menu inspektora *Włącz symulację*. Wybór dowolnej pozycji menu spowoduje zmianę widoku strony symulującą jej widzenie przez osobę z wybranym rodzajem niewrażliwości.
 
