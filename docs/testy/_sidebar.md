@@ -84,7 +84,7 @@
  - [25. Brak zakłóceń](testy/ICT_25_brak-zaklocen.md)
  - [Dodatek A. Tabela porównawcza](testy/ICT_26_dodatekA.md) 
 - **Pomocnik adepta dostępności**
- - [Wprowadzenie](testy/0-0-0_wprowadzenie.md)
+ - [Wprowadzenie](testy/1-0-0_wprowadzenie.md)
  - [1-1-1 Treść nietekstowa](testy/1-1-1_Tresc-nietekstowa.md)
  - [1-2-1 Tylko audio... (nagranie)](testy/1-2-1_Tylko-audio.md)
  - [1-2-1 Tylko wideo (nagranie)](testy/1-2-1_Tylko-wideo.md)

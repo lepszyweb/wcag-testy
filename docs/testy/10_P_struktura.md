@@ -9,20 +9,20 @@ Podstawowy test struktury polega na sprawdzeniu, jak strona działa, gdy jest  �
 Poniższe zdjęcia ilustrują domyślny sposób wyświetlania strony internetowej w 3 kolumnach i zmieniony sposób wyświetlania.
 Rysunek A pokazuje domyślne wyświetlanie trzech kolumn z nawigacją po lewej stronie.
 
-![Rysunek A](/img/10_P_linear_01.png) 
+![Rysunek A. Domyślne wyświetlanie strony z trzema kolumnami i stopką](/img/10_P_linear_01.png) 
 RysunekA
  
 Rysunek B pokazuje stronę zlinearyzowaną w jedną kolumnę, z nawigacją u góry. Rysunek C pokazuje stronę zlinearyzowaną, z nawigacją na dole. Kolejność sekcji (np. nawigacja u góry, u dołu lub w innym miejscu) zależy od projektu strony internetowej - użytkownik zwykle nie może kontrolować kolejności.
  
-![Rysunek B](/img/10_P_linear_02.png)
+![Rysunek B. Strona zlinearyzowana w jedna kolumnę z nawigacją na górze](/img/10_P_linear_02.png)
 Rysunek B 
 
-![Rysunek C](/img/10_P_linear_03.png)
+![Rysunek C. Strona zlinearyzowana w jedna kolumnę z nawigacją na dole](/img/10_P_linear_03.png)
 Rysunek C 
 
 Rysunek D pokazuje stronę zlinearyzowaną z wyłączonymi stylami. Gdy wykonasz poniższe kroki sprawdzania struktury podstawowej, twoja strona będzie wyglądać mniej więcej tak:
  
-![Rysunek D](/img/10_P_linear_04.png)
+![Rysunek D Strona z wyłączonymi stylami](/img/10_P_linear_04.png)
 Rysunek D  
  
 Rysunek E pokazuje stronę zmienioną przez osobę słabowidzącą, aby była bardziej czytelna, na przykład główny tekst jest duży, tekst stopki jest bardzo mały, a nagłówki mają inny kolor.
@@ -61,19 +61,19 @@ Aby sprawdzić podstawową strukturę za pomocą paska narzędzi WebDeveloper:
 ### Sprawdzenie struktury na stronie demo PrzediPo  
 
 1. Najpierw sprawdź strukturę dostępnej wersji strony głównej: https://przedipo.lepszyweb.pl/after/home.html
-   1. Wykonaj kolejno przedstawione powyzej testy, aby wyłączyć obrazy i wyłączyć CSS.
+   1. Wykonaj kolejno przedstawione powyżej testy, aby wyłączyć obrazy i wyłączyć CSS.
    2. Przewiń stronę w dół i zauważ, że w sekcji „Witamy w Światłach Miasta” znajdują się 3 nagłówki artykułów z tekstami zwiastunów (zapowiedzi, streszczenia, lidu) pod każdym z nagłówków.
    
    ![Fragment dostępnej wersji strony z wyłączonymi stylami](/img/10_P_linear-home-dostepna.png)    
    
 2. Następnie sprawdź strukturę niedostępnej wersji strony głównej: https://przedipo.lepszyweb.pl/before/reports/home.html 
-   1. Wykonaj kolejno przedstawione powyzej testy, aby wyłączyć obrazy i wyłączyć CSS.   
-   2. Przewiń stronę w dół i zauważ, że w sekcji „Witamy w Światłach Miasta” trzy nagłówki następują jeden po drugim, a nie  przed testami, które tytułują. Teksty wszystkich trzech zwiatunów artykułów następują po sobie, tak, jakby to był jeden tekst.
+   1. Wykonaj kolejno przedstawione powyżej testy, aby wyłączyć obrazy i wyłączyć CSS.   
+   2. Przewiń stronę w dół i zauważ, że w sekcji „Witamy w Światłach Miasta” trzy nagłówki następują jeden po drugim, a nie  przed testami, które tytułują. Teksty wszystkich trzech zwiastunów artykułów następują po sobie, tak, jakby to był jeden tekst.
    
    ![Fragment niedostępnej wersji strony z wyłączonymi stylami](/img/10_P_linear-home-niedostepna.png)  
 	
 3. Sprawdź także formularz na niedostępnej wersji strony Ankieta: https://przedipo.lepszyweb.pl/before/survey.html.
-   1. Wykonaj kolejno przedstawione powyzej testy, aby wyłączyć obrazy, wyłączyć CSS i właczyć linearyzację strony (najlepiej widać w przeglądarce Firefox). Zróć uwagę, jak rozmieszczone są pola pzeznaczone na adres e-mail. Zauważ, że etykiety nie są powiązane z polami (jest tak, ponieważ strona nieprawidłowo używa tabeli układu):
+   1. Wykonaj kolejno przedstawione powyżej testy, aby wyłączyć obrazy, wyłączyć CSS i włączyć linearyzację strony (najlepiej widać w przeglądarce Firefox). Zwróć uwagę, jak rozmieszczone są pola przeznaczone na adres e-mail. Zauważ, że etykiety nie są powiązane z polami (jest tak, ponieważ strona nieprawidłowo używa tabeli układu):
    
    ![Linearyzacja strony z formularzem. Fragment](/img/10_P_linear-formularz.png)
 

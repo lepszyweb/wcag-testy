@@ -66,7 +66,7 @@ Poniżej znajdują się instrukcje dotyczące sprawdzania kontrastu za pomocą r
 - Pobierz i zainstaluj WCAG Color Contrast Checker [w przeglądarce Firefox](https://addons.mozilla.org/pl/firefox/addon/wcag-contrast-checker/)
 
 1.	Otwórz stronę, którą chcesz sprawdzić.
-2.	Uruchom narzędzie WCAG Color Contrast Checker. Kontroler zostanie wyświetlony w panelu po lewej stronie ekranu. Niestety, nie można manipulować jego położeniem, a  często zasłania część sprawdzanej strony. Kontroler domyślnie sprawdza poprawność kontrastu na poziomie wymagań AA. Jeśli wymagana jest zgodność z WCAG 2.1 na poziomie AAA, można zmienić ustawienie domyślne na liście rozwijanej w gónej części kontrolera, opisanej etykietą *Level* (Poziom).   
+2.	Uruchom narzędzie WCAG Color Contrast Checker. Kontroler zostanie wyświetlony w panelu po lewej stronie ekranu. Niestety, nie można manipulować jego położeniem, a  często zasłania część sprawdzanej strony. Kontroler domyślnie sprawdza poprawność kontrastu na poziomie wymagań AA. Jeśli wymagana jest zgodność z WCAG 2.1 na poziomie AAA, można zmienić ustawienie domyślne na liście rozwijanej w górnej części kontrolera, opisanej etykietą *Level* (Poziom).   
 	- **Tabela współczynników kontrastu.** W głównej części panelu wyświetlana jest tabela wykrytych kombinacji kolorów tekstu i&nbsp;tła oraz danych dotyczących kontrastu. **Zielona fiszka** oznacza wystarczający kontrast, czerwony znak **x** oznacza niewystarczający kontrast. Obok ikony podawany jest wyliczony współczynnik kontrastu. Następnie rozmiar tekstu – słowo *small* oznacza mały tekst, a słowo *large* duży tekst. Dla małego tekstu wymagany jest wyższy współczynnik kontrastu, dla dużego – niższy. W następnej kolumnie wyświetlana jest próbka kombinacji kolorów, a w ostatniej kolumnie liczba wykrytych elementów strony i znaczniki HTML, w których dany współczynnik kontrastu został rozpoznany. Aby zobaczyć dokładniejszą statystykę, wystarczy za pomocą przełącznika z lewej strony współczynnika kontrastu rozwinąć szczegółowe informacje. Jeśli wskażesz w&nbsp;tabeli dowolną pozycję, wszystkie wystąpienia elementów z&nbsp;wybranym współczynnikiem kontrastu zostaną otoczone czerwonym obrysem. Niestety, niekiedy trudno go znaleźć, bo może być ukryty pod panelem kontrolera.
 	
 	![Tabela wyników testu współczynników kontrastu w panelu narzędzia WCAG Color Contrast Checker](/img/04_P_kontrast_WCAG_1.png)
@@ -124,8 +124,8 @@ W ramach ćwiczeń przygotowawczych do powyższych testów możesz sprawdzić pr
 4. Sprawdź, czy w poprawionej wersji strony został zwiększony współczynnik kontrastu.  
    
 ## Dowiedz się więcej o współczynniku kontrastu 
--	[Understanding Success Criterion 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) (Zrozumieć kryterium sukcesu 1.4.3: Kontrast minimalny) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
--	[Understanding Success Criterion 1.4.6: Contrast (Enhanced)](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)  Zrozumieć kryterium sukcesu 1.4.6: Kontrast rozszerzony) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+-	[Zrozumieć kryterium sukcesu 1.4.3: Kontrast minimalny)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+-	[Zrozumieć kryterium sukcesu 1.4.6: Wzmocniony kontrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)   - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 
 ## Narzędzia sprawdzające kontrast
 
