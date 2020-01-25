@@ -13,17 +13,17 @@ Ocena treści alternatywnej w celu oceny jej równoważności z treściami tylko
 ## Ograniczenia, założenia lub wyjątki
 --------------------------------------
 ### Tylko audio
--   Jeśli audio jest zsynchronizowane z wideo, slajdami, animacjami lub innymi mediami wizualnymi opartymi na czasie, zamiast tego testu, wykonaj test [17. Media zsynchronizowane.md](ICT_17_media-zsynchronizowane.md)
+-   Jeśli audio jest zsynchronizowane z wideo, slajdami, animacjami lub innymi mediami wizualnymi opartymi na czasie, zamiast tego testu, wykonaj test [17. Media zsynchronizowane](ICT_17_media-zsynchronizowane.md)
 -   Dźwięk będący alternatywą dla tekstu nie wymaga dodatkowego opisu, jeśli jest wyraźnie oznaczony jako taki.
 -   Krótkie dźwięki używane do powiadamiania użytkownika, takie jak sygnały potwierdzające i powiadomienia o błędach, nie są objęte tym wymogiem.
--   Informacje i/lub instrukcje przekazywane wyłącznie w formie treści audio muszą zawierać równoważne wskazówki programowe i/lub tekstowe; sprawdzenie tego wymogu odbywa się zgodnie z [17. Media zsynchronizowane.md](ICT_17_media-zsynchronizowane.md).
+-   Informacje i/lub instrukcje przekazywane wyłącznie w formie treści audio muszą zawierać równoważne wskazówki programowe i/lub tekstowe; sprawdzenie tego wymogu odbywa się zgodnie z [17. Media zsynchronizowane.](ICT_17_media-zsynchronizowane.md).
 
 
 ### Tylko wideo
 -   W prezentacji wyłącznie wideo informacje są przedstawiane na różne sposoby, w tym animację, tekst lub grafikę, otoczenie i tło, działania i ekspresję ludzi, zwierząt itp.
 -   Wideo będące alternatywą dla tekstu nie wymaga dodatkowego opisu, jeśli jest wyraźnie oznaczone jako takie.
--   Jeżeli prezentacji wideo towarzyszą dźwięki o określonym czasie trwania lub znaczące dialogi, nie jest to tylko wideo. Odpowiednimi w takim przypadku są testy [17. Media zsynchronizowane.md](ICT_17_media-zsynchronizowane.md) 
--   Treści tylko wideo mogą przedstawiać informacje ruchome, migające, przewijane lub automatycznie aktualizowane. Jednak do pezentacji podobnych treści można zastosować inne metody. W obu przypadkach, niezależnie od tego, czy treść jest prezentowana wyłącznie w formie wideo, czy też w inny sposób, musi istnieć możliwość wstrzymania, zatrzymania lub ukrycia treści. Sprawdzenia tego wymogu dokonuje się zgodnie z [21. Limity czasu.md](ICT_21_limity-czasu.md).
+-   Jeżeli prezentacji wideo towarzyszą dźwięki o określonym czasie trwania lub znaczące dialogi, nie jest to tylko wideo. Odpowiednimi w takim przypadku są testy [17. Media zsynchronizowane](ICT_17_media-zsynchronizowane.md) 
+-   Treści tylko wideo mogą przedstawiać informacje ruchome, migające, przewijane lub automatycznie aktualizowane. Jednak do pezentacji podobnych treści można zastosować inne metody. W obu przypadkach, niezależnie od tego, czy treść jest prezentowana wyłącznie w formie wideo, czy też w inny sposób, musi istnieć możliwość wstrzymania, zatrzymania lub ukrycia treści. Sprawdzenia tego wymogu dokonuje się zgodnie z [21. Limity czasu](ICT_21_limity-czasu.md).
 
 ## Procedura testu dla KS Tylko audio (nagranie)
 ------------------------------------------------
