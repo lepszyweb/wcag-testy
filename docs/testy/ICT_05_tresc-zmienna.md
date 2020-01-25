@@ -36,8 +36,9 @@ Zidentyfikuj zmiany w prezentowanej treści (zarówno wywołane przez użytkowni
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 4.1.2 oraz wymaganie podstawowe nr 5 kończy się niepowodzeniem.
 
 ##  Wskazówki dotyczące usprawniania procesu testowego
--   Zmiana treści może również obejmować zmiany koloru w celu przekazania informacji. Jeśli tak, ten test powinien sprawdzić, czy nazwa została zaktualizowana, aby odzwierciedlić znaczenie zmienionego koloru. Jeśli kolor zostanie użyty jako jedyny wizualny sposób przekazywania informacji (lub zmian informacji), wówczas treść nie spełnia wymagań KS 1.4.1 Uzycie koloru (omówione w punkcie 7 [Właściwości zmysłowe](07_WlasciwościZmyslowe.md)).
+-   Zmiana treści może również obejmować zmiany koloru w celu przekazania informacji. Jeśli tak, ten test powinien sprawdzić, czy nazwa została zaktualizowana, aby odzwierciedlić znaczenie zmienionego koloru. Jeśli kolor zostanie użyty jako jedyny wizualny sposób przekazywania informacji (lub zmian informacji), wówczas treść nie spełnia wymagań KS 1.4.1 Uzycie koloru (omówione w punkcie 7 [Właściwości zmysłowe](testy/ICT_07_wlasciwosci-zmyslowe.md)).
 -   Liczba powiadomień o zdarzeniach może być bardzo duża; jeśli liczba zmian w elemencie jest nieznana lub bardzo duża, konieczne może być zastosowanie próbkowania.
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](04_TrescPowtarzalna.md) | [[Następny]](06_Obrazy.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Treść powtarzalna](testy/ICT_04_tresc-powtarzalna.md) | [Następny &gt; Obrazy](testy/ICT_06_obrazy.md)
+

@@ -80,4 +80,7 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [F31: Niespełnienie kryterium sukcesu 3.2.4 z powodu używania dwóch różnych etykiet dla tej samej funkcji na różnych stronach internetowych w zestawie stron internetowych](http://www.w3.org/TR/WCAG20-TECHS/F31.html)
 
 -------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](ICT_03_kolejnosc-fokusa.md) | [[Następny]](ICT_05_tresc-zmienna.md)
+[Początek/Spis treści](index.md) | [Poprzedni&gt; Kolejność fokusa](testy/ICT_03_kolejnosc-fokusa.md) | [Następny &gt; Treść zmienna](ICT_05_tresc-zmienna.md)
+
+
+

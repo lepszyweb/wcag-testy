@@ -64,4 +64,5 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
     -   [F26: Niespełnienie kryterium sukcesu 1.3.3 z powodu użycia tylko samego symbolu graficznego do przekazywania informacji](https://www.w3.org/TR/WCAG20-TECHS/F26.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](06Obrazy.md) | [[Następny]](08Kontrast.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Obrazy](testy/ICT_06_obrazy.md)) | [Następny &gt; Kontrast](testy/ICT_08_kontrast.md)
+
