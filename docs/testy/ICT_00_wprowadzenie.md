@@ -19,3 +19,5 @@ Korzystając z tej licencji, przedstawiamy do wykorzystania polską adaptację *
 - **po pierwsze**, będą pomocne w ocenianiu dostępnosci stron internetowych i aplikacji mobilnych oraz
 - **po drugie**, pomogą w stworzeniu polskiej bazy podstawowych testów dostępności cyfrowej.
 
+-------------------------------------
+[Testy. Strona główna &lt; Poprzednia strona](README.md) | [Następna strona &gt; Klawiatura](/testy/ICT_01_klawiatura)

@@ -68,5 +68,5 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
     -   [G202: Zapewnienie sterowania klawiaturą dla wszystkich funkcji](http://www.w3.org/TR/WCAG20-TECHS/G202.html)
     -   [G21: Zapewnienie, że użytkownicy nie zostaną uwięzieni w treści](http://www.w3.org/TR/WCAG20-TECHS/G21.html)
 
--------------------------------------------------
-[Początek/Spis treści](index.md)    |    [[Następny]](ICT_02_widoczny-fokus.md)
+-------------------------------------
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Następna strona &gt; Widoczny fokus](testy/ICT_02_widoczny-fokus.md)
