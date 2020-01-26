@@ -69,7 +69,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
     -   [F85: Niespełnienie kryterium sukcesu 2.4.3 z powodu używania okien dialogowych lub menu, które nie sąsiadują z ich kontrolą wyzwalania w kolejności sekwencyjnej nawigacji](https://www.w3.org/TR/WCAG20-TECHS/F85.html)
 
 ----------------------------------------
-[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt;  Widoczny fokus](ICT_02_widoczny-fokus.md) | [Następny &gt; Treść powtarzalna](ICT_04_tresc-powtarzalna.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt;  Widoczny fokus](testy/ICT_02_widoczny-fokus.md) | [Następny &gt; Treść powtarzalna](testy/ICT_04_tresc-powtarzalna.md)
 
 
 
