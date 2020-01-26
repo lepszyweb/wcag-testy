@@ -75,4 +75,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [F46: Niespełnienie kryterium sukcesu 1.3.1 z powodu użycia elementów th, elementów caption lub niepustych atrybutów summary w tabelach formujących układ](http://www.w3.org/TR/WCAG20-TECHS/F46.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](ICT_11_tytuly-stron.md) | [[Następny]](ICT_13_struktura-tresci.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Tytuły stron](testy/ICT_11_tytuly-stron.md) | [Następny &gt; Struktura treści](testy/ICT_13_struktura-tresci.md)
