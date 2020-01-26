@@ -44,4 +44,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [H74: Zapewnienie, że znaczniki otwierające i zamykające są używane zgodnie ze specyfikacją](https://www.w3.org/TR/WCAG20-TECHS/H74.html) ORAZ [H93: Zapewnienie, że atrybuty id są unikalne](https://www.w3.org/TR/WCAG20-TECHS/H93.html) AND [H94: Zapewnienie, że elementy nie zawierają zduplikowanych atrybutów](https://www.w3.org/TR/WCAG20-TECHS/H94.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](23_WieleDrog.md) | [[Następny]](25_BrakZaklocen.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Wiele dróg](testy/ICT_23_wiele-drog.md) | [Następny &gt; Brak zakłóceń](testy/ICT_25_brak-zaklocen.md)

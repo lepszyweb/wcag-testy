@@ -114,4 +114,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [G186: Zapewnienie na stronie internetowej kontrolki, umożliwia zatrzymanie przesuwania, migania lub automatyczej aktualizacji treści](http://www.w3.org/TR/WCAG20-TECHS/G186)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](ICT_20_wersje-alternatywne.md) | [[Następny]](ICT_22_zmiana-rozmiaru-tekstu.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Zgodność z wersją alternatywną](testy/ICT_20_wersje-alternatywne.md) | [Następny &gt; Zmiana rozmiaru tekstu](testy/ICT_22_zmiana-rozmiaru-tekstu.md)

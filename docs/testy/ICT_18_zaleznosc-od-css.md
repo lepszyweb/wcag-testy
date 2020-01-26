@@ -59,7 +59,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 
 ## Procedura testu dla KS 4.1.2 Nazwa, rola, wartość
 -----------------------------------------------
-Zobacz: [5. Treść zmienna.md](05_TrescZmienna.md).
+Zobacz: [5. Treść zmienna.md](testy/ICT_05_tresc-zmienna.md).
 
 ##  Wskazówki dotyczące usprawniania procesu testowego
 ---------------------------------------------
@@ -72,4 +72,5 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [F1: Niespełnienie kryterium sukcesu 1.3.2 z powodu zmiany znaczenia treści poprzez umieszczenie informacji w CSS](https://www.w3.org/TR/WCAG20-TECHS/F1.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](17_MediaZsynchronizowane.md) | [[Następny]](19_Ramki.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Multimedia zsynchronizowane](testy/ICT_17_media-zsynchronizowane.md) | [Następny &gt; Ramki i ramki wbudowane](testy/ICT_19_ramki.md)
+

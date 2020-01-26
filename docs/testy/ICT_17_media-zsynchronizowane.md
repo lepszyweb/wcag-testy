@@ -68,7 +68,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 
 ##  Wskazówki dotyczące usprawniania procesu testowego
 ------------------------------
--   Testowanie zsynchronizowanych multimediów różni się od testów podstawowych [16. Tylko audio i tylko wideo](ICT_16_tylko-audio-tylko-wideo.md).
+-   Testowanie zsynchronizowanych multimediów różni się od testów podstawowych [16. Tylko audio i tylko wideo](testy/ICT_16_tylko-audio-tylko-wideo.md).
 -   Zsynchronizowane odtwarzacze multimedialne mogą być programami (aplikacjami) lub komponentami HTML.
 -   Na poziomie AA kryterium sukcesu 1.2.5 ma zastosowanie do multimediów zsynchronizowanych. Powiązane wymaganie poziomu A, KS 1.2.3, należy oznaczyć w raporcie z testu jako „Nie testowano”. Dopuszczalne jest, aby procesy testowe dodawały test dla KS 1.2.3 (ocenianie pełnego tekstu alternatywnego pod kątem równoważności). Dodanie takiego testu przekroczyłoby podstawowe wymagania testowe i nie wpłynęłoby na wynik testu podstawowego nr 18.
 
@@ -81,4 +81,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [G78: Zapewnienie drugiej, wybranej przez użytkownika ścieżki dźwiękowej, która zawiera opis dźwiękowy (audiodeskrypcję)](http://www.w3.org/TR/WCAG20-TECHS/G78.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](ICT_16_tylko-audio-tylko-wideo.md) | [[Następny]](ICT_18_zaleznosc-od-css.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Tylko audio i tylko wideo](testy/ICT_16_tylko-audio-tylko-wideo.md) | [Następny &gt; Zależność od CSS](testy/ICT_18_zaleznosc-od-css.md)

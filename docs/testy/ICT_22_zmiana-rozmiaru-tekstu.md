@@ -45,4 +45,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](21_LimityCzasu.md) | [[Następny]](23_WieleDrog.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Limity czasu](testy/ICT_21_limity-czasu.md) | [Następny &gt; Wiele dróg](testy/ICT_23_wiele-drog.md)

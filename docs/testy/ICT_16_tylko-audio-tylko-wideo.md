@@ -62,4 +62,4 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [G159: Zapewnienie alternatywy dla treści tylko wideo w mediach zmiennych w czasie](https://www.w3.org/TR/WCAG20-TECHS/G159.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](ICT_15_jezyk.md) | [[Następny]](ICT_17_media-zsynchronizowane.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Język](testy/ICT_15_jezyk.md) | [Następny &gt; Multimedia zsynchronizowane](testy/ICT_17_media-zsynchronizowane.md)

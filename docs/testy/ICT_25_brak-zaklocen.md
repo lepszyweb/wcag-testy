@@ -34,4 +34,4 @@ Jeżeli którakolwiek z testów zakończył się niepowodzeniem, wówczas Wymaga
 Nie dotyczy
 
 ----------------------------------------
-[Początek](ICT_00_wprowadzenie.md) | [Poprzedni](ICT_24_parsowanie.md) | [Wprowadzenie](ICT_00_wprowadzenie.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Parsowanie](testy/ICT_24_parsowanie.md) | [Następny &gt; Dodatek A](testy/ICT_26_dodatekA.md)
