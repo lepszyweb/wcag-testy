@@ -41,4 +41,4 @@ Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, ro
     -   [G195: Korzystanie z dobrze widocznego wskaźnika fokusa dostarczonego przez autora](https://www.w3.org/TR/WCAG20-TECHS/G195.html)
 
 ----------------------------------------
-[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Klawiatura](testy/ICT_01_klawiatura.md) | [[Następny &gt; Kolejność fokusa](ICT_03_kolejnosc-fokusa.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Klawiatura](testy/ICT_01_klawiatura.md) | [Następny &gt; Kolejność fokusa](testy/ICT_03_kolejnosc-fokusa.md)
