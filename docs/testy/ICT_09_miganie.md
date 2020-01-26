@@ -51,5 +51,5 @@ Jeżeli WSZYSTKIE powyższe próby zakończą się niepowodzeniem, wówczas test
     -   [G176: Ograniczanie obszaru migania do bezpiecznego rozmiaru](https://www.w3.org/TR/WCAG20-TECHS/G176.html)
 
 ----------------------------------------
-[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Kontrast](testy/08_Kontrast.md) | [Następny &gt; Formularze](testy/ICT_10_formularze.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Kontrast](testy/ICT_08_kontrast.md) | [Następny &gt; Formularze](testy/ICT_10_formularze.md)
 
