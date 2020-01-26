@@ -36,4 +36,6 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
     -   [F25: Niespełnienie kryterium sukcesu 2.4.2 ze względu na tytuł strony internetowej, która nie identyfikuje treści](https://www.w3.org/TR/WCAG20-TECHS/F25.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](10_Formularze.md) | [[Następny]](12_TabeleDanych.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Formularze](testy/ICT_10_formularze.md) | [Następny &gt; Tabele danych](testy/ICT_12_tabele-danych.md)
+
+

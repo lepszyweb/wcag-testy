@@ -19,7 +19,7 @@ Ten test rozwiązuje problem migania spowodowanego przez samą treść, w tym:
 --------------------------------------
 - Możliwe jest, że użytkownicy będą mogli oglądać zawartość w rozdzielczości lub z odległości znacznie różniącej się od rozdzielczości i odległości przewidywanej (założonej).
 - Do celów tego testu podstawowego terminy migani i mruganie mogą być używane synonimicznie z terminem błysk, blyskanie.
-- Migające elementy, które spełniają ten wymóg, nadal muszą spełniać wymagania KS 2.2.2 2.2.2 Wstrzymywanie (pauza), zatrzymywanie, ukrywanie, jeśli miganie trwa dłużej niż 5 sekund ([Wymaganie podstawowe 21. Limity czasu](21_LimityCzasu.md)).
+- Migające elementy, które spełniają ten wymóg, nadal muszą spełniać wymagania KS 2.2.2 2.2.2 Wstrzymywanie (pauza), zatrzymywanie, ukrywanie, jeśli miganie trwa dłużej niż 5 sekund ([Wymaganie podstawowe 21. Limity czasu](testy/ICT_21_limity-czasu.md)).
 - Uwaga z KS 2.3.1:
     - Uwaga 1: Ponieważ każda treść, która nie spełnia tego kryterium sukcesu może utrudnić użytkownikowi skorzystanie z całej strony, cała zawartość danej strony (bez względu na to, czy spełnia inne kryteria, czy nie) musi spełnić powyższe kryterium. Zobacz: Wymagania zgodności: Brak zakłóceń.
 	
@@ -51,4 +51,5 @@ Jeżeli WSZYSTKIE powyższe próby zakończą się niepowodzeniem, wówczas test
     -   [G176: Ograniczanie obszaru migania do bezpiecznego rozmiaru](https://www.w3.org/TR/WCAG20-TECHS/G176.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](08_Kontrast.md) | [[Następny]](10_Formularze.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Kontrast](testy/08_Kontrast.md) | [Następny &gt; Formularze](testy/ICT_10_formularze.md)
+

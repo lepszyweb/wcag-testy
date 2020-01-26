@@ -47,4 +47,5 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [F89: Niespełnienie kryterium sukcesu 2.4.4, 2.4.9 i 4.1.2 ze względu na brak podania dostępnej nazwy obrazu, który jest jedyną treścią w linku](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F89)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](ICT_13_struktura-tresci.md) | [[Następny]](ICT_15_jezyk.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Struktura treści](testy/ICT_13_struktura-tresci.md) | [Następny &gt; Język](testy/ICT_15_jezyk.md)
+

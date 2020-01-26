@@ -53,4 +53,6 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [H58: Używanie atrybutu lang do wskazywania zmian w języku naturalnym](https://www.w3.org/TR/WCAG20-TECHS/H58.html)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](14_LaczaPrzyciski.md) | [[Następny]](16_TylkoAudioTylkoWideo.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Język](testy/ICT_15_jezyk.md) | [Następny &gt; Tylko audio i tylko wideo](testy/ICT_16_tylko-audio-tylko-wideo.md)
+
+

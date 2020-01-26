@@ -94,4 +94,6 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [H48: Używanie ol, ul i dl dla list lub grup łączy](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H48)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](12TabeleDanych.md) | [[Następny]](14LaczaPrzyciski.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Tabele danych](testy/ICT_12_tabele-danych.md) | [Następny &gt; Łącza i przyciski](testy/ICT_14_lacza-przyciski.md)
+
+

@@ -95,4 +95,4 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
     -   [C9: Używanie CSS do dodawania obrazów dekoracyjnych](http://www.w3.org/TR/WCAG20-TECHS/C9.html)
 
 ----------------------------------------
-[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Treść zmienna](testy/ICT_05_tresc-zmienna.md) | [Następny&gt; Właściwości zmysłowe](testy/ICT_07_wlasciwosci-zmyslowe.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Treść zmienna](testy/ICT_05_tresc-zmienna.md) | [Następny &gt; Właściwości zmysłowe](testy/ICT_07_wlasciwosci-zmyslowe.md)

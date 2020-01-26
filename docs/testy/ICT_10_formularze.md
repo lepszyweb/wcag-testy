@@ -142,7 +142,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 
 ## Procedura testu dla KS 4.1.2 Nazwa, rola, wartość
 ----------------------------------------------------
-Zobacz [5. Treść zmienna](05TrescZmienna.md)
+Zobacz [5. Treść zmienna](testy/ICT_05_tresc-zmienna.md)
 
 ##  Wskazówki dotyczące usprawniania procesu testowego
 ----------------------------------------------------------
@@ -167,4 +167,5 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 -   [F37: Niespełnienie kryterium sukcesu 3.2.2 z powodu uruchomienia nowego okna bez uprzedniego ostrzeżenia po zmianie wyboru przycisku radiowego, pola wyboru lub listy wyboru](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F37)
 
 ----------------------------------------
-[Początek/Spis treści](index.md) | [Poprzedni](ICT_09_miganie.md) | [[Następny]](ICT_11_tytuly-stron.md)
+[Początek/Wprowadzenie](testy/ICT_00_wprowadzenie.md) | [Poprzedni &gt; Miganie](testy/ICT_09_miganie.md) | [Następny &gt; Tytuły stron](testy/ICT_11_tytuly-stron.md)
+
