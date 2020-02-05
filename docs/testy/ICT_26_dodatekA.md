@@ -1,7 +1,7 @@
-Dodatek C – Tablica porównawcza
+Dodatek A – Tablica porównawcza
 ===================================
 
-Testy podstawowe kryteria sukcesu WCAG 2.1
+Testy podstawowe a kryteria sukcesu WCAG 2.1
 ----------------------------------------
 
 | Test podstawowy               | Kryterium sukcesu WCAG                                             |

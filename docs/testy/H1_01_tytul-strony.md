@@ -36,7 +36,7 @@ Kryterium sukcesu: [2.4.2 Tytuły stron](https://wcag.lepszyweb.pl/#page-titled)
 - [ Accessible Publishing Knowledge Base. Page Title](http://kb.daisy.org/publishing/docs/html/title.html)
 #### Pomocne narzędzia:
 -	skryptozakładka [Page Title](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama. Wyświetla tytuł strony w oknie dialogowym. Umożliwia skopiowanie tytułu do schowka.
--	opcja *structure* w skryptozakładce ANDI  https://www.ssa.gov/accessibility/andi/help/install.html 
+-	opcja *structure* w skryptozakładce ANDI  https://www.ssa.gov/accessibility/images/andi/help/install.html 
 
 #### Wykorzystanie skryptozkładki ANDI
 ![Wykorzystanie skryptozkładki ANDI](/img/andi_page-title.png) 

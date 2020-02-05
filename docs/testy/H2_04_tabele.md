@@ -58,7 +58,7 @@ o	W przypadku tabel układu, poprawna jest kolejność odczytu, gdy tabela jest 
 -	skryptozakładka [Complex Tables Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access. Pobiera powiązaną zawartość komórki nagłówka z każdej komórki, do której odwołuje się atrybut nagłówka, i umieszcza je na ekranie w komórce danych w taki sam sposób, w jaki czytnik ekranu może prezentować nagłówki użytkownikom czytnika ekranu.
 -	skryptozakładka [tables](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama. Wstawia znaczniki i atrybuty tabeli danych na żółtym tle, dzięki czemu można łatwo identyfikować błędy dostępności w tabeli.
 -	skryptozakładka [Content Structure](https://accessibility-bookmarklets.org/install.html) z kolekcji Pixo i University of Illinois. z kolekcji Pixo i University of Illinois. Autorzy wykorzystali skrypt Inhalte gegliedert, wzbogacając go o rozpoznawanie struktury list, tabel, linków i elementów formularzy.
--	Opcja *tables* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
+-	Opcja *tables* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/images/andi/help/install.html) 
 
 #### Techniki WCAG 2.1
 _do opracowania_

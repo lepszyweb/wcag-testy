@@ -41,7 +41,7 @@ Uwaga: Nagłówki mogą być również zdefiniowane za pomocą atrybutu ARIA `ro
 #### Pomocne narzędzia:
 -	skryptozakładka [Headings](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
 -	skryptozakladka [H123](https://hinderlingvolkart.github.io/h123/). Wyświetla konspekt nagłówków przeglądanej strony. Autorzy z Hinderling Volkart AG  promują ją hasłem „Zobacz nagłówki jak czytnik ekranu!”.
--	Opcja *struktures* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
+-	Opcja *struktures* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/images/andi/help/install.html) 
 
 #### Techniki WCAG 2.1
 _do opracowania_

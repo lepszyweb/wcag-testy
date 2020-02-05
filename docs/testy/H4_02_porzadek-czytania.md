@@ -38,7 +38,7 @@ Kryterium sukcesu: [1.3.2 Zrozumiała kolejność](https://wcag.lepszyweb.pl/#me
 -	skryptozakładka [Reading Order Bookmarklet](https://adrianroselli.com/2019/04/reading-order-bookmarklet.html) z kolekcji Adriana Roselli
 -	bezpłatny czytnik ekranu [NVDA](https://www.nvda.pl/pobierz) dla Windows
 -	skryptozakładka [Screen Curtain](http://whatsock.com/training/matrices/screen_curtain.htm) z kolekcji WhatSock. 
--	opcja structure w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
+-	opcja structure w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/images/andi/help/install.html) 
 
 *Uwaga*: Aby odsłuchać treść strony czytnikiem NVDA, użyj najpierw kombinacji klawiszy Ctrl+Home, a następnie [NVDA]+Strzałka w dół ([NVDA] to klawisz modyfikujący, domyślnie Insert, często zmieniany na CAPSLock).
 

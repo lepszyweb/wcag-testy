@@ -28,7 +28,7 @@ Kryterium sukcesu: [3.1.1 Język strony](https://wcag.lepszyweb.pl/#language-of-
 #### Pomocne narzędzia:
 - skryptozakładka [Images](http://pauljadam.com/bookmarklets/index.html)  z kolekcji Paula J. Adama
 - skryptozakładka [Lang Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access
-- opcja *structure* w skryptozakładce ANDI  https://www.ssa.gov/accessibility/andi/help/install.html 
+- opcja *structure* w skryptozakładce ANDI  https://www.ssa.gov/accessibility/images/andi/help/install.html 
 
 #### Wykorzystanie skryptozkładki ANDI
 ![Wykorzystanie skryptozkładki ANDI](/img/andi_lang.png) 

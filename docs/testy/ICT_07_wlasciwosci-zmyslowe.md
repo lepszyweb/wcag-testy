@@ -38,8 +38,8 @@ Zidentyfikuj instrukcje dotyczące rozumienia i obsługi treści, które wykorzy
     -   Aby zobaczyć zmiany, wybierz okrągły przycisk z napisem „Idź” (dodatkowa informacja o napisie na przycisku).
     -   Linki po prawej stronie, z nagłówkiem „Zasoby”, zawierają dalsze informacje (dodatkowa informacja o nagłówku).
     -   Wybierz przycisk \[Anuluj\] w prawym dolnym rogu, aby zamknąć tę sesję (podana nazwa przycisku).
-2.  Sprawdź, czy wszelkie wskazówki dźwiękowe dostarczają wskazówek wizualne i/lub tekstowych określonych programowo. Na przykład,
-    -   Rozpocznij quiz po usłyszeniu sygnału dźwiękowego i pojawieniu się czasomierza.
+2.  Sprawdź, czy wszelkie wskazówki dźwiękowe dostarczają wskazówek wizualnych i/lub tekstowych określonych programowo. Na przykład,
+    -   „Rozpocznij quiz po usłyszeniu sygnału dźwiękowego i pojawieniu się zegara”.
 
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 1.3.3 oraz Wymaganie podstawowe nr 7 kończy się niepowodzeniem.

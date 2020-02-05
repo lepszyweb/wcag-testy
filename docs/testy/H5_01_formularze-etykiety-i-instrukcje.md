@@ -67,8 +67,8 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
 -	skryptozakładka [Forms](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
 -	skryptozakładka [Form Labels](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera
 -	skryptozakładka [Forms](https://accessibility-bookmarklets.org/install.html) z kolekcji Pixo i University of Illinois. z kolekcji Pixo i University of Illinois.
--	Opcja focusable elements w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
--	Opcja links/buttons w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
+-	Opcja focusable elements w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/images/andi/help/install.html) 
+-	Opcja links/buttons w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/images/andi/help/install.html) 
 
 #### Techniki WCAG 2.1
 _do opracowania_

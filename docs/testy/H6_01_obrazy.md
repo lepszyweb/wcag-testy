@@ -49,7 +49,7 @@ Kryterium sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-t
 -	skryptozakładka [Images](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
 -	skryptozakładka [Active Images](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera
 -	skryptozakładka [Img-Alt Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access
--	opcja graphics/images w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html) 
+-	opcja graphics/images w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/images/andi/help/install.html) 
 
 #### Techniki WCAG 2.1
 _do opracowania_
