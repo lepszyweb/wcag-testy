@@ -1,0 +1,167 @@
+---
+title: Układ losowy
+tags: [special_layouts]
+last_updated: November 30, 2015
+keywords: shuffle, card layout, dynamic grid, doc portal, support portal
+summary: "Ten układ pokazuje przykład systemu nawigacji w stylu bazy wiedzy, w którym nie ma hierarchii, tylko grupy stron z określonymi znacznikami."
+permalink: mydoc_shuffle.html
+sidebar: mydoc_sidebar
+folder: mydoc
+---
+
+
+
+{% if site.output == "pdf" %}
+{{site.data.alerts.note}} Zawartość tej strony nie jest dobrze wyświetlana w formacie PDF, ale i tak ją włączyłem, abyś mógł zobaczyć, jakie problemy stwarza ten układ, jeśli włączysz go do PDF.  {{site.data.alerts.end}}
+{% endif %}
+
+{% unless site.output == "pdf" %}
+<script src="js/jquery.shuffle.min.js"></script>
+<script src="js/jquery.ba-throttle-debounce.min.js"></script>
+{% endunless %}
+
+      <div class="filter-options">
+      <button class="btn btn-primary" data-group="all">All</button>
+      <button class="btn btn-primary" data-group="getting_started">Getting Started</button>
+      <button class="btn btn-primary" data-group="formatting">Formatting</button>
+      <button class="btn btn-primary" data-group="publishing">Publishing</button>
+      <button class="btn btn-primary" data-group="content-types">Content types</button>
+          <button class="btn btn-primary" data-group="single_sourcing">Single Sourcing</button>
+      <button class="btn btn-primary" data-group="special_layouts">Special Layouts</button>
+    </div>      
+
+<div id="grid" class="row">
+
+
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["getting_started"]'>
+
+               <div class="panel panel-default">
+               <div class="panel-heading">Pierwsze kroki</div>
+               <div class="panel-body">
+                  Jeśli zaczynasz pracę z Jekyll, zapoznaj się z linkami w tej sekcji. Zabierze Cię od poziomu początkowego do komfortowego.
+                  <ul>
+                {% for page in site.pages %}
+                {% for tag in page.tags %}
+                {% if tag == "getting_started" %}
+                  <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %} 
+                  </ul>
+               </div>
+            </div>
+    
+    </div>
+   
+
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["content-types"]'>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">Typy treści</div>
+            <div class="panel-body">
+                W tej sekcji wymieniono różne typy treści i sposób ich obsługi.
+                <ul>
+                    {% for page in site.pages %}
+                    {% for tag in page.tags %}
+                    {% if tag == "content-types" %}
+                    <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["formatting"]'>
+
+                <div class="panel panel-default">
+               <div class="panel-heading">Formatowanie</div>
+               <div class="panel-body">
+                  W tych tematach omówiono składnię formatowania, taką jak obrazy i tabele, których będziesz używać na każdej ze swoich stron:
+                  <ul>
+                {% for page in site.pages %}
+                {% for tag in page.tags %}
+                {% if tag == "formatting" %}
+                  <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+                  </ul>
+               </div>
+            </div>
+
+    </div>
+
+    <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["single_sourcing"]'>
+         
+      <div class="panel panel-default">
+               <div class="panel-heading">Pojedyncze źródło</div>
+               <div class="panel-body">Tematy te obejmują strategie dla single_sourcing. Pojedyncze pozyskiwanie odnosi się do strategii ponownego wykorzystania tego samego źródła w różnych produktach dla różnych odbiorców lub celów.
+               <ul>
+                {% for page in site.pages %}
+                {% for tag in page.tags %}
+                {% if tag == "single_sourcing" %}
+                  <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %} 
+               </ul>
+            </div>
+         </div>
+
+    </div>
+
+       <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["publishing"]'>
+
+           <div class="panel panel-default">
+               <div class="panel-heading">Publikacja</div>
+               <div class="panel-body">Podczas tworzenia, publikowania i wdrażania witryny Jekyll te tematy mogą okazać się pomocne.
+                   <ul>
+                {% for page in site.pages %}
+                {% for tag in page.tags %}
+                {% if tag == "publishing" %}
+                  <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+                   </ul>
+               </div>
+            </div>
+
+    </div>
+
+        <div class="col-xs-6 col-sm-4 col-md-4" data-groups='["special_layouts"]'>
+
+             <div class="panel panel-default">
+               <div class="panel-heading">Specjalne układy</div>
+               <div class="panel-body">
+                  Strony te podkreślają specjalne układy poza konwencjonalną hierarchią stron i spisu treści.
+                  <ul>
+                {% for page in site.pages %}
+                {% for tag in page.tags %}
+                {% if tag == "special_layouts" %}
+                     <li><a href="{{page.url | remove: '/'}}">{{page.title}}</a></li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %} 
+                  </ul>
+               </div>
+            </div>
+
+    </div>
+          <!-- sizer -->
+      <div class="col-xs-6 col-sm-4 col-md-1 shuffle_sizer"></div>          
+
+
+    </div><!-- /#grid -->
+
+{% unless site.output == "pdf" %}
+{% include initialize_shuffle.html %}
+{% endunless %}
+
+{{site.data.alerts.note}} Był to głównie eksperyment mający na celu sprawdzenie, czy mogę oderwać się od hierarchicznego spisu treści i zapewnić inny sposób porządkowania treści. Jednak ten układ jest nieco problematyczny, ponieważ nie pozwala na przeglądanie innych opcji nawigacji z boku podczas przeglądania tematu.{{site.data.alerts.end}}
+

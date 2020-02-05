@@ -1,0 +1,28 @@
+# Note:
+# If you are using the createtag script, don't leave an blank line at the end of this file.
+# In other words, the last line must be the last tag in the allowed-tags list.
+allowed-tags:
+  - audiodeskrypcja
+  - aktualności
+  - błędy
+  - czytelność
+  - formatowanie
+  - formularze
+  - identyfikacja
+  - interakcja
+  - klawiatura
+  - konsekwencja
+  - kontrast
+  - media
+  - migotanie
+  - nagłówki
+  - nawigacja
+  - parsowanie
+  - przewidywalność
+  - punkt_orientacyjny
+  - semantyka
+  - spójność
+  - struktury
+  - transkrypcja
+  - widżet
+  - wyróżnienie

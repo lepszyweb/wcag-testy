@@ -1,0 +1,58 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: GitHub
+      external_url: https://github.com/lepszyweb/wcag-testy
+    - title: Dziennik
+      url: /dziennik
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Standardy
+      folderitems:
+        - title: Wprowadzenie
+          url: /standardy_wprowadzenie
+        - title: Postrzegalność
+          url: /standardy_postrzegalnosc
+        - title: Funkcjonalność
+          url: /standardy_funkcjonalnosc
+        - title: Zrozumiałość
+          url: /standardy_zrozumialosc
+        - title: Rzetelność
+          url: /standardy_rzetelnosc
+    - title: Metody
+      folderitems:
+        - title: Wprowadzenie
+          url: /met_wprowadzenie
+        - title: Metody, podejścia
+          url: /met_uwem
+    - title: Testy
+      folderitems:
+        - title: Jednolita baza testów
+          url: /testy_wprowadzenie
+        - title: Baza testów wstępnych
+          url: /00_P_wprowadzenie
+        - title: Baza testów podstawowych
+          url: /jbt_landing_page
+        - title: Baza testów ITC
+          url: /ICT_00_wprowadzenie
+        - title: Wielostopniowa ocena zgodności
+          url: /MSU_00_wprowadzenie
+        - title: Pomocnik adepta dostepności
+          url: /1-0-0_wprowadzenie
+    - title: Narzędzia
+      folderitems:
+        - title: Wprowadzenie
+          url: /nod_wprowadzenie
+        - title: Rozszerzenia przeglądarek
+          url: /nod_firefox-inspektor-dostepnosci
+        - title: Aplikacje
+          url: /nod_cca
+        - title: Skryptozakładki
+          url: /nod_ANDI
+        - title: Usługi internetowe
+          url: /nod_jasnopis

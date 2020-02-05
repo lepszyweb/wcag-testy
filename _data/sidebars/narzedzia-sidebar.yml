@@ -1,0 +1,70 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Menu lokalne
+  product: Narzędzia oceny
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Narzędzia oceny
+    output: web, pdf
+    folderitems:
+    - title: Wprowadzenie
+      url: /nod_wprowadzenie
+      output: web
+    - title: O repozytorium
+      url: /nod_repozytorium
+      output: web
+
+  - title: Rozszerzenia przeglądarek
+    output: web, pdf
+    folderitems:
+    - title: Inspektor dostępności w Firefox
+      url: /nod_firefox-inspektor-dostepnosci
+      output: web
+
+    - title: ARC Toolkit
+      url: /nod_arc
+      output: web, pdf
+
+  - title: Aplikacje
+    output: web, pdf
+    folderitems:
+    - title: Color Contrast Analyzer
+      url: /nod_cca
+      output: web
+
+  - title: Skryptozakładki
+    output: web, pdf
+    folderitems:
+    - title: ANDI
+      url: /nod_andi
+      output: web
+
+    - title: WET
+      url: /nod_wet
+      output: web, pdf
+
+  - title: Usługi internetowe
+    output: web, pdf
+    folderitems:
+    - title: Jasnopis
+      url: /nod_jasnopis
+      output: web
+
+    - title: Logios
+      url: /nod_logios
+      output: web, pdf

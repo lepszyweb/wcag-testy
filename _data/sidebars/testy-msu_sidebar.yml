@@ -1,0 +1,54 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Menu lokalne
+  product: Wielostopniowa ocena zgodności
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Wielostopniowa ocena zgodności
+    output: web, pdf
+    folderitems:
+    - title: Wprowadzenie
+      url: /MSU_00_wprowadzenie
+      output: web
+
+  - title: Testy
+    output: web, pdf
+    folderitems:
+    - title: Poziom 1
+      url: /MSU_01_poziom_1
+      output: web
+
+    - title: Poziom 2
+      url: /MSU_01_poziom_2
+      output: web, pdf
+
+    - title: Poziom 3
+      url: /MSU_01_poziom_3
+      output: web, pdf
+
+    - title: Poziom 4
+      url: /MSU_01_poziom_4
+      output: web, pdf
+
+    - title: Poziom 5
+      url: /MSU_01_poziom_5
+      output: web, pdf
+
+    - title: Poziom 6
+      url: /MSU_01_poziom_6
+      output: web, pdf
