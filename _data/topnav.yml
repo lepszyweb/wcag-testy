@@ -28,8 +28,12 @@ topnav_dropdowns:
       folderitems:
         - title: Wprowadzenie
           url: /met_wprowadzenie
-        - title: Metody, podejścia
+        - title: Znane podejścia
           url: /met_uwem
+        - title: Procedury oceny
+          url: /met_testy-automatyczne
+        - title: Metodyki oceniania
+          url: /met_ocena-dostepnosci-pojedynczej-strony        
     - title: Testy
       folderitems:
         - title: Jednolita baza testów
