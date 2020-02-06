@@ -1,0 +1,60 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Menu lokalne
+  product: Metody, metodologie...
+  folders:
+
+  - title: Metody, metodologie...
+    output: web, pdf
+    folderitems:
+    - title: Wprowadzenie
+      url: /met_wprowadzenie
+      output: web
+
+  - title: Znane podejścia
+    output: web, pdf
+    folderitems:
+    - title: UWEM
+      url: /met_uwem
+      output: web
+
+    - title: Metoda RGAA
+      url: /met_rgaa
+      output: web, pdf
+
+    - title: Polska metodyka
+      url: /met_polska
+      output: web, pdf
+
+    - title: WCAG-EM
+      url: /met_wcag-em
+      output: web, pdf
+  - title: Procedury oceny
+    output: web, pdf
+    folderitems:
+    - title: Testy automatyczne (w planie)
+      url: /met_testy-automatyczne
+      output: web
+    - title: Analiza poznawcza (w planie)
+      url: /met_analiza-poznawcza
+      output: web
+    - title: Testy przypadków użycia (w planie)
+      url: /met_testy-przypadkow-uzycia
+      output: web
+    - title: Testy z użytkownikami (w planie)
+      url: /met_testy-z-uzytkownikami
+      output: web
+  - title: Metodyki
+    output: web, pdf
+    folderitems:
+    - title: Ocena pojedynczej strony
+      url: /met_ocena-dostepnosci-pojedynczej-strony
+      output: web
+    - title: Ocena komponentów interfejsu (w planie)
+      url: /met_ocena-komponentow-interfejsu
+      output: web
+    - title: Ocena szablonu (w planie)
+      url: /met_ocena-szablonu
+      output: web

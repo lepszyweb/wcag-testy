@@ -6,9 +6,93 @@ audio: "Treści przekazywane elektronicznie dźwiękiem, technika rejestrowania 
 
 ATAG: "Akronim od angielskiego tytułu dokumentu [Authoring Tool Accessibility Guidelines](https://www.w3.org/TR/ATAG20/) (Wytyczne dotyczące dostępności narzędzi autorskich)."
 
+audytor: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny."
+
 blok_tekstu: "Tekst składający się z więcej niż jednego zdania."
 
+cel_lacza: "(ang. _link purpose_). Oczekiwany skutek aktywacji łącza."
+
+cel_testu: "Przyczyna lub powód zaprojektowania i przeprowadzenia testu."
+
+ewaluator: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny."
+
+interaktywność: "Zdolność do wzajemnego oddziaływania na siebie, zdolność programu lub urządzenia do jednoczesnego odbierania informacji i reagowania na nią."
+
+język_naturalny: "(ang. _human language_). Język mówiony, pisany lub język migowy (zarówno znaków wizualnych, jak dotykowych) służący do komunikowania się między ludźmi. *Uwaga:* zobacz także „język migowy”."
+
+język_migowy: "(ang. _sign language_). Język stosujący kombinację gestów dłoni i ramion, mimiki twarzy i pozycji ciała, w celu przekazania informacji."
+
+kierownik_testów: "Osoba odpowiedzialna za zarządzanie czynnościami testowymi, zasobami oraz oceną przedmiotu testu. Osoba, która kieruje, zarządza, administruje, planuje i reguluje ocenę przedmiotu testu."
+
+komisarz_ds._oceny: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot, który zlecił ocenę.
+Uwaga: W wielu przypadkach komisarz ds. oceny może być właścicielem lub twórcą witryny, w innych przypadkach może to być inny podmiot, taki jak zamawiający lub właściciel ankiety monitorującej dostępność."
+
+lista_zasobów_podstawowych: "(ang. _Core Resource List_). Zbiór zasobów ogólnych, kluczowych dla oceny użyteczności i dostępności witryny, które można znaleźć na większości witryn."
+
+media_zmienne_w_czasie: "Media dynamiczne, oparte na sekwencji obrazów i dźwięków"
+
+oceniający: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny."
+
+parsowanie: "Analiza kodu źródłowego napisanego w języku programowania w celu przetworzenia tekstowych danych wejściowych na hierarchiczną strukturę danych."
+
+plan_testów: "Dokumentacja opisująca cele testowe do osiągnięcia oraz środki i harmonogram ich realizacji, zorganizowane tak, by koordynować czynności testowe (wg ISO 29119)"
+
+planowanie_testów: "Czynność tworzenia planów testów lub wprowadzanie do nich zmian."
+
+podejście_do_testowania: "Implementacja strategii testowej w określonym projekcie."
+
+proces_testowy: "Zbiór powiązanych ze sobą działań obejmujący planowanie i  monitorowanie testów,  analizę testów, projektowanie testów, implementację testów i zakończenie testów."
+
+program_użytkownika: "(ang. _user agent_). Oprogramowanie umożliwiające pobieranie i przeglądanie treści internetowych. *Przykłady:* Przeglądarki internetowe, odtwarzacze multimediów, wtyczki, oraz inne programy — również technologie wspomagające — które pomagają w wyszukiwaniu, przetwarzaniu i interakcji z treścią stron WWW."
+
+przegląd_formalny: "Typ przeglądu, który przebiega według zdefiniowanego procesu, z formalnie  udokumentowanym wynikiem (wg ISO/IEC 20246)"
+
+renderowanie: "(ang. _rendering_). Przedstawianie informacji zawartych w dokumencie elektronicznym w formie najbardziej właściwej dla danego środowiska, np. wizualnie lub dźwiękowo."
+
+przegląd_nieformalny: "Rodzaj przeglądu bez formalnej (udokumentowanej)  procedury (wg ISO/IEC 20246)"
+
+strategia_testów: "Dokumentacja, która wyraża ogólne wymagania dotyczące testowania jednego lub większej liczby projektów prowadzonych worganizacji, dostarczająca szczegółowych informacji na  temat sposobu przeprowadzania testów i zgodna z polityką testów (wg ISO 29119)"
+
+sumaryczny_raport_z_testów: "Raport z testów, który zawiera ocenę odpowiednich pozycji  testowych w odniesieniu do  kryteriów wyjścia (wg ISO 29119)"
 
 sztuka_tekstowa: "ASCII art. Proste rysunki tworzone za pomoca znaków ASCII układanych na obszarze o stałej szerokości kolumn oraz o stałej wysokości znaków. Ten sposób tworzenia grafiki, a raczej jej symbolizowania, nazywa się semigrafiką lub pseudografiką. ASCII-Art były początkowo tworzone z myślą o wydrukowaniu ich na drukarkach znakowych. Przykładem prostych ASCII-Art są ikony emocji (emotikony)."
 
-cel_lacza: (ang. _link purpose_). Oczekiwany skutek aktywacji łącza.
+środowisko_testowe: "Środowisko, w skład którego wchodzi sprzęt,  wyposażenie, symulatory,  narzędzia programowe oraz inne elementy  wspierające, potrzebne do wykonania testu (wg ISO/IEC/IEEE 24765)"
+
+szablony: "(ang _templates_) Wzorce, które są wypełniane treścią przez autorów lub za pomocą narzędzia autorskiego (np. szablony dokumentów, szablony zarządzania treścią, motywy prezentacji). Szablony zwykle zastępują autorów, przynajmniej częściowo, w decydowaniu o układzie i&nbsp;stylizacji treści."
+
+retest: "test poprawek błędów"
+
+test_niezdany: "Status przypisany do wykonanego  testu, gdy wynik rzeczywisty nie jest zgodny z wynikiem oczekiwanym."
+
+test_zdany: "Status przypisany do wykonanego  testu, gdy wynik rzeczywisty jest zgodny z wynikiem oczekiwanym."
+
+testowanie_dostępności_cyfrowej: "Proces kontroli jakości dokumentu cyfrowego lub aplikacji w celu sprawdzenia zgodności z uznanym standardem dostępności (np. WCAG) lub dostosowania do wymagań osób ze specjalnymi potrzebami (osób z niepełnosprawnościami, starszych, w warunkach ograniczających możliwość korzystania z określonego medium, np. dźwięku)"
+
+twórca_strony_internetowej: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot zaangażowany w proces tworzenia witryny, w tym między innymi autorzy treści, projektanci, programiści, testerzy zapewniania jakości oraz menadżerowie projektu."
+
+usprawnienie_procesu_testowego: "Program aktywności zaprojektowany, aby poprawić wydajność i dojrzałość procesu testowego w organizacji  oraz wynik takiego programu (wg CMMI)"
+
+UAAG: "Akronim od angielskiego tytułu dokumentu [User Agent Accessibility Guidelines] (https://www.w3.org/TR/UAAG20/) (Wytyczne dotyczące dostępności oprogramowania użytkownika: przeglądarek i innych aplikacji i urządzeń służących do odczytywania treści cyfrowych)."
+
+warunek_testowy: "Aspekt podstawy testów, który jest istotny dla osiągnięcia określonych celów testowych."
+
+WCAG: "Akronim (skrót) od angielskiego tytułu zbioru dokumentów [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) – opublikowanego przez WAI, zawierający zalecenia dotyczące tworzenia dostępnych treści internetowych. 15 października 2012 roku wytyczne WCAG w wersji 2.0 zyskały status międzynarodowej normy ISO/IEC 40500:2012."
+
+wideo: "Treści przekazywane elektronicznie złożone z sekwencji obrazów, technika rejestrowania i przekazywania sygnałów wizyjnych."
+
+właściciel_strony: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za stronę internetową."
+
+wymaganie_testowalne: "Wymaganie, które jest określone przy użyciu pojęć umożliwiających stworzenie projektu testu (a następnie przypadków  testowych) i wykonanie testów w celu określenia, czy wymaganie  to zostało spełnione (wg IEEE 610)."
+
+wspólne_strony_internetowe: "(ang. Common web pages). Strony i stany stron internetowych **wspólne** dla całej witryny, odnoszące się do całej witryny, istotne dla funkcjonowania całej witryny, takie jak strona główna, strona logowania, mapa witryny, strona kontaktowa, strona pomocy, strona informacji prawnych i podobne, które są zazwyczaj połączone ze wszystkimi innymi stronami witryny (zwykle poprzez łącze w nagłówku, w&nbsp;stopce albo w menu nawigacyjnym)."
+
+zaliczony: "Test jest uważany za zaliczony lub zdany, jeśli jego rezultat jest zgodny z rezultatem oczekiwanym."
+
+zarządzanie_testami: "Planowanie, harmonogramowanie, szacowanie, monitorowanie, raportowanie, nadzór i zakańczanie czynności testowych (wg ISO/IEC/IEEE 29119)."
+
+zasób: "Sieciowy (internetowy) obiekt danych identyfikowany przez unikalny identyfikator URI (ang. _Uniform Resource Identifier_). *Uwaga*: Definicja obejmuje zarówno zasoby HTTP, jak i zasoby nie-HTTP, takie jak np. zasoby dostępne za pośrednictwem protokołu FTP."
+
+zgodność: "(ang _conformance_). Spełnienie wszystkich wymagań danej normy, wytycznych lub specyfikacji"
+
+zlecający_ocenę: "(ang. evaluation commissioner. Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot, który zlecił ocenę. *Uwaga*: W wielu przypadkach zlecajacym ocenę będzie właściciel lub twórca, wydawca witryny. Ale może to być również np. naukowiec prowadzący badania dostępności albo podmiot monitorujący dostępność stron internetowych i aplikacji mobilnych."
