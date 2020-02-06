@@ -1,8 +1,9 @@
 ---
 title: Wprowadzenie
-sidebar: testy-proste_sidebar
+sidebar: home_sidebar
 permalink: przeglad_wprowadzenie
 folder: startowa
+toc: false
 ---
 
 # Testy dostępności cyfrowej

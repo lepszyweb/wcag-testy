@@ -33,7 +33,7 @@ entries:
     folderitems:
 
     - title: Wprowadzenie
-      url: /przeglad_wprowadzennie
+      url: /przeglad_wprowadzenie
       output: web, pdf
 
   - title: Standardy, wskazówki
