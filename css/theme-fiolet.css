@@ -180,6 +180,9 @@ pre {
 .navbar-nav >li {margin: 20px 0 0;}
 
 .text-white {color:#fff;}
+a.text-white:focus {
+    color:#fff;
+}
 .bg-primary {
       background-color: #4d245e!important;}
 .bg-secondary {
@@ -246,4 +249,9 @@ height: 100%;
 }
 .row {
  margin-right: 0;
+}
+
+footer [data-anchorjs-icon]::after {
+color: white;
+
 }

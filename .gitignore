@@ -4,6 +4,7 @@ _site/
 _pdf
 .DS_Store
 .idea
+.vscode
 vendor/
 .bundle/
 pages/startowa/przeglad_wprowadzenie1.md
