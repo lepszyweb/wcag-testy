@@ -39,9 +39,8 @@ exclude:
 # feedback_email: kontakt@lepszyweb.pl
 # używany jako email kontaktowy dla linku Feedback na górnym pasku nawigacyjnym
 
-# feedback_disable: true
-# if you uncomment the previous line, the Feedback link gets removed
-# jeśli odznaczysz poprzednią linię, link Feedback zostanie usunięty.
+feedback_disable: true
+# jeśli odkomentujesz poprzednią linię, link Feedback zostanie usunięty.
 
 # feedback_text: "Potrzebujesz pomocy?"
 # jeśli odkomentujesz poprzedni wiersz, zmieni się tekst  łącza Feedback
