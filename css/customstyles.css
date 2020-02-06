@@ -246,7 +246,7 @@ div#toc ul li {
     list-style: square;
 }
 div#toc ul {
-    background-color: whitesmoke;
+    background-color: #f6f6f0; /*whitesmoke*/
     padding: 5px;
     border-radius: 5px;
     max-width: 300px;
@@ -394,7 +394,7 @@ ul#mysidebar {
     color: #248EC2;
     font-weight:bold;
     padding-left:20px;
-    background-color: whitesmoke !important;
+    background-color: #f6f6f0 !important;
 }
 
 
@@ -411,7 +411,7 @@ ul#mysidebar {
 }
 
 .nav ul li a {
-    border-top:1px solid whitesmoke;
+    border-top:1px solid #f6f6f0;
     padding-left:10px;
 }
 /* end sidebar */
@@ -434,7 +434,7 @@ span.projectTitle {
 }
 
 .footerMeta {
-    background-color: whitesmoke;
+    background-color: #f6f6f0;
     padding: 10px;
     max-width: 250px;
     border-radius: 5px;
@@ -567,7 +567,7 @@ hr.shaded {
 
 i.border {
     padding: 10px 20px;
-    background-color: whitesmoke;
+    background-color: #f6f6f0; /* whitesmoke;*/
 }
 
 a[data-toggle] {
@@ -846,7 +846,7 @@ span.soft {
     border: 1px solid gray;
     padding: 15px;
     margin: 15px 0px;
-    background-color: whitesmoke;
+    background-color: #f6f6f0;
 }
 
 @media (max-width: 767px) {
@@ -1017,7 +1017,7 @@ span.label.label-primary {
 
 
 .nav li.active > a.subfoldersTitle {
-    background-color: whitesmoke;
+    background-color: #f6f6f0;
     font-weight: bold;
     color: black;
     }
