@@ -1,54 +1,57 @@
 repository: lepszyweb/wcag-testy
 
 output: web
-# this property is useful for conditional filtering of content that is separate from the PDF.
+# Ta właściwość jest przydatna do warunkowego filtrowania zawartości, która jest oddzielona od pliku PDF.
 
 topnav_title: Ocenianie dostępności cyfrowej
-# this appears on the top navigation bar next to the home button
+# pojawia się na górnym pasku nawigacji obok przycisku "Start".
 
-site_title: Ocenianie dostępności cyfrowej
-# this appears in the html browser tab for the site title (seen mostly by search engines, not users)
+site_title: Ocenianie dostępności cyfrowejxx
+# pojawia się to w zakładce przeglądarki html dla tytułu strony (widzianej głównie przez wyszukiwarki, a nie przez użytkowników)
 
 company_name: Pracownia Dostępności Cyfrowej LepszyWeb.pl
-# this appears in the footer
+# pojawia się w stopce, może być użyte w instrukcjach warunkowych
 
 github_editme_path: lepszyweb/wcag-testy/blob/gh-pages/
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+
+# Jeśli używasz Githuba, podaj ścieżkę basepath do utworzonej gałęzi do recenzji, zgodnie z przykładem powyżej. Jeśli nie, zostaw tę wartość pustą.
 
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
-# if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+# Jeśli używasz GitLaba, podaj ścieżkę bazową do utworzonej przez siebie gałęzi do recenzji, zgodnie z przykładem powyżej. Jeśli nie, zostaw tę wartość pustą.
 
 google_analytics: UA-150239157-1
-# if you have google-analytics ID, put it in. if not, edit this value to blank.
+# Jeśli masz identyfikator google-analytics, wpisz go. Jeśli nie, zmień tę wartość na pustą.
 
 host: 127.0.0.1
-# the preview server used. Leave as is.
+# używany serwer podglądu. Zostaw tak jak jest.
 
-port: 4000
-# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
+port: 4006
+# port, na którym odbywa się podgląd. Możesz zostawić ten port tak jak jest, chyba że masz inne konstrukcje Jekyll'a używające tego samego portu, które mogą powodować konflikty. w takim przypadku użyj innego portu, np. 4006.
 
 exclude:
   - .idea/
   - .gitignore
   - vendor
-# these are the files and directories that jekyll will exclude from the build
+# to są te pliki i katalogi, które jekyll wykluczy z budowy
 
-# feedback_subject_line: Jekyll documentation theme
+# feedback_subject_line: Temat wiadomości zwrotnej od użytkowników, jeśli włączone wysyłanie poczty e-email
 
-# feedback_email: tomjoht@gmail.com
-# used as a contact email for the Feedback link in the top navigation bar
+# feedback_email: kontakt@lepszyweb.pl
+# używany jako email kontaktowy dla linku Feedback na górnym pasku nawigacyjnym
 
-feedback_disable: true
+# feedback_disable: true
 # if you uncomment the previous line, the Feedback link gets removed
+# jeśli odznaczysz poprzednią linię, link Feedback zostanie usunięty.
 
-# feedback_text: "Need help?"
-# if you uncomment the previous line, it changes the Feedback text
+# feedback_text: "Potrzebujesz pomocy?"
+# jeśli odkomentujesz poprzedni wiersz, zmieni się tekst  łącza Feedback
 
 # feedback_link: "http://helpy.io/"
 # if you uncomment the previous line, it changes where the feedback link points to
+# jeśli odkomentujesz poprzednią linię, zmieni ona lokalizację, na którą wskazuje łącze Feedback
 
 highlighter: rouge
-# library used for syntax highlighting
+# biblioteka służąca do podświetlania składni
 
 markdown: kramdown
 kramdown:
@@ -57,12 +60,12 @@ kramdown:
  hard_wrap: false
  syntax_highlighter: rouge
 
-# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
+# filtr używany do przetwarzania markdown. należy pamiętać, że kramdown różni się od markdown o smaku githuba pod pewnymi subtelnymi względami
 
 collections:
   tooltips:
     output: false
-# collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
+# Tutaj dekalrowane są kolekcje (collections). To sprawia, że treść w _tooltips jest przetwarzana, ale nie jest wyświetlana jako rzeczywiste pliki na wyjściu, chyba że zmienisz wyjście na true
 
 defaults:
   -
@@ -71,8 +74,8 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      comments: true
-      # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
+      comments: false
+      # jeśli nie chcesz używać Commento.io i po prostu ukryć komentarze, zmień true na false gdziekolwiek widzisz właściwość komentarzy
       search: true
       sidebar: home_sidebar
       topnav: topnav
@@ -92,12 +95,12 @@ defaults:
     values:
       layout: "post"
       comments: true
-      # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
+      # jeśli nie chcesz używać Commento.io i po prostu ukryć komentarze, zmień true na false gdziekolwiek widzisz właściwość komentarzy
       search: true
       sidebar: home_sidebar
       topnav: topnav
 
-# these are defaults used for the frontmatter for these file types
+# są to wartości domyślne używane dla nagłówków (frontmatter) dla tych typów plików
 
 sidebars:
 - home_sidebar
@@ -113,9 +116,9 @@ sidebars:
 description: "Celem projektu jest zbudowanie bazy wiedzy o dostępności cyfrowej stron internetowych i aplikacji mobilnych, aby pomóc wydawcom, koordynatorom dostępności cyfrowej, programistom, webmasterom, audytorom, testerom.
 
 "
-# the description is used in the feed.xml file
+# opis ten jest stosowany w pliku feed.xml
 
-# needed for sitemap.xml file only
+# potrzebne tylko do pliku sitemap.xml
 # url: http://idratherbewriting.com
 # baseurl: /documentation-theme-jekyll
 
