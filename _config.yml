@@ -93,7 +93,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true
+      comments: false
       # jeśli nie chcesz używać Commento.io i po prostu ukryć komentarze, zmień true na false gdziekolwiek widzisz właściwość komentarzy
       search: true
       sidebar: home_sidebar
