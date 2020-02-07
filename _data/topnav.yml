@@ -37,9 +37,9 @@ topnav_dropdowns:
     - title: Testy
       folderitems:
         - title: Jednolita baza testów
-          url: /testy_wprowadzenie
-        - title: Przegląd
           url: /testy_przeglad
+        - title: Przegląd
+          url: /testy_wprowadzenie
         - title: Baza testów wstępnych
           url: /00_P_wprowadzenie
         - title: Baza testów podstawowych
