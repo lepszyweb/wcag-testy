@@ -52,13 +52,16 @@ entries:
       url: /met_wprowadzenie
       output: web, pdf
 
-  - title: Baza testów
+  - title: Testy
     output: web, pdf
 
     folderitems:
 
     - title: Wprowadzenie
       url: /testy_wprowadzenie
+      output: web, pdf
+    - title: Przegląd
+      url: /testy_przeglad
       output: web, pdf
 
   - title: Narzędzia oceny
@@ -68,56 +71,3 @@ entries:
     - title: Przegląd
       url: /nod_wprowadzenie
       output: web
-    - title: O repozytorium
-      url: /nod_repozytorium
-      output: web
-
-      - title: Aplikacje
-        output: web, pdf
-        subfolderitems:
-
-        - title: Color Contrast Analyzer
-          url: /nod_cca
-          output: web
-      subfolders:
-      - title: Rozszerzenia przeglądarek
-        output: web
-        subfolderitems:
-
-        - title: ANDI
-          url: /nod_andi
-          output: web
-
-        - title: ARC Toolkit
-          url: /nod_arc
-          output: web
-
-        - title: Inspektor dostępności w Firefox
-          url: /nod_firefox-inspektor-dostepnosci
-          output: web
-
-        - title: WET
-          url: /nod_wet
-          output: web, pdf
-
-      - title: Usługi internetowe
-        output: web, pdf
-        subfolderitems:
-
-        - title: Jasnopis
-          url: /nod_jasnopis
-          output: web
-
-        - title: Logios
-          url: /nod_logios
-          output: web, pdf
-  - title: Dziennik projektu
-    output: web, pdf
-    folderitems:
-
-    - title: Dziennik
-      url: /dziennik
-      output: web, pdf
-    - title: Archiwum Dziennika
-      url: /archiwum_dziennika
-      output: web, pdf
