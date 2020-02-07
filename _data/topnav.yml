@@ -33,7 +33,7 @@ topnav_dropdowns:
         - title: Procedury oceny
           url: /met_testy-automatyczne
         - title: Metodyki oceniania
-          url: /met_ocena-dostepnosci-pojedynczej-strony        
+          url: /met_ocena-dostepnosci-pojedynczej-strony
     - title: Testy
       folderitems:
         - title: Jednolita baza testów
@@ -50,13 +50,11 @@ topnav_dropdowns:
           url: /1-0-0_wprowadzenie
     - title: Narzędzia
       folderitems:
-        - title: Wprowadzenie
+        - title: Przegląd
           url: /nod_wprowadzenie
-        - title: Rozszerzenia przeglądarek
-          url: /nod_firefox-inspektor-dostepnosci
         - title: Aplikacje
           url: /nod_cca
-        - title: Skryptozakładki
-          url: /nod_ANDI
+        - title: Rozszerzenia przeglądarek
+          url: /nod_firefox-inspektor-dostepnosci
         - title: Usługi internetowe
           url: /nod_jasnopis
