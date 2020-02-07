@@ -65,22 +65,12 @@ entries:
     output: web
     folderitems:
 
-    - title: Wprowadzenie
+    - title: Przegląd
       url: /nod_wprowadzenie
       output: web
-
-      subfolders:
-      - title: Rozszerzenia przeglądarek
-        output: web
-        subfolderitems:
-
-        - title: Inspektor dostępności w Firefox
-          url: /nod_firefox-inspektor-dostepnosci
-          output: web
-
-        - title: ARC Toolkit
-          url: /nod_arc
-          output: web
+    - title: O repozytorium
+      url: /nod_repozytorium
+      output: web
 
       - title: Aplikacje
         output: web, pdf
@@ -89,13 +79,21 @@ entries:
         - title: Color Contrast Analyzer
           url: /nod_cca
           output: web
-
-      - title: Skryptozakładki
-        output: web, pdf
+      subfolders:
+      - title: Rozszerzenia przeglądarek
+        output: web
         subfolderitems:
 
         - title: ANDI
           url: /nod_andi
+          output: web
+
+        - title: ARC Toolkit
+          url: /nod_arc
+          output: web
+
+        - title: Inspektor dostępności w Firefox
+          url: /nod_firefox-inspektor-dostepnosci
           output: web
 
         - title: WET
