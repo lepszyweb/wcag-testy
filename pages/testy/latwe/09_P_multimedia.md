@@ -2,10 +2,10 @@
 title: Alternatywy multimediów
 
 
-sidebar: testy-proste_sidebar
+sidebar: testy_sidebar
 
 permalink: 09_P_multimedia
-folder: testy-proste
+folder: testy/latwe
 ---
 
 ## Alternatywy multimediów (wideo, audio)

@@ -2,10 +2,10 @@
 title: Dostęp do klawiatury i widoczny fokus
 tags: nawigacja
 
-sidebar: testy-proste_sidebar
+sidebar: testy_sidebar
 
 permalink: 06_P_klawiatura
-folder: testy-proste
+folder: testy/latwe
 ---
 
 ## Dostęp do klawiatury i widoczny fokus

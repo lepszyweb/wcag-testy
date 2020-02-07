@@ -2,10 +2,10 @@
 title: Podstawowy test struktury strony
 tags: struktury
 
-sidebar: testy-proste_sidebar
+sidebar: testy_sidebar
 
 permalink: 10_P_struktura
-folder: testy-proste
+folder: testy/latwe
 ---
 
 ## Podstawowy test struktury strony

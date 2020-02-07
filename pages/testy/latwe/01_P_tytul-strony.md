@@ -2,10 +2,10 @@
 title: Tytuł strony
 tags: nawigacja
 
-sidebar: testy-proste_sidebar
+sidebar: testy_sidebar
 
 permalink: 01_P_tytul-strony
-folder: testy-proste
+folder: testy/latwe
 ---
 
 ## Tytuł strony

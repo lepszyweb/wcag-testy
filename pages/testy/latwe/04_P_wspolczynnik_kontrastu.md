@@ -2,10 +2,10 @@
 title: Współczynnik kontrastu
 
 
-sidebar: testy-proste_sidebar
+sidebar: testy_sidebar
 
 permalink: 04_P_wspolczynnik_kontrastu
-folder: testy-proste
+folder: testy/latwe
 ---
 
 ## Współczynnik kontrastu ( „kontrast kolorów”)

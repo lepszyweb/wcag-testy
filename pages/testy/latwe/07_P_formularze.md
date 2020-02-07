@@ -2,10 +2,10 @@
 title: Formularze, etykiety i błędy
 
 
-sidebar: testy-proste_sidebar
+sidebar: testy_sidebar
 
 permalink: 07_P_formularze
-folder: testy-proste
+folder: testy/latwe
 ---
 
 ## Formularze, etykiety i błędy

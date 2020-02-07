@@ -2,10 +2,10 @@
 title: Teksty alternatywne obrazów 
 
 
-sidebar: testy-proste_sidebar
+sidebar: testy_sidebar
 
 permalink: 02_P_odpowiedniki-tekstowe-obrazow
-folder: testy-proste
+folder: testy/latwe
 ---
 
 ## Teksty alternatywne obrazów ( „odpowiedniki tekstowe”)

@@ -2,10 +2,10 @@
 title: Treść ruchoma, migająca lub błyskająca
 
 
-sidebar: testy-proste_sidebar
+sidebar: testy_sidebar
 
 permalink: 08_P_poruszanie-i-blyski
-folder: testy-proste
+folder: testy/latwe
 ---
 
 ## Treść ruchoma, migająca lub błyskająca

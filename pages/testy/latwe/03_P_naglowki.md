@@ -2,10 +2,10 @@
 title: Nagłówki
 tags: [struktury,naglowki,nawigacja]
 
-sidebar: testy-proste_sidebar
+sidebar: testy_sidebar
 
 permalink: 03_P_naglowki
-folder: testy-proste
+folder: testy/latwe
 ---
 
 ## Nagłówki

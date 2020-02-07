@@ -2,10 +2,10 @@
 title: Zmiana rozmiaru tekstu
 
 
-sidebar: testy-proste_sidebar
+sidebar: testy_sidebar
 
 permalink: 05_P_zmiana-rozmiaru-tekstu
-folder: testy-proste
+folder: testy/latwe
 ---
 
 ## Zmiana rozmiaru tekstu
