@@ -1,7 +1,7 @@
 ---
 title: O repozytorium
 tags: [narzędzia_oceny_dostępności]
-last_updated: 4 lutego 2019
+last_updated: 7 lutego 2019
 sidebar: narzedzia-sidebar
 summary:
 keywords: narzedzia, walidatory, skryptozakładki, usługi sieciowe

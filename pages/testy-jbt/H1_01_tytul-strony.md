@@ -1,6 +1,6 @@
 ---
 title: Tytuł strony
-
+tags: [WCAG_2.1, testy]
 summary: "Strona ma sensowny tytuł, który opisuje jej cel lub temat"
 sidebar: testy-jbt_sidebar
 permalink: H1_01_tytul-strony

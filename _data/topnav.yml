@@ -38,10 +38,12 @@ topnav_dropdowns:
       folderitems:
         - title: Jednolita baza testów
           url: /testy_wprowadzenie
+        - title: Przegląd
+          url: /testy_przeglad
         - title: Baza testów wstępnych
           url: /00_P_wprowadzenie
         - title: Baza testów podstawowych
-          url: /jbt_landing_page
+          url: /H0_00_wprowadzenie
         - title: Baza testów ITC
           url: /ICT_00_wprowadzenie
         - title: Wielostopniowa ocena zgodności
