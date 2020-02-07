@@ -2,7 +2,7 @@
 title: O bazie prostych testów
 
 
-sidebar: testy-proste_sidebar
+sidebar: testy_sidebar
 permalink: 00_P_wprowadzenie
 folder: testy-proste
 last_updated: 2 lutego 2020

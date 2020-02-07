@@ -46,7 +46,7 @@ topnav_dropdowns:
           url: /H0_00_wprowadzenie
         - title: Baza testów ITC
           url: /ICT_00_wprowadzenie
-        - title: Wielostopniowa ocena zgodności
+        - title: Wielopoziomowy protokół oceny
           url: /MSU_00_wprowadzenie
         - title: Pomocnik adepta dostepności
           url: /1-0-0_wprowadzenie

@@ -8,11 +8,10 @@ permalink: MSU_00_wprowadzenie
 folder: testy-msu
 ---
 
-
-## Wielopoziomowy protokół oceny WCAG
-
+## Źródło
 Specjaliści dostępności z Uniwersytetu Stanowego Michigan wypracowali i udostępnili [Wielopoziomowy protokół oceny WCAG 2.0 AA](https://webaccess.msu.edu/Help_and_Resources/evaluation-validation.html).
 
+## Przeznaczenie protokołu
 Narzędzie powstało, aby zapewnić prosty i znormalizowany protokół oceny dostępności stron internetowych i treści cyfrowych przez wykładowców, pracowników i studentów MSU. A że  protokół nie  opiera się na żadnych zasobach lub wymogach specyficznych dla MSU, to może być - zdaniem autorów - równie skuteczny dla innych instytucji i organizacji.
 
 Autorzy wyraźnie zastrzegają, że ich celem nie jest:
@@ -20,6 +19,7 @@ Autorzy wyraźnie zastrzegają, że ich celem nie jest:
 
 Protokół nie jest przeznaczony do pełnego i wyczerpującego badania. Został zaprojektowany tak, aby mógł być łatwo stosowany przez osoby dysponujące ograniczonym czasem i ograniczoną wiedzą na temat dostępności.
 
+## Testowanie
 Protokół obejmuje ogółem 46 testów uporządkowanych w 6 poziomów trudności. Osoby dokonujące przeglądu powinny zawsze zaczynać od poziomu 1 i przechodzić kolejno przez następne poziomy, dopóki nie zabraknie im czasu lub nie osiągną granic swoich możliwości.
 
 Aby przejść do wyższego poziomu testów, muszą być wykonane wszystkie testy na niższym poziomie. 
@@ -37,5 +37,5 @@ Wyniki badania mogą być również notowane w specjalnie przygotowannym arkuszu
 
 Tłumaczenie może posłużyć do prowadzenia testów przez osoby o niewielkiej wiedzy na temat dostępności, a także do opracowania własnych procedur testowych.  
 
--Zobacz [Wielopoziomowy protokół oceny WCAG 2.0 AA](https://webaccess.msu.edu/Help_and_Resources/evaluation-validation.html).
+- Zobacz [Wielopoziomowy protokół oceny WCAG 2.0 AA](https://webaccess.msu.edu/Help_and_Resources/evaluation-validation.html).
 
