@@ -4,7 +4,7 @@ title: O bazie łatwych testów
 
 sidebar: testy_sidebar
 permalink: 00_P_wprowadzenie
-folder: testy/proste
+folder: testy/latwe
 last_updated: 2 lutego 2020
 ---
 
