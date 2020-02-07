@@ -53,8 +53,8 @@ summary: "Budujemy bazę wiedzy o dostępności cyfrowej stron internetowych i a
                 </div>
                 <div class="panel-body">
                     <h4>Testy</h4>
-                    <p>Jednolita baza testów dostępności cyfrowej.</p>
-                    <a href="testy_wprowadzenie" class="btn btn-primary">Czytaj więcej</a>
+                    <p>Łatwe testy. Testy podstawowe. Rozwiązania.</p>
+                    <a href="testy_przeglad" class="btn btn-primary">Czytaj więcej</a>
                 </div>
             </div>
         </div>
