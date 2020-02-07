@@ -4,6 +4,7 @@ last_updated: 7 lutego 2019
 sidebar: testy_sidebar
 permalink: testy_przeglad
 folder: testy
+toc: false
 ---
 ## O &bdquo;Testach&rdquo;
 Zdecydowaliśmy się uruchomić ten projekt, bo w polskich zasobach na temat dostępności cyfrowej dotychczas (połowa października 2019) nie było ani jednego opracowania odpowiadającego na pytania, jak testować dostępność cyfrową stron internetowych. Tzw. &bdquo;[polska metodologia](met_polska)&rdquo; opisana w dwóch opracowaniach odpowiada głównie na pytania, co testować i opisuje ogólnie organizację badania dostępności 
@@ -21,7 +22,7 @@ Repozytorium składa się z dwóch działów:
   - **Testy szblonów i komponentów** - (w planie)    
 - **Rozwiązania** - wybrane rozwiązania praktyczne 
   - **Podstawowe testy ITC** - robocze tłumacznie podstawowej bazy testów dostępności stosowanych w&nbsp;amerykańskich agencjach rządowych,
-  - **Wielostopniowa ocena zgodności**: uproszczony protokół testów zgodności stosowany na [Michigan State University](https://uarc.msu.edu/resources/tools)
+  - **Wielopoziomowy protokół oceny**: uproszczony protokół testów zgodności stosowany na [Michigan State University](https://uarc.msu.edu/resources/tools)
   -** Pomocnik adepta dostępności**: zestaw testów opracowany przez [Stowarzyszenie Twoje nowe możliwości](http://www.tnm.org.pl/)
 
  
