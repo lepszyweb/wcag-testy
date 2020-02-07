@@ -1,8 +1,8 @@
 ---
-title: Korzystanie z bazy testów wstępnych
-sidebar: testy-proste_sidebar
+title: Korzystanie z bazy łatwych testów
+sidebar: testy_sidebar
 permalink: 00_P_wprowadzenie3
-folder: testy-proste
+folder: testy/latwe
 ---
 
 Te testy może przeprowadzić każdy, kto korzysta z Internetu. Nie potrzebujesz specjalnej wiedzy ani umiejętności. Niektóre testy wymagają obejrzenia strony internetowej bądź posłuchania dźwięku. Inne zastosowania prostych narzędzi wspomagających testowanie. Ale ogólnie rzecz biorąc są to testy łatwe do przeprowadzenia. 
@@ -26,7 +26,7 @@ WAVE to zestaw narzędzi oferowanych przez WebAim.org i Uniwersytet Stanowy Utah
 WAVE można zainstalować jako dodatki w przeglądarkach Chrome i Firefox. Ale można również korzystać z WAVE udostępnionego jako usługa internetowa na stronie https://wave.webaim.org/.
 
 ### Inne dodatki i rozszerzenia przeglądarek
-Oprócz wymienionych powyżej, użyteczne będą inne usługi internetowe bądź rozszerzenia przeglądarek. W testach wstępnych wykorzystujemy także;
+Oprócz wymienionych powyżej, użyteczne będą inne usługi internetowe bądź rozszerzenia przeglądarek. W łatwych testach wykorzystujemy także;
 - usługę internetową W3C – walidator HTML. Możesz sobie zapewnić szybki dostęp do tej usługi za pomocą skryptozakładek opublikowanych na stronie https://validator.w3.org/favelets.html
 - WCAG Color Contrast Checker - rozszerzenie przeglądarek
   - [dla Chrome](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf)
@@ -35,7 +35,7 @@ Oprócz wymienionych powyżej, użyteczne będą inne usługi internetowe bądź
   - [Form labels](https://jimthatcher.com/favelets/) 
   - [Forms]( http://pauljadam.com/bookmarklets/index.html)  
 
-(Jeśli nawet nie możesz pobrać i zainstalować tych narzędzi, to nadal możesz wykonać testy wstępne za pomocą dowolnej przeglądarki).
+(Jeśli nawet nie możesz pobrać i zainstalować tych narzędzi, to nadal możesz wykonać łatwe testy za pomocą dowolnej przeglądarki).
 
 ### Odniesienia i łącza do WCAG 
 Wszystkie testy opierają się na Wytycznych dotyczących dostępności treści internetowych (WCAG). W Europie i w Polsce standard WCAG stał się normą prawną EN 301 V2.1.2.
@@ -52,7 +52,7 @@ Do stron PrzediPo dołączone są adnotacje, które zawierają bogaty zestaw inf
 ### Kilka ważnych pojęć
 
 Oto kilka rzeczy, które należy wiedzieć, aby dobrze rozumieć instrukcje przedstawione w tym przewodniku:
--	znakowanie – termin odnosi się do kodu strony internetowej, zwanego HTML. Kod strony internetowej można zobaczyć w większości przeglądarek, wybierając z menu: Widok > Źródło. Nie musisz oglądać kodu strony, aby przeprowadzić  testy wstępne. Ale rozumienie słów „znakowanie”, czy „oznakowane” pomaga zrozumieć instrukcje. Znakowanie to najkrócej opisywanie elementów strony specjalnymi znacznikami, czyli słowami ujętymi w nawiasy kątowe.  
+-	znakowanie – termin odnosi się do kodu strony internetowej, zwanego HTML. Kod strony internetowej można zobaczyć w większości przeglądarek, wybierając z menu: Widok > Źródło. Nie musisz oglądać kodu strony, aby przeprowadzić łatwe testy. Ale rozumienie słów „znakowanie”, czy „oznakowane” pomaga zrozumieć instrukcje. Znakowanie to najkrócej opisywanie elementów strony specjalnymi znacznikami, czyli słowami ujętymi w nawiasy kątowe.  
 -	technologie wspomagające albo asystujące, albo pomocnicze to oprogramowanie lub sprzęt, z którego korzystają osoby z niepełnosprawnościami, aby korzystać ze stron i aplikacji komputerowych, w tym internetowych.
 -	czytniki ekranu to rodzaj technologii pomocniczej - oprogramowanie, które umożliwia nawigację po stronie internetowej i odczytuje na głos treści stron. Są używane przez osoby niewidome.
 -	sterowanie głosem, nazywane czasem wejściem głosowym, polega na użyciu mowy zamiast klawiatury i myszy.
