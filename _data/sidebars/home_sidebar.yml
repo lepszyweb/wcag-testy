@@ -57,21 +57,46 @@ entries:
 
     folderitems:
 
-    - title: Wprowadzenie
-      url: /testy_wprowadzenie
-      output: web, pdf
     - title: Przegląd
       url: /testy_przeglad
       output: web, pdf
+    - title: Wprowadzenie
+      url: /testy_wprowadzenie
+      output: web, pdf
+      subfolders:
 
+      - title: Jednolita baza testów
+        output: web, pdf
+        subfolderitems:
+
+        - title: Łatwe testy dostępności
+          url: /00_P_wprowadzenie
+          output: web
+        - title: Baza testów podstawowych
+          url: /H0_00_wprowadzenie
+          output: web
+
+      - title: Rozwiązania
+        output: web, pdf
+        subfolderitems:
+
+        - title: Podstawowe testy ITC
+          url: /ICT_00_wprowadzenie
+          output: web
+        - title: Wielostopniowa ocena zgodności
+          url: / MSU_00_wprowadzenie
+          output: web
+        - title: Pomocnik adepta dostępności
+          url: /1-0-0_wprowadzenie
+          output: web
   - title: Narzędzia oceny
     output: web
     folderitems:
 
-    - title: O repozytorium
+    - title: Przegląd
       url: /nod_wprowadzenie
       output: web
-    - title: Przegląd
+    - title: O repozytorium
       url: /nod_repozytorium
       output: web
       subfolders:
