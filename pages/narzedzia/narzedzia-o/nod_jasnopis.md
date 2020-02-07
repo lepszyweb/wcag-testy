@@ -6,7 +6,7 @@ permalink: nod_jasnopis
 folder: narzedzia-o
 ---
  
-##Badaj zrozumiałość tekstu 
+## Badaj zrozumiałość tekstu 
 
 Jasnopis jest aplikacją internetową, która potrafi zmierzyć zrozumiałość polskich tekstów. Powstał w Szkole Wyższej Psychologii Społecznej w Warszawie w ramach projektu finansowanego przez Narodowe Centrum Nauki. Używanie Jasnopisu w wersji podstawowej jest bezpłatne. Nie wymaga żadnego dodatkowego oprogramowania ani specjalistycznej wiedzy.
 

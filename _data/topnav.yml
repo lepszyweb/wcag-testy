@@ -55,6 +55,6 @@ topnav_dropdowns:
         - title: Aplikacje
           url: /nod_cca
         - title: Rozszerzenia przeglądarek
-          url: /nod_firefox-inspektor-dostepnosci
+          url: /nod_andi
         - title: Usługi internetowe
           url: /nod_jasnopis

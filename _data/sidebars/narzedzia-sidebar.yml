@@ -22,13 +22,12 @@ entries:
   - title: Narzędzia oceny
     output: web, pdf
     folderitems:
-    - title: O repozytorium
-      url: /nod_repozytorium
-      output: web
     - title: Przegląd
       url: /nod_wprowadzenie
       output: web
-
+    - title: O repozytorium
+      url: /nod_repozytorium
+      output: web
   - title: Aplikacje
     output: web, pdf
     folderitems:
