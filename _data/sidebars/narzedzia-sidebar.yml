@@ -29,17 +29,6 @@ entries:
       url: /nod_repozytorium
       output: web
 
-  - title: Rozszerzenia przeglądarek
-    output: web, pdf
-    folderitems:
-    - title: Inspektor dostępności w Firefox
-      url: /nod_firefox-inspektor-dostepnosci
-      output: web
-
-    - title: ARC Toolkit
-      url: /nod_arc
-      output: web, pdf
-
   - title: Aplikacje
     output: web, pdf
     folderitems:
@@ -47,11 +36,20 @@ entries:
       url: /nod_cca
       output: web
 
-  - title: Skryptozakładki
+  - title: Rozszerzenia przeglądarek
     output: web, pdf
     folderitems:
+
     - title: ANDI
       url: /nod_andi
+      output: web
+
+    - title: ARC Toolkit
+      url: /nod_arc
+      output: web, pdf
+
+    - title: Inspektor dostępności w Firefox
+      url: /nod_firefox-inspektor-dostepnosci
       output: web
 
     - title: WET

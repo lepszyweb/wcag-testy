@@ -1,10 +1,10 @@
 ---
 title: ANDI - Accessible Name and Description Inspector
 
-
+tags: [rozszerzenia_przeglądarek, skryptozakładka,narzędzia_oceny_dostępności]
 sidebar: narzedzia-sidebar
 permalink: nod_andi
-folder: narzedzia-s
+folder: narzedzia-p
 ---
 
 ANDI jest skryptozakładką, czyli niewielkim skryptem JS, który dodajemy w przeglądarce do zakładek, aby móc swobodnie korzystać z jego funkcjonalności. A są niemałe! 

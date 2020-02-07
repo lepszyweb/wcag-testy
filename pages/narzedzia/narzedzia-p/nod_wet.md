@@ -1,9 +1,10 @@
 ---
 title: WET - Web Evaluation Tools
 summary:
+tags: [rozszerzenia_przeglądarek, skryptozakładka,narzędzia_oceny_dostępności]
 sidebar: narzedzia-sidebar
 permalink: nod_wet
-folder: narzedzia-s
+folder: narzedzia-p
 ---
 
 Web Evaluation Tools bookmarklet to zestaw 10 narzędzi pomagających zbadać i ocenić dostępność strony internetowej. Narzędzie przeznaczone jest dla osób, które dysponują podstawową wiedzą o dostępności.

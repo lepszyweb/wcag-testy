@@ -2,8 +2,11 @@
 # If you are using the createtag script, don't leave an blank line at the end of this file.
 # In other words, the last line must be the last tag in the allowed-tags list.
 allowed-tags:
-  - audiodeskrypcja
   - aktualności
+  - API
+  - aplikacja_komputerowa
+  - aplikacja_mobilna
+  - audiodeskrypcja
   - błędy
   - czytelność
   - formatowanie
@@ -16,13 +19,20 @@ allowed-tags:
   - media
   - migotanie
   - nagłówki
+  - narzędzia_oceny_dostępności
+  - narzędzie_autorskie
+  - narzędzie_wiersza_poleceń
   - nawigacja
   - parsowanie
   - przewidywalność
   - punkt_orientacyjny
+  - rozszerzenie_narzędzia_autorskiego
+  - rozszerzenia_przeglądarek
   - semantyka
+  - skryptozakładka
   - spójność
   - struktury
   - transkrypcja
+  - usługa_internetowa
   - widżet
   - wyróżnienie

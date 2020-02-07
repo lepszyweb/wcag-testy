@@ -1,7 +1,6 @@
 ---
 title: Jasnopis
-
-
+tags: [usługa_internetowa,narzędzia_oceny_dostępności]
 sidebar: narzedzia-sidebar
 permalink: nod_jasnopis
 folder: narzedzia-o
@@ -53,5 +52,3 @@ Poniżej informacji o klasie trudności program wyświetli tekst,  w którym pew
 -	zapisanie akapitu **czarnymi literami** oznacza, że jest on mniej więcej tak samo trudny jak cały tekst lub że jest od niego łatwiejszy. Dokładniej mówiąc, ma tzw. wskaźnik mglistości co najwyżej o dwa większy niż ten sam wskaźnik obliczony dla całego tekstu. Oczywiście wskaźnik ten może w tej sytuacji być też równy, a nawet mniejszy niż wskaźnik dla całości tekstu.
 -	zapisanie zdania **na szarym tle** oznacza, że jest ono bardzo długie. Dokładniej mówiąc, składa się z ponad 20 wyrazów.
 -	Wyrazy uznane przez Jasnopis za trudne **są podkreślone**. Jeśli wskażesz któryś z nich myszką, to w „dymku” pojawi się komentarz „Spróbuj zamienić na łatwiejsze słowo” lub nawet propozycje wyrazów, które są zapewne łatwiejsze i będą pasowały w danym kontekście. Zachowaj ostrożność, bo nie zawsze podpowiedź jest rzeczywiście trafna!
-
-
