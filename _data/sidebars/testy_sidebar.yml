@@ -13,6 +13,7 @@ entries:
     - title: Przegląd
       url: /testy_przeglad
       output: web
+
     - title: Wprowadzenie
       url: /testy_wprowadzenie
       output: web
@@ -62,7 +63,7 @@ entries:
           url: /07_P_formularze
           output: web, pdf
 
-        - title: Poruszanie, miganie, przesuwanie
+        - title: Treść ruchoma
           url: /08_P_poruszanie-i-blyski
           output: web, pdf
 
@@ -74,133 +75,442 @@ entries:
           url: /10_P_struktura
           output: web, pdf
 
-  - title: Baza testów podstawowych
-    output: web
-
     folderitems:
-    - title: Wprowadzenie
+    - title: Baza testów podstawowych
       url: /H0_00_wprowadzenie
       output: web
 
-      subfolders: Baza testów
-      output: web
-      subfolderitems:
-      - title: Wprowadzenie
-        url: /H0_00_wprowadzenie
+      subfolders:
+      - title: Testy podstawowe
         output: web
+        subfolderitems:
 
-      - title: Tytuł strony
-        url: /H1_01_tytul-strony
-        output: web, pdf
+        - title: Tytuł strony
+          url: /H1_01_tytul-strony
+          output: web, pdf
 
-      - title: Punkty orientacyjne
-        url: /H1_02_punkty-orientacyjne
-        output: web, pdf
+        - title: Punkty orientacyjne
+          url: /H1_02_punkty-orientacyjne
+          output: web, pdf
 
-      - title: Łącza pomijajace
-        url: /H1_03_linki-pomijajace
-        output: web, pdf
+        - title: Łącza pomijajace
+          url: /H1_03_linki-pomijajace
+          output: web, pdf
 
-      - title: Wiele dróg
-        url: /H1_04_wiele-drog
-        output: web, pdf
+        - title: Wiele dróg
+          url: /H1_04_wiele-drog
+          output: web, pdf
 
-      - title: Menu nawigacyjne
-        url: /H1_05_menu-nawigacyjne
-        output: web, pdf
+        - title: Menu nawigacyjne
+          url: /H1_05_menu-nawigacyjne
+          output: web, pdf
 
-      - title: Nagłówek - logo
-        url: /H1_06_logo
-        output: web, pdf
+        - title: Nagłówek - logo
+          url: /H1_06_logo
+          output: web, pdf
 
-      - title: Nagłówek - wyszukiwanie
-        url: /H1_07_wyszukiwarka
-        output: web, pdf
+        - title: Nagłówek - wyszukiwanie
+          url: /H1_07_wyszukiwarka
+          output: web, pdf
 
-      - title: Nawigacja sekwencyjna
-        url: /H1_08_nawigacja-sekwencyjna
-        output: web, pdf
+        - title: Nawigacja sekwencyjna
+          url: /H1_08_nawigacja-sekwencyjna
+          output: web, pdf
 
-      - title: Widoczny fokus
-        url: /H1_09_widoczny-fokus
-        output: web, pdf
+        - title: Widoczny fokus
+          url: /H1_09_widoczny-fokus
+          output: web, pdf
 
-      - title: Zachowanie fokusowanych
-        url: /H1_10_zachowanie-fokusowanych
-        output: web, pdf
+        - title: Zachowanie fokusowanych
+          url: /H1_10_zachowanie-fokusowanych
+          output: web, pdf
 
-      - title: Nagłówki
-        url: /H2_01_naglowki
-        output: web, pdf
+        - title: Nagłówki
+          url: /H2_01_naglowki
+          output: web, pdf
 
-      - title: Łącza
-        url: /H2_02_linki
-        output: web, pdf
+        - title: Łącza
+          url: /H2_02_linki
+          output: web, pdf
 
-      - title: Listy
-        url: /H2_03_listy
-        output: web, pdf
+        - title: Listy
+          url: /H2_03_listy
+          output: web, pdf
 
-      - title: Tabele
-        url: /H2_04_tabele
-        output: web, pdf
+        - title: Tabele
+          url: /H2_04_tabele
+          output: web, pdf
 
-      - title: Kontrast
-        url: /H3_01_kontrast
-        output: web, pdf
+        - title: Kontrast
+          url: /H3_01_kontrast
+          output: web, pdf
 
-      - title: Kolor
-        url: /H3_02_kolor
-        output: web, pdf
+        - title: Kolor
+          url: /H3_02_kolor
+          output: web, pdf
 
-      - title: Odwołania do cech zmysłowych
-        url: /H3_03_cechy-zmyslowe
-        output: web, pdf
+        - title: Odwołania do cech zmysłowych
+          url: /H3_03_cechy-zmyslowe
+          output: web, pdf
 
-      - title: Zmiany rozmiaru i orientacji
-        url: /H3_04_zmiany-rozmiaru-i-orientacji
-        output: web, pdf
+        - title: Zmiany rozmiaru i orientacji
+          url: /H3_04_zmiany-rozmiaru-i-orientacji
+          output: web, pdf
 
-      - title: Określenie języka
-        url: /H4_01_identyfikacja_jezyka
-        output: web, pdf
+        - title: Określenie języka
+          url: /H4_01_identyfikacja_jezyka
+          output: web, pdf
 
-      - title: Porządek czytania
-        url: /H4_02_porzadek-czytania
-        output: web, pdf
+        - title: Porządek czytania
+          url: /H4_02_porzadek-czytania
+          output: web, pdf
 
-      - title: Formularze. Etykiety i instrukcje
-        url: /H5_01_formularze-etykiety-i-instrukcje
-        output: web, pdf
+        - title: Formularze. Etykiety i instrukcje
+          url: /H5_01_formularze-etykiety-i-instrukcje
+          output: web, pdf
 
-      - title: Formularze. Wykrywanie i korygowanie błędów
-        url: /H5_02_formularze-bledy
-        output: web, pdf
+        - title: Formularze. Wykrywanie i korygowanie błędów
+          url: /H5_02_formularze-bledy
+          output: web, pdf
 
-      - title: Limity czasu
-        url: /H5_03_limit-czasu
-        output: web, pdf
+        - title: Limity czasu
+          url: /H5_03_limit-czasu
+          output: web, pdf
 
-      - title: CAPTCHA
-        url: /H5_04_captcha
-        output: web, pdf
+        - title: CAPTCHA
+          url: /H5_04_captcha
+          output: web, pdf
 
-      - title: Obrazy
-        url: /H6_01_obrazy
-        output: web, pdf
+        - title: Obrazy
+          url: /H6_01_obrazy
+          output: web, pdf
 
-      - title: Media dynamiczne - tylko audio
-        url: /H6_02_media-tylko-audio
-        output: web, pdf
+        - title: Media dynamiczne - tylko audio
+          url: /H6_02_media-tylko-audio
+          output: web, pdf
 
-      - title: Media dynamiczne - tylko wideo
-        url: /H6_03_media-tylko-wideo
-        output: web, pdf
+        - title: Media dynamiczne - tylko wideo
+          url: /H6_03_media-tylko-wideo
+          output: web, pdf
 
-      - title: Media dynamiczne - Multimedia
-        url: /H6_04_multimedia
-        output: web, pdf
+        - title: Media dynamiczne - Multimedia
+          url: /H6_04_multimedia
+          output: web, pdf
 
-      - title: Mruganie, miganie, błyskanie
-        url: /H7_01_mruganie-i-miganie
-        output: web, pdf
+        - title: Mruganie, miganie, błyskanie
+          url: /H7_01_mruganie-i-miganie
+          output: web, pdf
+
+    folderitems:
+    - title: Podstawowe testy ITC
+      url: /ICT_00_wprowadzenie
+      output: web
+
+      subfolders:
+      - title: Baza testów ITC
+        output: web
+        subfolderitems:
+
+        - title: 1. Dostęp z klawiatury
+          url: /ICT_01_klawiatura
+          output: web, pdf
+
+        - title: 2. Widoczny fokus
+          url: /ICT_02_widoczny-fokus
+          output: web, pdf
+
+        - title: 3. Kolejność fokusa
+          url: /ICT_03_kolejnosc-fokusa
+          output: web, pdf
+
+        - title: 4. Treść powtarzalna
+          url: /ICT_04_tresc-powtarzalna
+          output: web, pdf
+
+        - title: 5. Treść zmienna
+          url: /ICT_05_tresc-zmienna
+          output: web, pdf
+
+        - title: 6. Obrazy
+          url: /ICT_06_obrazy
+          output: web, pdf
+
+        - title: 7. Właściwości zmysłowe
+          url: /ICT_07_wlasciwosci-zmyslowe
+          output: web, pdf
+
+        - title: 8. Kontrast
+          url: /ICT_08_kontrast
+          output: web, pdf
+
+        - title: 9. Miganie
+          url: /ICT_09_miganie
+          output: web, pdf
+
+        - title: 10. Formularze
+          url: /ICT_10_formularze
+          output: web, pdf
+
+        - title: 11. Tytuły stron
+          url: /ICT_11_tytuly-stron
+          output: web, pdf
+
+        - title: 12. Tabele
+          url: /ICT_12_tabele-danych
+          output: web, pdf
+
+        - title: 13. Struktura treści
+          url: /ICT_13_struktura-tresci
+          output: web, pdf
+
+        - title: 14. Łącza i przyciski
+          url: /ICT_14_lacza-przyciski
+          output: web, pdf
+
+        - title: 15. Język
+          url: /ICT_15_jezyk
+          output: web, pdf
+
+        - title: 16. Tylko audio i tylko wideo
+          url: /ICT_16_tylko-audio-tylko-wideo
+          output: web, pdf
+
+        - title: 17. Media zsynchronizowane
+          url: /ICT_17_media-zsynchronizowane
+          output: web, pdf
+
+        - title: 18. Zależność od CSS
+          url: /ICT_18_zaleznosc-od-css
+          output: web, pdf
+
+        - title: 19. Ramki i iFrames
+          url: /ICT_19_ramki
+          output: web, pdf
+
+        - title: 20. Zgodność z wersją alternatywną
+          url: /ICT_20_wersje-alternatywne
+          output: web, pdf
+
+        - title: 21. Limity czasu
+          url: /ICT_21_limity-czasu
+          output: web, pdf
+
+        - title: 22. Zmiana rozmiaru tekstu
+          url: /ICT_22_zmiana-rozmiaru-tekstu
+          output: web, pdf
+
+        - title: 23. Wiele dróg
+          url: /ICT_23_wiele-drog
+          output: web, pdf
+
+        - title: 24. Parsowanie
+          url: /ICT_24_parsowanie
+          output: web, pdf
+
+        - title: 25. Brak zakłóceń
+          url: /ICT_25_brak-zaklocen
+          output: web, pdf
+
+        - title: Dodatek A. Tabela porównawcza
+          url: /ICT_26_dodatekA
+          output: web
+
+    folderitems:
+    - title: Wielopoziomowy protokół oceny
+      url: /MSU_00_wprowadzenie
+      output: web
+
+      subfolders:
+      - title: Protokoły testów
+        output: web
+        subfolderitems:
+
+        - title: Poziom 1
+          url: /MSU_01_poziom_1
+          output: web, pdf
+
+        - title: Poziom 2
+          url: /MSU_01_poziom_2
+          output: web, pdf
+
+        - title: Poziom 3
+          url: /MSU_01_poziom_3
+          output: web, pdf
+
+        - title: Poziom 4
+          url: /MSU_01_poziom_4
+          output: web, pdf
+
+        - title: Poziom 5
+          url: /MSU_01_poziom_5
+          output: web, pdf
+
+        - title: Poziom 6
+          url: /MSU_01_poziom_6
+          output: web, pdf
+
+    folderitems:
+    - title: Pomocnik adepta dostępności
+      url: /1-0-0_wprowadzenie
+      output: web
+
+      subfolders:
+      - title: Protokoły testów
+        output: web
+        subfolderitems:
+
+        - title: 1.1.1 Treść nietekstowa
+          url: /1-1-1_Tresc-nietekstowa
+          output: web, pdf
+
+        - title: 1.2.1 Tylko audio... (nagranie)
+          url: /1-2-1_Tylko-audio
+          output: web, pdf
+
+        - title: 1.2.1 Tylko wideo... (nagranie)
+          url: /1-2-1_Tylko-wideo
+          output: web, pdf
+
+        - title: 1.2.2 Napisy rozszerzone
+          url: /1-2-2_Napisy-rozszerzone
+          output: web, pdf
+
+        - title: 1.2.3 Audiodeskrypcja lub alternatywa dla mediów
+          url: /1-2-3_Audiodeskrypcja-lub-alternatywa-dla-mediow
+          output: web, pdf
+
+        - title: 1.2.4 Napisy rozszerzone
+          url: /1-2-4_Napisy-rozszerzone
+          output: web, pdf
+
+        - title: 1.2.5 Audiodeskrypcja
+          url: /1-2-5_Audiodeskrypcja
+          output: web, pdf
+
+        - title: 1.3.1 Informacje i relacje
+          url: /1-3-1_Informacje-i-relacje
+          output: web, pdf
+
+        - title: 1.3.2 Zrozumiała kolejność
+          url: /1-3-2_Zrozumiala-kolejnosc
+          output: web, pdf
+
+        - title: 1.3.3 Własciwosci zmysłowe
+          url: /1-3-3_Wlasciwosci-zmyslowe
+          output: web, pdf
+
+        - title: 1.4.1 Użycie koloru
+          url: /1-4-1_Uzycie-koloru
+          output: web, pdf
+
+        - title: 1.4.2 Kontrola odtwarzania dźwieku
+          url: /1-4-2_Kontrola-odtwarzania-dzwieku
+          output: web, pdf
+
+        - title: 1.4.3 Kontrast minimalny
+          url: /1-4-3_Kontrast-minimalny
+          output: web, pdf
+
+        - title: 1.4.4 Zmiana rozmiaru tekstu
+          url: /1-4-4_Zmiana-rozmiaru-tekstu
+          output: web, pdf
+
+        - title: 1.4.5 Tekst w postaci grafiki
+          url: /1-4-5_Tekst-w-postaci-grafiki
+          output: web, pdf
+
+        - title: 2.1.1 Klawiatura
+          url: /2-1-1_Klawiatura
+          output: web
+
+        - title: 2.1.2 Brak pułapki na klawiaturę
+          url: /2-1-2_Brak-pulapki-na-klawiature
+          output: web, pdf
+
+        - title: 2.2.1 Możliwość dostosowania czasu
+          url: /2-2-1_Mozliwosc-dostosowania-czasu
+          output: web, pdf
+
+        - title: 2.2.2 Wstrzymywanie zatrzymywanie ukrywanie
+          url: /2-2-2_Wstrzymywanie-zatrzymywanie-ukrywanie
+          output: web
+
+        - title: 2.3.1 Trzy błyski
+          url: /2-3-1_Trzy-blyski
+          output: web, pdf
+
+        - title: 2.4.1 Możliwość pominięcia bloków
+          url: /2-4-1_Mozliwosc-pominiecia-blokow
+          output: web, pdf
+
+        - title: 2.4.2 Tytuły stron
+          url: /2-4-2_Tytuly-stron
+          output: web
+
+        - title: 2.4.3 Kolejność fokusa
+          url: /2-4-3_Kolejnosc-fokusa
+          output: web, pdf
+
+        - title: 2.4.4 Cel linku w kontekście
+          url: /2-4-4_Cel-linku-w-konteksc
+          output: web, pdf
+
+        - title: 2.4.5 Wiele dróg
+          url: /2-4-5_Wiele-drog
+          output: web
+
+        - title: 2.4.6 Nagłówki i etykiety
+          url: /2-4-6_Naglowki-i-etykiety
+          output: web, pdf
+
+        - title: 2.4.7 Widoczny fokus
+          url: /2-4-7_Widoczny-fokus
+          output: web, pdf
+
+        - title: 3.1.1_Jezyk-strony
+          url: /2-1-1_Klawiatura
+          output: web
+
+        - title: 3.1.2 Język części
+          url: /3-1-2_Jezyk-czesci
+          output: web, pdf
+
+        - title: 3.2.1 Po oznaczeniu fokusem
+          url: /3-2-1_Po-oznaczeniu-fokusem
+          output: web, pdf
+
+        - title: 3.2.2 Podczas wprowadzania danych
+          url: /3-2-2_Podczas-wprowadzania-danych
+          output: web
+
+        - title: 3.2.3 Konsekwentna nawigacja
+          url: /3-2-3_Konsekwentna-nawigacja
+          output: web, pdf
+
+        - title: 3-2-4 Konsekwentna identyfikacja
+          url: /3-2-4_Konsekwentna-identyfikacja
+          output: web, pdf
+
+        - title: 3.3.1 Identyfikacja błędu
+          url: /3-3-1_Identyfikacja-bledu
+          output: web
+
+        - title: 3.3.2 Etykiety lub instrukcje
+          url: /3-3-2_Etykiety-lub-instrukcje
+          output: web, pdf
+
+        - title: 3.3.3 Sugestie korekty błędów
+          url: /3-3-3_Sugestie-korekty-bledow
+          output: web, pdf
+
+        - title: 3.3.4 Zapobieganie błędom
+          url: /3-3-4_Zapobieganie-bledom
+          output: web, pdf
+
+        - title: 4.1.1 Parsowanie
+          url: /4-1-1_Parsowanie
+          output: web
+
+        - title: 4.1.2 Nazwa, rola, wartość
+          url: /4-1-2_Nazwa-rola-wartosc
+          output: web, pdf
