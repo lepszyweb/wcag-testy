@@ -68,6 +68,60 @@ entries:
     output: web
     folderitems:
 
-    - title: Przegląd
+    - title: O repozytorium
       url: /nod_wprowadzenie
       output: web
+    - title: Przegląd
+      url: /nod_repozytorium
+      output: web
+      subfolders:
+
+      - title: Aplikacje
+        output: web, pdf
+        subfolderitems:
+
+        - title: Color Contrast Analyzer
+          url: /nod_cca
+          output: web
+      subfolders:
+      - title: Rozszerzenia przeglądarek
+        output: web
+        subfolderitems:
+
+        - title: ANDI
+          url: /nod_andi
+          output: web
+
+        - title: ARC Toolkit
+          url: /nod_arc
+          output: web
+
+        - title: Inspektor dostępności w Firefox
+          url: /nod_firefox-inspektor-dostepnosci
+          output: web
+
+        - title: WET
+          url: /nod_wet
+          output: web, pdf
+
+      - title: Usługi internetowe
+        output: web, pdf
+        subfolderitems:
+
+        - title: Jasnopis
+          url: /nod_jasnopis
+          output: web
+
+        - title: Logios
+          url: /nod_logios
+          output: web, pdf
+  - title: Dziennik projektu
+    output: web, pdf
+    folderitems:
+
+    - title: Dziennik
+      url: /dziennik
+      output: web, pdf
+    - title: Archiwum Dziennika
+      url: /archiwum_dziennika
+      output: web, pdf
