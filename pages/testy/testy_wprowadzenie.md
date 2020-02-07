@@ -1,6 +1,6 @@
 ---
 title: Wprowadzenie
-Summary: "Co to są szablony? Jak odkryć elementy szblonu? Które elementy szablonu oceniać? Kryteria oceny dostępności szablonu "
+Summary: "Do poprawy Jak odkryć elementy szblonu? Które elementy szablonu oceniać? Kryteria oceny dostępności szablonu "
 
 sidebar: testy_sidebar
 permalink: testy_wprowadzenie

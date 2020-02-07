@@ -1,6 +1,5 @@
 ---
 title: Przegląd
-Summary: ""
 last_updated: 7 lutego 2019
 sidebar: testy_sidebar
 permalink: testy_przeglad
