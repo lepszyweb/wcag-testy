@@ -21,7 +21,7 @@ ANDI jest stosowany z powodzeniem w testach dostępności prowadzonych przez ame
 - **Autor**: Accessible Solutions Branch w Social Security Administration
 - **Źródło**: [ANDI - help](https://www.ssa.gov/accessibility/andi/help/install.html)
 
-## Stosowanie##
+## Stosowanie
 Opis funkcjonalności ANDI znajdziesz w polskiej adaptacji tego narzędzia wykonanej przez naszą Pracownię Dostępności Cyfrowej LepszyWeb.pl: [ANDI po polsku](https://lepszyweb.pl/andi/). Możesz również zapoznać się z oryginalnym podręcznikiem ppod adresem[ANDI - podrecznik oficjalny](https://www.ssa.gov/accessibility/andi/help/howtouse.html). Albo zapoznać się z nią w oryginale.
 
 ANDI dzieli testy na moduły. Przy pierwszym ładowaniu uruchamiany jest moduł domyślny, który analizuje elementy interaktywne, kolejność tabulacji i występowanie klawiszy dostępu. Kolejne moduły umożliwiają analizę elementów graficznych, linków i przycisków, tabel, struktury (nagłówki, listy, punkty orientacyjne, atrybuty ARIA, atrybuty języka), kontrast i elementy ukryte.
