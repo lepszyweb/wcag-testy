@@ -40,7 +40,7 @@ topnav_dropdowns:
           url: /testy_przeglad
         - title: Przegląd
           url: /testy_wprowadzenie
-        - title: Baza testów wstępnych
+        - title: Łatwe testy dostępności
           url: /00_P_wprowadzenie
         - title: Baza testów podstawowych
           url: /H0_00_wprowadzenie
