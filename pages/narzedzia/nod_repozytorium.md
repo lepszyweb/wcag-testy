@@ -3,11 +3,11 @@ title: O repozytorium
 tags: [narzędzia_oceny_dostępności]
 last_updated: 4 lutego 2019
 sidebar: narzedzia-sidebar
-tags:
 summary:
 keywords: narzedzia, walidatory, skryptozakładki, usługi sieciowe
 permalink: nod_repozytorium
 folder: narzedzia
+toc: false
 ---
  
 ## Narzędzia oceny dostępności cyfrowej
