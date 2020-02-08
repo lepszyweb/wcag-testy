@@ -2,7 +2,7 @@
 title: Narzędzia audytora dostępności cyfrowej
 
 last_updated: 4 lutego 2019
-sidebar: narzedzia-sidebar
+sidebar: narzedzia_sidebar
 keywords: narzedzia, walidatory, skryptozakładki, usługi sieciowe
 permalink: nod_wprowadzenie
 folder: narzedzia

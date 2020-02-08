@@ -18,22 +18,24 @@ entries:
       url: /testy_wprowadzenie
       output: web
 
+  - title: Łatwe testy dostępności
+    output: web, pdf
+
+    folderitems:
+    - title: O bazie łatwych testów
+      url: /00_P_wprowadzenie
+      output: web
+    - title: Łatwy przegląd dostępności
+      url: /00_P_wprowadzenie2
+      output: web
+    - title: Korzystanie z bazy testów
+      url: /00_P_wprowadzenie3
+      output: web
+
       subfolders:
       - title: Łatwe testy dostępności
         output: web
         subfolderitems:
-
-        - title: O bazie łatwych testów
-          url: /00_P_wprowadzenie
-          output: web
-
-        - title: Łatwy przegląd dostępności
-          url: /00_P_wprowadzenie2
-          output: web
-
-        - title: Korzystanie z bazy testów
-          url: /00_P_wprowadzenie3
-          output: web
 
         - title: Tytuł strony
           url: /01_P_tytul-strony

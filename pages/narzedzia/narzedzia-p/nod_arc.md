@@ -2,7 +2,7 @@
 title: ARC Toolkit
 tags: [rozszerzenia_przeglądarek,narzędzia_oceny_dostępności]
 
-sidebar: narzedzia-sidebar
+sidebar: narzedzia_sidebar
 permalink: nod_arc
 folder: narzedzia-p
 ---

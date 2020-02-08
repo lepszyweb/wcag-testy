@@ -1,7 +1,7 @@
 ---
 title: Jasnopis
 tags: [usługa_internetowa,narzędzia_oceny_dostępności]
-sidebar: narzedzia-sidebar
+sidebar: narzedzia_sidebar
 permalink: nod_jasnopis
 folder: narzedzia-o
 ---

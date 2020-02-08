@@ -2,7 +2,7 @@
 title: ANDI - inspektor dostępnych nazw i opisów
 tags: [rozszerzenia_przeglądarek,narzędzia_oceny_dostępności]
 
-sidebar: narzedzia-sidebar
+sidebar: narzedzia_sidebar
 permalink: nod_andi
 folder: narzedzia-p
 ---
