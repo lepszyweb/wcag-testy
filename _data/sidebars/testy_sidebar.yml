@@ -75,6 +75,9 @@ entries:
           url: /10_P_struktura
           output: web, pdf
 
+  - title: Baza testów podstawowych
+    output: web, pdf
+
     folderitems:
     - title: Baza testów podstawowych
       url: /H0_00_wprowadzenie
@@ -201,6 +204,9 @@ entries:
           url: /H7_01_mruganie-i-miganie
           output: web, pdf
 
+  - title: Podstawowe testy ITC
+    output: web, pdf
+
     folderitems:
     - title: Podstawowe testy ITC
       url: /ICT_00_wprowadzenie
@@ -315,6 +321,9 @@ entries:
           url: /ICT_26_dodatekA
           output: web
 
+  - title: Wielopoziomowy protokół oceny
+    output: web, pdf
+
     folderitems:
     - title: Wielopoziomowy protokół oceny
       url: /MSU_00_wprowadzenie
@@ -348,6 +357,9 @@ entries:
         - title: Poziom 6
           url: /MSU_01_poziom_6
           output: web, pdf
+
+  - title: Pomocnik adepta dostępności
+    output: web, pdf
 
     folderitems:
     - title: Pomocnik adepta dostępności
