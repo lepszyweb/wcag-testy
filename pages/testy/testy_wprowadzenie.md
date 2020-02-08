@@ -21,7 +21,7 @@ W polskojęzycznych zasobach poświeconych dostępności cyfrowej nie było doty
   - [Wielostopniowa ocena zgodności z WCAG 2.1 AA](MSU_00_wprowadzenie): uproszczony protokół testów zgodności stosowany na [Michigan State University](https://uarc.msu.edu/resources/tools)
 
 ## Jak możesz pomóc?
-- **Zostań współtwórcą**. Zaproponuj i opracuj test lub zestaw testów. Prześlij swoje propozycje. Skorzystaj z [szablonu opisu testu](testy/szablon_opisu_testu.md)
+- **Zostań współtwórcą**. Zaproponuj i opracuj test lub zestaw testów. Prześlij swoje propozycje. Skorzystaj z [szablonu opisu testu](szablon_opisu_testu.md)
 - **Zgłoś swoje sugestie, pomysły, propozycje poprawek**. Skorzystaj z systemu [śledzenia problemów](https://github.com/lepszyweb/wcag-testy/issues) 
 
 ## Licencja
