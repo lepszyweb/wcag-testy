@@ -64,7 +64,7 @@ kramdown:
 collections:
   tooltips:
     output: false
-# Tutaj dekalrowane są kolekcje (collections). To sprawia, że treść w _tooltips jest przetwarzana, ale nie jest wyświetlana jako rzeczywiste pliki na wyjściu, chyba że zmienisz wyjście na true
+# Tutaj deklarowane są kolekcje (collections). To sprawia, że treść w _tooltips jest przetwarzana, ale nie jest wyświetlana jako rzeczywiste pliki na wyjściu, chyba że zmienisz wyjście na true
 
 defaults:
   -
@@ -105,11 +105,7 @@ sidebars:
 - home_sidebar
 - metoda_sidebar
 - standardy_sidebar
-- testy-adept_sidebar
-- testy-itc_sidebar
-- testy-msu_sidebar
-- testy-jbt_sidebar
-- testy-proste_sidebar
+- testy_sidebar
 - narzedzia_sidebar
 
 description: "Celem projektu jest zbudowanie bazy wiedzy o dostępności cyfrowej stron internetowych i aplikacji mobilnych, aby pomóc wydawcom, koordynatorom dostępności cyfrowej, programistom, webmasterom, audytorom, testerom.
