@@ -23,11 +23,11 @@ Repozytorium składa się z dwóch działów:
 - **Rozwiązania** - wybrane rozwiązania praktyczne 
   - **Podstawowe testy ITC** - robocze tłumacznie podstawowej bazy testów dostępności stosowanych w&nbsp;amerykańskich agencjach rządowych,
   - **Wielopoziomowy protokół oceny**: uproszczony protokół testów zgodności stosowany na [Michigan State University](https://uarc.msu.edu/resources/tools)
-  -** Pomocnik adepta dostępności**: zestaw testów opracowany przez [Stowarzyszenie Twoje nowe możliwości](http://www.tnm.org.pl/)
+  - **Pomocnik adepta dostępności**: zestaw testów opracowany przez [Stowarzyszenie Twoje nowe możliwości](http://www.tnm.org.pl/)
 
  
 ## Jak możesz pomóc?
-- **Zostań współtwórcą**. Zaproponuj i opracuj test lub zestaw testów. Prześlij swoje propozycje. Skorzystaj z [szablonu opisu testu](testy/szablon_opisu_testu.md)
+- **Zostań współtwórcą**. Zaproponuj i opracuj test lub zestaw testów. Prześlij swoje propozycje. Skorzystaj z [szablonu opisu testu](szablon_opisu_testu.md)
 - **Zgłoś swoje sugestie, pomysły, propozycje poprawek**. Skorzystaj z systemu [śledzenia problemów](https://github.com/lepszyweb/wcag-testy/issues) 
 
 ## Licencja
