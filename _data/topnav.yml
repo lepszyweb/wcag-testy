@@ -55,7 +55,7 @@ topnav_dropdowns:
         - title: Przegląd
           url: /nod_wprowadzenie
         - title: Aplikacje
-          url: /nod_cca
+          url: /nod_pac
         - title: Rozszerzenia przeglądarek
           url: /nod_andi
         - title: Usługi internetowe

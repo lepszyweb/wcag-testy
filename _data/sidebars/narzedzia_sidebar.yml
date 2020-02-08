@@ -34,6 +34,9 @@ entries:
     - title: Color Contrast Analyzer
       url: /nod_cca
       output: web
+    - title: PAC - walidator PDF
+      url: /nod_pac
+      output: web
 
   - title: Rozszerzenia przeglądarek
     output: web, pdf
