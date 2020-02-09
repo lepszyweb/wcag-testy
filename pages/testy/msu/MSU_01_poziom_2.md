@@ -9,7 +9,7 @@ folder: testy/msu
 ---
 
 
-## Poziom 2
+Zawsze należy wypełnić wszystkie poziomy dokładności (zobacz: [Wprowadzenie](MSU_00_wprowadzenie), aby uzyskać szczegółowe informacje). Jeśli strony nie zawierają danych wejściowych dotyczących formularzy lub treści migających, należy odpowiednio zaznaczyć opcję "N/A".
 
 | Test        | Protokoły                    |OK|Źle|ND| Uwagi  |KS WCAG|
 |-------------|------------------------------|--|---|--|--------|--------|
@@ -21,12 +21,3 @@ folder: testy/msu
 |6. Konsekwentna nawigacja|Upewnij się, że pozycje w paskach nawigacyjnych i menu są w tej samej kolejności na wszystkich powiązanych stronach.| | | | |[3.2.3](https://wcag.lepszyweb.pl/#consistent-navigation)|
 |7. Etykiety i instrukcje w formularzach|Upewnij się, że etykiety lub instrukcje są dostarczane w formie tekstowej dla wszystkich danych wejściowych formularza.| | | | |[3.3.2](https://wcag.lepszyweb.pl/#labels-or-instructions)|
 |8. Identyfikacja błędów w formularzach|Przetestuj formularze. Pozostaw niewypełnione pola, wypełnij pola nieprawidłowymi danymi. Upewnij się, że formularz nie zostanie wysłany z brakującymi lub błędnymi danymi oraz że na postawie komunikatów o błędach możesz się dowiedzieć, gdzie zostały popełnione i na czym polegały (jak je naprawić). Upewnij się, że komunikaty są wystarczająco opisowe, aby pomóc użytkownikom w rozwiązaniu problemów.| | | | |[3.3.1](https://wcag.lepszyweb.pl/#error-identification)|
-
-
-
-
-
-
-
-
-

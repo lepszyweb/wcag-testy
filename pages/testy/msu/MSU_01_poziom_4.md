@@ -10,7 +10,7 @@ folder: testy/msu
 
 
 
-## Poziom 4 
+Zawsze należy wypełnić wszystkie poziomy dokładności (zobacz: [Wprowadzenie](MSU_00_wprowadzenie), aby uzyskać szczegółowe informacje). Zobacz: [Narzędzia audytora dostępności cyfrowej](nod_wprowadzenie#walidatory-kontrastu-i-koloru) - walidatory kontrastu i koloru.
 
 | Test        | Protokoły                    |OK|Źle|ND| Uwagi  |KS WCAG|
 |-------------|------------------------------|--|---|--|--------|--------|
@@ -21,13 +21,3 @@ folder: testy/msu
 |5. Kontrast kolorów (CCA)|Użyj narzędzia analizatora kontrastu kolorów, aby upewnić się, że wszystkie teksty i ikony (bez logo i nieaktywnej zawartości) mają wystarczający kontrast w stosunku do tła, na którym się znajdują (4,5:1 dla zwykłego tekstu i 3:1 dla dużego tekstu).| | | | |[1.4.3](https://wcag.lepszyweb.pl/#contrast-minimum)|
 |6. Powiększenie|Powiększaj każdą stronę (przy użyciu funkcji powiększenia przeglądarki) do 200% i upewnienie się, że cała zawartość jest nadal widoczna i w pełni funkcjonalna.| | | | |[1.4.4](https://wcag.lepszyweb.pl/#resize-text)|
 |7. Cel łącza (w kontekście)|Upewnij się, że miejsca docelowe/funkcje wszystkich łączy/przycisków na każdej stronie są jasno określone przez tekst łącza/przycisku i poprzedzający go kontekst (tzn. użytkownik nie powinien być zaskoczony tym, dokąd zmierza lub co się dzieje).| | | | |[2.4.4](https://wcag.lepszyweb.pl/#link-purpose-in-context)|
-
-
-
-
-
-
-
-
-
-

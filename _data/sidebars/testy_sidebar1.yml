@@ -18,24 +18,22 @@ entries:
       url: /testy_wprowadzenie
       output: web
 
-  - title: Łatwe testy dostępności
-    output: web, pdf
-
-    folderitems:
-    - title: O łatwych testach
-      url: /00_P_wprowadzenie
-      output: web
-    - title: Wstępny przegląd dostępności
-      url: /00_P_wprowadzenie2
-      output: web
-    - title: Korzystanie z łatwych testów
-      url: /00_P_wprowadzenie3
-      output: web
-
       subfolders:
-      - title: Baza łatwych testów
+      - title: Łatwe testy dostępności
         output: web
         subfolderitems:
+
+        - title: O łatwych testach
+          url: /00_P_wprowadzenie
+          output: web
+
+        - title: Wstępny przegląd dostępności
+          url: /00_P_wprowadzenie2
+          output: web
+
+        - title: Korzystanie z łatwych testów
+          url: /00_P_wprowadzenie3
+          output: web
 
         - title: Tytuł strony
           url: /01_P_tytul-strony
@@ -77,16 +75,13 @@ entries:
           url: /10_P_struktura
           output: web, pdf
 
-  - title: Testy zgodności z WCAG
-    output: web, pdf
-
     folderitems:
-    - title: O testach zgodności
+    - title: Baza testów podstawowych
       url: /H0_00_wprowadzenie
       output: web
 
       subfolders:
-      - title: Baza testów zgodności
+      - title: Testy podstawowe
         output: web
         subfolderitems:
 
@@ -206,9 +201,6 @@ entries:
           url: /H7_01_mruganie-i-miganie
           output: web, pdf
 
-  - title: Podstawowe testy ITC
-    output: web, pdf
-
     folderitems:
     - title: Podstawowe testy ITC
       url: /ICT_00_wprowadzenie
@@ -323,16 +315,13 @@ entries:
           url: /ICT_26_dodatekA
           output: web
 
-  - title: Ocena wielopoziomowa
-    output: web, pdf
-
     folderitems:
-    - title: O protokole oceny
+    - title: Wielopoziomowy protokół oceny
       url: /MSU_00_wprowadzenie
       output: web
 
       subfolders:
-      - title: Protokoły oceny
+      - title: Protokoły testów
         output: web
         subfolderitems:
 
@@ -360,16 +349,13 @@ entries:
           url: /MSU_01_poziom_6
           output: web, pdf
 
-  - title: Pomocnik adepta dostępności
-    output: web, pdf
-
     folderitems:
-    - title: O Pomocniku
+    - title: Pomocnik adepta dostępności
       url: /1-0-0_wprowadzenie
       output: web
 
       subfolders:
-      - title: Opisy testów
+      - title: Protokoły testów
         output: web
         subfolderitems:
 

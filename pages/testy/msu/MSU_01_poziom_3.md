@@ -9,8 +9,7 @@ folder: testy/msu
 ---
 
 
-
-## Poziom 3 (czytnik ekranu)
+Zawsze należy wypełnić wszystkie poziomy dokładności (zobacz: [Wprowadzenie](MSU_00_wprowadzenie), aby uzyskać szczegółowe informacje). Instrukcje obsługi czytnika ekranu można znaleźć w przewodnikach WebAIM wymienionych w zasobach internetowych.
 
 | Test        | Protokoły                    |OK|Źle|ND| Uwagi  |KS WCAG|
 |-------------|------------------------------|--|---|--|--------|--------|
@@ -22,12 +21,3 @@ folder: testy/msu
 |6. Poziomy nagłówków (Czytnik ekranu)|Podczas korzystania z czytnika ekranowego poruszaj się po nagłówkach za pomocą klawiatury (np. klawisz `h` w programie NVDA). Upewnij się, że na stronie jest tylko jeden nagłówek `h1`, że w strukturze nagłówków nie są pomijane żadne poziomy (np. nie ma przeskoku z `h1` do `h3`) oraz że wszystkie nagłówki są prawidłowo zagnieżdżone (tj. ogólna struktura ma sens).| | | | |[1.3.1](https://wcag.lepszyweb.pl/#info-and-relationships)|
 |7. Etykiety i instrukcje w formularzach (Czytnik ekranu)|Podczas korzystania z czytnika ekranu upewnij się, że dla wszystkich pól (kontrolek) formularzy odczytywane są etykiety lub instrukcje (przeniesienie fokusa na pole (kontrolkę) powoduje odczytanie etykiety/ instrukcji przez czytnik ekranu).| | | | |[3.3.2](https://wcag.lepszyweb.pl/#labels-or-instructions)|
 |8. Identyfikacja błędów w formularzach (Czytnik ekranu)|Podczas korzystania z czytnika ekranu, przetestuj formularze. Pozostaw niewypełnione pola, wypełnij pola nieprawidłowymi danymi. Upewnij się, że formularz nie zostanie wysłany z brakującymi lub błędnymi danymi. Upewnij się, że błędy są sygnalizowane przez czytnik ekranu i że można stwierdzić, gdzie zostały popełnione błędy i na czym polegały (jak je naprawić).| | | | |[3.3.1](https://wcag.lepszyweb.pl/#error-identification)|
-
-
-
-
-
-
-
-
-

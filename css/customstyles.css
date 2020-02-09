@@ -120,7 +120,7 @@ table {
 caption {
     padding-top: 8px;
     padding-bottom: 8px;
-    color: #777;
+    color: #767676;
     text-align: left;
 }
 th {
@@ -147,9 +147,10 @@ table > thead > tr > th {
     vertical-align: bottom;
     border-bottom: 2px solid #ddd;
     text-transform: none;
-    background-color: #777;
+    background-color: #767676;
     color: white;
     text-align: left;
+    font-size: .85em;
 }
 table > caption + thead > tr:first-child > th,
 table > colgroup + thead > tr:first-child > th,
@@ -387,7 +388,8 @@ ul#mysidebar {
 }
 
 .nav ul li ul li a {
-    padding-left:40px;
+    padding-left:20px;
+    font-size: .83em;
 }
 
 .nav li.thirdlevel > a {
@@ -576,7 +578,7 @@ a[data-toggle] {
 
 .summary {
     font-size:120%;
-    color: #797676;
+    color: #767373;
     margin:20px 0px 20px 0px;
     border-left: 5px solid #ED1951;
     padding-left: 10px;
@@ -594,7 +596,7 @@ a.fa.fa-envelope-o.mailto {
 }
 
 h3 {color: #ED1951; font-weight:normal; font-size:130%;}
-h4 {color: #797676; font-weight:normal; font-size:120%;}
+h4 {color: #767373; font-weight:normal; font-size:120%;}
 
 .alert, .callout {
     overflow: hidden;
@@ -987,7 +989,7 @@ div.results {
 
 .post-meta {
     font-size: 14px;
-    color: #828282;
+    color: #747474;
 }
 
 .post-link {

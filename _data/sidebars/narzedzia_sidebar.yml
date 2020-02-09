@@ -54,6 +54,10 @@ entries:
       url: /nod_firefox-inspektor-dostepnosci
       output: web
 
+    - title: Accessibility Insights for Web
+      url: /nod_insights
+      output: web
+      
     - title: WET
       url: /nod_wet
       output: web, pdf

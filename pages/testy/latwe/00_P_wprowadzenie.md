@@ -1,6 +1,6 @@
 ---
-title: O bazie łatwych testów
-
+title: O łatwych testach
+summary: "Łatwe testy pozwalają stwierdzić, czy strona internetowa jest dostępna na podstawowym poziomie. Mogą wykryć nawet 75-80% barier dostepności występujących na stronie."
 
 sidebar: testy_sidebar
 permalink: 00_P_wprowadzenie
@@ -11,13 +11,11 @@ last_updated: 2 lutego 2020
 ## Baza łatwych testów dostępności
 Baza łatwych testów pomaga oceniać dostępność cyfrową stron internetowych. Dzięki łatwym testom można się zorientować, czy dostępność treści na stronie internetowej została zapewniona w najbardziej elementarny sposób.
 
-Testy zostały dobrane i zaprojektowane tak, aby mógł je przeprowadzić każdy, kto posiadł wykształcenie ogólne i korzysta ze stron internetowych. 
-
-Wcześniej nabyta wiedza o dostępności cyfrowej czy projektowaniu stron na pewno będzie pomocna w przeprowadzeniu przeglądu, ale nie jest konieczna. 
+Testy zostały dobrane i zaprojektowane tak, aby mógł je przeprowadzić każdy, kto posiadł wykształcenie ogólne i&nbsp;korzysta ze stron internetowych. Wcześniej nabyta wiedza o dostępności cyfrowej czy projektowaniu stron na pewno będzie pomocna w przeprowadzeniu przeglądu, ale nie jest konieczna. 
 
 Przeprowadzenie łatwego przeglądu dostępności wymaga od oceniających jedynie zapoznania się z opisami testów i zastosowania przedstawionych w nich instrukcji. 
 
-Oznacza to, że komplet informacji potrzebnych do przeprowadzenia testów i oceny dostępności w sprawdzanym zakresie znajduje się w opisach testów.
+Oznacza to, że komplet informacji potrzebnych do przeprowadzenia testów i oceny dostępności w&nbsp;sprawdzanym zakresie znajduje się w opisach testów.
   
 Jedynym technicznym wymogiem jest umiejętność zainstalowania w przeglądarce dodatków rozszerzających jej możliwości. 
 

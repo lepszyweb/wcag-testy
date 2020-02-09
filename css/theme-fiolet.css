@@ -1,12 +1,12 @@
 .summary {
-    color: #797676;
+    color: #767373;
     border-left: 5px solid #df1465;
     font-size:16px;
 }
 
 
 h3 {color: #df1465; }
-h4 {color: #797676; }
+h4 {color: #767373; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #7e4795;

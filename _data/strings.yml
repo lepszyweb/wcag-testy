@@ -1,5 +1,7 @@
 
 
 # placed here for translation purposes
-search_placeholder_text: szukaj...
+search_label: Szukaj
+search_placeholder_text: Wpisz tekst i wybierz link
+search_tips: Wpisz szukany tekst i użyj klawisza Tab, aby przejść do listy znalezionych stron.
 search_no_results_text: Nie znaleziono pasujących wyników.

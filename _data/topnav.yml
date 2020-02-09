@@ -42,7 +42,7 @@ topnav_dropdowns:
           url: /testy_wprowadzenie
         - title: Łatwe testy dostępności
           url: /00_P_wprowadzenie
-        - title: Baza testów podstawowych
+        - title: Testy zgodności z WCAG
           url: /H0_00_wprowadzenie
         - title: Baza testów ITC
           url: /ICT_00_wprowadzenie

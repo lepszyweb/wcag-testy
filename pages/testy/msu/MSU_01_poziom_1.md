@@ -9,7 +9,7 @@ folder: testy/msu
 ---
 
 
-## Poziom 1
+Zawsze należy wypełnić wszystkie poziomy dokładności (zobacz: [Wprowadzenie](MSU_00_wprowadzenie), aby uzyskać szczegółowe informacje). Jeśli strony nie zawierają żadnych treści audio/wideo, należy odpowiednio zaznaczyć "nie dotyczy".
 
 | Test        | Protokoły                    |OK|Źle|ND| Uwagi  |KS WCAG|
 |-------------|------------------------------|--|---|--|--------|--------|
@@ -23,11 +23,3 @@ folder: testy/msu
 |8. Napisy wideo na żywo|Upewnij się, że wszystkie transmisje wideo na żywo mają napisy przekazujące dokładnie te same informacje, co ścieżka dźwiękowa.| | | | |[1.2.4](https://wcag.lepszyweb.pl/#captions-live)|
 |9. Sterowanie dźwiękiem|Upewnij się, że istnieje sposób na wyłączenie dźwięku odtwarzanego automatycznie, który trwa dłużej niż 3 sekundy (w tym dźwięku w przekazie wideo). Upewnij się, że elementy sterujące dźwiękiem działają z klawiaturą.| | | | |[1.4.2](https://wcag.lepszyweb.pl/#audio-control)|
 |10. Sterowanie sygnałem wizyjnym|Upewnij się, że istnieje sposób na zatrzymanie odtwarzanego automatycznie ruchu lub migania trwającego dłużej niż 5 sekund. Upewnij się, że elementy sterujące ruchem działają z klawiaturą.| | | | |[2.2.2](https://wcag.lepszyweb.pl/#pause-stop-hide)|
-
-
-
-
-
-
-
-

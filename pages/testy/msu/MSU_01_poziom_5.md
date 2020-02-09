@@ -10,7 +10,7 @@ folder: testy/msu
 
 
 
-## Poziom 5 
+Zawsze należy wypełnić wszystkie poziomy dokładności (zobacz: [Wprowadzenie](MSU_00_wprowadzenie), aby uzyskać szczegółowe informacje).
 
 | Test        | Protokoły                    |OK|Źle|ND| Uwagi  |KS WCAG|
 |-------------|------------------------------|--|---|--|--------|--------|
@@ -21,13 +21,3 @@ folder: testy/msu
 |5. Opisy dźwiękowe|Upewnij się, że dla wszystkich nagranych wcześniej filmów (w tym pokazów slajdów) są dostępne opisy dźwiękowe znaczącej zawartości wizualnej.| | | | |[1.2.5](https://wcag.lepszyweb.pl/#audio-description-prerecorded)|
 |6. Limity czasowe|Upewnij się, że użytkownicy mogą dostosować limity czasowe (chyba, że limit czasowy jest większy niż 20 godzin lub że czas jest krytyczny dla procesu) i że otrzymają w tym celu co najmniej 20 sekundowe ostrzeżenie. Upewnij się, że limity czasowe mogą być regulowane za pomocą klawiatury i że czytniki ekranu otrzymują powiadomienia o limitach czasowych.| | | | |[2.2.1](https://wcag.lepszyweb.pl/#timing-adjustable)|
 |7. Stosunki wizualne (Czytnik ekranu)|Użyj czytnika ekranu, aby upewnić się, że wszystkie informacje wizualne i relacje (tj. struktura i skojarzenia pomiędzy treścią/omówieniami) są prawidłowo ogłaszane i opisywane, tak aby mogły być w pełni zrozumiałe wyłącznie przy użyciu czytnika ekranu.| | | | |[1.3.1](https://wcag.lepszyweb.pl/#info-and-relationships)|
-
-
-
-
-
-
-
-
-
-

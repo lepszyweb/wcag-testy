@@ -1,7 +1,7 @@
 ---
 title: "Ocenianie dostępności cyfrowej"
 keywords: dostepność cyfrowa, ocenianie dostepności cyfrowej, przegląd dostępności cyfrowej, testowanie dostępności cyfrowej, metodologia oceniania dostepności cyfrowej, WCAG 2.1, WCAG
-tags: [dostępność,dostępność_cyfrowa,WCAG_2.1,metodologia_oceniania_dostępności ]
+# tags: [dostępność, dostępność_cyfrowa, WCAG_2.1, metodologia_oceniania_dostępności ]
 sidebar: home_sidebar
 permalink: index.html
 toc: false

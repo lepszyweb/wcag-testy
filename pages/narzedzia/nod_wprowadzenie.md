@@ -10,71 +10,71 @@ folder: narzedzia
 
 
 ## Wprowadzenie
-Dopracowanie się własnego warsztatu audytora dostępności cyfrowej jest procesem długofalowym. 
+Dopracowanie się własnego warsztatu audytora dostępności cyfrowej jest procesem długofalowym.
 Warsztat pracy audytora dostępności cyfrowej to przede wszystkim wciąż pogłębiana wiedza ekspercka oraz wypracowane procedury postępowania, metody działania, źródła wiedzy, a także wszelkie środki materialno-techniczne, które służą audytorowi do organizacji badań.
 
 Ważną częścią warsztatu audytora są narzędzia do oceny dostępności cyfrowej.
 
 Należy do nich podstawowe wyposażenie, obejmujące m.in.
- 
+
 - komputer z ulubionym systemem operacyjnym, choć byłoby dobrze, gdyby audytor dysponował więcej niż jednym środowiskiem, np. systemem Windows i Mac OS
 - urządzenie mobilne, np. tablet lub smartfon, a najlepiej jedno i drugie,
-- mysz, klawiatura, głośniki lub słuchawki, 
+- mysz, klawiatura, głośniki lub słuchawki,
 - oprogramowanie biurowe, niezbędne do sporządzania dokumentacji,
 
 To dość oczywisty podstawowy zestaw oprzyrządowania audytorskiego. Jeśli dodać do niego programy użytkownika niezbędne do korzystania z zasobów internetowych, a więc przeglądarki internetowe, można oceniać dostępność cyfrową skutecznie, acz niekoniecznie wydajnie.
 
 Aby zapewnić sobie wysoką wydajność, każdy audytor musi wybrać i opanować obsługę specjalistycznych narzędzi do oceny dostępności cyfrowej.
 
-Narzędzia do oceny dostępności cyfrowej to programy lub usługi internetowe, które pomagają określić, czy treść stron internetowych spełnia wytyczne dotyczące dostępności. 
+Narzędzia do oceny dostępności cyfrowej to programy lub usługi internetowe, które pomagają określić, czy treść stron internetowych spełnia wytyczne dotyczące dostępności.
 
-Na przestrzeni minionych lat wypracowano bogatą ofertę różnych narzędzi do oceny dostępności. 
+Na przestrzeni minionych lat wypracowano bogatą ofertę różnych narzędzi do oceny dostępności.
 Prowadzona przez W3C lista zgłoszonych narzędzi oceny dostępności – zestawieniu [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/) – liczy ponad 130 pozycji, a z całą pewnością nie jest ona kompletna.
 
-Oczywiście, ani nie potrzebujesz wszystkich tych narzędzi, ani nie musisz ich wszystkich znać. Ale możesz potrzebować wskazówek, jak spośród tej niemałej liczby narzędzi wybrać najlepsze dla siebie, czym się kierować w wyborze. 
+Oczywiście, ani nie potrzebujesz wszystkich tych narzędzi, ani nie musisz ich wszystkich znać. Ale możesz potrzebować wskazówek, jak spośród tej niemałej liczby narzędzi wybrać najlepsze dla siebie, czym się kierować w wyborze.
 
-Niniejszy poradnik omawia cechy narzędzi oceny dostępności oraz kilka ich aspektów, które należy wziąć pod uwagę w swoich poszukiwaniach najlepszego zestawu. 
+Niniejszy poradnik omawia cechy narzędzi oceny dostępności oraz kilka ich aspektów, które należy wziąć pod uwagę w swoich poszukiwaniach najlepszego zestawu.
 
-## Co mogą zrobić narzędzia oceny, a czego zrobić NIE mogą? 
-  
+## Co mogą zrobić narzędzia oceny, a czego zrobić NIE mogą?
+
 Odpowiedź na to pytanie jest trochę ryzykowna, bo może się okazać, że jutro lub pojutrze pojawią się narzędzia, które potrafią zdziałać cuda, o jakich nam się nawet jeszcze nie śni. Niemniej, co najmniej dwóch twierdzeń można być pewnym:
 
 - Po pierwsze, narzędzia oceny dostępności mogą audytorowi i każdemu, kto podejmie się oceny dostępności, pomóc szybko zidentyfikować **niektóre**, ale nie wszystkie problemy z dostępnością. Można z nich korzystać na wszystkich etapach tworzenia stron i aplikacji internetowych, w tym w  różnych momentach procesu oceny stron i aplikacji.  
 - Po drugie, nawet najbardziej zaawansowane narzędzia oceny dostępności nie potrafią osądzić i ocenić zgodności tych aspektów, które ocenić może tylko człowiek. A takich aspektów, jeśli wziąć za punkt odniesienia kryteria sukcesu WCAG 2.1 jest zdecydowanie większość.
 
-Niemożliwe jest automatyczne sprawdzenie wszystkich aspektów dostępności. Dostępność wymaga ludzkiego osądu. Narzędzia oceny dostępności cyfrowej mogą w tym pomóc. Ba, czasem potrafią nawet wskazać, co należy zbadać i ocenić. Ale nie potrafią ocenić. Co więcej, bywa, że dają także fałszywe wyniki lub wprowadzają w błąd. Nawet te, których twórcy przekonują, że ich narzędzie nie zgłasza fałszywych alarmów. 
-   
+Niemożliwe jest automatyczne sprawdzenie wszystkich aspektów dostępności. Dostępność wymaga ludzkiego osądu. Narzędzia oceny dostępności cyfrowej mogą w tym pomóc. Ba, czasem potrafią nawet wskazać, co należy zbadać i ocenić. Ale nie potrafią ocenić. Co więcej, bywa, że dają także fałszywe wyniki lub wprowadzają w błąd. Nawet te, których twórcy przekonują, że ich narzędzie nie zgłasza fałszywych alarmów.
+
 ## Funkcje narzędzi oceny
 
 Narzędzia oceny dostępności zwykle są projektowane pod kątem specyficznych potrzeb różnych grup odbiorców – projektantów, programistów, autorów treści, testerów jakości.
- 
+
 Z jednej strony są wśród narzędzi oceny dostępności takie, z których może skorzystać zwykły, czy może lepiej powiedzieć, przeciętny użytkownik Internetu. Z drugiej strony mamy narzędzia przeznaczone dla programistów, integrowane ze specjalistycznymi narzędziami do budowy aplikacji.
 
 Są wśród narzędzi takie, które oferują wąski, wysoce specjalistyczny zakres możliwości, narzędzia „jednej funkcji” oraz narzędzia złożone, integrujące różne funkcje.
- 
+
 ## Główne cechy
 
-Wspomniana wcześniej [lista narzędzi oceny dostępności internetowej](https://www.w3.org/WAI/ER/tools/) prowadzona przez WAI W3C jest dobrym miejscem do wyszukania potrzebnych narzędzi. Wprawdzie pewną barierą może być angielski język opisów tych narzędzi, ale ten problem – przynajmniej częściowo – pomoże rozwiązać translator Google. 
- 
+Wspomniana wcześniej [lista narzędzi oceny dostępności internetowej](https://www.w3.org/WAI/ER/tools/) prowadzona przez WAI W3C jest dobrym miejscem do wyszukania potrzebnych narzędzi. Wprawdzie pewną barierą może być angielski język opisów tych narzędzi, ale ten problem – przynajmniej częściowo – pomoże rozwiązać translator Google.
+
 Aby ułatwić przeglądanie listy i wybór narzędzi, zastosowano kilka istotnych kryteriów klasyfikacji, odwołujących się do istotnych cech narzędzi. Można ich używać jako filtrów. Na przykład można wyfiltrować tylko narzędzia służące ocenie zgodności z WCAG 2.1. Albo tylko narzędzia do oceny dostępności cyfrowej aplikacji mobilnych.
 
-### Wytyczne, czyli testy zgodności z określonymi standardami 
+### Wytyczne, czyli testy zgodności z określonymi standardami
 
-Narzędzia oceny dostępności cyfrowej mogą służyć badaniu zgodności z różnymi standardami. 
-Lista narzędzi prowadzona przez WAI W3C zawiera filtr **Guidelines** (Wytyczne) umożlwiający wybór narzędzi uwzględniających wybrany standard dostępności. 
+Narzędzia oceny dostępności cyfrowej mogą służyć badaniu zgodności z różnymi standardami.
+Lista narzędzi prowadzona przez WAI W3C zawiera filtr **Guidelines** (Wytyczne) umożlwiający wybór narzędzi uwzględniających wybrany standard dostępności.
 
-Oprócz standardu WCAG, filtry uwzględniają 10 innych standardów, m.in. amerykański Section 508, francuski RGAA czy włoski Stanca. 
+Oprócz standardu WCAG, filtry uwzględniają 10 innych standardów, m.in. amerykański Section 508, francuski RGAA czy włoski Stanca.
 
 W przypadku standardu WCAG można wyfiltrować narzędzia oceniające zgodność ze standardem WCAG 1.0, ze standardem WCAG 2.0 oraz najnowszym WCAG 2.1.
 
-### Typy narzędzi oceny 
+### Typy narzędzi oceny
 Każde z umieszczonych na liście narzędzi sklasyfikowane jest według typu (**Type of tool**). Zgłaszający narzędzie mogą przypisać je do kilku typów. Wyróżniono 7 różnych typów, a w każdym z nich jeszcze dodatkowe „podtypy”, z tym, że informacje o podtypie można jedynie doczytać w charakterystyce narzędzia, filtr nie umożliwiają wyboru podtypów:
 
 - **Desktop appliction** (Aplikacje komputerowe) z podziałem na Microsoft Windows, Apple macOS, Linux, Solaris, BSD Unix,
 - **Mobile application** (Aplikacje mobilne) z podziałem na Apple iOS, Android, Microsoft Windows Phone, Blackberry, Firefox OS
-- **Command Line Tool** (Narzędzia wiersza poleceń) 
+- **Command Line Tool** (Narzędzia wiersza poleceń)
 - **Browser plugin** (Rozszerzenia przeglądarek), w tym: Any (dowolna, skryptozakładki) Chrome, Firefox, Edge, Opera, Safari. Dodatki do przeglądarek pomagają projektantom witryn, testerom jakości i ekspertom ds. oceny w sprawdzaniu treści bezpośrednio w przeglądarce.
-- **Authoring tool plugin**  (Rozszerzenia narzędzi autorskich), w tym: Adobe Dreamweaver, Adobe Flash, Adobe Photoshop, Adobe Edge, Eclipse, Microsoft Expression Web, Microsoft Visual Studio, Sublime Text. Rozszerzenia narzędzi autorskich często pomagają autorom treści nietechnicznych w sprawdzaniu treści. 
+- **Authoring tool plugin**  (Rozszerzenia narzędzi autorskich), w tym: Adobe Dreamweaver, Adobe Flash, Adobe Photoshop, Adobe Edge, Eclipse, Microsoft Expression Web, Microsoft Visual Studio, Sublime Text. Rozszerzenia narzędzi autorskich często pomagają autorom treści nietechnicznych w sprawdzaniu treści.
 - **API (Application Programming Interface)**, w tym REST, SOAP, Webhook, JavaScript,
 - **Online tool** (Narzędzia internetowe), w tym **Online checker** (testery internetowe), **Hosted service** (Usługi hostowane) oraz  **Server installation** (instalowane na serwerze)
 
@@ -84,13 +84,13 @@ Każde z umieszczonych na liście narzędzi sklasyfikowane jest według typu (**
 
 **Instalacja na serwerze** niektórych narzędzi oceny zapewnia zintegrowany sposób sprawdzania całej witryny w sieci wewnętrznej. Niektóre z tych narzędzi mogą sprawdzić zawartość ograniczoną hasłem lub wersje robocze.
 
-### Obsługiwane formaty 
+### Obsługiwane formaty
 
 Większość narzędzi oceny sprawdza dostępność treści HTML. Niektóre sprawdzają inne technologie internetowe. Filtr **Supported formats** (Obsługiwane formaty) pozwala wyselekcjonować narzędzia testujące takie technologie, jak WAI-ARIA, CSS, SVG, SMIL, EPUB, PDF, obrazy, format tekstowy, dokumenty biurowe (Microsof Office, Open Documents Format), wideo.
 
 ### Sposób wspomagania audytora
 
-Filtr **Assist by…** (Wspomaganie przez)  pozwala wybrać narzędzia oferujące 4 formy wsparcia audytorów: 
+Filtr **Assist by…** (Wspomaganie przez)  pozwala wybrać narzędzia oferujące 4 formy wsparcia audytorów:
 
 - **Generating reports of evaluation results** (Generowanie raportów wyników oceny): raporty prezentują syntetyczne wyniki przeprowadzonych testów, zwykle w oparciu o listę kontrolną.
 - **Providing step-by-step evaluation guidance** (Ocena krok po kroku): Narzędzia oparte na kreatorach przeprowadzają użytkowników przez sekwencje testów i zachęcają do ręcznej oceny problemów, których nie można ocenić automatycznie. Na przykład, narzędzie może sprawdzać obrazy pod kątem występowania tekstów alternatywnych tekstu. Następnie użytkownik ocenia, czy tekst alternatywny jest odpowiedni.
@@ -99,7 +99,7 @@ Filtr **Assist by…** (Wspomaganie przez)  pozwala wybrać narzędzia oferując
 
 ### Zakres testów automatycznych
 
-Filtr **Automatically checks…** (Automatyczne sprawdzanie ) pozwala wybrać narzędzia testujące: 
+Filtr **Automatically checks…** (Automatyczne sprawdzanie ) pozwala wybrać narzędzia testujące:
 - **Single web pages** (Pojedyncze strony internetowe)
 - **Groups of web pages or web sites** (Grupy stron lub witryny internetowe)
 - **Restricted or password protected pages** (Strony z ograniczeniami lub chronione hasłem)
@@ -123,7 +123,7 @@ Lista narzędzi posiada również filtr **Languages** (Języki). Zdecydowana wi�
 
 ##  Jak wybierać narzędzia oceny dostępności
 
-Wybierając narzędzie oceny, należy wziąć pod uwagę wiele czynników. Każda organizacja, każdy zespół projektowy czy oceniający, każdy projektant, programista, autor treści, tester czy audytor 
+Wybierając narzędzie oceny, należy wziąć pod uwagę wiele czynników. Każda organizacja, każdy zespół projektowy czy oceniający, każdy projektant, programista, autor treści, tester czy audytor
 ma różne potrzeby dotyczące różnych funkcji.
 
 Projektanci stron internetowych mogą poszukiwać narzędzi do analizy i pomiaru  dostępności ich projektu.
@@ -133,7 +133,7 @@ Twórcy stron internetowych wolą narzędzia, które pomogą im ocenić ich kod.
 Toteż rzeczowa odpowiedź na tytułowe pytanie jest raczej niemożliwa. Dobierając narzędzia oceny, trzeba na pewno rozważyć:
 
 - w czym narzędzie ma być pomocne, jakie aspekty powinno pomóc zbadać i ocenić,
-- czy potrzeby oceniających może zaspokoić jedno narzędzie, czy raczej kombinacja narzędzi, 
+- czy potrzeby oceniających może zaspokoić jedno narzędzie, czy raczej kombinacja narzędzi,
 - czy potrzebne jest narzędzie specjalistyczne, wspomagające badanie konkretnego aspektu dostępności, czy raczej narzędzie umożliwiające bardziej kompleksowe testy,
 - jaką wiedzą i umiejętnościami dysponują potencjalni użytkownicy narzędzia oceny.
 
@@ -149,7 +149,7 @@ Poniżej przedstawiamy nieco sugestii i przykładów pod rozwagę.
 - [AChecker](https://achecker.ca/)
 - [Tenon](https://tenon.io/)
 - [A11Y compliance platform](https://www.boia.org/products/a11y-tool/)
-- [Continuum (Access Level)](https://www.webaccessibility.com/) 
+- [Continuum (Access Level)](https://www.webaccessibility.com/)
 - [Siteimprove](https://siteimprove.com/en/accessibility/)
 - [WorldSpace Attest](https://www.deque.com/tools/)
 - [Dyno  Mapper](https://dynomapper.com/)
@@ -158,13 +158,13 @@ Poniżej przedstawiamy nieco sugestii i przykładów pod rozwagę.
 
 #### Walidatory znaczników
 - [Walidator HTML](https://validator.w3.org/)
-- [Nowy walidator HTML](https://validator.w3.org/nu/) 
+- [Nowy walidator HTML](https://validator.w3.org/nu/)
 - [Walidator CSS](https://jigsaw.w3.org/css-validator/)
 - [Unicorn](https://validator.w3.org/unicorn/)
 - [Total Validator](https://www.totalvalidator.com/) (aplikacja komputerowa)
 
 #### Walidatory kontrastu i koloru
-- [ColorSafe](http://colorsafe.co/)	
+- [ColorSafe](http://colorsafe.co/)
 - [Color Contrast Check](https://snook.ca/technical/colour_contrast/colour.html)
 - [Contrast Checker](https://contrastchecker.com/)
 - [Check My Colors](http://www.checkmycolours.com/)
@@ -176,7 +176,7 @@ Poniżej przedstawiamy nieco sugestii i przykładów pod rozwagę.
 
 #### Narzędzia kompleksowe
   - [Web Developer Tools dla Chrome](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=pl), [Web Developer Tools dla Firefox](https://addons.mozilla.org/pl/firefox/addon/web-developer/)
-  - [ARC Toolkit](https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce) 
+  - [ARC Toolkit](https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce)
   - [axe – Web Accessibility Testing](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd)
   - [ChromeLens](http://chromelens.xyz/)
   - [WCAG Color Contrast Checker](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf)
@@ -212,8 +212,8 @@ Poniżej przedstawiamy nieco sugestii i przykładów pod rozwagę.
 - [Accessibility Viewer](http://www.paciellogroup.com/resources/aviewer) (The Paciello Group)
 - [CommonLook Office Professional](https://commonlook.com/accessibility-software/office/) (NetCentric Technologies)
 - [CommonLook PDF Global Access ](https://commonlook.com/accessibility-software/pdf/)(NetCentric Technologies)
-- [Adobe Acrobat Pro](https://acrobat.adobe.com/pl/pl/acrobat/acrobat-pro-cc.html) 
-- [PAC – PDF Accessibility Checker](http://www.access-for-all.ch/en/pdf-lab/pdf-accessibility-checker-pac.html) 
+- [Adobe Acrobat Pro](https://acrobat.adobe.com/pl/pl/acrobat/acrobat-pro-cc.html)
+- [PAC – PDF Accessibility Checker](http://www.access-for-all.ch/en/pdf-lab/pdf-accessibility-checker-pac.html)
 - [PEAT - Photosensitive Epilepsy Analysis Tool](http://trace.umd.edu/PEAT) (Trace R & D Center, University of Wisconsin-Madison)
 - [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) (aplikacja komputerowa)
 - Tryb wysokiego kontrastu w Windows
@@ -222,7 +222,7 @@ Poniżej przedstawiamy nieco sugestii i przykładów pod rozwagę.
 - [a11yTools for iOS](https://www.digitala11y.com/a11ytools-for-ios-by-paul-j-adam/) (PaulJAdam)
 - [Bookmarklets for Accessibility Testing](http://pauljadam.com/bookmarklets/) (Paul J. Adam)
 - [Mobile Web Accessibility Checker](http://www.userlight.com/apps/mwac/) (UserLight Ltd)
-- [WorldSpace Attest](https://www.deque.com/products/worldspace-attest/) (Deque Systems, Inc.)
+- [WorldSpace Attest](https://www.deque.com/tools/) (Deque Systems, Inc.)
 - [Pomocnik WCAG](http://wcag20.pl/)
 
 ### Walidatory dokumentów PDF
@@ -231,7 +231,7 @@ Poniżej przedstawiamy nieco sugestii i przykładów pod rozwagę.
 - [Tingtun PDF Checker](http://checkers.eiii.eu/en/pdfcheck/) (usługa internetowa)
 
 ### Czytniki ekranu
-- [Jaws – Job Access With Speech](http://www.freedomscientific.com/Products/Blindness/JAWS) 
+- [Jaws – Job Access With Speech](http://www.freedomscientific.com/Products/Blindness/JAWS)
 - [NVDA – Non Visual Desktop Access](http://nvda.pl/)
 - [Orca](http://live.gnome.org/Orca)
 - [VoiceOver](http://www.apple.com/accessibility/voiceover/)
@@ -239,7 +239,7 @@ Poniżej przedstawiamy nieco sugestii i przykładów pod rozwagę.
 
 ### Powiększanie zawartości ekranu
 - [ZoomText Magnifier/Reader](https://www.zoomtext.com/products/zoomtext-magnifierreader/)
-- [Supernova Magnifier](https://yourdolphin.com/en-gb/products/individuals/supernova-magnifier) 
+- [Supernova Magnifier](https://yourdolphin.com/en-gb/products/individuals/supernova-magnifier)
 - [MAGic](https://www.freedomscientific.com/Products/software/MAGic/)
 - Lupa systemu Windows
 
