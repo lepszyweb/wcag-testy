@@ -5,7 +5,7 @@ keywords: dostepność cyfrowa, ocenianie dostepności cyfrowej, przegląd dost�
 sidebar: home_sidebar
 permalink: index.html
 toc: false
-summary: "Budujemy bazę wiedzy o dostępności cyfrowej stron internetowych i aplikacji mobilnych, aby pomóc wydawcom, koordynatorom dostępności cyfrowej, programistom, webmasterom, audytorom, testerom. "
+summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron internetowych i aplikacji mobilnych, aby pomóc wydawcom, koordynatorom dostępności cyfrowej, programistom, webmasterom, audytorom, testerom. "
 ---
 
 
