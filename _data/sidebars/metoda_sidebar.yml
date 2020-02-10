@@ -24,7 +24,7 @@ entries:
       url: /met_rgaa
       output: web, pdf
 
-    - title: Polska metodyka
+    - title: Podejście po polsku
       url: /met_polska
       output: web, pdf
 
@@ -55,6 +55,12 @@ entries:
     - title: Ocena komponentów interfejsu (w planie)
       url: /met_ocena-komponentow-interfejsu
       output: web
+    - title: Ocena aplikacji (w planie)
+      url: /met_ocena-aplikacji
+      output: web
     - title: Ocena szablonu (w planie)
       url: /met_ocena-szablonu
+      output: web
+    - title: Ocena witryny(w planie)
+      url: /met_ocena-witryny
       output: web

@@ -1,5 +1,5 @@
 ---
-title: Ocena dostepności szablonu
+title: Ocena dostępności szablonu
 Summary: "Co to są szablony? Jak odkryć elementy szblonu? Które elementy szablonu oceniać? Kryteria oceny dostępności szablonu "
 
 sidebar: metoda_sidebar
