@@ -3,8 +3,6 @@
 topnav:
 - title: Topnav
   items:
-    - title: GitHub
-      external_url: https://github.com/lepszyweb/wcag-testy
     - title: Dziennik
       url: /dziennik
 
@@ -60,3 +58,9 @@ topnav_dropdowns:
           url: /nod_andi
         - title: Usługi internetowe
           url: /nod_jasnopis
+
+topnav_sec:
+- title: Topnav sec
+  items:
+    - title: GitHub
+      external_url: https://github.com/lepszyweb/wcag-testy
