@@ -63,6 +63,7 @@ entries:
     - title: Wprowadzenie
       url: /testy_wprowadzenie
       output: web, pdf
+
       subfolders:
 
       - title: Jednolita baza testów
@@ -83,7 +84,7 @@ entries:
         - title: Podstawowe testy ITC
           url: /ICT_00_wprowadzenie
           output: web
-        - title: Wielostopniowa ocena zgodności
+        - title: Wielostopniowy protokół oceny
           url: / MSU_00_wprowadzenie
           output: web
         - title: Pomocnik adepta dostępności
