@@ -198,7 +198,7 @@ button.bg-secondary:focus {
 
 
 
-footer h3 {font-size: 16px;}
+footer h3 {font-size: 18px;}
 
 footer .nav li {
     margin: 0;
@@ -210,7 +210,12 @@ footer .nav li a {
     background-color: #7d4594 !important;
     font-size: 13px;
 }
-footer a:hover, footer .nav li a:hover {
+
+#sp-footer1 a {
+color: #fff;
+text-decoration: none;
+}
+footer a:hover, footer .nav li a:hover, #sp-footer1 a:hover{
 color: #fff;
 text-decoration: underline;
 }
@@ -221,7 +226,10 @@ text-decoration: underline;
 .nav.small .nav-link {
     font-size: 14px;
 }
+footer [data-anchorjs-icon]::after {
+color: white;
 
+}
 
 .alert-info {
     color: #31708f;
@@ -249,9 +257,4 @@ height: 100%;
 }
 .row {
  margin-right: 0;
-}
-
-footer [data-anchorjs-icon]::after {
-color: white;
-
 }

@@ -39,18 +39,18 @@ W przeglądarce Chrome lub Microsoft Edge przejdź do strony, którą chcesz prz
       - Naciśnij klawisz spacji, aby otworzyć rozszerzenie.
 Rozszerzenie Accessibility Insights for Web otworzy **pasek uruchamiania**.
 
-{% include image.html file="insights/insights01.png" alt="Jekyll" caption="This is a sample caption" %}
+{% include image.html file="insights/insights01.png" alt="W panelu startowym dostępne są trzy opcje: FastPass, Assessment, narzędzia ad hoc" %}
 
 3. Na pasku uruchamiania wybierz **Assessment** (Ocenianie).
 Zostanie otwarte dodatkowe okno przeglądarki zawierające przegląd procesu oceny i wyników. W tym momencie ocena jest w 100% niepełna, więc nie będą dostępne żadne wyniki.
 
-{% include image.html file="insights/insights02.png" alt="Jekyll" caption="This is a sample caption" %}
+{% include image.html file="insights/insights02.png" alt="Badana strona i przegląd testów wyświetlany obok siebie" %}
 
 ### Uruchom automatyczne sprawdzanie
 1.	W okienku nawigacji wybierz opcję Automatyczne sprawdzanie – **Automated checks**.
 W ciągu kilku sekund funkcja Accessibility Insights for Web sprawdzi stronę docelową pod kątem zgodności z dziesiątkami wymagań dostępności. Wymagania te pojawią się na liście z wymaganiami, które nie zostały spełnione. Instancje błedów pojawią się w panelu po liście.
 
-{% include image.html file="insights/insights03.png" alt="Jekyll" caption="This is a sample caption" %}
+{% include image.html file="insights/insights03.png" alt="Wyświetlanie wyników kontroli automatycznej, pogrupowanych według testów"  %}
 
 2.	Przejrzyj wyniki:
 - Aby zobaczyć wystąpienia awarii dla danego wymagania, wybierz wymaganie.
@@ -60,7 +60,7 @@ W ciągu kilku sekund funkcja Accessibility Insights for Web sprawdzi stronę do
 lub
 - Zaznacz jedno lub więcej pól wyboru, aby wyróżnić określone wystąpienia awarii.
 
-{% include image.html file="insights/insights04.png" alt="Jekyll" caption="This is a sample caption" %}
+{% include image.html file="insights/insights04.png" alt="Przypadki defektu wyróżnione na badanej stronie"  %}
 
 ### Wykonaj testy wspomagane i ręczne
 Każdy z pozostałych testów obejmuje zestaw powiązanych wymagań. Zalecamy wykonanie tych testów w kolejności, w jakiej pojawiają się w okienku nawigacji.
@@ -72,7 +72,7 @@ a.	Aby dowiedzieć się więcej o temacie testowym, wybierz ikonę **Guidance** 
 **Uwaga**: Po przeczytaniu sekcji Rozpoczynamy (**Geting started**) możesz ją zwinąć.
 Wskazówki dotyczące poziomu testu pojawią się na nowej karcie przeglądarki.
 
-{% include image.html file="insights/insights05.png" alt="Jekyll" caption="This is a sample caption" %}
+{% include image.html file="insights/insights05.png" alt="Wskazówki otwarte na nowej karcie przeglądarki." %}
 
 2.	Wybierz element z **listy wymagań**. Informacje związane z wymaganiem pojawią się w panelu po liście.
 a.	Aby dowiedzieć się więcej o wymaganiu, wybierz  **Info & examples** (Informacje i przykłady). Wytyczne na poziomie wymagań obejmują:
@@ -84,7 +84,7 @@ a.	Aby dowiedzieć się więcej o wymaganiu, wybierz  **Info & examples** (Infor
 - Linki do odpowiednich kryteriów sukcesu WCAG, wystarczających technik i typowych błędów.
 Wskazówki dotyczące poziomu wymagań pojawią się w nakładce.
 
-{% include image.html file="insights/insights05.png" alt="Jekyll" caption="This is a sample caption" %}
+{% include image.html file="insights/insights05.png" alt="Wskazówki dotyczące wymagań otwarte w nakładce."  %}
 
 3. Przeczytaj instrukcje w części **Jak testować**.
 **Uwaga**: Po przeczytaniu instrukcji możesz zwinąć sekcję Jak testować.
@@ -99,7 +99,7 @@ Uwaga: Po zaznaczeniu wszystkich niepowodzeń możesz przekazać pozostałe inst
 
 Gdy wszystkie wystąpienia awarii zostaną oznaczone jako **Pomiń** lub **Niepowodzenie**, wymaganie pokaże wynik zagregowany.
 
-{% include image.html file="insights/insights06.png" alt="Jekyll" caption="This is a sample caption" %}
+{% include image.html file="insights/insights06.png" alt="Nie spełniono wymogów zwiażanych z obrazami z powodu wykrycia co najmniej 1 defektu"  %}
 
 W przypadku wymagań, które nie generują instancji testowych:
 
@@ -110,7 +110,7 @@ Uwaga: Możesz zresetować wymaganie do pierwotnego stanu nieokreślonego, wybie
 - Jeśli wymaganie nie powiedzie się, dodaj wystąpienie błędu. (Jeśli wymóg zostanie spełniony, nie są potrzebne dalsze dane).
 - Gdy wymóg zostanie oznaczony jako **Pass** lub zostaną dodane wystąpienia awarii, wymaganie pokaże wynik zagregowany.
 
-{% include image.html file="insights/insights07.png" alt="Jekyll" caption="This is a sample caption" %}
+{% include image.html file="insights/insights07.png" alt="Nie spełniono wymogu nawigacji za pomocą klawiatury z powodu wykrycia co najmniej 1 defektu"  %}
 
 - Gdy każde wymaganie w każdym teście jest oznaczone jako **Pass** lub **Fail**, twoja ocena jest zakończona.
 
@@ -128,3 +128,6 @@ Podziel się szczegółowym raportem z wyników oceny
 
 1. W pasku poleceń **Widok szczegółów** wybierz **Rozpocznij od > Rozpocznij od oceny**.
 2. Wybierz w oknie dialogowym **Start over** (Zacznij od nowa).
+
+
+{% include note.html content="Poradnik jest tłumaczeniem: [Assessment in Accessibility Insights for Web](https://accessibilityinsights.io/docs/en/web/getstarted/assessment)  "  %} 
