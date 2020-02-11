@@ -23,19 +23,19 @@ entries:
     output: web, pdf
     folderitems:
     - title: Przegląd
-      url: /nod_wprowadzenie
+      url: /nod-wprowadzenie
       output: web
     - title: O repozytorium
-      url: /nod_repozytorium
+      url: /nod-repozytorium
       output: web
   - title: Aplikacje
     output: web, pdf
     folderitems:
     - title: Color Contrast Analyzer
-      url: /nod_cca
+      url: /nod-cca
       output: web
     - title: PAC - walidator PDF
-      url: /nod_pac
+      url: /nod-pac
       output: web
 
   - title: Rozszerzenia przeglądarek
@@ -43,32 +43,32 @@ entries:
     folderitems:
 
     - title: ANDI
-      url: /nod_andi
+      url: /nod-andi
       output: web
 
     - title: ARC Toolkit
-      url: /nod_arc
+      url: /nod-arc
       output: web, pdf
 
     - title: Inspektor dostępności w Firefox
-      url: /nod_firefox-inspektor-dostepnosci
+      url: /nod-firefox-inspektor-dostepnosci
       output: web
 
     - title: Accessibility Insights for Web
-      url: /nod_insights
+      url: /nod-insights
       output: web
-      
+
     - title: WET
-      url: /nod_wet
+      url: /nod-wet
       output: web, pdf
 
   - title: Usługi internetowe
     output: web, pdf
     folderitems:
     - title: Jasnopis
-      url: /nod_jasnopis
+      url: /nod-jasnopis
       output: web
 
     - title: Logios
-      url: /nod_logios
+      url: /nod-logios
       output: web, pdf

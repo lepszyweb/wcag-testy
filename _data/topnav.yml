@@ -10,54 +10,54 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Standardy
+    - title: Glosy
       folderitems:
         - title: Wprowadzenie
-          url: /standardy_wprowadzenie
+          url: /glosy-wprowadzenie
         - title: Postrzegalność
-          url: /standardy_postrzegalnosc
+          url: /glosy-postrzegalnosc
         - title: Funkcjonalność
-          url: /standardy_funkcjonalnosc
+          url: /glosy-funkcjonalnosc
         - title: Zrozumiałość
-          url: /standardy_zrozumialosc
+          url: /glosy-zrozumialosc
         - title: Rzetelność
-          url: /standardy_rzetelnosc
+          url: /glosy-rzetelnosc
     - title: Metody
       folderitems:
         - title: Wprowadzenie
-          url: /met_wprowadzenie
+          url: /met-wprowadzenie
         - title: Znane podejścia
-          url: /met_uwem
+          url: /met-uwem
         - title: Procedury oceny
-          url: /met_testy-automatyczne
+          url: /met-testy-automatyczne
         - title: Metodyki oceniania
-          url: /met_ocena-dostepnosci-pojedynczej-strony
+          url: /met-ocena-dostepnosci-pojedynczej-strony
     - title: Testy
       folderitems:
         - title: Jednolita baza testów
-          url: /testy_przeglad
+          url: /testy-przeglad
         - title: Przegląd
-          url: /testy_wprowadzenie
+          url: /testy-wprowadzenie
         - title: Łatwe testy dostępności
-          url: /00_P_wprowadzenie
+          url: /00-P-wprowadzenie
         - title: Testy zgodności z WCAG
-          url: /H0_00_wprowadzenie
+          url: /H0-00-wprowadzenie
         - title: Baza testów ITC
-          url: /ICT_00_wprowadzenie
+          url: /ICT-00-wprowadzenie
         - title: Wielopoziomowy protokół oceny
-          url: /MSU_00_wprowadzenie
+          url: /MSU-00-wprowadzenie
         - title: Pomocnik adepta dostepności
-          url: /1-0-0_wprowadzenie
+          url: /1-0-0-wprowadzenie
     - title: Narzędzia
       folderitems:
         - title: Przegląd
-          url: /nod_wprowadzenie
+          url: /nod-wprowadzenie
         - title: Aplikacje
-          url: /nod_pac
+          url: /nod-pac
         - title: Rozszerzenia przeglądarek
-          url: /nod_andi
+          url: /nod-andi
         - title: Usługi internetowe
-          url: /nod_jasnopis
+          url: /nod-jasnopis
 
 topnav_sec:
 - title: Topnav sec

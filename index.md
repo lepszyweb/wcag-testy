@@ -11,7 +11,8 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
 
 <div class="row">
         <div class="col-lg-12">
-            <h2 class="page-header">Baza wiedzy testera i audytora</h2>
+            <h2 class="page-header">Dostępność cyfrowa - baza wiedzy</h2>
+            <p>Naszym celem jest <span markdown="span">**stworzyć wspólnymi siłami wspólną bazę wiedzy**</span>, która pomoże wydawcom, koordynatorom dostępności cyfrowej, programistom, webmasterom, audytorom, testerom skutecznie, efektywnie i wiarygodnie oceniać dostępność cyfrową - planować i przeprowadzać badania dostępności.</p>
         </div>
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
@@ -22,8 +23,8 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                     </span>
                 </div>
                 <div class="panel-body">
-                    <h4>Standardy</h4>
-                    <p>Co? Po co? Jak? Dlaczego? Wskazówki.</p>
+                    <h4>Glosy</h4>
+                    <p>Objaśnienia wymogów dostępności</p>
                     <a href="standardy_wprowadzenie" class="btn btn-primary">Czytaj więcej</a>
                 </div>
             </div>
@@ -38,7 +39,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                 </div>
                 <div class="panel-body">
                     <h4>Metody</h4>
-                    <p>Znane podejścia do&nbsp;testowania dostępności cyfrowej.</p>
+                    <p>Systemy oceniania dostępności &nbsp;cyfrowej&nbsp;</p>
                     <a href="met_wprowadzenie" class="btn btn-primary">Czytaj więcej</a>
                 </div>
             </div>
@@ -53,7 +54,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                 </div>
                 <div class="panel-body">
                     <h4>Testy</h4>
-                    <p>Łatwe testy. Testy podstawowe. Rozwiązania.</p>
+                    <p>Łatwe testy. Testy&nbsp;zgodności. Bazy&nbsp;źródłowe.</p>
                     <a href="testy_przeglad" class="btn btn-primary">Czytaj więcej</a>
                 </div>
             </div>

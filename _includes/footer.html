@@ -122,119 +122,6 @@
                                         <li class="nav-item">
                                             <a class="mod-articles-category-title nav-link px-0" href="https://lepszyweb.pl/szkolenia/zarzadzanie-dostepnoscia-cyfrowa">Zarządzanie dostępnością
                                             cyfrową</a>
-
-
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="mod-articles-category-title nav-link px-0" href="deklar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                            acja-dostepnosci">Deklaracja dostępności</a>
-
-
                                         </li>
                                     </ul>
                                 </div>
@@ -252,23 +139,9 @@
                     <div id="sp-footer1" class="col-lg-12">
                         <div class="sp-column "><span class="sp-copyright"><span class="sp-copyright">
                         &copy;{{ site.time | date: "%Y"  }} {{site.company_name}}. Wszystkie prawa zastrzeżone.
-                       {% if page.last_updated %}<span>Strona zmieniona:</span> {{page.last_updated}}. {% endif %} Witryna wygenerowana: {% assign m = site.time | date: "%-m" %}
-		{{ site.time | date: "%-d" }}
-		{% case m %}
-		{% when '1' %}stycznia
-		{% when '2' %}lutego
-		{% when '3' %}marca
-		{% when '4' %}kwietnia
-		{% when '5' %}maja
-		{% when '6' %}czerwca
-		{% when '7' %}lipca
-		{% when '8' %}sierpnia
-		{% when '9' %}września
-		{% when '10' %}października
-		{% when '11' %}listopada
-		{% when '12' %}grudnia
-		{% endcase %}
-		{{ site.time | date: "%Y" }} r. </span>
+                       {% if page.last_updated %}<span>Strona zmieniona:</span> {{page.last_updated}}. {% endif %} Witryna wygenerowana: {% assign m = site.time | date: "%-m" %} {{ site.time | date: "%-d" }} {% case m %} {% when '1' %}stycznia {% when
+                            '2' %}lutego {% when '3' %}marca {% when '4' %}kwietnia {% when '5' %}maja {% when '6' %}czerwca {% when '7' %}lipca {% when '8' %}sierpnia {% when '9' %}września {% when '10' %}października {% when '11' %}listopada {% when
+                            '12' %}grudnia {% endcase %} {{ site.time | date: "%Y" }} r. </span> <a class="mod-articles-category-title nav-link px-0" href="deklaracja-dostepnosci">Deklaracja dostępności</a>
                             </span>
                         </div>
                     </div>

@@ -23,17 +23,13 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Wprowadzenie
+    - title: Przegląd
       url: /index.html
       output: web, pdf
       type: homepage
 
-  - title: Przegląd
-    output: web, pdf
-    folderitems:
-
-    - title: Wprowadzenie
-      url: /przeglad_wprowadzenie
+    - title: Zaangażuj się
+      url: /przeglad-wprowadzenie
       output: web, pdf
 
   - title: Standardy, wskazówki
@@ -41,7 +37,7 @@ entries:
 
     folderitems:
     - title: Wprowadzenie
-      url: /standardy_wprowadzenie
+      url: /glosy-wprowadzenie
       output: web, pdf
 
   - title: Metody
@@ -49,7 +45,7 @@ entries:
 
     folderitems:
     - title: Wprowadzenie
-      url: /met_wprowadzenie
+      url: /met-wprowadzenie
       output: web, pdf
 
   - title: Testy
@@ -58,10 +54,10 @@ entries:
     folderitems:
 
     - title: Przegląd
-      url: /testy_przeglad
+      url: /testy-przeglad
       output: web, pdf
     - title: Wprowadzenie
-      url: /testy_wprowadzenie
+      url: /testy-wprowadzenie
       output: web, pdf
 
       subfolders:
@@ -71,10 +67,10 @@ entries:
         subfolderitems:
 
         - title: Łatwe testy dostępności
-          url: /00_P_wprowadzenie
+          url: /00-P-wprowadzenie
           output: web
         - title: Baza testów podstawowych
-          url: /H0_00_wprowadzenie
+          url: /H0-00-wprowadzenie
           output: web
 
       - title: Rozwiązania
@@ -82,23 +78,23 @@ entries:
         subfolderitems:
 
         - title: Podstawowe testy ITC
-          url: /ICT_00_wprowadzenie
+          url: /ICT-00-wprowadzenie
           output: web
         - title: Wielostopniowy protokół oceny
-          url: / MSU_00_wprowadzenie
+          url: / MSU-00-wprowadzenie
           output: web
         - title: Pomocnik adepta dostępności
-          url: /1-0-0_wprowadzenie
+          url: /1-0-0-wprowadzenie
           output: web
   - title: Narzędzia oceny
     output: web
     folderitems:
 
     - title: Przegląd
-      url: /nod_wprowadzenie
+      url: /nod-wprowadzenie
       output: web
     - title: O repozytorium
-      url: /nod_repozytorium
+      url: /nod-repozytorium
       output: web
       subfolders:
 
@@ -107,7 +103,7 @@ entries:
         subfolderitems:
 
         - title: Color Contrast Analyzer
-          url: /nod_cca
+          url: /nod-cca
           output: web
       subfolders:
       - title: Rozszerzenia przeglądarek
@@ -115,19 +111,19 @@ entries:
         subfolderitems:
 
         - title: ANDI
-          url: /nod_andi
+          url: /nod-andi
           output: web
 
         - title: ARC Toolkit
-          url: /nod_arc
+          url: /nod-arc
           output: web
 
         - title: Inspektor dostępności w Firefox
-          url: /nod_firefox-inspektor-dostepnosci
+          url: /nod-firefox-inspektor-dostepnosci
           output: web
 
         - title: WET
-          url: /nod_wet
+          url: /nod-wet
           output: web, pdf
 
       - title: Usługi internetowe
@@ -135,11 +131,11 @@ entries:
         subfolderitems:
 
         - title: Jasnopis
-          url: /nod_jasnopis
+          url: /nod-jasnopis
           output: web
 
         - title: Logios
-          url: /nod_logios
+          url: /nod-logios
           output: web, pdf
   - title: Dziennik projektu
     output: web, pdf
@@ -149,5 +145,5 @@ entries:
       url: /dziennik
       output: web, pdf
     - title: Archiwum Dziennika
-      url: /archiwum_dziennika
+      url: /archiwum-dziennika
       output: web, pdf
