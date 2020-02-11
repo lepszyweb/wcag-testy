@@ -25,7 +25,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                 <div class="panel-body">
                     <h4>Glosy</h4>
                     <p>Objaśnienia wymogów dostępności</p>
-                    <a href="standardy_wprowadzenie" class="btn btn-primary">Czytaj więcej</a>
+                    <a href="glosy-wprowadzenie" class="btn btn-primary">Czytaj więcej</a>
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                 <div class="panel-body">
                     <h4>Metody</h4>
                     <p>Systemy oceniania dostępności &nbsp;cyfrowej&nbsp;</p>
-                    <a href="met_wprowadzenie" class="btn btn-primary">Czytaj więcej</a>
+                    <a href="met-wprowadzenie" class="btn btn-primary">Czytaj więcej</a>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                 <div class="panel-body">
                     <h4>Testy</h4>
                     <p>Łatwe testy. Testy&nbsp;zgodności. Bazy&nbsp;źródłowe.</p>
-                    <a href="testy_przeglad" class="btn btn-primary">Czytaj więcej</a>
+                    <a href="testy-przeglad" class="btn btn-primary">Czytaj więcej</a>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                 <div class="panel-body">
                     <h4>Narzędzia</h4>
                     <p>Aplikacje, usługi sieciowe, dodatki do&nbsp;przeglądarek</p>
-                    <a href="nod_wprowadzenie" class="btn btn-primary">Czytaj więcej</a>
+                    <a href="nod-wprowadzenie" class="btn btn-primary">Czytaj więcej</a>
                 </div>
             </div>
         </div>
