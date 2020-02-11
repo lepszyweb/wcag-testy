@@ -24,7 +24,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                 </div>
                 <div class="panel-body">
                     <h4>Glosy</h4>
-                    <p>Objaśnienia wymogów dostępności</p>
+                    <p>Objaśnienia standardów dostępności</p>
                     <a href="glosy-wprowadzenie" class="btn btn-primary">Czytaj więcej</a>
                 </div>
             </div>
