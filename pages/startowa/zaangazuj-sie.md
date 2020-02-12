@@ -9,14 +9,12 @@ toc: false
 ## Potrzebny jest Twój wkład
 Cel projektu **Baza wiedzy - Ocenianie dostępności cyfrowej** możemy osiągnąć znacznie szybciej i pełniej, jeśli zaangażuje się wiele osób, które zechcą wnieść do projektu swój wkład, podzielić się swoimi opracowaniami.
 
-Każdy wkład będzie mile widziany i doceniony.
-
 ### Popraw mnie
 Możesz ulepszyć każdy już opublikowany materiał. Od dodania przysłowiowego przecinka, poprawienia linku, po uzupełnienie albo skrócenie, przeredagowanie zawiłych fragmentów, uproszczenie zdań, itd.
 
 Użyj  przycisku **Popraw mnie** umieszczonego na początku każdego materiału. Przejdziesz na specjalną stronę artykułu na platformie Github. Otwórz plik do edycji i popraw, co chcesz poprawić. Nie obawiaj się, nic nie zepsujesz na oryginalnej stronie. Scalenia poprawek dokona administrator.
 
-{% include image.html file="ogolne/poprawmnie.png" alt="Przycisk Edytuj znajduje się nad treścią w pasku narzędziowym - ikona ołówka" %}
+{% include image.html file="ogolne/poprawmnie.png" alt="Lokalizacja przycisku Edytuj" caption="Przycisk Edytuj znajduje się nad treścią w pasku narzędziowym - ikona ołówka" %}
 
 Gdy naniesiesz proponowanie zmiany, opisz je zwięźle w formularzu i zapisz przyciskiem **Commit changes**.
 
