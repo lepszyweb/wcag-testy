@@ -1,6 +1,6 @@
 ---
 title: Nagłówek - Logo
-
+tags: [nawigacja]
 sidebar: testy_sidebar
 permalink: H1-06-logo
 folder: testy/jbt

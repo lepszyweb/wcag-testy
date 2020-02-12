@@ -19,11 +19,14 @@ allowed-tags:
   - media
   - migotanie
   - nagłówki
-  - narzedzia-oceny-dostepnosci
+  - narzędzia-oceny-dostępnosci
   - narzędzia-autorskie
   - narzędzia-wiersza-poleceń
   - nawigacja
   - parsowanie
+  - poziom-A
+  - poziom-AA
+  - poziom-AAA
   - przewidywalność
   - punkt-orientacyjny
   - rozszerzenia-narzędzi-autorskich
@@ -34,5 +37,7 @@ allowed-tags:
   - struktury
   - transkrypcja
   - usługa-internetowa
+  - WCAG-2.0
+  - WCAG-2.1
   - widżet
   - wyróżnienie

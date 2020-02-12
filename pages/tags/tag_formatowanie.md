@@ -2,7 +2,7 @@
 title: "Formatowanie"
 tagName: formatowanie
 search: exclude
-permalink: tag_formatowanie.html
+permalink: tag_formatowanie
 sidebar: home_sidebar
 folder: tags
 ---

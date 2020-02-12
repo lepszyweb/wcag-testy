@@ -2,7 +2,7 @@
 title: "Aplikacja mobilna"
 tagName: aplikacja-mobilna
 search: exclude
-permalink: tag_aplikacja-mobilna.html
+permalink: tag_aplikacja-mobilna
 sidebar: home_sidebar
 folder: tags
 ---

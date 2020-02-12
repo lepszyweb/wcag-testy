@@ -1,7 +1,5 @@
 ---
 title: ARC Toolkit
-tags: [rozszerzenia-przeglądarek,narzędzia-oceny-dostępności]
-
 sidebar: narzedzia_sidebar
 permalink: nod-arc
 folder: narzedzia-p

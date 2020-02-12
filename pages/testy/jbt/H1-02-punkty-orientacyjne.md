@@ -1,6 +1,6 @@
 ---
 title: Punkty orientacyjne
-
+tags: [nawigacja,struktury]
 sidebar: testy_sidebar
 permalink: H1-02-punkty-orientacyjne
 folder: testy/jbt

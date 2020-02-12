@@ -2,7 +2,7 @@
 title: "Czytelność"
 tagName: czytelnosc
 search: exclude
-permalink: tag_czytelnosc.html
+permalink: tag_czytelnosc
 sidebar: home_sidebar
 folder: tags
 ---

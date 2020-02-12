@@ -1,6 +1,6 @@
 ---
 title: Podstawowy test struktury strony
-tags: struktury
+tags: [struktury]
 
 sidebar: testy_sidebar
 

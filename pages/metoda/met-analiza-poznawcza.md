@@ -1,7 +1,6 @@
 ---
 title: Analiza poznawcza
 summary: "Co to jest analiza poznawcza? Zalety oceny eksperckiej. Ograniczenia oceny eksperckiej. "
-
 sidebar: metoda_sidebar
 permalink: met-analiza-poznawcza
 folder: metoda

@@ -13,16 +13,16 @@ if [ $# -ge $CMDLINEPARAM ]
 then
   tags=$@
 else
-  echo "Atleast ${CMDLINEPARAM} tag name is required."
+  echo "Ostatnia nazwa taga ${CMDLINEPARAM} jest wymagana."
   exit 1
 fi
 
 if [ -d "${TAGDIR}" ]; then
 
-  echo "Creating tag(s) for ${tags}"
+  echo "Tworzenie tagu(-ów) dla ${tags}"
 
   for tag in ${tags}; do
-    echo "Title for $tag:"
+    echo "Tytuł dla $tag:"
     read title
   # Cannot indent here string.
 cat <<EOF >"${TAGDIR}/tag_${tag}.md"
@@ -46,8 +46,8 @@ echo "  - ${tag}" >> _data/tags.yml
   done
 
 else
-  echo "Directory ${TAGDIR} doesn't exist or you are not in the top-level directory."
-  echo "Please run again from the root directory of your project."
+  echo "Folder ${TAGDIR} nie istnieje lub nie znajdujesz się w katalogu najwyższego poziomu."
+  echo "Proszę, rozpocznij ponownie z głównego katalogu swojego projektu."
   exit 1
 fi
 

@@ -2,7 +2,7 @@
 title: "Spójność"
 tagName: spojnosc
 search: exclude
-permalink: tag_spojnosc.html
+permalink: tag_spojnosc
 sidebar: home_sidebar
 folder: tags
 ---

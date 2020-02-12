@@ -2,7 +2,7 @@
 title: "Transkrypcja"
 tagName: transkrypcja
 search: exclude
-permalink: tag_transkrypcja.html
+permalink: tag_transkrypcja
 sidebar: home_sidebar
 folder: tags
 ---

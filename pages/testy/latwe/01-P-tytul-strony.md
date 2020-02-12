@@ -1,9 +1,7 @@
 ---
 title: Tytuł strony
-tags: nawigacja
-
+tags: [nawigacja]
 sidebar: testy_sidebar
-
 permalink: 01-P-tytul-strony
 folder: testy/latwe
 ---

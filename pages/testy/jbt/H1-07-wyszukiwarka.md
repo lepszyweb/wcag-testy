@@ -1,6 +1,6 @@
 ---
 title: Nagłówek - Wyszukiwarka
-
+tags: [nawigacja,formularze]
 sidebar: testy_sidebar
 permalink: H1-07-wyszukiwarka
 folder: testy/jbt

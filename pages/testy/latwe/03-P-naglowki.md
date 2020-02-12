@@ -1,6 +1,6 @@
 ---
 title: Nagłówki
-tags: [struktury,naglowki,nawigacja]
+tags: [struktury,nawigacja]
 
 sidebar: testy_sidebar
 

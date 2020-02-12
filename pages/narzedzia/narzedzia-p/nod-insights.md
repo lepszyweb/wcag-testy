@@ -1,9 +1,6 @@
 ---
 title: Accessibility Insights – ocenianie dostępności  cyfrowej
-
 sidebar: narzedzia_sidebar
-tags: [rozszerzenia-przeglądarek, skryptozakładka,narzędzia-oceny-dostępności]
-
 permalink: nod-insights
 folder: narzedzia-p
 ---
@@ -130,4 +127,4 @@ Podziel się szczegółowym raportem z wyników oceny
 2. Wybierz w oknie dialogowym **Start over** (Zacznij od nowa).
 
 
-{% include note.html content="Poradnik jest tłumaczeniem: [Assessment in Accessibility Insights for Web](https://accessibilityinsights.io/docs/en/web/getstarted/assessment)  "  %} 
+{% include note.html content="Poradnik jest tłumaczeniem: [Assessment in Accessibility Insights for Web](https://accessibilityinsights.io/docs/en/web/getstarted/assessment)  "  %}

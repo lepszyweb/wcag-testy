@@ -2,7 +2,7 @@
 title: "Usługa internetowa"
 tagName: usługa-internetowa
 search: exclude
-permalink: tag_usluga-internetowa.html
+permalink: tag_usluga-internetowa
 sidebar: home_sidebar
 folder: tags
 ---

@@ -1,7 +1,5 @@
 ---
 title: WET - Web Evaluation Tools
-summary:
-tags: [rozszerzenia-przeglądarek, skryptozakładka,narzędzia-oceny-dostępności]
 sidebar: narzedzia_sidebar
 permalink: nod-wet
 folder: narzedzia-p

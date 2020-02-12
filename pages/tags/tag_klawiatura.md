@@ -2,7 +2,7 @@
 title: "Klawiatura"
 tagName: klawiatura
 search: exclude
-permalink: tag_klawiatura.html
+permalink: tag_klawiatura
 sidebar: home_sidebar
 folder: tags
 ---

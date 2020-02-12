@@ -2,7 +2,7 @@
 title: "Narzędzia autorskie"
 tagName: narzędzia-autorskie
 search: exclude
-permalink: tag_narzedzia-autorskie.html
+permalink: tag_narzedzia-autorskie
 sidebar: home_sidebar
 folder: tags
 ---

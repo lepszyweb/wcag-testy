@@ -15,13 +15,13 @@ Do przewidzianych w momencie tworzenia trzech działów głównych (Metoda, Test
 Oprócz tej - drobne zmiany spowodowane strukturą menu lokalnych, w których trzeba było przewidzieć miejsce na materiały, jakie dopiero powstaną. W niektórych miejscach może też brakować odpowiednich wprowadzeń, co nadrobimy zapewne w najbliższych 2-3 tygodniach.
 
 ## Wzbogacona prezentacja
-Nowy system pozwala na tagowanie wpisów. Zręby tagowania już zostały stworzone. Dokonując przeglądu opublikowanych dotychczas treści, otagujemy je. Dzięki temu łatwiej będzie znajdować różne powiązane materiały.
+Nowy system pozwala na tagowanie wpisów. Zręby tagowania już zostały stworzone. Dokonując przeglądu opublikowanych dotychczas treści, otagujemy je. Dzięki temu łatwiej będzie znajdować różne powiązane materiały (tymczasem mamy problem z obsługą tagów z polskimi znakami).
 
 Korzystanie z treści będzie wydajniejsze także dzięki innym nowościom, takim jak możliwość opatrywania każdego wpisu streszczeniem, możliwość korzystania we wszystkich materiałach ze wspólnego słownika, czy bogatsze możliwości formatowania.         
 
 ## Ławiejsza współpraca
 Teraz każdy może rzeczywiście współtworzyć treści serwisu, nawet jeśli nie ma konta na Github.
-- **Po pierwsze**, można zgłosić dowolne poprawki do każdego materiału. Służy temu przycisk **Popraw mnie**, który otwiera stronę w systemie Github w trybie edycji. Propozycje poprawek będą analizowane i akceptowane na bieżąco.
+- **Po pierwsze**, można zgłosić dowolne poprawki do każdego materiału. Służy temu przycisk **Popraw ten artykuł**, który otwiera stronę w systemie Github w trybie edycji. Propozycje poprawek będą analizowane i akceptowane na bieżąco.
 - **Po drugie**, można zaproponować nową treść do każdego działu. Służą temu dwie specjalne strony, do  których łączą pozycje menu na stronie głównej zatytułowane **Dodaj treść...**
 - **Po trzecie**, każdy może zgłosić swoje uwagi, korzystajac z mechanizmu Githuba [New issues - Nowy problem](https://github.com/lepszyweb/wcag-testy/issues/new)
 - **Po czwarte**, kto potrafi pracować z Github i posiada konto na tej platormie, może  sklonować nasze repozytorium i współuczestniczyć w jego tworzeniu, korzystając ze wszystkich funkcji Githuba.

@@ -2,7 +2,7 @@
 title: "Struktury"
 tagName: struktury
 search: exclude
-permalink: tag_struktury.html
+permalink: tag_struktury
 sidebar: home_sidebar
 folder: tags
 ---

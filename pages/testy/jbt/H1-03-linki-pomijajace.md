@@ -1,6 +1,6 @@
 ---
 title: Łącza pomijające
-
+tags: [nawigacja,struktury]
 sidebar: testy_sidebar
 permalink: H1-03-linki-pomijajace
 folder: testy/jbt

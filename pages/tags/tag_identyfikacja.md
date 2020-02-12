@@ -2,7 +2,7 @@
 title: "Identyfikacja"
 tagName: identyfikacja
 search: exclude
-permalink: tag_identyfikacja.html
+permalink: tag_identyfikacja
 sidebar: home_sidebar
 folder: tags
 ---

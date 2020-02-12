@@ -1,8 +1,8 @@
 ---
 title: "Wyróżnienie"
-tagName: wyroznienie
+tagName: wyróżnienie
 search: exclude
-permalink: tag_wyroznienie.html
+permalink: tag_wyroznienie
 sidebar: home_sidebar
 folder: tags
 ---

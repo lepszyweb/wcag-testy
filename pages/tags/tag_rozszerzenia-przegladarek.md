@@ -2,7 +2,7 @@
 title: "Rozszerzenia przeglądarek"
 tagName: rozszerzenia-przeglądarek
 search: exclude
-permalink: tag_rozszerzenia-przegladarek.html
+permalink: tag_rozszerzenia-przeglądarek
 sidebar: home_sidebar
 folder: tags
 ---

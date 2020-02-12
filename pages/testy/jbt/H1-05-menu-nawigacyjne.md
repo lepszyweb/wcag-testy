@@ -1,6 +1,6 @@
 ---
 title: Nawigacja - Menu nawigacyjne
-
+tags: [nawigacja]
 sidebar: testy_sidebar
 permalink: H1-05-menu-nawigacyjne
 folder: testy/jbt

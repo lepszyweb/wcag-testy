@@ -2,7 +2,7 @@
 title: "Interakcja"
 tagName: interakcja
 search: exclude
-permalink: tag_interakcja.html
+permalink: tag_interakcja
 sidebar: home_sidebar
 folder: tags
 ---

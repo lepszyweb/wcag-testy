@@ -1,6 +1,6 @@
 ---
 title: Wiele dróg
-
+tags: [nawigacja]
 sidebar: testy_sidebar
 permalink: H1-04-wiele-drog
 folder: testy/jbt

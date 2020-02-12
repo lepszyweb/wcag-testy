@@ -2,7 +2,7 @@
 title: "Przewidywalność"
 tagName: przewidywalnosc
 search: exclude
-permalink: tag_przewidywalnosc.html
+permalink: tag_przewidywalnosc
 sidebar: home_sidebar
 folder: tags
 ---

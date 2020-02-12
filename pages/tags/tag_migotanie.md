@@ -2,7 +2,7 @@
 title: "Migotanie"
 tagName: migotanie
 search: exclude
-permalink: tag_migotanie.html
+permalink: tag_migotanie
 sidebar: home_sidebar
 folder: tags
 ---
