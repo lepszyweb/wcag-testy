@@ -7,37 +7,30 @@ toc: false
 ---
 
 ## Potrzebny jest Twój wkład
-Choć ruch na rzecz dostępności cyfrowej w Polsce ma już bogatą historię, choć podjęto i zrealizowano wiele cennych inicjatyw, daleko nam do &bdquo;normalności&rdquo;, w której odstępstwa od standardów dostępności będą marginesem. Wciąż jesteśmy zaledwie na początku drogi.     
+Cel projektu **Baza wiedzy - Ocenianie dostępności cyfrowej** możemy osiągnąć znacznie szybciej i pełniej, jeśli zaangażuje się wiele osób, które zechcą wnieść do projektu swój wkład, podzielić się swoimi opracowaniami.
 
-## Ocenianie dostępności cyfrowej
-W polskojęzycznych zasobach poświeconych dostępności cyfrowej nie było dotychczas ani jednego opracowania odpowiadającego rzeczowo i konkretnie na pytania o to, jak badać i oceniać zgodność stron internetowych i aplikacji mobilnych z normami dostępności.  
+Każdy wkład będzie mile widziany i doceniony.
 
-Projekt **Ocenianie dostępności cyfrowej - Jednolita baza testów** jest próbą wypełnienia tej luki. Zapraszamy do jego współtworzenia wszystkich, którzy mogą i&nbsp;chcą pomóc.
+### Popraw mnie
+Możesz ulepszyć każdy już opublikowany materiał. Od dodania przysłowiowego przecinka, poprawienia linku, po uzupełnienie albo skrócenie, przeredagowanie zawiłych fragmentów, uproszczenie zdań, itd.
 
-## Cel projektu
-Celem projektu jest **stworzyć wspólnymi siłami wspólną bazę wiedzy**, która pomoże wydawcom, koordynatorom dostępności cyfrowej, programistom, webmasterom, audytorom, testerom skutecznie, efektywnie i wiarygodnie oceniać dostępność cyfrową - planować i przeprowadzać badania dostępności.
+Użyj  przycisku **Popraw mnie** umieszczonego na początku każdego materiału. Przejdziesz na specjalną stronę artykułu na platformie Github. Otwórz plik do edycji i popraw, co chcesz poprawić. Nie obawiaj się, nic nie zepsujesz na oryginalnej stronie. Scalenia poprawek dokona administrator.
 
-Pierwotnie zmierzaliśmy się skupić tylko na stworzeniu jednolitej bazy testów. Ale opracowanie pierwszych materiałów ujawniło potrzebę uwzględnienia w bazie jeszcze co najmniej jednego zbioru - objaśnień wymagań i problemów dostępności, które mogłyby spełnić podobną rolę do tej, jaką w dokumentacji WCAG spełnia zbiór [Understanding WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/), zanim - być może - zostanie przetłumaczony na język polski.  
+{% include image.html file="ogolne/poprawmnie.png" alt="Przycisk Edytuj znajduje się nad treścią w pasku narzędziowym - ikona ołówka" %}
+
+Gdy naniesiesz proponowanie zmiany, opisz je zwięźle w formularzu i zapisz przyciskiem **Commit changes**.
+
+### Dodaj treść
+Możesz zaproponować nowe opracowanie do każdego działu bazy wiedzy. W domyślnym menu strony umieszczonym w&nbsp;pasku bocznym znajduje się sekcja **Dodaj treść**, a w niej dwa łącza **Dodaj treść 1** i **Dodaj treść 2**. Otwórz jedno z nich, a następnie - jak opisano w sekcji powyżej, użyj przycisku **Popraw mnie** i dodaj proponowaną nową treść.
+
+Jeśli pozostawisz swój adres e-mail, skontaktujemy się z Tobą, aby uzgodnić zmiany, gdy będą konieczne. Jeśli nie zostawisz adresu e-mail, zakładamy, że pozwalasz nam swobodnie wykorzystać, w tym przeredagować lub włączyć do innego materiału zgłoszoną przez Ciebie propozycję.
+
+### Zgłoś problem
+Możesz również zgłosić problem, sugestie czy nawet nową treść za pomocą systemu [śledzenia problemów](https://github.com/lepszyweb/wcag-testy/issues) na repozytozytorium projektu.
 
 
-
-
-
-
-
-## Co znajduje się w tej części?
-- **Jednolita baza testów**, w tym:
-  - [Baza testów wstępnych](00_P_wprowadzenie): zestaw prostych i łatwych testów „dla każdego”, dzięki którym osoby nie będące ekspertami mogą wykryć typowe problemy dostepności.
-  - [Baza testów podstawowych](H0_00_wprowadzenie): zestaw testów zgodności z normami dostępności przeznaczonych do projektowania własnych procedur testowych przez osoby odpowiedzialne za ocenę jakości - projektantów, programistów, webmasterów, integratorów, administratorów, audytorów i innych specjalistów.
-- **Bazy źródłowe**, dzięki którym można tworzyć własne opisy testów oraz wzbogacać i korygować opisy w bazie testów podstawowych. W zbiorze baz źródłowych może znaleźć się każdy zwarty testów i procedur testowych przetłumaczonych na język polski, o ile nie są opublikowane w zwartej formie w innym miejscu.   
-  W pierwszej kolejności opublikowane zostaną:
-  - [ICT Testing Baseline](ICT_00_wprowadzenie): robocze tłumaczenie [bazy testów](https://section508coordinators.github.io/ICTTestingBaseline/) stosowanej w amerykańskich agencjach rządowych
-  - [Pomocnik adepta dostępności](1-0-0_wprowadzenie): zestaw testów opracowany przez [Stowarzyszenie Twoje nowe możliwości](http://www.tnm.org.pl/)
-  - [Wielostopniowa ocena zgodności z WCAG 2.1 AA](MSU_00_wprowadzenie): uproszczony protokół testów zgodności stosowany na [Michigan State University](https://uarc.msu.edu/resources/tools)
-
-## Jak możesz pomóc?
-- **Zostań współtwórcą**. Zaproponuj i opracuj test lub zestaw testów. Prześlij swoje propozycje. Skorzystaj z [szablonu opisu testu](testy/szablon_opisu_testu.md)
-- **Zgłoś swoje sugestie, pomysły, propozycje poprawek**. Skorzystaj z systemu [śledzenia problemów](https://github.com/lepszyweb/wcag-testy/issues)
+### Zostań współpracownikiem
+Jeśli masz konto na Github, możesz korzystać ze wszystkich funkcjonalności tej platformy, w tym dołaczyć do grona stalych współpracowników.
 
 ## Licencja
 - Wszystkie materiały autorskie publikowane są na warunkach licencji CC BY-NC-SA 4.0

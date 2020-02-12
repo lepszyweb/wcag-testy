@@ -148,7 +148,7 @@ entries:
       url: /archiwum-dziennika
       output: web, pdf
 
-  - title: Dodawaj treści
+  - title: Dodaj treść
     output: web
     folderitems:
 
