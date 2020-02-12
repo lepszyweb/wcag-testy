@@ -10,10 +10,6 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: Przegląd
-      url: /testy-przeglad
-      output: web
-
     - title: Wprowadzenie
       url: /testy-wprowadzenie
       output: web

@@ -14,7 +14,7 @@ Możesz ulepszyć każdy już opublikowany materiał. Od dodania przysłowiowego
 
 Użyj  przycisku **Popraw mnie** umieszczonego na początku każdego materiału. Przejdziesz na specjalną stronę artykułu na platformie Github. Otwórz plik do edycji i popraw, co chcesz poprawić. Nie obawiaj się, nic nie zepsujesz na oryginalnej stronie. Scalenia poprawek dokona administrator.
 
-{% include image.html file="ogolne/poprawmnie.png" alt="Lokalizacja przycisku Edytuj" caption="Przycisk Edytuj znajduje się nad treścią w pasku narzędziowym - ikona ołówka" %}
+{% include image.html file="ogolne/poprawmnie.png" alt="Lokalizacja przycisku Edytuj" caption="Przycisk Edytuj znajduje się nad treścią artykułu w pasku narzędziowym - ikona ołówka" %}
 
 Gdy naniesiesz proponowanie zmiany, opisz je zwięźle w formularzu i zapisz przyciskiem **Commit changes**.
 

@@ -6,8 +6,7 @@ permalink: testy-przeglad
 folder: testy
 toc: false
 ---
-## O &bdquo;Testach&rdquo;
-Zdecydowaliśmy się uruchomić ten projekt, bo w polskich zasobach na temat dostępności cyfrowej dotychczas (połowa października 2019) nie było ani jednego opracowania odpowiadającego na pytania, jak testować dostępność cyfrową stron internetowych. Tzw. &bdquo;[polska metodologia](met_polska)&rdquo; opisana w dwóch opracowaniach odpowiada głównie na pytania, co testować i opisuje ogólnie organizację badania dostępności.
+
 
 ## Nasz cele
 Naszą misją jest realna pomoc w przeprowadzaniu testów dostępności stron internetowych. Stawiamy sobie dwa cele szczegółowe:

@@ -1,6 +1,6 @@
 ---
 title: Funkcjonalność
-Summary: "Co to są szablony? Jak odkryć elementy szblonu? Które elementy szablonu oceniać? Kryteria oceny dostępności szablonu "
+summary: ""
 
 sidebar: glosy_sidebar
 permalink: glosy-funkcjonalnosc
@@ -14,11 +14,3 @@ folder: glosy
 ## Możesz pomóc
 
 {% include tip.html content="Zapraszamy. Ten temat czeka także na Ciebie. Jeśli możesz, dodaj potrzebną Twoim zdaniem treść." %}
-
-
-   
-
-
-
-
-

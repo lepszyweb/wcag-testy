@@ -2,7 +2,7 @@
 title: "Skryptozakładki"
 tagName: skryptozakładki
 search: exclude
-permalink: tag_skryptozakladki
+permalink: tag_skryptozakladki.html
 sidebar: home_sidebar
 folder: tags
 ---

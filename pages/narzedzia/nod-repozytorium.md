@@ -1,6 +1,6 @@
 ---
 title: O repozytorium
-tags: [narzędzia_oceny_dostępności]
+tags: [narzędzia-oceny-dostępności]
 last_updated: 7 lutego 2019
 sidebar: narzedzia_sidebar
 summary:

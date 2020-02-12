@@ -1,8 +1,8 @@
 ---
 title: "Aplikacja komputerowa"
-tagName: aplikacja_komputerowa
+tagName: aplikacja-komputerowa
 search: exclude
-permalink: tag_aplikacja-komputerowa
+permalink: tag_aplikacja-komputerowa.html
 sidebar: home_sidebar
 folder: tags
 ---

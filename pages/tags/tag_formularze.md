@@ -2,7 +2,7 @@
 title: "Formularze"
 tagName: formularze
 search: exclude
-permalink: tag_formularze
+permalink: tag_formularze.html
 sidebar: home_sidebar
 folder: tags
 ---

@@ -1,6 +1,6 @@
 ---
 title: ARC Toolkit
-tags: [rozszerzenia_przeglądarek,narzędzia_oceny_dostępności]
+tags: [rozszerzenia-przeglądarek,narzędzia-oceny-dostępności]
 
 sidebar: narzedzia_sidebar
 permalink: nod-arc
@@ -21,12 +21,12 @@ ARC Toolkit instalujemy jak każde inne rozszerzenie przeglądarki Chrome.
 1.	[Przejdź na stronę sklepu Chrome](https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce).
 2.	Wybierz przycisk **Dodaj do Chrome**.
 
-![Opcja Dodaj do Chrome w sklepie Chrome](/images/arc_toolkit_dodaj-do-chrome.png)
+![Opcja Dodaj do Chrome w sklepie Chrome](/images/narzedzia/arc_toolkit_dodaj-do-chrome.png)
 
 3.	Po zainstalowaniu, otwórz w Chrome menu Ustawienia i wybierz opcję **Więcej narzędzi > Narzędzia dla deweloperów** albo użyj klawiszy F12 lub kombinacji Ctrl+Shift+ I w Windows, a w Mac – Option + CMD + I. Możesz również wskazać myszką dowolny element na badanej  stronie i wybrać z menu kontekstowego polecenie **Zbadaj element**.
 4.	Na pasku narzędzi programisty wybierz ARC Toolkit.
 
-![Opcja ARC Toolkit na pasku narzędzi dewelopera](/images/arc-toolkit_na-pasku-dewelopera.png)
+![Opcja ARC Toolkit na pasku narzędzi dewelopera](/images/narzedzia/arc-toolkit_na-pasku-dewelopera.png)
 
 *Uwaga*: Po zainstalowaniu w Chrome ARC Toolkit jest włączony z domyślnymi ustawieniami. Nie wymaga dodatkowych czynności konfiguracyjnych. Jeśli będziesz zmieniać ustawienia domyślne, w grupie opcji Dostęp do stron pozostaw włączoną opcję **We wszystkich witrynach**.  
 *Uwaga 2*: Możesz zmieniać miejsce, w którym osadzone są Narzędzia programisty. Jeśli dysponujesz dwoma ekranami, to najlepszym wyborem będzie wyświetlenie narzędzi programisty w odrębnym oknie.
@@ -34,7 +34,7 @@ ARC Toolkit instalujemy jak każde inne rozszerzenie przeglądarki Chrome.
 ### Testowanie strony
 Aby rozpocząć testowanie strony internetowej, naciśnij na pasku przycisk _Run Tests_ (Uruchom testy).
 
-![Opcja Urudhom testy](/images/arc_toolkit-uruchom-test.png)
+![Opcja Urudhom testy](/images/narzedzia/arc_toolkit-uruchom-test.png)
 
 Po chwili otrzymamy wyniki. Przyjrzyjmy się bliżej funkcjom oferowanym przez ARC Toolkit.
 Narzędzie składa się z dwóch obszarów: paska bocznego i głównego okna. Pasek boczny zawiera tabelę ze statystyką wyników.
@@ -48,7 +48,7 @@ Oceniane reguły silnika ARC są zorganizowane w kategorie i podkategorie:
 Nazwy kategorii i podkategorii są nagłówkami wierszy tabeli, prezentującej wyniki w sześciu kolumnach.
 Kolumny w tabeli wyników pokazują liczbę widocznych i niewidocznych wystąpień, w tym błędów i ostrzeżeń. Nagłówkami kolumn są ikony symbolizujące kolejno:
 
-![Nagłówki kolumn w tabeli w pasku bocznym](/images/arc-toolkit-nglowki-kolumn.png)
+![Nagłówki kolumn w tabeli w pasku bocznym](/images/narzedzia/arc-toolkit-nglowki-kolumn.png)
 
 1.	Widoczne wystąpienia (*Visible Instance*)
 2.	Błędy widoczne (*Visible Errors*)
@@ -59,14 +59,14 @@ Kolumny w tabeli wyników pokazują liczbę widocznych i niewidocznych wystąpie
 Elementy ukryte to elementy niewidoczne w przeglądarkach, ale istniejące w kodzie strony, widoczne m.in. dla technologii wspomagających.  Ostrzeżenia dotyczą sytuacji, które mogą być problemami, ale wymaga to oceny człowieka.
 Po wykonaniu testów w oknie głównym wyświetlana jest tabela wyników prezentowanych w czterech kolumnach. W pierwszej znajdziemy systemowy opis testu (reguły ARC), w drugiej liczbę błędów, w trzeciej liczbę ostrzeżeń, a w czwartej nazwę kategorii błędu lub ostrzeżenia.  
 
-![Interejs ARC Toolkit. Pasek boczny i główne okno](/images/arc-toolkit-okno.png)
+![Interejs ARC Toolkit. Pasek boczny i główne okno](/images/narzedzia/arc-toolkit-okno.png)
 
 Wybranie podkategorii na pasku bocznym ograniczy wyniki w głównym oknie do problemów określonego typu, takich jak związane z obrazami lub nagłówkami, przy czym domyślnie uwzględnione są tylko elementy widoczne w przeglądarkach. Aby wyświetlić także informacje o elementach ukrytych, należy zaznaczyć w pasku menu w oknie głównym opcję: Ukryte (*Hidden*). Pozostałe trzy opcje ograniczają wyświetlanie wyników do błędów (*Errors*), ostrzeżeń (Warnings) i aktualnie wybranego węzła (*Limit to Selected Node*).
 
 ### Definicje wyników
 Szczegółowe wyniki testów sklasyfikowane są jako:
 
-![Oznaczenia wyników](/images/arc_klasyfikacja.png)
+![Oznaczenia wyników](/images/narzedzia/arc_klasyfikacja.png)
 
 -	**Zaliczone** – wyniki testów, w przypadku których nie stwierdzono żadnych problemów z dostępnością.
 -	**Błędy** – wyniki, w przypadku których stwierdzono problemy z dostępnością.
@@ -79,7 +79,7 @@ Wszystkie wykryte wystąpienia zostaną oznaczone na stronie czerwoną przerywan
 W oknie głównym ARC zostaną wyświetlone szczegółowe wyniki. Każde z wystąpień opatrzone jest numerem porządkowym i ikoną (OK, WARN, ERR, HIDDEN). Obok znajdują się objaśnienia i ewentualne wskazówki. Dodatkowo wyświetlana jest także miniatura obrazu. W przypadku obrazów podawany jest kod osadzający obrazek oraz obok treść tekstu alternatywnego, jeśli istnieje, bądź wartość NIL (pusty), jeśli istnieje atrybut alt.
 Gdy ARC wykryje błąd lub możliwy błąd (ERR bądź WARN), w informacji o wystąpieniu znajduje się zwięzły opis problemu i zalecone działanie.
 
-![Wyniki szczegółowe](/images/arc-toolkit-szczegolowe.png)
+![Wyniki szczegółowe](/images/narzedzia/arc-toolkit-szczegolowe.png)
 
 Informacje te wyświetlane są w języku angielskim. W razie potrzeby można je skopiować i przetłumaczyć za pomocą translatora internetowego (Google, Deepl i inne).
 
@@ -95,7 +95,7 @@ ARC Toolkit posiada ponadto kilka innych cennych funkcji, które wspomagają pro
 #### Porządek tabulacji
 Gdy wybierzesz w bocznym pasku tę podkategorię, ARC Toolkit natychmiast wyświetli na stronie graficzną reprezentację porządku tabulacji. Wszystkie punkty interaktywne zostaną wyróżnione czerwonymi kółeczkami i ponumerowane liczbami wskazującymi kolejność tabulacji oraz połączone odcinkami. Wśród narzędzi oferujących tę funkcję ARC jest niewątpliwym liderem.
 
-![Graficzna reprezentacja porządku tabulacji](/images/arc-toolkit-tab-order.png)
+![Graficzna reprezentacja porządku tabulacji](/images/narzedzia/arc-toolkit-tab-order.png)
 
 #### Wzmocnienie fokusa
 Zaznacz opcję **Show and Track Focus** (Pokaż i śledź skupienie) i wybierz w pasku bocznym podkategorię Tabindex (Indeks tabulatora). Następnie użyj klawisza Tab, by nawigować po stronie. Elementy, które uzyskują skupienie, zostaną wyróżnione wzmocnionym czerwonym obramowaniem. Jest to szczególnie pomocne narzędzie,  gdy projektant strony zmodyfikuje style tak, że fokus będzie niewidoczny lub nawet ukryty przed użytkownikiem.

@@ -1,6 +1,6 @@
 ---
 title: Testy przypadków użycia
-Summary: "Co to są testy przypadków użycia? Zalety testowania przypadków użycia. Ograniczenia testowania przypadków użycia. "
+summary: "Co to są testy przypadków użycia? Zalety testowania przypadków użycia. Ograniczenia testowania przypadków użycia. "
 
 sidebar: metoda_sidebar
 permalink: met-testy-przypadkow-uzycia

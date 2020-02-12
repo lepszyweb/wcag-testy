@@ -9,7 +9,7 @@ toc: false
 ---
 
 ## Zacznij tutaj
-Nie usuwaj niczego z powyżej tego nagłówka. Zacznij swoją treść poniżej. Użyj składni markdown do formatowania treści.
+Nie usuwaj niczego powyżej tego nagłówka. Zacznij swoją treść poniżej. Użyj składni markdown do formatowania treści. Najpierw wpisz proponowany tytuł. 
 
 
    

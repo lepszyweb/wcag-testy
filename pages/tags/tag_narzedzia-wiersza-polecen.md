@@ -1,8 +1,8 @@
 ---
 title: "Narzędzia wiersza_poleceń"
-tagName: narzędzia_wiersza_poleceń
+tagName: narzędzia-wiersza-poleceń
 search: exclude
-permalink: tag_narzedzia-wiersza-polecen
+permalink: tag_narzedzia-wiersza-polecen.html
 sidebar: home_sidebar
 folder: tags
 ---

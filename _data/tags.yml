@@ -4,8 +4,8 @@
 allowed-tags:
   - aktualności
   - API
-  - aplikacja_komputerowa
-  - aplikacja_mobilna
+  - aplikacja-komputerowa
+  - aplikacja-mobilna
   - audiodeskrypcja
   - błędy
   - czytelność
@@ -19,20 +19,20 @@ allowed-tags:
   - media
   - migotanie
   - nagłówki
-  - narzędzia_oceny_dostępności
-  - narzędzia_autorskie
-  - narzędzia_wiersza_poleceń
+  - narzedzia-oceny-dostepnosci
+  - narzędzia-autorskie
+  - narzędzia-wiersza-poleceń
   - nawigacja
   - parsowanie
   - przewidywalność
-  - punkt_orientacyjny
-  - rozszerzenia_narzędzi_autorskich
-  - rozszerzenia_przeglądarek
+  - punkt-orientacyjny
+  - rozszerzenia-narzędzi-autorskich
+  - rozszerzenia-przeglądarek
   - semantyka
   - skryptozakładki
   - spójność
   - struktury
   - transkrypcja
-  - usługa_internetowa
+  - usługa-internetowa
   - widżet
   - wyróżnienie

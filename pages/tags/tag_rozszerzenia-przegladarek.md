@@ -1,8 +1,8 @@
 ---
 title: "Rozszerzenia przeglądarek"
-tagName: rozszerzenia_przeglądarek
+tagName: rozszerzenia-przeglądarek
 search: exclude
-permalink: tag_rozszerzenia-przegladarek
+permalink: tag_rozszerzenia-przegladarek.html
 sidebar: home_sidebar
 folder: tags
 ---

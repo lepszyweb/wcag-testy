@@ -1,7 +1,7 @@
 ---
 title: Inspektor dostępności w przeglądarce Firefox
 
-tags: [rozszerzenia_przeglądarek,narzędzia_oceny_dostępności]
+tags: [rozszerzenia-przeglądarek,narzędzia-oceny-dostępności]
 sidebar: narzedzia_sidebar
 permalink: nod-firefox-inspektor-dostepnosci
 folder: narzedzia-p

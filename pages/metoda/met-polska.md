@@ -1,5 +1,5 @@
 ---
-title: Podejście po polsku
+title: Metodologia w Polsce
 summary: "Przez długi czas podejście do badania i oceniania dostępności w Polsce wyznaczała tzw. &bdquo;polska metodologia&rdquo; opracowana i opublikowana przez Funację Widzialni we współpracy z Uniwersytetem Śląskim."
 
 sidebar: metoda_sidebar

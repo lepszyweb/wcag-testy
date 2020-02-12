@@ -1,8 +1,8 @@
 ---
 title: "Rozszerzenia narzędzi autorskich"
-tagName: rozszerzenia_narzędzi_autorskich
+tagName: rozszerzenia-narzędzi-autorskich
 search: exclude
-permalink: tag_rozszerzenia-narzedzi-autorskich
+permalink: tag_rozszerzenia-narzedzi-autorskich.html
 sidebar: home_sidebar
 folder: tags
 ---

@@ -2,7 +2,7 @@
 title: "Widżet"
 tagName: widzet
 search: exclude
-permalink: tag_widzet
+permalink: tag_widzet.html
 sidebar: home_sidebar
 folder: tags
 ---

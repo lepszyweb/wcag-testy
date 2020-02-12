@@ -2,7 +2,7 @@
 title: "Nagłówki"
 tagName: collaboration
 search: exclude
-permalink: tag_naglowki
+permalink: tag_naglowki.html
 sidebar: home_sidebar
 folder: tags
 ---

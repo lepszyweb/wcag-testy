@@ -2,7 +2,7 @@
 title: "Błędy"
 tagName: bledy
 search: exclude
-permalink: tag_bledy
+permalink: tag_bledy.html
 sidebar: home_sidebar
 folder: tags
 ---

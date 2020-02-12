@@ -2,7 +2,7 @@
 title: "Semantyka"
 tagName: semantyka
 search: exclude
-permalink: tag_semantyka
+permalink: tag_semantyka.html
 sidebar: home_sidebar
 folder: tags
 ---

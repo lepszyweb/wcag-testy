@@ -1,11 +1,13 @@
 ---
 title: Postrzegalność
-Summary: "Co to są szablony? Jak odkryć elementy szblonu? Które elementy szablonu oceniać? Kryteria oceny dostępności szablonu "
+summary: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą jej odbiór przez użytkownika za pomocą słuchu, wzroku lub dotyku."
 
 sidebar: glosy_sidebar
 permalink: glosy-postrzegalnosc
 folder: glosy
 ---
+
+
 
 ## Wprowadzenie
 
@@ -14,11 +16,3 @@ folder: glosy
 ## Możesz pomóc
 
 {% include tip.html content="Zapraszamy. Ten temat czeka także na Ciebie. Jeśli możesz, dodaj potrzebną Twoim zdaniem treść." %}
-
-
-   
-
-
-
-
-

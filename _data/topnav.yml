@@ -34,20 +34,14 @@ topnav_dropdowns:
           url: /met-ocena-dostepnosci-pojedynczej-strony
     - title: Testy
       folderitems:
-        - title: Jednolita baza testów
-          url: /testy-przeglad
-        - title: Przegląd
+        - title: Wprowadzenie
           url: /testy-wprowadzenie
         - title: Łatwe testy dostępności
           url: /00-P-wprowadzenie
         - title: Testy zgodności z WCAG
           url: /H0-00-wprowadzenie
-        - title: Baza testów ITC
+        - title: Bazy źródłowe
           url: /ICT-00-wprowadzenie
-        - title: Wielopoziomowy protokół oceny
-          url: /MSU-00-wprowadzenie
-        - title: Pomocnik adepta dostepności
-          url: /1-0-0-wprowadzenie
     - title: Narzędzia
       folderitems:
         - title: Przegląd

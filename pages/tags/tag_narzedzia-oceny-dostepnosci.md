@@ -1,6 +1,6 @@
 ---
 title: "Narzędzia oceny dostępności"
-tagName: narzędzia_oceny_dostępności
+tagName: narzedzia-oceny-dostepnosci
 search: exclude
 permalink: tag_narzedzia-oceny-dostepnosci
 sidebar: home_sidebar

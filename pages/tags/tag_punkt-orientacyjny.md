@@ -1,8 +1,8 @@
 ---
-title: "Punkt_orientacyjny"
-tagName: punkt_orientacyjny
+title: "punkt-orientacyjny"
+tagName: punkt-orientacyjny
 search: exclude
-permalink: tag_punkt-orientacyjny
+permalink: tag_punkt-orientacyjny.html
 sidebar: home_sidebar
 folder: tags
 ---

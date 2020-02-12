@@ -2,7 +2,7 @@
 title: Accessibility Insights – ocenianie dostępności  cyfrowej
 
 sidebar: narzedzia_sidebar
-tags: [rozszerzenia_przeglądarek, skryptozakładka,narzędzia_oceny_dostępności]
+tags: [rozszerzenia-przeglądarek, skryptozakładka,narzędzia-oceny-dostępności]
 
 permalink: nod-insights
 folder: narzedzia-p

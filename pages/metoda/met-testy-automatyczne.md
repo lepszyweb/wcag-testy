@@ -1,6 +1,6 @@
 ---
 title: Testy automatyczne
-Summary: "Czym są testy automatyczne? Zalety testów automatycznych. Ograniczenia testów automatycznych. "
+summary: "Czym są testy automatyczne? Zalety testów automatycznych. Ograniczenia testów automatycznych. "
 
 sidebar: metoda_sidebar
 permalink: met-testy-automatyczne

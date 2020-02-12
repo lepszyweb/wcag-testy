@@ -2,7 +2,7 @@
 title: "Nawigacja"
 tagName: nawigacja
 search: exclude
-permalink: tag_nawigacja
+permalink: tag_nawigacja.html
 sidebar: home_sidebar
 folder: tags
 ---

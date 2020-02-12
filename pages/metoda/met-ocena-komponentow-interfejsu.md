@@ -1,6 +1,6 @@
 ---
-title: Ocena dostepności szablonu
-Summary: "Co to są szablony? Jak odkryć elementy szblonu? Które elementy szablonu oceniać? Kryteria oceny dostępności szablonu "
+title: Ocena komponentów interfejsu użytkownika
+summary: "Co to komponenty interfejsu użytkownika. Jak testować komponenty interfejsu użytkownika "
 
 sidebar: metoda_sidebar
 permalink: met-ocena-komponentow-interfejsu

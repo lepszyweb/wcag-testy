@@ -2,7 +2,7 @@
 title: "Konsekwencja"
 tagName: konsekwencja
 search: exclude
-permalink: tag_konsekwencja
+permalink: tag_konsekwencja.html
 sidebar: home_sidebar
 folder: tags
 ---

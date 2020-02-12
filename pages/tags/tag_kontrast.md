@@ -2,7 +2,7 @@
 title: "Kontrast"
 tagName: kontrast
 search: exclude
-permalink: tag_kontrast
+permalink: tag_kontrast.html
 sidebar: home_sidebar
 folder: tags
 ---
