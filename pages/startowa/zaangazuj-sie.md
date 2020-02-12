@@ -1,10 +1,13 @@
 ---
-title: Wprowadzenie
+title: Zaangażuj się
 sidebar: home_sidebar
-permalink: przeglad-wprowadzenie
+permalink: zaangazuj-sie
 folder: startowa
 toc: false
 ---
+
+## Potrzebny jest Twój wkład
+Choć ruch na rzecz dostępności cyfrowej w Polsce ma już bogatą historię, choć podjęto i zrealizowano wiele cennych inicjatyw, daleko nam do &bdquo;normalności&rdquo;, w której odstępstwa od standardów dostępności będą marginesem. Wciąż jesteśmy zaledwie na początku drogi.     
 
 ## Ocenianie dostępności cyfrowej
 W polskojęzycznych zasobach poświeconych dostępności cyfrowej nie było dotychczas ani jednego opracowania odpowiadającego rzeczowo i konkretnie na pytania o to, jak badać i oceniać zgodność stron internetowych i aplikacji mobilnych z normami dostępności.  
@@ -15,6 +18,7 @@ Projekt **Ocenianie dostępności cyfrowej - Jednolita baza testów** jest prób
 Celem projektu jest **stworzyć wspólnymi siłami wspólną bazę wiedzy**, która pomoże wydawcom, koordynatorom dostępności cyfrowej, programistom, webmasterom, audytorom, testerom skutecznie, efektywnie i wiarygodnie oceniać dostępność cyfrową - planować i przeprowadzać badania dostępności.
 
 Pierwotnie zmierzaliśmy się skupić tylko na stworzeniu jednolitej bazy testów. Ale opracowanie pierwszych materiałów ujawniło potrzebę uwzględnienia w bazie jeszcze co najmniej jednego zbioru - objaśnień wymagań i problemów dostępności, które mogłyby spełnić podobną rolę do tej, jaką w dokumentacji WCAG spełnia zbiór [Understanding WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/), zanim - być może - zostanie przetłumaczony na język polski.  
+
 
 
 

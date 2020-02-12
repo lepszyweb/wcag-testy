@@ -29,10 +29,10 @@ entries:
       type: homepage
 
     - title: Zaangażuj się
-      url: /przeglad-wprowadzenie
+      url: /zaangazuj-sie
       output: web, pdf
 
-  - title: Standardy, wskazówki
+  - title: Glosy
     output: web, pdf
 
     folderitems:
@@ -147,3 +147,14 @@ entries:
     - title: Archiwum Dziennika
       url: /archiwum-dziennika
       output: web, pdf
+
+  - title: Dodawaj treści
+    output: web
+    folderitems:
+
+    - title: Dodaj treść 1
+      url: /dodaj-tresc-01
+      output: web
+    - title: Dodaj treść 2
+      url: /dodaj-tresc-02
+      output: web

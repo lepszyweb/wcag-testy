@@ -2,6 +2,8 @@ a11y: "Skrót od angielskiego słowa _accessibility_ (dostępność), używany c
 
 afordancje: "Zauważalne i rzeczywiste cechy rzeczy, systemu lub elementu systemu, które określają, w jaki sposób można tej rzeczy używać."
 
+aplikacja mobilna: "Publicznie dostępne oprogramowanie z interfejsem dotykowym zaprojektowane do wykorzysta-nia na przenośnych urządzeniach elektronicznych, z wyłączeniem aplikacji przeznaczonych do użytku na przenośnych komputerach osobistych."
+
 audio: "Treści przekazywane elektronicznie dźwiękiem, technika rejestrowania i przekazywania sygnałów dźwiękowych. *Uwaga:* Audio może być tworzone w sposób sztuczny (włączając w  to syntezę mowy), przez nagrywanie prawdziwego dźwięku lub na oba sposoby."
 
 ATAG: "Akronim od angielskiego tytułu dokumentu [Authoring Tool Accessibility Guidelines](https://www.w3.org/TR/ATAG20/) (Wytyczne dotyczące dostępności narzędzi autorskich)."
@@ -16,6 +18,8 @@ cel_testu: "Przyczyna lub powód zaprojektowania i przeprowadzenia testu."
 
 ewaluator: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny."
 
+funkcjonalność: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą użytkownikowi skorzystanie ze wszystkich oferowanych przez nie funkcji."
+
 interaktywność: "Zdolność do wzajemnego oddziaływania na siebie, zdolność programu lub urządzenia do jednoczesnego odbierania informacji i reagowania na nią."
 
 język_naturalny: "(ang. _human language_). Język mówiony, pisany lub język migowy (zarówno znaków wizualnych, jak dotykowych) służący do komunikowania się między ludźmi. *Uwaga:* zobacz także „język migowy”."
@@ -27,9 +31,13 @@ kierownik_testów: "Osoba odpowiedzialna za zarządzanie czynnościami testowymi
 komisarz_ds._oceny: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot, który zlecił ocenę.
 Uwaga: W wielu przypadkach komisarz ds. oceny może być właścicielem lub twórcą witryny, w innych przypadkach może to być inny podmiot, taki jak zamawiający lub właściciel ankiety monitorującej dostępność."
 
+kompatybilność: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą tej stronie lub aplikacji współpracę z możliwie największą liczbą programów, w tym z narzędziami i programami wspomagającymi osoby niepełnosprawne."
+
 lista_zasobów_podstawowych: "(ang. _Core Resource List_). Zbiór zasobów ogólnych, kluczowych dla oceny użyteczności i dostępności witryny, które można znaleźć na większości witryn."
 
 media_zmienne_w_czasie: "Media dynamiczne, oparte na sekwencji obrazów i dźwięków"
+
+nawigacja: Zespół funkcji obejmujących menu oraz linki do elementów strony internetowej lub aplikacji mobilnej, takich jak nagłówki, listy lub tabele, pozwalających użytkownikowi na przemieszczanie się między elementami strony internetowej lub aplikacji mobilnej"
 
 oceniający: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny."
 
@@ -40,6 +48,8 @@ plan_testów: "Dokumentacja opisująca cele testowe do osiągnięcia oraz środk
 planowanie_testów: "Czynność tworzenia planów testów lub wprowadzanie do nich zmian."
 
 podejście_do_testowania: "Implementacja strategii testowej w określonym projekcie."
+
+postrzegalność: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą jej odbiór przez użytkownika za pomocą słuchu, wzroku lub dotyku."
 
 proces_testowy: "Zbiór powiązanych ze sobą działań obejmujący planowanie i  monitorowanie testów,  analizę testów, projektowanie testów, implementację testów i zakończenie testów."
 
@@ -96,3 +106,5 @@ zasób: "Sieciowy (internetowy) obiekt danych identyfikowany przez unikalny iden
 zgodność: "(ang _conformance_). Spełnienie wszystkich wymagań danej normy, wytycznych lub specyfikacji"
 
 zlecający_ocenę: "(ang. evaluation commissioner. Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot, który zlecił ocenę. *Uwaga*: W wielu przypadkach zlecajacym ocenę będzie właściciel lub twórca, wydawca witryny. Ale może to być również np. naukowiec prowadzący badania dostępności albo podmiot monitorujący dostępność stron internetowych i aplikacji mobilnych."
+
+zrozumiałość: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą użytkownikowi tych stron i aplikacji zrozumienie treści i sposobu ich prezentacji."

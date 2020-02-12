@@ -1,5 +1,5 @@
 ---
-title: "Ocenianie dostępności cyfrowej"
+title: "Baza wiedzy Ocenianie dostępności cyfrowej"
 keywords: dostepność cyfrowa, ocenianie dostepności cyfrowej, przegląd dostępności cyfrowej, testowanie dostępności cyfrowej, metodologia oceniania dostepności cyfrowej, WCAG 2.1, WCAG
 # tags: [dostępność, dostępność_cyfrowa, WCAG_2.1, metodologia_oceniania_dostępności ]
 sidebar: home_sidebar
@@ -11,8 +11,8 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
 
 <div class="row">
         <div class="col-lg-12">
-            <h2 class="page-header">Dostępność cyfrowa - baza wiedzy</h2>
-            <p>Naszym celem jest <span markdown="span">**stworzyć wspólnymi siłami wspólną bazę wiedzy**</span>, która pomoże wydawcom, koordynatorom dostępności cyfrowej, programistom, webmasterom, audytorom, testerom skutecznie, efektywnie i wiarygodnie oceniać dostępność cyfrową - planować i przeprowadzać badania dostępności.</p>
+            <h2 class="page-header">Nasz cel</h2>
+            <p>Naszym celem jest <span markdown="span">**stworzyć wspólnymi siłami wspólną bazę wiedzy**</span>, która pomoże wydawcom, koordynatorom dostępności cyfrowej, programistom, webmasterom, audytorom, testerom skutecznie, efektywnie i wiarygodnie oceniać dostępność cyfrową - planować i&nbsp;przeprowadzać badania dostępności.</p>
         </div>
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
