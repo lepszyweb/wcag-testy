@@ -17,7 +17,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
                 <div class="panel-heading">
-                    <span class="fa-stack fa-5x">
+                    <span class="fa-stack fa-5x" aria-hidden="true">
                           <i class="fas fa-circle fa-stack-2x text-primary"></i>
                           <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i>
                     </span>
@@ -32,7 +32,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
                 <div class="panel-heading">
-                    <span class="fa-stack fa-5x">
+                    <span class="fa-stack fa-5x" aria-hidden="true">
                           <i class="fas fa-circle fa-stack-2x text-primary"></i>
                           <i class="fas fa-cogs fa-stack-1x fa-inverse"></i>
                     </span>
@@ -47,7 +47,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
                 <div class="panel-heading">
-                    <span class="fa-stack fa-5x">
+                    <span class="fa-stack fa-5x" aria-hidden="true">
                           <i class="fas fa-circle fa-stack-2x text-primary"></i>
                           <i class="fas fa-search fa-stack-1x fa-inverse"></i>
                     </span>
@@ -62,7 +62,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
         <div class="col-md-3 col-sm-6">
             <div class="panel panel-default text-center">
                 <div class="panel-heading">
-                    <span class="fa-stack fa-5x">
+                    <span class="fa-stack fa-5x" aria-hidden="true">
                           <i class="fas fa-circle fa-stack-2x text-primary"></i>
                           <i class="fas fa-tools fa-stack-1x fa-inverse"></i>
                     </span>
