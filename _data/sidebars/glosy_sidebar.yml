@@ -13,26 +13,26 @@ entries:
       url: /glosy-wprowadzenie
       output: web
 
-  - title: Postrzegalność
+  - title: Postrzegalność - w planie
     output: web, pdf
     folderitems:
     - title: Wprowadzenie
       url: /glosy-postrzegalnosc
       output: web
 
-  - title: Funkcjonalność
+  - title: Funkcjonalność - w planie
     output: web, pdf
     folderitems:
     - title: Wprowadzenie
       url: /glosy-funkcjonalnosc
       output: web
-  - title: Zrozumiałość
+  - title: Zrozumiałość - w planie
     output: web, pdf
     folderitems:
     - title: Wprowadzenie
       url: /glosy-zrozumialosc
       output: web
-  - title: Rzetelność
+  - title: Rzetelność - w planie
     output: web, pdf
     folderitems:
     - title: Wprowadzenie
