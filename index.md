@@ -23,7 +23,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                     </span>
                 </div>
                 <div class="panel-body">
-                    <h4>Glosy</h4>
+                    <h3>Glosy</h3>
                     <p>Objaśnienia standardów dostępności</p>
                     <a href="glosy-wprowadzenie" class="btn btn-primary">Czytaj więcej <span class="sr-only">o glosach</span></a>
                 </div>
@@ -38,7 +38,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                     </span>
                 </div>
                 <div class="panel-body">
-                    <h4>Metody</h4>
+                    <h3>Metody</h3>
                     <p>Systemy oceniania dostępności &nbsp;cyfrowej&nbsp;</p>
                     <a href="met-wprowadzenie" class="btn btn-primary">Czytaj więcej <span class="sr-only">o metodach</span></a>
                 </div>
@@ -53,7 +53,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                     </span>
                 </div>
                 <div class="panel-body">
-                    <h4>Testy</h4>
+                    <h3>Testy</h3>
                     <p>Łatwe testy. Testy&nbsp;zgodności. Bazy&nbsp;źródłowe.</p>
                     <a href="testy-przeglad" class="btn btn-primary">Czytaj więcej</a> <span class="sr-only">o testach</span>
                 </div>
@@ -68,7 +68,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                     </span>
                 </div>
                 <div class="panel-body">
-                    <h4>Narzędzia</h4>
+                    <h3>Narzędzia</h3>
                     <p>Aplikacje, usługi sieciowe, dodatki do&nbsp;przeglądarek</p>
                     <a href="nod-wprowadzenie" class="btn btn-primary">Czytaj więcej <span class="sr-only">o narzędziach</span></a>
                 </div>
