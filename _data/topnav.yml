@@ -16,12 +16,12 @@ topnav_dropdowns:
           url: /glosy-wprowadzenie
         - title: Postrzegalność - w planie
           url: /glosy-postrzegalnosc
-        - title: Funkcjonalność
-          url: /glosy-funkcjonalnosc - w planie
-        - title: Zrozumiałość
-          url: /glosy-zrozumialosc - w planie
-        - title: Rzetelność
-          url: /glosy-rzetelnosc - w planie
+        - title: Funkcjonalność - w planie
+          url: /glosy-funkcjonalnosc
+        - title: Zrozumiałość - w planie
+          url: /glosy-zrozumialosc
+        - title: Rzetelność - w planie
+          url: /glosy-rzetelnosc
     - title: Metody
       folderitems:
         - title: Wprowadzenie
