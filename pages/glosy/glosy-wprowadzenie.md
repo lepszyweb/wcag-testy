@@ -16,7 +16,7 @@ Słowo **glosa** oznacza odręczny dopisek czytelnika albo kopisty zawierający 
 To znaczenie słowa **glosa** doskonale oddaje koncepcję krótkich objaśnień problemów dostępności  oraz&nbsp;komentarzy do określonych przez WCAG kryteriów sukcesu, które opisują wymagania dostępności.    
 
 ## Struktura glosy
-Wszystkie glosy powinny zbudowane według takiego samego planu. Na strukturę każdej glosy powinny się złożyć:
+Wszystkie glosy będą zbudowane według takiego samego planu:
 - **Tytuł** - krótkie określenie problemu lub wymogu dostępności
 - **Jak zapewnić dostępność?**   
   - powiązane kryterium sukcesu WCAG i zwięzłe objaśnienie
