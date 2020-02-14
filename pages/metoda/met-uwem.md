@@ -9,7 +9,7 @@ folder: metoda
 
 ## Jednolita metodologia oceniania dostepności
 
-UWEM jest skrótem tytułu <span lang="en">Unified Web Evaluation Methodology</span>, co można przetłumaczyć na język polski jako &bdquo;jednolitej metodologii oceny dostępności internetowej&rdquo;.   
+UWEM jest skrótem tytułu <span lang="en">Unified Web Evaluation Methodology</span>, co można przetłumaczyć na język polski jako &bdquo;jednolita metodologia oceny dostępności internetowej&rdquo;.   
 
 Metodologia powstała w wyniku prac prowadzonych w ramach trzech europejskich projektów badawczych 6.&nbsp;Ramowego programu badań w&nbsp;zakresie technologii społeczeństwa informacyjnego (Sixth Framework Programme Information Society Technologies) zgrupowanych w&nbsp;ramach klastra Web Accessibility Benchmarking (wzorcowe testy dostępności Sieci).
 
@@ -66,7 +66,6 @@ W metodologii UWEM stwierdzenia dotyczące zgodności i inne raporty oceniające
 ## Procedura wyznaczania zakresu ocenianych zasobów
 Dla celów UWEM witrynę internetową definiuje się jako dowolny zbiór połączonych hiperłaczami zasobów internetowych, z których każdy jest określany zgodnie z procedurą opisaną w sekcji definiującej.  
 
-Do celów UWEM witrynę internetową definiuje się jako dowolny zbiór hiperłączonych zasobów internetowych, z których każdy jest identyfikowany zgodnie z procedurą opisaną w sekcji 4.1.
 Celem UWEM jest wspieranie powtarzalności wyników. Z tego powodu jednoznaczna identyfikacja ocenianych zasobów ma zasadnicze znaczenie dla agregacji i porównywania wyników. Stwierdzenia ogólne, takie jak: "http://przyklad.org/ jest zgodna z normą UWEM 1.2 Poziom 1" są nie do przyjęcia w oświadczeniach o zgodności z normą UWEM 1.2. Takie oświadczenie sugerowałoby, że zestaw zasobów został przeszukany do końca zgodnie z pewnymi wcześniej ustalonymi limitami lub ograniczeniami. Biorąc jednak pod uwagę szeroką gamę istniejących skanerów i różne stosowane przez nie technologie, nie można zweryfikować wiarygodności tych stwierdzeń. Ponadto różne RFC związane z nazwami domen pozostawiają otwarte pole do interpretacji w odniesieniu do koncepcji poddomeny i jej rozdzielczości.
 
 Dlatego w przypadku deklaracji zgodności UWEM 1.2 zakres witryny MUSI być wyrażony w formie listy zasobów.
