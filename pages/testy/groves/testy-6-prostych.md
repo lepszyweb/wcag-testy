@@ -1,6 +1,6 @@
 ---
 title: 6 prostych testów według Karla Grovesa 
-summary: "Te testy może przeprowadzić każdy, bez żadnej wiedzy na temat dostępności i i wiedzy na temat projektowania stron."
+summary: "Te testy może przeprowadzić każdy, bez żadnej wiedzy na temat dostępności i wiedzy na temat projektowania stron."
 sidebar: testy_sidebar
 permalink: testy-6-prostych
 folder: testy
