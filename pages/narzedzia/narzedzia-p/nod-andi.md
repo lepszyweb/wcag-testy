@@ -1,5 +1,6 @@
 ---
 title: ANDI - inspektor dostępnych nazw i opisów
+tags: [rozszerzenia-narzędzi-autorskich,rozszerzenia-przeglądarek]
 sidebar: narzedzia_sidebar
 permalink: nod-andi
 folder: narzedzia-p

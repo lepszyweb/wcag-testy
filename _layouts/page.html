@@ -51,7 +51,8 @@ layout: default
         {% assign projectTags = site.data.tags.allowed-tags %}
         {% for tag in page.tags %}
         {% if projectTags contains tag %}
-        <a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+        {% assign tagi = tag | replace: 'ą', 'a' | replace: 'ć', 'c' | replace: 'ę', 'e' | replace: 'ł', 'l' | replace: 'ń', 'n' | replace: 'ó', 'o' | replace: 'ś', 's' | replace: 'ż', 'z' | replace: 'ź', 'z'   %}
+        <a href="{{ "tag_" | append: tagi | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
         {% endif %}
         {% endfor %}
         {% endif %}
