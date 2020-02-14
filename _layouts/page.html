@@ -52,7 +52,7 @@ layout: default
         {% for tag in page.tags %}
         {% if projectTags contains tag %}
         {% assign tagi = tag | replace: 'ą', 'a' | replace: 'ć', 'c' | replace: 'ę', 'e' | replace: 'ł', 'l' | replace: 'ń', 'n' | replace: 'ó', 'o' | replace: 'ś', 's' | replace: 'ż', 'z' | replace: 'ź', 'z'   %}
-        <a href="{{ "tag_" | append: tagi | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+        <a href="{{ "tag_" | append: tagi | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag | replace: "-", " " }}</a>
         {% endif %}
         {% endfor %}
         {% endif %}
