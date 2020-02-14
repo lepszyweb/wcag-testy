@@ -1,5 +1,5 @@
 ---
-title: 6 prostych testów wedłu Karla Grovesa 
+title: 6 prostych testów według Karla Grovesa 
 summary: "Naszym celem jest realna pomoc w przeprowadzaniu testów dostępności stron internetowych."
 sidebar: testy_sidebar
 permalink: testy-6-prostych
@@ -93,7 +93,7 @@ Prócz wymienionych powyżej istnieją inne wymagania odnoszące się do publika
 
 Transkrypcja tekstu jest dobra dla SEO, a także dla użytkowników, którzy chcą wyszukiwać określony fragment treści w mediach.
 
-{% include note.html content="Uwaga: Nie tylko treści multimedialna powinna być dostępna, ale także odtwarzacz. " %}
+{% include note.html content="Uwaga: Nie tylko treść multimedialna powinna być dostępna, ale także odtwarzacz. " %}
 
 
 ### 5. Kliknij etykiety pól w formularzach 

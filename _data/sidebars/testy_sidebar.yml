@@ -529,6 +529,6 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: 6 prostych testów K. Grovesa 
+    - title: 6 prostych testów wg K. Grovesa 
       url: /testy-6-prostych
       output: web
