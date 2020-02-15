@@ -5,7 +5,6 @@ sidebar: testy_sidebar
 permalink: met-skutecznosc-testowania
 folder: metoda
 toc: true
-datatable: true
 ---
 
 
@@ -72,24 +71,24 @@ Nie tylko musimy być w stanie wygenerować bardzo szczegółową listę problem
 
 ## Porównanie czterech różnych typów testów
 
-{% include note.html content="Powyższe stwierdzenia dotyczące jakości, czasu i kosztów opierają się na jakości, czasie i koszcie każdego wydania." %}
+{% include note.html content="Poniższe zestawienie dotyczące jakości raportu, czasu i kosztów opierają się do jakości, czasie i koszcie każdego wydania." %}
 
 <div class="datatable-begin"></div>
 
-| Rodzaj testu	| Raport o jakości problemów | Czas | Koszt | Reprezentowanie użytkowników
+| Rodzaj testu	| Jakość raportu | Czas | Koszt | Reprezentowanie użytkowników
 | ---------- | ------------------- | -------- | ------ | ------- |
-| Testy automatyczne | Najpełniejszy wolumen;<br />duża szczegółowość | Najszybszy | Najtańsze | Najniższe |
+| Testy automatyczne | Najpełniejszy wolumen problemów;<br />duża szczegółowość | Najszybszy | Najtańsze | Najniższe |
 | Testowanie ręczne | Duży wolumen;<br />najwyższa szczegółowość | Powolny | Umiarkowany | Umiarkowany |
 | Testy przypadków użycia | Mały wolumen;<br />niska szczegółowość | Umiarkowany | Umiarkowany | Wysoki |
 | Testowanie użyteczności | Najniższy wolumen;<br />najniższa szczegółowość | Najwolniejszy | Najwyższy | Najwyższy |
 
 <div class="datatable-end"></div>
 
-Powyżej oceniłem wszystkie typy testów na podstawie kilku czynników, które należy rozważyć przy wyborze rodzaju testu (i kiedy):
+Powyżej oceniłem wszystkie typy testów na podstawie kilku czynników, które należy rozważyć przy wyborze rodzaju testu (i momentu przeprowadzania):
 
-- **Raport o jakości problemów**: czy raport będzie zawierał pełną listę konkretnych  problemów (wolumen) i czy poszczególne zgłoszone problemy będą zawierać wystarczającą ilość informacji (szczegółów), aby zweryfikować i naprawić problem?
+- **Jakość raportu**: czy raport będzie zawierał pełną listę konkretnych  problemów (wolumen) i czy poszczególne zgłoszone problemy będą zawierać wystarczającą ilość informacji (szczegółów), aby zweryfikować i naprawić problem?
 - **Czas**: ile czasu zajmie znalezienie problemu lub ukończenie testów?
-- **Koszt**: ile kosztuje znalezienie problemu (-ów) i ukończenie testów?
+- **Koszt**: ile kosztuje znalezienie problemu(-ów) i ukończenie testów?
 - **Reprezentowanie użytkowników**: czy ten typ testów reprezentuje doświadczenie prawdziwych użytkowników systemu?
 
 Powyższe informacje nie są pozbawione zastrzeżeń i poczyniłem pewne założenia:
