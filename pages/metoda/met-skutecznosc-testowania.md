@@ -71,7 +71,7 @@ Nie tylko musimy być w stanie wygenerować bardzo szczegółową listę problem
 
 ## Porównanie czterech różnych typów testów
 
-{% include note.html content="Poniższe zestawienie dotyczące jakości raportu, czasu i kosztów opierają się do jakości, czasie i koszcie każdego wydania." %}
+{% include note.html content="Poniższe zestawienia dotyczące jakości, czasu i kosztu odnoszą się do jakości, czasu i kosztu jednostkowego." %}
 
 <div class="datatable-begin"></div>
 
