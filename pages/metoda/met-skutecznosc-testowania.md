@@ -31,11 +31,11 @@ Z moich danych wynika, że średnio na witrynach organizacji rozpoczynającej pr
 
 Ręczne techniki testowania dostępności mogą się znacznie różnić. Ręczne testy dostępności mogą obejmować inspekcję kodu, manipulowanie sprzętem, zmiany ustawień oprogramowania lub użycie technologii wspomagających w celu sprawdzenia najlepszych praktyk dotyczących dostępności.
 
-**Co mogę znaleźć**? Zwykle wszystko. Jeśli tylko masz wystarczające umiejętności i wystarczająco dużo czasu.
+  **Co mogę znaleźć**? Zwykle wszystko. Jeśli tylko masz wystarczające umiejętności i wystarczająco dużo czasu.
 
-**Czego będzie mi brakowało**? Tego, czego nie potrafisz znaleźć lub nie masz czasu znaleźć.
+  **Czego będzie mi brakowało**? Tego, czego nie potrafisz znaleźć lub nie masz czasu znaleźć.
 
-Ile to kosztuje? Wynagrodzenie pracownika wraz ze wszystkimi obciążeniami albo wynagrodzenie konsultanta przeprowadzającego testy  według stawki rozliczeniowej.
+  **Ile to kosztuje**? Wynagrodzenie pracownika wraz ze wszystkimi obciążeniami albo wynagrodzenie konsultanta przeprowadzającego testy  według stawki rozliczeniowej.
 
 Testowanie ręczne ma tę zaletę, że jest wysoce dokładne, pod warunkiem że osoba przeprowadzająca testy jest wystarczająco wykwalifikowana. [Zarówno skuteczność, jak i rzetelność sędziów ekspertów są znacznie wyższe niż sędziów niebędących ekspertami](http://dl.acm.org/citation.cfm?doid=1639642.1639678), co może oznaczać znaczne różnice w jakości wyników takich testów. Ponadto, testowanie ręczne może być bardzo czasochłonne. W zależności od funkcji strony oraz złożoności i dokładności testów, testowanie ręczne może zająć od 1 do 3 godzin na stronę. Wynika z tego, że przetestowanie każdej strony na dużej witrynie tylko przy użyciu testów ręcznych raczej nie będzie możliwe. Takie postępowanie byłoby zbyt kosztowne i czasochłonne. Nie ma również większego sensu wykorzystywanie ludzi do testowania rzeczy, które mogą zostać wykryte przez zautomatyzowane narzędzie. Właśnie dlatego zalecam [najpierw przeprowadzanie testów automatycznych](http://www.karlgroves.com/2012/02/02/web-accessibility-testing-do-automatic-testing-first/).
 
@@ -43,22 +43,22 @@ Testowanie ręczne ma tę zaletę, że jest wysoce dokładne, pod warunkiem że 
 ## Testy przypadków użycia
 W inżynierii oprogramowaniu i systemów [przypadek użycia](http://en.wikipedia.org/wiki/Use_case) to lista kroków, określająca zazwyczaj interakcje między rolą a systemem, aby osiągnąć cel. Testowanie przypadków użycia polega zatem na sprawdzeniu, jak system reaguje na te interakcje. W przypadku testowania przypadków użycia pod kątem dostępności, praktyką jest wykonanie przypadku testowego przy użyciu technologii wspomagających aby określić, jak działa system, gdy jest używany przez osobę korzystającą z tej technologii wspomagającej.
 
-**Co mogę znaleźć**? Zazwyczaj to, co można znaleźć, to ścisła reprezentacja rzeczywistego poziomu dostępności systemu i, co najważniejsze, tego, jak poważne są wszelkie błędy dostępności.
+  **Co mogę znaleźć**? Zazwyczaj to, co można znaleźć, to ścisła reprezentacja rzeczywistego poziomu dostępności systemu i, co najważniejsze, tego, jak poważne są wszelkie błędy dostępności.
 
-**Czego bym brakowało**? Często pomijane są konkretne wady w kodzie, które powodują niepowodzenie testu.
+  **Czego będzie mi brakowało**? Często pomijane są konkretne wady w kodzie, które powodują niepowodzenie testu.
 
-**Ile to kosztuje**? Wynagrodzenia pracownika wraz ze wszystkimi obciążeniami albo wynagrodzenie konsultanta według stawki rozliczeniowej. Będzie to również koszt uzyskania niezbędnych licencji na technologie wspomagające, które są testowane.
+  **Ile to kosztuje**? Wynagrodzenia pracownika wraz ze wszystkimi obciążeniami albo wynagrodzenie konsultanta według stawki rozliczeniowej. Będzie to również koszt uzyskania niezbędnych licencji na technologie wspomagające, które są testowane.
 
 Uwielbiam testowanie przypadków użycia. Podstawowym problemem z testowaniem przypadków jest to, że jakość wyników może się dość znacząco różnić. Podobnie jak w przypadku testów ręcznych, rzeczywista wartość tego rodzaju testów zależy w dużej mierze od umiejętności osób wykonujących testy. Należy również zauważyć, że testowanie przypadków użycia nie jest testowaniem użyteczności. Ponieważ testowane przypadki są scenariuszowane, a testery mogą być dokładnie zaznajomieni z systemem (i prawdopodobnie z technologiami pomocniczymi, z którymi się testują), dobre wyniki testów przypadków użycia nie będą korelować z dobrymi wynikami testów użyteczności. Wreszcie sukces z jednym konkretnym typem, marką i wersją technologii wspomagającej niekoniecznie będzie korelował z powodzeniem we wszystkich technologiach wspomagających. Jest to jednak bardzo cenny rodzaj testowania, zwłaszcza gdy wykonuje go wykwalifikowany tester.
 
 ## Testowanie użyteczności
 [Testy użyteczności](http://en.wikipedia.org/wiki/Usability_testing) to technika stosowana w projektowaniu interakcji zorientowanym na użytkownika w celu oceny produktu poprzez przetestowanie go na użytkownikach. Tradycyjnie wykonywane testy są metodą analizy poznawczej ([Cognitive walkthrough](http://en.wikipedia.org/wiki/Usability_testing)) z wykorzystaniem  [protokołu głośnego myślenia](http://en.wikipedia.org/wiki/Think_aloud_protocol), chociaż istnieją również inne metody. W przypadku testów użyteczności pod kątem dostępności testy polegają na wykorzystaniu osób z niepełnosprawnościami jako uczestników testu.
 
-**Co mogę znaleźć**? Dowiesz się dokładnie, jak łatwe (lub trudne) jest korzystanie z systemu dla prawdziwych użytkowników z niepełnosprawnościami. Podobnie jak przy testowaniu przypadków użycia, można znaleźć konkretne interakcje, które są problematyczne a nawet niemożliwe do zrealizowania.
+  **Co mogę znaleźć**? Dowiesz się dokładnie, jak łatwe (lub trudne) jest korzystanie z systemu dla prawdziwych użytkowników z niepełnosprawnościami. Podobnie jak przy testowaniu przypadków użycia, można znaleźć konkretne interakcje, które są problematyczne a nawet niemożliwe do zrealizowania.
 
-**Czego bym brakowało**? Podobnie jak w przypadku testów użycia, często brakuje określonych błędów w kodzie powodującym problemy.
+  **Czego będzie mi brakowało**? Podobnie jak w przypadku testów użycia, często brakuje określonych błędów w kodzie powodującym problemy.
 
-**Ile to kosztuje**? Wynagrodzenia pracownika wraz ze wszystkimi obciążeniami albo wynagrodzenie konsultanta według stawki rozliczeniowej.  Także koszt wynajmu / wyposażenia laboratoriów lub zakupu sprzętu oraz wszelkie niezbędne koszty transportu i honorarium dla uczestników.
+  **Ile to kosztuje**? Wynagrodzenia pracownika wraz ze wszystkimi obciążeniami albo wynagrodzenie konsultanta według stawki rozliczeniowej.  Także koszt wynajmu / wyposażenia laboratoriów lub zakupu sprzętu oraz wszelkie niezbędne koszty transportu i honorarium dla uczestników.
 
 Testy użyteczności zapewniają jeden kluczowy punkt danych, którego nie może zapewnić żaden inny typ testowania: mówią nam, jak poważne są nasze problemy. Chociaż prawdą jest, że wysoko wykwalifikowany recenzent lub tester przypadków użycia może dać pogląd na to, jak poważny jest problem (i często mają rację), nie ma nic tak dokładnego jak prawdziwi użytkownicy mający realne problemy. Niestety, przeprowadzanie testów użyteczności (w zakresie dostępności) zbyt wcześnie może być marnowaniem czasu i pieniędzy, jeśli testy użyteczności są utrudnione przez oczywiste błędy dostępności.
 
