@@ -46,6 +46,9 @@ entries:
     - title: Testy z użytkownikami (w planie)
       url: /met-testy-z-uzytkownikami
       output: web
+    - title: Skuteczność testowania
+      url: /met-skutecznosc-testowania
+      output: web
   - title: Metodyki
     output: web, pdf
     folderitems:
