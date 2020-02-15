@@ -1,5 +1,5 @@
 ---
-title: Skuteczność testowani dostępności lub dlaczego testy użyteczności powinny być ostatnie
+title: Skuteczność testowania dostępności lub dlaczego testy użyteczności powinny być ostatnie
 summary: "Te testy może przeprowadzić każdy, bez żadnej wiedzy na temat dostępności i wiedzy na temat projektowania stron."
 sidebar: testy_sidebar
 permalink: met-skutecznosc-testowania
@@ -9,7 +9,7 @@ datatable: true
 ---
 
 
-**Źródło**: [Karl Groves: Efficiency in Accessibility Testing or, Why Usability Testing Should be Last](http://www.karlgroves.com/2012/04/27/efficiency-in-accessibility-testing-or-why-usability-testing-should-be-last/) opublikowane 27 kwietnia 2012  
+**Źródło**: [Karl Groves: Efficiency in Accessibility Testing or, Why Usability Testing Should be Last](http://www.karlgroves.com/2012/04/27/efficiency-in-accessibility-testing-or-why-usability-testing-should-be-last/) opublikowane 27 kwietnia 2012, tłumaczenie: Stefan Wajda  
 
 Testowanie dostępności to testowanie systemu w celu ustalenia, jak system będzie działał, w przypadku dostępu osób z niepełnosprawnościami. Testowanie wszystkich produktów i usług ICT jest ważne dla określenia, jakie problemy istnieją i jakie ryzyko stwarzają jakiekolwiek problemy związane z dostępnością dla organizacji. Z mojego doświadczenia wynika, że [większość prób testowych podejmowanych jest po fakcie](http://www.karlgroves.com/2011/06/12/prioritizing-remediation/).  W związku z tym ważne jest, aby wysiłek włożony w testowanie był skuteczny w znajdowaniu jak najdokładniejszych danych w najszybszy sposób – innymi słowy, tanio i szybko. Może to oznaczać, że zespół programistów również szybko naprawi błędy.
 
@@ -19,9 +19,11 @@ Wielu zwolenników dostępności argumentuje, że skoro dostępność tak napraw
 
 Automatyczne testowanie dostępności polega na użyciu aplikacji komputerowej lub internetowej albo usługi internetowej, wtyczki do przeglądarki lub wtyczki IDE, która może uzyskać dostęp do źródła testowanej strony internetowej. Źródło jest następnie oceniane na podstawie wbudowanych przez producenta narzędzia testów heurystycznych  w celu ustalenia, czy istnieją jakieś błędy.
 
-**Co mogę znaleźć**? Zautomatyzowane testowanie umożliwia ostateczne przetestowanie około 25% najlepszych praktyk dotyczących dostępności. Kolejne około 35% może być sprawdzone przez testowanie maszynowe, ale wyniki wymagają weryfikacji przez człowieka. Wiele z automatycznie Wiele z automatycznie wykrywanych problemów ma duży wpływ na dostępność
-**Czego będzie mi brakowało**? W przybliżeniu 40% najlepszych praktyk dotyczących dostępności nie można w ogóle przetestować za pomocą narzędzia do automatycznego testowania, ponieważ są one albo zbyt subiektywne, albo zbyt skomplikowane, aby testować je automatycznie.
-**Ile to kosztuje**? Tyle, ile narzędzie i czas testera na jego użycie i wykrycie problemów oraz ich segregację.
+  **Co mogę znaleźć**? Zautomatyzowane testowanie umożliwia ostateczne przetestowanie około 25% najlepszych praktyk dotyczących dostępności. Kolejne około 35% może być sprawdzone przez testowanie maszynowe, ale wyniki wymagają weryfikacji przez człowieka. Wiele z automatycznie Wiele z automatycznie wykrywanych problemów ma duży wpływ na dostępność
+
+  **Czego będzie mi brakowało**? W przybliżeniu 40% najlepszych praktyk dotyczących dostępności nie można w ogóle przetestować za pomocą narzędzia do automatycznego testowania, ponieważ są one albo zbyt subiektywne, albo zbyt skomplikowane, aby testować je automatycznie.
+
+  **Ile to kosztuje**? Tyle, ile narzędzie i czas testera na jego użycie i wykrycie problemów oraz ich segregację.
 
 Mimo że duża liczba najlepszych praktyk w zakresie dostępności nie może być automatycznie przetestowana, **faktem jest, że w ujęciu ilościowym można automatycznie znaleźć dużą liczbę błędów dostępności**. 
 
@@ -73,20 +75,22 @@ Nie tylko musimy być w stanie wygenerować bardzo szczegółową listę problem
 {% include note.html content="Powyższe stwierdzenia dotyczące jakości, czasu i kosztów opierają się na jakości, czasie i koszcie każdego wydania." %}
 
 <div class="datatable-begin"></div>
-| Rodzaj testu	| Raport o jakości problemów | Czas | Koszt | Reprezentuje użytkowników
+
+| Rodzaj testu	| Raport o jakości problemów | Czas | Koszt | Reprezentowanie użytkowników
 | ---------- | ------------------- | -------- | ------ | ------- |
-| Testy automatyczne | Najwyższa objętość;<br />duża szczegółowość | Najszybszy | Najtańsze | Najniższe |
-| Testowanie ręczne | Duża objętość<br />najwyższa szczegółowość | Powolny | Umiarkowany | Umiarkowany |
-| Testy przypadków użycia | Niska objętość<br />niska szczegółowość | Umiarkowany | Umiarkowany | Wysoki |
-| Testowanie użyteczności | Najniższa objętość<br />najniższa szczegółowość | Najwolniejszy | Najwyższy | Najwyższy |
+| Testy automatyczne | Najpełniejszy wolumen;<br />duża szczegółowość | Najszybszy | Najtańsze | Najniższe |
+| Testowanie ręczne | Duży wolumen;<br />najwyższa szczegółowość | Powolny | Umiarkowany | Umiarkowany |
+| Testy przypadków użycia | Mały wolumen;<br />niska szczegółowość | Umiarkowany | Umiarkowany | Wysoki |
+| Testowanie użyteczności | Najniższy wolumen;<br />najniższa szczegółowość | Najwolniejszy | Najwyższy | Najwyższy |
+
 <div class="datatable-end"></div>
 
 Powyżej oceniłem wszystkie typy testów na podstawie kilku czynników, które należy rozważyć przy wyborze rodzaju testu (i kiedy):
 
-**Raport o jakości problemów**: czy raport będzie zawierał pełną listę konkretnych  problemów (wolumen) i czy poszczególne zgłoszone problemy będą zawierać wystarczającą ilość informacji (szczegółów), aby zweryfikować i naprawić problem?
-**Czas**: ile czasu zajmie znalezienie problemu lub ukończenie testów?
-**Koszt**: ile kosztuje znalezienie problemu (-ów) i ukończenie testów?
-**Reprezentuje użytkowników**: czy ten typ testów reprezentuje doświadczenie prawdziwych użytkowników systemu?
+- **Raport o jakości problemów**: czy raport będzie zawierał pełną listę konkretnych  problemów (wolumen) i czy poszczególne zgłoszone problemy będą zawierać wystarczającą ilość informacji (szczegółów), aby zweryfikować i naprawić problem?
+- **Czas**: ile czasu zajmie znalezienie problemu lub ukończenie testów?
+- **Koszt**: ile kosztuje znalezienie problemu (-ów) i ukończenie testów?
+- **Reprezentowanie użytkowników**: czy ten typ testów reprezentuje doświadczenie prawdziwych użytkowników systemu?
 
 Powyższe informacje nie są pozbawione zastrzeżeń i poczyniłem pewne założenia:
 Jakość i cechy zautomatyzowanych narzędzi testujących mogą się znacznie różnić.
