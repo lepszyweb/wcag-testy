@@ -7,7 +7,7 @@ folder: metoda
 toc: true
 ---
 
-{% include callout.html content="Publikacja jest tłumaczeniem:</br>**Źródło**: [Karl Groves: Efficiency in Accessibility Testing or, Why Usability Testing Should be Last](http://www.karlgroves.com/2012/04/27/efficiency-in-accessibility-testing-or-why-usability-testing-should-be-last/), opublikowane 27 kwietnia 2012,, tłumaczenie i publikacja za zgodą autora, Karla Grovesa - Stefan Wajda " type="success" %}
+{% include callout.html content="Publikacja jest tłumaczeniem:<br/>**Źródło**: [Karl Groves: Efficiency in Accessibility Testing or, Why Usability Testing Should be Last](http://www.karlgroves.com/2012/04/27/efficiency-in-accessibility-testing-or-why-usability-testing-should-be-last/), opublikowane 27 kwietnia 2012,, tłumaczenie i publikacja za zgodą autora, Karla Grovesa - Stefan Wajda " type="success" %}
 
 
 Testowanie dostępności to testowanie systemu w celu ustalenia, jak system będzie działał, w przypadku dostępu osób z niepełnosprawnościami. Testowanie wszystkich produktów i usług ICT jest ważne dla określenia, jakie problemy istnieją i jakie ryzyko stwarzają jakiekolwiek problemy związane z dostępnością dla organizacji. Z mojego doświadczenia wynika, że [większość prób testowych podejmowanych jest po fakcie](http://www.karlgroves.com/2011/06/12/prioritizing-remediation/).  W związku z tym ważne jest, aby wysiłek włożony w testowanie był skuteczny w znajdowaniu jak najdokładniejszych danych w najszybszy sposób – innymi słowy, tanio i szybko. Może to oznaczać, że zespół programistów również szybko naprawi błędy.
