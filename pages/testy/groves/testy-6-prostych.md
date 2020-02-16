@@ -8,7 +8,7 @@ toc: false
 ---
 
 
-{% include callout.html content="Publikacja jest tłumaczeniem:</br>**Źródło**: [Karl Groves: The 6 Simplest Web Accessibility Tests Anyone Can Do](https://karlgroves.com/2013/09/05/the-6-simplest-web-accessibility-tests-anyone-can-do), opublikowane 5 września 2013, tłumaczenie: Stefan Wajda  " type="success" %}
+{% include callout.html content="Publikacja jest tłumaczeniem:</br>**Źródło**: [Karl Groves: The 6 Simplest Web Accessibility Tests Anyone Can Do](https://karlgroves.com/2013/09/05/the-6-simplest-web-accessibility-tests-anyone-can-do), opublikowane 5 września 2013, tłumaczenie i publikacja za zgodą autora, Karla Grovesa - Stefan Wajda " type="success" %}
 
 {% include callout.html content="**Od tłumacza**: Moim celem nie było wierne przetłumaczenie artykułu K. Grovesa, ale wierne zrealizowanie celu, któremu służył jego artykuł. Stąd drobne uzupełnienia w niektórych partiach, np. objaśniających, jak skonfigurować współczesne przeglądarki, aby wykonać test (Stefan Wajda)." type="primary" %}
 
