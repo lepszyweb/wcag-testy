@@ -22,6 +22,8 @@ topnav_dropdowns:
           url: /glosy-zrozumialosc
         - title: Rzetelność - w planie
           url: /glosy-rzetelnosc
+        - title: Słownik dostępności
+          url: /slownik         
     - title: Metody
       folderitems:
         - title: Wprowadzenie

@@ -38,3 +38,9 @@ entries:
     - title: Wprowadzenie
       url: /glosy-rzetelnosc
       output: web
+  - title: Słownik dostępności
+    output: web, pdf
+    folderitems:
+    - title: Słownik
+      url: /slownik
+      output: web

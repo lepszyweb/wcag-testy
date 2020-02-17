@@ -1,5 +1,5 @@
 ---
-title: Wprowadzenie
+title: Pomocnik adepta dostępności
 
 toc: false
 sidebar: testy_sidebar
@@ -7,7 +7,7 @@ permalink: 1-0-0-wprowadzenie
 folder: testy/adept
 ---
 
-## Pomocnik adepta dostępności
+## O Pomocniku adepta
 
 Jest to zestaw blisko 39 testów zdefiniowanych w ramach projektu A3Web.org zrealizowanego w 2013 roku przez [Stowarzyszenie Twoje nowe możliwości](http://www.tnm.org.pl/).
 

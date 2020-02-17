@@ -37,11 +37,9 @@ Uwaga: W wielu przypadkach komisarz ds. oceny może być właścicielem lub twó
 
 kompatybilnosc: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą tej stronie lub aplikacji współpracę z możliwie największą liczbą programów, w tym z narzędziami i programami wspomagającymi osoby niepełnosprawne."
 
-komponent interfejsu: "Obiekt, z którym użytkownik może wchodzić w interakcje, na przykład przycisk, łącze, pole tekstowe (proste komponenty interfejsu), menu, okno dialogowe, karty, panele rozwijane (złożone komponenty interfejsu). Komponent interfejsu może być oparty na natywnych elementach HTML lub elementach zaprogramowanych z użyciem JavaScript i API ARIA."
-
 lista_zasobow_podstawowych: "(ang. _Core Resource List_). Zbiór zasobów ogólnych, kluczowych dla oceny użyteczności i dostępności witryny, które można znaleźć na większości witryn."
 
-media: "Środek przekazu, to, za pośrednictwem czego są przekazywane lub wyrażane jakieś treści. **Uwaga**: Media umożliwiają wykorzystanie wszystkich środków prezentacyjnych i reprezentacyjnych takich jak: głos, wzrok, twarz, mimika, gesty, jak również teksty, obrazy, rysunki, fotografie, filmy."
+media: cŚrodek przekazu, to, za pośrednictwem czego są przekazywane lub wyrażane jakieś treści. **Uwaga**: Media umożliwiają wykorzystanie wszystkich środków prezentacyjnych i reprezentacyjnych takich jak: głos, wzrok, twarz, mimika, gesty, jak również teksty, obrazy, rysunki, fotografie, filmy."
 
 media_zmienne_w_czasie: "Media dynamiczne, oparte na sekwencji obrazów i dźwięków"
 
@@ -74,11 +72,11 @@ renderowanie: "(ang. _rendering_). Przedstawianie informacji zawartych w dokumen
 
 retest: "test poprawek błędów"
 
-stany_strony_internetowej: "Stan tej samej strony internetowej obejmujący jej treść, funkcjonalność lub wygląd zmieniony dynamicznie na wskutek działań użytkownika.<br/>**Uwaga**: Przykładami stanów stron internetowych są poszczególne strony wieloczęściowego formularza online, które są generowane dynamicznie w zależności od wprowadzanych przez użytkownika danych. Te poszczególne stany mogą nie mieć unikatowych identyfikatorów URI i mogą wymagać identyfikacji poprzez opisanie ustawień, danych wejściowych i działań wymaganych do ich wygenerowania."
+stany_strony_internetowej: "Dynamicznie generowane strony internetowe czasami prezentują niekiedy znacznie różniące się od siebie treści, funkcjonalności i wygląd w zależności od użytkownika, interakcji, urządzenia i innych parametrów. W kontekście tej metodologii takie stany stron internetowych można traktować jako pomocnicze w stosunku do stron internetowych (zapisane w próbce strony internetowej jako dodatkowy stan strony internetowej) lub jako pojedyncze strony internetowe.<br/>**Uwaga**: Przykładami stanów stron internetowych są poszczególne strony wieloczęściowego formularza online, które są generowane dynamicznie w zależności od danych wejściowych użytkownika. Te poszczególne stany mogą nie mieć unikatowych identyfikatorów URI i mogą wymagać identyfikacji poprzez opisanie ustawień, danych wejściowych i działań wymaganych do ich wygenerowania."
 
 strategia_testow: "Dokumentacja, która wyraża ogólne wymagania dotyczące testowania jednego lub większej liczby projektów prowadzonych worganizacji, dostarczająca szczegółowych informacji na  temat sposobu przeprowadzania testów i zgodna z polityką testów (wg ISO 29119)"
 
-strona_internetowa: "(ang. _Web page_). Nieosadzony zasób, uzyskany z pojedynczego identyfikatora URI za pomocą protokołu HTTP wraz z wszelkimi innymi zasobami użytymi do renderowania strony w&nbsp;oprogramowaniu użytkownika lub takimi, które potencjalnie mogą być użyte do renderowania. Najczęściej strony internetowe są dokumentami HTML, ale mogą to również być dokumenty PDF, a także dokumenty w&nbsp;innych formatach. <br />**Uwaga**: Potocznie zarówno pojedyncza strona internetowa, jak i serwis złożony z wielu stron internetowych, czyli witryn. Ta definicja ogranicza stosowanie terminu *strona internetowa* tylko do zasobu uzyskanego z&nbsp;*pojedynczego identyfikatora URI*, a więc do jednej, pojedynczej samodzielnej strony internetowej albo jednej, pojedynczej strony w witrynie złożonej z wielu stron."
+strona_internetowa: "(ang. _Web page_). Nieosadzony zasób, uzyskany z pojedynczego identyfikatora URI za pomocą protokołu HTTP wraz z wszelkimi innymi zasobami użytymi do renderowania strony w&nbsp;oprogramowaniu użytkownika lub takimi, które potencjalnie mogą być użyte do renderowania. Najczęściej strony internetowe są dokumentami HTML, ale mogą to również być dokumenty PDF, a także dokumenty w&nbsp;innych formatach. <br />**Uwaga**: Potocznie zarówno pojedyncza strona internetowa, jak i serwis złożony z wielu stron internetowych, czyli witryn. Ta definicja ogranicza stosowanie terminu *strona internetowa* tylko do zasobu uzyskanego z&nbsp;**pojedynczego identyfikatora URI**, a więc do jednej, pojedynczej samodzielnej strony internetowej albo jednej, pojedynczej strony w witrynie złożonej z wielu stron."
 
 sumaryczny_raport_z_testow: "Raport z testów, który zawiera ocenę odpowiednich pozycji  testowych w odniesieniu do  kryteriów wyjścia (wg ISO 29119)"
 

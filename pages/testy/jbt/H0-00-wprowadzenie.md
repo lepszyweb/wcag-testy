@@ -1,5 +1,5 @@
 ---
-title: Wprowadzenie
+title: Baza testów zgodności z WCAG
 
 
 sidebar: testy_sidebar
@@ -8,7 +8,7 @@ permalink: H0-00-wprowadzenie
 folder: testy/jbt
 ---
 
-## Jednolita baza testów dostępności cyfrowej
+## O Jednolitej bazie testów dostępności cyfrowej
 
 ## Cel projektu
 Celem projektu Jednolita baza testów dostępności cyfrowej jest:
