@@ -23,10 +23,10 @@ analiza statyczna kodu
 analiza testów
 : {{site.data.definicje.analiza_testow}}
 
-audyt:
+audyt
 : {{site.data.definicje.audyt}}
 
-awaria:
+awaria
 : {{site.data.definicje.awaria}}
 
 ## B
@@ -43,7 +43,7 @@ certyfikacja
 defekt
 : {{site.data.definicje.defekt}}
 
-dostepność
+dostępność
 : {{site.data.definicje.dostepnosc}}
 
 ## E
@@ -58,7 +58,7 @@ ewaluator
 : {{site.data.definicje.ewaluator}}
 
 ## F
-funkcjonalnosc
+funkcjonalność
 : {{site.data.definicje.funkcjonalnosc}}
 
 ## H
@@ -101,7 +101,7 @@ moduł
 
 ## N
 
-najlepsza_praktyka
+najlepsza praktyka
 : {{site.data.definicje.najlepsza_praktyka}}
 
 narzędzie testowe
@@ -140,7 +140,7 @@ podstawa testów
 podstawowy zestaw testów
 : {{site.data.definicje.podstawowy_zestaw_testow}}
 
-
+pokrycie
 : {{site.data.definicje.pokrycie}}
 
 polityka testów
