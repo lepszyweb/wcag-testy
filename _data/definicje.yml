@@ -1,0 +1,161 @@
+audytor: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny."
+
+analiza_statyczna_kodu: "Analiza kodu źródłowego bez wykonywania oprogramowania."
+
+analiza_testow: "Proces analizy podstawy testów i definiowania celów testu."
+
+audyt: "Niezależne badanie produktu pracy, procesu lub zestawu procesów wykonywanych przez stronę trzecią w celu oceny zgodności ze specyfikacjami, standardami, umowami lub innymi kryteriami. Wg [IEEE 1028]."
+
+awaria: "Odchyłłka modułu lub systemu od oczekiwanego zachowania lub rezultatu działania (wg Fenton)."
+
+cel_testu: "Przyczyna lub powód zaprojektowania i przeprowadzania testu."
+
+certyfikacja: "Proces potwierdzajacy, że moduł, system lub osoba spełnia określone wymagania."
+
+defekt: "Niedoskonałość lub wada produktu pracy, polegająca na niespełnieniu wymagań. Wg [IEEE 1044:2009]"
+
+dostepnosc: "Stopień, w jakim produkt lub system może być używany przez ludzi z szerokim zakresem cech i możliwości, by osiągnąć specyficzny cel w specyficznym kontekście użycia [ISO 25010]. Patrz także: *użyteczność*."
+
+element_testowy: "Pojedynczy element, który należy przetestować. Na ogół jest jeden przedmiot testów i wiele elementów testowych."
+
+ewaluacja: "patrz *testowanie*"
+
+ewaluator: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny."
+
+funkcjonalnosc: "Zdolność oprogramowania do zapewnienia funkcji odpowiadających zdefiniowanym i przewidywanym potrzebom, gdy oprogramowanie jest używane w określonych warunkach (ISO 9126)."
+
+historyjka_uzytkownika: "Testowalne wymaganie biznesowe powszechnie stosowane w zwinnym wytwarzaniu oprogramowania, zazwyczaj składające się z jednego zdania, opisującego jakiej użyteczności użytkownik potrzebuje i z jakich powodów, także niefunkcjonalne kryteria i zawiera kryteria akceptacji."
+
+implementacja_testow: "Czynność polegająca na przygotowaniu testaliów potrzebnych do wykonania testów, oparta na analizie i projektowaniu testów."
+
+infrastruktura_testu: "Organizacyjne artefakty niezbędne do przeprowadzenia testu, składające się ze środowisk testowych, wyposażenia biurowego i procedur."
+
+karta_opisu_testu: "Dekalracja celow testu oraz ewentualnie pomysłów na testowanie."
+
+kierownik_testow: "Osoba odpowiedzialna za zarządzanie czynnościami testowymi, zasobami oraz oceną przedmiotu testu. Osoba, która kieruje, zarządza, administruje, planuje i reguluje ocenę przedmiotu testu."
+
+komisarz_ds_oceny: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot, który zlecił ocenę.<br>*Uwaga*: W wielu przypadkach komisarz ds. oceny może być właścicielem lub twórcą witryny, w innych przypadkach może to być inny podmiot, taki jak zamawiający lub właściciel ankiety monitorującej dostępność."
+
+kryteria_zaliczenia_niezaliczenia: "Reguły decyzyjne wykorzystywane do określenia, czy obiekt testowany (funkcja) lub cecha zaliczyła test. (IEEE 829)"
+
+lista_zasobow_podstawowych: "(ang. _Core Resource List_). Zbiór zasobów ogólnych, kluczowych dla oceny użyteczności i dostępności witryny, które można znaleźć na większości witryn."
+
+malpie_testowanie: "Metoda testowania poleggajaca na losowym wyborze z szerokiego zakresu wejść i losowym naciskaniu przycisków, ignorując sposób, w jaki produkt powinien być używany."
+
+modul: "Najmniejsza część systemu, która może być testowana w izolacji."
+
+najlepsza_praktyka: "Zalecana metoda albo nowatorska praktyka, która przyczynia się do lepszych wyników organizacji w konkretnym kontekście, zwykle uważana za &bdquo;najlepszą&rdquo; przez inne organizacje."
+
+narzedzie_testowe: "Oprogramowanie, które wspomaga jedną lub kilka czynności testowych, takich jak planowanie, zarządzanie, specyfikacja, wykonanie i analiza testów (TMap)"
+
+niezdany: "Test uznaje się za niezdany, jeśli jego rzeczywisty rezultat nie zgadza się z oczekiwanym."
+
+niezgodnosc: "Niespełnienie konkretnego wymagania (ISO 9000)"
+
+norma: "Formalny, o ile to możliwe obowiązkowy, zbiór wymagań stworzony i uzywany do opisu zalecanego spójnego podejścia do sposobu pracy lub do dostarczenia wytycznych (np. normy ISO/IEC, normy IEEE lub normy w organizacjach). (wg CMMI)"
+
+oceniajacy: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny."
+
+ocena_heurystyczna: "Technika statycznego testowania użytecznoscci mająca na celu określenie zgodności interfejsu użytkownika lub projektu tego interfejsu. Wykorzystując tę technikę przeglądający sprawdzają interfejs i oceniają jego zgodność z uznanymi zasadami użyteczności (tzw. &bdquo;heurystykami&rdquo;)."
+
+planowanie_testow: "Czynność tworzenia planów testów lub wprowadzanie do nich zmian."
+
+plan_testow: "Dokumentacja opisująca cele testowe do osiągnięcia oraz środki i harmonogram ich realizacji, zorganizowane tak, by koordynować czynności testowe (wg ISO 29119)"
+
+podejscie_do_testowania: "Implementacja strategii testowej w określonym projekcie."
+
+podstawa_testow: "Wszystkie dokumenty, z których można wywnioskować wymagania dla moddułu lub systemu. Dokumentacja, na podstawie której oparte są przypadki testowe."
+
+podstawowy_zestaw_testow: "Zestaw przypadków testowych powstały na podstawie wewnętrznej struktury modułu lub specyfikacji, któóry zapewnia 100% określonego kryterium pokrycia."
+
+pokrycie: "Stopień, wyrażony w procentach, w jakim określone elementy pokrycia zostały określone lub sprawdzone przez zestaw testowy."
+
+polityka_testow: "Dokument wysokiego poziomu opisujący zasady, podejście i główne zadania organizacji dotyczące testowania."
+
+pomiar: "Proces przypisania liczby bądź kategorii do obiektu mający na celu opisanie danej właściwości obiektu. (ISO 14598)"
+
+procedura_testowa: "Sekwencja przypadków testowych w kolejności wykonywania oraz wszelkie powiązane działania, które mogą być wymagane do ustawienia warunków wstępnych i wszelkich czynności podsumowujących po wykonaniu.[ISO 29119]. "
+
+proces_testowy: "Zbiór powiązanych ze sobą działań obejmujący planowanie i monitorowanie testów, analizę testów, projektowanie testów, implementację testów i zakończenie testów."
+
+projektowanie_testu: "Czynność wyprowadzania i specyfikowania przypadków testowych z warunków testowych. Wg ISO 29119]."
+
+przeglad: "Ocena produktu lub statusu projektu mająca na celu stwierdzenie rozbieżności od planowannych założeń i rekomendację usprwnień. Prrzykłądy: przegląd kierowniczy, przegląd techniczny, inspekcja."
+
+przeglad_formalny: "Przeglad charakteryzujący się udokumentowanymi procedurami i wymaganiami, np. inspekcja."
+
+przeglad_nieformalny: "Przegląd, któóry nie jest oparty na formalnej (udokumentowanej) procedurze."
+
+przypadek_testowy: "Zestaw warunków wstępnych, danych wejściowych, akcji (w stosownych przypadkach), oczekiwanych rezultatów i warunków końcowych opracowany w oparciu o warunki testowe. Wg [ISO/IEC/IEEE 29119]"
+
+przypadek_uzycia: "Sekwencja transakcji w interakcji pomiędzy aktorem a modułem lub systemem z namacalnym rezultatem, przy czym aktorem może być użytkownik lub cokolwiek innego, co może wymieniać informacje z systemem."
+
+raport_z_oceny: "Dokument podsumowujący wyniki oceny, np. wnioski, zalecenia, oraz ustalenia."
+
+retest: "test poprawek błędów"
+
+rezultat: "Konsekwencja / wynik wykonania testu."
+
+rzeczywisty_rezultat: "(ang. *actual result*). Wytworzone (zaobserwowane) zachowanie się modułu lub systemu podczas testowania tego modułu lub systemu."
+
+specyfikacja_procedury_testowej: "Dokument określajacy ciąg akcji umożliwiający wykonanie testu. Znana także jako skrypt testowy lub manualny skrypt testowy (wg IEEE 829)"
+
+spolegliwosc: "Zdolność oprogramowania do podlegania standardom, konwencjom albo regulacjom prawnym i podobnym rozporządzeniom. [IEEE 730-2014.6]"
+
+strategia_testow: "Dokumentacja, która wyraża ogólne wymagania dotyczące testowania jednego lub większej liczby projektów prowadzonych w organizacji, dostarczająca szczegółowych informacji na temat sposobu przeprowadzania testów i zgodna z polityką testów. Wg [ISO 29119]"
+
+sumaryczny_raport_z_testow: "Raport z testów, który zawiera ocenę odpowiednich pozycji  testowych w odniesieniu do  kryteriów wyjścia (wg ISO 29119)"
+
+srodowisko_testowe: "Środowisko, w skład którego wchodzi sprzęt,  wyposażenie, symulatory,  narzędzia programowe oraz inne elementy  wspierające, potrzebne do wykonania testu (wg ISO/IEC/IEEE 24765)"
+
+test_niezdany: "Status przypisany do wykonanego  testu, gdy wynik rzeczywisty nie jest zgodny z wynikiem oczekiwanym."
+
+test_zdany: "Status przypisany do wykonanego  testu, gdy wynik rzeczywisty jest zgodny z wynikiem oczekiwanym."
+
+tester: "Wykwalifikowany profesjonalista, zaangażowany w testowanie modułu lub systemu."
+
+testowanie: "Proces składający się z wszystkich czynności cyklu życia, zarówno statycznych jak i dynamicznych; skoncentrowany na planowaniu, przygotowaniu i ewaluacji oprogramowania oraz powiązanych produktów w celu określenia czy spełniają one wyspecyfikowane wymagania oraz wykazania, że są one dopasowane do swoich celów oraz do wykrywania usterek."
+
+testowanie_akceptacyjne: "Testowanie formalne przeprowadzane w celu umożliwienia użytkownikowi, klientowi lub innemu uprawnionemu podmiotowi ustalenia, czy zaakceptować system lub moduł. Wg [ISO/IEC/IEEE 24765]"
+
+testowanie_akceptacyjne_zgodnosci_z_umowa: "Testy akceptacyjne przeprowadzone w celu sprawdzenia, czy system spełnia wymagania umowy."
+
+testowanie_dostepnosci: "Testowanie mające na celu określenie czy użytkownik będący osobą niepełnosprawną może używać modułu lub systemu. [Gerrard]"
+
+testowanie_dostepnosci_cyfrowej: "Proces kontroli jakości dokumentu cyfrowego lub aplikacji w celu sprawdzenia zgodności z uznanym standardem dostępności (np. WCAG) lub dostosowania do wymagań osób ze specjalnymi potrzebami (osób z niepełnosprawnościami, starszych, w warunkach ograniczających możliwość korzystania z określonego medium, np. dźwięku)"
+
+testowanie_gruntowne: "Podejście do testów, w którym zestaw testowy obejmuje wszystkie kombinacje wartości wejściowych i warunków wstępnych."
+
+testowanie_uzytecznosci: "Testowanie mające na celu ocenę stopnia, w jakim system może być używany przez określonych użytkowników w sposób skuteczny, wydajny i przynoszący satysfakcję w określonym kontekście użycia Wg [ISO 25010]"
+
+tworca_strony_internetowej: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot zaangażowany w proces tworzenia witryny, w tym między innymi autorzy treści, projektanci, programiści, testerzy zapewniania jakości oraz menadżerowie projektu."
+
+usprawnienie_procesu_testowego: "Program aktywności zaprojektowany, aby poprawić wydajność i dojrzałość procesu testowego w organizacji  oraz wynik takiego programu (wg CMMI)"
+
+uzytecznosc: "Stopień, w jakim dany moduł lub system może być używany przez określonych użytkowników dla osiągnięcia określonych celów w określonym kontekście użytkowania. Wg [ISO 25010]"
+
+walidacja: "Sprawdzanie poprawności i dostarczenie obiektywnego dowodu, że produkt procesu wytwarzania oprogramowania spełnienia potrzeby i wymagania użytkownika. [ISO 9000]"
+
+walidator: "Program sprawdzający poprawność dokumentu o określonej składni, np. walidator kodu HTML, walidator kodu CSS. Pomyślne przejście walidacji oznacza zwykle, że kod został napisany zgodnie z&nbsp;gramatyką (składnią) danego języka."
+
+warunek_testowy: "Aspekt podstawy testów, który jest istotny dla osiągnięcia określonych celów testowych."
+
+weryfikacja: "Egzaminowanie poprawności i dostarczenie obiektywnego dowodu, że produkt procesu wytwarzania oprogramowania spełnienia zdefiniowane wymagania. [ISO 9000]"
+
+wlasciciel_strony_internetowej: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za stronę internetową."
+
+wykonywanie_testu: "Proces przeprowadzenia testu na module lub systemie, w wyniku którego otrzymujemy rzeczywiste rezultaty."
+
+wymaganie: "Postanowienie zawierające kryteria, które należy spełnić. [ISO/IEC 14143-2]"
+
+wymaganie_testowalne: "Wymaganie, które jest określone przy użyciu pojęć umożliwiających stworzenie projektu testu (a następnie przypadków  testowych) i wykonanie testów w celu określenia, czy wymaganie  to zostało spełnione (wg IEEE 610)."
+
+zaliczony: "Test jest uważany za zaliczony lub zdany, jeśli jego rezultat jest zgodny z rezultatem oczekiwanym."
+
+zarzadzanie_testami: "Planowanie, harmonogramowanie, szacowanie, monitorowanie, raportowanie, nadzór i zakańczanie czynności testowych (wg ISO/IEC/IEEE 29119)."
+
+zasob: "Sieciowy (internetowy) obiekt danych identyfikowany przez unikalny identyfikator URI (ang. _Uniform Resource Identifier_). *Uwaga*: Definicja obejmuje zarówno zasoby HTTP, jak i zasoby nie-HTTP, takie jak np. zasoby dostępne za pośrednictwem protokołu FTP."
+
+zasob_HTTP: "Sieciowy (internetowy) obiekt danych identyfikowany za pomocą pojedynczego żądania HTTP. Zasobem może być obrazek, strona HTML czy plik z kodem JavaScript. Protokół HTTP nie określa, czym dokładnie jest zasób. Określa jedynie sposób, w jaki można dostać się do zasobów. Każdy zasób ma swój unikalny identyfikator. Ten identyfikator to URI (ang. *Uniform Resource Identifier*)."
+
+zlecajacy_ocene: "(ang. _evaluation commissioner_). Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot, który zlecił ocenę. *Uwaga*: W wielu przypadkach zlecajacym ocenę będzie właściciel lub twórca, wydawca witryny. Ale może to być również np. naukowiec prowadzący badania dostępności albo podmiot monitorujący dostępność stron internetowych i aplikacji mobilnych."

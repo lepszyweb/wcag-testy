@@ -10,15 +10,11 @@ audio: "Treści przekazywane elektronicznie dźwiękiem, technika rejestrowania 
 
 ATAG: "Akronim od angielskiego tytułu dokumentu [Authoring Tool Accessibility Guidelines](https://www.w3.org/TR/ATAG20/) (Wytyczne dotyczące dostępności narzędzi autorskich)."
 
-audytor: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny."
-
 blok_tekstu: "Tekst składający się z więcej niż jednego zdania."
 
 cel_lacza: "(ang. _link purpose_). Oczekiwany skutek aktywacji łącza."
 
 cel_testu: "Przyczyna lub powód zaprojektowania i przeprowadzenia testu."
-
-ewaluator: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny."
 
 fokus_klawiatury: "(ang. _focus_) - skupienie. Stan gotowości komponentu interfejsu użytkownika (zobacz) do odbioru informacji o naciśnięciu klawiszy, które jest zdolny obsłużyć. Fokus jest zwykle odpowiednio odwzorowany w wyglądzie komponentu, np.  przycisk dostaje dodatkowe obramowanie, w polu formularza pojawia się migający kursor, pod łączem w menu zmienia się kolor tła, itp.<br />Wszelkie zdarzenia związane z naciskaniem przez użytkownika klawiszy są kierowane właśnie do tego komponentu, o ile nie zostaną wcześniej przechwycone. Zdarzenia z klawiatury w pierwszej kolejności przekazywane są do systemu okienkowego (menedżera okien), który z kolei przekazuje je do aplikacji. Aplikacja obsługuje te zdarzenia sama albo przekazuje je do obsłużenia do komponentu gotowego do obsługi zdarzenia."
 
@@ -30,23 +26,15 @@ interfejs_klawiaturowy: "(ang. *keyboard interface*). Interfejs używany przez o
 
 istotna_funkcjonalnosc: "Niezbędna dla konkretnej witryny funkcja (funkcjonalność), której usunięcie zasadniczo zmienia sposób użytkowania lub przeznaczenie witryny. Obejmuje zarówno informacje, do których odnoszą się użytkownicy, jak i czynności, które wykonują, aby użyć tej funkcji. **Uwaga**: Przykłady podstawowych funkcji obejmują np. „wybór i zakup produktu w sklepie internetowym”, „wypełnienie i przesłanie formularza kontaktowego”, „rejestrację konta użytkownika”."
 
-
 jezyk_naturalny: "(ang. _human language_). Język mówiony, pisany lub język migowy (zarówno znaków wizualnych, jak dotykowych) służący do komunikowania się między ludźmi. *Uwaga:* zobacz także „język migowy”."
 
 jezyk_migowy: "(ang. _sign language_). Język stosujący kombinację gestów dłoni i ramion, mimiki twarzy i pozycji ciała, w celu przekazania informacji."
-
-kierownik_testow: "Osoba odpowiedzialna za zarządzanie czynnościami testowymi, zasobami oraz oceną przedmiotu testu. Osoba, która kieruje, zarządza, administruje, planuje i reguluje ocenę przedmiotu testu."
-
-komisarz_ds_oceny: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot, który zlecił ocenę.
-Uwaga: W wielu przypadkach komisarz ds. oceny może być właścicielem lub twórcą witryny, w innych przypadkach może to być inny podmiot, taki jak zamawiający lub właściciel ankiety monitorującej dostępność."
 
 kompatybilnosc: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą tej stronie lub aplikacji współpracę z możliwie największą liczbą programów, w tym z narzędziami i programami wspomagającymi osoby niepełnosprawne."
 
 komponent_interfejsu_uzytkownika: "Obiekt, komponent strony, z którym użytkownik może wchodzić w interakcje, na przykład przycisk, łącze, pole tekstowe (proste komponenty interfejsu), menu, okno dialogowe, karty, panele rozwijane (złożone komponenty interfejsu). Komponent interfejsu może być oparty na natywnych elementach HTML lub elementach zaprogramowanych z użyciem JavaScript i API ARIA."
 
 konkretne_odczucie_zmyslowe: "(ang. _specific sensory experience_). Odczucie zmysłowe, które nie jest czysto ozdobne i jego celem nie jest przede wszystkim przekazanie ważnej informacji lub spełnienie konkretnej funkcji.<br />*Przykłady*: Gra solo na flecie, sztuka wizualna, itd."
-
-lista_zasobow_podstawowych: "(ang. _Core Resource List_). Zbiór zasobów ogólnych, kluczowych dla oceny użyteczności i dostępności witryny, które można znaleźć na większości witryn."
 
 media: "Środek przekazu, to, za pośrednictwem czego są przekazywane lub wyrażane jakieś treści. **Uwaga**: Media umożliwiają wykorzystanie wszystkich środków prezentacyjnych i reprezentacyjnych takich jak: głos, wzrok, twarz, mimika, gesty, jak również teksty, obrazy, rysunki, fotografie, filmy."
 
@@ -56,22 +44,9 @@ nawigacja: "Zespół funkcji obejmujących menu oraz linki do elementów strony 
 
 nazwa: "(ang. _name_). Tekst, który odróżnia element treści od innych, nazywany też **dostępną nazwą**. Może nim być cała tekstowa treść elementu (tekst objęty znacznikiem HTML - ang. _innerHTML_) albo tekst zawarty w powiązanym programowo elemencie treści (np. tekst podpisu tabeli objęty znacznikiem caption, tekst etykiety pola formularza objęty znacznikiem label, tekst opisu figury w znaczniku figcaption) lub tekst powiązanego atrybutu badź wskazywany przez atrybut (alt, value, aria-label, aria-labelledby)."
 
-oceniajacy: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny."
-
 parsowanie: "Analiza kodu źródłowego napisanego w języku programowania w celu przetworzenia tekstowych danych wejściowych na hierarchiczną strukturę danych."
 
-plan_testow: "Dokumentacja opisująca cele testowe do osiągnięcia oraz środki i harmonogram ich realizacji, zorganizowane tak, by koordynować czynności testowe (wg ISO 29119)"
-
-planowanie_testow: "Czynność tworzenia planów testów lub wprowadzanie do nich zmian."
-
-podejscie_do_testowania: "Implementacja strategii testowej w określonym projekcie."
-
-polityka_testow: "Dokument wysokiego poziomu opisujący zasady, podejście i główne zadania organizacji dotyczące testowania."
-
-
 postrzegalnosc: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą jej odbiór przez użytkownika za pomocą słuchu, wzroku lub dotyku."
-
-proces_testowy: "Zbiór powiązanych ze sobą działań obejmujący planowanie i  monitorowanie testów,  analizę testów, projektowanie testów, implementację testów i zakończenie testów."
 
 program_uzytkownika: "(ang. _user agent_). Oprogramowanie umożliwiające pobieranie i przeglądanie treści internetowych. *Przykłady:* Przeglądarki internetowe, odtwarzacze multimediów, wtyczki, oraz inne programy — również technologie wspomagające — które pomagają w wyszukiwaniu, przetwarzaniu i interakcji z treścią stron WWW."
 
@@ -81,21 +56,13 @@ przeglad_nieformalny: "Rodzaj przeglądu bez formalnej (udokumentowanej)  proced
 
 renderowanie: "(ang. _rendering_). Przedstawianie informacji zawartych w dokumencie elektronicznym w formie najbardziej właściwej dla danego środowiska, np. wizualnie lub dźwiękowo."
 
-retest: "test poprawek błędów"
-
 stany_strony_internetowej: "Stan tej samej strony internetowej obejmujący jej treść, funkcjonalność lub wygląd zmieniony dynamicznie na wskutek działań użytkownika.<br/>**Uwaga**: Przykładami stanów stron internetowych są poszczególne strony wieloczęściowego formularza online, które są generowane dynamicznie w zależności od wprowadzanych przez użytkownika danych. Te poszczególne stany mogą nie mieć unikatowych identyfikatorów URI i mogą wymagać identyfikacji poprzez opisanie ustawień, danych wejściowych i działań wymaganych do ich wygenerowania."
 
-strategia_testow: "Dokumentacja, która wyraża ogólne wymagania dotyczące testowania jednego lub większej liczby projektów prowadzonych worganizacji, dostarczająca szczegółowych informacji na  temat sposobu przeprowadzania testów i zgodna z polityką testów (wg ISO 29119)"
-
 strona_internetowa: "(ang. _Web page_). Nieosadzony zasób, uzyskany z pojedynczego identyfikatora URI za pomocą protokołu HTTP wraz z wszelkimi innymi zasobami użytymi do renderowania strony w&nbsp;oprogramowaniu użytkownika lub takimi, które potencjalnie mogą być użyte do renderowania. Najczęściej strony internetowe są dokumentami HTML, ale mogą to również być dokumenty PDF, a także dokumenty w&nbsp;innych formatach. <br />**Uwaga**: Potocznie zarówno pojedyncza strona internetowa, jak i serwis złożony z wielu stron internetowych, czyli witryn. Ta definicja ogranicza stosowanie terminu *strona internetowa* tylko do zasobu uzyskanego z&nbsp;*pojedynczego identyfikatora URI*, a więc do jednej, pojedynczej samodzielnej strony internetowej albo jednej, pojedynczej strony w witrynie złożonej z wielu stron."
-
-sumaryczny_raport_z_testow: "Raport z testów, który zawiera ocenę odpowiednich pozycji  testowych w odniesieniu do  kryteriów wyjścia (wg ISO 29119)"
 
 sztuka_tekstowa: "(ang. _ASCII art_). Proste rysunki tworzone za pomoca znaków ASCII układanych na obszarze o stałej szerokości kolumn oraz o stałej wysokości znaków. Ten sposób tworzenia grafiki, a raczej jej symbolizowania, nazywa się semigrafiką lub pseudografiką. ASCII-Art były początkowo tworzone z myślą o wydrukowaniu ich na drukarkach znakowych. Przykładem prostych ASCII-Art są ikony emocji (emotikony)."
 
 szablony: "(ang. _templates_). Wzorce, które są wypełniane treścią przez autorów lub za pomocą narzędzia autorskiego (np. szablony dokumentów, szablony zarządzania treścią, motywy prezentacji). Szablony zwykle zastępują autorów, przynajmniej częściowo, w decydowaniu o układzie i&nbsp;stylizacji treści."
-
-srodowisko_testowe: "Środowisko, w skład którego wchodzi sprzęt,  wyposażenie, symulatory,  narzędzia programowe oraz inne elementy  wspierające, potrzebne do wykonania testu (wg ISO/IEC/IEEE 24765)"
 
 technologie_wspomagajace: "(ang. _assistive technology_). Sprzęt lub oprogramowanie działające jako program użytkownika lub współpracujące ze standardowymi programami użytkownika, dostarczające funkcjonalności niezbędnych osobom z niepełnosprawnościami, przekraczające możliwości standardowych programów użytkownika."
 
@@ -103,52 +70,29 @@ tekst: "(ang. _text_). Ciąg znaków, który można odczytać za pomocą program
 
 tekst_formatowany: "Tekst, którego formatowanie jest kontrolowane przez arkusz stylów."
 
-test_niezdany: "Status przypisany do wykonanego  testu, gdy wynik rzeczywisty nie jest zgodny z wynikiem oczekiwanym."
-
-test_zdany: "Status przypisany do wykonanego  testu, gdy wynik rzeczywisty jest zgodny z wynikiem oczekiwanym."
-
-testowanie_dostepnosci_cyfrowej: "Proces kontroli jakości dokumentu cyfrowego lub aplikacji w celu sprawdzenia zgodności z uznanym standardem dostępności (np. WCAG) lub dostosowania do wymagań osób ze specjalnymi potrzebami (osób z niepełnosprawnościami, starszych, w warunkach ograniczających możliwość korzystania z określonego medium, np. dźwięku)"
-
 tresc_nietekstowa: "(ang. _non-text content_). Każda treść, która nie jest sekwencją znaków, które mogą być programowo określone lub nie wyraża niczego w jakimkolwiek języku naturalnym. <br/>**Uwaga**: Obejmuje to ASCII Art (będący układanką złożoną ze znaków), emotikony, slang na forach (korzystający z zastępowania znaków) i obrazy przedstawiające tekst."
 
 tresc_widoczna: "Treść, która jest widoczna, gdy wyłączony zostanie CSS."
-
-tworca_strony_internetowej: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot zaangażowany w proces tworzenia witryny, w tym między innymi autorzy treści, projektanci, programiści, testerzy zapewniania jakości oraz menadżerowie projektu."
-
-usprawnienie_procesu_testowego: "Program aktywności zaprojektowany, aby poprawić wydajność i dojrzałość procesu testowego w organizacji  oraz wynik takiego programu (wg CMMI)"
 
 UAAG: "Akronim od angielskiego tytułu dokumentu [User Agent Accessibility Guidelines](https://www.w3.org/TR/UAAG20/) (Wytyczne dotyczące dostępności oprogramowania użytkownika: przeglądarek i innych aplikacji i urządzeń służących do odczytywania treści cyfrowych)."
 
 W3C: "Skrót nazwy organizacji World Wide Web Consortium, która zajmuje się ustanawianiem standardów pisania i przesyłu stron WWW. W3C została założona 1 października 1994 roku przez Tima Berners-Lee, twórcę WWW oraz autora pierwszej przeglądarki internetowej i serwera WWW. Obecnie zrzesza ponad 400 organizacji, firm, agencji rządowych i uczelni z całego świata. Publikowane przez W3C rekomendacje są zaleceniami, tzn. nie mają mocy prawnej, nakazującej ich użycie. Niektóre z nich stały się normami międzynarodowymi lub stały się w całości lub części elementem systemu prawa."
 
-walidator: "Program sprawdzający poprawność dokumentu o określonej składni, np. walidator kodu HTML, walidator kodu CSS. Pomyślne przejście walidacji oznacza zwykle, że kod został napisany zgodnie z&nbsp;gramatyką (składnią) danego języka."
-
-warunek_testowy: "Aspekt podstawy testów, który jest istotny dla osiągnięcia określonych celów testowych."
-
 WCAG: "Akronim (skrót) od angielskiego tytułu zbioru dokumentów [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) – opublikowanego przez WAI, zawierający zalecenia dotyczące tworzenia dostępnych treści internetowych. 15 października 2012 roku wytyczne WCAG w wersji 2.0 zyskały status międzynarodowej normy ISO/IEC 40500:2012."
+
+
+wersja_alternatywna_zapewniajaca_zgodnosc: "(ang. *conforming alternate version*). Wersja tej samej treści, strony lub witryny, która<br>- spełnia wszystkie kryteria sukcesu na określonym poziomie (A, AA lub AAA), <br>- zawiera równoważne informacje i funkcjonalności w tym samym języku oraz<br>- tak samo aktualna, jak wersja &bdquo;niezgodna&rdquo; dla której przynajmniej jeden z poniższych warunków jest spełniony<br>- wersja zgodna jest osiągalna z wersji niezgodnej za pomocą mechanizmu obsługującego dostępność albo<br>
+wersja niezgodna jest osiągalna jedynie z wersji zgodnej, albo<br> wersja niezgodna jest osiągalna tylko z wersji zgodnej, o ile zawiera mechanizm osiągnięcia wersji zgodnej."
+
 
 wideo: "Treści przekazywane elektronicznie złożone z sekwencji obrazów, technika rejestrowania i przekazywania sygnałów wizyjnych."
 
-witryna_internetowa: "(ang: _Web site_). Dowolna samodzielna strona internetowa lub zbiór stron internetowych, należących do tej samej domeny lub subdomeny, do których można uzyskać dostęp ze strony głównej. **Uwaga 1**: Pojedyncza strona internetowa jest witryną tylko wówczas, gdy jest jedyną stroną, do jakiej można uzyskać dostęp z adresu domenowego. **Uwaga 2**: Witryna internetowe mogą składać się z mniejszych zbiorów stron, z których każdy można uznać za odrębną witrynę. Na przykład witryna może zawierać wyodrębnione obszary, takie jak sklep internetowy, forum dyskusyjne albo odrębne obszary dla filii instytucji czy firmy, powiązane wspólnym adresem domenowym. Każdy taki podzbiór może być uznany za odrębną witrynę. **Uwaga 3**: Różnojęzyczne wersje witryny mogą być traktowane jak odrębne witryny."
-
-wlasciciel_strony_internetowej: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za stronę internetową."
-
-wymaganie_testowalne: "Wymaganie, które jest określone przy użyciu pojęć umożliwiających stworzenie projektu testu (a następnie przypadków  testowych) i wykonanie testów w celu określenia, czy wymaganie  to zostało spełnione (wg IEEE 610)."
+witryna_internetowa: "(ang: *Web site*). Dowolna samodzielna strona internetowa lub zbiór stron internetowych, należących do tej samej domeny lub subdomeny, do których można uzyskać dostęp ze strony głównej. **Uwaga 1**: Pojedyncza strona internetowa jest witryną tylko wówczas, gdy jest jedyną stroną, do jakiej można uzyskać dostęp z adresu domenowego. **Uwaga 2**: Witryna internetowe mogą składać się z mniejszych zbiorów stron, z których każdy można uznać za odrębną witrynę. Na przykład witryna może zawierać wyodrębnione obszary, takie jak sklep internetowy, forum dyskusyjne albo odrębne obszary dla filii instytucji czy firmy, powiązane wspólnym adresem domenowym. Każdy taki podzbiór może być uznany za odrębną witrynę. **Uwaga 3**: Różnojęzyczne wersje witryny mogą być traktowane jak odrębne witryny."
 
 wspolne_strony_internetowe: "(ang. Common web pages). Strony i stany stron internetowych **wspólne** dla całej witryny, odnoszące się do całej witryny, istotne dla funkcjonowania całej witryny, takie jak strona główna, strona logowania, mapa witryny, strona kontaktowa, strona pomocy, strona informacji prawnych i podobne, które są zazwyczaj połączone ze wszystkimi innymi stronami witryny (zwykle poprzez łącze w nagłówku, w&nbsp;stopce albo w menu nawigacyjnym)."
 
 wylacznie_dekoracyjny: "(ang. _pure decoration_). Treść użyta tylko w celach ozdobnych, nie niosąca żadnej informacji, ani funkcjonalności.<br />**Uwaga**: Tekst jest czysto dekoracyjny wówczas, gdy zawarte w nim słowa mogą być swobodnie przemieszczane lub podmieniane bez zmiany celu, jakiemu służy. Przykład: Na okładce słownika znajdują się przypadkowe słowa wydrukowane w jasnym kolorze, pozostające w tle."
 
-zaliczony: "Test jest uważany za zaliczony lub zdany, jeśli jego rezultat jest zgodny z rezultatem oczekiwanym."
-
-zarzadzanie_testami: "Planowanie, harmonogramowanie, szacowanie, monitorowanie, raportowanie, nadzór i zakańczanie czynności testowych (wg ISO/IEC/IEEE 29119)."
-
-zasob: "Sieciowy (internetowy) obiekt danych identyfikowany przez unikalny identyfikator URI (ang. _Uniform Resource Identifier_). *Uwaga*: Definicja obejmuje zarówno zasoby HTTP, jak i zasoby nie-HTTP, takie jak np. zasoby dostępne za pośrednictwem protokołu FTP."
-
-zasob_HTTP: "Sieciowy (internetowy) obiekt danych identyfikowany za pomocą pojedynczego żądania HTTP. Zasobem może być obrazek, strona HTML czy plik z kodem JavaScript. Protokół HTTP nie określa, czym dokładnie jest zasób. Określa jedynie sposób, w jaki można dostać się do zasobów. Każdy zasób ma swój unikalny identyfikator. Ten identyfikator to URI (ang. *Uniform Resource Identifier*)."
-
 zgodnosc: "(ang. _conformance_). Spełnienie wszystkich wymagań danej normy, wytycznych lub specyfikacji"
-
-zlecajacy_ocene: "(ang. _evaluation commissioner_). Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot, który zlecił ocenę. *Uwaga*: W wielu przypadkach zlecajacym ocenę będzie właściciel lub twórca, wydawca witryny. Ale może to być również np. naukowiec prowadzący badania dostępności albo podmiot monitorujący dostępność stron internetowych i aplikacji mobilnych."
 
 zrozumialosc: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą użytkownikowi tych stron i aplikacji zrozumienie treści i sposobu ich prezentacji."
