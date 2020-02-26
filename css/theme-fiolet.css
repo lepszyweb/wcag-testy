@@ -75,7 +75,7 @@ a.navbar-brand:hover {
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     background-color: #633875;
 }
-
+.navbar-brand:focus,
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -83,6 +83,8 @@ a.navbar-brand:hover {
 .open .dropdown-toggle.btn-primary {
     background-color: #7e4795;
     border-color: #633875;
+    border-style: dashed;
+    border-width: 1px;
 }
 
 .printTitle {

@@ -69,10 +69,10 @@ Nie tylko musimy być w stanie wygenerować bardzo szczegółową listę problem
 
 | Rodzaj testu	| Jakość raportu | Czas | Koszt | Reprezentowanie użytkowników
 | ---------- | ------------------- | -------- | ------ | ------- |
-| Testy automatyczne | Najpełniejszy wolumen problemów;<br />duża szczegółowość | Najszybszy | Najtańsze | Najniższe |
-| Testowanie ręczne | Duży wolumen;<br />najwyższa szczegółowość | Powolny | Umiarkowany | Umiarkowany |
+| Testy automatyczne | Najpełniejszy wolumen problemów;<br />duża szczegółowość | Najkrótszy | Najtańsze | Najniższe |
+| Testowanie ręczne | Duży wolumen;<br />najwyższa szczegółowość | Długi | Umiarkowany | Umiarkowany |
 | Testy przypadków użycia | Mały wolumen;<br />niska szczegółowość | Umiarkowany | Umiarkowany | Wysoki |
-| Testowanie użyteczności | Najniższy wolumen;<br />najniższa szczegółowość | Najwolniejszy | Najwyższy | Najwyższy |
+| Testowanie użyteczności | Najniższy wolumen;<br />najniższa szczegółowość | Najdłuższe | Najwyższy | Najwyższy |
 
 <div class="datatable-end"></div>
 

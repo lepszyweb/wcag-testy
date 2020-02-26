@@ -17,6 +17,9 @@ a11y
 afordancje
 : {{site.data.glossary.afordancje}}
 
+alternatywa tekstowa
+: {{site.data.glossary.alternatywa_tekstowa}}
+
 aplikacja mobilna
 : {{site.data.glossary.aplikacja_mobilna}}
 
@@ -45,6 +48,9 @@ ewaluator
 : {{site.data.glossary.ewaluator}}
 
 ## F
+fokus klawiatury
+: {{site.data.glossary.fokus_klawiatury}}
+
 funkcjonalność
 : {{site.data.glossary.funkcjonalnosc}}
 
@@ -52,10 +58,14 @@ funkcjonalność
 interaktywność
 : {{site.data.glossary.interaktywnosc}}
 
+interfejs_klawiaturowy
+: {{site.data.glossary.interfejs_klawiaturowy}}
+
 istotna funkcjonalność
 : {{site.data.glossary.istotna_funkcjonalnosc}}
 
 ## J
+
 język naturalny
 : {{site.data.glossary.jezyk_naturalny}}
 
@@ -75,6 +85,9 @@ kompatybilność
 komponent interfejsu użytkownika
 : {{site.data.glossary.komponent_interfejsu_uzytkownika}}
 
+konkretne_odczucie_zmyslowe
+: {{site.data.glossary.konkretne_odczucie_zmyslowe}}
+
 ## L
 lista zasobów podstawowych
 : {{site.data.glossary.lista_zasobow_podstawowych}}
@@ -89,6 +102,9 @@ media zmienne w czasie
 ## N
 nawigacja
 : {{site.data.glossary.nawigacja}}
+
+nazwa
+: {{site.data.glossary.nazwa}}
 
 ## O
 oceniający
@@ -157,6 +173,21 @@ sztuka tekstowa
 technologie wspomagające
 : {{site.data.glossary.technologie_wspomagajace}}
 
+tekst
+: {{site.data.glossary.tekst}}
+
+tekst formatowany
+: {{site.data.glossary.tekst_formatowany}}
+
+tekst alternatywny
+: {{site.data.glossary.tekst_alternatywny}}
+
+treść nietekstowa
+: {{site.data.glossary.tresc_nietekstowa}}
+
+tresc widoczna
+: {{site.data.glossary.tresc_widoczna}}
+
 test niezdany
 : {{site.data.glossary.test_niezdany}}
 
@@ -201,6 +232,9 @@ właściciel strony internetowej
 
 wspólne strony internetowe
 : {{site.data.glossary.wspolne_strony_internetowe}}
+
+wyłącznie dekoracyjny:
+: {{site.data.glossary.wylacznie_dekoracyjny}}
 
 wymaganie testowalne
 : {{site.data.glossary.wymaganie_testowalne}}

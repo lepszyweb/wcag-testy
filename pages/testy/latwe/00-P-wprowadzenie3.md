@@ -6,9 +6,7 @@ permalink: 00-P-wprowadzenie3
 folder: testy/latwe
 ---
 
-
-
-**Gdy korzystasz z tej bazy po raz pierwszy, zalecamy uważne zapoznanie się ze  wszystkimi sekcjami**.
+{% include note.html content="**Gdy korzystasz z tej bazy po raz pierwszy, zalecamy uważne zapoznanie się ze  wszystkimi sekcjami**." %}
 
 ## Narzędzia: Pasek narzędzi Web Developer i inne (opcjonalnie)
 Większość tych kontroli można przeprowadzić za pomocą dowolnej przeglądarki, tzn. nie trzeba pobierać specjalnych narzędzi.

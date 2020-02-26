@@ -8,30 +8,41 @@ folder: testy
 ---
 
 
-# Nazwa i identyfikator
+## Tytuł
+*Sformułuj w kilku słowach problem, którego dotyczy reguła, lub jej cel, przeznaczenie.*
 
-## Metody testów
-*Wskaź sposoby przeprowadzenia testu (inspekcja kodu, kontroola wzrokowa, badanie za pomocą narzędzia ujawniającego problemy, testy z użytkownikami)*
+## Identyfikator reguły
+*Zaproponuj unikalnny identyfikator reguły, najlepiej złożony ze słów tytułujących regułę.*
+
+*Jeśli proponujesz nową wersję istniejącej reguły, użyj tego samego identyfikatora, ale dodaj informację o wersji, dołaczając do identyfikatora datę, np. alternatywa-wideo-2020-02-17.*
+
+## Opis reguły
+
+*Opis w prostym języku, objaśniający działanie reguły - co reguła sprawdza.*
+
+## Mapowanie do wymagań dostępności
+*Wskaż wszystkie wymogi dostępności, do których odnosi się reguła. Określ identyfikator wymagania, nazwę dokumentu z wymaganiami, łącze do wymagania, poziom zgodności.*
+
 
 ## Zastosowanie
 
-*Wskaż treści, komponenty, do których test ma zastosowanie*
+*Wskaż treści, elementy, komponenty które za pomocą reguły mogą być badane.*
 
 ## Oczekiwania
 
-*Wypunktuj o ocenianych komponentach twierdzenia, które opisują zgodne z WCAG wdrożenie wymagań.*
+*Wypunktuj twierdzenia, które opisują wyniki zgodne z wymaganiami.*
 
 ## Założenia
 
-*Wypunktuj wszystkie przyjęte dla testu założenia, ograniczenia, wyjątki*
+*Wypunktuj wszelkie znane założenia, ograniczenia lub wyjątki dotyczące oceny, środowiska  testowego, używanych technologii lub testowanego elementu.*
 
 ## Obsługa dostępności
 
-*Jeśli istnieją, wypunktuj istotne problemy związane z dostępnością, znane w odniesieniu do tego testu.*
+*Wypunktuj znane problemy związane z obsługą dostępności odnoszące się do tej reguły.*
 
 ## Procedura testowania
 
-*Opisz szczegółowe, co i w jaki sposób należy przetestować*
+*Opisz szczegółowe, co i w jaki sposób należy przetestować.*
 
 ## Tło, zasoby
 

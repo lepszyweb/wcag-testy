@@ -1,5 +1,6 @@
 ---
 title: Punkty orientacyjne
+summary: "Treść strony jest podzielona na istotne obszary opisane nagłówkami lub etykietami"
 tags: [nawigacja,struktury]
 sidebar: testy_sidebar
 permalink: H1-02-punkty-orientacyjne
@@ -12,12 +13,12 @@ folder: testy/jbt
 Wykorzystanie narzędzia ujawniającego punkty orientacyjne, inspekcja kodu.
 
 ## Zastosowanie
-_do opracowania_
+Oznakowanie kluczowych obszarrów strony nowymi w HTML5 znacznikammi strukturalnymi oraz atrybutami ARIA
 ## Założenia, zastrzeżenia lub wyjątki
 _do opracowania_
 
 ## Obsługa dostępności
-_do opracowania_
+W HTML5 wprowadzono nowe znaczniki strukturalne, które opisują role kluczowych obszarów strony (header, nav, main, section, aside, footer). Specyfikacja WAI-ARIA umożliwia określanie kluczowych obszarów strony za pomocą atrybutów role.   
 
 ### Oczekiwania:
 *Uwaga*: Kryteria sukcesu WCAG nie wymagają, aby stosować na stronie znaczniki definiujące obszary strony i punkty orientacyjne. Czy strona spełnia wymienione poniżej oczekiwania sprawdzamy tylko wtedy, gdy stosowane są punkty orientacyjne  i oznaczenia sekcji strony.

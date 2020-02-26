@@ -22,7 +22,7 @@ _do opracowania_
 
 ### Oczekiwania:
 Kryterium sukcesu: [2.4.3 Kolejność fokusa](https://wcag.lepszyweb.pl/#focus-order)
--	Podczas nawigacji po stronie  tabulatorem (klawiszem Tab na klawiaturze) wszystkie interaktywne obiekty otrzymują fokus w momencie oznaczenia są ustawiane ostrością podczas nawigacji za pomocą klawisza tabulatora.
+-	Podczas nawigacji po stronie  tabulatorem (klawiszem Tab na klawiaturze) wszystkie interaktywne obiekty otrzymują fokus.
 -	Żaden nieinteraktywny element strony nie otrzymuje wskaźnika fokusu (pola formularzy oznaczone „tylko do odczytu” uznajemy za elementy interaktywne).
 -	Kolejność, w jakiej obiekty otrzymują fokus, jest logiczna i odpowiada oczekiwanej kolejności wizualnej.
 -	Jeśli na stronie pojawia się dialogowe okno modalne, fokus przechodzi do okna dialogowego i pozostaje w nim dopóki użytkownik nie zamknie okna.  

@@ -9,7 +9,7 @@ toc: false
 ## Potrzebny jest Twój wkład
 Cel projektu **Baza wiedzy - Ocenianie dostępności cyfrowej** możemy osiągnąć znacznie szybciej i pełniej, jeśli zaangażuje się wiele osób, które zechcą wnieść do projektu swój wkład, podzielić się swoimi opracowaniami.
 
-### Popraw mnie
+### Opcja &bdquo;Popraw ten artykuł&rdquo;
 Możesz ulepszyć każdy już opublikowany materiał. Od dodania przysłowiowego przecinka, poprawienia linku, po uzupełnienie albo skrócenie, przeredagowanie zawiłych fragmentów, uproszczenie zdań, itd.
 
 Użyj  przycisku **Popraw ten artykuł** umieszczonego na początku każdego materiału. Przejdziesz na specjalną stronę artykułu na platformie Github. Otwórz plik do edycji i popraw, co chcesz poprawić. Nie obawiaj się, nic nie zepsujesz na oryginalnej stronie. Scalenia poprawek dokona administrator.
