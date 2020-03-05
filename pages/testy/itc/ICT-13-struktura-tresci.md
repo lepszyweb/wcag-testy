@@ -8,17 +8,16 @@ folder: testy/itc
 ---
 
 ## Wymagania dostępności
-----------------------
--   [KS WCAG: 2.4.6 Nagłówki i etykiety](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html) -- Nagłówki i etykiety opisują temat lub cel treści.
--   [KS WCAG: 1.3.1 Informacje i relacje](http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html) -- Informacje, struktura oraz relacje pomiędzy treściami przedstawiane w treści mogą być odczytane przez program komputerowy lub są dostępne w postaci tekstu.
+- {% include ks/2-4-6.md %}
+- {% include ks/1-3-1.md %}
 
 ## Uzasadnienie metody badania
-------------------------------
+
 -   Widoczne nagłówki muszą być [możliwe do odczytania przez program komputerowy](https://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable), reprezentować strukturę treści i opisywać treści następujące po nagłówkach.
 -   Widoczne listy wizualne  muszą być [możliwe do odczytania przez program komputerowy](https://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable), zgodnie z ich typami (uporządkowane, nieuporządkowane, listy definicji).
 
 ## Ograniczenia, założenia lub wyjątki
---------------------------------------
+
 -   Strona, na której znajduje się tylko jeden nagłówek, nie posiada struktury na poziomie nagłówków i nie może być testowana pod kątem struktury nagłówków.
 -   Strony mogą mieć więcej niż jeden nagłówek poziomu 1 lub mogą nie posiadać nagłówka poziomu 1.
 -   Nagłówek poziomu 1 nie musi być ściśle taki sam jak tytuł strony.
@@ -26,19 +25,18 @@ folder: testy/itc
 -   Nie wszystkie listy wymagają znaczników. Na przykład zdania zawierające wykazy rozdzielone przecinkami mogą nie potrzebować znaczników list ([H48: Używanie ol, ul i dl dla list lub grup łączy](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H48)).
 
 ## Procedura testu dla KS 2.4.6 Nagłówki i etykiety
----------------------------------------------------
+
 ### Identyfikacja treści
 Widoczne nagłówki, które oznaczają sekcje treści. Nagłówki mają często większą, pogrubioną czcionkę, są oddzielone od akapitów dodatkowymi odstępami (choć nie zawsze). Zwróć uwagę na hierarchię i strukturę każdego nagłówka w odniesieniu do innych nagłówków na stronie.
 
 ### Instrukcja testowania
 1.  Sprawdź, czy każdy nagłówek opisuje temat lub cel następującej po nim treści.
 
-
 ### Wynik testów
 Jeżeli powyższa próba zakończy się niepowodzeniem, wówczas test KS 2.4.6 oraz wymaganie podstawowe nr 13 kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 1.3.1 Informacje i relacje
-----------------------------------------------------
+
 ### Teksty wyglądające jak nagłówki
 
 #### Identyfikacja treści
@@ -63,7 +61,6 @@ Nagłówki [możliwe do odczytania przez program komputerowy](https://www.w3.org
 #### Instrukcja testowania
 1.  Sprawdź, czy każdy nagłówek zdefiniowany programowo służy również jako rzeczywisty nagłówek na stronie. Treść, która nie jest rzeczywistym nagłówkiem, nie powinna być oznakowana jako nagłówek (na przykład znacznika nagłówka nie należy używać do podkreślania elementu, który nie jest tytułem dla następującej po nim treści).
 
-
 #### Wynik testów
 Jeżeli powyższa próba zakończy się niepowodzeniem, wówczas test KS 1.3.1 oraz wymaganie podstawowe nr 13 kończy się niepowodzeniem.
 
@@ -84,18 +81,17 @@ Widoczne wizualnie listy. Dla każdej listy określ, czy wygląda na uporządkow
     2.  Sprawdź, czy treści, które mają wygląd listy, zostały oznaczone jako listy uporządkowane.
     3.  Sprawdź, czy treści, które prezentują grupy elementów powiązanych na zasadzie nazwa-wartość sa oznakowane jako listy opisów.
 
-
 #### Wynik testów
 Jeżeli powyższa próba zakończy się niepowodzeniem, wówczas test KS 1.3.1 oraz wymaganie podstawowe nr 13 kończy się niepowodzeniem.
 
 ##  Wskazówki dotyczące usprawniania procesu testowego
-----------------------------------------------------------
+
 ## Techniki WCAG 2.1
---------------------
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
--   [ARIA12: Używanie atrybutu role=heading oraz aria-level="\#"do identyfikacji nagłówków](https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html)
--   [H42: Używanie znaczników h1-h6 do identyfikacji nagłówków](https://www.w3.org/TR/WCAG20-TECHS/H42.html)
--   [G130: Zapewnienie opisowych nagłówków](https://www.w3.org/TR/WCAG20-TECHS/G130.html)
--   [G115: Używanie znaczników semantycznych do oznaczania struktury](http://www.w3.org/TR/WCAG20-TECHS/G115.html) AND [H49: Using semantic markup to mark emphasized or special text](http://www.w3.org/TR/WCAG20-TECHS/H49.html)
--   [G117: Używanie tekstu do przekazywania informacji przekazywanych przez zmiany w sposobie prezentacji tekstu](http://www.w3.org/TR/WCAG20-TECHS/G117.html)
--   [H48: Używanie ol, ul i dl dla list lub grup łączy](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H48)
+
+- {% include techniki/ARIA12.md %}
+- {% include techniki/H42.md %}
+- {% include techniki/G130.md %}
+- {% include techniki/G115.md %} ORAZ {% include techniki/H49.md %}
+- {% include techniki/G117.md %}
+- {% include techniki/H48.md %}

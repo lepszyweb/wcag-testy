@@ -8,9 +8,8 @@ folder: testy/itc
 ---
 
 ## Wymagania dostępności
-----------------------
--   [KS WCAG 1.4.1 Użycie koloru](https://wcag.lepszyweb.pl/#use-of-color) -- Kolor nie jest wykorzystywany jako jedyny wizualny sposób przekazywania informacji, wskazywania czynności do wykonania lub oczekiwania na odpowiedź, czy też wyróżniania elementów wizualnych.
--   [KS WCAG 1.3.3 Właściwości zmysłowe](https://wcag.lepszyweb.pl/#sensory-characteristics) -- Instrukcje co do zrozumienia i operowania treścią nie opierają się wyłącznie na właściwościach zmysłowych, takich, jak kształt, rozmiar, wzrokowa lokalizacja, orientacja w przestrzeni lub dźwięk.
+- {% include ks/1-4-1.md %}  
+- {% include ks/1-3-3.md %}  
 
 ## Uzasadnienie metody badania
 ------------------------------
@@ -58,14 +57,14 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 -   Wyświetlenie treści w skali szarości może pomóc w identyfikacji treści wykorzystujących wyłącznie kolor do przekazywania informacji.
 
 ## Techniki WCAG 2.1
---------------------
--   Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
-    -   [G14: Zapewnienie, że informacje przekazywane przez różnice w kolorach są również dostępne w tekście](https://www.w3.org/TR/WCAG20-TECHS/G14.html)
-    -   [G205: Dołączanie wskazówek tekstowych, gdy kontrolki formularzy komunikują swoje znaczenie tylko kolorem](https://www.w3.org/TR/WCAG20-TECHS/G205.html)
-    -   [G182: Zapewnienie dodatkowych wskazówek wizualnych, gdy różnice koloru tekstu są używane do przekazywania informacji](https://www.w3.org/TR/WCAG20-TECHS/G182.html)
-    -   [G111: Używanie koloru i deseniu](https://www.w3.org/TR/WCAG20-TECHS/G111.html)
-    -   [F73: Niespełnienie kryterium sukcesu 1.4.1 z powodu tworzenia łączy, które nie są widoczne dla osób niewidzących kolorów](https://www.w3.org/TR/WCAG20-TECHS/F73.html)
-    -   [F81: Niespełnienie kryterium sukcesu 1.4.1 ze względu na oznaczanie wymaganych pól lub błędów tylko za pomocą odmiennego koloru](https://www.w3.org/TR/WCAG20-TECHS/F81.html)
-    -   [G96: Zapewnienie identyfikacji tekstowej pozycji, które w inny sposób polegają wyłącznie na informacjach zmysłowych, które należy rozumieć](https://www.w3.org/TR/WCAG20-TECHS/G96.html)
-    -   [F14: Niespełnienie kryterium sukcesu 1.3.3 ze względu na identyfikowanie treści tylko przez jej kształt lub lokalizację](https://www.w3.org/TR/WCAG20-TECHS/F14.html)
-    -   [F26: Niespełnienie kryterium sukcesu 1.3.3 z powodu użycia tylko samego symbolu graficznego do przekazywania informacji](https://www.w3.org/TR/WCAG20-TECHS/F26.html)
+Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
+
+- {% include techniki/G14.md %}
+- {% include techniki/G205.md %}
+- {% include techniki/G182.md %}
+- {% include techniki/G111.md %}
+- {% include techniki/F73.md %}
+- {% include techniki/F81.md %}
+- {% include techniki/G96.md %}
+- {% include techniki/F14.md %}
+- {% include techniki/F26.md %}

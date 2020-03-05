@@ -8,8 +8,7 @@ folder: testy/itc
 ---
 
 ## Wymogi dostępności
-
--   [KS WCAG 4.1.1 Parsowanie](https://wcag.lepszyweb.pl/#parsing) -- W treści wprowadzonej przy użyciu języka znaczników, elementy posiadają pełne znaczniki początkowe i końcowe, elementy są zagnieżdżane według swoich specyfikacji, elementy nie posiadają zduplikowanych atrybutów oraz wszystkie ID są unikalne, za wyjątkiem przypadków, kiedy specyfikacja zezwala na wyżej wymienione cechy.
+- {% include ks/4-1-1.md %}
 
 ## Uzasadnienie metody badania
 Ten test podstawowy wymaga, aby treść nie zawierała błędów w składni elementów i atrybutów oraz zapewniała prawidłowo zagnieżdżone znaczniki początku/końca, aby uniknąć błędów, które uniemożliwiają programom użytkowników niezawodne przetwarzanie zawartości. Jeśli treści nie można przetworzyć w strukturę danych, wówczas różne programy użytkownika, w tym technologie wspomagające, mogą ją prezentować  odmiennie lub w ogóle nie potrafią jej przetworzyć.
@@ -45,7 +44,8 @@ Chociaż walidatory mogą być świetnym narzędziem do wychwytywania błędów,
 
 ## Techniki WCAG 2.1
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
--   [G134: Sprawdzanie poprawności kodu stron internetowych (walidacja)](https://www.w3.org/TR/WCAG20-TECHS/G134.html)
--   [G192: Pełna zgodność ze specyfikacjami](https://www.w3.org/TR/WCAG20-TECHS/G192.html)
--   [H88: Używanie HTML zgodnie ze specyfikacją](https://www.w3.org/TR/WCAG20-TECHS/H88.html)
--   [H74: Zapewnienie, że znaczniki otwierające i zamykające są używane zgodnie ze specyfikacją](https://www.w3.org/TR/WCAG20-TECHS/H74.html) ORAZ [H93: Zapewnienie, że atrybuty id są unikalne](https://www.w3.org/TR/WCAG20-TECHS/H93.html) AND [H94: Zapewnienie, że elementy nie zawierają zduplikowanych atrybutów](https://www.w3.org/TR/WCAG20-TECHS/H94.html)
+
+- {% include techniki/G134.md %}
+- {% include techniki/G192.md %}
+- {% include techniki/H88.md %}
+- {% include techniki/H74.md %} ORAZ {% include techniki/H93.md %}, ORAZ {% include techniki/H94.md %}

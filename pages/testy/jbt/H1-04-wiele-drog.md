@@ -13,9 +13,10 @@ folder: testy/jbt
 Kontrola wzrokowa
 
 ## Zastosowanie
-_do opracowania_
+Strony internetowe w zestawie powiązanych stron (witrynie).
+
 ## Założenia, zastrzeżenia lub wyjątki
-_do opracowania_
+**Wyjątek**: Strony internetowe, które są wynikiem lub krokiem w procesie, nie są objęte tym testem.
 
 ## Obsługa dostępności
 _do opracowania_
@@ -35,7 +36,14 @@ Kryterium sukcesu: [2.4.5 Wiele dróg](https://wcag.lepszyweb.pl/#multiple-ways)
 #### Pomocne narzędzia:
 
 #### Techniki WCAG 2.1
-_do opracowania_
+Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
+
+- {% include techniki/G125.md %}
+- {% include techniki/G64.md %}
+- {% include techniki/G63.md %}
+- {% include techniki/G161.md %}
+- {% include techniki/G126.md %}
+- {% include techniki/G185.md %}
 
 ### Przypadki testowe
 

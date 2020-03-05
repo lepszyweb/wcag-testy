@@ -9,15 +9,10 @@ folder: testy/itc
 
 
 ## Wymagania dostępności
---------------------------
--   [KS WCAG: 2.2.1 Możliwość dostosowania czasu](https://wcag.lepszyweb.pl/#timing-adjustable) -- Dla każdego limitu czasowego, ustawionego na odbiór treści, spełnione jest przynajmniej jedno z poniższych założeń:
-    -   **Wyłączenie:** Użytkownik może wyłączyć limit czasowy zanim czas upłynie; lub:
-    -   **Dostosowanie:** Użytkownik może swobodnie dostosować limit czasowy (przynajmniej o wartość 10 razy większą od wartości domyślnej) zanim czas upłynie; lub
-    -   **Wydłużenie:** Użytkownik jest ostrzegany przed upłynięciem limitu czasowego i ma przynajmniej 20 sekund na wydłużenie limitu za pomocą prostej czynności (np. „wciśnij klawisz spacji”) oraz może wydłużyć limit przynajmniej dziesięciokrotnie.
--   [KS WCAG 2.2.2 Wstrzymywanie (pauza), zatrzymywanie, ukrywanie](https://wcag.lepszyweb.pl/#pause-stop-hide) -- Wszystkie poniższe zasady obowiązują w przypadku informacji, która przesuwa się, porusza, migota lub automatycznie jest aktualizowana:
-    -   **Poruszanie się, przesuwanie, migotanie**: Każdą informację, która porusza się, przesuwa lub mruga, a takie działanie (1) włącza się automatycznie, (2) jest widoczne dłużej niż 5 sekund, (3) jest przedstawiane równolegle z inną treścią — użytkownik może wstrzymać, zatrzymać lub ukryć za pomocą dostępnego mechanizmu, chyba, że poruszanie się, przesuwanie lub migotanie jest częścią czynności gdzie takie działanie jest istotne, oraz:
-    -   **Automatyczna aktualizacja**: Każdą automatycznie aktualizującą się informację, która (1) włącza się automatycznie oraz (2) jest przedstawiana równolegle z inną treścią — użytkownik może wstrzymać, zatrzymać lub kontrolować częstotliwość aktualizacji za pomocą dostępnego mechanizmu, chyba, że automatyczna aktualizacja jest częścią takiej czynności, gdzie takie działanie jest niezbędne.
--   [KS WCAG 1.4.2 Kontrola odtwarzania dźwięku](https://wcag.lepszyweb.pl/#audio-control) -- Jeśli jakieś nagranie audio włącza się automatycznie na danej stronie i jest odtwarzane przez okres dłuższy niż 3 sekundy, dostępny jest albo mechanizm umożliwiający przerwanie lub wyłączenie nagrania, albo mechanizm kontrolujący poziom głośności niezależnie od poziomu głośności całego systemu.
+- {% include ks/2-2-1.md %}
+- {% include ks/2-2-2.md %}
+- {% include ks/1-4-2.md %}
+
 -   [Wymogi zgodności: 5. Brak zakłóceń](https://www.w3.org/TR/WCAG20/#cc5) - Następujące kryteria sukcesu dotyczą całej treści na stronie, włącznie z treścią, która w innych przypadkach nie jest podstawą spełnienia wymogów zgodności, gdyż niezastosowanie poniższych kryteriów mogłoby uniemożliwić jakiekolwiek skorzystanie ze strony: 1.4.2 - Kontrola odtwarzania dźwięku, 2.1.2 - Brak pułapki na klawiaturę, 2.3.1 Trzy błyski lub wartości poniżej progu, 2.2.2: Wstrzymywanie (pauza), zatrzymywanie, ukrywanie.
 
 ## Uzasadnienie metody badania
@@ -110,13 +105,14 @@ Jeżeli powyższa próba zakończy się niepowodzeniem, wówczas test KS  1.4.2,
 
 ## Techniki WCAG 2.1
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
--   [G198: Zapewnienie użytkownikowi możliwości wyłączenia limitu czasu](https://www.w3.org/TR/WCAG20-TECHS/G198.html)
--   [G180: Zapewnienie użytkownikowi możliwości ustawienia limitu czasu na 10-krotność domyślnego limitu czasowego](https://www.w3.org/TR/WCAG20-TECHS/G180.html)
--   [SCR16: Zapewnienie skryptu, który ostrzega użytkownika, że limit czasu wkrótce wygaśnie](https://www.w3.org/TR/WCAG20-TECHS/SCR16.html) AND [SCR1: Allowing the user to extend the default time limit](https://www.w3.org/TR/WCAG20-TECHS/SCR1.html)
--   [G4: Umożliwienie zatrzymania zawartości i wznowienie jej od miejsca, w którym została wstrzymana](https://www.w3.org/TR/WCAG20-TECHS/G4.html)
--   [SCR33: Używanie skryptu do przewijania zawartości i zapewniania mechanizmu do jej wstrzymywania](https://www.w3.org/TR/WCAG20-TECHS/SCR33.html)
--   [SCR36: Zapewnienie mechanizmu umożliwiającego użytkownikom wyświetlanie ruchomego, przewijanego lub automatycznego aktualizowania tekstu w statycznym oknie lub obszarze](https://www.w3.org/TR/WCAG20-TECHS/SCR36.html)
--   [G170: Zapewnienie na początku strony internetowej kontrolki, która wyłącza dźwięki odtwarzane automatycznie](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G170)
--   [G60: Odtwarzanie dźwięku, który wyłącza się automatycznie w ciągu trzech sekund](https://www.w3.org/TR/WCAG20-TECHS/G60.html)
--   [G171: Odtwarzanie dźwięków tylko na żądanie użytkownika](https://www.w3.org/TR/WCAG20-TECHS/G171.html)
--   [G186: Zapewnienie na stronie internetowej kontrolki, umożliwia zatrzymanie przesuwania, migania lub automatyczej aktualizacji treści](http://www.w3.org/TR/WCAG20-TECHS/G186)
+
+- {% include techniki/G198.md %}
+- {% include techniki/G180.md %}
+- {% include techniki/SCR16.md %} ORAZ {% include techniki/SCR1.md %}
+- {% include techniki/G4.md %}
+- {% include techniki/SCR33.md %}
+- {% include techniki/SCR36.md %}
+- {% include techniki/G170.md %}
+- {% include techniki/G60.md %}
+- {% include techniki/G171.md %}
+- {% include techniki/G186.md %}

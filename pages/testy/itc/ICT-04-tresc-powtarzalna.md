@@ -9,9 +9,9 @@ folder: testy/itc
 # 4. Treść powtarzalna
 
 ## Wymagania dostępności
--   [KS WCAG: 2.4.1 Możliwość pominięcia bloków](https://wcag.lepszyweb.pl/#bypass-blocks) -- Dostępny jest mechanizm, który umożliwia pominięcie bloków treści powtarzanych na wielu stronach internetowych.
--   [KS WCAG: 3.2.3 Konsekwentna nawigacja](https://wcag.lepszyweb.pl/#consistent-navigation) -- Mechanizmy nawigacji, które powtarzają się na wielu stronach w serwisie internetowym, w danym porządku względnym wobec siebie, za każdym razem pojawiają się w tym samym porządku, chyba, że użytkownik sam wprowadzi zmiany.
--   [KS WCAG: 3.2.4 Konsekwentna identyfikacja](https://wcag.lepszyweb.pl/#consistent-identification) -- Komponenty, które posiadają tę samą funkcjonalność w danym serwisie internetowym, są w taki sam sposób zidentyfikowane.
+- {% include ks/2-4-1.md %}  
+- {% include ks/3-2-3.md %}  
+- {% include ks/3-2-4.md %}
 
 ## Uzasadnienie metody badania
 Aby umożliwić równe korzystanie ze strony przez użytkowników osbługujących ją wyłącznie z klawiatury, musi istnieć metoda umożliwiająca obejście powtarzających się treści bez konieczności użycia dodatkowych narzędzi. Powszechnie stosowaną metodą omijania powtarzalnych treści są łącza wewnętrzne (do miejsc na tej samej stronie), ale inne metody, takie jak ukrywanie menu i drzewo nawigacji, są dopuszczalne. Powtarzane treści są również oceniane pod kątem konsekwentnej kolejności względnej.
@@ -72,17 +72,17 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 ## Techniki WCAG 2.1
 Ten test podstawowy obejmuje metody obejścia, które działają tylko z klawiaturą. Nie uwzględniono następujących wystarczających technik WCAG, które wymagają dodatkowych narzędzi pomocniczych do działania jako metody obejścia:
 
--   [H69: Zapewnienie nagłówków na początku każdej sekcji treści](http://www.w3.org/TR/WCAG20-TECHS/H69.html)
+- {% include techniki/H69.md %}
 -   [Używanie punktów orientacyjnych ARIA do określenia istotnych obszarów strony](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA11.html)
 
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
 
--   [G1: Dodanie u góry każdej strony linku, który prowadzi bezpośrednio do głównego obszaru zawartości](http://www.w3.org/TR/WCAG20-TECHS/G1.html)
--   [G123: Dodanie linku na początku bloku powtarzanej treści, aby przejść do końca bloku](http://www.w3.org/TR/WCAG20-TECHS/G123.html)
--   [G124: Dodawanie linków u góry strony do każdego obszaru zawartości](http://www.w3.org/TR/WCAG20-TECHS/G124.html)
--   [SCR28: Korzystanie z rozwijanego i zwijanego menu w celu ominięcia bloku treści](http://www.w3.org/TR/WCAG20-TECHS/SCR28.html)
--   [G202: Zapewnienie sterowania klawiaturą dla wszystkich funkcji](http://www.w3.org/TR/WCAG20-TECHS/G202.html)
--   [H70: Używanie elementów ramek do grupowania bloków powtarzanego materiału](https://www.w3.org/TR/WCAG20-TECHS/H70.html) AND [H64: Używanie atrybutu title do tytułowania elementów frame i iframe](https://www.w3.org/TR/WCAG20-TECHS/H64.html)
--   [G61: Prezentowanie powtarzających się komponentów w tej samej kolejności, za każdym razem, gdy się pojawiają](https://www.w3.org/TR/WCAG20-TECHS/G61.html)
--   [G197: Używanie etykiet, nazw i alternatyw tekstowych w sposób spójny dla treści o takiej samej funkcjonalności](https://www.w3.org/TR/WCAG20-TECHS/G197.html)
--   [F31: Niespełnienie kryterium sukcesu 3.2.4 z powodu używania dwóch różnych etykiet dla tej samej funkcji na różnych stronach internetowych w zestawie stron internetowych](http://www.w3.org/TR/WCAG20-TECHS/F31.html)
+- {% include techniki/G1.md %}
+- {% include techniki/G123.md %}
+- {% include techniki/G124.md %}
+- {% include techniki/SCR28.md %}
+- {% include techniki/G202.md %}
+- {% include techniki/H70.md %} ORAZ {% include techniki/H64.md %}
+- {% include techniki/G61.md %}
+- {% include techniki/G197.md %}
+- {% include techniki/F31.md %}

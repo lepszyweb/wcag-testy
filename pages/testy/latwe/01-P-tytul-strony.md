@@ -31,7 +31,9 @@ Krótko mówiąc, tytuły są ważne nie tylko ze względu na dostępność.
 ### Tytuł strony w kodzie HTML
 W kodzie strony tytuł strony określony jest za pomocą znacznika `<title>` umieszczanego na początku sekcji `<head>`. Może wyglądać np. tak:
 
-```<title>Dostępny tytuł strony internetowej | Lepszy Web</title>```
+```html
+<title>Dostępny tytuł strony internetowej | Lepszy Web</title>
+```
 
 **Uwaga**: Znacznik elementu TITLE, znajdujący się w sekcji HEAD kodu HTML strony internetowej, nie powinien być mylony z atrybutem TITLE, który można zastosować do większości elementów HTML.
 
@@ -60,18 +62,23 @@ Anglojęzyczni specjaliści dostępności podkreślają, że tytuły stron powin
 Według zasad pisowni polskiej po tytułach, śródtytułach i wyrażeniach hasłowych nie stawiamy kropki. Reguła ta odnosi się również do tytułów stron internetowych. Na końcu tytułu kropki nie stawiamy. Ale inne znaki interpunkcyjne – wykrzykniki i pytajniki – stawiamy. Gdy jednak pytanie w tytule jest pozbawione tonu pytającego, to można znak zapytania pominąć.
 
 W tytułach kilkuczęściowych, np. złożonych z tematu strony i nazwy witryny, potrzebny jest jakiś znak interpunkcyjny jako separator części składowych. Nie ma jasno zdefiniowanej reguły dotyczących stosowania znaków interpunkcyjnych jako separatorów tytułów. Mogą to być myślniki. Często jest to znak pionowej kreski „|”  (nazywany „pipe”). Można też użyć kropki.  
-Nie należy natomiast używać w tytułach znaków interpunkcyjnych do celów dekoracyjnych, na przykład ":: Tytuł ::" lub "... == Tytuł == ...".  Każdy taki znak jest odczytywany przez czytniki ekranu, co sprawia, że odsłuchanie tytułów staje się uciążliwe.   
+Nie należy natomiast używać w tytułach znaków interpunkcyjnych do celów dekoracyjnych, na przykład ":: Tytuł ::" lub "... == Tytuł == ...".  Każdy taki znak jest odczytywany przez czytniki ekranu, co sprawia, że odsłuchanie tytułów staje się uciążliwe.
+
 #### Przykłady złych praktyk w tytułowaniu stron
--	Witamy na stronie głównej Pracowni Dostępności Cyfrowej LepszyWeb.pl
--	Pracownia Dostępności Cyfrowej LepszyWeb.pl | O nas
--	Pracownia Dostępności Cyfrowej LepszyWeb.pl – Usługi
--	Pracownia Dostępności Cyfrowej LepszyWeb.pl :: Skontaktuj się z nami
+````
+Witamy na stronie głównej Pracowni Dostępności Cyfrowej LepszyWeb.pl
+Pracownia Dostępności Cyfrowej LepszyWeb.pl | O nas
+Pracownia Dostępności Cyfrowej LepszyWeb.pl – Usługi
+Pracownia Dostępności Cyfrowej LepszyWeb.pl :: Skontaktuj się z nami
+````
 
 #### Przykłady dobrych praktyk
--	Strona główna | Pracownia Dostępności Cyfrowej LepszyWeb.pl
--	O nas | LepszyWeb.pl
--	Usługi | LepszyWeb.pl
--	Skontaktuj się z nami | LepszyWeb.pl
+````
+Strona główna | Pracownia Dostępności Cyfrowej LepszyWeb.pl
+O nas | LepszyWeb.pl
+Usługi | LepszyWeb.pl
+Skontaktuj się z nami | LepszyWeb.pl
+````
 
 Zwróć uwagę, że pełna nazwa witryny w przykładach powyżej została zastosowana tylko na stronie głównej.
 

@@ -8,21 +8,18 @@ folder: testy/itc
 ---
 
 ## Wymagania dostępności
----------------------
--   [KS WCAG: 3.1.1 Język strony](http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html) -- Domyślny język naturalny każdej strony internetowej może zostać odczytany przez program komputerowy.
--   [KS WCAG: 3.1.2 Język części](http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html) -- Język naturalny każdej części lub frazy zawartej w treści może zostać odczytany przez program komputerowy, za wyjątkiem nazw własnych, wyrażeń technicznych, słów w nieokreślonym języku oraz słów i fraz, które stanowią część żargonu w bezpośrednio otaczającym je tekście.
+- {% include ks/3-1-1.md %}
+- {% include ks/3-1-2.md %}
 
 ## Uzasadnienie metody badania
-------------------------------
 Domyślny język naturalny (ludzki) dla każdej strony musi być zidentyfikowany programowo. Fragmenty, które używają języka innego niż domyślny, muszą zostać określone programowo.
 
 ## Ograniczenia, założenia lub wyjątki
---------------------------------------
 -   W przypadku treści internetowych atrybut języka `lang` może być atrybutem wielu znaczników HTML. Jego struktura to `<[znacznik HTML] lang="[podstawowy podznacznik języka\]">`. Podstawowy podznacznik języka jest pierwszym 2 lub 3 znakowym kodem w wartości atrybutu `lang`. Dialekty określone w podznacznikach języka (dodatkowe 2 lub 3 znaki) nie są częścią tego testu.
 -   Wyjątek:  Nazwy własne, terminy techniczne, słowa nieokreślonego języka oraz słowa lub frazy, które stały się częścią języka bezpośrednio otaczającego tekstu, nie są objęte językiem części.
 
 ## Procedura testu dla KS 3.1.1 Język strony
---------------------------------------------
+
 ### Identyfikacja treści
 Strony z tekstem (w tym z tekstem alternatywnym).
 
@@ -37,7 +34,7 @@ Strony z tekstem (w tym z tekstem alternatywnym).
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.1.1  oraz wymaganie podstawowe nr 15 kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 3.1.2 Język części
---------------------------------------------
+
 ### Identyfikacja treści
 Zawartość tekstowa, która różni się od domyślnego naturalnego języka strony, w tym teksty alternatywne dla zawartości nietekstowej.
 
@@ -51,10 +48,10 @@ Zawartość tekstowa, która różni się od domyślnego naturalnego języka str
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.1.2  oraz wymaganie podstawowe nr 15 kończy się niepowodzeniem.
 
 ##  Wskazówki dotyczące usprawniania procesu testowego
-----------------------------------------------------------
 Brak.
 
 ### Techniki WCAG 2.1
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
--   [H57: Używanie atrybutu lang dla elementu html](https://www.w3.org/TR/WCAG20-TECHS/H57.html)
--   [H58: Używanie atrybutu lang do wskazywania zmian w języku naturalnym](https://www.w3.org/TR/WCAG20-TECHS/H58.html)
+
+- {% include techniki/H57.md %}
+- {% include techniki/H58.md %}

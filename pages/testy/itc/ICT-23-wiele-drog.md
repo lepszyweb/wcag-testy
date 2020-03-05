@@ -8,8 +8,7 @@ folder: testy/itc
 ---
 
 ## Wymagania dostępności
-
--   [KS WCAG 2.4.5 Wiele dróg](https://wcag.lepszyweb.pl/#multiple-ways) -- Istnieje więcej niż jedna droga umożliwiająca zlokalizowanie strony w danym serwisie internetowym, za wyjątkiem sytuacji, kiedy dana strona jest wynikiem jakiejś procedury lub jednym z jej etapów.
+- {% include ks/2-4-5.md %}
 
 ## Uzasadnienie metody badania
 Ten test podstwowy wymaga ręcznego sprawdzenia kilku różnych technik służacych lokalizacji strony w zestawie stron.
@@ -41,9 +40,10 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 
 ## Techniki WCAG 2.1
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
--   [G125: Zapewnienie linków nawigacyjnych do powiązanych stron internetowych](https://www.w3.org/TR/WCAG20-TECHS/G125.html)
--   [G64: Zapewnienie spisu treści](https://www.w3.org/TR/WCAG20-TECHS/G64.html)
--   [G63: Zapewnienie mapy witryny](https://www.w3.org/TR/WCAG20-TECHS/G63.html)
--   [G161: Zapewnienie funkcji wyszukiwania, aby pomóc użytkownikom znaleźć treść](https://www.w3.org/TR/WCAG20-TECHS/G161.html)
--   [G126: Zapewnienie listy linków do wszystkich innych stron internetowych](https://www.w3.org/TR/WCAG20-TECHS/G126.html)
--   [G185: Łączenie do wszystkich stron witryny ze strony głównej](https://www.w3.org/TR/WCAG20-TECHS/G185.html)
+
+- {% include techniki/G125.md %}
+- {% include techniki/G64.md %}
+- {% include techniki/G63.md %}
+- {% include techniki/G161.md %}
+- {% include techniki/G126.md %}
+- {% include techniki/G185.md %}

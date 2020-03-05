@@ -8,8 +8,8 @@ folder: testy/itc
 ---
 
 ## Wymagania dostępności
--   [KS WCAG: 2.4.3 Kolejność fokusa](https://wcag.lepszyweb.pl/#focus-order) -- Jeśli strona internetowa może być nawigowana sekwencyjnie, a kolejność nawigacji wpływa na zrozumienie lub funkcjonalność strony, komponenty przyjmujące fokus zachowują kolejność, dzięki której zachowany jest sens i funkcjonalność treści.
--   [KS WCAG: 3.2.1 Po oznaczeniu fokusem](https://wcag.lepszyweb.pl/#on-focus) -- Jeśli jakikolwiek komponent jest oznaczony fokusem, nie powoduje to zmiany kontekstu.
+- {% include ks/2-4-3.md %}  
+- {% include ks/3-2-1.md %}  
 
 ## Uzasadnienie metody badania
 Korzystanie z klawiatury do nawigacji ułatwia kontrolę kolejności ustawiania fokusa.
@@ -67,10 +67,11 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 -   Przydatne może być przekazanie testerowi instrukcji na temat tego, czym są „modalne okna dialogowe” i jak powinny się zachowywać.
 
 ## Techniki WCAG 2.1
--   Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
-    -   [G59: Umieszczanie elementów interaktywnych w kolejności podążającej za sekwencjami i relacjami w obrębie treści](http://www.w3.org/TR/WCAG20-TECHS/G59.html)
-    -   [H4: Tworzenie logicznej kolejności tabulacji poprzez łącza, formanty formularzy i obiekty](http://www.w3.org/TR/WCAG20-TECHS/H4.html)
-    -   [G107: Używanie raczej &bdquo;aktywuj&bdquo; niż &bdquo;focus&bdquo; jako polecenia uruchamiającego zmiany kontekstu](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G107)
-    -   [F55: Niespełnienie kryterium sukcesu 2.1.1, 2.4.7 i 3.2.1 z powodu użycia skryptu do usunięcia wskaźnika fokusa po otrzymaniu fokusa](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F55)
-    -   [SCR26: Wstawianie dynamicznej zawartości do modelu obiektów dokumentu bezpośrednio po elemencie wyzwalającym](https://www.w3.org/TR/WCAG20-TECHS/SCR26.html)
-    -   [F85: Niespełnienie kryterium sukcesu 2.4.3 z powodu używania okien dialogowych lub menu, które nie sąsiadują z ich kontrolą wyzwalania w kolejności sekwencyjnej nawigacji](https://www.w3.org/TR/WCAG20-TECHS/F85.html)
+Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
+
+- {% include techniki/G59.md %}
+- {% include techniki/H4.md %}
+- {% include techniki/G107.md %}
+- {% include techniki/F55.md %}
+- {% include techniki/SCR26.md %}
+- {% include techniki/F85.md %}

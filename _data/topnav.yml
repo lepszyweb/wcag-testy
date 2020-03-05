@@ -14,16 +14,18 @@ topnav_dropdowns:
       folderitems:
         - title: Wprowadzenie
           url: /glosy-wprowadzenie
-        - title: Postrzegalność - w planie
+        - title: Postrzegalność
           url: /glosy-postrzegalnosc
-        - title: Funkcjonalność - w planie
+        - title: Funkcjonalność
           url: /glosy-funkcjonalnosc
-        - title: Zrozumiałość - w planie
+        - title: Zrozumiałość
           url: /glosy-zrozumialosc
-        - title: Rzetelność - w planie
+        - title: Rzetelność
           url: /glosy-rzetelnosc
         - title: Słownik dostępności
-          url: /slownik         
+          url: /slownik
+        - title: Słownik testera
+          url: /slownik-testera                     
     - title: Metody
       folderitems:
         - title: Wprowadzenie

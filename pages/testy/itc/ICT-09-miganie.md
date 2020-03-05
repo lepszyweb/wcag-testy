@@ -6,11 +6,8 @@ sidebar: testy_sidebar
 permalink: ICT-09-miganie
 folder: testy/itc
 ---
-#
-
 ## Wymagania dostępności
----------------------
--   [KS WCAG: 2.3.1 Trzy błyski lub wartości poniżej progu](https://wcag.lepszyweb.pl/#three-flashes-or-below-threshold) - \[Strony internetowe\] nie zawierają w swojej treści niczego, co migocze częściej niż trzy razy w ciągu jednej sekundy, lub też błysk [nie przekracza wartości granicznych dla błysków ogólnych i czerwonych.](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#general-thresholddef).
+- {% include ks/2-3-1.md %}
 -   [Wymogi zgodności: 5. Brak zakłóceń](https://www.w3.org/TR/WCAG20/#cc5) - Następujące kryteria sukcesu dotyczą całej treści na stronie, włącznie z treścią, która w innych przypadkach nie jest podstawą spełnienia wymogów zgodności, gdyż niezastosowanie poniższych kryteriów mogłoby uniemożliwić jakiekolwiek skorzystanie ze strony: 1.4.2 - Kontrola odtwarzania dźwięku, 2.1.2 - Brak pułapki na klawiaturę, 2.3.1 Trzy błyski lub wartości poniżej progu, 2.2.2: Wstrzymywanie (pauza), zatrzymywanie, ukrywanie.
 
 ## Uzasadnienie metody badania
@@ -26,8 +23,8 @@ Ten test rozwiązuje problem migania spowodowanego przez samą treść, w tym:
 ## Ograniczenia, założenia lub wyjątki
 --------------------------------------
 - Możliwe jest, że użytkownicy będą mogli oglądać zawartość w rozdzielczości lub z odległości znacznie różniącej się od rozdzielczości i odległości przewidywanej (założonej).
-- Do celów tego testu podstawowego terminy migani i mruganie mogą być używane synonimicznie z terminem błysk, blyskanie.
-- Migające elementy, które spełniają ten wymóg, nadal muszą spełniać wymagania KS 2.2.2 2.2.2 Wstrzymywanie (pauza), zatrzymywanie, ukrywanie, jeśli miganie trwa dłużej niż 5 sekund ([Wymaganie podstawowe 21. Limity czasu](testy/ICT_21_limity-czasu.md)).
+- Do celów tego testu podstawowego terminy miganie i mruganie mogą być używane synonimicznie z terminem błysk, blyskanie.
+- Migające elementy, które spełniają ten wymóg, nadal muszą spełniać wymagania KS 2.2.2 Wstrzymywanie (pauza), zatrzymywanie, ukrywanie, jeśli miganie trwa dłużej niż 5 sekund ([Wymaganie podstawowe 21. Limity czasu](testy/ICT_21_limity-czasu.md)).
 - Uwaga z KS 2.3.1:
     - Uwaga 1: Ponieważ każda treść, która nie spełnia tego kryterium sukcesu może utrudnić użytkownikowi skorzystanie z całej strony, cała zawartość danej strony (bez względu na to, czy spełnia inne kryteria, czy nie) musi spełnić powyższe kryterium. Zobacz: Wymagania zgodności: Brak zakłóceń.
 
@@ -53,7 +50,7 @@ Jeżeli WSZYSTKIE powyższe próby zakończą się niepowodzeniem, wówczas test
 - Jeśli treść będzie wyświetlana lub wyświetlana w znacznie różnych rozmiarach lub odległościach (np. treści responsywne przeznaczone do wyświetlania na pulpicie, w telefonie komórkowym i/lub innych wyświetlaczach), treść należy ocenić dla każdego scenariusza..
 
 ## Techniki WCAG 2.1
---------------------
--   Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
-    -   [G19: Zapewnienie, że żaden element zawartości nie miga częściej niż trzy razy w ciągu 1 sekundy](https://www.w3.org/TR/WCAG20-TECHS/G19.html)
-    -   [G176: Ograniczanie obszaru migania do bezpiecznego rozmiaru](https://www.w3.org/TR/WCAG20-TECHS/G176.html)
+Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
+
+- {% include techniki/G19.md %}
+- {% include techniki/G176.md %}

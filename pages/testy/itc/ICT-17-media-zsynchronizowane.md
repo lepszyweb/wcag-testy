@@ -7,21 +7,16 @@ permalink: ICT-17-media-zsynchronizowane
 folder: testy/itc
 ---
 
-
 ## Wymagania dostępności
-------------------------------
--   [KS WCAG: 1.2.2 Napisy rozszerzone (nagranie)](https://wcag.lepszyweb.pl/#captions-prerecorded) -- Napisy rozszerzone dołączone są do wszystkich nagrań audio w multimediach zsynchronizowanych (dźwięk i obraz), za wyjątkiem sytuacji, kiedy są one alternatywami dla tekstu i w taki sposób są oznaczone.
--   [KS WCAG: 1.2.3 Audiodeskrypcja lub alternatywa dla mediów (nagranie)](https://wcag.lepszyweb.pl/#audio-description-or-media-alternative-prerecorded) -- Zapewnia się alternatywę dla mediów zmiennych w czasie lub audiodeskrypcję dla nagrań wideo w multimediach zsynchronizowanych (dźwięk i obraz), za wyjątkiem sytuacji, kiedy są one alternatywami dla tekstu i w taki sposób są oznaczone.
--   [KS WCAG: 1.2.4 Napisy rozszerzone (na żywo)](https://wcag.lepszyweb.pl/#captions-live) -- Napisy rozszerzone dołączone są do wszystkich treści audio przekazywanych na żywo w multimediach zsynchronizowanych (dźwięk i obraz).
--   [KS WCAG: 1.2.5 Audiodeskrypcja (nagranie)](https://wcag.lepszyweb.pl/#audio-description-prerecorded) -- Zapewniona jest audiodeskrypcja dla wszystkich nagrań wideo w multimediach zsynchronizowanych (dźwięk i obraz).
-
+- {% include ks/1-2-2.md %}
+- {% include ks/1-2-3.md %}
+- {% include ks/1-2-4.md %}
+- {% include ks/1-2-5.md %}
 
 ## Uzasadnienie metody badania
-------------------------------
 Ocena nadpisów i opisów dźwiękowych w celu oceny ich równoważności z zsynchronizowanymi treściami medialnymi zazwyczaj obejmuje ręczne, poznawcze porównanie oryginalnej treści z jej alternatywami.
 
 ## Ograniczenia, założenia lub wyjątki
----------------------------------------
 -   [Zsynchronizowane multimedia](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html#synchronizedmediadef) - dźwięk lub wideo zsynchronizowane z innym formatem, w celu prezentacji informacji lub/i z interaktywnymi komponentami, o ile nie jest to wyraźnie oznaczona alternatywa dla tekstu. Zsynchronizowane multimedia obejmują między innymi transmisje internetowe, konferencje prasowe i internetowe prezentacje szkoleniowe.
 -   [Napisy rozszerzone](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html#captionsdef) - informacja w postaci alternatywy tekstowej zsynchronizowana z obrazem, przedstawiająca zarówno mowę, jak i inne dźwięki niezbędne do zrozumienia zawartości danego medium:
     -   Uwaga 1: Napisy rozszerzone mają formę podobną do zwykłych napisów, z tą różnicą, że zawierają nie tylko dialogi, ale również opis sytuacji pozadialogowej
@@ -37,7 +32,7 @@ Ocena nadpisów i opisów dźwiękowych w celu oceny ich równoważności z zsyn
     -   Uwaga 2: Kryteria sukcesu 1.2.3, 1.2.5 i 1.2.8 nieco się pokrywają. Ma to na celu zapewnienie autorowi pewnego wyboru na minimalnym poziomie zgodności, a także zapewnienie dodatkowych wymagań na wyższych poziomach. Na poziomie A w kryterium sukcesu 1.2.3  mają możliwość wyboru między opisem dźwiękowym a pełną alternatywą tekstową. Jeśli chcą zachować zgodność na poziomie AA, w ramach kryterium sukcesu 1.2.5 muszą przedstawić opis dźwiękowy - wymóg już spełniony, jeśli wybrali tę alternatywę dla 1.2.3, w przeciwnym razie będzie to dodatkowy wymóg.
 
 ## Procedura testu dla KS 1.2.2 Napisy rozszerzone (nagranie)
-------------------------------
+
 ### Identyfikacja treści
 Nagrane multimedia zsynchronizowane.
 
@@ -52,7 +47,7 @@ Nagrane multimedia zsynchronizowane.
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test 1.2.2 oraz Wymaganie podstawowe nr 17 kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 1.2.4 Napisy rozszerzone (na żywo)
-------------------------------
+
 ### Identyfikacja treści
 Zsynchronizowane multimedia na żywo.
 
@@ -66,7 +61,7 @@ Zsynchronizowane multimedia na żywo.
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test 1.2.4 oraz Wymaganie podstawowe nr 17 kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 1.2.5 1.2.5 Audiodeskrypcja (nagranie)
-------------------------------
+
 ### Instrukcja testowania
 1.  Włącz opisy dźwiękowe za pomocą funkcji odtwarzacza multimedialnego i odtwarzaj multimedia. Jeśli dostarczono osobny plik multimedialny z audiodeskrypcją, przetestuj ten plik.
 2.  Sprawdź, czy dźwięk (z włączonymi opisami dźwiękowymi) odpowiednio opisuje ważną treść wizualną w medium, w tym informuje o działaniach, postaciach, zmianach scen, tekście na ekranie i innych treściach wizualnych.
@@ -75,15 +70,15 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test 1.2.5 oraz Wymaganie podstawowe nr 17 kończy się niepowodzeniem.
 
 ##  Wskazówki dotyczące usprawniania procesu testowego
-------------------------------
+
 -   Testowanie zsynchronizowanych multimediów różni się od testów podstawowych [16. Tylko audio i tylko wideo](testy/ICT_16_tylko-audio-tylko-wideo.md).
 -   Zsynchronizowane odtwarzacze multimedialne mogą być programami (aplikacjami) lub komponentami HTML.
 -   Na poziomie AA kryterium sukcesu 1.2.5 ma zastosowanie do multimediów zsynchronizowanych. Powiązane wymaganie poziomu A, KS 1.2.3, należy oznaczyć w raporcie z testu jako „Nie testowano”. Dopuszczalne jest, aby procesy testowe dodawały test dla KS 1.2.3 (ocenianie pełnego tekstu alternatywnego pod kątem równoważności). Dodanie takiego testu przekroczyłoby podstawowe wymagania testowe i nie wpłynęłoby na wynik testu podstawowego nr 18.
 
 ## Techniki WCAG 2.1
-------------------------------
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
--   [G93: Zapewnienie otwartych (zawsze widocznych) napisów](http://www.w3.org/TR/WCAG20-TECHS/G93.html)
--   [G87: Zapewnienie napisów zamkniętych](http://www.w3.org/TR/WCAG20-TECHS/G87.html)
--   [G9: Tworzenie na żywo napisów dla niesłyszących w mediach zsynchronizowanych](http://www.w3.org/TR/WCAG20-TECHS/G9.html)
--   [G78: Zapewnienie drugiej, wybranej przez użytkownika ścieżki dźwiękowej, która zawiera opis dźwiękowy (audiodeskrypcję)](http://www.w3.org/TR/WCAG20-TECHS/G78.html)
+
+- {% include techniki/G93.md %}
+- {% include techniki/G87.md %}
+- {% include techniki/G9.md %}
+- {% include techniki/G78.md %}

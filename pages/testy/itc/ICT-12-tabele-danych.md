@@ -8,18 +8,15 @@ folder: testy/itc
 ---
 
 ## Wymagania dostępności
---------------------------
--   [KS WCAG: 1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-and-relationships): Informacje, struktura oraz relacje pomiędzy treściami przedstawiane w treści mogą być odczytane przez program komputerowy lub są dostępne w postaci tekstu.
+- {% include ks/1-3-1.md %}
 
 ## Uzasadnienie metody badania
-------------------------------
 W przypadku użytkowników technologii wspomagających (AT) tabele danych muszą jawnie kojarzyć dane tabeli z nagłówkami wierszy i kolumn tabeli za pomocą znacznika programowego. Znaczniki tabel ułatwiają także nawigację użytkownikom AT, zapewniając programowe punkty orientacyjne za pomocą nagłówków kolumn i wierszy.
 
 Gdy elementy `<table>` są używane do celów układu, niedozwolone sa elementy struktury tabeli danych, takie jak `<th>`, `<caption>`;, lub `summary=` (HTML4).
 
 
 ## Ograniczenia, założenia lub wyjątki
---------------------------------------
 -   **Tabele danych** to tabele, w których informacje w komórce wymagają nagłówka wiersza lub kolumny, który odpowiednio opisuje zawartość komórek. Jeśli tabela jest używana do rozmieszczania na stronie komponentów ze względu na estetykę wizualną, wówczas jest uważana za **tabelę układu**.
 -   Technikę tę można zastosować w  projektach responsywnych. Te elementy wykorzystują CSS i/lub inne metody stylizacji do prezentacji zawartości w kolumnach lub wierszach. Przekazywana informacja nie opiera się na zrozumiałych relacjach programowych z nagłówkami kolumn lub wierszy. Taka treść nie jest tabelą danych i nie powinna wykorzystywać elementu tabeli, atrybutu ARIA `role="table"` ani powiązanych atrybutów tabeli programowej. Powinna być baddana przy użyciu innych testów podstawowych, takich jak [13. Struktura treści](13_StrukturaTresci.md) lub ewentualnie [10. Formularze (powiązane instrukcje)](ICT_10_formularze.md).
 -   Wiersze powiązanych danych muszą mieć nagłówek wiersza, aby użytkownicy technologii wspomagających mogli zrozumieć relacje między komórkami danych wiersza. Nie każda tabela wymaga nagłówka wiersza. Na przykład miesiąc kalendarzowy to tabela danych, zwykle z nagłówkami kolumn dniami tygodnia. Daty w rzędach nie są powiązane, więc zazwyczaj nie ma nagłówka wiersza. Gdyby jednak w każdym wierszu znajdowałaby się komórka wskazująca kolejny tydzień roku, komórka ta służyłaby jako nagłówek wiersza dla dat w tym wierszu.
@@ -75,8 +72,9 @@ Treści, które są prezentowana za pomocą CSS, aby wyglądały jak tabela, ale
 
 ## Techniki WCAG 2.1
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
--   [H43: Używanie atrybutów id i headers do kojarzenia komórek danych z komórkami nagłówków w tabelach danych](https://www.w3.org/TR/WCAG20-TECHS/H43.html)
--   [H51: Używanie znaczników tabel do prezentacji danych tabelarycznych](https://www.w3.org/TR/WCAG20-TECHS/H51.html)
--   [H63: Używanie atrybutu scope do kojarzenia komórek nagłówka i komórek danych w tabelach danych](https://www.w3.org/TR/WCAG20-TECHS/H63.html)
--   [F49: Niespełnienie kryterium sukcesu 1.3.2 z powodu użycia do formowania układu tabeli HTML, która nie ma sensu po linearyzacji](https://www.w3.org/TR/WCAG20-TECHS/F49.html)
--   [F46: Niespełnienie kryterium sukcesu 1.3.1 z powodu użycia elementów th, elementów caption lub niepustych atrybutów summary w tabelach formujących układ](http://www.w3.org/TR/WCAG20-TECHS/F46.html)
+
+- {% include techniki/H43.md %}
+- {% include techniki/H51.md %}
+- {% include techniki/H63.md %}
+- {% include techniki/F49.md %}
+- {% include techniki/F46.md %}

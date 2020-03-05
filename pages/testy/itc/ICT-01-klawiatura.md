@@ -8,8 +8,8 @@ folder: testy/itc
 ---
 
 ## Wymagania dostępności
--   [KS WCAG: 2.1.1 Klawiatura](https://wcag.lepszyweb.pl/#keyboard) – Cała treść oraz wszystkie zawarte w niej \[funkcjonalności\] dostępne są z interfejsu klawiatury, bez wymogu określonego czasu użycia poszczególnych klawiszy, poza tymi przypadkami, kiedy dana funkcja wymaga wprowadzenia informacji przez użytkownika w oparciu o ścieżkę ruchów, a nie w oparciu o punkty końcowe wejścia.
--   [KS WCAG: 2.1.2 Brak pułąpki na klawiaturę](https://wcag.lepszyweb.pl/#no-keyboard-trap) – Jeśli fokus klawiatury można przemieścić do danego komponentu treści za pomocą \[interfejsu klawiatury\], to może on być z niego usunięty również za pomocą interfejsu klawiatury, w przypadku gdy wymagane, a jeśli wówczas jest wymagane użycie czegoś więcej niż samych strzałek, tabulatora lub innych standardowych metod wyjścia, użytkownik musi otrzymać odpowiednią podpowiedź, w jaki sposób usunąć fokus z danego komponentu.
+- {% include ks/2-1-1.md %}  
+- {% include ks/2-1-2.md %}  
 
 -   [Wymogi zgodności: 5. Brak zakłóceń](https://www.w3.org/TR/WCAG20/#cc5) - Następujące kryteria sukcesu dotyczą całej treści na stronie, włącznie z treścią, która w innych przypadkach nie jest podstawą spełnienia wymogów zgodności, gdyż niezastosowanie poniższych kryteriów mogłoby uniemożliwić jakiekolwiek skorzystanie ze strony: 1.4.2 - Kontrola odtwarzania dźwięku, 2.1.2 - Brak pułapki na klawiaturę, 2.3.1 Trzy błyski lub wartości poniżej progu, 2.2.2: Wstrzymywanie (pauza), zatrzymywanie, ukrywanie.
 
@@ -70,7 +70,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 
 
 ## Techniki WCAG 2.1
--   Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
+Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
 
-    -   [G202: Zapewnienie sterowania klawiaturą dla wszystkich funkcji](http://www.w3.org/TR/WCAG20-TECHS/G202.html)
-    -   [G21: Zapewnienie, że użytkownicy nie zostaną uwięzieni w treści](http://www.w3.org/TR/WCAG20-TECHS/G21.html)
+- {% include techniki/G202.md %}
+- {% include techniki/G21.md %}

@@ -1,0 +1,1 @@
+[SCR16: Zapewnienie skryptu, który ostrzega użytkownika, że limit czasu wkrótce wygaśnie](https://www.w3.org/TR/WCAG20-TECHS/SCR16.html)

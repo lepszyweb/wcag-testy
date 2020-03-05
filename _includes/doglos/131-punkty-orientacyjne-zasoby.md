@@ -1,0 +1,13 @@
+- [Page Structure Tutorial \| Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/page-structure/)
+- [ARIA Landmarks Example \| W3C](https://www.w3.org/TR/wai-aria-practices/examples/landmarks/main.html)
+- [Przykłady punktów orientacyjnych ARIA \| LepszyWeb.pl](https://lepszyweb.pl/warsztaty/landmark/)
+- [Using ARIA Landmarks – A Demonstration \| NC State University](https://accessibility.oit.ncsu.edu/using-aria-landmarks-a-demonstration/)
+- [Easy content organisation with HTML5 \| Steve Faulkner, The Paciello Group](https://developer.paciellogroup.com/blog/2015/09/easy-content-organisation-with-html5/)
+- [Using WAI-ARIA Landmarks – 2013 \| Steve Faulkner, The Paciello Group](https://developer.paciellogroup.com/blog/2013/02/using-wai-aria-landmarks-2013/)
+- [Accessible Landmarks \| Scott O'Hara](https://www.scottohara.me/blog/2018/03/03/landmarks.html)
+- [ARIA Landmarks \| NC State University](https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/aria-landmarks/)
+- [ARIA Landmark Roles \| University of Washington](https://www.washington.edu/accessibility/web/landmarks/)
+- [Landmarks \| A11Y-101](https://a11y-101.com/development/landmarks)
+- Rozszerzenie przeglądarek
+  - [Landmarks \| Matthew Tylee Atkinson, repozytorium Github](https://github.com/matatk/landmarks)
+  - [Landmarks \| Matthew Tylee Atkinson, strona projektu](http://matatk.agrip.org.uk/landmarks/)

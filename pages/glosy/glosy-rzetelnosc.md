@@ -1,16 +1,17 @@
 ---
 title: Rzetelność
-summary: ""
+summary: "Właściwość świadcząca o starannym, dokładnym, zgodnym ze standardami kodowaniu treści."
 
 sidebar: glosy_sidebar
 permalink: glosy-rzetelnosc
 folder: glosy
 ---
 
-## Wprowadzenie
+## {% include ks/z-4.md %} 
 
-{% include important.html content="Planujemy opracowanie materiału na ten temat. Sygnały treści zawiera streszczenie." %}
+### {% include ks/w-4-1.md %} 
+{% include ks/4-1-1.md %} 
 
-## Możesz pomóc
+{% include ks/4-1-2.md %} 
 
-{% include tip.html content="Zapraszamy. Ten temat czeka także na Ciebie. Jeśli możesz, dodaj potrzebną Twoim zdaniem treść." %}
+{% include ks/4-1-3.md %} 

@@ -9,7 +9,7 @@ folder: testy/itc
 # 5. Treść zmienna
 
 ## Wymagania dostępności
--   [KS WCAG: 4.1.2 Nazwa, rola, wartość](https://wcag.lepszyweb.pl/#name-role-value): Dla wszystkich komponentów interfejsu użytkownika (włączając w to, ale nie ograniczając jedynie do elementów formularzy, linków oraz komponentów wygenerowanych przez skrypty) nazwa oraz rola (przeznaczenie) mogą być odczytane przez program komputerowy, a stan, właściwości oraz wartości, które mogą być ustawione przez użytkownika, mogą również być ustawione przez program komputerowy; zawiadomienie o zmianach w tych elementach dostępne jest dla programów użytkownika, w tym technologii wspomagających.
+- {% include ks/4-1-2.md %}  
 
 ## Uzasadnienie metody badania
 Celem tego testu podstawowego jest identyfikacja zmian wizualnych w treści i stanach komponentów, które występują bez odświeżania strony oraz skorelowanie tych zmian z równoważnymi informacjami programowymi i/lub tekstowymi. Użytkownicy technologii wspomagajacych powinni uzyskać powiadomienie o takich zmianach.

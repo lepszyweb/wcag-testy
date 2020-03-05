@@ -7,9 +7,8 @@ permalink: ICT-02-widoczny-fokus
 folder: testy/itc
 ---
 
-
 ## Wymagania dostępności
--   [KS WCAG: 2.4.7 Widoczny fokus](https://wcag.lepszyweb.pl/#focus-visible) -- Każdy interfejs możliwy do nawigacji za pomocą klawiatury, posiada widoczny wskaźnik fokusa klawiatury.
+- {% include ks/2-4-7.md %}  
 
 ## Uzasadnienie metody badania
 Ręczna nawigacja lub sterowanie interfejsem tylko za pomocą klawiatury umożliwi testerowi rozpoznanie, kiedy nie ma wizualnego rozróżnienia między elementem posiadajacym fokus a resztą interfejsu lub zawartości.
@@ -43,7 +42,8 @@ Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, ro
 
 
 ## Techniki WCAG 2.1
--   Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
-    -   [G149: Korzystanie z komponentów interfejsu użytkownika, które są wyróżniane przez aplikację klienta, gdy otrzymują fokus.](http://www.w3.org/TR/WCAG20-TECHS/G149.html)
-    -   [G165: Korzystanie z domyślnego dla platformy oznaczenia fokusa, dzięki czemu będą one przenoszone na inne platformy](https://www.w3.org/TR/WCAG20-TECHS/G165.html)
-    -   [G195: Korzystanie z dobrze widocznego wskaźnika fokusa dostarczonego przez autora](https://www.w3.org/TR/WCAG20-TECHS/G195.html)
+Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
+
+- {% include techniki/G149.md %}
+- {% include techniki/G165.md %}
+- {% include techniki/G195.md %}

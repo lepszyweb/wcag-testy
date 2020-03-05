@@ -1,0 +1,1 @@
+[SCR26: Wstawianie dynamicznej zawartości do modelu obiektów dokumentu bezpośrednio po elemencie wyzwalającym](https://www.w3.org/TR/WCAG20-TECHS/SCR26.html

@@ -1,5 +1,5 @@
 ---
-title: 20. Zgodność z wersją alternatywną
+title: 20. Wersja alternatywna zapewniająca zgodność
 
 
 sidebar: testy_sidebar
@@ -7,7 +7,7 @@ permalink: ICT-20-wersje-alternatywne
 folder: testy/itc
 ---
 
-
+Według zdefiniownych w WCAG [wymogów zgodności](http://www.fdc.org.pl/wcag2/index.html#conformance-reqs") strona internetowa lub jej część może być uznana za zgodną z WCAG na określonym poziomie, jeśli spełnia wszystkie kryteria sukcesu na tym poziomie ALBO dostępna jest [wersja alternatywna zapewniająca zgodność](http://www.fdc.org.pl/wcag2/index.html#conforming-alternate-versiondef) na tym poziomie ORAZ zostaną spełnione pozostałe cztery wymogi zgodności    
 
 ## Wymagania dostępności
 ---------------------
@@ -62,6 +62,7 @@ Jeżeli którakolwiek z powyższych próbzakończy się niepowodzeniem, wówczas
 
 ## Techniki WCAG 2.1
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
--   [G136: Zapewnienie linku na początku niezgodnej strony internetowej, która wskazuje na alternatywną wersję zgodną z wymaganiami](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G136)
--   [G190: Zapewnienie łącza sąsiadującego lub powiązanego z niezgodnym obiektem, który łączy się z odpowiednią wersją alternatywną](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G190)
--   [C29: Używanie przełącznika stylu do zapewnienia zgodnej wersji alternatywnej (CSS)](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/C29)
+
+- {% include techniki/G136.md %}
+- {% include techniki/G190.md %}
+- {% include techniki/C29.md %}

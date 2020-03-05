@@ -1,0 +1,1 @@
+[ARIA12: Używanie atrybutu role=heading oraz aria-level="\#"do identyfikacji nagłówków](https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html)

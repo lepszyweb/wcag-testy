@@ -1,0 +1,1 @@
+[SCR36: Zapewnienie mechanizmu umożliwiającego użytkownikom wyświetlanie ruchomego, przewijanego lub automatycznego aktualizowania tekstu w statycznym oknie lub obszarze](https://www.w3.org/TR/WCAG20-TECHS/SCR36.html)

@@ -1,5 +1,5 @@
 ---
-title: Słownik
+title: Słownik dostępności cyfrowej
 last_updated: 17 lutego 2020
 
 sidebar: glosy_sidebar
@@ -17,35 +17,85 @@ a11y
 afordancje
 : {{site.data.glossary.afordancje}}
 
+alert
+: {{site.data.glossary.alert}}
+
+alternatywa dla mediów zmiennych w czasie
+: {{site.data.glossary.alternatywa_dla_mediow_zmiennych_w_czasie}}
+
 alternatywa tekstowa
 : {{site.data.glossary.alternatywa_tekstowa}}
+
+animacja ruchowa
+: {{site.data.glossary.animacja_ruchowa}}
 
 aplikacja mobilna
 : {{site.data.glossary.aplikacja_mobilna}}
 
+arkusz stylów
+: {{site.data.glossary.arkusz_stylow}}
+
 audio
 : {{site.data.glossary.audio}}
+
+audiodeskrypcja
+: {{site.data.glossary.audiodeskrypcja}}
+
+audiodeskrypcja_rozszerzona
+: {{site.data.glossary.audiodeskrypcja_rozszerzona}}
+
+automatyczne przekierowanie
+: {{site.data.glossary.automatyczne_przekierowanie}}
 
 ATAG
 : {{site.data.glossary.ATAG}}
 
-audytor
-: {{site.data.glossary.audytor}}
 
 ## B
 blok tekstu
 : {{site.data.glossary.blok_tekstu}}
 
+błąd wprowadzania danych
+: {{site.data.glossary.blad_wprowadzania_danych}}
+
+błysk
+: {{site.data.glossary.blysk}}
+
 ## C
-cel lacza
+CAPTCHA
+: {{site.data.glossary.CAPTCHA}}
+
+cała strona:
+: {{site.data.glossary.cala_strona}}
+
+całe procesy
+: {{site.data.glossary.cale_procesy}}
+
+cel łącza
 : {{site.data.glossary.cel_lacza}}
 
-cel testu
-: {{site.data.glossary.cel_testu}}
+czytnik ekranu
+: {{site.data.glossary.czytnik_ekranu}}
+
+## D
+dostosowanie wyglądu
+: {{site.data.glossary.dostosowanie_wygladu}}
+
+dotyk jednopunktowy
+: {{site.data.glossary.dotyk_jednopunktowy}}
+
+duża wielkość tekstu
+: {{site.data.glossary.duza_wielkosc_tekstu}}
 
 ## E
-ewaluator
-: {{site.data.glossary.ewaluator}}
+
+etykieta
+: {{site.data.glossary.etykieta}}
+
+
+## G
+graniczne wartości dowolnych błysków i czerwonych błysków
+: {{site.data.glossary.graniczne_wartosci_dowolnych_blyskow_i_czerwonych_blyskow}}
 
 ## F
 fokus klawiatury
@@ -55,14 +105,23 @@ funkcjonalność
 : {{site.data.glossary.funkcjonalnosc}}
 
 ## I
+idiom
+: {{site.data.glossary.idiom}}
+
+informacyjne
+: {{site.data.glossary.informacyjne}}
+
 interaktywność
 : {{site.data.glossary.interaktywnosc}}
 
-interfejs_klawiaturowy
+interfejs klawiaturowy
 : {{site.data.glossary.interfejs_klawiaturowy}}
 
 istotna funkcjonalność
 : {{site.data.glossary.istotna_funkcjonalnosc}}
+
+istotny
+: {{site.data.glossary.istotny}}
 
 ## J
 
@@ -73,90 +132,212 @@ język migowy
 : {{site.data.glossary.jezyk_migowy}}
 
 ## K
-kierownik testów
-: {{site.data.glossary.kierownik_testow}}
-
-komisarz ds. oceny
-: {{site.data.glossary.komisarz_ds_oceny}}
-
 kompatybilność
 : {{site.data.glossary.kompatybilnosc}}
 
 komponent interfejsu użytkownika
 : {{site.data.glossary.komponent_interfejsu_uzytkownika}}
 
-konkretne_odczucie_zmyslowe
+komunikaty o stanie
+: {{site.data.glossary.komunikaty_o_stanie}}
+
+konkretne odczucie zmysłowe
 : {{site.data.glossary.konkretne_odczucie_zmyslowe}}
 
-## L
-lista zasobów podstawowych
-: {{site.data.glossary.lista_zasobow_podstawowych}}
+kontekst łącza określony programistycznie
+: {{site.data.glossary.kontekst_lacza_okreslony_programistycznie}}
+
+kontrolowane przez użytkownika
+: {{site.data.glossary.kontrolowane_przez_uzytkownika}}
+
+## Ł
+
+łącze
+: {{site.data.glossary.lacze}}
 
 ## M
+materiał dźwiękowy
+: {{site.data.glossary.material_dzwiekowy}}
+
+mechanizm
+: {{site.data.glossary.mechanizm}}
+
 media
 : {{site.data.glossary.media}}
 
 media zmienne w czasie
 : {{site.data.glossary.media_zmienne_w_czasie}}
 
+migotanie
+: {{site.data.glossary.migotanie}}
+
+możliwy do odczytania przez program komputerowy
+: {{site.data.glossary.mozliwy_do_odczytania_przez_program_komputerowy}}
+
+multimedia alternatywne dla tekstu
+: {{site.data.glossary.multimedia_alternatywne_dla_tekstu}}
+
 ## N
+na żywo
+: {{site.data.glossary.na_zywo}}
+
+nagranie
+: {{site.data.glossary.nagranie}}
+
+napisy rozszerzone
+: {{site.data.glossary.napisy_rozszerzone}}
+
+narzędzie autorskie
+: {{site.data.glossary.narzedzie_autorskie}}
+
 nawigacja
 : {{site.data.glossary.nawigacja}}
+
+nawigowane sekwencyjnie
+: {{site.data.glossary.nawigowane_sekwencyjnie}}
 
 nazwa
 : {{site.data.glossary.nazwa}}
 
+nieaktywność użytkownika
+: {{site.data.glossary.nieaktywnosc_uzytkownika}}
+
+normatywny
+: {{site.data.glossary.normatywny}}
+
+NVDA
+: {{site.data.glossary.NVDA}}
+
 ## O
-oceniający
-: {{site.data.glossary.oceniajacy}}
+obsługiwana przez dostępność
+: {{site.data.glossary.obslugiwana_przez_dostepnosc}}
+
+obszar
+: {{site.data.glossary.obszar}}
+
+obszar nagłówka strony
+: {{site.data.glossary.obszar_naglowka_strony}}
+
+obszar nawigacji
+: {{site.data.glossary.obszar_nawigacji}}
+
+obszar stopki strony
+: {{site.data.glossary.obszar_stopki_strony}}
+
+obszar treści głównej
+: {{site.data.glossary.obszar_tresci_glownej}}
+
+obszar wyszukiwania
+: {{site.data.glossary.obszar_wyszukiwania}}
+
+obraz tekstu
+: {{site.data.glossary.obraz_tekstu}}
+
+obszar roboczy
+: {{site.data.glossary.obszar_roboczy}}
+
+odpowiednik
+: {{site.data.glossary.odpowiednik}}
+
+ogólnie niejednoznaczny dla użytkowników
+: {{site.data.glossary.ogolnie_niejednoznaczny_dla_uzytkownikow}}
+
+okno pełnego ekranu
+: {{site.data.glossary.okno_pelnego_ekranu}}
+
+określony programowo
+: {{site.data.glossary.okreslony_programowo}}
+
+oprogramowanie użytkownika
+: {{site.data.glossary.oprogramowanie_uzytkownika}}
 
 ## P
 parsowanie
 : {{site.data.glossary.parsowanie}}
 
-plan testów
-: {{site.data.glossary.plan_testow}}
+percepcja
+: {{site.data.glossary.percepcja}}
 
-planowanie testów
-: {{site.data.glossary.planowanie_testow}}
+piksel_CSS
+: {{site.data.glossary.piksel_CSS}}
 
-podejście do testowania
-: {{site.data.glossary.podejscie_do_testowania}}
+podstawowy poziom edukacji
+: {{site.data.glossary.podstawowy_poziom_edukacji}}
 
-polityka testów
-: {{site.data.glossary.polityka_testow}}
+pojedynczy wskaźnik
+: {{site.data.glossary.pojedynczy_wskaznik}}
+
+pomoc kontekstowa
+: {{site.data.glossary.pomoc_kontekstowa}}
 
 postrzegalność
 : {{site.data.glossary.postrzegalnosc}}
 
-proces testowy
-: {{site.data.glossary.proces_testowy}}
+powiększacz ekranu
+: {{site.data.glossary.powiekszacz_ekranu}}
+
+poziom gimnazjalny
+: {{site.data.glossary.poziom_gimnazjalny}}
+
+prawidłowa kolejność odczytu
+: {{site.data.glossary.prawidlowa_kolejnosc_odczytu}}
 
 program użytkownika
 : {{site.data.glossary.program_uzytkownika}}
 
-przegląd formalny
-: {{site.data.glossary.przeglad_formalny}}
+programowo ustawione
+: {{site.data.glossary.programowo_ustawione}}
+
+projekt
+: {{site.data.glossary.projekt}}
+
+przedstawianie
+: {{site.data.glossary.przedstawianie}}
+
+punkt dotyku
+: {{site.data.glossary.punkt_dotyku}}
+
+punkt orientacyjny
+: {{site.data.glossary.punkt_orientacyjny}}
 
 ## R
+relacja
+: {{site.data.glossary.relacja}}
+
 renderowanie
 : {{site.data.glossary.renderowanie}}
 
-retest
-: {{site.data.glossary.retest}}
+rola
+: {{site.data.glossary.rola}}
+
+rozszerzona audiodeskrypcja
+: {{site.data.glossary.rozszerzona_audiodeskrypcja}}
+
+rzetelność
+: {{site.data.glossary.rzetelnosc}}
 
 ## S
+skrót
+: {{site.data.glossary.skrot}}
+
+skrót klawiaturowy
+: {{site.data.glossary.skrot_klawiaturowy}}
+
+
+spełnienie kryterium sukcesu
+: {{site.data.glossary.spelnienie_kryterium_sukcesu}}
+
+stanowiące podstawę zgodnosci (technologie)
+: {{site.data.glossary.stanowiace_podstawe_zgodnosci}}
+
 stany strony internetowej
 : {{site.data.glossary.stany_strony_internetowej}}
 
-strategia testów
-: {{site.data.glossary.strategia_testow}}
+struktura
+: {{site.data.glossary.struktura}}
 
 strona internetowa
 : {{site.data.glossary.strona_internetowa}}
-
-sumaryczny raport z testów
-: {{site.data.glossary.sumaryczny_raport_z_testow}}
 
 szablony
 : {{site.data.glossary.szablony}}
@@ -166,57 +347,59 @@ sztuka tekstowa
 
 
 ## Ś
-środowisko testowe
-: {{site.data.glossary.srodowisko_testowe}}
+
 
 ## T
-technologie wspomagające
-: {{site.data.glossary.technologie_wspomagajace}}
+taka sama funkcjonalność
+: {{site.data.glossary.taka_sama_funkcjonalnosc}}
+
+taka sama względna kolejność
+: {{site.data.glossary.taka_sama_wzgledna_kolejnosc}}
+
+technologia pomocnicza
+: {{site.data.glossary.technologia_pomocnicza}}
+
+technologie treści internetowych
+: {{site.data.glossary.technologie_tresci_internetowych}}
 
 tekst
 : {{site.data.glossary.tekst}}
 
+tekst alternatywny
+: {{site.data.glossary.tekst_alternatywny}}
+
 tekst formatowany
 : {{site.data.glossary.tekst_formatowany}}
 
-tekst alternatywny
-: {{site.data.glossary.tekst_alternatywny}}
+tłumaczenie języka migowego
+: {{site.data.glossary.tlumaczenie_jezyka_migowego}}
+
+treść (treść internetowa)
+: {{site.data.glossary.tresc_internetowa}}
 
 treść nietekstowa
 : {{site.data.glossary.tresc_nietekstowa}}
 
-tresc widoczna
+treść uzupełniająca
+: {{site.data.glossary.tresc_uzupelniajaca}}
+
+treść widoczna
 : {{site.data.glossary.tresc_widoczna}}
 
-test niezdany
-: {{site.data.glossary.test_niezdany}}
-
-test zdany
-: {{site.data.glossary.test_zdany}}
-
-testowanie dostępności cyfrowej
-: {{site.data.glossary.testowanie_dostepnosci_cyfrowej}}
-
-twórca strony internetowej
-: {{site.data.glossary.tworca_strony_internetowej}}
+tylko wideo
+: {{site.data.glossary.tylko_wideo}}
 
 ## U
 
 UAAG
 : {{site.data.glossary.UAAG}}
 
-usprawnienie procesu testowego
-: {{site.data.glossary.usprawnienie_procesu_testowego}}
+użyte w nietypowy lub ograniczony sposób
+: {{site.data.glossary.uzyte_w_nietypowy_lub_ograniczony_sposob}}
 
 ## W
 W3C
 : {{site.data.glossary.W3C}}
-
-walidator
-: {{site.data.glossary.walidator}}
-
-warunek testowy
-: {{site.data.glossary.warunek_testowy}}
 
 WCAG
 : {{site.data.glossary.WCAG}}
@@ -227,36 +410,53 @@ wideo
 witryna internetowa
 : {{site.data.glossary.witryna_internetowa}}
 
-właściciel strony internetowej
-: {{site.data.glossary.wlasciciel_strony_internetowej}}
-
 wspólne strony internetowe
 : {{site.data.glossary.wspolne_strony_internetowe}}
+
+
+wstrzymane
+: {{site.data.glossary.wstrzymane}}
 
 wyłącznie dekoracyjny:
 : {{site.data.glossary.wylacznie_dekoracyjny}}
 
-wymaganie testowalne
-: {{site.data.glossary.wymaganie_testowalne}}
+wydarzenie w czasie rzeczywistym
+: {{site.data.glossary.wydarzenie_w_czasie_rzeczywistym}}
+
+wymogi zgodności z WCAG
+: {{site.data.glossary.wymogi_zgodnosci_z_WCAG}}
+
 
 ## Z
-zaliczony
-: {{site.data.glossary.zaliczony}}
+zagrożenie
+: {{site.data.glossary.zagrozenie}}
 
-zarządzanie testami
-: {{site.data.glossary.zarzadzanie_testami}}
-
-zasób
-: {{site.data.glossary.zasob}}
-
-zasób HTTP
-: {{site.data.glossary.zasob_HTTP}}
+zestaw stron internetowych
+: {{site.data.glossary.zestaw_stron_internetowych}}
 
 zgodność
 : {{site.data.glossary.zgodnosc}}
 
-zlecający ocenę
-: {{site.data.glossary.zlecajacy_ocene}}
+zmiany_kontekstu
+: {{site.data.glossary.zmiany_kontekstu}}
+
+zobowiązanie prawne
+: {{site.data.glossary.zobowiazanie_prawne}}
 
 zrozumiałość
 : {{site.data.glossary.zrozumialosc}}
+
+zsynchronizowane multimedia
+: {{site.data.glossary.zsynchronizowane_multimedia}}
+
+zwolnienie nacisku
+: {{site.data.glossary.zwolnienie_nacisku}}
+
+
+gdy naciskane
+: {{site.data.glossary.gdy_naciskane}}
+
+
+## Ż
+żargon
+: {{site.data.glossary.zargon}}

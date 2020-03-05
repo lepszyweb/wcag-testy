@@ -1,0 +1,1 @@
+[ARIA7: Używanie atrybutu aria-labelledby, aby wskazać cel linku](https://www.w3.org/TR/WCAG20-TECHS/ARIA7.html)

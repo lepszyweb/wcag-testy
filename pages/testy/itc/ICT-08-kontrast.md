@@ -9,11 +9,7 @@ folder: testy/itc
 
 
 ## Wymagania dostępności
----------------------
--   [KS WCAG: 1.4.3 Kontrast (minimum)](https://wcag.lepszyweb.pl/#contrast-minimum) -- Wizualne przedstawienie tekstu, lub obrazu tekstu posiada kontrast wynoszący przynajmniej 4,5:1, poza następującymi wyjątkami:
-    -   **Duży tekst**: Duży tekst oraz grafiki takiego tekstu posiadają kontrast przynajmniej 3:1.;
-    -   **Przypadkowość**: Nie stosuje się wymogów minimalnego kontrastu dla tekstów lub obrazu tekstu, będących elementem nieużywanych części interfejsu użytkownika, mających cel czysto dekoracyjny, nie są widoczne lub też są częścią obrazu zawierającego inne istotne treści wizualne.
-    -   **Logo**: Nie wymaga się minimalnego kontrastu dla tekstu, który jest częścią logo lub nazwy własnej produktu (marki)
+- {% include ks/1-4-3.md %}  
 
 ## Uzasadnienie metody badania
 ------------------------------
@@ -53,7 +49,7 @@ Jeżeli OBIE powyższe próby zakończą się niepowodzeniem, wówczas test KS 1
 
 
 ## Techniki WCAG 2.1
---------------------
--   Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
-    -   [G18: Zapewnienie, że istnieje kontrast wynoszący co najmniej 4,5:1 między tekstem (i obrazami tekstu) a tłem za tekstem](https://www.w3.org/TR/WCAG20-TECHS/G18.html)
-    -   [G145: Zapewnienie, że kontrast między tekstem (i obrazami tekstu) a tłem pod tekstem wynosi co najmniej 3:1](http://www.w3.org/TR/WCAG20-TECHS/G145.html) (gdy tekst ma co najmniej 18 punktów, jeśli nie jest pogrubiony i co najmniej 14 punktów, jeśli jest pogrubiony).
+Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
+
+- {% include techniki/G18.md %}
+- {% include techniki/G145.md %}

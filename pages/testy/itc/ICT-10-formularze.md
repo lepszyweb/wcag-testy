@@ -8,26 +8,20 @@ folder: testy/itc
 ---
 
 ## Wymagania dostępności
----------------------
--   [WCAG: 1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-and-relationships): Informacje, struktura oraz relacje pomiędzy treściami przedstawiane w treści mogą być odczytane przez program komputerowy lub są dostępne w postaci tekstu.
--   [WCAG: 2.4.6 Nagłówki i etykiety](https://wcag.lepszyweb.pl/#headings-and-labels): Nagłówki i etykiety opisują temat lub cel treści.
--   [WCAG: 3.2.2 Podczas wprowadzania danych](https://wcag.lepszyweb.pl/#on-input): Zmiana ustawień jakiegokolwiek komponentu interfejsu użytkownika nie powoduje automatycznej zmiany kontekstu, chyba, że użytkownik został poinformowany o takim działaniu zanim zaczął korzystać z komponentu.
--   [WCAG: 3.3.1 Identyfikacja błędu](https://wcag.lepszyweb.pl/#error-identification): Jeśli przy wpisywaniu informacji, błąd zostanie wykryty automatycznie, system wskazuje błędny element, a użytkownik otrzymuje opis błędu w postaci tekstu.
--   [WCAG: 3.3.2 Etykiety lub instrukcje](https://wcag.lepszyweb.pl/#labels-or-instructions): Etykiety lub instrukcje pojawiają się w treści, kiedy wymagane jest wprowadzenie informacji przez użytkownika.
--   [WCAG: 3.3.3 Sugestie korekty błędów](https://wcag.lepszyweb.pl/#error-suggestion): Jeśli przy wpisywaniu informacji, błąd zostanie wykryty automatycznie i znane są sugestie korekty, wtedy użytkownik otrzymuje takie sugestie, chyba, że stanowiłoby to zagrożenie dla bezpieczeństwa treści lub zmieniłoby to cel treści.
--   [WCAG: 3.3.4 Zapobieganie błędom (kontekst prawny, finansowy, związany z podawaniem danych)](https://wcag.lepszyweb.pl/#error-prevention-legal-financial-data): Dla \[stron internetowych\], na których pojawiają się zobowiązania prawne lub transakcje finansowe, i w których użytkownik modyfikuje lub usuwa dane zawarte w systemach przechowywania danych, lub wprowadza testowe odpowiedzi, przynajmniej jedno z poniższych założeń jest prawdziwe::
-    1.  **Odwracalność**: Wprowadzenie danych jest odwracalne..
-    2.  **Sprawdzanie**: Dane wprowadzone przez użytkownika są sprawdzane pod kątem błędów, a użytkownik ma możliwość wprowadzenia poprawek.
-    3.  **Potwierdzenie**: Dostępny jest mechanizm sprawdzania, potwierdzania oraz korekty informacji przed jej ostatecznym wysłaniem.
--   [WCAG: 4.1.2 Nazwa, rola, wartość](https://wcag.lepszyweb.pl/#name-role-value): Dla wszystkich komponentów interfejsu użytkownika (włączając w to, ale nie ograniczając jedynie do elementów formularzy, linków oraz komponentów wygenerowanych przez skrypty) nazwa oraz rola (przeznaczenie) mogą być odczytane przez program komputerowy, a stan, właściwości oraz wartości, które mogą być ustawione przez użytkownika, mogą również być ustawione przez program komputerowy; zawiadomienie o zmianach w tych elementach dostępne jest dla programów użytkownika, w tym technologii wspomagających.
+- {% include ks/1-3-1.md %}
+- {% include ks/2-4-6.md %}
+- {% include ks/3-2-2.md %}
+- {% include ks/3-3-1.md %}
+- {% include ks/3-3-2.md %}
+- {% include ks/3-3-3.md %}
+- {% include ks/3-3-4.md %}
+- {% include ks/4-1-2.md %}
 
 ## Uzasadnienie metody badania
-------------------------------
 Przejrzyj instrukcje formularza pod kątem kompletności i programowego powiązania z ich danymi wejściowymi. Wprowadź błędne dane wejściowe i przejrzyj powiadomienia o błędach dostarczone użytkownikowi.
 
 
 ## Ograniczenia, założenia lub wyjątki
---------------------------------------
 -   Pola formularza tylko do odczytu (np. wstępnie wypełnione) otrzymują fokus klawiatury i można je wybierać, ale nie można ich modyfikować. Pola te muszą być oznaczone i [możliwe do odczytania przez program komputerowy](https://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable) oraz są testowane zgodnie z KS 1.3.1.
 -   Wyłączone kontrolki nie otrzymują fokusa klawiatury, nie można ich wybrać ani modyfikować. Nie są one uwzględniane w tym teście.
 -   Kliknięcie opcji lub zaznaczenie opcji w formularzu powinno wybrać opcję, ale nie powinno inicjować zmiany kontekstu.
@@ -39,9 +33,8 @@ Przejrzyj instrukcje formularza pod kątem kompletności i programowego powiąza
 -   **Uwaga:** Zmiana treści nie zawsze oznacza zmianę kontekstu. Zmiana w treści, na przykład rozwinięcie drzewa, dynamicznego menu lub zakładki niekoniecznie zmieniają kontekst, dopóki nie zmienią jednego z powyższych (np. fokusa).
 -   **Przykład zmiany kontekstu**: Otwarcie nowego okna, przeniesienie fokusa na inny obiekt, przejście na inną stronę internetową (włączając w to także każdą sytuację, kiedy użytkownikowi tylko wydaje się, że przechodzi na inną stronę internetową) lub znaczące przekształcenie wyglądu strony są przykładami zmiany kontekstu.
 
-
 ## Procedura testu dla KS 1.3.1 Informacje i relacje oraz 4.1.2 Nazwa, rola, wartość
-------------------------------------------------------------------------------------
+
 ### Identyfikacja treści
 1.  Znajdź wszystkie kontrolki formularza (komponenty zbierające dane), takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
 2.  Znajdź wszystkie instrukcje i wskazówki (tekstowe i graficzne) związane z  kontrolkami formularza, w tym dotyczące elementów pogrupowanych, kolejności wypełniania, specjalnych warunków lub kwalifikatorów, instrukcji formatowania itp.
@@ -53,7 +46,7 @@ Przejrzyj instrukcje formularza pod kątem kompletności i programowego powiąza
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 1.3.1, KS 4.1.2,  oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 2.4.6 Nagłówki i etykiety
----------------------------------------------------
+
 ### Identyfikacja treści
 1.  Znajdź wszystkie kontrolki formularza (komponenty zbierające dane), takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
 2.  Znajdź wszystkie instrukcje i wskazówki (tekstowe i graficzne) związane z  kontrolkami formularza, w tym dotyczące elementów pogrupowanych, kolejności wypełniania, specjalnych warunków lub kwalifikatorów, instrukcji formatowania itp.
@@ -65,7 +58,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 2.4.6, KS 4.1.2,  oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 3.2.2 Podczas wprowadzania danych
------------------------------------------------------------
+
 ### Identyfikacja treści
 Wszystkie aktywne komponenty formularza.
 
@@ -82,7 +75,7 @@ Wszystkie aktywne komponenty formularza.
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.2.2  oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 3.3.1 Identyfikacja błędu
-----------------------------------------------------
+
 ### Identyfikacja treści
 Pola zbierające dane z automatycznym wykrywaniem błędów i powiadomianiem.
 
@@ -102,7 +95,7 @@ Pola zbierające dane z automatycznym wykrywaniem błędów i powiadomianiem.
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.3.1  oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 3.3.2 Etykiety lub instrukcje
--------------------------------------------------------
+
 ### Identyfikacja treści
 1.  Znajdź wszystkie kontrolki formularza (komponenty zbierające dane), takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
 2.  Znajdź wszystkie instrukcje i wskazówki (tekstowe i graficzne) związane z  kontrolkami formularza, w tym dotyczące elementów pogrupowanych, kolejności wypełniania, specjalnych warunków lub kwalifikatorów, instrukcji formatowania itp.
@@ -114,7 +107,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.3.2  oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 3.3.3 Sugestie korekty błędów
--------------------------------------------------------
+
 ### Identyfikacja treści
 Pola zbierające dane z automatycznym wykrywaniem błędów i powiadomianiem.
 
@@ -132,7 +125,7 @@ Pola zbierające dane z automatycznym wykrywaniem błędów i powiadomianiem.
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.3.3 oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 3.3.4 Zapobieganie błędom (kontekst prawny, finansowy, związany z podawaniem danych
--------------------------------------------------------------------------------------------------------------
+
 ### Identyfikacja treści
 Strony, które powodują powstanie zobowiązań prawnych użytkownika, strony transakcji finansowych, strony, za pomocą których użytkownik modyfikuje lub usuwa kontrolowane przez siebie dane w systemach przechowywania danych, strony, które przesyłają odpowiedzi użytkowników w testach (quizach).
 
@@ -148,27 +141,25 @@ Strony, które powodują powstanie zobowiązań prawnych użytkownika, strony tr
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.3.4 oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 4.1.2 Nazwa, rola, wartość
-----------------------------------------------------
-Zobacz [5. Treść zmienna](testy/ICT_05_tresc-zmienna.md)
+Zobacz [5. Treść zmienna](ICT_05_tresc-zmienna.md)
 
 ##  Wskazówki dotyczące usprawniania procesu testowego
-----------------------------------------------------------
 -   W przypadku KS 3.3.1 dopuszczalne techniki obejmują: a) przeniesienie fokusa na komunikat o błędzie informujący użytkownika, że ​​poprzednie pole wymaga korekty i opisujące błąd, b) odświeżenie strony po przesłaniu formularza i wyświetlenie na górze strony opisów i lokalizacji błędów. **Uwaga**: Ponowne wyświetlenie formularza i wskazanie błędnych pól w formularzu jest niewystarczające, aby spełnić to wymaganie. Użytkownik nie powinien przeszukiwać formularza, aby dowiedzieć się, gdzie popełniono błędy.
 -   W przypadku KS 3.3.4: ponieważ użytkownik może przejrzeć prosty, 1-stronicowy formularz przed naciśnięciem przycisku wysyłania na stronie, inny specjalny mechanizm weryfikacji poprawności nie jest wymagany.
 
 
 ## Techniki WCAG 2.1
----------------------
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
--   [G115: Używanie znaczników semantycznych do oznaczania struktury](http://www.w3.org/TR/WCAG20-TECHS/G115.html) AND [H49: Używanie semantycznych znaczników do oznaczenia tekstu wyróżnionego lub specjalnego](http://www.w3.org/TR/WCAG20-TECHS/H49.html)
--   [G80: Zapewnienie przycisku przesyłania w celu zainicjowania zmiany kontekstu](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G80)
--   [G13: Opisywanie, co się stanie, zanim nastąpi zmiana w formancie formularza, który powoduje zmianę kontekstu](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G13)
--   [G131: Zapewnienie opisowych etykiet](http://www.w3.org/TR/WCAG20-TECHS/G131.html)
--   [H44: UUżywanie elementu label do kojarzenia etykiet tekstowych z formantami formularzy](http://www.w3.org/TR/WCAG20-TECHS/H44.html)
--   [H71: Zapewnienie opisu dla grup formantów formularzy przy użyciu elementów fieldset i legend](http://www.w3.org/TR/WCAG20-TECHS/H71.html)
--   [H65: Używanie atrybutu title do identyfikacji formantów formularzy, gdy nie można użyć elementu label](http://www.w3.org/TR/WCAG20-TECHS/H65.html)
--   [SCR19: Używanie zdarzenia onchange na wybranym elemencie bez powodowania zmiany kontekstu](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/SCR19)
--   [G83: Zapewnienie opisów tekstowych wskazujących wymagane pola, które nie zostały wypełnione](http://www.w3.org/TR/WCAG20-TECHS/G83.html)
--   [G85: Zapewnienie komunikatu tekstowego, gdy dane wprowadzane przez użytkownika nie mieszczą się w wymaganym formacie lub zakresie wartości](http://www.w3.org/TR/WCAG20-TECHS/G85.html)
--   [F36: Niespełnienie kryterium sukcesu 3.2.2 z powodu automatycznego przesłania formularza i prezentacji nowej treści bez uprzedniego ostrzeżenia, gdy ostatnie pole formularza ma wartość](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F36)
--   [F37: Niespełnienie kryterium sukcesu 3.2.2 z powodu uruchomienia nowego okna bez uprzedniego ostrzeżenia po zmianie wyboru przycisku radiowego, pola wyboru lub listy wyboru](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F37)
+
+- {% include techniki/G115.md %} ORAZ {% include techniki/H49.md %}
+- {% include techniki/G80.md %}
+- {% include techniki/G13.md %}
+- {% include techniki/G131.md %}
+- {% include techniki/H44.md %}
+- {% include techniki/H71.md %}
+- {% include techniki/H65.md %}
+- {% include techniki/SCR19.md %}
+- {% include techniki/G83.md %}
+- {% include techniki/G85.md %}
+- {% include techniki/F36.md %}
+- {% include techniki/F37.md %}

@@ -1,0 +1,1 @@
+[SCR33: Używanie skryptu do przewijania zawartości i zapewniania mechanizmu do jej wstrzymywania](https://www.w3.org/TR/WCAG20-TECHS/SCR33.html)

@@ -8,8 +8,7 @@ folder: testy/itc
 ---
 
 ## Wymagania dostępności
-
--   [KS WCAG 1.4.4 Zmiana rozmiaru tekstu](https://wcag.lepszyweb.pl/#resize-text) -- Oprócz napisów rozszerzonych oraz tekstu w postaci grafiki, rozmiar tekstu może zostać powiększony do 200% bez użycia technologii wspomagających oraz bez utraty treści lub funkcjonalności.
+- {% include ks/1-4-4.md %}
 
 ## Uzasadnienie metody badania
 Ten test podstawowy wymaga oceny wizualnej treści i funkcjonalności po zmianie rozmiaru tekstu.
@@ -19,7 +18,6 @@ Ten test podstawowy wymaga oceny wizualnej treści i funkcjonalności po zmianie
 -   Wyjątek: Napisy obrazy tekstu nie są uwzględniane w teście.
 
 ## Procedura testu dla 1.4.4 Zmiana rozmiaru tekstu
-
 
 ### Identyfikacja treści
 Cały tekst na stronie.
@@ -44,8 +42,9 @@ brak
 
 ## Techniki WCAG 2.1
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
--   [G178: Zapewnienie na stronie internetowej przełączników, która pozwalają użytkownikom na przyrostową zmianę rozmiaru całego tekstu na stronie do 200 procent](https://www.w3.org/TR/WCAG20-TECHS/G178.html)
--   [G179: Zapewnienie, że nie dojdzie do utraty treści lub funkcjonalności, gdy zmianie ulegnie rozmiar tekstu albo obszar przeznaczony na tekst](https://www.w3.org/TR/WCAG20-TECHS/G179.html)
--   [F69: Niespełnienie kryterium sukcesu 1.4.4 podczas zmiany rozmiaru wizualnie renderowanego tekstu do 200 procent powoduje przycięcie, przycięcie lub zasłonięcie tekstu, obrazu lub formantów](https://www.w3.org/TR/WCAG20-TECHS/F69.html)
--   [F80: Niespełnienie kryterium sukcesu 1.4.4, gdy formanty formularza tekstowego nie zmieniają rozmiaru, gdy wizualnie renderowany tekst jest zmieniany do 200%](https://www.w3.org/TR/WCAG20-TECHS/F80.html)
--   [F94: Niespełnienie kryterium sukcesu 1.4.4 z powodu nieprawidłowego użycia jednostek rozmiaru obszaru operacyjnego (viewport) do zmiany rozmiaru tekstu](https://www.w3.org/TR/WCAG20-TECHS/F80.html)
+
+- {% include techniki/G178.md %}
+- {% include techniki/G179.md %}
+- {% include techniki/F69.md %}
+- {% include techniki/F80.md %}
+- {% include techniki/F94.md %}

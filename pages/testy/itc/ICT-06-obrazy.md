@@ -9,15 +9,15 @@ folder: testy/itc
 
 
 ## Wymagania dostępności
--   [KS WCAG: 1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-text-content) -- Wszelkie treści nietekstowe przedstawione użytkownikowi posiadają swoją tekstową alternatywę, która pełni tę samą funkcję, za wyjątkiem sytuacji \[specyficznych wyszczególnionych sytuacji\].
--   [KS WCAG: 1.4.5 Obrazy tekstu](https://wcag.lepszyweb.pl/#images-of-text) -- Jeśli wykorzystywane technologie mogą przedstawiać treść wizualnie, do przekazywania informacji wykorzystuje się tekst, a nie tekst w postaci grafiki, za wyjątkiem \[specyficznych wyszczególnionych sytuacji\].
--   [KS WCAG: 4.1.2 Nazwa, rola, wartość](https://wcag.lepszyweb.pl/#name-role-value) -- Dla wszystkich komponentów interfejsu użytkownika (włączając w to, ale nie ograniczając jedynie do elementów formularzy, linków oraz komponentów wygenerowanych przez skrypty) nazwa oraz rola (przeznaczenie) mogą być odczytane przez program komputerowy, a stan, właściwości oraz wartości, które mogą być ustawione przez użytkownika, mogą również być ustawione przez program komputerowy; zawiadomienie o zmianach w tych elementach dostępne jest dla programów użytkownika, w tym technologii wspomagających.
+- {% include ks/1-1-1.md %}  
+- {% include ks/1-4-5.md %}  
+- {% include ks/4-1-2.md %}  
 
 ## Uzasadnienie metody badania
-Wszystkie obrazy  znaczące i dekoracyjne muszą zostać ocenione. Określono testy dla niektórych typów obrazów.
+Wszystkie obrazy znaczące i dekoracyjne muszą zostać ocenione. Określono testy dla niektórych typów obrazów.
 
 ## Ograniczenia, założenia lub wyjątki
--   Powszechnie używane formaty obrazów to  .jpg, .png, .svg, .gif, .tiff, .bmp. W użyciu są również inne formaty graficzne i należy wziąć je pod uwagę w tym teście.
+-   Powszechnie używane formaty obrazów to .jpg, .png, .svg, .gif, .tiff, .bmp. W użyciu są również inne formaty graficzne i należy wziąć je pod uwagę w tym teście.
 -   **Cele dekoracyjne, formatowanie, treść niewidoczna**: Jeśli treść nietekstowa pełni jedynie funkcję dekoracyjną, używana jest do formatowania wizualnego lub też nie jest przedstawiana użytkownikowi, powinna być wdrożona w sposób umożliwiający technologiom wspomagającym jej zignorowanie.
 -   **CAPTCHA**: Jeśli celem treści nietekstowej jest potwierdzenie, że do treści ma dostęp człowiek, a nie komputer, wtedy dostarcza się alternatywę w postaci tekstu, która identyfikuje oraz opisuje cel treści nietekstowej. Dostarcza się również alternatywnych zabezpieczeń typu CAPTCHA, dostosowanych do różnych możliwości percepcji użytkowników, uwzględniając różne rodzaje niepełnosprawności.
 -   Obrazy tekstu, które są niezbędne do przekazywania informacji, są wyłączone z KS 1.4.5. Tekst, który jest częścią logo lub nazwy własnej produktu, jest w tym przypadku uznawany za istotny.
@@ -26,9 +26,10 @@ Wszystkie obrazy  znaczące i dekoracyjne muszą zostać ocenione. Określono te
 -   Chociaż historycznie atrybut longdesc był używany w celu zapewnienia rozszerzonego opisu obrazów i jest wymieniony jako wystarczająca technika w WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), technika  ta [nie jest obecnie dobrze obsługiwana pod względem dostępności ](https://webaim.org/techniques/alttext/longdesctestcases.htm) i nie jest częścią [dostępnej nazwy ani sposobem zapewnienia dostępnego opisu dla obrazu](https://www.w3.org/TR/html-aam-1.0/#img-element); dlatego ten test podstawowy nie akceptuje wspomnianej techniki.
 
 ## Procedura testu dla KS 1.1.1 Treść nietekstowa oraz 4.1.2 Nazwa, rola, wartość
+
 ### Identyfikacja treści
 1.  Zidentyfikuj wszystkie obrazy
-2.  Przejrzyj kontekst każdego obrazu, aby określić jego przeznaczenie::
+2.  Przejrzyj kontekst każdego obrazu, aby określić jego przeznaczenie:
     -   **Znaczący:** przekazuje informacje (obejmuje obrazy tekstu; obrazy funkcjonalne używane do inicjowania akcji, przekazywania znaczenia lub zachęcania do odpowiedzi; mapy obrazów itp.)
     -   **Dekoracyjny:** nie przekazuje żadnych istotnych informacji lub jest opisany w treści tekstu
     -   **CAPTCHA:** zaprojektowany w celu ustalenia, czy dostęp do treści ma osoba, czy komputer
@@ -86,18 +87,18 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 ##  Wskazówki dotyczące usprawniania procesu testowego
 
 ## Techniki WCAG 2.1
+Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
 
--   Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
-    -   [ARIA6: Używanie atrybutu aria-label, aby zapewnić etykiety dla obiektów](https://www.w3.org/TR/WCAG20-TECHS/ARIA6.html)
-    -   [ARIA15: Używanie atrybutu aria-describedby, aby zapewnić odpowiedniki tekstowe dla obrazów](https://www.w3.org/TR/WCAG20-TECHS/ARIA15.html)
-    -   [H36: Używanie atrybutów alt na obrazach używanych jako przyciski przesyłania](https://www.w3.org/TR/WCAG20-TECHS/H36.html)
-    -   [H37: Używanie atrybutów alt na elementach img](https://www.w3.org/TR/WCAG20-TECHS/H37.html)
-    -   [H67: Używanie pustego tekstu alternatywnego i nieużywanie atrybutu title w elementach img dla obrazów, które powinny być zignorowane przez technologię asystującą](https://www.w3.org/TR/WCAG20-TECHS/H67.html)
-    -   [G143: Zapewnienie tekstu alternatywnego opisującego zadanie CAPTCHA](https://www.w3.org/TR/WCAG20-TECHS/G143.html)
-    -   [G144: Zapewnienie, że strona internetowa zawiera inny CAPTCHA służący temu samemu celowi przy użyciu innej modalności](https://www.w3.org/TR/WCAG20-TECHS/G144.html)
-    -   [H86: Zapewnienie tekstowych alternatyw dla sztuki ASCII, emotikonów i tekstu szyfrowanego](https://www.w3.org/TR/WCAG20-TECHS/H86.html)
-    -   [F30: Niespełnienie kryterium sukcesu 1.1.1 i 1.2.1 z powodu użycia alternatyw tekstowych, które nie są alternatywne (np. nazw plików lub tekstu zastępczego)](https://www.w3.org/TR/WCAG20-TECHS/F30.html)
-    -   [F38: Niespełnienie kryterium sukcesu 1.1.1 z powodu pominięcia w HTML atrybutu alt dla treści nietekstowych wykorzystywanych wyłącznie w celach dekoracyjnych](https://www.w3.org/TR/WCAG20-TECHS/F38.html)
-    -   [F39: Niespełnienie kryterium sukcesu 1.1.1 ze względu na dostarczenie tekstu alternatywnego, który nie jest pusty (np. alt="spacja" lub alt="obraz") dla obrazów, które powinny zostać zignorowane przez technologię asystującą](https://www.w3.org/TR/WCAG20-TECHS/F39.html)
-    -   [F65: Niespełnienie kryterium sukcesu 1.1.1 z powodu pominięcia atrybutu alt lub tekstu  alternatywnego w elementach img, elementach area i polach typu "image"](https://www.w3.org/TR/WCAG20-TECHS/F65.html)
-    -   [C9: Używanie CSS do dodawania obrazów dekoracyjnych](http://www.w3.org/TR/WCAG20-TECHS/C9.html)
+- {% include techniki/ARIA6.md %}
+- {% include techniki/ARIA15.md %}
+- {% include techniki/H36.md %}
+- {% include techniki/H37.md %}
+- {% include techniki/H67.md %}
+- {% include techniki/G143.md %}
+- {% include techniki/G144.md %}
+- {% include techniki/H86.md %}
+- {% include techniki/F30.md %}
+- {% include techniki/F38.md %}
+- {% include techniki/F39.md %}
+- {% include techniki/F65.md %}
+- {% include techniki/C9.md %}

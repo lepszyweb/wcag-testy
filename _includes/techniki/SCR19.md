@@ -1,0 +1,1 @@
+[SCR19: Używanie zdarzenia onchange na wybranym elemencie bez powodowania zmiany kontekstu](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/SCR19)

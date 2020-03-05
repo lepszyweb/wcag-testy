@@ -6,37 +6,38 @@ entries:
   product: Glosy do WCAG
   folders:
 
+  - title: Wprowadzenie
+    output: web, pdf
+    folderitems:
+    - title: O glosach
+      url: /glosy-wprowadzenie
+      output: web
+  - title: Standard WCAG
+    output: web, pdf
+    folderitems:
+    - title: Postrzegalność
+      url: /glosy-postrzegalnosc
+      output: web
+    - title: Funkcjonalność
+      url: /glosy-funkcjonalnosc
+      output: web
+    - title: Zrozumiałość
+      url: /glosy-zrozumialosc
+      output: web
+    - title: Rzetelność
+      url: /glosy-rzetelnosc
+      output: web
+    - title: Wymogi zgodności
+      url: /glosy-zgodnosc
+      output: web
   - title: Glosy
     output: web, pdf
     folderitems:
-    - title: Wprowadzenie
-      url: /glosy-wprowadzenie
+    - title: Tytuł dokumentu
+      url: /glosy-tytul-dokumentu
       output: web
-
-  - title: Postrzegalność - w planie
-    output: web, pdf
-    folderitems:
-    - title: Wprowadzenie
-      url: /glosy-postrzegalnosc
-      output: web
-
-  - title: Funkcjonalność - w planie
-    output: web, pdf
-    folderitems:
-    - title: Wprowadzenie
-      url: /glosy-funkcjonalnosc
-      output: web
-  - title: Zrozumiałość - w planie
-    output: web, pdf
-    folderitems:
-    - title: Wprowadzenie
-      url: /glosy-zrozumialosc
-      output: web
-  - title: Rzetelność - w planie
-    output: web, pdf
-    folderitems:
-    - title: Wprowadzenie
-      url: /glosy-rzetelnosc
+    - title: Układ i projekt strony
+      url: /glosy-uklad-i-projekt-strony
       output: web
   - title: Słowniki
     output: web, pdf
