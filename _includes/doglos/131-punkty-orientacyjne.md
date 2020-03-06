@@ -95,7 +95,7 @@ Niekiedy można się jeszcze spotkać z praktyką równoczesnego stosowania znac
 Jak widać w tabeli, tylko obszar pełniący rolę „search” nie ma swego odpowiednika w znacznikach HTML. Rozwiązaniem problemu jest w takim przypadku użycie znacznika ogólnego zastosowania, np. `div` i przypisanie mu atrybutu `role="search"`. Może to być nie tylko formularz wyszukiwarki, ale też łącza do mapy witryny, rozwijana lista łączy do najważniejszych stron na witrynie, czy inne elementy, które znacznie ułatwią użytkownikowi odnalezienie potrzebnych informacji.
 
 ## Oznacz kluczowe obszary strony
-Twórcy mogą oznaczać kluczowe obszary stron w ich szablonach.  
+Twórcy mogą oznaczać kluczowe obszary stron w ich szablonach.
 
 ### Zasady oznaczania obszarów struktury strony
 {% include warning.html content="WCAG nie wymagają stosowania omawianych tutaj znaczników strukturalnych i atrybutów roli. Jeśli jednak twórcy korzystają z nich na swoich stronach, powinni przestrzegać **15 reguł** przedstawionych poniżej." %}
@@ -134,7 +134,7 @@ Jeśli treść obszaru rozpoczyna się od nagłówka h1-h6, można go użyć jak
 
 Jeśli obszar nie posiada elementu nagłówka, etykietę zapewniamy za pomocą atrybutu `aria-label`. Wartością atrybutu jest wtedy tytuł treści, czyli jej nazwa.
 
-#### Przykład 1. Etykieta z aria-labelledy
+### Przykład 1. Etykieta z aria-labelledy
 ````html
 <aside aria-labelledby="reklBok">
    <h3 id="reklBok">Reklama</h3>
@@ -142,7 +142,7 @@ Jeśli obszar nie posiada elementu nagłówka, etykietę zapewniamy za pomocą a
 </aside>
 ````
 
-#### Przykład 2. Etykieta z aria-label
+### Przykład 2. Etykieta z aria-label
 ````html
 <nav aria-label="Główna">
 ....
