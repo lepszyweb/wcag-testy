@@ -31,7 +31,7 @@ Nowymi znacznikami semantycznymi oraz atrybutami roli można oznaczyć kluczowe 
 
 Nowy w HTML5 atrybut `role` wywodzi się z technologii WAI-ARIA, a jego początki sięgają jeszcze 2006 roku. Specyfikacja WAI-ARIA określa sposoby  uczynienia treści internetowych i aplikacji internetowych bardziej dostępnymi dla osób z niepełnosprawnościami. Pomaga zwłaszcza w zapewnianiu dostępności treści dynamicznych oraz zaawansowanych kontrolek interfejsu użytkownika opracowanych przy użyciu Ajax, HTML, JavaScript i pokrewnych technologii.
 
-Nowe znaczniki strukturalne, a w razie potrzeby atrybuty `role` oraz wywodzące się z WAI-ARIA atrybuty `aria-label` i `aria-labelledby` w&nbsp;zupełności wystarczają, aby oznaczyć kluczowe obszary stron internetowych, takie jak **nagłówek strony**, **treść główna**, **nawigacja**, **wyszukiwanie**, **stopka**, **treści uzupełniające** oraz inne, zdefiniowane przez twórcę strony.
+Nowe znaczniki strukturalne, a w razie potrzeby atrybuty `role` oraz  `aria-label` i `aria-labelledby` w&nbsp;zupełności wystarczają, aby oznaczyć kluczowe obszary stron internetowych, takie jak **nagłówek strony**, **treść główna**, **nawigacja**, **wyszukiwanie**, **stopka**, **treści uzupełniające** oraz inne, zdefiniowane przez twórcę strony.
 
 Możliwości definiowania kluczowych obszarów strony przedstawia tabela poniżej:
 
@@ -154,16 +154,4 @@ Obszary nawigacyjne są dobrym przykładem przypadków, w których konieczna jes
 
 {% include note.html content="Jeśli dwa obszary `navigation` zawierają identyczne zestawy linków, należy użyć dla każdego z nich takiej samej etykiety." %}
 
-Dobrym przykładem sytuacji, w której domyślna rola obszaru wymaga zmiany jest wykorzystanie elementu `<aside>` do prezentacji reklamy kontekstowej powiązanej z&nbsp;treścią główną. Umieszczenie reklamy kontekstowej w&nbsp;obszarze objętym znacznikiem `<aside>` jest w pełni uzasadnione, bo treść reklamy można uznać za *uzupełnienie treści głównej*, które samo w sobie niesie również *odrębną wartość dla użytkownika* i może być samodzielną jednostką treści. A tak właśnie w specyfikacji scharakteryzowana jest rola `complementary` przypisana domyślnie znacznikowi `aside`. Ale dobrą praktyką jest powiadamianie użytkowników, że mają w tym przypadku do czynienia z reklamą. Oznaczenie tego obszaru etykietą opisującą reklamowy charakter treści będzie z pewnością docenione przez użytkowników korzystajacych z technologii pomocniczych. 
-
-## Podsumowanie
-Aby uznać, że strona ma przejrzystą i zrozumiałą strukturę, powinny być spełnione łącznie poniższe warunki:
-
-- strona jest podzielona na kluczowe obszary - punkty orientacyjne,
-- punkty orientacyjne sa rozróżnialne,
-- rola każdego punktu orientacyjnego jest zrozumiała,
-- rola każdego obszaru jest unikalna,
-- do każdego punktu orientacyjnego istnieje bezpośredni dostęp
-- powtarzajace się punkty orientacyjne są łatwe do zlokalizowania
-- punkty orientacyjne znajdują się w przewidywalnych lokalizacjach
-- punkty orientacyjne są konsekwentnie identyfikowane
+Dobrym przykładem sytuacji, w której domyślna rola obszaru wymaga zmiany jest wykorzystanie elementu `<aside>` do prezentacji reklamy kontekstowej powiązanej z&nbsp;treścią główną. Umieszczenie reklamy kontekstowej w&nbsp;obszarze objętym znacznikiem `<aside>` jest w pełni uzasadnione, bo treść reklamy można uznać za *uzupełnienie treści głównej*, które samo w sobie niesie również *odrębną wartość dla użytkownika* i może być samodzielną jednostką treści. A tak właśnie w specyfikacji scharakteryzowana jest rola `complementary` przypisana domyślnie znacznikowi `aside`. Ale dobrą praktyką jest powiadamianie użytkowników, że mają w tym przypadku do czynienia z reklamą. Oznaczenie tego obszaru etykietą opisującą reklamowy charakter treści będzie z pewnością docenione przez użytkowników korzystajacych z technologii pomocniczych.
