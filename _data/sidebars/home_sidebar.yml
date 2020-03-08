@@ -32,7 +32,7 @@ entries:
       url: /zaangazuj-sie
       output: web, pdf
 
-  - title: Glosy
+  - title: Wymagania
     output: web, pdf
 
     folderitems:

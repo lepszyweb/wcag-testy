@@ -34,7 +34,7 @@ CAPTCHA: "Skrót od „Completely Automated Public Turing test to tell Computers
 
 cala_strona: "(ang. 'Full page'). Zgodność oraz poziomy zgodności dotyczą całej strony i nie można jej osiągnąć, jeśli jakaś część strony zostanie wyłączona z oceny. <br>**Uwaga**: W celu ustalenia zgodności, przyjmuje się, iż wersje alternatywne części treści strony są częścią strony, jeśli wersje alternatywne są dostępne bezpośrednio z danej strony, np. długi opis lub alternatywna prezentacja nagrania wideo."
 
-cale_procesy: "(ang. 'complete processes').Wszystkie kroki, etapy składajace się na cały proces, procedurę. Zgodność oraz poziomy zgodności dotyczą całych procesów. Proces spełnia wymogi zgodności na określonym poziomie tylko wtedy, gdy wszystkie strony prezentujące etapy procesu spełniają wymogi co najmniej na tym sammym poziomie. Gdy tylko niektóre etapy procesu spełniają wymogi zgodności na wyższym poziomie, to cały proces (i strony, na których jest obsługiwany) spełniają wyniki na niższym poziomie. Inaczej - zgodność na określonym poziomie nie jest osiągnięta, jeżeli którakolwiek ze stron prezentujących którykolwiek z etapów procesu nie spełnia wszystkich wymogów zgodności na tym poziomie."
+cale_procesy: "(ang. 'complete processes'). Wszystkie kroki, etapy składajace się na cały proces, procedurę. Zgodność oraz poziom zgodności dotyczy całych procesów. Proces spełnia wymogi zgodności na określonym poziomie tylko wtedy, gdy wszystkie strony prezentujące etapy procesu spełniają wymogi co najmniej na tym sammym poziomie. Gdy tylko niektóre etapy procesu spełniają wymogi zgodności na wyższym poziomie, to cały proces (i strony, na których jest obsługiwany) spełnia wyniki na niższym poziomie. Inaczej - zgodność na określonym poziomie nie jest osiągnięta, jeżeli którakolwiek ze stron prezentujących którykolwiek z etapów procesu nie spełnia wszystkich wymogów zgodności na tym poziomie."
 
 cel: "(ang. 'target'). Region wyświetlacza, który zaakceptuje akcję wskaźnika, taki jak obszar interaktywny komponentu interfejsu użytkownika. <br>Jeżeli dwa lub więcej celów dotykowych nakładają się na siebie, pokrywający się obszar nie powinien być uwzględniany przy pomiarze wielkości celu, chyba że nakładające się cele wykonują tę samą czynność lub otwierają tę samą stronę."
 
@@ -171,6 +171,8 @@ poziom_gimnazjalny: "(ang. 'lower secondary education level'). Dwu- lub trzyletn
 prawidlowa_kolejnosc_odczytu: "(ang. 'correct reading sequence')
 Kolejność słów i akapitów zaprezentowana w taki sposób, żeby kolejność ich odczytu nie zmieniała sensu treści całego przekazu tekstowego."
 
+procedura: "(ang. 'process'). Seria czynności użytkownika, gdzie każda czynność jest niezbędna do zakończenia działania.<br>*Przykład 1:* Zakończona sukcesem procedura korzystania ze stron sklepu internetowego wymaga od użytkownika obejrzenia alternatywnych produktów, cen i ofert, wybrania produktów, złożenia zamówienia, ustalenia warunków dostawy oraz podania informacji o wysyłce i płatności.<br>Strona rejestracji konta wymaga przejścia testu Turinga, a następnie wypełnienia formularza rejestracyjnego."
+
 program_uzytkownika: "(ang. 'user agent'). Oprogramowanie umożliwiające pobieranie i przeglądanie treści internetowych. <br>**Przykłady**: Przeglądarki internetowe, odtwarzacze multimediów, wtyczki, oraz inne programy — również technologie wspomagające — które pomagają w wyszukiwaniu, przetwarzaniu i interakcji z treścią stron WWW."
 
 projekt: "Dobór i zestawienie elementów składowych oraz ich właściwości i wzajemnych relacji w całość służącą satysfakcjonującemu zaspokajaniu wyznaczonych i zakładanych potrzeb użytkowników. Nierozerwalne połączenie wszystkich „warstw” składających się na stronę, definiujących ją jako całość. (ang. *design*)"
@@ -235,6 +237,8 @@ tresc_nietekstowa: "(ang. 'non-text content'). Każda treść, która nie jest s
 
 tresc_uzupelniajaca: "(ang. 'supplemental content'). Dodatkowa treść ilustrująca lub wyjaśniająca treść podstawową. <br>*Przykład 1:* Dźwiękowa wersja strony internetowej. <br>*Przykład 2:* Ilustracja kompletnej procedury. <br>*Przykład 3:* Akapit podsumowujący główne wnioski i rekomendacje w jakichś badaniach."
 
+tresc_ukryta: "Wszelka treść ukryta przed technologiami pomocniczymi na pomocą takich technik, jak reguły CSS - `display` z wartością `none`, `visibility` z wartością `hidden`, `clip` z wartością `0`, `font-size` z wartością `0`, dawnymi atrybutami HTML `width` i `height` z wartością `0`, atrybutem HTML5 `hidden`, atrybutem `aria-hidden=\"true\"`."
+
 tresc_widoczna: "Treść, która jest widoczna, gdy wyłączony zostanie CSS."
 
 tylko_wideo: "(ang. 'video-only') Zmienna w czasie prezentacja zawierająca tylko wideo bez dźwięku i interakcji."
@@ -244,6 +248,9 @@ UAAG: "Akronim od angielskiego tytułu dokumentu [User Agent Accessibility Guide
 uzyte_w_nietypowy_lub_ograniczony_sposob: "(ang. 'used in an unusual or restricted way'). Słowa użyte w sposób wymagający od użytkownika wiedzy, jaką konkretnie definicję powinien zastosować, by prawidłowo zrozumieć treść. <br>*Przykład:* Słowo „gig” oznacza coś innego w dyskusji na temat wykonania koncertu muzycznego, niż w artykule poświęconym pojemności dysków twardych, ale prawidłowe określenie definicji jest możliwe na podstawie kontekstu. Z drugiej strony, słowo „tekst” jest używane w WCAG w pewien bardzo specyficzny sposób i dlatego jego definicja znalazła się w słowniczku."
 
 W3C: "Skrót nazwy organizacji World Wide Web Consortium, która zajmuje się ustanawianiem standardów pisania i przesyłu stron WWW. W3C została założona 1 października 1994 roku przez Tima Berners-Lee, twórcę WWW oraz autora pierwszej przeglądarki internetowej i serwera WWW. Obecnie zrzesza ponad 400 organizacji, firm, agencji rządowych i uczelni z całego świata. Publikowane przez W3C rekomendacje są zaleceniami, tzn. nie mają mocy prawnej, nakazującej ich użycie. Niektóre z nich stały się normami międzynarodowymi lub stały się w całości lub części elementem systemu prawa."
+
+WAI-ARIA: "Specyfikacja techniczna opublikowana przez World Wide Web Consortium (W3C), która określa, w jaki sposób zwiększyć dostępność stron internetowych, w szczególności treści dynamicznych i komponentów interfejsu użytkownika opracowanych za pomocą Ajax , HTML , JavaScript i powiązane technologie. Nazwa jest akronimem angielskiego *Web Accessibility Initiative - Accessible Rich Internet Applications* - Inicjatywa dla Dostępności Internetowej - Dostępność Bogatych Aplikacji Internetowych. Prace nad WAI-ARIA rozpoczęto w 2006 roku. "
+
 
 WCAG: "Akronim (skrót) od angielskiego tytułu zbioru dokumentów [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) – opublikowanego przez WAI, zawierający zalecenia dotyczące tworzenia dostępnych treści internetowych. 15 października 2012 roku wytyczne WCAG w wersji 2.0 zyskały status międzynarodowej normy ISO/IEC 40500:2012."
 
@@ -260,6 +267,8 @@ wlasciwosc_stylu: "Właściwość, której wartość określa sposób prezentacj
 wspolne_strony_internetowe: "(ang. 'Common web pages'). Strony i stany stron internetowych 'wspólne' dla całej witryny, odnoszące się do całej witryny, istotne dla funkcjonowania całej witryny, takie jak strona główna, strona logowania, mapa witryny, strona kontaktowa, strona pomocy, strona informacji prawnych i podobne, które są zazwyczaj połączone ze wszystkimi innymi stronami witryny (zwykle poprzez łącze w nagłówku, w&nbsp;stopce albo w menu nawigacyjnym)."
 
 wstrzymane: "(ang. 'paused'). Zatrzymane na żądanie użytkownika i nie wznawiane bez jego żądania."
+
+wydanie_punktowe: "(ang. 'dot-release'). Wydanie zawierajace poprawki do wersji głównej."
 
 wydarzenie_w_czasie_rzeczywistym: "(ang. 'real-time event'). Wydarzenie, które a) trwa w tym samym czasie, co jego wyświetlenie i b) nie jest całkowicie generowane przez treść. <br>*Przykład 1:* Transmisja internetowa z przedstawienia (odbywa się w tym samym czasie, gdy jest oglądane, a nie z nagrania). <br>*Przykład 2:* Aukcja internetowa, podczas której użytkownicy składają oferty w tym samym czasie, gdy wyświetlana jest treść. <br>*Przykład 3:* Interakcje ludzi w wirtualnym świecie za pośrednictwem awatarów nie są automatycznie generowane i odbywają się w czasie rzeczywistym."
 

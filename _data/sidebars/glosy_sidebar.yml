@@ -3,34 +3,22 @@
 
 entries:
 - title: Menu lokalne
-  product: Glosy do WCAG
+  product: WCAG i komentarze
   folders:
 
   - title: Wprowadzenie
     output: web, pdf
     folderitems:
-    - title: O glosach
+    - title: Standard WCAG i komentarze
       url: /glosy-wprowadzenie
       output: web
-  - title: Standard WCAG
+  - title: WCAG 2.1
     output: web, pdf
     folderitems:
-    - title: Postrzegalność
-      url: /glosy-postrzegalnosc
+    - title: WCAG 2.1
+      url: /wcag21
       output: web
-    - title: Funkcjonalność
-      url: /glosy-funkcjonalnosc
-      output: web
-    - title: Zrozumiałość
-      url: /glosy-zrozumialosc
-      output: web
-    - title: Rzetelność
-      url: /glosy-rzetelnosc
-      output: web
-    - title: Wymogi zgodności
-      url: /glosy-zgodnosc
-      output: web
-  - title: Glosy
+  - title: Glosy do WCAG
     output: web, pdf
     folderitems:
     - title: Tytuł dokumentu

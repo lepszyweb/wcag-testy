@@ -282,6 +282,9 @@ poziom gimnazjalny
 prawidłowa kolejność odczytu
 : {{site.data.glossary.prawidlowa_kolejnosc_odczytu}}
 
+procedura
+: {{site.data.glossary.procedura}}
+
 program użytkownika
 : {{site.data.glossary.program_uzytkownika}}
 
@@ -380,6 +383,9 @@ treść (treść internetowa)
 treść nietekstowa
 : {{site.data.glossary.tresc_nietekstowa}}
 
+tresc ukryta
+: {{site.data.glossary.tresc_ukryta}}
+
 treść uzupełniająca
 : {{site.data.glossary.tresc_uzupelniajaca}}
 
@@ -413,11 +419,13 @@ witryna internetowa
 wspólne strony internetowe
 : {{site.data.glossary.wspolne_strony_internetowe}}
 
-
 wstrzymane
 : {{site.data.glossary.wstrzymane}}
 
-wyłącznie dekoracyjny:
+wydanie_punktowe
+: {{site.data.glossary.wydanie_punktowe}}
+
+wyłącznie dekoracyjny
 : {{site.data.glossary.wylacznie_dekoracyjny}}
 
 wydarzenie w czasie rzeczywistym

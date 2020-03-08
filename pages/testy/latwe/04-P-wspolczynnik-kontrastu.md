@@ -13,7 +13,7 @@ Niektórzy ludzie nie potrafią czytać tekstu, jeśli nie ma wystarczającego k
 
 ![Szary tekst na jasnym tle](images/andi/04_P_kontrast_01.png)
 
-Wysoki kontrast (na przykład ciemny tekst na jasnym tle lub jasny tekst na ciemnym tle) jest potrzebny niektórym osobom z&nbsp;upośledzeniem wzroku, w tym wielu ludzi starszych ludzi, którzy wraz z wiekiem tracą wrażliwość na kontrast.
+Wysoki kontrast (na przykład ciemny tekst na jasnym tle lub jasny tekst na ciemnym tle) jest potrzebny niektórym osobom z&nbsp;upośledzeniem wzroku, w tym wielu ludziom starszym, którzy wraz z wiekiem tracą wrażliwość na kontrast.
 
 ![Ciemny tekst na jasnym tle, i żółty tekst na czarnym tle](images/andi/04_P_kontrast_02.png)
 

@@ -1,4 +1,4 @@
-## Jak zapewnić dostepność
+## Jak zapewnić dostępność
 {% include callout.html content="Nadaj każdemu dokumentowi zwięzły unikalny tytuł opisujący jego treść i związek z zestawem dokumentów, jeśli istnieje." type="primary" %}
 
 ## Dlaczego tytuł dokumentu jest ważny?
@@ -37,7 +37,7 @@ W kodzie strony tytuł strony określony jest za pomocą znacznika `<title>` umi
 {% include note.html content="Znacznik elementu TITLE, znajdujący się w sekcji HEAD kodu HTML strony internetowej, nie powinien być mylony z atrybutem TITLE, który można zastosować do większości elementów HTML." %}
 
 ### Tytuły ramek i ramek wbudowanych
-Dokumenty osadzane na stronach internetowych za pomocą ramek i ramek wbudowanych(*iframe*) również powinny mieć znaczący tytuł. Tytuły dokumentów osadzonych nadaje się za pomocą atrybutu `title=""`.
+Dokumenty osadzane na stronach internetowych za pomocą ramek i ramek wbudowanych (*iframe*) również powinny mieć znaczący tytuł. Tytuły dokumentów osadzonych nadaje się za pomocą atrybutu `title=""`.
 
 ### Przykłady
 
@@ -47,22 +47,17 @@ Dokumenty osadzane na stronach internetowych za pomocą ramek i ramek wbudowanyc
 | LepszyWeb.pl - Skontaktuj się z&nbsp;nami | lepszy | Prawdopodobnie unikalny, ale nie zaczyna się od najbardziej szczegółowych informacji |
 | Skontaktuj się z&nbsp;nami - LepszyWeb.pl | najlepszy | Tytuł jest zwięzły, opisowy, prawdopodobnie unikalny i identyfikuje witrynę. I wyświetla najpierw najbardziej szczegółowe informacje. |
 
-
-
 ## Tytuły innych dokumentów
 
 ### Dokumenty biurowe
-Cyfrowe dokumenty biurowe utworzone w programach MS Word, Libre Office Writter i innych powinny zawierać tytuł dokumentu umieszczony na początku dokumentu i oznakowany stylem **Nagłówek 1**.
+Cyfrowe dokumenty biurowe utworzone w programach MS Word, Libre Office Writter i&nbsp;innych powinny zawierać tytuł dokumentu umieszczony na początku dokumentu i&nbsp;oznakowany stylem **Nagłówek 1**.
 
 Ponadto, tytuły tych dokumentów powinny być umieszczone w metadanych, które wypełnia się w&nbsp;specjalnym oknie informacji o&nbsp;dokumencie.  
 
 {% include warning.html content="Style takie jak: „Tytuł”, „Podtytuł” lub „Tytuł dokumentu” nie są rozpoznawane przez technologie pomocnicze jako znaczniki tytułów. Służą raczej do stylizacji napisów na okładkach publikacji. " %}
 
-
 ### Dokumenty PDF
-Mimo poprawnego określenia tytułu dokumentu biurowego w aplikacji źródłowej, takiej jak MS Word, tytuł dokumentu zapisanego do dostępnego formatu PDF nie jest rozpoznawany przez przeglądarki i technlogie pomocnicze. Jeśli nie mamy możliwości skorygowania właściwości dokumentu PDF w programie Adobe Acrobat Pro, można zapewnić dostępność tytułu, wpisując go w nazwie pliku - bez spacji, wyrazy oddzielamy myślnikami lub znakami podkreślenia.
-
-
+Mimo poprawnego określenia tytułu dokumentu biurowego w aplikacji źródłowej, takiej jak MS Word, tytuł dokumentu zapisanego do dostępnego formatu PDF nie jest rozpoznawany przez przeglądarki i&nbsp;technlogie pomocnicze. Jeśli nie mamy możliwości skorygowania właściwości dokumentu PDF w programie Adobe Acrobat Pro, można zapewnić dostępność tytułu, wpisując go w nazwie pliku - bez spacji, wyrazy oddzielamy myślnikami lub znakami podkreślenia.
 
 ### Prezentacje PowerPoint, Impress...
 Każdy ze slajdów utworzonych w takich programach, jak PowerPoint czy Impress, powinnien mieć tytuł, aby czytniki ekranu mogły nawigować do poszczególnych slajdów.

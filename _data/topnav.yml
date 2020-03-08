@@ -10,22 +10,18 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Glosy
+    - title: Wymagania
       folderitems:
         - title: Wprowadzenie
           url: /glosy-wprowadzenie
-        - title: Postrzegalność
-          url: /glosy-postrzegalnosc
-        - title: Funkcjonalność
-          url: /glosy-funkcjonalnosc
-        - title: Zrozumiałość
-          url: /glosy-zrozumialosc
-        - title: Rzetelność
-          url: /glosy-rzetelnosc
+        - title: WCAG 2.1.
+          url: /wcag21
+        - title: Glosy do WCAG
+          url: /glosy-tytul-dokumentu
         - title: Słownik dostępności
           url: /slownik
         - title: Słownik testera
-          url: /slownik-testera                     
+          url: /slownik-testera
     - title: Metody
       folderitems:
         - title: Wprowadzenie

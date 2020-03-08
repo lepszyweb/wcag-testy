@@ -23,9 +23,9 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                     </span>
                 </div>
                 <div class="panel-body">
-                    <h3>Glosy</h3>
-                    <p>Objaśnienia standardów dostępności</p>
-                    <a href="glosy-wprowadzenie" class="btn btn-primary">Czytaj więcej <span class="sr-only">o glosach</span></a>
+                    <h3>Wymagania</h3>
+                    <p>WCAG 2.1 i&nbsp;komentarze do&nbsp;wymagań</p>
+                    <a href="glosy-wprowadzenie" class="btn btn-primary">Czytaj więcej <span class="sr-only">o wymaganiach dostępności</span></a>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                 </div>
                 <div class="panel-body">
                     <h3>Testy</h3>
-                    <p>Łatwe testy. Testy&nbsp;zgodności. Bazy&nbsp;źródłowe.</p>
+                    <p>Łatwe testy Testy&nbsp;zgodności Bazy&nbsp;źródłowe</p>
                     <a href="testy-przeglad" class="btn btn-primary">Czytaj więcej</a> <span class="sr-only">o testach</span>
                 </div>
             </div>
