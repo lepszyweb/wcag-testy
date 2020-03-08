@@ -1,5 +1,5 @@
 ---
-title: WCAG 2.1
+title: Wytyczne dla dostępności internetowej (WCAG) 2.1
 summary: "Publikacja jest roboczym tłumaczeniem wstępnej części Wytycznych dla dostepności stron internetowych (WCAG) 2.1. W tłumaczeniu wykorzystano nieoficjalne polskie tłumaczenie WCAG 2.0."
 
 sidebar: glosy_sidebar
@@ -9,7 +9,7 @@ folder: glosy
 
 ## Streszczenie
 
-„Wytyczne dla dostępności treści internetowych (WCAG) 2.1” obejmują szeroki wachlarz zaleceń dotyczących zwiększenia dostępności treści internetowych. Wdrożenie tych wytycznych sprawi, że treści będą bardziej dostępne dla szerszego grona osób z niepełnosprawnościami, w tym dla osób niewidomych i słabowidzących, głuchych i niedosłyszących, osób z niepełnosprawnością ruchową, z zaburzeniami mowy, nadwrażliwością na światło, osób z niepełnosprawnościami złożonymi, a także dla niektórych osób mających trudności w uczeniu się i ograniczenia poznawcze; ale nie zaspokoi potrzeb każdego użytkownika z niepełnosprawnością. Niniejsze wytyczne dotyczą dostępności treści internetowych na komputerach stacjonarnych, laptopach, tabletach i urządzeniach przenośnych. Wprowadzenie wytycznych w życie, sprawi również, że treści internetowe będą często bardziej użyteczne dla dla użytkowników w ogóle.
+„Wytyczne dla dostępności internetowej (WCAG) 2.1” obejmują szeroki wachlarz zaleceń dotyczących zwiększenia dostępności treści internetowych. Wdrożenie tych wytycznych sprawi, że treści będą bardziej dostępne dla szerszego grona osób z niepełnosprawnościami, w tym dla osób niewidomych i słabowidzących, głuchych i niedosłyszących, osób z niepełnosprawnością ruchową, z zaburzeniami mowy, nadwrażliwością na światło, osób z niepełnosprawnościami złożonymi, a także dla niektórych osób mających trudności w uczeniu się i ograniczenia poznawcze; ale nie zaspokoi potrzeb każdego użytkownika z niepełnosprawnością. Niniejsze wytyczne dotyczą dostępności treści internetowych na komputerach stacjonarnych, laptopach, tabletach i urządzeniach przenośnych. Wprowadzenie wytycznych w życie, sprawi również, że treści internetowe będą często bardziej użyteczne dla dla użytkowników w ogóle.
 
 Kryteria sukcesu WCAG 2.1 są formułowane jako twierdzenia możliwe do zweryfikowania i niepowiązane z konkretną technologią. Wytyczne dotyczące spełnienia kryteriów sukcesu dla konkretnych technologii, jak również ogólne informacje dotyczące interpretacji kryteriów sukcesu zawarte są w osobnych dokumentach. Więcej na ten temat przeczytać można w [Web Content Accessibility Guidelines (WCAG) Overview](http://www.w3.org/WAI/standards-guidelines/wcag/) (Omówienie Wytycznych dla dostępności treści internetowych (WCAG), gdzie znajduje się wstęp i odnośniki do materiałów edukacyjnych oraz informacji technicznych dotyczących WCAG.
 
