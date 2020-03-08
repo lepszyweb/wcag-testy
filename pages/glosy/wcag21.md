@@ -1,6 +1,6 @@
 ---
 title: Wytyczne dla dostępności internetowej (WCAG) 2.1
-summary: "Publikacja jest roboczym tłumaczeniem wstępnej części Wytycznych dla dostepności stron internetowych (WCAG) 2.1. W tłumaczeniu wykorzystano nieoficjalne polskie tłumaczenie WCAG 2.0."
+summary: "Publikacja jest roboczym tłumaczeniem Wytycznych dla dostepności internetowej (WCAG) 2.1. W tłumaczeniu wykorzystano nieoficjalne polskie tłumaczenie WCAG 2.0."
 
 sidebar: glosy_sidebar
 permalink: wcag21
