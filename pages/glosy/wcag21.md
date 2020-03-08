@@ -334,11 +334,11 @@ Jeden z poniższych poziomów zgodności jest w pełni osiągnięty:
 ### 5.2.2 Poziom zgodności
 <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.zgodnosc | strip_html | replace: '*', ''}}">Zgodność</a> (i poziom zgodności) dotyczy całej <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.strona_internetowa | strip_html | replace: '*', ''}}">strony</a> i nie można jej osiągnąć, jeśli jakaś część strony zostanie wyłączona z oceny.
 
-    *Uwaga 1:* W celu ustalenia zgodności przyjmuje się, że wersje alternatywne części treści strony są częścią strony, jeśli wersje alternatywne są dostępne bezpośrednio z danej strony, np. długi opis lub alternatywna prezentacja nagrania wideo.
+*Uwaga 1:* W celu ustalenia zgodności przyjmuje się, że wersje alternatywne części treści strony są częścią strony, jeśli wersje alternatywne są dostępne bezpośrednio z danej strony, np. długi opis lub alternatywna prezentacja nagrania wideo.
 
-    *Uwaga 2:* Autorzy stron internetowych, którzy nie mogą osiągnąć zgodności ze względu na treść pozostającą poza ich kontrolą, mogą rozważyć [Stwierdzenie częściowej zgodności](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#conformance-partial).
+*Uwaga 2:* Autorzy stron internetowych, którzy nie mogą osiągnąć zgodności ze względu na treść pozostającą poza ich kontrolą, mogą rozważyć [Stwierdzenie częściowej zgodności](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#conformance-partial).
 
-    *Uwaga 3:* Cała strona zawiera każdą odmianę strony, która jest automatycznie prezentowana przez stronę dla różnych rozmiarów ekranu (np. odmiany strony responsywnej). Każda z tych odmian musi być zgodna (lub musi mieć zgodną alternatywną wersję), aby cała strona była zgodna.
+*Uwaga 3:* Cała strona zawiera każdą odmianę strony, która jest automatycznie prezentowana przez stronę dla różnych rozmiarów ekranu (np. odmiany strony responsywnej). Każda z tych odmian musi być zgodna (lub musi mieć zgodną alternatywną wersję), aby cała strona była zgodna.
 
 ### 5.2.3 Całe procesy
 Jeśli dana <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.strona_internetowa | strip_html | replace: '*', ''}}">strona</a> jest jedną z wielu stron prezentujących jakąś <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.procedura | strip_html | replace: '*', ''}}">procedurę</a> (tzn. sekwencję kroków, które należy wykonać, aby dokończyć jakąś czynność), to wszystkie wszystkie strony prezentujące etapy procesu spełniają wymogi co najmniej na tym sammym poziomie zgodności. (Inaczej - zgodność na określonym poziomie nie jest osiągnięta, jeżeli którakolwiek ze stron prezentujących którykolwiek z etapów procesu nie spełnia wszystkich wymogów zgodności na tym poziomie.)
@@ -352,18 +352,18 @@ Tylko <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossar
 
 Jeśli na stronie wykorzystywane są technologie, które nie obsługują dostępności lub są użyte tak, że nie obsługują dostępności, to technologie te nie blokują użytkownikom dostępu do reszty strony. Dodatkowo, <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.strona_internetowa | strip_html | replace: '*', ''}}">strona internetowa</a> jako całość nadal spełnia wymogi zgodności pod każdym z następujących warunków:
 
-    1. kiedy technologia, która nie jest <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.stanowiace_podstawe_zgodnosci | strip_html | replace: '*', ''}}">uwzględniana</a>, jest włączona w programie użytkownika,
-    2. kiedy technologia, która nie jest uwzględniana, jest wyłączona w programie użytkownika, oraz
-    3. kiedy technologia, która nie jest uwzględniana, nie jest wspierana przez program użytkownika.
+1. kiedy technologia, która nie jest <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.stanowiace_podstawe_zgodnosci | strip_html | replace: '*', ''}}">uwzględniana</a>, jest włączona w programie użytkownika,
+2. kiedy technologia, która nie jest uwzględniana, jest wyłączona w programie użytkownika, oraz
+3. kiedy technologia, która nie jest uwzględniana, nie jest wspierana przez program użytkownika.
 
- Ponadto, następujące kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ niezastosowanie poniższych kryteriów mogłoby uniemożliwiać korzystanie ze strony:
+Ponadto, następujące kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ niezastosowanie poniższych kryteriów mogłoby uniemożliwiać korzystanie ze strony:
 
-  - **1.4.2 Kontrola odtwarzania dźwięku**
-  - **2.1.2 Brak pułapki na klawiaturę**
-  - **2.3.1 Trzy błyski lub wartości poniżej progu**
-  - **2.2.2: Wstrzymywanie (pauza), zatrzymywanie, ukrywanie**
+- **1.4.2 Kontrola odtwarzania dźwięku**
+- **2.1.2 Brak pułapki na klawiaturę**
+- **2.3.1 Trzy błyski lub wartości poniżej progu**
+- **2.2.2: Wstrzymywanie (pauza), zatrzymywanie, ukrywanie**
 
-  *Uwaga:* Jeśli strona nie może być zgodna (na przykład testowa strona zgodności lub strona przykładowa), to nie można jej uwzględnić w zakresie zgodności ani w oświadczenia o zgodności.
+*Uwaga:* Jeśli strona nie może być zgodna (na przykład testowa strona zgodności lub strona przykładowa), to nie można jej uwzględnić w zakresie zgodności ani w oświadczenia o zgodności.
 
 Więcej informacji, w tym przykłady, w [Understanding Conformance Requirements](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-conformance-requirements-head).
 
