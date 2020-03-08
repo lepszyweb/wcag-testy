@@ -351,10 +351,10 @@ Aby strona internetowa była zgodna z wytycznymi WCAG 2.1, muszą być spełnion
 
  Ponadto, następujące kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ niezastosowanie poniższych kryteriów mogłoby uniemożliwiać korzystanie ze strony:
 
-  - 1.4.2 Kontrola odtwarzania dźwięku
-  - 2.1.2 Brak pułapki na klawiaturę
-  - 2.3.1 Trzy błyski lub wartości poniżej progu
-  - 2.2.2: Wstrzymywanie (pauza), zatrzymywanie, ukrywanie
+  - **1.4.2 Kontrola odtwarzania dźwięku**
+  - **2.1.2 Brak pułapki na klawiaturę**
+  - **2.3.1 Trzy błyski lub wartości poniżej progu**
+  - **2.2.2: Wstrzymywanie (pauza), zatrzymywanie, ukrywanie**
 
   *Uwaga:* Jeśli strona nie może być zgodna (na przykład testowa strona zgodności lub strona przykładowa), to nie można jej uwzględnić w zakresie zgodności ani w oświadczenia o zgodności.
 
