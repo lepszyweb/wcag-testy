@@ -36,7 +36,7 @@ Niniejszy dokument podlega [dokumentowi procesowemu W3C z 1 lutego 2018 r.](http
 
 ## Wprowadzenie
 
-Niniejsza sekcja pełni funkcję <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.informacyjny}}">informacyjną</a>.
+Niniejsza sekcja pełni funkcję <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.informacyjne}}">informacyjną</a>.
 
 ### 0.1 Kontekst WCAG
 „Wytyczne dla dostępności treści internetowych (WCAG) 2.1” określają, w jaki sposób zwiększyć dostępność treści internetowych dla osób z&nbsp; niepełnosprawnościami. Mowa tutaj o wielu rodzajach niepełnosprawności: ze względu na wzrok, słuch, kłopoty z mową, trudności w uczeniu się, ograniczenia poznawcze, ruchowe, lingwistyczne czy też neurologiczne.
