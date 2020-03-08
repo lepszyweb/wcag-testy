@@ -331,7 +331,7 @@ Jeden z poniższych poziomów zgodności jest w pełni osiągnięty:
 
     *Uwaga 2:* Odradza się wyznaczania poziomu AAA jako wymaganego dla całych witryn, ponieważ w przypadku niektórych treści spełnienie wszystkich kryteriów sukcesu na poziomie AAA nie jest możliwe.
 
-### 5.2.2 Poziom zgodności
+### 5.2.2 Całe strony
 <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.zgodnosc | strip_html | replace: '*', ''}}">Zgodność</a> (i poziom zgodności) dotyczy całej <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.strona_internetowa | strip_html | replace: '*', ''}}">strony</a> i nie można jej osiągnąć, jeśli jakaś część strony zostanie wyłączona z oceny.
 
 *Uwaga 1:* W celu ustalenia zgodności przyjmuje się, że wersje alternatywne części treści strony są częścią strony, jeśli wersje alternatywne są dostępne bezpośrednio z danej strony, np. długi opis lub alternatywna prezentacja nagrania wideo.
