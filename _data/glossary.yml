@@ -56,6 +56,8 @@ fokus_klawiatury: "(ang. 'focus') - skupienie. Stan gotowości komponentu interf
 
 funkcjonalnosc: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą użytkownikowi skorzystanie ze wszystkich oferowanych przez nie funkcji."
 
+gdy_naciskane: "(ang. 'down-event'). Zdarzenie dotykowe, które następuje potem, gdy palec, rysik, wskaźnik myszki lub inny bodziec naciska punkt interaktywny na ekranie, powodując „wciśnięcie” komponentu interfejsu użytkownika. Zdarzenie może mieć na różnych platformach różne nazwy, takie jak „touchstart” lub „mousedown”."
+
 graniczne_wartosci_dowolnych_blyskow_i_czerwonych_blyskow: "(ang. 'general flash and red flash thresholds'). Błysk albo szybko zmieniająca się sekwencja obrazów są poniżej granicznych wartości (tzn. treść jest zgodna z wytycznymi), jeżeli poniższe punkty przyjmują wartość „prawda”: <br>1. nie występują więcej niż trzy **błyski dowolne** i/lub nie więcej niż trzy **czerwone błyski** w ciągu sekundy; lub <br>2. łączny obszar błysków pojawiających się jednocześnie nie przekracza .006 sterydianów w obrębie 10 stopni pola widzenia monitora (25% na każde 10 stopni pola widzenia monitora) dla osoby patrzącej na monitor z przeciętnej odległości, <br>**gdzie**: <br>**dowolny** błysk jest zdefiniowany jako para przeciwnych zmian ze względną luminacją wynoszącą 10% lub więcej największej względnej luminancji, gdzie relatywna luminancja ciemniejszego z obrazów wynosi poniżej 0,80; i gdzie wzrost „pary przeciwnych zmian”  łączy się ze zwiększeniem a następnie zmniejszeniem lub odwrotnie, a<br>**czerwony błysk** jest zdefiniowany jako jakakolwiek para przeciwstawnych przejść zawierających ostrą/nasyconą czerwień."
 
 idiom: "Fraza, której znaczenia nie da się wydedukować przez zrozumienie pojedynczych słów, a specyficznych słów nie da się zmienić bez utraty sensu. <br>**Uwaga**: Idiomów nie da się przetłumaczyć dosłownie — słowo po słowie, bez utraty ich kulturowego lub językowego znaczenia."
@@ -205,7 +207,7 @@ spelnienie_kryterium_sukcesu: "(ang. 'satisfies a success criterion'). Kryterium
 stan_komponentu: "(ang. 'state'). Cecha dynamiczna wyrażająca właściwości komponentu interfejsu użytkownika, która może ulec zmianie w odpowiedzi na działanie użytkownika lub zautomatyzowane procesy. <br>
 Stany nie mają wpływu na charakter elementu, ale reprezentują dane powiązane z tym komponentem lub możliwościami interakcji z&nbsp;użytkownikiem.<br>Przykłady obejmują fokus (skupienie), najechanie wskaźnikiem myszki, wybrany (zaznaczony), wciśnięty, sprawdzony, odwiedzony/nieodwiedzony oraz rozwinięty/zwinięty."
 
-stanowiace_podstawe_zgodnosci: "(ang. 'relied upon'). Zawartość strony nie będzie zgodna, jeżeli taka technologia jest wyłączona lub nie jest wspierana."
+stanowiace_podstawe_zgodnosci: "(ang. 'relied upon'). Technologia internetowa, które musi być obsługiwana, aby treść spełniała wymogi zgodności. Treść nie będzie zgodna, jeżeli taka technologia zostanie wyłączona z oceny lub nie jest obsługiwana."
 
 stany_strony_internetowej: "Stan tej samej strony internetowej obejmujący jej treść, funkcjonalność lub wygląd zmieniony dynamicznie na wskutek działań użytkownika. <br/>**Uwaga**: Przykładami stanów stron internetowych są poszczególne strony wieloczęściowego formularza online, które są generowane dynamicznie w zależności od wprowadzanych przez użytkownika danych. Te poszczególne stany mogą nie mieć unikatowych identyfikatorów URI i mogą wymagać identyfikacji poprzez opisanie ustawień, danych wejściowych i działań wymaganych do ich wygenerowania."
 
@@ -291,8 +293,6 @@ zsynchronizowane_multimedia: "(ang. 'synchronised media'). Dźwięk lub wideo zs
 
 zargon: "(ang. jargon). Słowa używane w pewien określony sposób w pewnych określonych środowiskach. <br>*Przykład:* Słowo Sticky Keys używane jest w żargonie środowisk zajmujących się technologiami wspomagającymi i technologiami dostępności."
 
-
-gdy_naciskane: "(ang. 'down-event'). Zdarzenie dotykowe, które następuje potem, gdy palec, rysik, wskaźnik myszki lub inny bodziec naciska punkt interaktywny na ekranie, powodując „wciśnięcie” komponentu interfejsu użytkownika. Zdarzenie może mieć na różnych platformach różne nazwy, takie jak „touchstart” lub „mousedown”."
 
 
 zwolnienie_nacisku: "(ang. 'up-event'). Zdarzenie dotykowe, które następuje potem, gdy palec, rysik, wskaźnik myszki lub inny bodziec zwalnia „wciśnięty” wcześniej punkt interaktywny na ekranie. Zwolnienie nacisku może mieć różne nazwy na różnych platformach, takie jak „touchend” lub „mouseup”."

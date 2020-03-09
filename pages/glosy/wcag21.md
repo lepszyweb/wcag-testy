@@ -345,7 +345,8 @@ Jeśli dana <a href="#" data-toggle="tooltip" data-original-title="{{site.data.g
 
    *Przykład:* Sklep internetowy prezentuje na kilku stronach procedurę wybierania i zakupu produktów. Wszystkie strony w tej procedurze, od początku do końca (do wykonania płatności) są zgodne na tym samym poziomie.
 
-### 5.2.4 Użycie technologii wspierających dostępność
+### 5.2.4 Tylko obsługiwane sposoby korzystania z technologii
+
 Tylko <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.obslugiwana_przez_dostepnosc | strip_html | replace: '*', ''}}">technologie obsługujące dostępność</a> są uwzględniane jako podstawa spełnienia kryteriów sukcesu. Każda informacja czy funkcjonalność, która nie jest dostarczona w postaci obsługującej dostępność, muszą mieć swoją wersję alternatywną obsługującą dostępność. (Więcej informacji: [Understanding accessibility suport](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-accessibility-support-head)).
 
 ### 5.2.5 Brak zakłóceń

@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   width="864"
+   height="475"
+   viewBox="0 0 864 475"
+   sodipodi:docname="metodologia_2.svg">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker7056"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path7054"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6534"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path6532"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6050"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path6048"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5510"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path5508" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4880"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:collect="always">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path4878" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4544"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path4542"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4198"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4196"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker3780"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path3778" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3464"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path3462"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2288"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path2286"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker13262"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path13260" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker12718"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path12716"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker12456"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path12454"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker12146"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path12144" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker11584"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path11582"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker8950"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path8948"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6917"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path6915"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker6441"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path6439" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5959"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5957"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5483"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5481"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4435"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path4433" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4053"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4051"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2153"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path2151" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4694"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:collect="always">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path4696" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4686"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path4688"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4680"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4682"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5671"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path5673" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5667"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path5669" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5663"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path5665" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5655"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5657"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5647"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5649"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5637"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5639"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5591"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path5593" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5276"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5294"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="0.47761853"
+     inkscape:cx="44.693123"
+     inkscape:cy="-45.734924"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="-1023.7558,760.46005"
+       orientation="0,1"
+       id="guide5265"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="12.25642,191.50656"
+       orientation="1,0"
+       id="guide5677"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="231.8506,111.83983"
+       orientation="0,1"
+       id="guide5679"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="651.55571,395.38835"
+       orientation="1,0"
+       id="guide4381"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="544.59635,-50.386477"
+       orientation="0,1"
+       id="guide4383"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="106.19189,-133.90987"
+       orientation="0,1"
+       id="guide4690"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="102.41765,-126.81431"
+       orientation="1,0"
+       id="guide4698"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-866.1138,-27.164003"
+       orientation="0,1"
+       id="guide1576"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="390.99686,17.292244"
+       orientation="0,1"
+       id="guide13732"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-871.75206,98.564932"
+       orientation="0,1"
+       id="guide13734"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="722.74268,190.96252"
+       orientation="0,1"
+       id="guide13784"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="729.46934,146.49179"
+       orientation="0,1"
+       id="guide13786"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-27.078912,168.12472"
+       orientation="0,1"
+       id="guide13848"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <rect
+     style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.52474749;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect7916"
+     width="806.92407"
+     height="433.66354"
+     x="42.325008"
+     y="23.180695"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot5681"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0.01%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     transform="translate(790.53907,-619.97056)"><flowRegion
+       id="flowRegion5683"><rect
+         id="rect5685"
+         width="542.34656"
+         height="511.70551"
+         x="-50.047047"
+         y="456.61536" /></flowRegion><flowPara
+       id="flowPara5687"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5699"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5701"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5703"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5705"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5707"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5709"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5711"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5713"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5715"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5717"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5719"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5721"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5723"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5725"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5727"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5729"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5731"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5733"
+       style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
+       id="flowPara5735"
+       style="font-size:17.5px;line-height:1.25"> </flowPara></flowRoot>  <rect
+     style="opacity:1;fill:#0078b2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.09052956;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect4331"
+     width="554"
+     height="59.229691"
+     x="60.195"
+     y="40.094833"
+     ry="14.159416"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <text
+     inkscape:export-ydpi="89"
+     inkscape:export-xdpi="89"
+     id="text4333"
+     y="75.22728"
+     x="72.232109"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png"><tspan
+       id="tspan4335"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
+       y="75.22728"
+       x="72.232109"
+       sodipodi:role="line">KROK 1    Ustal zakres oceny</tspan></text>
+  <rect
+     ry="14.159416"
+     y="123.10643"
+     x="114.33301"
+     height="59.229691"
+     width="554"
+     id="rect4337"
+     style="opacity:1;fill:#2c4257;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.09052956;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="126.37012"
+     y="158.23888"
+     id="text4339"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png"><tspan
+       sodipodi:role="line"
+       x="126.37012"
+       y="158.23888"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
+       id="tspan4341">KROK 2    Przeprowadź rekonesans wityny</tspan></text>
+  <rect
+     ry="14.159416"
+     y="207.92265"
+     x="172.98248"
+     height="59.229691"
+     width="554"
+     id="rect4343"
+     style="opacity:1;fill:#447821;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.09052956;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="185.01959"
+     y="243.45549"
+     id="text4345"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png"><tspan
+       sodipodi:role="line"
+       x="185.01959"
+       y="243.45549"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
+       id="tspan4349">KROK 3    Wybierz reprezentatywną próbkę stron</tspan></text>
+  <rect
+     style="opacity:1;fill:#bd541c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.09052956;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect4353"
+     width="554"
+     height="59.229691"
+     x="223.51129"
+     y="290.03198"
+     ry="14.159416"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <text
+     inkscape:export-ydpi="89"
+     inkscape:export-xdpi="89"
+     id="text4355"
+     y="325.599"
+     x="235.5484"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
+       y="325.599"
+       x="235.5484"
+       sodipodi:role="line"
+       id="tspan4359">KROK 4    Wykonaj audyt wybranej próbki</tspan></text>
+  <rect
+     ry="14.159416"
+     y="377.55518"
+     x="282.16077"
+     height="59.229691"
+     width="554"
+     id="rect4363"
+     style="opacity:1;fill:#d32721;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.09052956;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="294.19788"
+     y="413.12207"
+     id="text4365"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png"><tspan
+       id="tspan4367"
+       sodipodi:role="line"
+       x="294.19788"
+       y="413.12207"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff">KROK 5    Sporządź raport wyników</tspan></text>
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 154.695,40.836117 v 57.74719"
+     id="path4369"
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path4371"
+     d="m 208.83299,123.84776 v 57.7472"
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path4373"
+     d="m 268.38479,208.66386 v 57.7472"
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 318.91358,290.77326 v 57.7472"
+     id="path4375"
+     inkscape:connector-curvature="0"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path4377"
+     d="m 378.46538,378.29636 v 57.74718"
+     style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3464)"
+     d="m 615.41209,70.469697 c 7.50388,0 13.01797,-0.53296 17.05277,-0.35105 7.78628,0.35105 11.00676,5.88859 10.79646,13.61878 -0.21481,7.8959 -0.28249,20.257213 -0.0914,39.532473"
+     id="path4379"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cssc"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     sodipodi:nodetypes="cssc"
+     inkscape:connector-curvature="0"
+     id="path4648"
+     d="m 670.02842,153.24757 c 7.50388,0 13.01797,-0.53296 17.05277,-0.35105 7.78628,0.35105 11.00676,5.88859 10.79646,13.61878 -0.21481,7.8959 -0.28249,20.25721 -0.0914,39.53247"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2288)"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4198)"
+     d="m 726.7782,238.15889 c 7.50388,0 13.01797,-0.53296 17.05277,-0.35105 7.78628,0.35105 11.00676,5.88859 10.79646,13.61878 -0.21481,7.8959 -0.28249,20.25721 -0.0914,39.53247"
+     id="path4654"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cssc"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     sodipodi:nodetypes="cssc"
+     inkscape:connector-curvature="0"
+     id="path4660"
+     d="m 777.82122,323.07021 c 7.50388,0 13.01797,-0.53296 17.05277,-0.35105 7.78628,0.35105 11.00676,5.88859 10.79646,13.61878 -0.21481,7.8959 -0.28249,20.25721 -0.0914,39.53247"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3780)"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     sodipodi:nodetypes="cssc"
+     inkscape:connector-curvature="0"
+     id="path4672"
+     d="m 280.70776,407.55884 c -7.50388,0 -11.55989,0.079 -15.59469,-0.10291 -7.78628,-0.3511 -11.00676,-10.36076 -10.79646,-18.09096 0.21481,-7.89589 0.28249,-20.2572 0.0914,-39.53246"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6534)"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4680)"
+     d="m 280.70776,407.55884 c -7.50388,0 -62.01579,-0.2094 -66.05059,-0.3913 -7.78628,-0.3511 -11.00676,-5.8886 -10.79646,-13.6188 0.21481,-7.89591 1.76727,-105.63222 1.57618,-124.90748"
+     id="path4678"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cssc"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4686)"
+     d="m 114.26015,154.07563 -5.17351,-0.0635 c -7.7936,-0.0957 -10.66337,-5.88575 -10.64549,-13.61878 l 0.0914,-39.53247"
+     id="path4684"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cssc"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     sodipodi:nodetypes="cssc"
+     inkscape:connector-curvature="0"
+     id="path4692"
+     d="m 172.23241,236.6861 -63.38732,0.17805 c -7.79416,0.0219 -10.66653,-5.88576 -10.64549,-13.61878 l 0.33295,-122.38449"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4694)"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4544)"
+     d="m 172.23241,236.6861 -63.38732,0.17805 c -7.79416,0.0219 -10.66653,-5.88576 -10.64549,-13.61878 l 0.33295,-122.38449"
+     id="path4700"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cssc"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     inkscape:export-ydpi="89"
+     inkscape:export-xdpi="89"
+     sodipodi:nodetypes="cssc"
+     inkscape:connector-curvature="0"
+     id="path4876"
+     d="m 220.2918,315.4433 -111.44671,0.28129 c -7.79421,0.0197 -10.66653,-9.29857 -10.64549,-21.51552 l 0.33295,-193.34819"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4880)"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     inkscape:export-ydpi="89"
+     inkscape:export-xdpi="89"
+     sodipodi:nodetypes="cssc"
+     inkscape:connector-curvature="0"
+     id="path5506"
+     d="m 224.63995,315.4433 -67.73547,0.17805 c -7.79416,0.0205 -10.66653,-5.88576 -10.64549,-13.61878 l 0.33295,-122.38449"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5510)"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker6050)"
+     d="m 280.70776,407.55884 -125.02871,-0.0842 c -7.79423,-0.005 -10.73776,-9.2989 -10.64549,-21.51552 l 1.55838,-206.34104"
+     id="path6046"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cssc"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker7056)"
+     d="m 219.6397,407.31618 -113.52477,0.67174 c -7.74798,0.0458 -7.59167,-15.89266 -7.57075,-33.17606 l 0.33098,-273.53091"
+     id="path7052"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cssc"
+     inkscape:export-xdpi="89"
+     inkscape:export-ydpi="89"
+     inkscape:export-filename="C:\Users\zwias_000\Downloads\metodologia.png" />
+</svg>

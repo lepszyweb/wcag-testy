@@ -94,8 +94,13 @@ etykieta
 
 
 ## G
+gdy naciskane
+: {{site.data.glossary.gdy_naciskane}}
+
 graniczne wartości dowolnych błysków i czerwonych błysków
 : {{site.data.glossary.graniczne_wartosci_dowolnych_blyskow_i_czerwonych_blyskow}}
+
+
 
 ## F
 fokus klawiatury
@@ -459,11 +464,6 @@ zsynchronizowane multimedia
 
 zwolnienie nacisku
 : {{site.data.glossary.zwolnienie_nacisku}}
-
-
-gdy naciskane
-: {{site.data.glossary.gdy_naciskane}}
-
 
 ## Ż
 żargon

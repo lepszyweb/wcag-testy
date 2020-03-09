@@ -28,9 +28,13 @@ entries:
       url: /met-polska
       output: web, pdf
 
-    - title: WCAG-EM
+    - title: O WCAG-EM
       url: /met-wcag-em
       output: web, pdf
+    - title: WCAG-EM 1.0
+      url: /met-wcag-em-pl
+      output: web, pdf
+
   - title: Procedury oceny
     output: web, pdf
     folderitems:
