@@ -124,9 +124,9 @@ Oceniający, ewaluator, audytor
 
 Stan strony internetowej
 
-: Dynamicznie generowane witryny prezentują czasami znacznie różniące się od siebie treści, funkcjonalności i&nsp;wygląd w&nsp;zależności od użytkownika, interakcji, urządzenia i&nsp;innych parametrów. W&nsp;kontekście tej metodologii takie stany można traktować jako dodatkowe (zapisywane w&nsp;próbce do audytu jako dodatkowe stany strony internetowej) lub jako pojedyncze strony internetowe.
+: Dynamicznie generowane witryny prezentują czasami znacznie różniące się od siebie treści, funkcjonalności i&nbsp;wygląd w&nbsp;zależności od użytkownika, interakcji, urządzenia i&nbsp;innych parametrów. W&nbsp;kontekście tej metodologii takie stany można traktować jako dodatkowe (zapisywane w&nbsp;próbce do audytu jako dodatkowe stany strony internetowej) lub jako pojedyncze strony internetowe.
 
-  **Uwaga**: Przykładami stanów stron internetowych są poszczególne strony wieloczęściowego formularza internetowego, które są generowane dynamicznie w zależności od danych wprowadzonych przez użytkownika. Poszczególne stany mogą nie posiadać unikalnych URI i&nsp;mogą wymagać identyfikacji poprzez opisanie ustawień, danych wejściowych lub działań wymaganych do ich wygenerowania.
+  **Uwaga**: Przykładami stanów stron internetowych są poszczególne strony wieloczęściowego formularza internetowego, które są generowane dynamicznie w zależności od danych wprowadzonych przez użytkownika. Poszczególne stany mogą nie posiadać unikalnych URI i&nbsp;mogą wymagać identyfikacji poprzez opisanie ustawień, danych wejściowych lub działań wymaganych do ich wygenerowania.
 
 Strona internetowa
 
@@ -134,13 +134,13 @@ Strona internetowa
 
   Nieosadzony zasób, uzyskany z pojedynczego identyfikatora URI za pomocą protokołu HTTP wraz z wszelkimi innymi zasobami użytymi do renderowania strony w oprogramowaniu użytkownika lub takimi, które potencjalnie mogą być użyte do renderowania.
 
-  **Uwaga**: Strony internetowe mogą zawierać treści multimedialne, komponenty interaktywne oraz bogate i&nsp;mobilne aplikacje internetowe. Strony internetowe nie są ograniczone do formatu HTML i&nsp;mogą być dokumentami PDF, a także dokumentami w&nsp;innych formatach.
+  **Uwaga**: Strony internetowe mogą zawierać treści multimedialne, komponenty interaktywne oraz bogate i&nbsp;mobilne aplikacje internetowe. Strony internetowe nie są ograniczone do formatu HTML i&nbsp;mogą być dokumentami PDF, a także dokumentami w&nbsp;innych formatach.
 
-  **Uwaga 2**: Terminu „strona internetowa” używa się potocznie zarówno na oznaczenie pojedynczych stron internetowych, jak serwisów złożonych z wielu stron internetowych, czyli witryn. Powyższa definicja ogranicza stosowanie terminu „strona internetowa” tylko do zasobu uzyskanego z „pojedynczego identyfikatora URI”, a więc do jednej, pojedynczej samodzielnej strony internetowej albo jednej, pojedynczej strony w&nsp;witrynie złożonej z&nsp;wielu stron.
+  **Uwaga 2**: Terminu „strona internetowa” używa się potocznie zarówno na oznaczenie pojedynczych stron internetowych, jak serwisów złożonych z wielu stron internetowych, czyli witryn. Powyższa definicja ogranicza stosowanie terminu „strona internetowa” tylko do zasobu uzyskanego z „pojedynczego identyfikatora URI”, a więc do jednej, pojedynczej samodzielnej strony internetowej albo jednej, pojedynczej strony w&nbsp;witrynie złożonej z&nbsp;wielu stron.
 
 Strony wspólne
 
-: Strony i stany stron internetowych wspólne dla całej witryny odnoszące się do całej witryny, istotne dla funkcjonowania całej witryny, takie jak strona główna, strona logowania, mapa witryny, strona kontaktowa, strona pomocy, strona informacji prawnych i&nsp;podobne, które są zazwyczaj połączone ze wszystkimi innymi stronami witryny (zwykle poprzez łącze w nagłówku, stopce lub w&nsp;menu nawigacyjnym).
+: Strony i stany stron internetowych wspólne dla całej witryny odnoszące się do całej witryny, istotne dla funkcjonowania całej witryny, takie jak strona główna, strona logowania, mapa witryny, strona kontaktowa, strona pomocy, strona informacji prawnych i&nbsp;podobne, które są zazwyczaj połączone ze wszystkimi innymi stronami witryny (zwykle poprzez łącze w nagłówku, stopce lub w&nbsp;menu nawigacyjnym).
 
    **Uwaga**: definicja stanów stron internetowych znajduje się powyżej.
 
@@ -148,23 +148,23 @@ Szablony
 
 : [Zobacz definicję \"templates\" w ATAG 2.0:](http://www.w3.org/TR/ATAG20/#def-Template)
 
-  Wzorce, które są wypełniane treścią przez autorów lub za pomocą narzędzia autorskiego (np. szablony dokumentów, szablony zarządzania treścią, motywy prezentacji). Szablony zwykle zastępują autorów, przynajmniej częściowo, w decydowaniu o&nsp;układzie i&nsp;stylizacji treści.
+  Wzorce, które są wypełniane treścią przez autorów lub za pomocą narzędzia autorskiego (np. szablony dokumentów, szablony zarządzania treścią, motywy prezentacji). Szablony zwykle zastępują autorów, przynajmniej częściowo, w decydowaniu o&nbsp;układzie i&nbsp;stylizacji treści.
 
 Twórca witryny
 
-:  Osoba, zespół ludzi, organizacja, dział wewnętrzny organizacji lub inny podmiot zaangażowany w proces tworzenia witryny, w&nsp;tym między innymi autorzy treści, projektanci, programiści, programiści, testerzy zapewniania jakości oraz menadżerowie projektu.
+:  Osoba, zespół ludzi, organizacja, dział wewnętrzny organizacji lub inny podmiot zaangażowany w proces tworzenia witryny, w&nbsp;tym między innymi autorzy treści, projektanci, programiści, programiści, testerzy zapewniania jakości oraz menadżerowie projektu.
 
 Spolegliwa (technologia bazowa)
 
 : [Zobacz definicję \"relied upon\" w glosariuszu WCAG 2.1 ](https://www.w3.org/TR/WCAG21/#dfn-relied-upon)
 
-  Technologia internetowa, które musi być obsługiwana, aby treść spełniała wymogi zgodności. Treść nie będzie zgodna, jeżeli taka technologia zostanie wyłączona z&nsp;oceny lub nie jest obsługiwana.
+  Technologia internetowa, które musi być obsługiwana, aby treść spełniała wymogi zgodności. Treść nie będzie zgodna, jeżeli taka technologia zostanie wyłączona z&nbsp;oceny lub nie jest obsługiwana.
 
 Witryna
 
-: Spójny zbiór jednej lub większej liczby połączonych ze sobą stron internetowych, które razem zapewniają wspólne użytkowanie lub funkcjonalności. Obejmuje statyczne strony internetowe, dynamicznie generowane strony internetowe oraz witryny i&nsp;aplikacje mobilne.
+: Spójny zbiór jednej lub większej liczby połączonych ze sobą stron internetowych, które razem zapewniają wspólne użytkowanie lub funkcjonalności. Obejmuje statyczne strony internetowe, dynamicznie generowane strony internetowe oraz witryny i&nbsp;aplikacje mobilne.
 
-  **Uwaga**: Ta metodologia koncentruje się na całych, samodzielnych witrynach internetowych. Witryny mogą składać się z&nsp;mniejszych zbiorów stron, z&nsp;których każdy można uznać za odrębną witrynę. Na przykład witryna może zawierać wyodrębnione obszary, takie jak sklep internetowy, forum dyskusyjne albo odrębne obszary dla każdego działu czy filii w organizacji, obszar blogów i&nsp;inne obszary, powiązane wspólnym adresem domenowym. Każdy taki podzbiór może być uznany za odrębną witrynę.
+  **Uwaga**: Ta metodologia koncentruje się na całych, samodzielnych witrynach internetowych. Witryny mogą składać się z&nbsp;mniejszych zbiorów stron, z&nbsp;których każdy można uznać za odrębną witrynę. Na przykład witryna może zawierać wyodrębnione obszary, takie jak sklep internetowy, forum dyskusyjne albo odrębne obszary dla każdego działu czy filii w organizacji, obszar blogów i&nbsp;inne obszary, powiązane wspólnym adresem domenowym. Każdy taki podzbiór może być uznany za odrębną witrynę.
 
 Właściciel witryny
 
