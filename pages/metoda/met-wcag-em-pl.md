@@ -178,7 +178,7 @@ Spełnienie wszystkich wymagań danej normy, wytycznych lub specyfikacji.
 
 ## Korzystanie z metodologii
 
-Metodologia ta służy do dokładnej oceny stron internetowych przy użyciu WCAG&nbsp;2. Przed oceną całej witryny dobrze jest przeprowadzić wstępną ocenę różnych stron internetowych z&nbsp;badanej witryny, aby zidentyfikować oczywiste bariery dostępności i&nbsp;wypracować ogólne zrozumienie dostępności witryny. [Łatwe testy – Wstępny przegląd dostepnosci cyfrowej](00-P-wprowadzenie2) opisuje takie podejście do wstępnej oceny, które jest uzupełnieniem tej metodologii.
+Metodologia ta służy do dokładnej oceny stron internetowych przy użyciu WCAG&nbsp;2. Przed oceną całej witryny dobrze jest przeprowadzić wstępną ocenę różnych stron internetowych z&nbsp;badanej witryny, aby zidentyfikować oczywiste bariery dostępności i&nbsp;wypracować ogólne zrozumienie dostępności witryny. [Łatwe testy – Wstępny przegląd dostępności cyfrowej](00-P-wprowadzenie2) opisuje takie podejście do wstępnej oceny, które jest uzupełnieniem tej metodologii.
 
 ## Wymagana wiedza specjalistyczna
 
