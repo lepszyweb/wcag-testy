@@ -8,7 +8,6 @@ toc: false
 summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron internetowych i aplikacji mobilnych, aby pomóc wydawcom, koordynatorom dostępności cyfrowej, programistom, webmasterom, audytorom, testerom. "
 ---
 
-
 <div class="row">
         <div class="col-lg-12">
             <h2 class="page-header">Nasz cel</h2>
