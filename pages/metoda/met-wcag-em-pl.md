@@ -8,9 +8,13 @@ folder: metoda
 
 ## Streszczenie
 
-Ten dokument zawiera wskazówki dotyczące oceny, w jaki sposób strony internetowe są zgodne z [Wytycznymi dla dostępności treści internetowych (WCAG) 2.1](https://testy.lepszyweb.pl/wcag21) [*w oryginale odniesienie do WCAG 2.0*]. Opisuje procedurę oceny stron internetowych oraz zawiera wskazówki, które pomogą oceniającym stosować dobre praktyki. Nie zawiera instrukcji oceny treści stron internetowych według funkcji, do których odnoszą się kryteria sukcesu WCAG 2.1. Ten dokument jest jednym z serii materiałów informacyjnych W3C / WAI [na temat oceny stron internetowych pod kątem dostępności](http://www.w3.org/WAI/eval/preliminary), które uzupełniają dokumenty WCAG 2.1. Nie definiuje dodatkowych wymagań WCAG 2.1, nie zastępuje ich ani nie zmienia w żaden sposób.
+Ten dokument zawiera wskazówki dotyczące oceny, w jaki sposób strony internetowe są zgodne z [Wytycznymi dla dostępności treści internetowych (WCAG) 2.1](https://testy.lepszyweb.pl/wcag21) [*w oryginale odniesienie do WCAG 2.0*]. Opisuje procedurę oceny stron internetowych oraz zawiera wskazówki, które pomogą oceniającym stosować dobre praktyki. Nie zawiera instrukcji oceny treści stron internetowych według funkcji, do których odnoszą się kryteria sukcesu WCAG 2.1. Ten dokument jest jednym z serii materiałów informacyjnych W3C / WAI [na temat oceny stron internetowych pod kątem dostępności](http://www.w3.org/WAI/eval/), które uzupełniają [Dokumenty WCAG 2](https://www.w3.org/WAI/standards-guidelines/wcag/docs/). Nie definiuje dodatkowych wymagań WCAG 2.1, nie zastępuje ich ani nie zmienia w żaden sposób.
 
 Metodologia opisana w tym dokumencie jest przeznaczona dla osób, które mają doświadczenie w ocenie dostępności za pomocą WCAG 2.1 i ich zasobów pomocniczych. Zawiera wskazówki dotyczące dobrych praktyk w zakresie definiowania zakresu oceny, eksploracji ocenianej witryny, wyboru reprezentatywnych próbek stron z witryn, na których nie jest możliwe ocenienie całej treści, audytu wybranych próbek i raportowania wyników oceny. Jest przeznaczona przede wszystkim do oceny istniejących stron internetowych, na przykład, aby dowiedzieć się o ich dostępności i monitorować poziom dostępności. Może być również przydatna na wcześniejszych etapach projektowania i rozwoju stron internetowych. Dotyczy to statycznych i dynamicznie generowanych stron internetowych, witryn i aplikacji mobilnych oraz innych rodzajów stron internetowych. Nie wskazuje konkretnych technologii internetowych, narzędzi oceny, przeglądarek internetowych, technologii wspomagających ani innego oprogramowania do oceny. Nadaje się do stosowania w różnych kontekstach oceny, w tym samooceny i oceny przez podmioty zewnętrzne.
+
+## Status dokumentu
+
+{% include note.html content="W tej części opisano sttus tego dokumentu w momencie jego publikacji. Inne dokumenty mogą zastąpić ten dokument. Listę bieżących publikacji W3C i najnowszą wersję tego raportu technicznego można znaleźć w&nbsp;indeksie raportów technicznych W3C pod adresem http://www.w3.org/TR/." %}
 
 Niniejszy dokument jest [notatką Grupy Roboczej](http://www.w3.org/Consortium/Process/tr#WGNote) opracowaną przez [grupę zadaniową ds. Metodologii oceny WCAG 2.0 (Eval TF)](http://www.w3.org/WAI/ER/2011/eval/eval-tf), [wspólną grupę zadaniową Grupy Roboczej Wytyczne dla dostępności internetowej (WCAG WG)](http://www.w3.org/WAI/GL/) oraz [Grupy Roboczej ds. Narzędzi oceny i naprawy (ERT WG)](http://www.w3.org/WAI/ER/). Zawiera wskazówki informacyjne na temat oceny zgodnie z [wytycznymi dla dostępności treści internetowych (WCAG).](http://www.w3.org/WAI/intro/wcag)
 
@@ -81,8 +85,8 @@ Jest to uznawany na całym świecie standard wyjaśniający, w jaki sposób spra
 - [WCAG 2.1 Przegląd](https://www.w3.org/WAI/standards-guidelines/wcag/) (w języku angielskim)
 - [WCAG 2.1 Specyfikacja techniczna](https://www.w3.org/TR/WCAG21/)  (w języku angielskim)
 - [Jak spełnić WCAG 2 (Krótki przewodnik)](https://wcag.lepszyweb.pl)
-- [Zrozumieć WCAG 2.1](https://www.w3.org/WAI/WCAG21/Understanding/)  (w języku angielskim)
-- [Techniki dla WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/)  (w języku angielskim)
+- [Zrozumieć WCAG](https://www.w3.org/WAI/WCAG21/Understanding/)  (w języku angielskim)
+- [Techniki dla WCAG](https://www.w3.org/WAI/WCAG21/Techniques/)  (w języku angielskim)
 
 ## Terminy i definicje
 

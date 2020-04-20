@@ -22,8 +22,8 @@ _do opracowania_
 ### Oczekiwania:
 Kryteria sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-and-relationships), [1.3.2 Zrozumiała kolejność](https://wcag.lepszyweb.pl/#meaningful-sequence)
 -	Tabele są wykorzystywane wyłącznie do prezentacji danych (najlepsza praktyka).
-o	Jeśli tabele są używane do rozmieszczania elementów strony (tabele układu, prezentacyjne), wówczas mają ustawiony atrybut ARIA `role="presentation"` (dobra praktyka)
-o	W przypadku tabel układu, poprawna jest kolejność odczytu, gdy tabela jest linearyzowana. (wymagane)
+    - Jeśli tabele są używane do rozmieszczania elementów strony (tabele układu, prezentacyjne), wówczas mają ustawiony atrybut ARIA `role="presentation"` (dobra praktyka)
+    - W przypadku tabel układu, poprawna jest kolejność odczytu, gdy tabela jest linearyzowana. (wymagane)
 -	Tabele danych posiadają podpis umieszczony w znaczniku `caption`.
 -	Dane w tabelach są uporządkowane za pomocą nagłówków kolumn i wierszy utworzonych znacznikiem `<th...>`.
 -	Gdy w tabeli występuje więcej niż trzy kolumny albo trzy wiersze z nagłówkami, wówczas komórki z nagłówkami kolumn zawierają atrybut `scope="col"`, a kolumny z nagłówkami wierszy atrybut `scope="row"`.

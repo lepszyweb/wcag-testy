@@ -12,7 +12,7 @@ folder: testy/itc
 - {% include ks/1-2-1.md %}
 
 ## Uzasadnienie metody badania
-Ocena treści alternatywnej w celu oceny jej równoważności z treściami tylko audio lub tylko wideo obejmuje zazwyczaj ręczne, poznawcze porównanie oryginalnej treści z jej alternatywą (lub alternatywami).
+Badanie treści alternatywnej w celu oceny jej równoważności z treściami tylko audio lub tylko wideo obejmuje zazwyczaj ręczne, poznawcze porównanie oryginalnej treści z jej alternatywą (lub alternatywami).
 
 ## Ograniczenia, założenia lub wyjątki
 
@@ -27,7 +27,7 @@ Ocena treści alternatywnej w celu oceny jej równoważności z treściami tylko
 -   W prezentacji wyłącznie wideo informacje są przedstawiane na różne sposoby, w tym animację, tekst lub grafikę, otoczenie i tło, działania i ekspresję ludzi, zwierząt itp.
 -   Wideo będące alternatywą dla tekstu nie wymaga dodatkowego opisu, jeśli jest wyraźnie oznaczone jako takie.
 -   Jeżeli prezentacji wideo towarzyszą dźwięki o określonym czasie trwania lub znaczące dialogi, nie jest to tylko wideo. Odpowiednimi w takim przypadku są testy [17. Media zsynchronizowane](ICT_17_media-zsynchronizowane)
--   Treści tylko wideo mogą przedstawiać informacje ruchome, migające, przewijane lub automatycznie aktualizowane. Jednak do pezentacji podobnych treści można zastosować inne metody. W obu przypadkach, niezależnie od tego, czy treść jest prezentowana wyłącznie w formie wideo, czy też w inny sposób, musi istnieć możliwość wstrzymania, zatrzymania lub ukrycia treści. Sprawdzenia tego wymogu dokonuje się zgodnie z [21. Limity czasu](ICT_21_limity-czasu).
+-   Treści tylko wideo mogą przedstawiać informacje ruchome, migające, przewijane lub automatycznie aktualizowane. Jednak do prezentacji podobnych treści można zastosować inne metody. W obu przypadkach, niezależnie od tego, czy treść jest prezentowana wyłącznie w formie wideo, czy też w inny sposób, musi istnieć możliwość wstrzymania, zatrzymania lub ukrycia treści. Sprawdzenia tego wymogu dokonuje się zgodnie z [21. Limity czasu](ICT_21_limity-czasu).
 
 ## Procedura testu dla KS Tylko audio (nagranie)
 

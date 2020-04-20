@@ -546,3 +546,24 @@ entries:
     - title: Wersja alternatywna zapewniajaca zgodność
       url: /tz-01-alternatywne
       output: web
+
+
+  - title: Zaufany tester
+    output: web, pdf
+
+    folderitems:
+    - title: Zaufany tester
+      url: /tz-about
+      output: web
+
+      subfolders:
+      - title: Baza testów
+        output: web
+        subfolderitems:
+
+        - title: 1. Wersja alternatywna zapewniająca zgodność i brak zakłóceń
+          url: /tz-01-alternatywne
+          output: web, pdf
+        - title: 17. Miltimedia zsynchronizowane
+          url: /tz-17-multimedia-zsynchronizowane
+          output: web, pdf

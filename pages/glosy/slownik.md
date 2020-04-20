@@ -41,7 +41,7 @@ audio
 audiodeskrypcja
 : {{site.data.glossary.audiodeskrypcja}}
 
-audiodeskrypcja_rozszerzona
+audiodeskrypcja rozszerzona
 : {{site.data.glossary.audiodeskrypcja_rozszerzona}}
 
 automatyczne przekierowanie
@@ -93,6 +93,13 @@ etykieta
 : {{site.data.glossary.etykieta}}
 
 
+## F
+fokus klawiatury
+: {{site.data.glossary.fokus_klawiatury}}
+
+funkcjonalność
+: {{site.data.glossary.funkcjonalnosc}}
+
 ## G
 gdy naciskane
 : {{site.data.glossary.gdy_naciskane}}
@@ -100,14 +107,6 @@ gdy naciskane
 graniczne wartości dowolnych błysków i czerwonych błysków
 : {{site.data.glossary.graniczne_wartosci_dowolnych_blyskow_i_czerwonych_blyskow}}
 
-
-
-## F
-fokus klawiatury
-: {{site.data.glossary.fokus_klawiatury}}
-
-funkcjonalność
-: {{site.data.glossary.funkcjonalnosc}}
 
 ## I
 idiom
@@ -130,11 +129,11 @@ istotny
 
 ## J
 
-język naturalny
-: {{site.data.glossary.jezyk_naturalny}}
-
 język migowy
 : {{site.data.glossary.jezyk_migowy}}
+
+język naturalny
+: {{site.data.glossary.jezyk_naturalny}}
 
 ## K
 kompatybilność
@@ -214,6 +213,10 @@ NVDA
 : {{site.data.glossary.NVDA}}
 
 ## O
+
+obraz tekstu
+: {{site.data.glossary.obraz_tekstu}}
+
 obsługiwana przez dostępność
 : {{site.data.glossary.obslugiwana_przez_dostepnosc}}
 
@@ -234,9 +237,6 @@ obszar treści głównej
 
 obszar wyszukiwania
 : {{site.data.glossary.obszar_wyszukiwania}}
-
-obraz tekstu
-: {{site.data.glossary.obraz_tekstu}}
 
 obszar roboczy
 : {{site.data.glossary.obszar_roboczy}}
@@ -263,7 +263,7 @@ parsowanie
 percepcja
 : {{site.data.glossary.percepcja}}
 
-piksel_CSS
+piksel CSS
 : {{site.data.glossary.piksel_CSS}}
 
 podstawowy poziom edukacji
@@ -325,6 +325,10 @@ rzetelność
 : {{site.data.glossary.rzetelnosc}}
 
 ## S
+
+sekcja
+: {{site.data.glossary.sekcja}}
+
 skrót
 : {{site.data.glossary.skrot}}
 
@@ -335,7 +339,10 @@ skrót klawiaturowy
 spełnienie kryterium sukcesu
 : {{site.data.glossary.spelnienie_kryterium_sukcesu}}
 
-stanowiące podstawę zgodnosci (technologie)
+stan
+: {{site.data.glossary.stan}}
+
+stanowiące podstawę zgodności (technologie)
 : {{site.data.glossary.stanowiace_podstawe_zgodnosci}}
 
 stany strony internetowej
@@ -415,29 +422,41 @@ W3C
 WCAG
 : {{site.data.glossary.WCAG}}
 
+wersja alternatywna zapewniająca zgodność
+: {{site.data.glossary.wersja_alternatywna_zapewniajaca_zgodnosc}}
+
 wideo
 : {{site.data.glossary.wideo}}
 
 witryna internetowa
 : {{site.data.glossary.witryna_internetowa}}
 
+właściwość stylu
+: {{site.data.glossary.wlasciwosc_stylu}}
+
 wspólne strony internetowe
 : {{site.data.glossary.wspolne_strony_internetowe}}
+
+współczynnik kontrastu
+: {{site.data.glossary.wspolczynnik_kontrastu}}
 
 wstrzymane
 : {{site.data.glossary.wstrzymane}}
 
-wydanie_punktowe
+wydanie punktowe
 : {{site.data.glossary.wydanie_punktowe}}
-
-wyłącznie dekoracyjny
-: {{site.data.glossary.wylacznie_dekoracyjny}}
 
 wydarzenie w czasie rzeczywistym
 : {{site.data.glossary.wydarzenie_w_czasie_rzeczywistym}}
 
+wyłącznie dekoracyjny
+: {{site.data.glossary.wylacznie_dekoracyjny}}
+
 wymogi zgodności z WCAG
 : {{site.data.glossary.wymogi_zgodnosci_z_WCAG}}
+
+względna luminancja
+: {{site.data.glossary.wzgledna_luminancja}}
 
 
 ## Z
@@ -450,7 +469,7 @@ zestaw stron internetowych
 zgodność
 : {{site.data.glossary.zgodnosc}}
 
-zmiany_kontekstu
+zmiany kontekstu
 : {{site.data.glossary.zmiany_kontekstu}}
 
 zobowiązanie prawne

@@ -26,7 +26,7 @@ ATAG: "Akronim od angielskiego tytułu dokumentu [Authoring Tool Accessibility G
 
 blok_tekstu: "Tekst składający się z więcej niż jednego zdania."
 
-blad_wprowadzania_danych: "(ang. 'input error'). Informacja wprowadzona przez użytkownika, która nie jest akceptowana przez system. <br>**Uwaga**: Dotyczy: 1.	Informacji, które są wymagane przez stronę internetową, a pominięte przez użytkownika; 2.	informacji wprowadzonych przez użytkownika, ale w niewłaściwym formacie lub o niedopuszczalnej wartości."
+blad_wprowadzania_danych: "(ang. 'input error'). Informacja wprowadzona przez użytkownika, która nie jest akceptowana przez system. <br>**Uwaga**: Dotyczy:<br>1. informacji, które są wymagane przez stronę internetową, a pominięte przez użytkownika; <br>2.	informacji wprowadzonych przez użytkownika, ale w niewłaściwym formacie lub o niedopuszczalnej wartości."
 
 blysk: "(ang. 'flash'). Para relatywnie przeciwstawnych luminancji, która może u niektórych osób wywołać atak padaczki, jeżeli efekt ten ma odpowiednie natężenie i zmienia się z pewną określoną częstotliwością. <br>**Uwaga 1**: Zobacz „informacje o granicznych wartościach ogólnych błysków i czerwonych błysków”, aby dowiedzieć się, które błyski są niedopuszczalne. <br>**Uwaga 2**: Zobacz także „migotanie”."
 
@@ -54,7 +54,7 @@ etykieta: "(ang. 'label'): Tekst lub inny komponent z tekstem alternatywnym, kt�
 
 fokus_klawiatury: "(ang. 'focus') - skupienie. Stan gotowości komponentu interfejsu użytkownika (zobacz) do odbioru informacji o naciśnięciu klawiszy, które jest zdolny obsłużyć. Fokus jest zwykle odpowiednio odwzorowany w wyglądzie komponentu, np. przycisk dostaje dodatkowe obramowanie, w polu formularza pojawia się migający kursor, pod łączem w menu zmienia się kolor tła, itp. Wszelkie zdarzenia związane z naciskaniem przez użytkownika klawiszy są kierowane właśnie do tego komponentu, o ile nie zostaną wcześniej przechwycone. Zdarzenia z klawiatury w pierwszej kolejności przekazywane są do systemu okienkowego (menedżera okien), który z kolei przekazuje je do aplikacji. Aplikacja obsługuje te zdarzenia sama albo przekazuje je do obsłużenia do komponentu gotowego do obsługi zdarzenia."
 
-funkcjonalnosc: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą użytkownikowi skorzystanie ze wszystkich oferowanych przez nie funkcji."
+funkcjonalnosc: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiająca użytkownikowi skorzystanie ze wszystkich oferowanych przez nie funkcji."
 
 gdy_naciskane: "(ang. 'down-event'). Zdarzenie dotykowe, które następuje potem, gdy palec, rysik, wskaźnik myszki lub inny bodziec naciska punkt interaktywny na ekranie, powodując „wciśnięcie” komponentu interfejsu użytkownika. Zdarzenie może mieć na różnych platformach różne nazwy, takie jak „touchstart” lub „mousedown”."
 
@@ -86,7 +86,7 @@ konkretne_odczucie_zmyslowe: "(ang. 'specific sensory experience'). Odczucie zmy
 
 kontekst_lacza_okreslony_programistycznie: "(ang. 'programmatically determined link context'). Dodatkowa informacja, mogąca być określona programowo, w zależności pomiędzy linkiem, połączonym z tekstem linku, i prezentowana użytkownikowi na różne sposoby. <br>**Przykład:** W HTML, informacja, która jest określona programowo z linku w języku angielskim, obejmuje tekst, który znajduje się w tym samym akapicie, liście lub komórce tabeli, tak jak link, lub też w nagłówku tabeli, który jest powiązany z komórką, gdzie znajduje się link. <br>**Uwaga**: Ponieważ czytnik ekranu (ang. screen reader) interpretuje interpunkcję, może też podać kontekst bieżącego zdania, kiedy fokus znajdzie się na linku w tym zdaniu."
 
-kontrolowane_przez_uzytkownika: "(ang. 'user controllable'). Dane w zamierzeniu dostępne dla użytkownika. <br>**Uwaga**: nie odnosi się do takich elementów, jak logi internetowe lub dane z wyszukiwarek. <br>*Przykład:** Pola imienia i adresu w formularzu konta użytkownika."
+kontrolowane_przez_uzytkownika: "(ang. 'user controllable'). Dane w zamierzeniu dostępne dla użytkownika. <br>**Uwaga**: nie odnosi się do takich elementów, jak logi internetowe lub dane z wyszukiwarek. <br>**Przykład:** Pola imienia i adresu w formularzu konta użytkownika."
 
 lacze: "(ang. 'hyperlink, link'). Odnośnik, odsyłacz w dokumencie elektronicznym (tekstowym, graficznym, wideo, animacji, PDF, HTML) będące odwołaniem do innego dokumentu lub innego miejsca w danym dokumencie. Odwołanie takie związane jest z fragmentem tekstu lub obrazem – uaktywnienie hiperłącza (kliknięcie lub nadejście odpowiedniego momentu) powoduje otwarcie dokumentu docelowego. Łącza są powszechnie używane na stronach internetowych."
 
@@ -107,7 +107,7 @@ multimedia_alternatywne_dla_tekstu: "(ang. 'media alternative for text'). Multim
 
 na_zywo: "(ang. 'live') Informacja przechwytywana z wydarzeń pochodzących z rzeczywistego świata, transmitowana bezpośrednio do odbiorcy, z opóźnieniem zależnym wyłącznie od nadawcy. <br>**Uwaga 1**: Opóźnienie zależne od nadawcy to krótkie (najczęściej automatyczne) opóźnienie, niezbędne na przykład w celu dania nadawcy czasu na kolejkowanie lub cenzurowanie treści wizualnej lub dźwiękowej. Opóźnienie to nie jest wystarczające, by nadawaną treść poddawać poważniejszej edycji. <br>**Uwaga 2**: Jeżeli informacja jest całkowicie generowana przez komputer, to nie jest informacją na żywo."
 
-nagranie: "('ang. prerecorded'). Informacja, która nie jest na żywo."
+nagranie: "('ang. prerecorded'). Informacja, która nie jest transmitowana na żywo."
 
 napisy_rozszerzone: "(ang. 'captions') Informacja w postaci alternatywy tekstowej zsynchronizowana z obrazem, przedstawiająca zarówno mowę, jak i inne dźwięki niezbędne do zrozumienia zawartości danego medium."
 
@@ -117,7 +117,7 @@ nawigacja: "Zespół funkcji obejmujących menu oraz linki do elementów strony 
 
 nawigowane_sekwencyjnie: "(ang. 'navigated sequentially'). Nawigowanie fokusem, w zaplanowany sposób (od jednego elementu do następnego) za pomocą interfejsu klawiaturowego."
 
-nazwa: "(ang. 'name'). Tekst, który odróżnia element treści od innych, nazywany też 'dostępną nazwą'. Może nim być cała tekstowa treść elementu (tekst objęty znacznikiem HTML - ang. *innerHTML*) albo tekst zawarty w powiązanym programowo elemencie treści (np. tekst podpisu tabeli objęty znacznikiem caption, tekst etykiety pola formularza objęty znacznikiem label, tekst opisu figury w znaczniku figcaption) lub tekst powiązanego atrybutu badź wskazywany przez atrybut (alt, value, aria-label, aria-labelledby)."
+nazwa: "(ang. 'name'). Tekst, który odróżnia element treści od innych, nazywany też 'dostępną nazwą'. Może nim być cała tekstowa treść elementu (tekst objęty znacznikiem HTML - ang. *innerHTML*) albo tekst zawarty w powiązanym programowo elemencie treści (np. tekst podpisu tabeli objęty znacznikiem caption, tekst etykiety pola formularza objęty znacznikiem label, tekst opisu figury w znaczniku figcaption) lub tekst powiązanego atrybutu bądź wskazywany przez atrybut (alt, value, aria-label, aria-labelledby)."
 
 nieaktywnosc_uzytkownika: "(ang. 'user inactivity'). Każdy nieprzerwany okres, w którym nie występują żadne działania użytkownika.<br>Sposób śledzenia jest określany przez stronę internetową lub aplikację."
 
@@ -144,7 +144,7 @@ obszar_wyszukiwania: "Obszar strony, punkt orientacyjny, zawierający wyszukiwar
 
 obszar_roboczy: "(ang. 'viewport'). Inaczej *obszar operacyjny* - powierzchnia wewnątrz okna przeglądarki, z wyłączeniem paskó narzędzi, zakładek i podobnych elementów. Obszar, w którym oprogramowanie użytkownika prezentuje treść. <br>**Uwaga 1**: Oprogramowanie użytkownika prezentuje treść w jednym lub więcej obszarze roboczym. Do obszarów roboczych zaliczamy okna, ramki, głośniki, wirtualne okulary. Obszar roboczy może zawierać w sobie inny obszar roboczy, (na przykład osadzone ramki). Komponenty interfejsu użytkownika generowane przez oprogramowanie użytkownika, jak podpowiedzi, menu i komunikaty, nie są obszarem roboczym."
 
-odpowiednik: "Treść jest „odpowiednikiem” innej treści jeśli obie spełniają taką samą funkcję lub mają ten sam cel po prezentacji użytkownikowi."
+odpowiednik: "Treść jest „odpowiednikiem” innej treści, jeśli obie spełniają taką samą funkcję lub mają ten sam cel do prezentacji użytkownikowi."
 
 ogolnie_niejednoznaczny_dla_uzytkownikow: "(ang. 'ambiguous to users in general'). Cel nie może być określony na podstawie treści łącza lub treści strony wyświetlanej równocześnie z łączem (tzn. że użytkownicy bez niepełnosprawności wiedzą, co kryje się pod danym linkiem dopiero po kliknięciu na niego). <br>*Przykład:* Słowo guawa w tym zdaniu „Najwięksi eksporterzy guawy” jest linkiem. Tak umieszczony link może oznaczać przeniesienie do  definicji guawy, listy eksporterów guawy lub zdjęcia przedstawiającego ludzi zbierających guawę. Dopóki link nie zostanie kliknięty, zarówno użytkownicy pełnosprawni, jak i niepełnosprawni, nie wiedzą co się pod nim kryje."
 
@@ -156,9 +156,10 @@ oprogramowanie_uzytkownika: "(ang. 'user agent'). Oprogramowanie zapewniające d
 
 parsowanie: "Analizowanie składni i reguł gramatycznych kodu źródłowego napisanego w języku programowania w celu przetworzenia tekstowych danych wejściowych na hierarchiczną strukturę danych."
 
-piksel_CSS: "Piksel referncyjny (piksel odniesienia, ang. 'reference piksel'). Jest to kąt widzenia jednego piksela na urządzeniu o gęstości pikseli 96 dpi i&nbsp;odległości od czytnika równiej długości ramienia. W przypadku nominalnej długości ramienia 28 cali kąt widzenia wynosi zatem około 0,0213 stopni.<br>Piksel CSS jest kanoniczną jednostką miary dla wszystkich długości i&nbsp;pomiarów w&nbsp;CSS. Pierwotnie pojęcie piksela było tożsame z fizycznym pikselem, świecącym punktem będącym elementem wyświetlacza. Ponieważ współczesne ekrany mają różną gęstość PPI (pikseli na cal), konieczna była definicja piksela niezależna od gęstości wyświetlacza, rożna od reczyywistych pikseli sprzętowych obecnych na wyświetlaczu. Programy użytkownika i systemy operacyjne powinny zapewnić, że piksel CSS jest ustawiony jak najbliżej wartości i jednostek piksela referencyjnego (moduł CSS Poziom 3), który uwzględnia fizyczne wymiary wyświetlacza. oraz zakładaną odległość oglądania (czynniki, których autorzy treści nie mogą określić)."
 
 percepcja: "Organizacja i interpretacja wrażeń zmysłowych, w celu zrozumienia otoczenia. Percepcja to postrzeganie; uświadomiona reakcja narządu zmysłowego na bodziec zewnętrzny; sposób reagowania, odbierania wrażeń."
+
+piksel_CSS: "(ang. 'CSS pixel'). Piksel referencyjny (piksel odniesienia, ang. 'reference piksel'). Jest to kąt widzenia jednego piksela na urządzeniu o gęstości pikseli 96 dpi i&nbsp;odległości od czytnika równiej długości ramienia. W przypadku nominalnej długości ramienia 28 cali kąt widzenia wynosi zatem około 0,0213 stopni.<br>Piksel CSS jest kanoniczną jednostką miary dla wszystkich długości i&nbsp;pomiarów w&nbsp;CSS. Pierwotnie pojęcie piksela było tożsame z fizycznym pikselem, świecącym punktem będącym elementem wyświetlacza. Ponieważ współczesne ekrany mają różną gęstość PPI (pikseli na cal), konieczna była definicja piksela niezależna od gęstości wyświetlacza, rożna od rzeczywistych pikseli sprzętowych obecnych na wyświetlaczu. Programy użytkownika i systemy operacyjne powinny zapewnić, że piksel CSS jest ustawiony jak najbliżej wartości i jednostek piksela referencyjnego (moduł CSS Poziom 3), który uwzględnia fizyczne wymiary wyświetlacza. oraz zakładaną odległość oglądania (czynniki, których autorzy treści nie mogą określić)."
 
 podstawowy_poziom_edukacji: "(ang. 'primary education level'). Sześcioletni okres edukacji rozpoczynający się w wieku 5-7 lat, możliwie bez wcześniejszej edukacji. <br>**Uwaga**: Definicja oparta jest o Międzynarodową Standardową Klasyfikację Kształcenia UNESCO."
 
@@ -173,7 +174,7 @@ poziom_gimnazjalny: "(ang. 'lower secondary education level'). Dwu- lub trzyletn
 prawidlowa_kolejnosc_odczytu: "(ang. 'correct reading sequence')
 Kolejność słów i akapitów zaprezentowana w taki sposób, żeby kolejność ich odczytu nie zmieniała sensu treści całego przekazu tekstowego."
 
-procedura: "(ang. 'process'). Seria czynności użytkownika, gdzie każda czynność jest niezbędna do zakończenia działania.<br>*Przykład 1:* Zakończona sukcesem procedura korzystania ze stron sklepu internetowego wymaga od użytkownika obejrzenia alternatywnych produktów, cen i ofert, wybrania produktów, złożenia zamówienia, ustalenia warunków dostawy oraz podania informacji o wysyłce i płatności.<br>Strona rejestracji konta wymaga przejścia testu Turinga, a następnie wypełnienia formularza rejestracyjnego."
+procedura: "(ang. 'process'). Seria czynności użytkownika, gdzie każda czynność jest niezbędna do zakończenia działania.<br>*Przykład 1:* Zakończona sukcesem procedura korzystania ze stron sklepu internetowego wymaga od użytkownika obejrzenia alternatywnych produktów, cen i ofert, wybrania produktów, złożenia zamówienia, ustalenia warunków dostawy oraz podania informacji o wysyłce i płatności.<br>*Przykład 2:* Strona rejestracji konta wymaga przejścia testu Turinga, a następnie wypełnienia formularza rejestracyjnego."
 
 program_uzytkownika: "(ang. 'user agent'). Oprogramowanie umożliwiające pobieranie i przeglądanie treści internetowych. <br>**Przykłady**: Przeglądarki internetowe, odtwarzacze multimediów, wtyczki, oraz inne programy — również technologie wspomagające — które pomagają w wyszukiwaniu, przetwarzaniu i interakcji z treścią stron WWW."
 
@@ -198,14 +199,18 @@ rozszerzona_audiodeskrypcja: "(ang. 'extended audio description'). Audiodeskrypc
 
 rzetelnosc: "Właściwość strony internetowej lub aplikacji mobilnej polegająca na starannym, dokładnym, zgodnym ze standardami kodowaniu treści, umożliwiającym ich interpretowanie przez różne rodzaje oprogramowania użytkownika."
 
+sekcja: "(ang. 'section'). Samodzielna porcja pisanej treści, zawierająca jeden lub więcej temat lub myśl.<br>*Uwaga*: Sekcja może składać się z jednego lub więcej akapitów, a także zawierać grafikę, tabele, listy i podsekcje."
+
+
+
+
 skrot: "(ang. 'abbreviation'). Skrócona wersja słowa, frazy lub nazwy, o&nbsp;ile skrót nie stał się częścią danego języka."
 
 skrot_klawiaturowy: "(ang. 'keyboard shortcut'). Alternatywny sposób wykonanie jakiejś akcji  używanego programu przez naciśnięcie jednego lub więcej klawiszy."
 
 spelnienie_kryterium_sukcesu: "(ang. 'satisfies a success criterion'). Kryterium sukcesu zastosowane do danej strony nie przyjmuje wartości „fałsz”."
 
-stan_komponentu: "(ang. 'state'). Cecha dynamiczna wyrażająca właściwości komponentu interfejsu użytkownika, która może ulec zmianie w odpowiedzi na działanie użytkownika lub zautomatyzowane procesy. <br>
-Stany nie mają wpływu na charakter elementu, ale reprezentują dane powiązane z tym komponentem lub możliwościami interakcji z&nbsp;użytkownikiem.<br>Przykłady obejmują fokus (skupienie), najechanie wskaźnikiem myszki, wybrany (zaznaczony), wciśnięty, sprawdzony, odwiedzony/nieodwiedzony oraz rozwinięty/zwinięty."
+stan: "(ang. 'state'). Cecha dynamiczna wyrażająca właściwości komponentu interfejsu użytkownika, która może ulec zmianie w&nbsp;odpowiedzi na działanie użytkownika lub zautomatyzowane procesy. <br>Stany nie mają wpływu na charakter elementu, ale reprezentują dane powiązane z tym komponentem lub możliwościami interakcji z&nbsp;użytkownikiem.<br>Przykłady obejmują fokus (skupienie), najechanie wskaźnikiem myszki, wybrany (zaznaczony), wciśnięty, sprawdzony, odwiedzony/nieodwiedzony oraz rozwinięty/zwinięty."
 
 stanowiace_podstawe_zgodnosci: "(ang. 'relied upon'). Technologia internetowa, które musi być obsługiwana, aby treść spełniała wymogi zgodności. Treść nie będzie zgodna, jeżeli taka technologia zostanie wyłączona z oceny lub nie jest obsługiwana."
 
@@ -215,7 +220,7 @@ strona_internetowa: "(ang. 'Web page'). Nieosadzony zasób, uzyskany z pojedyncz
 
 struktura: "(ang. 'structure'). 1) Rozmieszczenie elementów składowych strony internetowej i zespół relacji (wzajemnych powiązań) między tymi elementami; 2) Sposób ułożenia i relacje między stronami w zestawie stron internetowych."
 
-sztuka_tekstowa: "(ang. 'ASCII art'). Proste rysunki tworzone za pomoca znaków ASCII układanych na obszarze o stałej szerokości kolumn oraz o stałej wysokości znaków. Ten sposób tworzenia grafiki, a raczej jej symbolizowania, nazywa się semigrafiką lub pseudografiką. ASCII-Art były początkowo tworzone z myślą o wydrukowaniu ich na drukarkach znakowych. Przykładem prostych ASCII-Art są ikony emocji (emotikony)."
+sztuka_tekstowa: "(ang. 'ASCII art'). Proste rysunki tworzone za pomocą znaków ASCII układanych na obszarze o stałej szerokości kolumn oraz o stałej wysokości znaków. Ten sposób tworzenia grafiki, a raczej jej symbolizowania, nazywa się semigrafiką lub pseudografiką. ASCII-Art były początkowo tworzone z myślą o wydrukowaniu ich na drukarkach znakowych. Przykładem prostych ASCII-Art są ikony emocji (emotikony)."
 
 szablony: "(ang. 'templates'). Wzorce, które są wypełniane treścią przez autorów lub za pomocą narzędzia autorskiego (np. szablony dokumentów, szablony zarządzania treścią, motywy prezentacji). Szablony zwykle zastępują autorów, przynajmniej częściowo, w decydowaniu o układzie i&nbsp;stylizacji treści."
 
@@ -228,6 +233,9 @@ technologie_tresci_internetowych: "Mechanizmy służące do odkodowania danych, 
 technologia_pomocnicza: "(ang. 'assistive technology'). Sprzęt lub oprogramowanie, działające jako oprogramowanie użytkownika lub współpracujące z oprogramowaniem użytkownika, zaprojektowane tak, aby pomagać osobom z&nbsp;niepełnosprawnościami w wykonywaniu ich codziennych obowiązków. Do technologii pomocniczych zalicza się wózki inwalidzkie, maszyny do czytania, urządzenia do podnoszenia rzeczy, itd. W dziedzinie dostępności internetowej, powszechne technologie pomocnicze oparte na programach komputerowych obejmują takie urządzenia jak: czytniki ekranu, powiększacze ekranu, syntezatory mowy, programy głosowe współpracujące z graficznymi przeglądarkami (między innymi oprogramowaniami użytkownika). Technologie pomocnicze oparte na sprzęcie obejmują: alternatywne klawiatury i urządzenia wskazujące. Inne nazwy: *technologia wspomagajaca*, *technologia asystująca*."
 
 tekst: "(ang. 'text'). Ciąg znaków, który można odczytać za pomocą programu komputerowego, gdzie ciąg wyraża coś w ludzkim języku naturalnym."
+
+tekst_alternatywny: "(ang. 'text alternative'). Tekst skojarzony programistycznie z treścią nietekstową lub odnoszący się do tekstu programistycznie skojarzonego z treścią nietekstową. Tekst programowo skojarzony to taki tekst, którego położenie może być programowo określone w stosunku do treści nietekstowej. <br>*Przykład*: Obraz wykresu jest opisany w następującym po nim akapicie. Krótki tekst alternatywny dla wykresu informuje, że takie objaśnienie znajduje się zaraz za nim (w kolejności treści)."
+
 
 tekst_formatowany: "Tekst, którego formatowanie jest kontrolowane przez arkusz stylów."
 
@@ -266,6 +274,10 @@ witryna_internetowa: "(ang: 'Web site'). Dowolna samodzielna strona internetowa 
 wlasciwosc_stylu: "Właściwość, której wartość określa sposób prezentacji (np. czcionka, kolor, rozmiar, lokalizacja, wypełnienie, głośność, synteza mowy) elementów treści w trakcie ich renderowania (np. na ekranie, przez głośnik, przez wyświetlacz brajlowski) przez programy użytkownika). <br>Właściwości stylu mogą mieć kilka źródeł:
 <br>**Domyślne style programu użytkownika**: Domyślne wartości właściwości stylu stosowane w przypadku braku stylów autora lub użytkownika. Niektóre technologie treści internetowych określają domyślne renderowanie, inne nie;<br>**Style autora**: Wartości właściwości stylu ustawione przez autora jako część treści (np. style wbudowane, arkusze stylów autora);<br>**Style użytkownika**: Wartości właściwości stylu ustawione przez użytkownika (np. poprzez ustawienia interfejsu programu użytkownika, arkusze stylów użytkownika)."
 
+wspolczynnik_kontrastu: "(ang. 'contrast ratio'). (L1 + 0.05) / (L2 + 0.05), gdzie:<br>- L1 to relatywna luminancja jaśniejszego z kolorów, a<br>L2 to relatywna luminancja ciemniejszego z kolorów. <br>*Uwaga 1*: Współczynnik kontrastu zawiera się pomiędzy 1 i 21 (powszechnie zapisywanych 1:1 do 21:1).<br>*Uwaga 2*: Ponieważ autor strony nie ma wpływu na sposób renderowania ustawiony przez użytkownika (np. wygładzanie czcionek lub antyaliasing), współczynnik kontrastu oblicza się jak dla wyłączonego antyaliasingu."
+
+
+
 wspolne_strony_internetowe: "(ang. 'Common web pages'). Strony i stany stron internetowych 'wspólne' dla całej witryny, odnoszące się do całej witryny, istotne dla funkcjonowania całej witryny, takie jak strona główna, strona logowania, mapa witryny, strona kontaktowa, strona pomocy, strona informacji prawnych i podobne, które są zazwyczaj połączone ze wszystkimi innymi stronami witryny (zwykle poprzez łącze w nagłówku, w&nbsp;stopce albo w menu nawigacyjnym)."
 
 wstrzymane: "(ang. 'paused'). Zatrzymane na żądanie użytkownika i nie wznawiane bez jego żądania."
@@ -274,9 +286,13 @@ wydanie_punktowe: "(ang. 'dot-release'). Wydanie zawierajace poprawki do wersji 
 
 wydarzenie_w_czasie_rzeczywistym: "(ang. 'real-time event'). Wydarzenie, które a) trwa w tym samym czasie, co jego wyświetlenie i b) nie jest całkowicie generowane przez treść. <br>*Przykład 1:* Transmisja internetowa z przedstawienia (odbywa się w tym samym czasie, gdy jest oglądane, a nie z nagrania). <br>*Przykład 2:* Aukcja internetowa, podczas której użytkownicy składają oferty w tym samym czasie, gdy wyświetlana jest treść. <br>*Przykład 3:* Interakcje ludzi w wirtualnym świecie za pośrednictwem awatarów nie są automatycznie generowane i odbywają się w czasie rzeczywistym."
 
-wylacznie_dekoracyjny: "(ang. 'pure decoration'). Treść użyta tylko w celach ozdobnych, nie niosąca żadnej informacji, ani funkcjonalności. <br>**Uwaga**: Tekst jest czysto dekoracyjny wówczas, gdy zawarte w nim słowa mogą być swobodnie przemieszczane lub podmieniane bez zmiany celu, jakiemu służy. Przykład: Na okładce słownika znajdują się przypadkowe słowa wydrukowane w jasnym kolorze, pozostające w tle."
+wylacznie_dekoracyjny: "(ang. 'pure decoration'). Treść użyta tylko w celach ozdobnych, nie niosąca żadnej informacji, ani funkcjonalności. <br>**Uwaga**: Tekst jest czysto dekoracyjny wówczas, gdy zawarte w nim słowa mogą być swobodnie przemieszczane lub podmieniane bez zmiany celu, jakiemu służy. <br>*Przykład*: Na okładce słownika znajdują się przypadkowe słowa wydrukowane w jasnym kolorze, pozostające w tle."
 
 wymogi_zgodnosci_z_WCAG: "Pięć warunków, które muszą być spełnione, aby strona internetowa lub jej część została uznana za zgodną z WCAG: <br>**1. Poziom zgodności**, <br>**2. Cała strona**, <br>**3. Cały proces**, <br>**4. Technologie obsługujące dostępność**, <br>**5. Bez zakłóceń**."
+
+wzgledna_luminancja: "(ang. 'relative luminance'). Względna jasność punktu w przestrzeni kolorów, znormalizowana do 0 dla najciemniejszego czarnego i 1 dla najjaśniejszego białego."
+
+
 
 zagrozenie: "(ang. 'emergency'). Nagła, nieoczekiwana sytuacja lub zdarzenie, wymagające natychmiastowej reakcji dla ochrony zdrowia, bezpieczeństwa lub mienia."
 
@@ -284,6 +300,11 @@ zagrozenie: "(ang. 'emergency'). Nagła, nieoczekiwana sytuacja lub zdarzenie, w
 zestaw_stron_internetowych: "(ang. 'set of web pages') Zbiór stron internetowych, które mają wspólny cel i które są tworzone przez tego samego autora, grupę lub organizację. <br>Przykładem jest publikacja podzielona na wiele stron internetowych, gdzie każda strona zawiera jeden rozdział lub inną znaczącą część pracy. Publikacja jest logicznie pojedynczą, ciągłą jednostką i zawiera funkcje nawigacyjne, które umożliwiają dostęp do pełnego zestawu stron. <br>**Uwaga:** Różne wersje językowe będą uważane za różne zestawy stron internetowych."
 
 zgodnosc: "(ang. 'conformance'). Spełnienie wszystkich wymagań danej normy, wytycznych lub specyfikacji."
+
+zmiany_kontekstu: "(ang. 'changes of context'). Znaczące zmiany treści strony internetowej, które dokonywane bez świadomości użytkownika, mogą go dezorientować, jeżeli nie jest on w stanie oglądać całej strony jednocześnie. <br>Zmiany kontekstu obejmują zmiany:<br>1. w programie użytkownika; <br>2. obszaru obrazu; <br>3. fokusa; <br>4. treści, która zmienia sens strony internetowej. <br>
+*Uwaga*: Zmiana treści nie zawsze oznacza zmianę kontekstu. Zmiana w treści, na przykład rozwinięcie drzewa, dynamicznego menu lub zakładki niekoniecznie zmieniają kontekst, dopóki nie zmienią jednego z powyższych (np. fokusa). <br>*Przykład*: Otwarcie nowego okna, przeniesienie fokusa na inny obiekt, przejście na inną stronę internetową (włączając w to także każdą sytuację, kiedy użytkownikowi tylko wydaje się, że przechodzi na inną stronę internetową) lub znaczące przekształcenie wyglądu strony są przykładami zmiany kontekstu."
+
+
 
 zobowiazanie_prawne: "(ang. 'legal commitments'). Transakcja, gdzie osoba wiąże się prawnym obowiązkiem lub korzyścią. <br>*Przykład:* akt ślubu, umowa handlowa (finansowa i prawna), testament, pożyczka, adopcja, zaciągnięcie się do armii, kontrakt dowolnego rodzaju itp."
 

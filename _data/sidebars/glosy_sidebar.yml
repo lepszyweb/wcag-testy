@@ -15,6 +15,9 @@ entries:
   - title: WCAG 2.1
     output: web, pdf
     folderitems:
+    - title: Dokumenty WCAG
+      url: /glosy-dokumenty-wcag
+      output: web
     - title: WCAG 2.1
       url: /wcag21
       output: web

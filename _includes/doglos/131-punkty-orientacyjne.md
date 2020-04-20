@@ -21,7 +21,7 @@ Dobrze zorganizowana treść jest przydatna dla wszystkich użytkowników, ale s
 Standard dostępności wyznaczają **WCAG 2.1** w  **kryterium sukcesu**: {% include ks/1-3-1.md %}
 
 ## Struktura stron a technologie internetowe
-Starsze wersje HTML nie posiadały efektywnego sposobu oznaczania struktury stron. Zapewnił je dopiero HTML5, wprowadzając:
+Starsze wersje HTML nie posiadały efektywnego sposobu oznaczania struktury stron. Zapewnił je dopiero HTML5, korzystając z dorobku prac nad stanardem WAI-ARIA. HTML5 wprowadził:
 
 - **nowe znaczniki semantyczne**, takie jak `header`, `nav`, `main`, `aside`, `footer` czy `section`.
 - **atrybuty roli obszarów**, takie jak `banner`, `navigation`, `complementary`, `contentinfo`, `region`, `search`,
@@ -155,3 +155,17 @@ Obszary nawigacyjne są dobrym przykładem przypadków, w których konieczna jes
 {% include note.html content="Jeśli dwa obszary `navigation` zawierają identyczne zestawy linków, należy użyć dla każdego z nich takiej samej etykiety." %}
 
 Dobrym przykładem sytuacji, w której domyślna rola obszaru wymaga zmiany jest wykorzystanie elementu `<aside>` do prezentacji reklamy kontekstowej powiązanej z&nbsp;treścią główną. Umieszczenie reklamy kontekstowej w&nbsp;obszarze objętym znacznikiem `<aside>` jest w pełni uzasadnione, bo treść reklamy można uznać za *uzupełnienie treści głównej*, które samo w sobie niesie również *odrębną wartość dla użytkownika* i może być samodzielną jednostką treści. A tak właśnie w specyfikacji scharakteryzowana jest rola `complementary` przypisana domyślnie znacznikowi `aside`. Ale dobrą praktyką jest powiadamianie użytkowników, że mają w tym przypadku do czynienia z reklamą. Oznaczenie tego obszaru etykietą opisującą reklamowy charakter treści będzie z pewnością docenione przez użytkowników korzystajacych z technologii pomocniczych.
+## Dodaj łącza pomijające
+Punkty orientacyjne są bardzo dobrze obsługiwane przez czytniki ekranu.  
+
+## Podsumowanie
+Aby uznać, że strona ma przejrzystą i zrozumiałą strukturę, powinny być spełnione łącznie poniższe warunki:
+
+- strona jest podzielona na kluczowe obszary - punkty orientacyjne,
+- punkty orientacyjne sa rozróżnialne,
+- rola każdego punktu orientacyjnego jest zrozumiała,
+- rola każdego obszaru jest unikalna,
+- do każdego punktu orientacyjnego istnieje bezpośredni dostęp
+- powtarzajace się punkty orientacyjne są łatwe do zlokalizowania
+- punkty orientacyjne znajdują się w przewidywalnych lokalizacjach
+- punkty orientacyjne są konsekwentnie identyfikowane

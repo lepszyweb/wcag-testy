@@ -61,7 +61,7 @@ Słowo „wyrastają” opisuje raczej wygląd drzewa dostępności niż rzeczyw
 
 A ponieważ w drzewie dostępności zawarte są wszystkie istotne dla dostępności informacje o każdym obiekcie strony,  ważne jest, aby – nawet jeśli nie masz odpowiedniej wiedzy technicznej – od zaraz zaprzyjaźnić się z jego widokiem. Zwłaszcza, że od pewnego czasu jest to niezwykle łatwe. Wystarczy skorzystać z przeglądarki Firefox, która – pewno tylko na razie – jako jedyna oferuje podgląd drzewa dostępności i przeprowadzenia fundamentalnego dla oceny dostępności strony oglądu jej właściwości budujących dostępność.
 
-- Zapoznaj się z poradnikiem Inspektor dostępności w przeglądarce Firefox, aby się dowiedzieć, jak możesz wykorzystać to narzędzie w ocenie dostępności strony.
+- Zapoznaj się z poradnikiem [Inspektor dostępności w przeglądarce Firefox](nod-firefox-inspektor-dostepnosci), aby się dowiedzieć, jak możesz wykorzystać to narzędzie w ocenie dostępności strony.
 - Korzystając z Inspektora dostępności, sprawdź:
   - Czy na stronie występują problemy z obiektami bez nazw?
   - Czy na stronie występują problemy dostępności związane z klawiaturą?

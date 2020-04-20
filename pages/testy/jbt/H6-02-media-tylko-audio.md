@@ -13,10 +13,13 @@ folder: testy/jbt
 Odtwarzanie nagrania, porównanie treści nagrania i transkrypcji.
 
 ### Zastosowanie:
-Wszystkie nagrania dźwiękowe zarejestrowane wcześniej (transmisje na żywo nie są objęte tym testem.
+Nagrania dźwiękowe zarejestrowane wcześniej (transmisje na żywo) nie są objęte tym testem.
 
 ## Założenia, zastrzeżenia lub wyjątki
-_do opracowania_
+-   Jeśli audio jest zsynchronizowane z wideo, slajdami, animacjami lub innymi mediami wizualnymi opartymi na czasie, zamiast tego testu, wykonaj test [Multimedia zsynchronizowane](H6-04-multimedia)
+-   Dźwięk będący alternatywą dla tekstu nie wymaga dodatkowego opisu, jeśli jest wyraźnie oznaczony jako taki.
+-   Krótkie dźwięki używane do powiadamiania użytkownika, takie jak sygnały potwierdzające i powiadomienia o błędach, nie są objęte tym wymogiem.
+-   Informacje i/lub instrukcje przekazywane wyłącznie w formie treści audio muszą zawierać równoważne wskazówki programowe i/lub tekstowe; sprawdzenie tego wymogu odbywa się zgodnie z [Multimedia zsynchronizowane](H6-04-multimedia).
 
 ## Obsługa dostępności
 _do opracowania_

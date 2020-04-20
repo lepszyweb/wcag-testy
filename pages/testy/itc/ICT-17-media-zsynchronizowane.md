@@ -14,7 +14,7 @@ folder: testy/itc
 - {% include ks/1-2-5.md %}
 
 ## Uzasadnienie metody badania
-Ocena nadpisów i opisów dźwiękowych w celu oceny ich równoważności z zsynchronizowanymi treściami medialnymi zazwyczaj obejmuje ręczne, poznawcze porównanie oryginalnej treści z jej alternatywami.
+Badanie napisów i audiodeskrypcji w celu oceny ich równoważności z zsynchronizowanymi treściami medialnymi zazwyczaj obejmuje ręczne poznawcze porównanie oryginalnej treści z jej alternatywami.
 
 ## Ograniczenia, założenia lub wyjątki
 -   [Zsynchronizowane multimedia](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html#synchronizedmediadef) - dźwięk lub wideo zsynchronizowane z innym formatem, w celu prezentacji informacji lub/i z interaktywnymi komponentami, o ile nie jest to wyraźnie oznaczona alternatywa dla tekstu. Zsynchronizowane multimedia obejmują między innymi transmisje internetowe, konferencje prasowe i internetowe prezentacje szkoleniowe.
@@ -60,7 +60,7 @@ Zsynchronizowane multimedia na żywo.
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test 1.2.4 oraz Wymaganie podstawowe nr 17 kończy się niepowodzeniem.
 
-## Procedura testu dla KS 1.2.5 1.2.5 Audiodeskrypcja (nagranie)
+## Procedura testu dla KS 1.2.5 Audiodeskrypcja (nagranie)
 
 ### Instrukcja testowania
 1.  Włącz opisy dźwiękowe za pomocą funkcji odtwarzacza multimedialnego i odtwarzaj multimedia. Jeśli dostarczono osobny plik multimedialny z audiodeskrypcją, przetestuj ten plik.

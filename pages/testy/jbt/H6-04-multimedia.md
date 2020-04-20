@@ -1,5 +1,5 @@
 ---
-title: Multimedia (media zsynchronizowane)
+title: Multimedia zsynchronizowane
 
 sidebar: testy_sidebar
 permalink: H6-04-multimedia

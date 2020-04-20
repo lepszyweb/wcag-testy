@@ -1,8 +1,7 @@
 ---
 title: Słownik testera
 last_updated: 17 lutego 2020
-summary: "Definicje w Słowniku testera pochodzą głównie ze Słownika wyrażeń
-związanych z testowaniem wykorzystywanych w sylabusie CTFL 2018 opublikowanym przez Stowarzyszenia Jakości Systemów Informatycznych (SJSI)."
+summary: "Definicje w Słowniku testera pochodzą głównie ze Słownika wyrażeń związanych z testowaniem wykorzystywanych w sylabusie CTFL 2018 opublikowanym przez Stowarzyszenia Jakości Systemów Informatycznych (SJSI)."
 sidebar: glosy_sidebar
 permalink: slownik-testera
 toc: false

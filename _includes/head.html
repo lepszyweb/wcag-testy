@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{% if page.summary %}{{ page.summary | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
 <meta name="keywords" content="{{page.keywords}}">
-<title>{{ page.title }} | {{ site.site_title }}</title>
+<title>{{page.title}} | {{site.site_title}}</title>
 <link rel="stylesheet" href="{{ "/css/syntax.css" }}">
 
 <!-- link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" -->
@@ -28,11 +28,14 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
 <!-- Anchor.js -->
 <!--script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script -->
 <script src="{{ "/js/anchor.min.js" }}"></script>
 <script src="{{ "/js/toc.js" }}"></script>
 <script src="{{ "/js/customscripts.js" }}"></script>
+
 
 <link rel="shortcut icon" href="{{ "/images/favicon.ico"  }}">
 
@@ -44,7 +47,6 @@
 <![endif]-->
 
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
-
 
 <link rel="canonical" href="https://testy.lepszyweb.pl/{{ page.permalink }}">
 <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
@@ -87,6 +89,7 @@ s.parentNode.insertBefore(t,s)}(window, document,'script',
 fbq('init', '487063571839875');
 fbq('track', 'PageView');
 </script>
+
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=487063571839875&ev=PageView&noscript=1"
 /></noscript>

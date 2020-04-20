@@ -81,7 +81,7 @@ W dokumencie „[Web Content Accessibility Guidelines (WCAG) Overview](http://ww
 WCAG 2.1 spełniają [zestaw wymagań dotyczących WCAG 2.1](https://w3c.github.io/wcag21/requirements/), które z kolei odziedziczyły wymagania dotyczące WCAG 2.0. Wymagania tworzą ogólne ramy wytycznych i&nbsp;zapewniają zgodność wsteczną. Grupa Robocza zastosowała również mniej formalny zestaw kryteriów akceptacji dla kryteriów sukcesu, aby zapewnić, że kryteria sukcesu są podobne pod względem stylu i&nbsp;jakości do tych zawartych w WCAG 2.0. Wymagania ograniczały to, co mogło być ujęte w WCAG 2.1. To ograniczenie było konieczne, aby zachować charakter wydania WCAG 2.1 jako <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.wydanie_punktowe}}">wydania punktowego</a> WCAG 2.
 
 ### 0.5 Porównanie z WCAG 2.0
-WCAG 2.1 zostały zainicjowane, aby ulepszyć wytyczne dotyczące dostępności dla trzech głównych grup: użytkowników z&nbsp;zaburzeniami funkcji poznawczych lub uczenia się, użytkowników ze słabym wzrokiem oraz użytkowników z niepełnosprawnościami powodujacymi problemy w&nbsp;korzystaniu z urządzeń przenośnych. Zaproponowano i&nbsp;oceniono wiele sposobów zaspokojenia tych potrzeb, a&nbsp;Grupa Robocza dopracowała ich zestaw. Wymagania strukturalne odziedziczone po WCAG 2.0, jasność i wpływ propozycji, a&nbsp;także przyjęty harmonogram prac, doprowadziły do powstania ostatecznego zestawu kryteriów sukcesu zawartych w niniejszej wersji. Grupa Robocza uważa, że WCAG 2.1 stopniowo rozwija wytyczne dla dostępności treści internetowych we wszystkich tych obszarach, ale podkreśla, że te wytyczne nie zaspokajają wszystkich potrzeb użytkowników.
+WCAG 2.1 zostały zainicjowane, aby ulepszyć wytyczne dotyczące dostępności dla trzech głównych grup: użytkowników z&nbsp;zaburzeniami funkcji poznawczych lub uczenia się, użytkowników ze słabym wzrokiem oraz użytkowników z niepełnosprawnościami powodującymi problemy w&nbsp;korzystaniu z urządzeń przenośnych. Zaproponowano i&nbsp;oceniono wiele sposobów zaspokojenia tych potrzeb, a&nbsp;Grupa Robocza dopracowała ich zestaw. Wymagania strukturalne odziedziczone po WCAG 2.0, jasność i wpływ propozycji, a&nbsp;także przyjęty harmonogram prac, doprowadziły do powstania ostatecznego zestawu kryteriów sukcesu zawartych w niniejszej wersji. Grupa Robocza uważa, że WCAG 2.1 stopniowo rozwija wytyczne dla dostępności treści internetowych we wszystkich tych obszarach, ale podkreśla, że te wytyczne nie zaspokajają wszystkich potrzeb użytkowników.
 
 WCAG 2.1 są oparte na WCAG 2.0 i są z nim kompatybilne wstecznie, co oznacza, że ​​strony internetowe zgodne z WCAG 2.1 są również zgodne z&nbsp;WCAG 2.0. Autorzy, którzy są zobowiązani przez polityki swoich organizacji do zgodności z&nbsp;WCAG 2.0, będą mogli aktualizować treści do WCAG 2.1 bez utraty zgodności z&nbsp;WCAG 2.0. Autorzy przestrzegający obu zestawów wytycznych powinni zdawać sobie sprawę z&nbsp;następujących różnic:
 
@@ -111,7 +111,7 @@ Następujące kryteria sukcesu są nowe w WCAG 2.1:
 
 Wiele z tych kryteriów sukcesu odnosi się do nowych terminów, które zostały również dodane do słownika i&nbsp;stanowią część normatywnych wymagań kryteriów sukcesu.
 
-W części 5. Zgodność została dodana trzecia uwaga na temat wariantów stron, a&nbsp;w&nbsp;części [Opcjonalne składniki oświadczenia o&nbsp;zgodności](glosy-zgodnosc#opcjonalne-składniki-oświadczenia-o-zgodności)  do odczytu maszynowego została dodana opcja metadanych.
+W części 5. Zgodność została dodana trzecia uwaga na temat wariantów stron, a&nbsp;w&nbsp;części [Opcjonalne składniki oświadczenia o&nbsp;zgodności](glosy-zgodnosc#opcjonalne-składniki-oświadczenia-o-zgodności) do odczytu maszynowego została dodana opcja metadanych.
 
 #### 0.5.2 Numeracja w WCAG 2.1
 Aby uniknąć zamieszania w narzędziach, dla których ważna jest kompatybilność wsteczna z WCAG 2.0, nowe kryteria sukcesu w WCAG 2.1 zostały dołączone na końcu zestawu kryteriów sukcesu w&nbsp;ramach ich wytycznych. Pozwoliło to uniknąć konieczności zmiany numeracji części kryteriów sukcesu z WCAG 2.0, co byłoby spowodowane wstawianiem nowych kryteriów sukcesu między istniejącymi kryteriami sukcesu w wytycznych. Ale spowodowało to, że kryteria sukcesu w każdej z wytycznych nie są już pogrupowane według poziomu zgodności.Kolejność kryteriów sukcesu w&nbsp;ramach każdej wytycznej nie oznacza informacji o&nbsp;poziomie zgodności; wskazuje to tylko wskaźnik poziomu zgodności (A / AA / AAA) przy samym kryterium sukcesu. W&nbsp;dokumencie [WCAG 2.1 Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/) można przeglądać kryteria sukcesu pogrupowane według poziomu zgodności oraz wielu innych opcji filtrowania i sortowania.
@@ -391,14 +391,15 @@ Oświadczenia o zgodności nie są wymagane. Autorzy mogą dostosować się do W
 #### 5.3.2 Opcjonalne składniki oświadczenia o zgodności
 Poza wymaganymi składowymi oświadczenia o zgodności, które zostały wymienione powyżej, warto rozważyć umieszczenie dodatkowych informacji, przydatnych dla użytkowników. Polecane dodatkowe informacje to na przykład:
 
-- Wykaz kryteriów sukcesu wykraczających poza poziom zgodności zawarty w oświadczeniu. Taką informację należy podać w formie, którą użytkownik mógłby wykorzystać, najlepiej jako metadane, które mogą być odczytywane maszynowo.
-- Wykaz poszczególnych technologii, które „są wykorzystywane, ale nie zostały uwzględnione w ocenie zgodności”.
-- Wykaz programów użytkownika, w tym technologii pomocniczych, wykorzystanych do testowania treści.
-- Wykaz szczególnych cech dostępności, które mogą być odczytywane maszynowo
-- Informacje na temat wszelkich kroków podejmowanych w celu zwiększenia dostępności, a które wykraczają poza kryteria sukcesu.
-- Lista poszczególnych technologii, które zostały uwzględnione w ocenie, w formie metadanych odczytywalnych maszynowo.
-- Wersja metadanych listy technologii uwzględnionych w ocenie, w formie odczytywalej maszynowo.
-- Wersja metadanych oświadczenia zgodności, w formie odczytywalej maszynowo.
+- Wykaz kryteriów sukcesu wykraczających poza poziom zgodności, który został spełniony. Taką informację należy podać w formie, z której mogą korzystać użytkownicy, najlepiej w formie metadanych do odczytu maszynowego.
+- Wykaz konkretnych technologii, które „są wykorzystywane, ale
+<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.stanowiace_podstawe_zgodnosci | strip_html | replace: '*', ''}}">nie zostały uwzględnione w ocenie zgodności</a>”.
+- Wykaz programów użytkownika, w tym technologii pomocniczych, użytych do testowania treści.
+- Wykaz konkretnych cech dostępności, podany w formie metadanych do odczytu maszynowego.
+- Informacje o wszelkich dodatkowych krokach podjętych w celu zwiększenia dostępności, które wykraczają poza kryteria sukcesu.
+
+- Wykaz poszczególnych technologii, które <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.stanowiace_podstawe_zgodnosci | strip_html | replace: '*', ''}}">zostały uwzględnione w ocenie zgodności</a>, podany w formie metadanych do odczytu maszynowego.
+- Wersja oświadczenia zgodności, podana w formie metadanych do odczytu maszynowego.
 
    *Uwaga 1:* Więcej informacji oraz przykładowe oświadczenia zgodności można znaleźć w dokumencie [Understanding Conformance Claims](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance).
 
@@ -424,18 +425,18 @@ W takich przypadkach w momencie opublikowania strony nie można przewidzieć, ja
 „Oświadczenie częściowej zgodności ze względu na język” może zostać złożone w przypadkach, kiedy dana strona nie jest zgodna, jednak mogłaby spełnić wymogi zgodności, gdyby istniało wsparcie dla dostępności wszystkich języków użytych na tej stronie. Brzmienie takiego oświadczenia jest następujące: „Niniejsza strona nie jest zgodna, lecz spełniałaby wymogi WCAG 2.1 na poziomie X, gdyby istniało wsparcie dla dostępności następujących języków:”.
 
 ## 6. Słownik
-Definicje słownikowe wykorzystane w WCAG 2.1 opublikowane zostay w odrębnym dokumencie pod adresem: [Słownik](slownik).
+Definicje słownikowe wykorzystane w WCAG 2.1 opublikowane zostały w odrębnym dokumencie pod adresem: [Słownik](slownik).
 
-## 7. Przeznaczenie pól wejściowych w komponentach interfejsu uzytkowników
+## 7. Przeznaczenie pól danych w komponentach interfejsu uzytkowników
 
-Ta część zawiera listę typowych celów pól wejściowych w komponentach interfejsu uzytkowników. Terminy poniżej  nie są słowami kluczowymi, których należy użyć, ale reprezentują cele, które muszą zostać ujęte w taksonomii przyjętej przez stronę internetową. W stosownych przypadkach, autorzy oznaczają kontrolki przy pomocy wybranej taksonomii, aby wskazać cel semantyczny. Daje to potencjalnym programom użytkownika i technologiom pomocniczym możliwość stosowania spersonalizowanych prezentacji, które mogą umożliwić większej liczbie osób zrozumienie i wykorzystanie treści.
+Ta część zawiera listę typowych celów pól formularzy w komponentach interfejsu uzytkowników. Terminy poniżej  nie są słowami kluczowymi, których należy użyć, ale reprezentują cele, które muszą zostać ujęte w taksonomii przyjętej przez stronę internetową. W stosownych przypadkach, autorzy oznaczają kontrolki przy pomocy wybranej taksonomii, aby wskazać cel semantyczny. Daje to potencjalnym programom użytkownika i technologiom pomocniczym możliwość stosowania spersonalizowanych prezentacji, które mogą umożliwić większej liczbie osób zrozumienie i wykorzystanie treści.
 
-**UWAGA** Lista  celów typów pól wejściowych jest oparta na celach kontrolek zdefiniowanych w części HTML 5.2 Autofill field, ale ważne jest, aby zrozumieć, że inna technologia może mieć niektóre lub wszystkie z tych samych pojęć zdefiniowanych w jej specyfikacji i wymagane są tylko te pojęcia, które są mapowane do poniższych znaczeń.
+**UWAGA** Lista  celów typów pól danych jest oparta na celach kontrolek zdefiniowanych w części HTML 5.2 Autofill field, ale ważne jest, aby zrozumieć, że inna technologia może mieć niektóre lub wszystkie z tych samych pojęć zdefiniowanych w swojej specyfikacji i wymagane są tylko te pojęcia, które są mapowane do poniższych znaczeń.
 
-Poniższe cele pól wejsciowych mają odnosić się do użytkownika treści i dotyczyć tylko informacji związanych z tą osobą.
+Poniższe cele pól danych mają odnosić się do użytkownika treści i dotyczyć tylko informacji związanych z tą osobą.
 
 - **name** - pełna nazwa
-- honorific-prefix - Przedrostek lub tytuł (np. „Pan”, „Pani”, „Dr”, „Prof.”)
+- **honorific-prefix** - Przedrostek lub tytuł (np. „Pan”, „Pani”, „Dr”, „Prof.”)
 - **given-name** - imię (w niektórych kulturach zachodnich, znane również jako „pierwsze imię” )
 - **additional-name** - dodatkowa nazwy (w niektórych kulturach zachodnich, znane również jako drugie imię, inne niż pierwsze)
 

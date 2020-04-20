@@ -26,7 +26,7 @@ Repozytorium składa się z dwóch działów:
 
 
 ## Jak możesz pomóc?
-- **Zostań współtwórcą**. Zaproponuj i opracuj test lub zestaw testów. Prześlij swoje propozycje. Skorzystaj z [szablonu opisu testu](szablon_opisu_testu.md)
+- **Zostań współtwórcą**. Zaproponuj i opracuj test lub zestaw testów. Prześlij swoje propozycje. Skorzystaj z [szablonu opisu testu](testy/szablon_opisu_testu.md)
 - **Zgłoś swoje sugestie, pomysły, propozycje poprawek**. Skorzystaj z systemu [śledzenia problemów](https://github.com/lepszyweb/wcag-testy/issues)
 
 ## Licencja
