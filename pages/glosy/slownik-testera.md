@@ -7,8 +7,8 @@ permalink: slownik-testera
 toc: false
 folder: glosy
 ---
-[A](slownik#a) - [B](slownik#b) - [C](slownik#c) - [Ć](slownik#ć) - [D](slownik#d) - [E](slownik#e) - [F](slownik#f) - [G](slownik#g) - [H](slownik#h) - [I](slownik#i) - [J](slownik#j) - [K](slownik#k) - [L](slownik#l) - [Ł](slownik#ł) - [M](slownik#m) -
-[N](slownik#n) - [O](slownik#o) - [P](slownik#p) - [R](slownik#r) - [S](slownik#s) - [Ś](slownik#ś) - [T](slownik#t) - [U](slownik#u) - [W](slownik#w) - [Z](slownik#z) - [Ż](slownik#ż) - [Ź](slownik#ź) -
+[A](slownik-testera#a) - [B](slownik-testera#b) - [C](slownik-testera#c) - [Ć](slownik-testera#ć) - [D](slownik-testera#d) - [E](slownik-testera#e) - [F](slownik-testera#f) - [G](slownik-testera#g) - [H](slownik-testera#h) - [I](slownik-testera#i) - [J](slownik-testera#j) - [K](slownik-testera#k) - [L](slownik-testera#l) - [Ł](slownik-testera#ł) - [M](slownik-testera#m) -
+[N](slownik-testera#n) - [O](slownik-testera#o) - [P](slownik-testera#p) - [R](slownik-testera#r) - [S](slownik-testera#s) - [Ś](slownik-testera#ś) - [T](slownik-testera#t) - [U](slownik-testera#u) - [W](slownik-testera#w) - [Z](slownik-testera#z) - [Ż](slownik-testera#ż) - [Ź](slownik-testera#ź)
 
 
 
