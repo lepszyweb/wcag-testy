@@ -46,7 +46,7 @@ czytnik_ekranu: "Program komputerowy, który czyta użytkownikowi na głos treś
 
 dostosowanie_wygladu: "(ang. 'visually customized'). Możliwość ustawienia istotnych właściwości wyglądu, np. kolorystyki, rozmiaru i kroju czcionek, wielkości obszaru, tła."
 
-dotyk_jednopunktowy: "(ang. single pointer). Wprowadzanie dotykiem, które działa z jednym punktem kontaktu z ekranem, w tym pojedyncze stuknięcia i kliknięcia, podwójne stuknięcia i kliknięcia, długie naciśnięcia i gesty oparte na ścieżce."
+dotyk_jednopunktowy: "(ang. single pointer). Wprowadzanie danych dotykiem, które działa z jednym punktem kontaktu z ekranem, w tym pojedyncze stuknięcia i kliknięcia, podwójne stuknięcia i kliknięcia, długie naciśnięcia i gesty oparte na ścieżce."
 
 duza_wielkosc_tekstu: "(ang. 'large scale text'). Tekst o wielkości przynajmniej 18 pt lub 14 pt, ale pogrubiony lub odpowiadające im wielkością znaki alfabetu chińskiego, japońskiego i koreańskiego (CJK)."
 

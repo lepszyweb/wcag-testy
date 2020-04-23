@@ -395,7 +395,7 @@ treść (treść internetowa)
 treść nietekstowa
 : {{site.data.glossary.tresc_nietekstowa}}
 
-tresc ukryta
+treść ukryta
 : {{site.data.glossary.tresc_ukryta}}
 
 treść uzupełniająca

@@ -43,7 +43,8 @@ Kryterium sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-t
 3.	Sprawdź, czy znajdujący się w treści strony odpowiednik tekstowy każdego obrazu niosącego informacje, znaczenie lub kontekst jest programowo powiązany z obrazem, którego dotyczy.
 
 ### Wykorzystanie skryptozkładki ANDI
-![Wykorzystanie skryptozkładki ANDI](/img/andi-images.png)
+{% include image.html file="andi/andi-images.png" alt="Wykorzystanie skryptozkładki ANDI" %}
+
 1.	Uruchom skryptozakładkę ANDI i wybierz z menu ANDI opcję *graphic/images*.  
 2.	ANDI wykryje wszystkie elementy graficzne na stronie i poda zwięzłą statystykę (Znalezionych obrazów (*Images found*) – XX, XX obrazów w tekście (*inline images*), X obrazów łączy (*image links*), XX ikon z fontów (*font icons*) oraz XX obrazów tła (*background-images*)
 3.	Sprawdź w sekcji *Element*, czy obraz posiada dostępną nazwę lub opis powiązane programowo (atrybut `alt`, `title` i inne).
