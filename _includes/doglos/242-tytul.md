@@ -25,18 +25,17 @@ Tytuły są użyteczne dla wszystkich użytkowników, ale szczególnie przydatne
 {% include note.html content="Gdy brakuje tytułu, technologie pomocnicze ogłaszają zwykle nazwę pliku dokumentu, która często nie ma znaczenia." %}
 
 
-
 ## Standard dostępności
 **WCAG 2.1, kryterium sukcesu**: {% include ks/2-4-2.md %}
 
 ### Wpływ niespełnienia KS 2.4.2 Tytuł strony na osoby z niepełnosprawnościami
 
-{% include ks/wplyw.md %}
-{% include ks/wplyw-01-bez-wzroku.md %}
-{% include ks/wplyw-02-z-ogr-wzroku.md %}
-{% include ks/wplyw-07-z-ogr-manipulacji.md %}
-{% include ks/wplyw-08-z-ogr-sily.md %}
-{% include ks/wplyw-09-z-ogr-poznawczymi.md %}
+{% include doglos/wplyw.md %}
+{% include doglos/wplyw-01-bez-wzroku.md %}
+{% include doglos/wplyw-02-z-ogr-wzroku.md %}
+{% include doglos/wplyw-07-z-ogr-manipulacji.md %}
+{% include doglos/wplyw-08-z-ogr-sily.md %}
+{% include doglos/wplyw-09-z-ogr-poznawczymi.md %}
 
 ### Tytuł strony w kodzie HTML
 W kodzie strony tytuł strony określony jest za pomocą znacznika `<title>` umieszczanego na początku sekcji `<head>`. Może wyglądać np. tak:
