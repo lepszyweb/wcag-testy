@@ -10,6 +10,9 @@ folder: testy/jbt
 ## Opis testu
 Służy ocenie tytułu strony internetowej.
 
+## Mapowanie do standardów dostępności
+- **WCAG 2.1 - kryterium sukcesu** {% include ks/2-4-2.md %}
+
 ## Zastosowanie
 Badanie znacznika `<title>`.
 
@@ -17,15 +20,13 @@ Badanie znacznika `<title>`.
 - W HTML do nadawania stronie tytułu istnieje znacznik `<title>` potomny do znacznika `<head>`.
 - Technologie pomocnicze odczytują tytuł strony ze znacznika `<title>`.
 
-## Mapowanie do standardów dostępności
-- **WCAG 2.1 - kryterium sukcesu** {% include ks/2-4-2.md %}
-
 ## Oczekiwania
 -	Strona ma tytuł zdefiniowany w kodzie znacznikiem `<title>`.
--	Tytuł strony jest unikalny i opisuje jej treść.
--	Tytuł strony zawiera temat strony i nazwę witryny.
--	Tytuł strony nie zawiera zbędnej interpunkcji.
 -	Strona posiada tylko jeden tytuł.
+-   Tytuł strony jest unikalny w zestawie stron 
+-	Tytuł strony opisuje jej treść lub przeznaczenie.
+-	Tytuł strony zawiera temat strony i nazwę witryny.
+-	Tytuł strony zawiera tylko niezbędną interpunkcję.
 
 ## Założenia, zastrzeżenia lub wyjątki
 - Ten test jest obowiązkowy. Każda strona internetowa musi mieć tytuł.
@@ -43,18 +44,19 @@ Inspekcja kodu. Użycie narzędzia ujawniającego tytuł strony.
 
 ### Procedura testowania:
 1.	Sprawdź, czy strona ma tytuł zdefiniowany w kodzie znacznikiem `<title>`.
-2.	Sprawdź, czy tytuł strony jest inny od pozostałych.
-3.	Sprawdź, czy tytuł zawiera temat strony i nazwę witryny.
+2.	Sprawdź, czy w kodzie strony nie ma więcej znaczników `title` niż jeden.
+3.	Sprawdź, czy tytuł strony w zestawie stron jest inny od pozostałych.
 4.	Sprawdź, czy tytuł krótko i odpowiednio opisuje treść strony.
-5.	Sprawdź, czy tytuł nie zawiera zbędnej interpunkcji.
-5.	Sprawdź, czy w kodzie strony nie znajduje się więcej niż jeden  tytuł w znaczniku `title`.
+5.	Sprawdź, czy tytuł zawiera temat strony i nazwę witryny.
+6.	Sprawdź, czy tytuł nie zawiera zbędnej interpunkcji.
+
 
 ### Wykorzystanie ANDI
 
 {% include image.html file="andi/andi_page-title.png" alt="Wykorzystanie skryptozkładki ANDI" %}
-1.	Uruchom skryptozakładkę ANDI i wybierz z menu opcję *structure*.
-2.	Wybierz z menu poziomego opcję *more details* (więcej szczegółów).
-3.	Wybierz z rozwijanej listy opcję *page title* (tytuł strony).
+1.	Uruchom skryptozakładkę ANDI i wybierz z menu opcję *struktura*.
+2.	Wybierz z menu poziomego opcję *więcej szczegółów*.
+3.	Wybierz z rozwijanej listy opcję *tytuł strony*.
 4.	Sprawdź w oknie dialogowym, czy tytuł został określony, czy opisuje treść strony, czy zawiera temat strony i nazwę witryny, czy zawiera tylko uzasadnione zasadami pisowni znaki interpunkcyjne.
 
 ## Zasoby

@@ -11,13 +11,14 @@ folder: testy/itc
 - {% include ks/4-1-2.md %}
 
 ## Uzasadnienie metody badania
-HTML  obejmuje elementy zwane ramkami i ramkami liniowymi (iframes). Ramki są używane do osadzania na stronie treści ze źródeł zewnętrznych. Na przykład często spotyka się osadzanie ramki z treścią audio lub wideo z innej strony.
+HTML  obejmuje elementy zwane ramkami i ramkami liniowymi (iframes, inaczej pływająca, lokalna, wbudowana). Ramki są używane do osadzania na stronie treści ze źródeł zewnętrznych. Na przykład często spotyka się osadzanie ramki z treścią audio lub wideo z innej strony.
 
 O ile użytkownicy widzący mogą rozpoznać strukturę przedstawioną za pomocą ramek i ramek wbudowanych, to użytkownicy czytników ekranu muszą polegać na elementach programowych, które powinny przekazać informację o treści ramek. Celem tych testów jest zbadanie, czy zawartość elementów `<frame>` lub `<iframe>` została w kodzie opisana odpowiednio dla technologii wspomagajacej.   
 
 ## Ograniczenia, założenia lub wyjątki
 - W HTML5 element  `<frame>` jest oznaczony jako przestarzały. Element `<iframe>` jest częścią specyfikacji HTML5.
-Mimo że element `<frame>` jest przestarzały, testerzy mogą spotkać się ze stronami internetowymi lub aplikacjami mobilnymi z przestarzałym kodem, który który choć jest nieaktualny, może i powinien być nadal dostępny.
+
+Mimo że element `<frame>` jest przestarzały, testerzy mogą spotkać się ze stronami internetowymi lub aplikacjami mobilnymi z przestarzałym kodem, który choć jest nieaktualny, może i powinien być nadal dostępny.
 
 ## Procedura testu dla KS 4.1.2 Nazwa, rola, wartość
 
@@ -27,7 +28,7 @@ Mimo że element `<frame>` jest przestarzały, testerzy mogą spotkać się ze s
 Wszystkie ramki (`frame`).
 
 #### Instrukcja testowania
-1.  Sprawdź, czy każde element `<frame` ma atrybut `title` odpowiednio opisujący zawartość ramki
+1.  Sprawdź, czy każdy element `<frame` ma atrybut `title` odpowiednio opisujący zawartość ramki
 
 
 ### Wynik testów

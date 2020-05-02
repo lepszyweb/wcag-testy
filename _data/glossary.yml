@@ -241,7 +241,12 @@ tekst_formatowany: "Tekst, którego formatowanie jest kontrolowane przez arkusz 
 
 tlumaczenie_jezyka_migowego: "(ang. 'sign language interpretation'). Tłumaczenie języka, najczęściej mówionego, na język migowy. <br/>**Uwaga**: Prawdziwe języki migowe są niezależnymi językami i nie mają nic wspólnego z&nbsp;językami mówionymi z danego kraju lub regionu."
 
+
+tresc_cyfrowa: "(ang. 'electronic content', 'digital content', 'Web content'). Treści elektroniczne albo cyfrowe obejmują szeroki zestaw różnie kodowanych informacji i nie są ograniczone tylko do „stron internetowych”  lub „dokumentów”. Treść elektroniczna obejmuje informacje i dane elektroniczne, a także oraz kodowanie określające ich strukturę, prezentację i interakcje. Treść elektroniczna obejmuje strony internetowe, dokumenty elektroniczne oraz aplikacje internetowe i natywne oprogramowanie.<br />- Na przykład treść elektroniczna zawarta na typowej stronie internetowej obejmuje wszystkie informacje, do których użytkownik uzyskuje dostęp za pośrednictwem przeglądarki, jak również cały kod określający sposób prezentacji informacji (często określany w kombinacji hipertekstowego języka znaczników (HTML), JavaScript, kaskadowego arkusza stylów (CSS) i innych plików).<br />- W przypadku pliku PDF (`Portable Document Format`) treść elektroniczna zawiera informacje przedstawione w widoku czytelnika dokumentu, a także „znaczniki” PDF i inne właściwości dokumentu, które definiują różne atrybuty informacji i ogólną strukturę dokumentu.<br />- W przypadku treści innych niż internetowe, w natywnym oprogramowaniu, treść elektroniczna obejmuje informacje prezentowane za pomocą interfejsu użytkownika, a także kod określający strukturę i prezentację informacji."
+
+
 tresc_internetowa: "(ang. 'content (Web content)'). Informacja i komunikat zmysłowy przekazywany użytkownikowi za pośrednictwem programu użytkownika, włączając w to kod lub znaczniki definiujące strukturę, wygląd lub interakcję z informacją."
+
 
 tresc_nietekstowa: "(ang. 'non-text content'). Każda treść, która nie jest sekwencją znaków, które mogą być programowo określone lub nie wyraża niczego w jakimkolwiek języku naturalnym. <br/>**Uwaga**: Obejmuje to ASCII Art (będący układanką złożoną ze znaków), emotikony, slang na forach (korzystający z zastępowania znaków) i obrazy przedstawiające tekst."
 

@@ -371,6 +371,9 @@ taka sama funkcjonalność
 taka sama względna kolejność
 : {{site.data.glossary.taka_sama_wzgledna_kolejnosc}}
 
+technologie informacyjno komunikacyjne
+: {{site.data.glossary.technologie_informacyjno_komunikacyjne}}
+
 technologia pomocnicza
 : {{site.data.glossary.technologia_pomocnicza}}
 
