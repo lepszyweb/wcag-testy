@@ -30,7 +30,8 @@ Tytuły są użyteczne dla wszystkich użytkowników, ale szczególnie przydatne
 
 ### Wpływ niespełnienia KS 2.4.2 Tytuł strony na osoby z niepełnosprawnościami
 
-{% include doglos/wplyw.md %}
+| Rodzaj niepełnosprawności | Opis wpływu |
+|---------------------------|-------------|
 {% include doglos/wplyw-01-bez-wzroku.md %}
 {% include doglos/wplyw-02-z-ogr-wzroku.md %}
 {% include doglos/wplyw-07-z-ogr-manipulacji.md %}
