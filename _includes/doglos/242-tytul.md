@@ -29,7 +29,7 @@ Tytuły są użyteczne dla wszystkich użytkowników, ale szczególnie przydatne
 ## Standard dostępności
 **WCAG 2.1, kryterium sukcesu**: {% include ks/2-4-2.md %}
 
-## Wpływ niespełnienia KS 2.4.2 Tytuł strony na osoby z niepełnosprawnościami
+### Wpływ niespełnienia KS 2.4.2 Tytuł strony na osoby z niepełnosprawnościami
 
 {% include ks/wplyw.md %}
 {% include ks/wplyw-01-bez-wzroku.md %}
