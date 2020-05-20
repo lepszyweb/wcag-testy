@@ -13,7 +13,7 @@ Warunki testowe wersji alternatywnych zapewniających zgodność różnią się 
 -   Mimo że zidentyfikowanie wersji alternatywnych zapewniających zgodność w celu zdefiniowania zakresu testu jest  ważne, nie będzie możliwe ustalenie, czy zapewniono wersję alternatywną zapewniającą zgodność, dopóki nie zakończą się wszystkie inne odpowiednie testy. (Wersja alternatywna zapewniająca zgodność nie może być uznana za taką, dopóki nie przejdzie wszystkich obowiązujących warunków testowych).
 
 
--   Wyniki testów dla  wersji alternatywnych zgodnych nie są odpowiadają wzorcowi **PRAWDA=ZDANY, FAŁSZ=NIEZDANY, NIE MA ZASTOSOWANIA**, który jest przestrzegany przez pozostałe testy. Zapewnienie zgodnej alternatywnej wersji nie jest wymagane. Jest raczej akceptowalną metodą dostarczania tych samych informacji i/lub funkcjonalności w sposób dostępny, gdy istnieją inne niezgodne wersje wersje tych treści. Dlatego też status **NIEZDANY** nie jest odpowiednim wynikiem testu. Jeżeli warunek testowy ma wartość **PRAWDA**, wynikiem testu jest **ZDANY**. Jeżeli warunek testowy ma wartość **FAŁSZ**, alternatywna wersja zgodna nie istnieje, a wynikiem warunku testowego jest **NIE MA ZASTOSOWANIA** (**ND**).
+-   Wyniki testów dla  wersji alternatywnych zgodnych nie są odpowiadają wzorcowi **prawda=zgodna, nieprawda=niezgodna, nie ma zastosowania**, który jest przestrzegany przez pozostałe testy. Zapewnienie zgodnej alternatywnej wersji nie jest wymagane. Jest raczej akceptowalną metodą dostarczania tych samych informacji i/lub funkcjonalności w sposób dostępny, gdy istnieją inne niezgodne wersje wersje tych treści. Dlatego też status **niezgodna** nie jest odpowiednim wynikiem testu. Jeżeli warunek testowy ma wartość **prawda**, wynikiem testu jest **zgodna**. Jeżeli warunek testowy ma wartość **nieprawda**, alternatywna wersja zgodna nie istnieje, a wynikiem warunku testowego jest **nie ma zastosowania** (**ND**).
 
 
 ## Dostępność wersji alternatywnej
@@ -37,7 +37,7 @@ Zidentyfikuj inne wersje tej samej treści, tj. treści, które zostały dostarc
 Jeśli istnieje tylko jedna wersja treści, czyli jeśli nie istnieją wersje alternatywne, wynikiem testu oznaczonych identyfikatorami od 1.A do 1.E jest: **NIE MA ZASTOSOWANIA**.
 
 
-#### Test zgodna-wersja-alternatywna
+#### Test 1.A zgodna-wersja-alternatywna
 
 | Nazwa testu | ID testu | Warunek testowy |
 |------------------------|---------|---------------------------------------|
@@ -45,7 +45,7 @@ Jeśli istnieje tylko jedna wersja treści, czyli jeśli nie istnieją wersje al
 
 #### Zastosowanie:
 
-Ten warunek testowy **NIE MA ZASTOSOWANIA**, jeśli istnieje tylko jedna wersja treści.
+Test 1.A zgodna-wersja-alternatywna **nie ma zastosowania**, jeśli istnieje tylko jedna wersja treści.
 
 #### Jak testować:
 
@@ -83,7 +83,7 @@ Jeżeli wynikiem tego warunku testu jest:
 
 -   Chociaż badanie warunków testowych dla wersji alternatywnej może zostać wstrzymane, gdy zidentyfikowana wersja „dostępna” nie spełnia warunków testowych, konieczne może być dalsze testowanie wersji, aby ukończyć pozostałe testy w tej procedurze testowej. Jeżeli nie ma zgodnej wersji alternatywnej, wszystkie wersje treści powinny zostać przetestowane i uwzględnione w raporcie z badania.
 
-#### Test rownowaznosc-wersji-alternatywnej
+#### Test 1.B rownowaznosc-wersji-alternatywnej
 
 | Nazwa testu | ID testu | Warunek testowy |
 |------------------------|---------|--------------------------------------------|
@@ -91,8 +91,7 @@ Jeżeli wynikiem tego warunku testu jest:
 
 #### Zastosowanie:
 
-Ten warunek testowy **NIE MA ZASTOSOWANIA**, jeśli test **1.A** został oceniony jako **NIE MA ZASTOSOWANIA**.
-
+Test 1.B rownowaznosc-wersji-alternatywnej **nie ma zastosowania**, jeśli istnieje tylko jedna wersja treści (czyli jeśli test 1.A **nie ma zastosowania**).
 
 #### Jak testować:
 
@@ -149,7 +148,7 @@ Jeśli wynikiem testu 1.A lub 1.B jest **NIE MA ZASTOSOWANIA**, to wynikiem test
 
 > ALBO test 1.C, jak, ALBO test 1.D musi być ZDANY; nie można zastosować obu równocześnie do tej samej zgodnej wersji alternatywnej (dostępnej i równoważnej).
 
-#### Test dostep-do-wersji-alternatywnej
+#### Test 1.C dostep-do-wersji-alternatywnej
 
 | Nazwa testu | ID testu | Warunek testowy |
 |------------------------|---------|--------------------------------------------|
@@ -157,10 +156,11 @@ Jeśli wynikiem testu 1.A lub 1.B jest **NIE MA ZASTOSOWANIA**, to wynikiem test
 
 #### Zastosowanie:
 
-Ten warunek testowy **NIE MA ZASTOSOWANIA** , jeśli 
+Test 1.C dostep-do-wersji-alternatywnej **nie ma zastosowania**, jeśli  
 - istnieje tylko jedna wersja treści albo 
 - test z identyfikatorem 1.A lub 1.B został oceniony jako **NIE MA ZASTOSOWANIA**, albo 
 - jeśli użytkownikowi nie została zaoferowana najpierw wersja niezgodna (przejdź do testu 1.D).
+
 
 #### Jak testować:
 
@@ -212,19 +212,18 @@ Jeśli wynikiem dla testu 1.A lub dla testu 1.B było **NIE MA ZASTOSOWANIA**, w
 
 ### Dostep do wersji niezgodnej
 
-#### Test dostep-do-wersji-niezgodnej
+#### Test 1.D dostep-do-wersji-niezgodnej
 
 | Nazwa testu | ID testu | Warunek testowy |
 |------------------------|---------|--------------------------------------------|
 | dostep-do-wersji-niezgodnej | 1.D | Dostęp do wersji niezgodnej można uzyskać tylko z wersji zgodnej. |
 
 #### Zastosowanie:
-
-Ten warunek testowy **NIE MA ZASTOSOWANIA**, jeżeli:
+Test 1.D dostep-do-wersji-niezgodnej **nie ma zastosowania**, jeśli 
 
 -   jest tylko jedna wersja treści, LUB
 
--   Test 1.A lub test 1.B oceniono jako **NIE MA ZASTOSOWANIA**, LUB
+-   Test 1.A lub test 1.B oceniono jako **nie ma zastosowania**, LUB
 
 -   Test 1.C oceniono jako **ZDANY**.
 
@@ -278,12 +277,11 @@ Jeśli wynikami testów zarówno dla 1.C jak i 1.D są **NIE MAJĄ ZASTOSOWANIA*
 | bez-zaklocen | 1.E     | Treści w wersjach niezgodnych spełniają wymóg zgodności 5. |
 
 #### Zastosowanie:
+Test 1.E bez-zaklocen **nie ma zastosowania**, jeżeli:
 
-Ten warunek testowy **NIE MA ZASTOSOWANIA** jeżeli:
+-  jest tylko jedna wersja treści, **lub**
 
--  jest tylko jedna wersja treści, LUB
-
--  Testy 1.C i 1.D oceniono jako  **NIE MA ZASTOSOWANIA.**
+-  Testy 1.C i 1.D oceniono jako  **nie ma zastosowania**.
 
 #### Jak testować:
 

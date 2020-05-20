@@ -139,7 +139,7 @@ Może to być tylko dźwięk, tylko wideo (w tym wideo w języku migowym) lub au
 
 ### Zastosowanie:
 
-16.B 1.2.1-odpowiedniki-wideo **nie ma zastosowania**, jeśli na stronie internetowej nie ma wcześniej nagranych prezentacji tylko-audio, która spełnia kryteria opisane powyżej w sekcji Identyfikacja treści.
+Test 16.B 1.2.1-odpowiedniki-wideo **nie ma zastosowania**, jeśli na stronie internetowej nie ma wcześniej nagranych prezentacji tylko-audio, która spełnia kryteria opisane powyżej w sekcji Identyfikacja treści.
 
 
 ### Jak testować:
