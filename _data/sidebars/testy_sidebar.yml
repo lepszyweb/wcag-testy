@@ -536,18 +536,6 @@ entries:
       url: /audyt
       output: web
 
-  - title: Nowe
-    output: web, pdf
-
-    folderitems:
-    - title: Klawiatura
-      url: /tz-04-klawiatura
-      output: web
-    - title: Wersja alternatywna zapewniajaca zgodność
-      url: /tz-01-alternatywne
-      output: web
-
-
   - title: Zaufany tester
     output: web, pdf
 
@@ -620,10 +608,4 @@ entries:
           output: web, pdf	
         - title: 20. Parsowanie
           url: /tz-20-parsowanie
-          output: web, pdf	
-        - title: O testach
-          url: /tz-about
-          output: web, pdf	
-        - title: Dodatek A
-          url: /tz-appendixa
           output: web, pdf	
