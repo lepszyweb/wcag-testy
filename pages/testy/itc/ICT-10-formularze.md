@@ -25,7 +25,7 @@ Przejrzyj instrukcje formularza pod kątem kompletności i programowego powiąza
 -   Pola formularza tylko do odczytu (np. wstępnie wypełnione) otrzymują fokus klawiatury i można je wybierać, ale nie można ich modyfikować. Pola te muszą być oznaczone i [możliwe do odczytania przez program komputerowy](https://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable) oraz są testowane zgodnie z KS 1.3.1.
 -   Wyłączone kontrolki nie otrzymują fokusa klawiatury, nie można ich wybrać ani modyfikować. Nie są one uwzględniane w tym teście.
 -   Kliknięcie opcji lub zaznaczenie opcji w formularzu powinno wybrać opcję, ale nie powinno inicjować zmiany kontekstu.
--   [Zmiana kontekstu](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html#context-changedef) została zdefiniowana na stronie [Objaśnienie KS 3.2.1: Po oznaczeniu fokusem](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) jako: znaczące zmiany treści \[strony internetowej\], które dokonywane bez świadomości użytkownika, mogą go dezorientować, jeżeli nie jest on w stanie oglądać całej strony jednocześnie. Zmiany kontekstu obejmują zmiany::
+-   [Zmiana kontekstu](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html#context-changedef) została zdefiniowana na stronie [Objaśnienie KS 3.2.1: Po oznaczeniu fokusem](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) jako: znaczące zmiany treści \[strony internetowej\], które dokonywane bez świadomości użytkownika, mogą go dezorientować, jeżeli nie jest on w stanie oglądać całej strony jednocześnie. Zmiany kontekstu obejmują zmiany:
     1.  W programie użytkownika (przeglądarce, itp.)
     2.  Obszaru operacyjnego
     3.  Fokusa

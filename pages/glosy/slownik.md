@@ -17,6 +17,9 @@ a11y
 afordancje
 : {{site.data.glossary.afordancje}}
 
+akapit
+: {{site.data.glossary.akapit}}
+
 alert
 : {{site.data.glossary.alert}}
 
@@ -184,6 +187,9 @@ multimedia alternatywne dla tekstu
 ## N
 na żywo
 : {{site.data.glossary.na_zywo}}
+
+nagłówek
+: {{site.data.glossary.naglowek}}
 
 nagranie
 : {{site.data.glossary.nagranie}}
@@ -365,6 +371,9 @@ sztuka tekstowa
 
 
 ## T
+tabela
+: {{site.data.glossary.tabela}}
+
 taka sama funkcjonalność
 : {{site.data.glossary.taka_sama_funkcjonalnosc}}
 
@@ -394,6 +403,9 @@ tłumaczenie języka migowego
 
 treść (treść internetowa)
 : {{site.data.glossary.tresc_internetowa}}
+
+treść cyfrowa
+: {{site.data.glossary.tresc_cyfrowa}}
 
 treść nietekstowa
 : {{site.data.glossary.tresc_nietekstowa}}
@@ -452,6 +464,9 @@ wydanie punktowe
 wydarzenie w czasie rzeczywistym
 : {{site.data.glossary.wydarzenie_w_czasie_rzeczywistym}}
 
+wykluczenie_cyfrowe
+: {{site.data.glossary.wykluczenie_cyfrowe}}
+
 wyłącznie dekoracyjny
 : {{site.data.glossary.wylacznie_dekoracyjny}}
 
@@ -477,6 +492,9 @@ zmiany kontekstu
 
 zobowiązanie prawne
 : {{site.data.glossary.zobowiazanie_prawne}}
+
+zrozumiała treść
+: {{site.data.glossary.zrozumiala_tresc}}
 
 zrozumiałość
 : {{site.data.glossary.zrozumialosc}}

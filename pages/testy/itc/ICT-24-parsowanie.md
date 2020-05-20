@@ -39,7 +39,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 
 ## Porada: Wskazówki dotyczące usprawniania procesu testów
 
-Chociaż walidatory mogą być świetnym narzędziem do wychwytywania błędów, nie mogą określać, które z nich są wyłącznie błędami parsowania, ani nie wychwytują wszystkich przypadkó, w których zawartość nie jest w pełni zgodna ze specyfikacją.
+Chociaż walidatory mogą być świetnym narzędziem do wychwytywania błędów, nie mogą określać, które z nich są wyłącznie błędami parsowania, ani nie wychwytują wszystkich przypadków, w których zawartość nie jest w pełni zgodna ze specyfikacją.
 
 
 ## Techniki WCAG 2.1

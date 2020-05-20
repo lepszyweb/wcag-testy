@@ -70,10 +70,10 @@ Ten warunek testu NIE MA ZASTOSOWANIA, jeśli nie ma żadnych widocznych list.
 #### Identyfikacja treści
 Widoczne wizualnie listy. Dla każdej listy określ, czy wygląda na uporządkowaną, nieuporządkowaną czy listę asocjacji.
 -   **Listy uporządkowane** numeruje się sekwencyjnie, a jeśli to konieczne, także hierarchicznie (np. 1, 2, 2a, 2ai, itd.). List uporządkowanych używa się tam, gdzie ważna jest kolejność albo konieczne jest odwoływanie się do konkretnych pozycji na liście według liczby/litery.
--   **Listy nieuporządkowane** nie są numerowane i używa się ich w przypadkach, gdy kolejność elementtów nie jest istotna, ani nie ma konieczności odwoływania się do konkretnych pozycji na liście według liczby/litery.
+-   **Listy nieuporządkowane** nie są numerowane. List nieuporządkowanych używa się w przypadkach, gdy kolejność elementów nie jest istotna, ani nie ma konieczności odwoływania się do konkretnych pozycji na liście według liczby/litery..
 -   **List opisów** (asocjacji, dawniej definicji) (dl) używa się do grupowania dowolnych danych w zestawy nazwa-wartość. Rolę grupy nazwa-wartość mogą spełniać terminy i ich definicje, elementy metadanych i ich wartości oraz dowolne inne grupy danych, na przykład autorzy i tytuły ich książek.
 
-*Uwaga*: Programiści mogą używać elementów listy do prezentacji pogrupowanych elementów, takich jak menu i podmenu, usuwając z nich punktownie lub numerację. Takie użycie elementów listy jest dopuszczalne i zgodne z warunkami testu określonymi poniżej.
+*Uwaga*: Programiści mogą używać elementów listy do prezentacji pogrupowanych elementów, takich jak menu i podmenu, usuwając z nich punktowanie lub numerację. Takie użycie elementów listy jest dopuszczalne i zgodne z warunkami testu określonymi poniżej.
 
 #### Instrukcja testowania
 1.  Dla każdej widocznej listy:

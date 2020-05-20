@@ -12,21 +12,25 @@ folder: testy/itc
 - {% include ks/4-1-2.md %}
 
 ## Uzasadnienie metody badania
-Łącza i przyciski, w tym elementy skryptowe, muszą mieć znaczący tekst (powiązany bezpośrednio lub dostępny w kontekście) opisujący jego cel lub funkcję. Aby powiązany tekst był dostępny dla technologii wspomagających, informacje muszą być [możliwe do odczytania przez program komputerowy](https://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable).
+Łącza i przyciski, w tym elementy skryptowe, muszą mieć znaczący tekst (powiązany bezpośrednio lub dostępny w&nbsp;kontekście) opisujący ich cel lub funkcję. Aby powiązany tekst był dostępny dla technologii wspomagających, informacje muszą być 
+<a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.okreslony_programowo | strip_html | replace: '*', ''}}">określone programowo</a> (możliwe do odczytania przez program komputerowy)
+
+
+
 
 ## Ograniczenia, założenia lub wyjątki
--   [Z Objaśnienia KS 2.4.4](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html): Mogą zaistnieć sytuacje, w których cel połączenia ma być nieznany lub zasłonięty. Na przykład, gra może mieć linki oznaczone tylko jako drzwi \#2, drzwi nr \#2 i drzwi nr \#3. Ten tekst łącza byłby wystarczający, ponieważ celem jest stworzenie napięcia dla wszystkich użytkowników.
--   Ten test obejmuje przyciski. W Technikach wystarczających dla KS 2.4.4.4 znajduje się technika [FLASH27: Zapewnienie etykiet przycisków opisujących przeznaczenie przycisku](https://www.w3.org/WAI/WCAG21/Techniques/flash/FLASH27).
+-   [Z Objaśnienia KS 2.4.4](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html): Mogą zaistnieć sytuacje, w których cel łącza ma być nieznany lub ukryty. Na przykład, gra może mieć łącza oznaczone tylko jako Drzwi 1, Drzwi nr 2 i Drzwi nr 3. Te teksty łączy byłyby wystarczające, ponieważ celem jest stworzenie napięcia dla wszystkich użytkowników.
+-   Ten test obejmuje przyciski. W Technikach wystarczających dla KS 2.4.4 znajduje się technika [FLASH27: Zapewnienie etykiet przycisków opisujących przeznaczenie przycisku](https://www.w3.org/WAI/WCAG21/Techniques/flash/FLASH27).
 
 ## Procedura testu dla KS 2.4.4 Cel linku (w kontekście)
 
 ### Identyfikacja treści
 
-Wszystkie łącza i przyciski, w tym te, które są elementami skryptowymi i którym przypisano rolę łącza (role="link")  i rolę przycisku (role="button").
+Wszystkie łącza i przyciski, w tym te, które są elementami skryptowymi i którym przypisano rolę łącza (role="link") lub rolę przycisku (role="button").
 
 ### Instrukcja testowania
 
-1.  Sprawdź, czy cel każdego linku i przycisku można określić na podstawie dowolnej kombinacji tekstu linku, [dostępnej nazwy, dostępnego opisu](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation) lub poprzedzającego bezpośrednio kontekstu strony (ten sam akapit, lista lub komórka tabeli, w której znajduje się łącza lub komórka nagłówka tabeli, z którą jest powiązana komórka zawierająca łącze).
+1.  Sprawdź, czy cel każdego łącza i przycisku można określić na podstawie dowolnej kombinacji tekstu łącza, [dostępnej nazwy, dostępnego opisu](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation) lub poprzedzającego bezpośrednio kontekstu strony (ten sam akapit, lista lub komórka tabeli, w której znajduje się łącza lub komórka nagłówka tabeli, z którą jest powiązana komórka zawierająca łącze).
 
 ### Wynik testów
 

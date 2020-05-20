@@ -1,9 +1,9 @@
 ---
-title: 9. Miganie
+title: 9. Błyskanie
 
 
 sidebar: testy_sidebar
-permalink: ICT-09-miganie
+permalink: ICT-09-blyskanie
 folder: testy/itc
 ---
 ## Wymagania dostępności
@@ -12,10 +12,10 @@ folder: testy/itc
 
 ## Uzasadnienie metody badania
 ------------------------------
-Miganie może być spowodowane czynnikami niezależnymi od autorów (np. działaniem wyświetlacza użytkownika, renderowaniem obrazu przez komputer lub problemami z łącznością). Nie ma niezawodnego, ogólnodostępnego lub powszechnie dostępnego rozwiązania do określania wynikowej częstotliwości migania dla tego rodzaju czynników.
+Błyskanie może być spowodowane czynnikami niezależnymi od autorów (np. działaniem wyświetlacza użytkownika, renderowaniem obrazu przez komputer lub problemami z łącznością). Nie ma niezawodnego, ogólnodostępnego lub powszechnie dostępnego rozwiązania do określania wynikowej częstotliwości błyskania dla tego rodzaju czynników.
 
-Ten test rozwiązuje problem migania spowodowanego przez samą treść, w tym:
-- Określanie szybkości migania na podstawie informacji dostępnych programowo
+Ten test rozwiązuje problem błyskania spowodowanego przez samą treść, w tym:
+- Określanie szybkości błyskania na podstawie informacji dostępnych programowo
 - Określenie, czy łączny obszar błysków pojawiających się jednocześnie nie przekracza .006 sterydianów w obrębie 10 stopni pola widzenia monitora (25% na każde 10 stopni pola widzenia monitora) dla osoby patrzącej na monitor z przeciętnej odległości.
 - Określenie, czy [względna luminancja](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef)  zmienia się o więcej niż 10% dla „pary przeciwstawnych przejść zawierających ostrą/nasyconą czerwień”.
 - Określanie, czy migające elementy zawierają [nasyconą czerwień](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#general-thresholddef)
@@ -35,7 +35,7 @@ Wizualnie określ zawartość, która [błyska](https://www.w3.org/TR/UNDERSTAN
 
 
 ### Instrukcja testowania
-1.  Określ częstotliwość migania. Jeśli częstotliwość migania wynosi 3 Hz lub mniej (trzy błyski w ciągu jednej sekundy), dalsze badanie nie jest konieczne.
+1.  Określ częstotliwość błyskania. Jeśli częstotliwość błyskania wynosi 3 Hz lub mniej (trzy błyski w ciągu jednej sekundy), dalsze badanie nie jest konieczne.
 2.  Jeśli zawartość miga powyżej 3 Hz lub nie można ustalić częstotliwości, sprawdź, czy spełnia ona jedną z następujących warunków:
     1.  Łączny obszar błysków pojawiających się jednocześnie w dowolnym kącie widzenia 10 stopni, jest mniejszy niż odpowiednik „małego bezpiecznego obszaru” (tj. mniejszy niż 25% na każde 10 stopni pola widzenia monitora) dla osoby patrzącej na monitor z przeciętnej odległości.
     2.  Pary przeciwstawnych przejść nie zawierają ostrej/nasyconej czerwieni ORAZ
@@ -47,7 +47,7 @@ Jeżeli WSZYSTKIE powyższe próby zakończą się niepowodzeniem, wówczas test
 
 ##  Wskazówki dotyczące usprawniania procesu testowego
 ----------------------------------------------------------
-- Jeśli treść będzie wyświetlana lub wyświetlana w znacznie różnych rozmiarach lub odległościach (np. treści responsywne przeznaczone do wyświetlania na pulpicie, w telefonie komórkowym i/lub innych wyświetlaczach), treść należy ocenić dla każdego scenariusza..
+- Jeśli treść będzie wyświetlana lub wyświetlana w znacznie różnych rozmiarach lub odległościach (np. treści responsywne przeznaczone do wyświetlania na pulpicie, w telefonie komórkowym i/lub innych wyświetlaczach), treść należy ocenić dla każdego scenariusza.
 
 ## Techniki WCAG 2.1
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:

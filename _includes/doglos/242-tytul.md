@@ -19,7 +19,7 @@ Tytuły stron internetowych są:
 ## Kto odnosi korzyści z tytułów?
 Tytuły są użyteczne dla wszystkich użytkowników, ale szczególnie przydatne są dla:
 -  osób niewidomych i słabowidzących, ponieważ są zawsze pierwszym elementem dokumentu ogłaszanym przez oprogramowanie do odczytywania ekranu.
--  osób z problemami poznawczymi, ograniczoną pamięcią krótkotrwałą i trudnościami, bo pomagają rozróżniać dokumenty, gdy otwartych jest wiele okien lub kart,
+-  osób z problemami poznawczymi, ograniczoną pamięcią krótkotrwałą i trudnościami trudnościami w&nbsp;czytaniu, bo pomagają rozróżniać dokumenty, gdy otwartych jest wiele okien lub kart,
 -  osób z ograniczeniami ruchu, które podczas nawigacji między dokumentami kierują się dźwiękiem, bo pomagają je rozróżniać.
 
 {% include note.html content="Gdy brakuje tytułu, technologie pomocnicze ogłaszają zwykle nazwę pliku dokumentu, która często nie ma znaczenia." %}
@@ -27,6 +27,15 @@ Tytuły są użyteczne dla wszystkich użytkowników, ale szczególnie przydatne
 
 ## Standard dostępności
 **WCAG 2.1, kryterium sukcesu**: {% include ks/2-4-2.md %}
+
+### Objaśnienie kryterium sukcesu
+
+KS 2.4.2 Tytuł strony zapewnia zgodność z zasadą **funkcjonalności**, ponieważ tytuły pomagają osobom z&nbsp;niepełnosprawnościami łatwo uzyskać informacje o celu i treści strony internetowej, dokumentu lub okna aplikacji. Opisowe tytuły stron, dokumentów i okien aplikacji pomagają użytkownikom szybko zorientować się w ich treści i celu, eliminując potrzebę czytania lub interpretowania treści, aby uzyskać te informacje. Opisowe tytuły stron, dokumentów i okien aplikacji ułatwiają nawigację, gdy jednocześnie otwartych jest wiele okien, dokumentów lub stron internetowych.
+   
+Tytuły muszą opisywać temat lub przeznaczenie strony, dokumentu  lub okna aplikacji prostym i zwięzłym językiem.
+
+W przypadku dokumentów elektronicznych tytuły mogą być oparte na nazwach plików, jeśli są one wystarczająco opisowe. W przypadku oprogramowania komputerowego (aplikacji natywnych, destkopowych) tytuły są zwykle nazwą głównego okna aplikacji (okna najwyższego poziomu) lub odzwierciedlają przeznaczenie określonych ekranów.  
+
 
 ### Wpływ niespełnienia KS 2.4.2 Tytuł strony na osoby z niepełnosprawnościami
 
@@ -37,6 +46,17 @@ Tytuły są użyteczne dla wszystkich użytkowników, ale szczególnie przydatne
 {% include doglos/wplyw-07-z-ogr-manipulacji.md %}
 {% include doglos/wplyw-08-z-ogr-sily.md %}
 {% include doglos/wplyw-09-z-ogr-poznawczymi.md %}
+
+### Stosowanie KS 2.4.2 w technologiach informacyjno-komunikacyjnych
+
+| Technologia | Możliwość zastosowania KS 2.4.2 Tytuł strony |
+|------------|------------------------------------------------|
+| Strony internetowe| Twórcy stron podają tytuł w elemencie `<title>` zawartym w elemencie `<head>` dokumentu HTML |
+| Oprogramowanie komputerowe | Twórcy oprogramowania podają zazwyczaj tytuł aplikacji we właściwości, która jest odwzorowana na właściwość `name` interfejsu API dostępności dla podstawowej aplikacji lub węzła okna|
+| Dokumenty biurowe | Autorzy treści określają tytuł dokumentu we właściwościach dokumentu biurowego. |
+| Dokumenty PDF | Autorzy treści określają tytuł dokumentu we właściwościach dokumentu PDF.|
+| Aplikacje mobilne | Twórcy aplikacji dla urządzeń mobilnych podają zwykle tytuł aplikacji we właściwości, która jest odwzorowana na właściwość `name` interfejsu API dostępności dla podstawowej aplikacji lub węzła okna. |
+
 
 ### Tytuł strony w kodzie HTML
 W kodzie strony tytuł strony określony jest za pomocą znacznika `<title>` umieszczanego na początku sekcji `<head>`. Może wyglądać np. tak:
@@ -68,7 +88,7 @@ Ponadto, tytuły tych dokumentów powinny być umieszczone w metadanych, które 
 {% include warning.html content="Style takie jak: „Tytuł”, „Podtytuł” lub „Tytuł dokumentu” nie są rozpoznawane przez technologie pomocnicze jako znaczniki tytułów. Służą raczej do stylizacji napisów na okładkach publikacji. " %}
 
 ### Dokumenty PDF
-Mimo poprawnego określenia tytułu dokumentu biurowego w aplikacji źródłowej, takiej jak MS Word, tytuł dokumentu zapisanego do dostępnego formatu PDF nie jest rozpoznawany przez przeglądarki i&nbsp;technlogie pomocnicze. Jeśli nie mamy możliwości skorygowania właściwości dokumentu PDF w programie Adobe Acrobat Pro, można zapewnić dostępność tytułu, wpisując go w nazwie pliku - bez spacji, wyrazy oddzielamy myślnikami lub znakami podkreślenia.
+Mimo poprawnego określenia tytułu dokumentu biurowego w aplikacji źródłowej, takiej jak MS Word, tytuł dokumentu zapisanego do dostępnego formatu PDF nie jest rozpoznawany przez przeglądarki i&nbsp;technologie pomocnicze. Jeśli nie mamy możliwości skorygowania właściwości dokumentu PDF w programie Adobe Acrobat Pro, można zapewnić dostępność tytułu, wpisując go w nazwie pliku - bez spacji, wyrazy oddzielamy myślnikami lub znakami podkreślenia.
 
 ### Prezentacje PowerPoint, Impress...
 Każdy ze slajdów utworzonych w takich programach, jak PowerPoint czy Impress, powinnien mieć tytuł, aby czytniki ekranu mogły nawigować do poszczególnych slajdów.

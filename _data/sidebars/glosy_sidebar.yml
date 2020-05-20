@@ -30,6 +30,9 @@ entries:
     - title: Układ i projekt strony
       url: /glosy-uklad-i-projekt-strony
       output: web
+    - title: Nagłówki i etykiety
+      url: /glosy-naglowki-i-etykiety
+      output: web	  
   - title: Słowniki
     output: web, pdf
     folderitems:

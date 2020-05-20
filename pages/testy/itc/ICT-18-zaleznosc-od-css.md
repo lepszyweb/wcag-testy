@@ -14,7 +14,7 @@ folder: testy/itc
 - {% include ks/4-1-2.md %}
 
 ## Uzasadnienie metody badania
-Znaczące informacje dostarczane wyłącznie przez CSS mogą nie być odwzorowane w Obiektowym MOdelu Dokumentów (DOM). Informacje równoważne muszą być dostępne bez CSS.
+Znaczące informacje dostarczane wyłącznie przez CSS mogą nie być odwzorowane w Obiektowym Modelu Dokumentów (DOM). Informacje równoważne muszą być dostępne bez CSS.
 
 ## Ograniczenia, założenia lub wyjątki
 -   W tym teście uwzględniono tylko techniki CSS określone jako defekty w WCAG 2.0 poziom A i poziom AA. Mogą istnieć inne techniki CSS, które wpływają na zgodność.
@@ -28,7 +28,7 @@ Znaczące obrazy tła renderowane przez CSS
 ### Instrukcja testowania
 1.  Sprawdź, czy znaczący obraz CSS zawiera równoważny tekstowy opis alternatywny:
     1.  dodany za pomocą atrybutu ARIA `role="img"` i niepustej wartości atrybutu `aria-label` ORAZ
-    2.  wartości atrybutu `aria-label` zapewnia te same informacje, co znaczący obraz tła
+    2.  wartość atrybutu `aria-label` zapewnia te same informacje, co znaczący obraz tła
 
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 1.1.1, KS 4.1.2  oraz wymaganie podstawowe nr 18 kończy się niepowodzeniem.

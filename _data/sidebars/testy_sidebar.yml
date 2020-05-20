@@ -247,8 +247,8 @@ entries:
           url: /ICT-08-kontrast
           output: web, pdf
 
-        - title: 9. Miganie
-          url: /ICT-09-miganie
+        - title: 9. Błyskanie
+          url: /ICT-09-blyskanie
           output: web, pdf
 
         - title: 10. Formularze
@@ -291,7 +291,7 @@ entries:
           url: /ICT-19-ramki
           output: web, pdf
 
-        - title: 20. Zgodność z wersją alternatywną
+        - title: 20. Zgodna wersja alternatywna
           url: /ICT-20-wersje-alternatywne
           output: web, pdf
 
@@ -561,9 +561,69 @@ entries:
         output: web
         subfolderitems:
 
-        - title: 1. Wersja alternatywna zapewniająca zgodność i brak zakłóceń
+        - title: 1. Zgodna wersja alternatywna i brak zakłóceń
           url: /tz-01-alternatywne
+          output: web, pdf
+        - title: 2. Automatyczne odtwarzanie i...
+          url: /tz-02-auto
+          output: web, pdf
+        - title: 3. Błyskanie
+          url: /tz-03-blyskanie
+          output: web, pdf
+        - title: 4. Dostęp z klawiatury i fokus
+          url: /tz-04-klawiatura
+          output: web, pdf
+        - title: 5. Formularze
+          url: /tz-05-formularze
+          output: web, pdf		  
+        - title: 6. Łącza i przyciski
+          url: /tz-06-lacza-i-przyciski
+          output: web, pdf	
+        - title: 7. Obrazy
+          url: /tz-07-obrazy
+          output: web, pdf	
+        - title: 8. Limit czasu
+          url: /tz-08-limit-czasu
+          output: web, pdf	
+        - title: 9. Treści powtarzane
+          url: /tz-09-tresci-powtarzane
+          output: web, pdf	
+        - title: 10. Struktury treści
+          url: /tz-10-struktury
+          output: web, pdf
+        - title: 11. Język
+          url: /tz-11-jezyk
+          output: web, pdf		  
+        - title: 12. Tytuły
+          url: /tz-12-tytuly
+          output: web, pdf	
+        - title: 13. Charakterystyki zmysłowe
+          url: /tz-13-charakterystyki-zmyslowe
+          output: web, pdf	
+        - title: 14. Tabele
+          url: /tz-14-tabele
+          output: web, pdf	
+        - title: 15. CSS
+          url: /tz-15-css
+          output: web, pdf	
+        - title: 16. Audio i wideo
+          url: /tz-16-audio-video
           output: web, pdf
         - title: 17. Miltimedia zsynchronizowane
           url: /tz-17-multimedia-zsynchronizowane
-          output: web, pdf
+          output: web, pdf             
+        - title: 18. Zmiana rozmiaru
+          url: /tz-18-zmiana-rozmiaru
+          output: web, pdf		  
+        - title: 19. Wiele dróg
+          url: /tz-19-wiele-drog
+          output: web, pdf	
+        - title: 20. Parsowanie
+          url: /tz-20-parsowanie
+          output: web, pdf	
+        - title: O testach
+          url: /tz-about
+          output: web, pdf	
+        - title: Dodatek A
+          url: /tz-appendixa
+          output: web, pdf	

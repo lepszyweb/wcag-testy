@@ -48,7 +48,7 @@ najlepsza_praktyka: "Zalecana metoda albo nowatorska praktyka, która przyczynia
 
 narzedzie_testowe: "Oprogramowanie, które wspomaga jedną lub kilka czynności testowych, takich jak planowanie, zarządzanie, specyfikacja, wykonanie i analiza testów (TMap)"
 
-niezdany: "Test uznaje się za niezdany, jeśli jego rzeczywisty rezultat nie zgadza się z oczekiwanym."
+niezdany: "Test uznaje się za niezdany lub niezaliczony, jeśli jego rzeczywisty rezultat nie zgadza się z oczekiwanym. Zobacz → test niezdany."
 
 niezgodnosc: "Niespełnienie konkretnego wymagania (ISO 9000)"
 
@@ -112,6 +112,7 @@ test_niezdany: "Status przypisany do wykonanego  testu, gdy wynik rzeczywisty ni
 
 test_zdany: "Status przypisany do wykonanego  testu, gdy wynik rzeczywisty jest zgodny z wynikiem oczekiwanym."
 
+
 tester: "Wykwalifikowany profesjonalista, zaangażowany w testowanie modułu lub systemu."
 
 testowanie: "Proces składający się z wszystkich czynności cyklu życia, zarówno statycznych jak i dynamicznych; skoncentrowany na planowaniu, przygotowaniu i ewaluacji oprogramowania oraz powiązanych produktów w celu określenia czy spełniają one wyspecyfikowane wymagania oraz wykazania, że są one dopasowane do swoich celów oraz do wykrywania usterek."
@@ -150,12 +151,12 @@ wymaganie: "Postanowienie zawierające kryteria, które należy spełnić. [ISO/
 
 wymaganie_testowalne: "Wymaganie, które jest określone przy użyciu pojęć umożliwiających stworzenie projektu testu (a następnie przypadków  testowych) i wykonanie testów w celu określenia, czy wymaganie  to zostało spełnione (wg IEEE 610)."
 
-zaliczony: "Test jest uważany za zaliczony lub zdany, jeśli jego rezultat jest zgodny z rezultatem oczekiwanym."
-
 zarzadzanie_testami: "Planowanie, harmonogramowanie, szacowanie, monitorowanie, raportowanie, nadzór i zakańczanie czynności testowych (wg ISO/IEC/IEEE 29119)."
 
 zasob: "Sieciowy (internetowy) obiekt danych identyfikowany przez unikalny identyfikator URI (ang. _Uniform Resource Identifier_). *Uwaga*: Definicja obejmuje zarówno zasoby HTTP, jak i zasoby nie-HTTP, takie jak np. zasoby dostępne za pośrednictwem protokołu FTP."
 
 zasob_HTTP: "Sieciowy (internetowy) obiekt danych identyfikowany za pomocą pojedynczego żądania HTTP. Zasobem może być obrazek, strona HTML czy plik z kodem JavaScript. Protokół HTTP nie określa, czym dokładnie jest zasób. Określa jedynie sposób, w jaki można dostać się do zasobów. Każdy zasób ma swój unikalny identyfikator. Ten identyfikator to URI (ang. *Uniform Resource Identifier*)."
+
+zdany: "Test jest uważany za zdany lub zaliczony, jeśli jego rezultat jest zgodny z rezultatem oczekiwanym. Zobacz → test zdany."
 
 zlecajacy_ocene: "(ang. _evaluation commissioner_). Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot, który zlecił ocenę. *Uwaga*: W wielu przypadkach zlecajacym ocenę będzie właściciel lub twórca, wydawca witryny. Ale może to być również np. naukowiec prowadzący badania dostępności albo podmiot monitorujący dostępność stron internetowych i aplikacji mobilnych."

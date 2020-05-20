@@ -1,0 +1,6 @@
+- [Understanding Success Criterion 2.4.6: Headings and Labels](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html)
+- [Checkpoint 2.4.6 Headings and Labels](https://www.ibm.com/able/guidelines/ci162/headings_and_labels.html)
+- [Use proper heading elements to indicate the page’s content structure](https://accessibility.iu.edu/creating-content/web-content/headings.html)
+- [How to structure headings for web accessibility](https://www.nomensa.com/blog/2017/how-structure-headings-web-accessibility)
+- [Headings & Accessibility](https://developer.paciellogroup.com/blog/2020/03/headings-accessibility/)
+- [Heading off confusion: When do headings fail WCAG?](https://developer.paciellogroup.com/blog/2020/03/heading-off-confusion-when-do-headings-fail-wcag/)

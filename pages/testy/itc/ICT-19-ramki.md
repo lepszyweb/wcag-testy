@@ -11,7 +11,7 @@ folder: testy/itc
 - {% include ks/4-1-2.md %}
 
 ## Uzasadnienie metody badania
-HTML  obejmuje elementy zwane ramkami i ramkami liniowymi (iframes, inaczej pływająca, lokalna, wbudowana). Ramki są używane do osadzania na stronie treści ze źródeł zewnętrznych. Na przykład często spotyka się osadzanie ramki z treścią audio lub wideo z innej strony.
+HTML  obejmuje elementy zwane ramkami i ramkami liniowymi (iframes, inaczej łączona, pływająca, lokalna, wbudowana). Ramki są używane do osadzania na stronie treści ze źródeł zewnętrznych. Na przykład często spotyka się osadzanie ramki z treścią audio lub wideo z innej strony.
 
 O ile użytkownicy widzący mogą rozpoznać strukturę przedstawioną za pomocą ramek i ramek wbudowanych, to użytkownicy czytników ekranu muszą polegać na elementach programowych, które powinny przekazać informację o treści ramek. Celem tych testów jest zbadanie, czy zawartość elementów `<frame>` lub `<iframe>` została w kodzie opisana odpowiednio dla technologii wspomagajacej.   
 
@@ -34,13 +34,13 @@ Wszystkie ramki (`frame`).
 ### Wynik testów
 Jeżeli powyższa próba zakończy się niepowodzeniem, wówczas test KS 4.1.2 oraz wymaganie podstawowe nr 19 kończy się niepowodzeniem.
 
-### Ramki wbudowane - `iFrame`
+### Ramki łączone - `iFrame`
 
 #### Identyfikacja treści
-Wszystkie ramki wbudowanne (`iFrames`).
+Wszystkie ramki łączone (`iFrames`).
 
 #### Instrukcja testowania
-1.  Sprawdź, czy kombinacja [dostępnej nazwy i opisu](https://www.w3.org/TR/html-aam-1.0/#iframe-element) odpowiednio opisuje zawartość ramki wbudowanej.
+1.  Sprawdź, czy kombinacja [dostępnej nazwy i opisu](https://www.w3.org/TR/html-aam-1.0/#iframe-element) odpowiednio opisuje zawartość ramki łączonej.
 
 ### Wynik testów
 Jeżeli powyższa próba zakończy się niepowodzeniem, wówczas test KS 4.1.2 oraz wymaganie podstawowe nr 19 kończy się niepowodzeniem.

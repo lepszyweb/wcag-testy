@@ -2,6 +2,8 @@ a11y: "Skrót od angielskiego słowa *accessibility* (dostępność), używany c
 
 afordancje: "Zauważalne i rzeczywiste cechy rzeczy, systemu lub elementu systemu, które określają, w jaki sposób można tej rzeczy używać."
 
+akapit: "Podstawowy sposób dzielenia łamu na rozpoznawalne wzrokiem mniejsze fragmenty w celu zwiększenia czytelności tekstu. Podstawowa jednostka logiczna dłuższego tekstu. Składa się z jednego lub wielu zdań stanowiących pewną całość treściową. Zadaniem akapitu jest wyraźne zaznaczenie nowej myśli w bieżącym wątku wypowiedzi. *Źródło defnicji: Wikipedia - Akapit*"
+
 alert: "Komunikat z ostrzeżeniem przerywający nawigację lub używanie strony, zwłaszcza z żądaniem kliknięcia na przycisk lub link w celu kontynuowania nawigacji lub używania treści."
 
 alternatywa_dla_mediow_zmiennych_w_czasie: "(ang. 'alternative for time-based media'). Dokument zawierający prawidłowo uporządkowany tekst opisujący wizualną i dźwiękową informację zmienną w czasie oraz uwzględniający końcowy stan interakcji z tymi mediami. <br/>**Uwaga**: Scenariusz użyty do stworzenia zsynchronizowanych multimediów może być objęty taką definicją tylko wówczas, gdy został poprawiony, tak, by odpowiadać dokładnej końcowej wersji multimediów po zakończeniu edycji."
@@ -50,7 +52,7 @@ dotyk_jednopunktowy: "(ang. single pointer). Wprowadzanie danych dotykiem, któr
 
 duza_wielkosc_tekstu: "(ang. 'large scale text'). Tekst o wielkości przynajmniej 18 pt lub 14 pt, ale pogrubiony lub odpowiadające im wielkością znaki alfabetu chińskiego, japońskiego i koreańskiego (CJK)."
 
-etykieta: "(ang. 'label'): Tekst lub inny komponent z tekstem alternatywnym, który jest prezentowany użytkownikowi w celu identyfikacji komponentu w treści internetowej. <br>**Uwaga 1**: Etykieta jest widoczna dla wszystkich użytkowników, podczas gdy **nazwa** może być przekazywana tylko technologiom wspomagającym. W wielu przypadkach (choć nie we wszystkich) etykieta i nazwa są takie same. <br>**Uwaga 2**: Pojęcie etykiety nie ogranicza się tylko do elementu „label” w HTML."
+etykieta: "(ang. 'label'): Tekst lub inny komponent z tekstem alternatywnym, który jest prezentowany użytkownikowi w celu identyfikacji komponentu w treści internetowej. <br>**Uwaga 1**: Etykieta jest widoczna dla wszystkich użytkowników, podczas gdy **nazwa** może być przekazywana tylko technologiom wspomagającym. W&nbsp;wielu przypadkach (choć nie we wszystkich) etykieta i nazwa są takie same. <br>**Uwaga 2**: Pojęcie etykiety nie ogranicza się tylko do elementu „label” w HTML."
 
 fokus_klawiatury: "(ang. 'focus') - skupienie. Stan gotowości komponentu interfejsu użytkownika (zobacz) do odbioru informacji o naciśnięciu klawiszy, które jest zdolny obsłużyć. Fokus jest zwykle odpowiednio odwzorowany w wyglądzie komponentu, np. przycisk dostaje dodatkowe obramowanie, w polu formularza pojawia się migający kursor, pod łączem w menu zmienia się kolor tła, itp. Wszelkie zdarzenia związane z naciskaniem przez użytkownika klawiszy są kierowane właśnie do tego komponentu, o ile nie zostaną wcześniej przechwycone. Zdarzenia z klawiatury w pierwszej kolejności przekazywane są do systemu okienkowego (menedżera okien), który z kolei przekazuje je do aplikacji. Aplikacja obsługuje te zdarzenia sama albo przekazuje je do obsłużenia do komponentu gotowego do obsługi zdarzenia."
 
@@ -78,7 +80,7 @@ jezyk_migowy: "(ang. 'sign language'). Język stosujący kombinację gestów dł
 
 kompatybilnosc: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą tej stronie lub aplikacji współpracę z możliwie największą liczbą programów, w tym z narzędziami i programami wspomagającymi osoby niepełnosprawne."
 
-komponent_interfejsu_uzytkownika: "Obiekt, element strony, z którym użytkownik może wchodzić w interakcje, na przykład przycisk, łącze, pole tekstowe (proste komponenty interfejsu), rozwijane menu, okna dialogowe, karty, karuzele, panele rozwijane (złożone komponenty interfejsu). Komponent interfejsu może być oparty na natywnych elementach HTML lub elementach zaprogramowanych z użyciem JavaScript i&nbsp;API ARIA."
+komponent_interfejsu_uzytkownika: "Część treści postrzegana przez użytkowników jako pojedynczy element sterowania konkretną funkcją, z którym użytkownik może wchodzić w interakcje, na przykład przycisk, łącze, pole tekstowe (proste komponenty interfejsu), rozwijane menu, okna dialogowe, karty, karuzele, panele rozwijane (złożone komponenty interfejsu). Komponent interfejsu może być oparty na natywnych elementach HTML lub elementach zaprogramowanych z użyciem JavaScript i&nbsp;API ARIA. Inaczej: element interfejsu użytkownika"
 
 komunikaty_o_stanie: "(ang. 'status message'). Zmiana treści, która nie jest zmianą kontekstu i która dostarcza użytkownikowi informacji o&nbsp;powodzeniu lub wynikach działania, o&nbsp;stanie oczekiwania aplikacji, o&nbsp;postępie procesu lub o&nbsp;istnieniu błędów."
 
@@ -106,6 +108,8 @@ mozliwy_do_odczytania_przez_program_komputerowy: "zobacz: określony programowo 
 multimedia_alternatywne_dla_tekstu: "(ang. 'media alternative for text'). Multimedia, które przekazują nie więcej informacji, niż bezpośrednio prezentowany tekst lub tekst alternatywny. <br>**Uwaga**: Multimedia alternatywne dla tekstu są dostarczane tym, dla których przydatne jest korzystanie z alternatywy dla tekstu. Multimedia alternatywne dla tekstu to: nagrania dźwiękowe, nagrania wideo (włączając w to język migowy) lub nagrania audiowizualne."
 
 na_zywo: "(ang. 'live') Informacja przechwytywana z wydarzeń pochodzących z rzeczywistego świata, transmitowana bezpośrednio do odbiorcy, z opóźnieniem zależnym wyłącznie od nadawcy. <br>**Uwaga 1**: Opóźnienie zależne od nadawcy to krótkie (najczęściej automatyczne) opóźnienie, niezbędne na przykład w celu dania nadawcy czasu na kolejkowanie lub cenzurowanie treści wizualnej lub dźwiękowej. Opóźnienie to nie jest wystarczające, by nadawaną treść poddawać poważniejszej edycji. <br>**Uwaga 2**: Jeżeli informacja jest całkowicie generowana przez komputer, to nie jest informacją na żywo."
+
+naglowek: "(ang. 'heading') tekst tytułu opisującego następującą po nim treść. Nagłówek strony opisuje ogólnie treść strony,  a pozostałe nagłówki (podtytuły) opisują treść w sekcjach (i podsekcjach) strony."
 
 nagranie: "('ang. prerecorded'). Informacja, która nie jest transmitowana na żywo."
 
@@ -199,10 +203,7 @@ rozszerzona_audiodeskrypcja: "(ang. 'extended audio description'). Audiodeskrypc
 
 rzetelnosc: "Właściwość strony internetowej lub aplikacji mobilnej polegająca na starannym, dokładnym, zgodnym ze standardami kodowaniu treści, umożliwiającym ich interpretowanie przez różne rodzaje oprogramowania użytkownika."
 
-sekcja: "(ang. 'section'). Samodzielna porcja pisanej treści, zawierająca jeden lub więcej temat lub myśl.<br>*Uwaga*: Sekcja może składać się z jednego lub więcej akapitów, a także zawierać grafikę, tabele, listy i podsekcje."
-
-
-
+sekcja: "(ang. 'section'). Samodzielna porcja pisanej treści, obejmująca jeden lub więcej powiązanych tematów lub myśli.<br>*Uwaga*: Sekcja może składać się z jednego lub więcej akapitów, a także zawierać grafikę, tabele, listy i podsekcje."
 
 skrot: "(ang. 'abbreviation'). Skrócona wersja słowa, frazy lub nazwy, o&nbsp;ile skrót nie stał się częścią danego języka."
 
@@ -223,6 +224,9 @@ struktura: "(ang. 'structure'). 1) Rozmieszczenie elementów składowych strony 
 sztuka_tekstowa: "(ang. 'ASCII art'). Proste rysunki tworzone za pomocą znaków ASCII układanych na obszarze o stałej szerokości kolumn oraz o stałej wysokości znaków. Ten sposób tworzenia grafiki, a raczej jej symbolizowania, nazywa się semigrafiką lub pseudografiką. ASCII-Art były początkowo tworzone z myślą o wydrukowaniu ich na drukarkach znakowych. Przykładem prostych ASCII-Art są ikony emocji (emotikony)."
 
 szablony: "(ang. 'templates'). Wzorce, które są wypełniane treścią przez autorów lub za pomocą narzędzia autorskiego (np. szablony dokumentów, szablony zarządzania treścią, motywy prezentacji). Szablony zwykle zastępują autorów, przynajmniej częściowo, w decydowaniu o układzie i&nbsp;stylizacji treści."
+
+tabela: "Sposób zapisu i przedstawiania informacji, który umożliwia zapoznanie się w krótszym czasie z niektórymi rodzajami informacji oraz ułatwia ich porównywanie. Dane w tabeli umieszcza się w&nbsp;odpowiednio rozmieszczonych polach nazywanych komórkami. Pola te utworzone są przez poziome i pionowe linie (na wydrukach lub ekranach linie te nie muszą być widoczne). Miejsca pomiędzy dwiema sąsiednimi pionowymi liniami nazywa się kolumnami, a miejsce pomiędzy dwiema sąsiednimi poziomymi liniami nazywa się wierszami. Komórki tytułujące kolumny lub wiersze nazywa się nagłówkami lub komórkami nagłówków. Wszystkie inne nazywa się komórkami danych. Z&nbsp;punktu widzenia dostępności wyróżnia się tabele danych i&nbsp;tabele układu, a&nbsp;wśród tabel danych tabele proste i&nbsp;tabele złożone. Tabele układu to technika rozmieszczania na stronie internetowej, na ekranie lub w&nbsp;dokumencie treści, które nie mają charakteru danych tabelarycznych. O&nbsp;tabeli złożonej mówimy wówczas, gdy tabela danych zawiera nagłówki, które nie są umieszczone wyłącznie w&nbsp;pierwszym wierszu lub w&nbsp;pierwszej kolumnie tabeli lub ich zakres nie odnosi się do wszystkich kolumn i wierszy. "
+
 
 taka_sama_funkcjonalnosc: "(ang. 'same functionality'). Użycie pozwala na uzyskanie takiego samego rezultatu. <br>**Przykład**: Przycisk „wyślij” w jednym serwisie i przycisk „szukaj” w innym mogą mieć pole do wprowadzania wyrażenia, a następnie wyświetlania odnalezionych w serwisie informacji związanych z tym wyrażeniem. W takiej sytuacji oba mają taką samą funkcjonalność, chociaż nie są konsekwentnie etykietowane."
 
@@ -264,6 +268,8 @@ uzyte_w_nietypowy_lub_ograniczony_sposob: "(ang. 'used in an unusual or restrict
 
 W3C: "Skrót nazwy organizacji World Wide Web Consortium, która zajmuje się ustanawianiem standardów pisania i przesyłu stron WWW. W3C została założona 1 października 1994 roku przez Tima Berners-Lee, twórcę WWW oraz autora pierwszej przeglądarki internetowej i serwera WWW. Obecnie zrzesza ponad 400 organizacji, firm, agencji rządowych i uczelni z całego świata. Publikowane przez W3C rekomendacje są zaleceniami, tzn. nie mają mocy prawnej, nakazującej ich użycie. Niektóre z nich stały się normami międzynarodowymi lub stały się w całości lub części elementem systemu prawa."
 
+WAI: "Akronim utworzony od nazwy *Web Accessibility Initiative* – inicjatywa W3C mająca na celu zwiększenie szeroko rozumianej dostępności stron WWW. Oprócz dostępności dla osób niepełnosprawnych, WAI walczy o równouprawnienie wszelkich sposobów korzystania z&nbsp;Internetu. Działalność WAI obejmuje: tworzenie wytycznych odnośnie dostępności do Sieci, zapewnianie, że technologie sieciowe wspierają dostępność, tworzenie narzędzi do ewaluacji oraz ułatwiania dostępności, działania edukacyjne, koordynowanie prac badawczych i&nbsp;rozwoju."
+
 WAI-ARIA: "Specyfikacja techniczna opublikowana przez World Wide Web Consortium (W3C), która określa, w jaki sposób zwiększyć dostępność stron internetowych, w szczególności treści dynamicznych i komponentów interfejsu użytkownika opracowanych za pomocą Ajax , HTML , JavaScript i powiązane technologie. Nazwa jest akronimem angielskiego *Web Accessibility Initiative - Accessible Rich Internet Applications* - Inicjatywa dla Dostępności Internetowej - Dostępność Bogatych Aplikacji Internetowych. Prace nad WAI-ARIA rozpoczęto w 2006 roku. "
 
 
@@ -291,6 +297,8 @@ wydanie_punktowe: "(ang. 'dot-release'). Wydanie zawierajace poprawki do wersji 
 
 wydarzenie_w_czasie_rzeczywistym: "(ang. 'real-time event'). Wydarzenie, które a) trwa w tym samym czasie, co jego wyświetlenie i b) nie jest całkowicie generowane przez treść. <br>*Przykład 1:* Transmisja internetowa z przedstawienia (odbywa się w tym samym czasie, gdy jest oglądane, a nie z nagrania). <br>*Przykład 2:* Aukcja internetowa, podczas której użytkownicy składają oferty w tym samym czasie, gdy wyświetlana jest treść. <br>*Przykład 3:* Interakcje ludzi w wirtualnym świecie za pośrednictwem awatarów nie są automatycznie generowane i odbywają się w czasie rzeczywistym."
 
+wykluczenie_cyfrowe: "Termin stosowany do określenia różnicy między tymi osobami i grupami społecznymi, które mają dostęp do technologii informacyjnych, a tymi, które takiego dostępu nie mają. Termin &bdquo;wykluczenie cyfrowe&rdquo; nie sprowadza się tylko do samej fizycznej możliwości dostępu do Internetu, obejmuje również takie czynniki jak: brak umiejętności posługiwania się Internetem (zwłaszcza wśród osób starszych), niska jakość połączenia (szczególnie w małych miastach i na wsi), znajomość języków (brak znajomości języka, w&nbsp;którym potrzebne informacje występują)."
+
 wylacznie_dekoracyjny: "(ang. 'pure decoration'). Treść użyta tylko w celach ozdobnych, nie niosąca żadnej informacji, ani funkcjonalności. <br>**Uwaga**: Tekst jest czysto dekoracyjny wówczas, gdy zawarte w nim słowa mogą być swobodnie przemieszczane lub podmieniane bez zmiany celu, jakiemu służy. <br>*Przykład*: Na okładce słownika znajdują się przypadkowe słowa wydrukowane w jasnym kolorze, pozostające w tle."
 
 wymogi_zgodnosci_z_WCAG: "Pięć warunków, które muszą być spełnione, aby strona internetowa lub jej część została uznana za zgodną z WCAG: <br>**1. Poziom zgodności**, <br>**2. Cała strona**, <br>**3. Cały proces**, <br>**4. Technologie obsługujące dostępność**, <br>**5. Bez zakłóceń**."
@@ -313,12 +321,14 @@ zmiany_kontekstu: "(ang. 'changes of context'). Znaczące zmiany treści strony 
 
 zobowiazanie_prawne: "(ang. 'legal commitments'). Transakcja, gdzie osoba wiąże się prawnym obowiązkiem lub korzyścią. <br>*Przykład:* akt ślubu, umowa handlowa (finansowa i prawna), testament, pożyczka, adopcja, zaciągnięcie się do armii, kontrakt dowolnego rodzaju itp."
 
-zrozumialosc: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą użytkownikowi tych stron i&nbsp;aplikacji zrozumienie treści i&nbsp;sposobu ich prezentacji. Miara prawidłowo zrozumiałej części do całości  komunikatu. Zadowalająca zrozumiałość wymaga dostatecznej słyszalności i&nbsp;dostatecznej przejrzystości."
+zrozumiala_tresc: "Treść jest zrozumiała, jeśli jasno przekazuje intencje nadawcy (autora) - informacje, znaczenie, oczekiwania. Treść łącza, przycisku jest zrozumiała, jeśli jasno przekazuje, jakiego zachowania lub powstrzymania się od działania oczekuje."  
+
+zrozumialosc: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą użytkownikowi tych stron i&nbsp;aplikacji zrozumienie treści i&nbsp;sposobu ich prezentacji. Miara prawidłowo zrozumiałej części do całości komunikatu. Zadowalająca zrozumiałość wymaga dostatecznej słyszalności i&nbsp;dostatecznej przejrzystości."
 
 zsynchronizowane_multimedia: "(ang. 'synchronised media'). Dźwięk lub wideo zsynchronizowane z innym formatem, w celu prezentacji informacji lub/i z interaktywnymi komponentami, o ile nie jest to wyraźnie oznaczona alternatywa dla tekstu."
 
-zargon: "(ang. jargon). Słowa używane w pewien określony sposób w pewnych określonych środowiskach. <br>*Przykład:* Słowo Sticky Keys używane jest w żargonie środowisk zajmujących się technologiami wspomagającymi i technologiami dostępności."
-
-
-
 zwolnienie_nacisku: "(ang. 'up-event'). Zdarzenie dotykowe, które następuje potem, gdy palec, rysik, wskaźnik myszki lub inny bodziec zwalnia „wciśnięty” wcześniej punkt interaktywny na ekranie. Zwolnienie nacisku może mieć różne nazwy na różnych platformach, takie jak „touchend” lub „mouseup”."
+
+
+
+zargon: "(ang. jargon). Słowa używane w pewien określony sposób w pewnych określonych środowiskach. <br>*Przykład:* Słowo Sticky Keys używane jest w żargonie środowisk zajmujących się technologiami wspomagającymi i technologiami dostępności."

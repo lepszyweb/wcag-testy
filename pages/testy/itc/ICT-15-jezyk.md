@@ -27,7 +27,7 @@ Strony z tekstem (w tym z tekstem alternatywnym).
 1.  Przeglądając treść strony, zidentyfikuj domyślny naturalny język strony. Domyślnym jest język, w którym prezentowana jest większość treści.
 2.  Sprawdź, czy w znaczniku `<html>` strony zdefiniowany jest atrybut `lang`.
 3.  Sprawdź, czy wartość atrybutu `lang` odpowiada określonemu domyślnemu naturalnemu językowi strony.
-    1.  Podznacznik języka podstawowego jest pierwszym 2 lub 3 znakowym kodem w wartości atrybutu *lang*. (Nie sprawdzajj dodatkowych specyfikacji języka, które mogą występować po podznaczniku języka podstawowego).
+    1.  Podznacznik języka podstawowego jest pierwszym 2 lub 3 znakowym kodem w wartości atrybutu *lang*. (Nie sprawdzaj dodatkowych specyfikacji języka, które mogą występować po podznaczniku języka podstawowego).
     2.  Podznacznik języka podstawowego musi być zgodny z urzędowym rejestrem kodów [IANA Language subtag registry](http://www.iana.org/assignments/language-subtag-registry).
 
 ### Wynik testów

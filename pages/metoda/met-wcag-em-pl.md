@@ -1,6 +1,6 @@
 ---
 title: Metodologia oceniania zgodności w zakresie dostępności internetowej (WCAG-EM) 1.0
-summary: "Publikacja jest nieoficjalnnym roboczym tłumaczeniem dokumentu W3C Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.0"
+summary: "Publikacja jest nieoficjalnym roboczym tłumaczeniem dokumentu W3C Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.0"
 sidebar: metoda_sidebar
 permalink: met-wcag-em-pl
 folder: metoda
@@ -14,7 +14,7 @@ Metodologia opisana w tym dokumencie jest przeznaczona dla osób, które mają d
 
 ## Status dokumentu
 
-{% include note.html content="W tej części opisano sttus tego dokumentu w momencie jego publikacji. Inne dokumenty mogą zastąpić ten dokument. Listę bieżących publikacji W3C i najnowszą wersję tego raportu technicznego można znaleźć w&nbsp;indeksie raportów technicznych W3C pod adresem http://www.w3.org/TR/." %}
+{% include note.html content="W tej części opisano status tego dokumentu w momencie jego publikacji. Inne dokumenty mogą zastąpić ten dokument. Listę bieżących publikacji W3C i najnowszą wersję tego raportu technicznego można znaleźć w&nbsp;indeksie raportów technicznych W3C pod adresem http://www.w3.org/TR/." %}
 
 Niniejszy dokument jest [notatką Grupy Roboczej](http://www.w3.org/Consortium/Process/tr#WGNote) opracowaną przez [grupę zadaniową ds. Metodologii oceny WCAG 2.0 (Eval TF)](http://www.w3.org/WAI/ER/2011/eval/eval-tf), [wspólną grupę zadaniową Grupy Roboczej Wytyczne dla dostępności internetowej (WCAG WG)](http://www.w3.org/WAI/GL/) oraz [Grupy Roboczej ds. Narzędzi oceny i naprawy (ERT WG)](http://www.w3.org/WAI/ER/). Zawiera wskazówki informacyjne na temat oceny zgodnie z [wytycznymi dla dostępności treści internetowych (WCAG).](http://www.w3.org/WAI/intro/wcag)
 
@@ -150,7 +150,7 @@ Strony wspólne
 
 Szablony
 
-: [Zobacz definicję \"templates\" w ATAG 2.0:](http://www.w3.org/TR/ATAG20/#def-Template)
+: [Zobacz definicję „templates” w ATAG 2.0:](http://www.w3.org/TR/ATAG20/#def-Template)
 
   Wzorce, które są wypełniane treścią przez autorów lub za pomocą narzędzia autorskiego (np. szablony dokumentów, szablony zarządzania treścią, motywy prezentacji). Szablony zwykle zastępują autorów, przynajmniej częściowo, w decydowaniu o&nbsp;układzie i&nbsp;stylizacji treści.
 
@@ -160,7 +160,7 @@ Twórca witryny
 
 Spolegliwa (technologia bazowa)
 
-: [Zobacz definicję \"relied upon\" w glosariuszu WCAG 2.1 ](https://www.w3.org/TR/WCAG21/#dfn-relied-upon)
+: [Zobacz definicję „relied upon” w glosariuszu WCAG 2.1 ](https://www.w3.org/TR/WCAG21/#dfn-relied-upon)
 
   Technologia internetowa, które musi być obsługiwana, aby treść spełniała wymogi zgodności. Treść nie będzie zgodna, jeżeli taka technologia zostanie wyłączona z&nbsp;oceny lub nie jest obsługiwana.
 
@@ -681,7 +681,7 @@ Właściciele witryn mogą chcieć złożyć publiczne oświadczenia na temat wy
 Oświadczenie oceniające zgodne z tą metodologią zawiera co najmniej następujące informacje:
 
 1. Data wydania oświadczenia z oceny;
-2. Tytuł, wersja i identyfikator URI wytycznych: „Wytyczne dla dostępności treści internetowych 2.1” pod adresem https://www.w3.org/TR/WCAG21/";
+2. Tytuł, wersja i identyfikator URI wytycznych: „Wytyczne dla dostępności treści internetowych 2.1” pod adresem https://www.w3.org/TR/WCAG21/;
 3. Oceniony poziom zgodności: Poziom A, AA lub AAA, jak określono w&nbsp;[kroku 1.b. Określ wymagany poziom zgodności](#krok-1b-określ-wymagany-poziom-zgodności);
 4. Definicja strony internetowej, jak określono w [kroku 1.a: Określ zakres witryny;](#krok-1a-określ-zakres-stron-witryny)
 5. Technologie internetowe, na których się opiera się, jak określono w&nbsp;[kroku 2.d: Zidentyfikuj użyte technologie internetowe;](#krok-2d-zidentyfikuj-użyte-technologie-internetowe)

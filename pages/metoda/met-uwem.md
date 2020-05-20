@@ -9,7 +9,7 @@ folder: metoda
 
 ## Jednolita metodologia oceniania dostepności
 
-UWEM jest skrótem tytułu <span lang="en">Unified Web Evaluation Methodology</span>, co można przetłumaczyć na język polski jako &bdquo;jednolita metodologia oceny dostępności internetowej&rdquo;.   
+UWEM jest skrótem tytułu <span lang="en">Unified Web Evaluation Methodology</span>, co można przetłumaczyć na język polski jako „jednolita metodologia oceny dostępności internetowej”.   
 
 Metodologia powstała w wyniku prac prowadzonych w ramach trzech europejskich projektów badawczych 6.&nbsp;Ramowego programu badań w&nbsp;zakresie technologii społeczeństwa informacyjnego (Sixth Framework Programme Information Society Technologies) zgrupowanych w&nbsp;ramach klastra Web Accessibility Benchmarking (wzorcowe testy dostępności Sieci).
 
@@ -75,18 +75,18 @@ Testowanie wszystkich zasobow witryny pod kątem wszystkich kryteriów oceny nie
 
 UWEM określa dwie procedury generowania probek do oceny:
 - **próbka losowa**, wygenerowana automatycznie przez narzędzie; jeżeli ocena musi być powtarzalna i umożliwiać porównania synchroniczne lub asynchroniczne (np. monitorowanie), próbka do oceny musi być wygenerowana w drodze jednolitej procedury losowej.
-- **próbka nielosowa**, wybierana przez eksperta, jeśłi powtarzalność wyników nie jest kluczowa.
+- **próbka nielosowa**, wybierana przez eksperta, jeśli powtarzalność wyników nie jest kluczowa.
 
 
 #### Pobieranie próbek nielosowych: Lista zasobów podstawowych
 
 Lista zasobów podstawowych (ang. <span lang="en">Core Resource List</span>) stanowi zbiór zasobow kluczowych dla oceny użyteczności i dostepnpości strony. Lista zasobow podstawowych stanowi zatem zbiór zasobów, które powinny być objęte każdą oceną dostępności witryny dokonywaną przez ekspertów. Lista zasobów podstawowych nie może, ogólnie rzecz biorąc, być określona automatycznie, ale wymaga wyboru zasobów na podstawie osądu ludzkiego.Lista zasobów podstawowych powinna składać się z jak największej liczby następujących zasobów, które mają zastosowanie:
 
-- Zasób "Strona główna".
-- Zasób "Informacje kontaktowe" (jeśli istnieje).
-- Zasób "Pomoc" (jeśli istnieje).
-- Zasób "Mapa witryny" (jeśli istnieje).
-- Zasoby składające się na usługę &bdquo;podstawowe przeszukiwanie stron&rdquo; (jeśli istnieje). Obejmuje to co najmniej jeden zasób, w którym można rozpocząć wyszukiwanie i co najmniej jeden zasób pokazujący wyniki przykładowego wyszukiwania.
+- Zasób „Strona główna”.
+- Zasób „Informacje kontaktowe” (jeśli istnieje).
+- Zasób „Pomoc” (jeśli istnieje).
+- Zasób „Mapa witryny” (jeśli istnieje).
+- Zasoby składające się na usługę „podstawowe przeszukiwanie stron” (jeśli istnieje). Obejmuje to co najmniej jeden zasób, w którym można rozpocząć wyszukiwanie i co najmniej jeden zasób pokazujący wyniki przykładowego wyszukiwania.
 - Zasoby opisujące funkcje dostępności i/lub politykę dostępności strony (jeśli istnieją).
 - Przykłady zasobów reprezentatywnych dla głównych zastosowań witryny (jeśli są możliwe do określenia).
 - Jeżeli witryna świadczy usługi, w których użytkownik systematycznie przechodzi przez sekwencję zasobów (np. wielostronicowy formularz lub transakcję), wówczas należy uwzględnić reprezentatywne zasoby dostępne na każdym etapie każdego z takich kluczowych scenariuszy (w stosownych przypadkach i tylko w zakresie).

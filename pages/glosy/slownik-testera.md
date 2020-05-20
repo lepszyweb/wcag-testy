@@ -268,8 +268,6 @@ wymaganie testowalne
 : {{site.data.definicje.wymaganie_testowalne}}
 
 ## Z
-zaliczony
-: {{site.data.definicje.zaliczony}}
 
 zarządzanie testami
 : {{site.data.definicje.zarzadzanie_testami}}
@@ -279,6 +277,9 @@ zasób
 
 zasób HTTP
 : {{site.data.definicje.zasob_HTTP}}
+
+zdany
+: {{site.data.definicje.zdany}}
 
 zlecający ocenę
 : {{site.data.definicje.zlecajacy_ocene}}
