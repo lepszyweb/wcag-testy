@@ -6,6 +6,11 @@ permalink: tz-01-alternatywne
 folder: testy/tz
 ---
 
+
+{% include note.html content="Praca nad tłumaczeniem trwa. To jest zgrubna, robocza wersja tłumaczenia." %}
+
+
+
 Warunki testowe wersji alternatywnych zapewniających zgodność różnią się nieznacznie od pozostałych testów na kilka ważnych sposobów:
 
 - Najpierw przedstawiono warunki testowania wersji alternatywnych zapewniających zgodność, ponieważ identyfikacja dostępnych wersji alternatywnych zapewniających zgodność treści pomaga zdefiniować zakres testowania. Niezgodna treść, która ma wersję alternatywną zapewniającą zgodność, jest testowana pod kątem zakłóceń, a następnie jest wyłączana z testów po tym teście.
