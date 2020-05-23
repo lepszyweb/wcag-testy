@@ -41,7 +41,7 @@ Procedura testowa „Formularze” obejmuje osiem testów:
 | 3.3.2-etykiety-lub-instrukcje | 5.A     | Każde pole formularza ma etykietę lub instrukcję ekranową. |
 
 
-#### Cel testu 5A. 3.3.2-etykiety-lub-instrukcje
+### Cel testu 5A. 3.3.2-etykiety-lub-instrukcje
 
 Celem tego testu jest sprawdzenie, czy wszystkie pola formularza mają etykiety lub instrukcje ekranowe. Zawsze, gdy na stronie umieszczone jest interaktywne pole formularza, musi ono zawierać etykietę lub instrukcje (np. pole tekstowe może mieć etykietę „Data urodzenia”). Etykiety lub instrukcje mogą być tekstem lub innymi elementami treści z alternatywą tekstową (np. grafiką) i muszą być widoczne, gdy pole formularza jest aktywne.
 
@@ -49,14 +49,14 @@ Sprawdzeniu w tym teście podlega jedynie to, czy pola formularzy posiadają ety
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu WCAG 3.3.2 Etykiety lub instrukcje.
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 1.	ANDI: interaktywne (tylko w celu identyfikacji pola formularza).
 
 2.	Inspekcja wzrokowa strony.
 
 
-#### Identyfikacja treści
+### Identyfikacja treści
 
 1.  Znajdź wszystkie kontrolki formularzy (komponenty zbierające dane), takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
 
@@ -65,11 +65,11 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu W
     **WYJATEK**: Wyklucz kontrolki wyłączone. Nie są elementami aktywnymi, nie mogą otrzymać fokusa klawiatury, nie mogą być wybrane ani modyfikowane. 
 
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 5.A: 3.3.2-etykiety-lub-instrukcje **nie ma zastosowania**, jeśli na stronie nie ma elementów formularza lub wszystkie elementy formularza są wyłączone. W takim przypadku oznacz wynik testu jako **ND**.
 
-#### Jak testować:
+### Jak testować
 
 1.  Użyj modułu ANDI: interaktywne. Sprawdź, czy każde pole formularza zawiera etykietę lub instrukcję.
 
@@ -83,13 +83,13 @@ Test 5.A: 3.3.2-etykiety-lub-instrukcje **nie ma zastosowania**, jeśli na stron
 	
 	- zestaw pól ma instrukcje, które wyjaśniają każde pole formularza.
 
-#### Wyniki oceny  // Ocena treści
+### Ocena wyników
 
 Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 3.3.2:
 
 1.  Każde pole formularza ma etykietę lub instrukcję ekranową.
 
-#### Uwaga:
+### Uwaga:
 
 -   Etykieta lub instrukcja musi być widoczna, gdy pole formularza otrzymuje fokus (jest aktywne).
 
@@ -97,6 +97,7 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 
 -   Programowe powiazanie etykiety tekstowej lub instrukcji jest objęte testem 5.C   1.3.1-programmatic-label.
 
+## Opisowe etykiety
 
 ### Test 5.B 2.4.6–opisowe-etykiety
 
@@ -104,7 +105,7 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 |------------------------|---------|------------------------------------------|
 | 2.4.6–opisowe-etykiety | 5.B     | Każda etykieta lub instrukcja w formularzu wystarczająco informuje użytkowników, jakie dane są oczekiwane. |
 
-#### Cel testu 5.B 2.4.6–opisowe-etykiety
+### Cel testu 5.B 2.4.6–opisowe-etykiety
 
 Celem testu 5.B 2.4.6–opisowe-etykiety jest sprawdzenie, czy jeśli element formularza ma etykietę ekranową lub instrukcję, to etykieta lub instrukcja jest wystarczająco jasna i opisowa. Etykiety i instrukcje ekranowe muszą również zawierać wszystkie obowiązujące wymagania dotyczące danych (np. formaty daty,  typ danych, informacja, że pole jest obowiązkowe, itp.). 
 
@@ -114,14 +115,14 @@ Sprawdzeniu w tym teście podlega jedynie to, czy etykiety lub instrukcje są wy
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu WCAG 2.4.6 Nagłówki i etykiety.
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 1.	ANDI: interaktywne.
 
 2.	Inspekcja wzrokowa strony.
 
 
-#### Identyfikacja treści
+### Identyfikacja treści
 
 1.  Znajdź wszystkie kontrolki formularza (komponenty zbierające dane), takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
 
@@ -130,14 +131,14 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu W
     **WYJATEK**: Wyklucz kontrolki wyłączone. Nie są elementami aktywnymi, nie mogą otrzymać fokusa klawiatury, nie mogą być wybrane ani modyfikowane. 
 
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 5.B 2.4.6–opisowe-etykiety **nie ma zastosowania**, jeśli na stronie nie ma elementów formularza lub wszystkie elementy formularza są wyłączone albo jeśli elementy formularza nie mają etykiet (instrukcji). W takim przypadku oznacz wynik testu jako **ND**.
 
 Pamiętaj, że jeśli etykieta lub instrukcja nie jest widoczna, gdy pole formularza jest aktywne (ma fokus klawiatury), to strona nie spełnia wymagań testu 5.A. i nawet, jeśli istnieją ukryte etykiety lub instrukcje, to nie są one testowane i&nbsp;oceniane. 
 
 
-#### Jak testować:
+### Jak testować
 
 1.  Przejrzyj etykiety i instrukcje dla każdego pola formularza.
 
@@ -147,27 +148,28 @@ Pamiętaj, że jeśli etykieta lub instrukcja nie jest widoczna, gdy pole formul
 
     **Uwaga 2**: Jeśli pole formularza nie zawiera instrukcji, może być konieczne wypełnienie pola formularza, aby sprawdzić, czy instrukcja nie pojawi się dopiero po wprowadzeniu danych.     
 
-#### Wyniki oceny  // Ocena treści
+### Ocena wyników
 
 Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 2.4.6:
 
 1.  Każda etykieta lub instrukcja dla pola formularza jest wystarczająco jasna i opisowa, aby użytkownicy wiedzieli, jakie dane są oczekiwane.
 
-#### Uwaga:
+### Uwaga
 
 -   Komunikat o błędzie nie jest wystarczający do przekazania oczekiwanego formatu, aby zaliczyć ten test. Istotą wymogu wystarczająco opisowych etykiet i instrukcji jest przede wszystkim pomoc użytkownikowi w uniknięciu błędów.
 
 -   W tym teście należy uwzględnić wszelkie zmiany formularzy, które pojawiają się automatycznie lub są wynikiem interakcji ze stroną.
 
+## Etkiety i instrukcje powiązane programowo
 
-#### Test 5.C: 1.3.1-etykiety-instrukcje-powiązane programowo
+### Test 5.C: 1.3.1-etykiety-powiązane programowo
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
-| 1.3.1-programmatic-label | 5.C     | Kombinacja dostępnej nazwy, dostępnego opisu i innych asocjacji programowych (np. powiązania nagłówków kolumn lub wierszy z kolumnami lub wierszami) opisuje każde pole wejściowe i zawierają wszystkie niezbędne instrukcje i wskazówki (tekstowe i graficzne). |
+| 1.3.1-etykiety-powiązane programowo | 5.C     | Kombinacja dostępnej nazwy, dostępnego opisu i innych asocjacji programowych (np. powiązania nagłówków kolumn lub wierszy z kolumnami lub wierszami) opisuje każde pole wejściowe i zawierają wszystkie niezbędne instrukcje i wskazówki (tekstowe i graficzne). |
 
 
-#### Cel testu  5.C: 1.3.1-etykiety-opisy-instrukcje-powiązane programowo
+#### Cel testu  5.C: 1.3.1-etykiety-powiązane programowo
 
 
 Celem testu 5.C: 1.3.1-etykiety-instrukcje-powiązane programowo jest sprawdzenie, czy etykiety i instrukcje dla pól formularzy są programowo powiązane z tymi polami. Ten test stanowi kontynuację dwóch poprzednich testów (5.A i&nbsp;5.B), które służyły ocenie, czy pola formularza posiadają widoczne etykiety lub instrukcje i czy są ono wystarczająco opisowe i jasne. 
@@ -182,12 +184,12 @@ Podobnie jak poprzedni test obejmował również zmiany w formularzach, które p
 Wyniki tego testu służą do ustalenia, czy spełnione są kryteria sukcesu WCAG 1.3.1 Informacje i relacje oraz 4.1.2 Nazwa, rola, wartość.
 
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 1.	ANDI: (elementy) interaktywne.
 
 
-#### Identyfikacja treści
+### Identyfikacja treści
 
 1.  Znajdź wszystkie kontrolki formularza (komponenty zbierające dane), takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
 
@@ -196,12 +198,12 @@ Wyniki tego testu służą do ustalenia, czy spełnione są kryteria sukcesu WCA
 
     **WYJATEK**: Wyklucz kontrolki wyłączone. Nie są elementami aktywnymi, nie mogą otrzymać fokusa klawiatury, nie mogą być wybrane ani modyfikowane. 
 	
-#### Zastosowanie:
+### Zastosowanie
 
 Test 5.C: 1.3.1-etykiety-instrukcje-powiązane programowo **nie ma zastosowania**, jeśli na stronie nie ma aktywnych (włączonych) elementów formularza. W takim przypadku oznacz wynik testu jako **ND**.	
 
 
-#### Jak testować:
+### Jak testować
 
 1.	Uruchom ANDI: elementy interaktywne (ustawienie domyślne).
 
@@ -231,7 +233,7 @@ Test 5.C: 1.3.1-etykiety-instrukcje-powiązane programowo **nie ma zastosowania*
 
 
 
-#### Wyniki oceny // Ocena treści
+### Ocena wyników
 
 Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona (treść) **spełnia** testowane wymaganie i jest (w testowanym zakresie) **zgodna** z KS 1.3.1:
 
@@ -241,7 +243,7 @@ Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona
 
 3.  Kombinacja Wyjścia ANDI i innych powiązań programowych obejmuje wszystkie istotne instrukcje i wskazówki.
 
-##### Uwaga:
+### Uwaga
 
 -   Test ten obejmuje również wymóg dotyczący [ kryterium sukcesu 4.1.2 Nazwa, rola wartość](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value).
 
@@ -253,6 +255,7 @@ Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona
 
 - Pola formularzy nie muszą mieć powiązań programowych z nagłówkami sekcji formularza, chyba że istnieje znaczące ryzyko pomyłki.
 
+## Podczas wprowadzania danych 
 
 ### Test 5.D 3.2.2-podczas-wprowadzania-danych
 
@@ -260,7 +263,7 @@ Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona
 |------------------------|---------|------------------------------------------|
 | 3.2.2-podczas-wprowadzania-danych | 5.D     | Żadna zmiana wyboru albo wartości w polu formularza (np. wprowadzanie danych w polu tekstowym, zmiana wyboru przycisku opcji), ani opuszczenie pola formularza nie inicjuje nieoczekiwanej zmiany kontekstu |
 
-#### Cel testu 5.D 3.2.2-podczas-wprowadzania-danych
+### Cel testu 5.D 3.2.2-podczas-wprowadzania-danych
 
 Celem tego testu jest sprawdzenie, czy podczas wypełniania przez użytkownika pól formularza bądź zaznaczania wybranych opcji nie następuje nieoczekiwana zmiana kontekstu. 
 
@@ -278,10 +281,10 @@ Test polega na obserwacji zachowania się strony internetowej podczas wprowadzan
 
 Wyniki tego testu służą do ustalenia, czy spełnione są kryteria sukcesu WCAG 3.2.2 Podczas wprowadzania danych.
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 Kontrola ręczna, obserwacja
 
-#### Identyfikacja treści
+### Identyfikacja treści
 
 1.  Znajdź wszystkie kontrolki formularza (komponenty zbierające dane), takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
 
@@ -290,11 +293,11 @@ Kontrola ręczna, obserwacja
 
     **WYJATEK**: Wyklucz kontrolki wyłączone. Nie są elementami aktywnymi, nie mogą otrzymać fokusa klawiatury, nie mogą być wybrane ani modyfikowane. 
 	
-#### Zastosowanie:
+### Zastosowanie
 
 Test 5.D: 3.2.2-podczas-wprowadzania-danych **nie ma zastosowania**, jeśli na stronie nie ma aktywnych (włączonych) elementów formularza. W takim przypadku oznacz wynik testu jako **ND**.
 
-#### Jak testować:
+### Jak testować
 
 1.  Użyj klawiatury, aby przechodzić elementów formularza, np. pól tekstowych, przycisków opcji, pól wyboru, przycisków.
 
@@ -316,26 +319,25 @@ Test 5.D: 3.2.2-podczas-wprowadzania-danych **nie ma zastosowania**, jeśli na s
     - **rzutnia** to rozmiar ekranu (może to być okno lub ramka), w którym program użytkownika prezentuje treść (na przykład rzutnia urządzenia przenośnego jest znacznie mniejsza niż rzutnia ekranu monitora zewnętrznego).
     - **Zmiana kontekstu** to istotna zmiana w treści, która - jeśli zostanie dokonana bez świadomości użytkownika - może dezorientować użytkowników.	
 	
-	
 
 **Uwaga**: Zmiany nie uważa się za nieoczekiwaną, jeśli:
 
 -  Użytkownik jest powiadamiany o zbliżającej się zmianie kontekstu.
 -  Kontrolka ma wyraźnie na celu zainicjowanie zmiany kontekstu po aktywacji.
 		
-#### Wyniki oceny // Ocena treści
+### Ocena wyników
 
 Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **spełnia** testowane wymaganie i jest **zgodna** z KS 3.2.2:
 
 
 1.  Zmiana wartości elementu formularza nie powoduje nieoczekiwanej zmiany kontekstu.
 
-#### Uwaga:
+### Uwaga:
 
 -   W przypadku niektórych typów pól formularzy, takich jak pola wprowadzania tekstu, może być konieczne odsunięcie fokusa od pola, aby zaobserwować, czy nie następuje zmiana kontekstu.
 
 
-
+## Powiaddomeinia o zmianie
 
 ### Test 5.E 4.1.2-powiadomienia-o-zmianie
 
@@ -344,7 +346,7 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 | 4.1.2-powiadomienia-o-zmianie | 5.E     | Strona powiadamia użytkownika o każdej zmianie treści związanej z formularzem. |
 
 
-#### Cel testu 5.E 4.1.2-powiadomienia-o-zmianie
+### Cel testu 5.E 4.1.2-powiadomienia-o-zmianie
 
 
 Celem tego testu jest sprawdzenie, czy strona internetowa zapewnia wystarczające powiadomienie i opis wszelkich zmian treści na stronie internetowej, które nastąpiły w wyniku interakcji z elementem formularza. Gdy element formularza inicjuje zmianę treści, strona internetowa może powiadomić użytkowników, że mogą się tego spodziewać za pomocą różnych technik, w tym tekstu w sąsiedztwie elementu formularza, wyskakującego komunikatu lub modalnego okna dialogowego zawierającego tekst powiadamiający użytkowników o zmianie. 
@@ -355,13 +357,13 @@ Celem tego testu jest sprawdzenie, czy strona internetowa zapewnia wystarczając
 
 Wyniki tego testu służą do ustalenia, czy spełnione są kryteria sukcesu WCAG 4.1.2 Nazwa, rola, wartość.
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 
 1.	ANDI: interaktywne.
 2.	ANDI: struktury > żywe regiony.
 
-#### Identyfikacja treści
+### Identyfikacja treści
 
 1.  Znajdź wszystkie kontrolki formularza (komponenty zbierające dane), takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
 
@@ -374,13 +376,13 @@ Wyniki tego testu służą do ustalenia, czy spełnione są kryteria sukcesu WCA
 	
     **NIE WYKLUCZAJ** z badania wyłączonych elementów formularzy. Wprawdzie nie są one elementami aktywnymi, nie mogą otrzymać fokusa klawiatury, nie mogą być wybrane ani modyfikowane, ale w wyniku interakcji z formularzem może nastąpić zmiana treści, która spowoduje włączenie wyłączonej wcześniej kontrolki. W takim przypadku należy wykonać ten, a także poprzednie testy, aby sprawdzić, czy te kontrolki spełniają wymagania dostępności.    
 	
-#### Zastosowanie
+### Zastosowanie
 
 Test 5.E 4.1.2-powiadomienia-o-zmianie **nie ma zastosowania**, jeśli na stronie nie ma aktywnych (włączonych) elementów formularza lub jeśli treść strony nie zmienia się w wyniku interakcji z formularzem. W takich przypadkach oznacz wynik testu jako **ND**.
 
 
 
-#### Jak testować:
+### Jak testować
 
 1.  Kontynuuj test 5.D.
 
@@ -435,7 +437,7 @@ Test 5.E 4.1.2-powiadomienia-o-zmianie **nie ma zastosowania**, jeśli na stroni
 
 
 
-#### Wyniki oceny
+### Ocena wyników
 
 Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona (treść) **spełnia** testowane wymaganie i jest (w testowanym zakresie) **zgodna** z KS 4.1.2:
 
@@ -448,7 +450,7 @@ Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona
 4.  Treść, która uległa zmianie, znajduje się w żywym regonie ARIA.
 
 
-##### Uwaga:
+### Uwaga
 
 -   Wszystkie elementy formularza, które zmieniły się podczas tego testu, muszą zostać przetestowane pod kątem testu 5.C: 1.3.1-etykiety-instrukcje-powiązane programowo.
 
@@ -460,6 +462,8 @@ Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona
 
 -	Ta lista technik spełniających KS 4.1.2 nie jest wyczerpująca; mogą pojawić się nowe techniki, które nie zostały wyraźnie określone i są dopuszczalne.
 
+
+## Identyfikacja błędów
 
 ### Test 5.F 3.3.1-identyfikacja-bledow
 
@@ -492,12 +496,12 @@ Znajdź  wszystkie automatycznie wykrywane błędy wprowadzania danych, powiadom
 
 3.  Celowo wprowadzaj wartości i dokonuj wyborów, które naruszają format lub inne instrukcje formularzy, aby spowodować wystąpienie błędów i zobaczyć powiadomienia o błędach. Celowo pomijaj w każdym przypadku wprowadzenie wymaganych danych.
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 3.3.1-identyfikacja-bledow **nie ma zastosowania**, jeśli błędy we wprowadzaniu danych w formularzu na stronie nie są wykrywane automatycznie. W takich przypadku oznacz wynik testu jako **ND**.
 
 
-#### Jak testować:
+### Jak testować
 
 1.  Celowo naruszaj wymagane formatowanie i inne wskazówki dotyczące wypełniania formularza, np. pozostaw puste pole formularza, użyj innego formatu daty niż wymagany i / lub utwórz hasło, które nie spełnia wymagań dotyczących siły hasła.
 
@@ -510,7 +514,7 @@ Test 3.3.1-identyfikacja-bledow **nie ma zastosowania**, jeśli błędy we wprow
     2.  Ustal, czy błąd jest wystarczająco opisany, np. w oknie dialogowym z informacją „Wprowadzone hasło jest nieprawidłowe”.
 
 
-#### Wyniki oceny // Ocena treści
+### Ocena wyników
 
 Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **spełnia** testowane wymaganie i jest **zgodna** z KS 3.3.1:
 
@@ -521,6 +525,7 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 
 **Uwaga**: Ten test nie sprawdza, czy komunikat o błędzie sugeruje także, jak naprawić ten błąd. To, czy istnieją sugestie naprawy błędów i czy są one wystarczające, zostanie ocenione w teście 5.G, 3.3.3-sugestie-poprawy-bledow. 
 
+## Sugestie korekty błędów
 
 #### Test 5.G: 3.3.3-sugestie-poprawy-bledow
 
@@ -548,7 +553,7 @@ Znajdź  wszystkie automatycznie wykrywane błędy wprowadzania danych, powiadom
 
 3.  Celowo wprowadzaj wartości i dokonuj wyborów, które naruszają format lub inne instrukcje formularzy, aby spowodować wystąpienie błędów i zobaczyć powiadomienia o błędach. Celowo pomijaj w każdym przypadku wprowadzenie wymaganych danych.
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 5.G 3.3.3-sugestie-poprawy-bledow **nie ma zastosowania**, jeśli którekolwiek z poniższych stwierdzeń jest prawdziwe:
 
@@ -560,7 +565,7 @@ Test 5.G 3.3.3-sugestie-poprawy-bledow **nie ma zastosowania**, jeśli którekol
 
 W takich przypadku oznacz wynik testu jako **ND**.
 
-#### Jak testować:
+### Jak testować
 
 1.  Kontynuuj test 5.F.
 
@@ -569,7 +574,7 @@ W takich przypadku oznacz wynik testu jako **ND**.
 
 Sugestia błędu musi zawierać poprawione dane wejściowe lub szczegółowe wskazówki dla użytkownika, jak poprawić wprowadzone dane wejściowe. 
 
-#### Wyniki oceny
+### Ocena wyników
 
 Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona (treść) **spełnia** testowane wymaganie i jest (w testowanym zakresie) **zgodna** z KS 3.3.3:
 
@@ -577,6 +582,8 @@ Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona
 1.  Podano sugestie poprawienia wprowadzonych danych, **lub**
 
 2.  Opis błędu zawiera odpowiednie wskazówki dla użytkownika, aby wiedział, co jest wymagane do naprawienia błędu.
+
+## Zapobieganie błędom
 
 ### Test 5H: 3.3.4-zapobieganie-bledom
 
@@ -607,7 +614,7 @@ Znajdź kontrolki formularza, które po wprowadzeniu danych lub wybraniu opcji i
 
 - przekazują odpowiedzi testowe, egzaminacyjne 
 
-#### Zastosowanie:
+### Zastosowanie
 Test 5H: 3.3.4-zapobieganie-bledom **nie ma zastosowania**, jeśli którekolwiek z poniższych stwierdzeń jest prawdziwe:
 
 - przesłanie formularza nie powoduje zobowiązań prawnych ani finansowych
@@ -616,7 +623,7 @@ Test 5H: 3.3.4-zapobieganie-bledom **nie ma zastosowania**, jeśli którekolwiek
 
 - formularz nie zawiera odpowiedzi testowych, egzaminacyjnych. 
  
-#### Jak testować:
+### Jak testować
 
 1.  Uzupełnij wymagane pola formularza celowymi błędami i prześlij treść.
 
@@ -628,7 +635,7 @@ Wszystkie te mechanizmy powinny zostać przetestowane i ocenione przy użyciu w 
 Prosty, jednostronicowy formularz zawierający mechanizm przesyłania treści może zostać sprawdzony przez użytkownika przed przesłaniem. Ten formularz nie musi zawierać dodatkowego kroku przeznaczonego na przeglądu poprawności przez użytkownika. Jednak w formularzu obejmującym wiele stron internetowych, na których dane są zbierane od użytkownika w wielu krokach przed zatwierdzeniem transakcji, metoda sprawdzania jest bardzo przydatna, ale nie wymagana. Aby spełnić ten wymóg, można zastosować inne techniki.
 
 
-#### Wyniki oceny // Ocena treści
+### Ocena wyników
 
 Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona (treść) **spełnia** testowane wymaganie i jest (w testowanym zakresie) **zgodna** z KS 3.3.4:
 
