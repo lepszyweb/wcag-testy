@@ -3,7 +3,7 @@ title: 3. Migotanie
 
 
 sidebar: testy_sidebar
-permalink: tz-03-blyskanie
+permalink: tz-03-migotanie
 folder: testy/tz
 ---
 
