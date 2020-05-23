@@ -8,9 +8,7 @@ folder: testy/tz
 ---
 
 
-## 19. Wiele dróg
-
-### Dostęp do strony internetowej
+## Dostęp do strony internetowej
 
 
 ### Test 19.A  2.4.5-wiele-drog
@@ -47,7 +45,7 @@ Test 19.A  2.4.5-wiele-drog **nie ma zastosowania**, jeśli strona internetowa n
    2. Formularz wyszukiwania prowadzi do strony, która zawiera wyszukiwane hasło.
 
 
-### Wyniki oceny
+### Ocena wyników
 Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 2.4.5:
 
 1.  Istnieją co najmniej dwie techniki zlokalizowania strony internetowej w witrynie **oraz**

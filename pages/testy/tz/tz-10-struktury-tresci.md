@@ -25,13 +25,13 @@ Procedura testowania struktury treści obejmuje cztery testy:
 |------------------------|---------|------------------------------------------|
 | 2.4.6-adekwatne-naglowki | 10.A    | Każdy nagłówek opisuje temat lub cel treści, którą tytułuje. |
 
-#### Cel testu 2.4.6-adekwatne-naglowki (Cele nagłowków)
+### Cel testu 2.4.6-adekwatne-naglowki (Cele nagłowków)
 
 Celem tego testu jest sprawdzenie, czy każdy widoczny nagłówek opisuje odpowiednio temat lub cel treści, którą rozpoczyna. Opisowe nagłówki pomagają użytkownikom zrozumieć, jakie informacje są zawarte na stronach internetowych i jak te informacje są zorganizowane. Ułatwiają użytkownikom łatwe znajdowanie poszukiwanych informacji i zrozumienie relacji między różnymi częściami treści.
 
 Wyniki tego testu pozwalają ustalić, czy spełnione jest kryterium sukcesu 2.4.6 Nagłówki i etykiety.
 
-#### Identyfikacja treści
+### Identyfikacja treści
 
 1.  Zidentyfikuj wszystkie wizualnie widoczne nagłówki, które oznaczają sekcje treści.
 
@@ -43,16 +43,16 @@ Wyniki tego testu pozwalają ustalić, czy spełnione jest kryterium sukcesu 2.4
 **Uwaga**: Ten test nie wymaga nagłówków. Ten test wymaga, aby widoczne nagłówki, jeśli istnieją, opisywały temat lub cel treści, którą tytułują. 
 
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 2.4.6-adekwatne-naglowki **nie ma zastosowania**, jeśli na stronie nie ma żadnych widocznych nagłówków. 
 
 
-#### Jak testować:
+### Jak testować
 
 1.  Porównaj tekst każdego wizualnie wyróżnionego nagłówka z treścią pod nagłówkiem.
 
-#### Ocena treści // Wyniki oceny
+### Ocena wyników
 
 Oceniasz, czy każdy widoczny nagłówek opisuje temat lub cel treści pod nagłówkiem. Twoim zadaniem nie jest stwierdzenie, czy nagłówek opisuje treść wystarczająco, jasno, zwięźle. Twoim zadaniem jest jedynie stwierdzenie, czy każdy nagłówek trafnie, zgodnie z zawartością, opisuje treść, która znajduje się pod nim. 
 
@@ -68,17 +68,17 @@ Jeśli poniższe stwierdzenie jest prawdziwe, treść (strona) **SPEŁNIA** wym�
 | 1.3.1-naglowki-programowe | 10.B    | Każdy nagłówek określony programowo jest nagłówkiem wizualnym, a każdy nagłówek wizualny jest określony programowo. |
 
 
-#### Cel testu 
+### Cel testu 
 Celem tego testu jest sprawdzenie, czy każdy nagłówek wizualny jest również określony programowo, to znaczy czy został zakodowany jako nagłówek i w związku z tym może być odczytany przez program komputerowy, a każdy nagłówek określony programowo jest również wyróżniony wizualnie. Gdy nagłówki są określone programowo, technologie wspomagające rozpoznają je i mogą przekazać strukturę treści użytkownikowi. Zapewnienie struktury nagłówka nagłówków, że zależności między częściami treści są programowo możliwe do określenia i zapewnia, że informacje ważne dla zrozumienia są dostrzegalne dla wszystkich użytkowników. 
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu 1.3.1 Informacje  i relacje. 
  
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 1.	Inspekcja wzrokowa strony pod kątem wizualnej struktury nagłówków.
 2.	ANDI:struktury > nagłówki
 
-#### Identyfikacja treści
+### Identyfikacja treści
 
 1.  Zidentyfikuj wszystkie wizualnie widoczne nagłówki, które oznaczają sekcje treści. (Jak w eście 10A).
 
@@ -91,7 +91,7 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu 1
     3.  ANDI doda kropkowane kontury wokół każdego oznakowanego nagłówka, który jest widoczny na stronie.
 
 
-#### Zastosowanie:
+### Zastosowanie
 
 Jeśli na stronie nie ma żadnych widocznych nagłówków, ani nagłówków określonych programowo (ANDI nie rozpoznaje nagłówków programowych), test 1.3.1-naglowki-programowe **nie ma zastosowania**. 
 
@@ -101,7 +101,7 @@ Innymi słowy, jeśli występuje którykolwiek typ nagłówka, musisz wykonać t
 **Uwaga**: Ten test nie wymaga, by na stronie były nagłówki. Ten test wymaga, aby widoczne nagłówki, jeśli istnieją, opisywały temat lub cel treści, którą tytułują. 
 
 
-#### Jak testować:
+### Jak testować
 
 1.  Wybierz ANDI:struktury i przejrzyj Wyjście ANDI dla każdego widocznego nagłówka. ANDI obrysowuje wszystkie nagłówki przerywaną purpurową linią.
 
@@ -112,7 +112,7 @@ Innymi słowy, jeśli występuje którykolwiek typ nagłówka, musisz wykonać t
 2.  Przejrzyj każdy nagłówek zidentyfikowany przez ANDI, aby ustalić, czy jest to również nagłówek widoczna wizualnie.
 
 
-#### Ocena treści // Wyniki oceny
+### Ocena wyników
 
 Jeśli WSZYSTKIE poniższe twierdzenia są **PRAWDZIWE**, wówczas strona (treść) **SPEŁNIA** wymagania, jest **ZGODNA** z KS 1.3.1:
 
@@ -120,7 +120,7 @@ Jeśli WSZYSTKIE poniższe twierdzenia są **PRAWDZIWE**, wówczas strona (treś
 
 2.  Każdy nagłówek wizualny jest określony programowo.
 
-#### Uwaga:
+### Uwaga
 
 Treść, która nie wygląda jak nagłówek (nie jest nagłówkiem wizualnym), nie powinna odgrywać roli nagłówka (np. znaczników nagłówków nie należy używać do wizualnego wyróżniania elementów, które nie są nagłówkami dla treści, które po nich następują). 
 
@@ -142,17 +142,17 @@ I odwrotnie, treść, która jest stylizowana tak, aby wyglądała jak nagłówe
 |------------------------|---------|------------------------------------------|
 | 1.3.1-poziom-naglowka | 10.C    | Programowy poziom każdego nagłówka jest logicznie dopasowany do wizualnej prezentacji (stylizacji) nagłówka w strukturze nagłówków. |
 
-#### Cel testu 10.C 1.3.1-poziom-naglowka
+### Cel testu 10.C 1.3.1-poziom-naglowka
 
 Celem tego testu jest sprawdzenie, czy programowy poziom każdego nagłówka odpowiada jego prezentacji wizualnej. Ułatwia to widzącym użytkownikom szybką orientację i zrozumienie relacji między różnymi częściami treści, dzięki czemu rozumieją strukturę treści. 
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu 1.3.1 Informacje  i relacje.
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 1.	Inspekcja wzrokowa strony pod kątem wizualnej struktury nagłówków.
 2.	ANDI:struktury > nagłówki oraz widok Konspekt struktury 
 
-#### Zastosowanie:
+### Zastosowanie
 
 Jeśli coś wizualnie wydaje się być nagłówkiem, ale ANDI nie rozpoznaje tej treści jako nagłówka, test 1.3.1-poziom-naglowka **nie ma zastosowania**.
 
@@ -160,7 +160,7 @@ Jeśli na stronie nie ma żadnych widocznych nagłówków, ani nagłówków okre
 
 Innymi słowy, ten test musisz wykonać tylko wtedy, jeśli na stronie występuje którykolwiek typ nagłówka..
 
-#### Jak testować:
+### Jak testować
 
 1.	Uruchom ANDI:struktury i wybierz przycisk „pokaż konspekt”, aby wyświetlić konspekt struktury strony.
 
@@ -188,7 +188,7 @@ Innymi słowy, ten test musisz wykonać tylko wtedy, jeśli na stronie występuj
 
     5.  Kolejność poziomów nagłówków nie zawsze musi być zgodna z porządkiem liczenia, a mimo to będzie prawidłowa ponieważ odnosi się do struktury wizualnej/ważności przekazywanej za pomocą widocznych nagłówków na stronie. Na przykład nagłówek `<h2>` może być zastosowany dla oznaczenia struktury nawigacyjnej poprzedzającej tytuł `<h1>` rozpoczynający główną treść na stronie. Podobnie po `<h1>` może następować `<h3>` bez `<h2>` między nimi. Dopuszczalne jest również występowanie `<h3>`, a następnie `<h5>` bez `<h4>` pomiędzy nimi.
 
-#### Wyniki oceny // Ocena treści
+### Ocena wyników
 
 Jeśli WSZYSTKIE poniższe twierdzenia są **PRAWDZIWE**, wówczas strona (treść) **SPEŁNIA** wymagania, jest **ZGODNA** z KS 1.3.1:
 
@@ -210,7 +210,7 @@ Jeśli WSZYSTKIE poniższe twierdzenia są **PRAWDZIWE**, wówczas strona (treś
 | 1.3.1-typy-list | 10.D    | Wszystkie wizualnie widoczne listy są określone programowo zgodnie z ich typem. |
 
 
-#### Cel testu 10.D: 1.3.1-typy-list
+### Cel testu 10.D: 1.3.1-typy-list
 
 Celem tego testu jest sprawdzenie, czy wszystkie listy wyróżnione wizualnie są również określone programowo zgodnie z typem listy.
 
@@ -220,13 +220,13 @@ Niezależnie od zastosownego sposoby wyróżnienia, elementy listy muszą być z
 
 Wyniki tego testu pozwalają ustalić, czy spełnione jest kryterium sukcesu 1.3.1 Informacje i relacje.
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 1.	Inspekcja wzrokowa strony pod kątem wizualnej struktury list.
 
 2.	ANDI:struktury > listy.
 
-#### Identyfikacja treści
+### Identyfikacja treści
 
 Znajdź na stronie wszystkie widoczne listy.
 
@@ -244,11 +244,11 @@ Listy to struktury zgrupowanych elementów, które przekazują informacje i rela
 **Uwaga**: Ten test nie wymaga, aby grupy elementów miały strukturę list. Ten test wymaga, elementy prezentowane wizualnie jako listy były programowo określone jako listy odpowiedniego typu. 
 
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 1.3.1-typy-list **nie ma zastosowania**, jeśli na stronie nie widać żadnych elementów, które  wyglądają jak listy. 
 
-#### Jak testować:
+### Jak testować
 
 1.  Uruchom ANDI:struktury i wybierz przycisk „listy”.
 
@@ -267,8 +267,7 @@ Test 1.3.1-typy-list **nie ma zastosowania**, jeśli na stronie nie widać żadn
 
     1.  Możliwe jest podanie dowolnej liczby kombinacji list zagnieżdżonych przy użyciu list uporządkowanych, nieuporządkowanych i list definicji. ANDI identyfikuje każdą listę zagnieżdżoną osobno. Przejrzyj każdą listę za pomocą przycisku „Sprawdź następny element”, aby ustalić, czy wizualne zagnieżdżanie i relacje są zgodne z programowym zagnieżdżaniem i relacjami.
 	
-
-#### Wyniki oceny // Ocena treści
+### Ocena wyników
 
 Jeśli WSZYSTKIE poniższe twierdzenia są **PRAWDZIWE**, wówczas strona (treść) **SPEŁNIA** wymagania, jest **ZGODNA** z KS 1.3.1:
 

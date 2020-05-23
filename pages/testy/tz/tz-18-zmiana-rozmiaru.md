@@ -22,18 +22,18 @@ Cały tekst na stronie
 **Z wyjatkiem**: napisów dla mediów zsynchronizowanych oraz obrazów tekstu.
 
 
-#### Zastosowanie
+### Zastosowanie
 
 Test 18.A 1.4.4-zmiana-rozmiaru-tekstu **nie ma zastosowania**, jeśli na stronie nie ma tekstu.
 
-#### Jak testować:
+### Jak testować:
 
 1.  Użyj wbudowanych funkcji powiększania przeglądarki, aby zmienić rozmiar tekstu do co najmniej 200%.
 
 2.  Jeśli którakolwiek z treści nie powiększyła się przy użyciu wbudowanych funkcji przeglądarki, sprawdź, czy istnieje mechanizm inny niż technologia wspomagająca do zmiany rozmiaru zawartości strony do 200% jej pierwotnego rozmiaru, np. mechanizm systemu operacyjnego, platformy lub inny mechanizm zapewniony bezpośrednio przez stronę internetową / aplikację.
 
 
-### Wyniki oceny
+### Ocena wyników
 
 Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 1.4.4:
 

@@ -26,23 +26,23 @@ Scenariusz testowy „Tytuły stron i ramek” obejmuje cztery testy:
 |------------------------|---------|------------------------------------------|
 | 2-4-2-okreslony-tytul-strony | 12.A    | Strona ma tytuł zdefiniowany w kodzie znacznikiem `<title>`. |
 
-#### Cel testu 12.A 2-4-2-okreslony-tytul-strony
+### Cel testu 12.A 2-4-2-okreslony-tytul-strony
 
 Każda strona powinna mieć tytuł opisujący jej treść. Celem tego testu jest sprawdzenie, czy tytuł został określony programowo dla każdej strony internetowej. Tytuły stron pomagają szczególnie użytkownikom z ograniczeniami wzroku, mobilności i poznawczymi określać i rozróżniać treść oraz łatwo nawigować między stronami internetowymi. 
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu WCAG 2-4-2 Tytuły stron](https://wcag.lepszyweb.pl/#page-titled).
 
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 1.	ANDI: struktury > „Alerty dostępności”.
 
 ### Identyfikacja treści
 Wszystkie strony witryny. Wymagania testów 12.A oraz 12.B obowiązują zawsze.
 
-### Zastosowanie:
+### Zastosowanie
 Nie możesz uznać (ocenić) wyniku tego testu jako **nie ma zastosowania** (**ND**). Wszystkie strony powinny mieć tytuł, aby użytkownicy wiedzieli, jaki jest jej cel strony i co jest jej treścią.
 
-#### Jak testować:
+### Jak testować
 
 1.  Uruchom ANDI: struktury. Przejrzyj alerty w sekcji „Alerty dostępności”, aby ustalić, czy ANDI wyświetla którykolwiek z poniższych alertów:
 
@@ -50,18 +50,19 @@ Nie możesz uznać (ocenić) wyniku tego testu jako **nie ma zastosowania** (**N
 
     2.  „Znacznik `<title>` nie może być pusty”
 
-#### Wyniki oceny  // Ocena treści
+### Ocena wyników
 
 Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 2.4.2:
 
 1.  Tytuł strony internetowej jest określony programowo w znaczniku `<title>`.
 
-#### Uwaga
+### Uwaga
 
 W tym teście oceniamy tylko, czy tytuł strony został określony i czy określenie tytułu strony znajduje się w znaczniku `<title>`. Jeśli w kodzie strony nie ma znacznika `<title>` z tytułem strony lub znacznik `<title>` jest pusty, strona nie spełnia wymagania testowego.
 
 Nie ma znaczenia, czy w kodzie strony znajduje się więcej niż jeden element `<title>`. Jeśli zobaczysz alert ANDI „Strona ma więcej niż jeden znacznik `<title>`”, zignoruj go. Nie stanowiło to naruszenia kryterium sukcesu 2.4.2.
 
+## Opisowe tytuły
 
 ### Test 12.B 2-4-2-tytul-opisuje-tresc-strony
 
@@ -69,13 +70,13 @@ Nie ma znaczenia, czy w kodzie strony znajduje się więcej niż jeden element `
 |------------------------|---------|------------------------------------------|
 | 2-4-2-tytul-opisuje-tresc-strony | 12.B    | Tytuł strony opisuje jej treść lub cel. |
 
-#### Cel testu 12.B 2-4-2-tytul-opisuje-tresc-strony
+### Cel testu 12.B 2-4-2-tytul-opisuje-tresc-strony
 
 Celem tego testu jest sprawdzenie, czy istniejący tytuł strony opisuje jej cel lub temat strony i pomaga odróżnić jedną stronę od drugiej.                                                                                                                  Opisowy tytuł strony pomaga użytkownikom z ograniczeniami wzroku, mobilności i poznawczymi identyfikować, znajdować i nawigować do żądanych treści. 
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu WCAG 2-4-2 Tytuły stron](https://wcag.lepszyweb.pl/#page-titled).
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 1.	Analiza poznawcza.
 2.	ANDI: struktury > więcej szczegółów > tytuł strony.
 
@@ -83,11 +84,11 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 
 ### Identyfikacja treści
 Wszystkie strony witryny. Wymagania testów 12.A oraz 12.B obowiązują zawsze.
 
-### Zastosowanie:
+### Zastosowanie
 Nie możesz uznać (ocenić) wyniku tego testu jako **nie ma zastosowania** (**ND**). Wszystkie strony powinny mieć tytuł, aby użytkownicy wiedzieli, jaki jest jej cel strony i co jest jej treścią.
 
 
-#### Jak testować:
+### Jak testować
 
 1.  Uruchom ANDI: struktury, wybierz „więcej szczegółów”, a następnie „tytuł strony”.
 
@@ -101,11 +102,11 @@ Nie możesz uznać (ocenić) wyniku tego testu jako **nie ma zastosowania** (**N
 
     2.  W przypadku dokumentów lub aplikacji internetowych, nazwa dokumentu lub aplikacji internetowej wystarcza do opisania celu strony.
 
-#### Uwaga:
+### Uwaga
 
 -  Aplikacja internetowa to aplikacja (oprogramowanie) działająca w przeglądarce internetowej (np. webmail) i&nbsp;może nie mieć adresu URL, który zmienia się wraz ze zmianą treści na stronie internetowej.
 
-#### Wyniki oceny  // Ocena treści
+### Ocena wyników
 
 Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 2.4.2:
 
@@ -116,13 +117,13 @@ Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść)
 
 ## Ramki
 
-#### Test 12.C 4-1-2-okreslony-tytul-ramki
+### Test 12.C 4-1-2-okreslony-tytul-ramki
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
 | 4-1-2-okreslony-tytul-ramki | 12.C    | Każdy element `<frame>`ma atrybut tytułu, który opisuje treść ramki. 
 
-#### Cel testu 12.A 2-4-2-okreslony-tytul-strony
+### Cel testu 12.A 2-4-2-okreslony-tytul-strony
 
 
 Celem tego testu jest sprawdzenie, czy każda ramka ma atrybut `title` z tytułem opisującym treść ramki. Użytkownicy, którzy polegają na powiązaniach programowych, np. użytkownicy czytników ekranu, potrzebują sposobu na określenie celu lub tematu ramki, oraz i podjęcie decyzji, czy chcą z nimi wchodzić w interakcje.
@@ -130,7 +131,7 @@ Celem tego testu jest sprawdzenie, czy każda ramka ma atrybut `title` z tytułe
 Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu WCAG 4-1-2 Nazwa, rola, wartość](https://wcag.lepszyweb.pl/#name-role-value).
 
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 1.	Powiadomienie ANDI o ramkach.
 2.	Ręczna kontrola strony pod kątem zawartości i celu.
 
@@ -144,11 +145,11 @@ Użyj ANDI, aby wykryć wszystkie ramki.
     1.  Jeśli na stronie nie ma ramek, ANDI nie wyświetli żadnego powiadomienia o ramkach.
 
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 12.C: 4-1-2-okreslony-tytul-ramki  **nie ma zastosowania**, jeśli na stronie nie ma ramek. W takim przypadku oznacz wynik testu jako **ND**. 
 
-#### Jak testować:
+### Jak testować
 
 1.	Uruchom ANDI. Jeśli ANDI wykryje na stronie ramki, ANDI wyświetli okno dialogowe z informacją o wykryciu ramek i dwoma opcjami: „OK”, aby pozostać na stronie oraz „Anuluj”, aby przetestować pojedynczą ramkę. Wybierz Anuluj.
 
@@ -161,35 +162,34 @@ Test 12.C: 4-1-2-okreslony-tytul-ramki  **nie ma zastosowania**, jeśli na stron
 4.	W ANDI przejrzyj odpowiedni atrybut tytułu każdej ramki i oceń, czy opisuje treść ramki.
 
 
-
-#### Wyniki oceny  // Ocena treści
+### Ocena wyników
 
 Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 4.1.2:
 
 1.  Wszystkie ramki mają arybut `title`, który opisuje treść ramki.
 
 
-#### Uwaga:
+### Uwaga
 
 -   W HTML5 element  `<frame>` jest oznaczony jako przestarzały.  Mimo to testerzy mogą spotkać się ze stronami internetowymi lub aplikacjami mobilnymi z przestarzałym kodem, który choć jest przestarzały, może i powinien być nadal dostępny.
 
 -  Treść każdej ramki musi być testowana na zgodność z wszystkimi innymi obowiązującymi testami (testy 12.A i 12.B nie dotyczą treści ramki).
 
-### Ramki łaczone (iframe)
+## Ramki łaczone (iframe)
 
-#### 4.	Test 12.D 4-1-2-okreslona-nazwa-ramki-łaczonej
+### 4.	Test 12.D 4-1-2-okreslona-nazwa-ramki-łaczonej
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
 | 4-1-2-okreslona-nazwa-ramki-łaczonej | 12.D    | Kombinacja dostępnej nazwy i opisu każdej `<iframe>` opisuje jej zawartość. |
 
-#### Cel testu 12.D 4-1-2-okreslona-nazwa-ramki-łaczonej
+### Cel testu 12.D 4-1-2-okreslona-nazwa-ramki-łaczonej
 
 Celem tego testu jest sprawdzenie, czy każda ramka łączona  ma dostępną nazwę lub dostępny opis, które opisują treść ramki. Użytkownicy, którzy polegają na powiązaniach programowych, np. użytkownicy czytników ekranu, potrzebują sposobu na określenie celu lub tematu ramki łączonej i podjęcie decyzji, czy chcą z nimi wchodzić w interakcje.
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu WCAG 4-1-2 Nazwa, rola, wartość](https://wcag.lepszyweb.pl/#name-role-value).
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 1.	ANDI: iframe.
 2.	Ręczna kontrola zawartości strony.
@@ -210,18 +210,18 @@ Użyj ANDI, aby zidentyfikować wszystkie ramki `iframe` w kolejności tabulator
 **Przetestuj tylko te ramki `<iframe>`. ** Nie testuj ramek `<iframe>`, które mają ujemną wartość atrybutu `tabindex` lub nie mają attrybutu `tabindex`.
 
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 12.D 4-1-2-okreslona-nazwa-ramki-łaczonej  **nie ma zastosowania**, jeśli na stronie nie ma ramek łączonych **lub** jeśli istniejące ramki `<iframe>` są poza porządkiem tabulacji. W takim przypadku oznacz wynik testu jako **ND**. 
 
 
-#### Jak testować:
+### Jak testować
 
 1.  Uruchom ANDI: ramki iframe
 
 2.  Przejrzyj dane wyjściowe ANDI dla każdego elementu iframe, który ma nieujemną wartość `tabindex`, aby ustalić, czy dostępna nazwa i opis dokładnie opisują zawartość każdego elementu `<iframe>`.
 
-#### Wyniki oceny  // Ocena treści
+### Ocena wyników
 
 Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 4.1.2:
 
@@ -229,13 +229,13 @@ Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełn
 
 2.  Wyjście ANDI Output dla każdej ramki `<iframe>` znajdującej się w porządku tabulacji wystarczająco dokładnie opisują treść ramki.
 
-#### Uwaga:
+### Uwaga
 
 -  Treść każdej ramki łaczonej musi być testowana na zgodność z wszystkimi innymi obowiązującymi testami (testy 12.A i 12.B nie dotyczą treści ramek `<iframe>`).
 
 - Aby otworzyć każdą `<iframe>` do przetestowania należy w module ANDI: ramki iframe wybrać przycisk „testuj na nowej karcie”.
 
-### Zastosowane standardy
+## Zastosowane standardy
 - {% include ks/2-4-2.md %}
 - {% include ks/4-1-2.md %}
 - [11. Tytuły stron](ICT-11-tytuly-stron)

@@ -7,7 +7,7 @@ permalink: tz-17-multimedia-zsynchronizowane
 folder: testy/tz
 ---
 
-### Nagrane multimedia zsynchronizowane
+## Nagrane multimedia zsynchronizowane
 
 ### Identyfikacja treści
 
@@ -27,7 +27,7 @@ Jeżeli nie ma takiej treści, to wynikiem dla testów 17.A oraz 17.B jest **NIE
 
 Ten warunek testowy **NIE MA ZASTOSOWANIA**, jeśli na stronie nie ma wcześniej nagranych multimediów zsynchronizowanych
 
-#### Jak testować:
+#### Jak testować
 
 1.  Włącz napisy za pomocą funkcji odtwarzacza multimedialnego i odtwarzaj multimedia.
 
@@ -41,7 +41,7 @@ Ten warunek testowy **NIE MA ZASTOSOWANIA**, jeśli na stronie nie ma wcześniej
 
     3.  Napisy nie mogą zasłaniać istotnych treści na filmie.	
 	
-#### Wyniki oceny
+### Ocena wyników
 
 Jeśli WSZYSTKIE poniższe twierdzenia są **PRAWDZIWE**, then the Warunek testowy is **TRUE** and the content **PASSES**:
 
@@ -52,22 +52,22 @@ Jeśli WSZYSTKIE poniższe twierdzenia są **PRAWDZIWE**, then the Warunek testo
 3.  Wszystkie inne istotne informacje na filmie są wyraźnie widoczne (nie są zasłonięte napisami), gdy napisy są włączone.
 
 
-##### Uwaga:
+### Uwaga
 
 -  Same transkrypcje i niezsynchronizowane alternatywy nie spełniają tego wymogu.
 
-#### Test 1.2.5-rownowazna-audiodeskrypcja
+### Test 1.2.5-rownowazna-audiodeskrypcja
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
 | 1.2.5-rownowazna-audiodeskrypcja | 17.B    | Multimedia zapewniają równoważną ścieżkę dźwiękową (połączenie narracji i opisów audio) dla treści wideo. |
 
 
-#### Zastosowanie
+### Zastosowanie
 
 Ten warunek testowy **NIE MA ZASTOSOWANIA**, jeśli na stronie nie ma wcześniej nagranych multimediów zsynchronizowanych
 
-#### Jak testować:
+### Jak testować
 
 1. Włącz audiodeskrypcję za pomocą odtwarzacza multimedialnego i odtwarzaj multimedia.
 
@@ -85,18 +85,18 @@ Ten warunek testowy **NIE MA ZASTOSOWANIA**, jeśli na stronie nie ma wcześniej
 
     1.  Opisy audio są wstawiane w przerwach w oknie dialogowym. Synchronizacja może nie być możliwa, ale opis należy podać tak szybko, jak to możliwe, aby znaczenie zostało zachowane.
 	
-#### Wyniki oceny
+### Ocena wyników
 
 Jeśli poniższe twierdzenie jest **PRAWDZIWE**, then the content **PASSES**:
 
 1.  Ścieżka dźwiękowa (połączenie opisów audio i narracji) adekwatnie opisuje ważne treści wizualne w mediach, w tym informuje o działaniach, postaciach, zmianach scen, tekście na ekranie i innych treściach wizualnych.
 
 
-##### Uwaga:
+### Uwaga
 
 -  Same transkrypcje i niezsynchronizowane alternatywy nie spełniają tego wymogu.
 
-### Media synchronizowane na żywo
+## Media synchronizowane na żywo
 
 ### Identyfikacja treści
 
@@ -106,18 +106,18 @@ Zidentyfikuj synchronizowane treści multimedialne na żywo. Te wymagania są pr
 
 Jeśli nie ma takiej treści, wynik dla następujących identyfikatorów testów **NIE MA ZASTOSOWANIA**: 17.C.
 
-#### Test 1.2.4-rownowazne-napisy-na-zywo
+### Test 1.2.4-rownowazne-napisy-na-zywo
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
 | 1.2.4-rownowazne-napisy-na-zywo | 17.C    | Multimedia na żywo zawierają napisy dokładnie odwzorowujące treści audio. |
  
 
-#### Zastosowanie
+### Zastosowanie
 
 Ten warunek testowy **NIE MA ZASTOSOWANIA**, jeśli nie istnieją media synchronizowane na żywo.
 
-#### Jak testować:
+### Jak testować
 
 1.  Włącz napisy za pomocą funkcji odtwarzacza multimedialnego.
 
@@ -127,7 +127,7 @@ Ten warunek testowy **NIE MA ZASTOSOWANIA**, jeśli nie istnieją media synchron
 
     2.  Definicja napisów obejmuje synchronizację. Jeśli nie są one zsynchronizowane, nie są one uznawane za napisy.
 	
-#### Wyniki oceny
+### Ocena wyników
 
 Jeśli WSZYSTKIE poniższe twierdzenia są **PRAWDZIWE**, then the content **PASSES**:
 
@@ -138,7 +138,7 @@ Jeśli WSZYSTKIE poniższe twierdzenia są **PRAWDZIWE**, then the content **PAS
 3.  Wszelkie rozbieżności pomiędzy podpisami a wyjściem audio są niewielkie i nie wpływają znacząco na zrozumienie (dotyczy tylko napisów na żywo).
 
 
-### Kontrolki odtwarzacza multimedialnego
+## Kontrolki odtwarzacza multimedialnego
 
 ### Identyfikacja treści
 
@@ -146,27 +146,27 @@ Zidentyfikuj dowolny odtwarzacz multimedialny używany do wyświetlania zsynchro
 
 Jeśli nie ma takiej treści, wynik dla następujących identyfikatorów testów **NIE MA ZASTOSOWANIA**: 17.D to 17.F.
 
-#### Test 503.4-kontrolki-napisow-i-audiodeskrypcji
+### Test 503.4-kontrolki-napisow-i-audiodeskrypcji
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
 | 503.4-kontrolki-napisow-i-audiodeskrypcji | 17.D    | Odtwarzacz multimedialny zapewnia kontrolę użytkownika nad zamkniętymi napisami i audiodeskrypcją. |
 
-#### Zastosowanie:
+### Zastosowanie
 
 Ten warunek testowy **NIE MA ZASTOSOWANIA** jeśli nie ma odtwarzacza multimedialnego lub odtwarzacz multimedialny NIE wyświetla wideo zsynchronizowanego z dźwiękiem (tzn. wyświetla tylko dźwięk lub tylko wideo).
 
-#### Jak testować:
+### Jak testować
 
 1.  Znajdź elementy sterujące do wyboru zamkniętych napisów i audiodeskrypcji.
 
-#### Wyniki oceny
+### Ocena wyników
 
 Jeśli poniższe twierdzenie jest **PRAWDZIWE**, then the content **PASSES**:
 
 1.  Odtwarzacz multimedialny zapewnia kontrolę użytkownika nad zamkniętymi napisami i opisami dźwiękowymi.
 
-### Odtwarzacz multimedialny - elementy sterujące napisami na poziomie menu głośności
+## Odtwarzacz multimedialny - elementy sterujące napisami na poziomie menu głośności
 
 ### Identyfikacja treści
 
@@ -174,29 +174,29 @@ Zidentyfikuj dowolny odtwarzacz multimedialny z elementami sterującymi regulacj
 
 Jeśli nie ma takiej treści, wynik dla następujących identyfikatorów testów **NIE MA ZASTOSOWANIA**: 17.E.
 
-#### Test 503.4.1-kontrolki-napisow
+### Test 503.4.1-kontrolki-napisow
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
 | 503.4.1-kontrolki-napisow | 17.E    | Kontrolki użytkownika dla napisów są dostępne na tym samym poziomie menu, co kontrolki użytkownika dotyczące wyboru głośności lub programu. |
 
-#### Zastosowanie:
+### Zastosowanie
 
 Ten warunek testowy **NIE MA ZASTOSOWANIA** jeśli nie ma odtwarzacza multimediów lub odtwarzacz nie ma regulacji głośności.
 
-#### Jak testować:
+### Jak testować
 
 1.  Kontynuuj test 17.D.
 
 2.  Znajdź elementy sterujące użytkownika do wyboru głośności i wyboru programu.
 
-#### Wyniki oceny
+### Ocena wyników
 
 Jeśli poniższe twierdzenie jest **PRAWDZIWE**, then the content **PASSES**:
 
 1.  Elementy sterowania użytkownika napisami są dostępne na tym samym poziomie menu, co elementy sterowania głośnością lub wyboru programu.
 
-### Odtwarzacz multimedialny - sterowanie audiodeskrypcją na poziomie menu programu
+## Odtwarzacz multimedialny - sterowanie audiodeskrypcją na poziomie menu programu
 
 ### Identyfikacja treści
 
@@ -215,23 +215,23 @@ W większości implementacji internetowych odtwarzacze multimediów są zazwycza
 
 Jeśli nie ma takiej treści, wynik dla następujących identyfikatorów testów **NIE MA ZASTOSOWANIA**: 17.F.
 
-#### Test 503.4.2-kontrolki-audiodeskrypcji
+### Test 503.4.2-kontrolki-audiodeskrypcji
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
 | 503.4.2-kontrolki-audiodeskrypcji | 17.F    | Kontrolki użytkownika dla audiodeskrypcji są dostępne na tym samym poziomie menu, co kontrolki użytkownika do wyboru programu lub głośności. |
 
-#### Zastosowanie:
+### Zastosowanie
 
 Ten warunek testowy **NIE MA ZASTOSOWANIA** jeśli nie ma odtwarzacza multimedialnego lub odtwarzacz multimedialny nie ma kontrolek wyboru programu.
 
-#### Jak testować:
+### Jak testować
 
 1.  Kontynuuj test 17.D.
 
 2.  Znajdź elementy sterujące użytkownika do wyboru programu i głośności.
 
-#### Wyniki oceny
+### Ocena wyników
 
 Jeśli poniższe twierdzenie jest **PRAWDZIWE**, then the content **PASSES**:
 
@@ -239,9 +239,13 @@ Jeśli poniższe twierdzenie jest **PRAWDZIWE**, then the content **PASSES**:
 
 ### Zastosowane standardy
 
-| Section 508/Kryteria sukcesu WCAGG                                                                                                                                                                                                                                                                                                                                                                                                    | BPodstawowe wymagania                                                                                  |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| {% include ks/1-2-2.md %}<br><br>{% include ks/1-2-3.md %}<br><br>{% include ks/1-2-4.md %}<br><br>{% include ks/1-2-5.md %}<br><br>[*Section 508 503.4.1 Caption Controls*](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#503-applications): Where user controls are provided for volume adjustment, ICT shall provide user controls for the selection of captions at the same menu level as the user controls for volume or program selection.<br><br>[*Section 508 503.4.2 Audio Description Controls*](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#503-applications): Where user controls are provided for program selection, ICT shall provide user controls for the selection of audio descriptions at the same menu level as the user controls for volume or program selection.  | [17. Synchronized Media](https://section508coordinators.github.io/ICTTestingBaseline/17SyncMedia.html) |
+{% include ks/1-2-2.md %}
 
-----------------------------------------
-[Home/Table of Contents](index.md) | [Previous -- 16. Pre-Recorded Audio-Only, Video-Only, and Animations](audiovideo.md) | [Next -- 18. Resize Text](resize.md)
+[*Section 508 503.4.1 Sterowanie napisami*](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#503-applications): Jeżeli do regulacji głośności służą elementy sterujące użytkownika, technologia zapewnia elementy sterujące wyborem napisów na tym samym poziomie menu, co elementy sterujące wyborem przez użytkownika głośności lub programu.
+
+
+[*Section 508 503.4.2 Sterowanie audiodeskrypcją*](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#503-applications): Jeżeli do wyboru programu przewidziano elementy sterujące użytkownika, technologia zapewnia sterujące wyborem opisów dźwiękowych na tym samym poziomie menu, co elementy sterujące wyborem przez użytkownika głośności lub programu.
+
+[17. Media zsynchronizowane](ICT-17-media-zsynchronizowane)
+
+                                                                                                                

@@ -62,11 +62,11 @@ Wszystkie tabele danych (w tym obrazy tabel danych), w których komórki danych,
 
     -   W przypadku treści prezentowanych wizualnie w tabeli, ale zrozumiałych po odczytaniu w&nbsp;zaznaczonej kolejności czytania, treść nie wymaga struktury tabeli danych. Może się to zdarzyć, gdy do wizualnego przedstawienia informacji zastosowano technikę CSS.
 
-### Zastosowanie:
+### Zastosowanie
 
 Test 14.A 1.3.1-identyfikacja-tabeli **nie ma zastosowania**, jeśli na stronie nie ma tabel danych. W takim przypadku oznacz wynik testu jako **ND**.
 
-### Jak testować:
+### Jak testować
 
 1.  Uruchom ANDI: tabele.
 
@@ -86,7 +86,7 @@ Test 14.A 1.3.1-identyfikacja-tabeli **nie ma zastosowania**, jeśli na stronie 
 
 4.  Użyj przycisków Analizuj poprzednią/następną tabelę w ANDI, aby przejść do każdej z tabel wykrytych na stronie.
 
-#### Wyniki oceny
+### Ocena wyników
 
 Jeśli wszystkie twierdzenia poniżej jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 1.3.1:
 
@@ -100,7 +100,7 @@ Jeśli wszystkie twierdzenia poniżej jest **prawdą**, wówczas strona (treść
 
 3.	ANDI nie zgłasza podczas przeglądania tabel żadnych alertów dotyczących nieprawidłowego użycia atrybutów ARIA `role="table"`.
 
-
+## Powiązanie komórek danych z nagłówkami
 
 ### Test 14.B 1.3.1-powiazanie-komorek-z-naglowkami
 
@@ -140,11 +140,11 @@ Wszystkie tabele danych, w których komórki danych, aby je zrozumieć, wymagaj�
 
     -   W przypadku treści prezentowanych wizualnie w tabeli, ale zrozumiałych po odczytaniu w&nbsp;zaznaczonej kolejności czytania, treść nie wymaga struktury tabeli danych. Może się to zdarzyć, gdy do wizualnego przedstawienia informacji zastosowano technikę CSS.
 
-### Zastosowanie:
+### Zastosowanie
 
 Test  14.B 1.3.1-powiazanie-komorek-z-naglowkami **nie ma zastosowania**, jeśli na stronie nie ma tabel danych. W takim przypadku oznacz wynik testu jako **ND**.
 
-#### Jak testować:
+### Jak testować
 
 1.  Użyj przycisków Analizuj następną/poprzednią tabelę, aby przenosić punkt uwagi na każdej tabeli.
 
@@ -161,18 +161,18 @@ Test  14.B 1.3.1-powiazanie-komorek-z-naglowkami **nie ma zastosowania**, jeśli
 **Uwaga**: W teście należy uwzględnić wszelkie zmiany w tabelach danych, które nastąpią automatycznie lub w wyniku interakcji ze stroną.
 
 
-#### Wyniki oceny
+### Ocena wyników
 
 Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 1.3.1:
 
 
 1.  Tabela danych odpowiednio identyfikuje relacje nagłówka dla każdej komórki danych.
 
-##### Uwaga:
+### Uwaga
 
 -   W tym teście należy uwzględnić wszelkie zmiany w tabelach danych, które nastąpią automatycznie lub w wyniku interakcji ze stroną.
 
-### Tabele układu
+## Tabele układu
 
 ### Test 14.C 1.3.1-tabele-ukladu
 
@@ -213,12 +213,12 @@ Tabele określone programowo, w których struktura tabeli jest używana wyłącz
 - Treść znajdująca się w tabeli układu nie wymaga nagłówków wierszy lub kolumn do zrozumienia. Treść ta powinna być sensowna, gdy jest czytana w kolejności czytania określonej przez ANDI.
 
 
-### Zastosowanie:
+### Zastosowanie
 
 Test  14.C 1.3.1-tabele-ukladu **nie ma zastosowania**, jeśli na stronie nie ma tabel układu. W takim przypadku oznacz wynik testu jako **ND**.
 
 
-#### Jak testować:
+### Jak testować
 
 1.  Kontynuuj test 14.A.
 
@@ -234,7 +234,7 @@ Test  14.C 1.3.1-tabele-ukladu **nie ma zastosowania**, jeśli na stronie nie ma
 
     1.  Jeśli tabela ma przypisany atrybut ARIA `role="presentation"` (lub `role="none"`) i jeśli w tabeli oznakowano(określono programowo) także nagłówki (np. używając `<th>`, `scope="row"`, `scope="col"`,) ANDI zapewni odpowiedni alert; zignoruj ten alert w tabeli układu. Tabela zawierająca `role="presentation"` (lub `role="none"`) nie przekaże semantyki tabeli do czytnika ekranu. Dlatego, jeśli tabela jest rzeczywiście tabelą układu, semantykę struktury tabeli (np. `<th>`, `scope="row"`) można zignorować.
 
-### Wyniki oceny
+### Ocena wyników
 
 Jeśli którekolwiek twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 1.3.1:
 

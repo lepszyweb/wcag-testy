@@ -51,12 +51,12 @@ Użyj ANDI, aby wykryć wszystkie znaczące treści strony wstawione za pomocą 
 1.  Jeśli nie wstawiono żadnej zawartości strony przy użyciu :: przed lub :: po, ANDI nie wyświetli tej opcji.
 
 
-### Zastosowanie:
+### Zastosowanie
 Test 15A 1.3.1-tresci-dodane-przez-css **nie ma zastosowania**, jeśli na stronie nie ma żadnych znaczących treści wstawionych za pomocą pseudoelementów ::before lub ::after. W takim przypadku oznacz wynik testu jako **ND**. 
 
 **Uwaga**: Treść wstawiona za pomocą ::before lub ::after jest uważana za znaczącą, jeśli po jej ukryciu ta treść znika (np. obrazy, tekst, niestandardowe ikony czcionek) lub znika ważny kontekst dla treści sąsiadujących.
 
-### Jak testować:
+### Jak testować
 
 1.  Launch ANDI: hidden content and select content ::before ::after to reveal all content.Uruchom ANDI: ukryta treść i wybierz prrzycisk content::before ::after, aby wykryć treści wstawione za pomocą CSS.
     1.  Treści wstawione przy użyciu `::before` lub `::after` zostaną oznaczone na czerwono.
@@ -74,7 +74,7 @@ Test 15A 1.3.1-tresci-dodane-przez-css **nie ma zastosowania**, jeśli na stroni
 **Uwaga**: Jeśli pseudoelementy CSS :::before i ::after są używane do wstawiania treści znaczących, treść ta musi być również obecna w innym miejscu strony, aby wszyscy użytkownicy czytników ekranu mieli dostęp do tych samych informacji.
 
 
-### Wyniki oceny
+### Ocena wyników
 
 Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 1.3.1:
 
@@ -106,11 +106,11 @@ Użyj ANDI, aby wykryć treści pozycjonowane za pomocą CSS i stylów wbudowany
 
 2.  Treść pozycjonowana za pomocą CSS zostanie wyrożniona niebieskim podświetleniem wokół elementów, a elementy te zostaną umieszczone na stronie w tej samej kolejności, w jakiej występują w kodzie źródłowym strony, tj. bez zastosowania pozycjonowania CSS.
 
-### Zastosowanie:
+### Zastosowanie
 Test 15.B 1.3.2-zrozumiala-kolejnosc-tresci **nie ma zastosowania**, jeśli na stronie nie ma treści pozycjonowanych za pomocą CSS (treści, które mają inną kolejność w kodzie źródłowym, niż wynikałaby z układu widocznego na stronie. W takim przypadku oznacz wynik testu jako **ND**.
 
 
-### Jak testować:
+### Jak testować
 
 1.  Przejrzyj wszystkie wyróżnione, zlinearyzowane treści.
     ANDI oznacza treść pozycjonowaną za pomocą CSS niebieskimi konturami.
@@ -119,13 +119,13 @@ Test 15.B 1.3.2-zrozumiala-kolejnosc-tresci **nie ma zastosowania**, jeśli na s
 
 **Uwaga**: Kolejność odczytu treści po jej zlinearyzowaniu nie musi być dokładnie taka sama jak przed linearyzacją. Tester powinien sprawdzić, czy kolejność czytania treści jest nadal logiczna i zrozumiała (np. słowa i akapity są prezentowane w kolejności, która nie zmienia znaczenia treści). W wielu przypadkach zmiany pozycji nie wpływają na znaczenie treści. Na przykład zmiana kolejności obszaru treści głównej i obszaru z menu nawigacyjnym nie wpływa na ich znaczenie.
 
-### Wyniki oceny
+### Ocena wyników
 
 Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 1.3.2:
 
 1.	Kolejność i znaczenie treści (w kontekście) są zrozumiałe bez pozycjonowania CSS.
 
-##### Uwaga:
+### Uwaga
 
 Do rozpoznania kolejności odczytu przed linearyzacją treści można również wykorzystać opcję ANDI: struktury i łącze „porządek odczytu”. Ale włączenie tej opcji nie wyróżnia treści, której położenie na stronie zostało ustalone za pomocą CSS.
 

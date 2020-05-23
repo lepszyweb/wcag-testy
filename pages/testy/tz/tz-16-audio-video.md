@@ -57,11 +57,11 @@ Wszystkie nagrane wcześniej treści zawierajace tylko dźwięk.
 
 -   Jeśli audio jest *zsynchronizowane* z dowolnymi elementami wizualnymi, takimi jak obraz, wideo, slajdy, animacje lub inne media wizualne oparte na czasie, skorzystaj z testów mediów zsynchronizowanych  w sekcji [17. Miltimedia zsynchronizowane](tz-17-multimedia-zsynchronizowane).
 
-### Zastosowanie:
+### Zastosowanie
 
 Test 16.A: 1.2.1-transkrypcja-audio **nie ma zastosowania**, jeśli na stronie internetowej nie ma wcześniej nagranych prezentacji tylko-audio.
 
-### Jak testować:
+### Jak testować
 
 1.  Ustal, czy do każdej treści zawierającej tylko dźwięk dołączona jest transkrypcja.
 
@@ -88,8 +88,7 @@ Aby ustalić, czy dźwięk jest „znaczący”, tester powinien zapytać:
 
 -	Czy dźwięk jest nieistotnym klipem audio? Chociaż nie jest wymagane dołączanie do transkrypcji dźwięków, które nie mają znaczenia (np. muzyka odtwarzana w tle), należy uwzględnić odpowiednie dźwięki. Przykładem, w którym muzyka jest istotna i musi być uwzględniona w transkrypcji, może być np. piosenka „Jailhouse Rock” słyszana podczas wywiadu z wykonawcą, Elvisem Presleyem. **Wskazówka**: jeśli nie masz pewności, czy dźwięk jest istotny, rozsądne jest przyjąć, że powinien być uwzględniony.
 
-
-### Wyniki oceny
+### Ocena wyników
 
 Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 1.2.1:
 
@@ -137,12 +136,12 @@ Może to być tylko dźwięk, tylko wideo (w tym wideo w języku migowym) lub au
 
 **Uwaga**: Jeśli do wideo dołączony jest dźwięk (dźwięk), nie jest to już tylko „tylko wideo”; skorzystaj z testów mediów zsynchronizowanych  w sekcji [17. Miltimedia zsynchronizowane]
 
-### Zastosowanie:
+### Zastosowanie
 
 Test 16.B 1.2.1-odpowiedniki-wideo **nie ma zastosowania**, jeśli na stronie internetowej nie ma wcześniej nagranych prezentacji tylko-audio, która spełnia kryteria opisane powyżej w sekcji Identyfikacja treści.
 
 
-### Jak testować:
+### Jak testować
 
 1.  Ustal, czy do każdej treści zawierającej tylko wideo dołączona alternatywa tekstowa lub dźwiękowa (np. transkrypcja lub ścieżka audio, która zawiera opis treści i akcji wideo.
 
@@ -159,8 +158,7 @@ Test 16.B 1.2.1-odpowiedniki-wideo **nie ma zastosowania**, jeśli na stronie in
 
 **Wskazówka**: Podczas przeglądania alternatywy pomocne może być wyobrazenie sobie tego, co jest prezentowane przez alternatywę, tak że gdyby film został wyłączony lub usunięty, alternatywą byłaby równie skuteczną prezentacją treści (zarówno dokładną, jak i kompletną).
 
-
-### Wyniki oceny
+### Ocena wyników
 
 Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 1.2.1:
 

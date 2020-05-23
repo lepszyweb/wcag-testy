@@ -20,6 +20,8 @@ Procedura testowa „Treści powtarzane” obejmuje trzy testy:
 - Test 9B: 3.2.3-spójna nawigacja
 - Test 9C: 3.2.4-spójna identyfikacja
 
+## Omijanie treści powtarzalnych
+
 ### Test 9.A: 2.4.1-omijanie-tresci
 
 | Nazwa testu | ID testu | Wymaganie testowe |
@@ -27,7 +29,7 @@ Procedura testowa „Treści powtarzane” obejmuje trzy testy:
 | 2.4.1-omijanie-tresci | 9.A   | Istnieje metoda ominięcia tylko za pomocą klawiatury powtarzanych treści. |
 
 
-#### Cel testu 9.A: 2.4.1-omijanie-tresci
+### Cel testu 9.A: 2.4.1-omijanie-tresci
 
 Celem testu 2.4.1-omijanie-tresci jest ustalenie, czy na stronie istnieją metody na omijanie treści powtarzanych na wielu stronach oparte tylko na korzystaniu z klawiatury. Takie metody są niezbędne, aby użytkownicy z ograniczeniami ruchowymi lub wzrokowymi, którzy nawigują po stronach tylko za pomocą klawiatury, mogli łatwo przechodzić do głównej treści strony. Aby użytkownik mógł swobodnie omijać powtarzające się bloki treści, nie powinno być wymagane żadne dodatkowe narzędzia, takie jak technologia wspomagająca.     
 
@@ -39,15 +41,13 @@ Wyniki tego testu pozwalają ustalić, czy spełnione jest [kryterium sukcesu 2.
 
 - Używanie punktów orientacyjnych ARIA do określania regionów strony.
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 1.	Klawiatura
 
 2.	ANDI:interaktywne.
 
 3.	ANDI:łącza/przyciski > przycisk „pokaż listę łączy” > łącza pomijające (jeśli istnieją).
-
-
 
 
 ### Identyfikacja treści
@@ -68,10 +68,10 @@ Ustal, czy istnieje blok lub bloki treści, które są powtarzane na innych stro
 
 -  Ponieważ większość przeglądarek internetowych zapewnia skróty klawiaturowe, które służą do przeniesienia punktu uwagi użytkownika na początek strony lub do paska adresu przeglądarki, udostępnianie metody omijania łączy nawigacyjnych znajdujacych się na dole strony internetowej (zwykle w stopce) może być niepotrzebne.
 
-#### Zastosowanie:
+### Zastosowanie
 Test 9A 2.4.1-omijanie-tresci **nie ma zastosowania** na stronach, na których nie ma bloków treści powtarzających się na innych stronach. Jeśli istnieje tylko pojedyncza strona internetowa, która nie jest częścią większej witryny, ten test **nie ma zastosowania**.
 
-#### Jak testować:
+### Jak testować
 
 1.  Startując od poczatku strony, użyj standardowych poleceń klawiatury, aby nawigować w przód do powtarzalnych bloków treści. **Uwaga**: Niektóre funkcje omijania mogą być niewidoczne, dopóki nie zostanie na nie przeniesiony fokus klawiatury.
 
@@ -91,9 +91,9 @@ Test 9A 2.4.1-omijanie-tresci **nie ma zastosowania** na stronach, na których n
     2.  Przenoszenie fokusa poza bloki powtarzanej treści może nie zawsze być wyraźnie widoczne, jeśli nie ma elementów, na które można ustawić fokus bezpośrednio po ominiętym bloku.
 
 
-#### Wyniki oceny // Ocena treści
+### Ocena wyników
 
-Jeśli OBA poniższe twierdzenia są **PRAWDĄ**, wówczas strona (treść) **SPEŁNIA** wymaganie testowe, jest **ZGODNA** z KS 2.4.1:
+Jeśli oba poniższe twierdzenia są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 2.4.1:
 
 
 1.  Istnieje metoda ominięcia powtarzających się treści za pomocą klawiatury **oraz**
@@ -108,6 +108,7 @@ Jeśli OBA poniższe twierdzenia są **PRAWDĄ**, wówczas strona (treść) **SP
 
 - Żadna treść, która nie jest powtarzalna, nie może być częścią treści, która jest pomijana.
 
+## Spójna nawigacja
 
 ### Test 9B: 3.2.3-spojna-nawigacja
 
@@ -115,7 +116,7 @@ Jeśli OBA poniższe twierdzenia są **PRAWDĄ**, wówczas strona (treść) **SP
 |------------------------|---------|------------------------------------------|
 | 3.2.3-spojna-nawigacja | 9.B     | Każdy element nawigacyjny występuje w tej samej względnej kolejności w odniesieniu do innych powtarzających się elementów na każdej stronie internetowej, na której się pojawia. |
 
-#### Cel testu 9B: 3.2.3-spojna-nawigacja
+### Cel testu 9B: 3.2.3-spojna-nawigacja
 
 Celem testu 9B: 3.2.3-spojna-nawigacja jest sprawdzenie, czy na każdej stronie prezentacja i układ  elementów nawigacyjnych jest spójny dla użytkowników, którzy wchodzą w interakcje z powtarzającymi się treściami na zestawie stron internetowych i muszą znaleźć określone informacje lub funkcje więcej niż jeden raz.  Każdy mechanizm nawigacyjny powinien pojawić się w tej samej kolejności względnej na każdej stronie internetowej, na której się pojawia. 
 
@@ -135,12 +136,9 @@ Elementy nawigacyjne to wszelkie komponenty, które pomagają użytkownikm lokal
 -	Elementy nieinteraktywne: logo zawsze w lewym górnym rogu strony, nagłówek treści strony konsekwentnie umieszczony.
 
 
-
 ### Metody i narzędzia testowe
 1.	Inspekcja wzrokowa.
 2.	ANDI: struktury - włączony „porządek odczytu” .
-
-
 
 
 ### Identyfikacja treści
@@ -152,10 +150,10 @@ Zidentyfikuj wszystkie elementy nawigacyjne, które są powtarzane na innych str
 Elementy nawigacyjne nie muszą być dokładnie takie same, aby można je było uznać za powtarzalne; elementy nawigacyjne można uznać za powtarzające się, jeśli zawierają ten sam rodzaj informacji i / lub służą temu samemu celowi. 
 
 
-#### Zastosowanie:
+### Zastosowanie
 Test 9B: 3.2.3-spojna-nawigacja **nie ma zastosowania** na stronach, na których nie ma bloków treści powtarzających się na innych stronach. Jeśli zakresem testowania jest tylko jedna strona internetowa,  która nie jest częścią większej witryny, ten test **nie ma zastosowania**.
 
-#### Jak testować:
+### Jak testować
 
 1.  Przejrzyj wiele stron internetowych witryny, aby zidentyfikować komponenty nawigacyjne powtarzające się na wielu stronach. Nie inicjuj zmian treści.
 
@@ -163,10 +161,9 @@ Test 9B: 3.2.3-spojna-nawigacja **nie ma zastosowania** na stronach, na których
 
     1.  **Uwaga**: Funkcja „porządek tabulacji” w ANDI w module elementy interaktywne, może pomóc w ocenie kolejności, w jakiej elementy pojawiają się na stronie w stosunku do innych treści. Funkcja „kolejność odczytu” również może pomóc w ocenie kolejności komponentów, zarówno interaktywnych, jak i nieinteraktywnych.
 	
+### Ocena wyników
 
-#### Wyniki oceny // Ocena treści
-
-Jeśli poniższe stwierdzenie jest prawdziwe, treść (strona) **SPEŁNIA** wymóg testowy, jest **ZGODNA** z KS 3.2.3
+Jeśli poniższe stwierdzenie jest prawdziwe, treść (strona) **spełnia** wymóg testowy, jest **zgodna** z KS 3.2.3
 
 1. Każdy powtarzany komponent występuje w tej samej względnej kolejności w odniesieniu do innych powtarzanych komponentów na każdej stronie internetowej, na której się pojawia.
 
@@ -174,10 +171,11 @@ Jeśli poniższe stwierdzenie jest prawdziwe, treść (strona) **SPEŁNIA** wym�
 Reasumując: ta sama kolejność względna jest zdefiniowana jako ta sama pozycja względem: (1) miejsca położenia na stronie w porównaniu z innymi stronami i (2) do kolejności samych elementów nawigacyjnych.
 
 
-#### Uwaga:
+### Uwaga
 
 - *Ta sama kolejność względna* jest zdefiniowana jako ta sama pozycja w stosunku do pozycji innych elementów. Elementy uznaje się za znajdujące się w tej samej względnej kolejności, nawet jeśli inne elementy zostaną wstawione lub usunięte z pierwotnej kolejności. Na przykład w rozwijanym menu nawigacyjnym może być wstawiony dodatkowy poziom szczegółowości lub do porządku odczytu można wstawić dodatkową sekcję nawigacyjną.
 
+## Spójna identyfikacja
 
 ### Test 9C 3.2.4-spojna-identyfikacja
 
@@ -186,6 +184,7 @@ Reasumując: ta sama kolejność względna jest zdefiniowana jako ta sama pozycj
 | 3.2.4-spojna-identyfikacja | 9.C     | Dostępne nazwy i opisy komponentów wykonujących tę samą funkcję są spójne (takie same). |
 
 
+### Cel testu 9C 3.2.4-spojna-identyfikacja
 
 Celem tego testu jest sprawdzenie, czy oznaczenia służące identyfikacji komponentów, które pełnią na stronach tę samą funkcję, jest spójna. Spójna identyfikacja powtarzalnych komponenttów strony sprawia, że korzystanie ze strony jest prostsze i łatwiejsze dla wszystkich. Wspomaga szczególnie osoby z ograniczeniami wzroku i ograniczeniammi funkcji poznawczych. Strategia, z której korzystają osoby korzystające z czytników ekranu podczas przeglądania witryn, polega w dużej mierze na znajomości funkcji, które mogą pojawiać się na różnych stronach. Jeśli identyczne funkcje mają różne nazwy czy etykiety na różnych stronach, korzystanie z witryny jest znacznie trudniejsze. Może to również być mylące i zwiększać obciążenie poznawcze u osób z ograniczeniami poznawczymi.
 
@@ -194,7 +193,6 @@ Wymóg spójności rozciąga się także na alternatywy tekstowe. Jeśli ikony l
 Dzięki spójnej identyfikacji użytkownicy mogą zastosować swoją wiedzę na temat korzystania z jednej strony na innych stronach witryny, gdy używane są te same komponenty. 
 
 Wyniki tego testu pozwalają ustalić, czy spełnione jest kryterium sukcesu 3.2.4 Spójna identyfikacja.
-
 
 
 ### Metody i narzędzia testowe
@@ -209,7 +207,7 @@ Ta sama funkcjonalność oznacza, że komponenty dają ten sam wynik. Ważne jes
 
 **Uwaga**: Myślenie o identyfikacji treści może być po prostu wyszukaniem wszystkich elementów, które mają tę samą funkcjonalność (wygląd związany z tym elementem nie jest czynnikiem decydującym). Znak „X” może działać jako przycisk usuwania LUB oznaczać, że element został odrzucony. Jeśli ta sama grafika służy wielu funkcjom, może posiadać różne alternatywy tekstowe.  
 
-#### Zastosowanie:
+### Zastosowanie
  
 Test 9C: 3.2.4-spojna-identyfikacja **nie ma zastosowania** w przypadkach:
 
@@ -221,21 +219,21 @@ Test 9C: 3.2.4-spojna-identyfikacja **nie ma zastosowania** w przypadkach:
 
 **Uwaga**: Ten test ma zastosowanie tylko do tych komponentów, które mają taką samą funkcjonalność w ramach zestawu stron internetowych. Nie dotyczy komponentów, które pojawiają się tylko w obrębie jednej strony i nie pojawiają się na innych stronach. 
 
-#### Jak testować:
+### Jak testować
 
 1.  Uruchom ANDI: moduł interakktywne.
 
 2.  Sprawdź Wyjście ANDI dla każdego zidentyfikowanego elementu.
 
 
-#### Wyniki oceny // Ocena treści
+### Ocena wyników
 
 Jeśli poniższe stwierdzenie jest prawdziwe, treść (strona) **SPEŁNIA** wymóg testowy, jest **ZGODNA** z KS 3.2.4:
 
 1.	Komponenty o identycznej funkcjonalności są identyfikowane konsekwentnie.
 
 
-#### Uwaga:
+### Uwaga
 
 -  Spójne alternatywy tekstowe dla elementów interfejsu wykonujących tę samą funkcję nie zawsze są  „identyczne”. Jest to dopuszczalne, jeśli mają one spójny format. Na przykład w przypadku użycia strzałki graficznej na dole strony internetowej, która łączy z następną stroną, alternatywą tekstową może być: „Przejdź do strony 4.” Jednak ten sam obraz strzałki na następnej stronie powinien zawierać informację „Przejdź do strony 5.”
 -  Pojedynczy element nietekstowy może służyć do pełnienia różnych funkcji. W takich przypadkach konieczne są różne alternatywy tekstowe i należy je stosować. Przykładami mogą być często spotykane ikony, takie jak fiszki, krzyżyki czy znaki drogowe. Ich funkcje mogą się różnić w zależności od kontekstu strony internetowej. Ikona fiszki (haczyk) może oznaczać „zatwierdzono”, „wypełniono” lub „dołączono”, aby wymienić tylko kilka przypadków. Użycie jako alternatywy tekstowej na wszystkich stronach internetowych jednakowego tekstu typu  „znacznik wyboru” nie pomaga użytkownikom zrozumieć funkcji ikony. Zasadne jest zastosowanie różnych alternatyw tekstowych, gdy ta sama treść nietekstowa pełni wiele funkcji.

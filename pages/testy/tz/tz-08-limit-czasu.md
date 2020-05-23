@@ -23,19 +23,19 @@ Procedura testowa „Dostosowanie limitów czasu” obejmuje jeden test:
 | 2.2.1-dostosowanie-czasu | 8.A     | Użytkownik może wyłączyć, dostosować lub przedłużyć limit czasu. |
 
 
-#### Cel testu 8A: 2.2.1-dostosowanie-czasu
+### Cel testu 8A: 2.2.1-dostosowanie-czasu
 
 Celem testu 8A jest upewnienie się, że gdy strona internetowa zawiera treści z ograniczeniami czasowymi, użytkownik może wyłączyć to ograniczenie albo dostosować lub wydłużyć czas. Daje to każdemu użytkownikowi odpowiedni czas na interakcję ze stroną internetową, na przykład podczas wypełniania formularza, czytania treści lub wykonywania czynności (takich jak zakup przedmiotu, wykonanie przelewu bankowego lub korzystanie z aplikacji). 
 
 
 Wyniki tego testu pozwalają ustalić, czy spełnione jest kryterium sukcesu 2.2.1 Dostosowanie limitów czasu.
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 1.	Inspekcja wzrokowa strony.
 
 
-#### Identyfikacja treści
+### Identyfikacja treści
 
 Zidentyfikuj wszelkie przypadki ograniczeń czasowych dotyczących treści.
 
@@ -68,16 +68,16 @@ Ograniczenia czasowe można określić poprzez:
 
 -   **Wyjątek 20 godzin:** Limit czasowy przekracza 20 godzin. 
 
-#### Zastosowanie:
+### Zastosowanie
 Test 8A: 2.2.1-dostosowanie-czasu **nie ma zastosowania**, jeśli na stronie nie ma ma limitów czasu albo jeśli limit czasu jest uzasadniony jednym wyjątków określonych powyżej w sekcji „Identyfikacja treści”.  
 
-#### Jak testować:
+### Jak testować
 
 1.	Ustal, czy istnieje sposób na wyłączenie, dostosowanie lub przedłużenie limitu czasu
 
-#### Wyniki oceny
+### Ocena wyników
 
-Jeśli którekolwiek z poniższych stwierdzeń jest **PRAWDĄ**, wówczas strona (treść) **SPEŁNIA** wymaganie testowe, jest **ZGODNA** z KS 2.2.1:
+Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 2.2.1:
 
 1.  Użytkownik może wyłączyć limit czasu przed jego upływem **lub** 
 

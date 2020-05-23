@@ -46,7 +46,7 @@ Treść, która uzależnia znaczenie informacji od koloru, która
 - wyróżnia element wizualny, np. „Elementy oznaczone na czerwono są nieaktualne”,
  lub identyfikuje błędy.
 
-### Zastosowanie:
+### Zastosowanie
 
 Test 13.A 1.4.1-uzycie-koloru **nie ma zastosowania**, jeśli na stronie
 
@@ -54,17 +54,17 @@ Test 13.A 1.4.1-uzycie-koloru **nie ma zastosowania**, jeśli na stronie
 
 W takim przypadku oznacz wynik testu jako **ND**. 
 
-### Jak testować:
+### Jak testować
 
 1.  Ustal, czy kolor jest jedyną metodą stosowaną do przekazywania informacji (np. przejrzyj tekst na ekranie, aby uzyskać pełny opis i poszukaj innych wskazówek wizualnych).
 
-### Wyniki oceny
+### Ocena wyników
 
 Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 1.4.1:
 
 1.  Gdy kolor jest używany do przekazywania informacji, wskazywania czynności, monitowania o odpowiedź lub wyróżniania elementu wizualnego, do przekazywania informacji, która nie używa koloru, stosowana jest inna wizualna metoda ekranowa.
 
-### Uwaga:
+### Uwaga
 
 -   Tekst alternatywny, który pojawia się po najechaniu myszką na element wizualny; nie jest traktowany jako „tekst na ekranie”.
 
@@ -97,7 +97,7 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 
 
 Wskazówki umożliwiające zrozumienie instrukcji i obsługi treści, które wykorzystują informacje sensoryczne do przekazywania informacji, np. odniesienia do kształtu, rozmiaru, wizualnej lokalizacji, orientacji lub dźwięku.
 
-### Zastosowanie:
+### Zastosowanie
 
 Test 13.B 1.3.3-charakterystyki-zmyslowe **nie ma zastosowania**, jeśli strona nie przekazuje informacji ważnych dla zrozumienia instrukcji lub obsługi treści poprzez zastosowanie:
 
@@ -105,7 +105,7 @@ Test 13.B 1.3.3-charakterystyki-zmyslowe **nie ma zastosowania**, jeśli strona 
 -	lokalizacji lub orientacji obiektów,
 -	charakterystyki elementu, takiej jak kształt lub rozmiar.
 
-### Jak testować:
+### Jak testować
 
 1.  Ustal, czy instrukcje wykorzystujące cechy sensoryczne zawierają szczegóły, które pozwalają na lokalizację, identyfikację, zrozumienie i obsługę treści bez wiedzy o jej kształcie, rozmiarze, orientacji lub względnej pozycji.
 
@@ -117,13 +117,13 @@ Test 13.B 1.3.3-charakterystyki-zmyslowe **nie ma zastosowania**, jeśli strona 
 
 **Uwaga**: użycie słów „dalej” („następne”) i „poniżej” jest często używane w odniesieniu do sekwencji kroków, a nie do konkretnej lokalizacji. W takich przypadkach nie jest to uważane za cechę sensoryczną.
 
-### Wyniki oceny
+### Ocena wyników
 
 Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 1.3.3:
 
 1.  Gdy instrukcje używają kształtu, rozmiaru, położenia, orientacji lub dźwięku do przekazania znaczenia, zapewniona jest inna metoda, która nie opiera się na cechach sensorycznych.
 
-### Uwaga:
+### Uwaga
 
 Część testu 13.A 1.4.1-uzycie-koloru polega na upewnieniu się, że sam kolor nie jest używany do przekazywania informacji. Dotyczy to również tego, czy sam kolor jest używany do dostarczania instrukcji lub procedur operacyjnych. Aby spełnić ten wymóg, kolor może być stosowany w połączeniu z kształtem, rozmiarem, położeniem wizualnym, orientacją lub dźwiękiem. Jeżeli instrukcje lub procedury operacyjne opierają się wyłącznie na:
 
@@ -154,7 +154,7 @@ Cały widoczny znaczący tekst ORAZ obrazy tekstu.
 
 - Niektóre teksty mogą być początkowo niewidoczne na stronie, w tym teksty, który stają się widoczny po wskazaniu kursorem myszki lub gdy element otrzymuje fokus. Niemniej jednak, tekst musi spełniać wymagania dotyczące kontrastu kolorów, niezależnie od miejsca jego występowania.
 
-### Zastosowanie:
+### Zastosowanie
 
 Test 13.C 1.4.3-kontrast **nie ma zastosowania**, jeśli:
 
@@ -166,7 +166,7 @@ Test 13.C 1.4.3-kontrast **nie ma zastosowania**, jeśli:
    - Tekst zawarty w obrazach, które zawierają inną znaczącą treść wizualną.
    - Tekst zmieniony, aby wskazać, że jest to łącze „odwiedzone”.
 
-### Jak testować:
+### Jak testować
 
 1.  Uruchom ANDI: kontrast kolorów..
 
@@ -220,7 +220,7 @@ Określ współczynnik kontrastu na podstawie testu:
 -	Jeśli obraz tekstu został przetestowany, współczynnik kontrastu musi wynosić co najmniej 4,5:1, ponieważ rozmiar tekstu nie jest ustawiany programowo (od kroku 4 w Jak testować).
 
 
-### Wyniki oceny
+### Ocena wyników
 
 Jeśli którekolwiek twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 1.4.3
 
