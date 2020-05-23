@@ -89,7 +89,7 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 
 1.  Każde pole formularza ma etykietę lub instrukcję ekranową.
 
-### Uwaga:
+### Uwaga
 
 -   Etykieta lub instrukcja musi być widoczna, gdy pole formularza otrzymuje fokus (jest aktywne).
 
@@ -332,7 +332,7 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 
 1.  Zmiana wartości elementu formularza nie powoduje nieoczekiwanej zmiany kontekstu.
 
-### Uwaga:
+### Uwaga
 
 -   W przypadku niektórych typów pól formularzy, takich jak pola wprowadzania tekstu, może być konieczne odsunięcie fokusa od pola, aby zaobserwować, czy nie następuje zmiana kontekstu.
 

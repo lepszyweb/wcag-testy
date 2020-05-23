@@ -29,20 +29,22 @@ Procedura testowa „Obrazy” obejmuje pięć testów:
 5.	Test 7.E: 1.4.5-obrazy-tekstu
 
 
+## Obrazy niosące informacje
+
 ### Testu 7.A 1.1.1-znaczaca-nazwa-obrazu
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
 | 1.1.1-znaczaca-nazwa-obrazu | 7.A     | Dostępna nazwa i dostępny opis znaczących obrazów stanowią równoważny opisy obrazów. |
 
-#### Cel testu 7.A 1.1.1-znaczaca-nazwa-obrazu
+### Cel testu 7.A 1.1.1-znaczaca-nazwa-obrazu
 Celem tego testu jest sprawdzenie, czy każdy znaczący obraz ma również równoważny opis. Znaczący obraz to taki, który przekazuje informacje, których usunięcie spowodowałoby utratę treści lub kontekstu. 
 
 Obrazami znaczącymi są między innymi wykresy, schematy, obrazy tekstu, obrazy funkcjonalne (przyciski) użyte do zainicjowania akcji lub obrazy, które wymagają odpowiedzi. 
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu WCAG 1.1.1 Treść nietekstowa.
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 1.	ANDI: grafika/obrazy.
 2.	Inspekcja wzrokowa strony.
@@ -70,11 +72,11 @@ Znajdź wszystkie obrazy na stronie i przejrzyj kontekst każdego obrazu, aby ok
 
 Ten test dotyczy **tylko** obrazów znaczących.
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 7.A: 1.1.1-znaczaca-nazwa-obrazu **nie ma zastosowania**, jeśli na stronie nie ma znaczących obrazów. W takim przypadku oznacz wynik testu jako **ND**. Przypomnienie: Wszelkie istniejące na stronie obrazy, których ANDI nie wykrywa, nie są uwzględnione w tym teście.
 
-#### Jak testować:
+### Jak testować
 
 1. Przejrzyj Wyjście ANDI w poszukiwaniu znaczących obrazów.
    1. Jeśli obraz jest używany jako CAPTCHA, wyjście ANDI opisuje przeznaczenie CAPTCHA.
@@ -83,7 +85,7 @@ Test 7.A: 1.1.1-znaczaca-nazwa-obrazu **nie ma zastosowania**, jeśli na stronie
    4. Jeśli obraz jest elementem składowym lub dzieckiem elementu otrzymującego fokus (np. przycisku lub łącza), należy ocenić dostępną nazwę dla całego fokusowanego elementu, a nie tylko dla obrazu. Użyj ANDI: interaktywne (elementy) lub ANDI: łącza/przyciski), aby określić dostępną nazwę dla złożonego elementu.
 	
 	
-#### Wyniki oceny  // Ocena treści
+### Ocena wyników
 
 Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 1.1.1:
 
@@ -91,7 +93,7 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 
 Jeśli ANDI wykryje, że tekst alternatywny nie ma charakteru opisowego, wyświetli ostrzeżenie. W razie potrzeby możesz zweryfikować treść alt w Komponentach dostępności.
 
-##### Uwaga:
+### Uwaga
 
 -   Wszelkie zmiany znaczących obrazów, które pojawiają się automatycznie lub w wyniku interakcji ze stroną, należy uwzględnić w tym teście. 
 
@@ -104,6 +106,8 @@ Jeśli ANDI wykryje, że tekst alternatywny nie ma charakteru opisowego, wyświe
 -   Wyjście ANDI jest puste dla obrazu, który ma `role="presentation"`, `role="none"` lub `aria-hidden="true"`. Nie można ich ustawić dla znaczących obrazów, które muszą mieć równoważny opis w wyjściu ANDI.
 
 
+## Obrazy dekoracyjne
+
 ### Test 7.B 1.1.1-obrazy-dekoracyjne
 
 | Nazwa testu | ID testu | Wymaganie testowe |
@@ -111,7 +115,7 @@ Jeśli ANDI wykryje, że tekst alternatywny nie ma charakteru opisowego, wyświe
 | Test 7.B: 1.1.1-obrazy-dekoracyjne | 7.B     | Obrazy dekoracyjne nie mają alternatywy tekstowej (dostepnej nazwy lub opisu. |
 
 
-#### Cel testu 7.B 1.1.1-obrazy-dekoracyjne
+### Cel testu 7.B 1.1.1-obrazy-dekoracyjne
 Celem tego testu jest sprawdzenie, czy żaden obraz dekoracyjny nie ma dostępnej nazwy ani opisu. Brak dostępnej nazwy lub opisu, a także inne atrybuty, takie jak `role="presentation"`, `role="none"`, lub  `aria-hidden="true"` informują technologie wspomagające, aby ignorowały obraz i unikały głośnego odczytywania niepotrzebnych treści. 
 
 Obraz jest dekoracyjny, jeśli nie dodaje ważnych lub istotnych informacji do treści strony. Obrazy mogą być ozdobą, jeśli są czysto dekoracyjne, służyć wyłącznie do formatowania wizualnego lub nie są prezentowane użytkownikom (niewidoczne):
@@ -125,7 +129,7 @@ Obraz jest dekoracyjny, jeśli nie dodaje ważnych lub istotnych informacji do t
 Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu WCAG 1.1.1 Treść nietekstowa.
 
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 1.	ANDI: grafika/obrazy.
 2.	Inspekcja wzrokowa strony.
@@ -153,16 +157,16 @@ Znajdź wszystkie obrazy na stronie i przejrzyj kontekst każdego obrazu, aby ok
 
 Ten test dotyczy **tylko** obrazów dekoracyjnych.
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 7.B: 1.1.1-obrazy-dekoracyjne  **nie ma zastosowania**, jeśli na stronie nie ma obrazów dekoracyjnych. W takim przypadku oznacz wynik testu jako **ND**. Przypomnienie: Wszelkie istniejące na stronie obrazy, których ANDI nie wykrywa, nie są uwzględnione w tym teście.
 
-#### Jak testować:
+### Jak testować
 
 1.  Przejrzyj wyjście ANDI dla każdego obrazu dekoracyjnego.
 
 
-#### Wyniki oceny  // Ocena treści
+### Ocena wyników
 
 Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 1.1.1:
 
@@ -179,20 +183,20 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 
 W przypadku obrazów, które mają atrybuty `role="presentation"` lub `role="none"` może pojawić się następujący alert: „Obraz jest prezentacyjny; jego [alt] nie zostanie przekazany.”, tzn. że czytnik ekranu nie odczyta tekstu alt, ponieważ widzi obraz jako prezentacyjny lub dekoracyjny. Jeśli obraz jest naprawdę dekoracyjny (nieistotny), upewnij się, że czytnik ogłasza informacje związane z tym obrazem zgodnie z oczekiwaniami. 
 
-#### Test 7.C: 1.1.1-dekoracyjne-obrazy-tla
+### Test 7.C: 1.1.1-dekoracyjne-obrazy-tla
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
 | 1.1.1-dekoracyjne-obrazy-tla | 7.C     | Obraz w tle nie jest jedynym środkiem wykorzystywanym do przekazywania ważnych informacji. |
 
-#### Cel testu 7.C: 1.1.1-dekoracyjne-obrazy-tla 
+### Cel testu 7.C: 1.1.1-dekoracyjne-obrazy-tla 
 Celem tego testu jest sprawdzenie, czy w przypadku wyświetlania każdego znaczącego obrazu tła za pomocą kaskadowych arkuszy stylów (CSS), informacje o treści obrazu znajdują się na stronie także wtedy, gdy obraz jest ukryty.  
 
 Zasadniczo programiści nie dysponują sposobem przekazywania alternatywy tekstowej (dostępnej nazwy lub opisu) dla obrazów tła umieszczonych za pomocą CSS w taki sposób, jak w przypadku obrazów wbudowanych (osadzonych) w treści strony. W rezultacie technologie wspomagające nie są w stanie podać opisu znaczących obrazów tła CSS. Dlatego obrazy tła CSS powinny być albo wyłącznie dekoracyjne, albo znaczenie przekazane przez obrazy tła musi być dostępne gdzie indziej na stronie.  
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu WCAG 1.1.1 Treść nietekstowa.
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 1.	ANDI: grafika/obrazy > ukryj obrazy tła.
 2.	Inspekcja wzrokowa strony.
@@ -201,11 +205,11 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu W
 
 1. Użyj modułu ANDI: grafiki/obrazy, aby znaleźć obrazy tła CSS. Jeśli istnieją przyciski „znajdź obrazy tła” i „ukryj obrazy tła”, to znaczy, że obrazy tła znajdują się na stronie.
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 7.C: 1.1.1-dekoracyjne-obrazy-tla  **nie ma zastosowania**, jeśli na stronie nie ma obrazów tła. W takim przypadku oznacz wynik testu jako **ND**.
 
-#### Jak testować:
+### Jak testować
 
 1.  Wybierz przycisk „znajdź obrazy tła” w ANDI: grafika/obrazy, aby obrysować wszystkie obrazy tła (na zielono).
 
@@ -220,7 +224,7 @@ Test 7.C: 1.1.1-dekoracyjne-obrazy-tla  **nie ma zastosowania**, jeśli na stron
 **Uwaga**:  W teście należy uwzględnić wszelkie zmiany obrazów tła, które pojawiają się automatycznie lub w wyniku interakcji ze stroną. W takim przypadku może być konieczne odświeżenie ANDI.
 
 
-#### Wyniki oceny  // Ocena treści
+### Ocena wyników
 
 Jeśli którekolwiek poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 1.1.1:
 
@@ -234,7 +238,7 @@ Jeśli którekolwiek poniższe twierdzenie jest **prawdą**, wówczas strona (tr
 
 
 
-### Obrazy CAPTCHA
+## Obrazy CAPTCHA
 
 #### Test 7.D: 1.1.1-alternatywa-captcha
 
@@ -242,7 +246,7 @@ Jeśli którekolwiek poniższe twierdzenie jest **prawdą**, wówczas strona (tr
 |------------------------|---------|------------------------------------------|
 | 1.1.1-alternatywa-captcha | 7.D     | Na stronie istnieją alternatywne formy CAPTCHA. |
 
-#### Cel testu 7.D: 1.1.1-alternatywa-captcha
+### Cel testu 7.D: 1.1.1-alternatywa-captcha
 
 Celem testu jest sprawdzenie, czy każdy obraz użyty jako CAPTCHA ma alternatywną metodę weryfikacji, która nie opiera się wyłącznie na wzroku lub słuchu, aby użytkownicy z niepełnosprawnością wzroku lub słuchu mogli również wykonać test CAPTCHA. CAPTCHA to program używany na stronach internetowych, aby się utwierdzić, że dane wprowadza człowiek, a nie maszyna (robot) i ochronić strony internetowe przed spamem. Istnieje kilka różnych form CAPTCHA, które mogą być zastosowane na stronach i w aplikacjach. 
 
@@ -250,7 +254,7 @@ Wszystkie formy CAPTCHA i alternatywne formy CAPTCHA powinny zostać przetestowa
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu WCAG 1.1.1 Treść nietekstowa.
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 1. Inspekcja wzrokowa strony
 2. Test ręczny
@@ -261,15 +265,15 @@ Znajdź wszystkie obrazy CAPTCHA.
 
 **Uwaga**: Na niektórych stronach internetowych stosowane jest obecnie rozwiązanie reCAPTCHA, która prosi tylko o zaznaczenie pola wyboru lub kliknięcie przycisku, aby udowodnić, że nie jesteś robotem. Takie rozwiązanie nie powinno to być traktowane jako obraz CAPTCHA do przetestowania, ale jako kontrolka formularza, ponieważ takie pole CAPTCHA jest powiązane z formularzem, a nie z obrazem. Dopiero wtedy, gdy  po interakcji pojawi się wyskakujące okno z obrazem lub obrazami CAPTCHA, to ten obraz powinien zostać przetestowany w tym teście.
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 7.C: 1.1.1-alternatywa-captcha  **nie ma zastosowania**, jeśli na stronie nie ma obrazów CAPTCHA. W takim przypadku oznacz wynik testu jako **ND**.
 
-#### Jak testować:
+### Jak testować
 
 1.	Ustal, czy zapewnione są alternatywne formy CAPTCHA, które opierają się na innych możliwościach percepcji (postrzegania), niż tylko wzrok i słuch.
 
-#### Wyniki oceny  // Ocena treści
+### Ocena wyników
 
 Jeśli wszystkie poniższe twierdzenia są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 1.1.1:
 
@@ -278,15 +282,15 @@ Jeśli wszystkie poniższe twierdzenia są **prawdą**, wówczas strona (treść
 2.	CAPTCHA ma format dla użytkowników Głuchych lub słabosłyszących.
 
 
-### Obrazy tekstu
+## Obrazy tekstu
 
-#### Test 7.E: 1.4.5-obrazy-tekstu
+### Test 7.E: 1.4.5-obrazy-tekstu
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
 | 1.4.5-obrazy-tekstu | 7.E     | Obrazu tekstu nie można zastąpić tekstem lub można go dostosować. |
 
-#### Cel testu 7.E: 1.4.5-obrazy-tekstu
+### Cel testu 7.E: 1.4.5-obrazy-tekstu
 
 Celem tego testu jest sprawdzenie, czy zawsze używany jest rzeczywisty tekst, a nie obrazy tekstu, chyba że określona prezentacja tekstu jest niezbędna do przekazywanych informacji (np. część logo, próbka czcionki, konkretna czcionka nie jest powszechnie obsługiwana, nazwa marki) albo sposób prezentacji obrazu tekstu można dostosować. 
 
@@ -294,12 +298,12 @@ Używanie rzeczywistego tekstu zamiast obrazu tekstu lub obrazów tekstu, które
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu WCAG  1.4.5 Obrazy tekstu.
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 1. ANDI: grafika/obrazy
 2. Inspekcja wzrokowa strony
 
-#### Identyfikacja treści
+### Identyfikacja treści
 Znajdź wszystkie obrazy tekstu.
 
 **WYKLUCZ** teksty, które są częścią obrazów zawierających inne istotne treści wizualne, takie jak wykresy, zrzuty ekranowe i schematy, które przekazują ważne informacje oprócz tekstu.
@@ -307,11 +311,11 @@ Znajdź wszystkie obrazy tekstu.
 Jeśli nie ma takiej treści, wynik dla następujących identyfikatorów testów **NIE MA ZASTOSOWANIA**: 7.E.
 
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 7.E 1.4.5-obrazy-tekstu  **nie ma zastosowania**, jeśli na stronie nie ma obrazów tekstu. W takim przypadku oznacz wynik testu jako **ND**.
 
-#### Jak testować:
+### Jak testować
 
 1.  Ustal, czy zamiast obrazu tekstu można użyć rzeczywistego tekstu, aby przedstawić ten sam efekt i informacje.
 
@@ -323,7 +327,7 @@ Test 7.E 1.4.5-obrazy-tekstu  **nie ma zastosowania**, jeśli na stronie nie ma 
 
     1.  Dostosowanie rozmiaru czcionki dla obrazu tekstu oznacza również możliwość dostosowania rozmiaru bez pikselizacji (co jest zwykle widoczne podczas korzystania z funkcji zmiany rozmiaru okna przeglądarki internetowej w celu zmiany rozmiaru obrazów).
 
-#### Wyniki oceny  // Ocena treści
+### Ocena wyników
 
 Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 1.4.5:
 

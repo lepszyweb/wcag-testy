@@ -24,13 +24,13 @@ Procedura testowa „Łącza i przyciski” obejmuje dwa testy:
 | 2.4.4-cele-łączy-przycisków | 6.A     | Cel każdego łącza lub przycisku można określić na podstawie dowolnej kombinacji tekstu łącza/przycisku, dostępnej nazwy, dostępnego opisu lub programowo określonego kontekstu łącza/przycisku. |
 
 
-#### Cel testu 6A: 2.4.4-cele-łączy-przycisków
+### Cel testu 6A: 2.4.4-cele-łączy-przycisków
 
 Celem tego testu jest ustalenie, czy każde łącze lub przycisk na stronie posiada wystarczający opis celu łącza lub przycisku. Aby zdecydować, czy skorzystać z łącza lub aktywować przycisk, użytkownicy muszą rozumieć, jakie działanie zostanie wykonane po wybraniu łącza lub przycisku. Programiści mogą opisać cel łącza lub przycisku bezpośrednio w tekście łącza lub przycisku (tytule), kojarząc programowo z łączem lub przyciskiem inny tekst opisowy, a także podając kontekstowe wskazówki, które można określić programowo. 
 
 Wyniki tego testu pozwalają ustalić, czy spełnione jest kryterium sukcesu WCAG 2.4.4 Cel łącza (w kontekście).
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 1.	ANDI: łącza/przyciski > łącza
 
@@ -50,12 +50,12 @@ Wyniki tego testu pozwalają ustalić, czy spełnione jest kryterium sukcesu WCA
     Wybierz przyciski „Następny/poprzedni element” w ANDI, aby przejść do każdego łącza lub przycisku. Alternatywnie możesz wybrać przycisk „pokaż listę łączy/przycisków”, aby wyświetlić pełną listę wszystkich przycisków lub łączy na stronie.
 
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 6A: 2.4.4-cele-łączy-przycisków **nie ma zastosowania**, jeśli na stronie nie ma łączy ani przycisków. Jeśli ANDI nie zidentyfikuje żadnych łączy ani przycisków, oznacz wynik testu jako **ND**.
 
 
-#### Jak testować:
+### Jak testować
 
 1.  Oceń Wyjście ANDI pod kątem celu łącza/przycisku.
 
@@ -72,14 +72,14 @@ Aby określić inne powiązania programowe, konieczne może być użycie jednego
 
 
 
-#### Wyniki oceny // Ocena treści
+### Ocena wyników
 
 Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 2.4.4:
 
 1.  Cel każdego łącza lub przycisku można określić na podstawie dowolnej kombinacji tekstu łącza/przycisku, dostępnej nazwy, dostępnego opisu lub programowo określonego kontekstu łącza/przycisku.
 
 
-##### Uwaga:
+### Uwaga:
 
 -   Łącza i przyciski mogą zmieniać się automatycznie lub w wyniku interakcji z treścią strony. Takie zmiany powinny zostać uwzględnione w tym teście. Za każdym razem, gdy zmienia się tekst łącza lub przycisku lub otaczający je kontekst, należy ponownie ocenić łącze lub przycisk, aby ustalić, czy nadal odpowiednio opisują swój cel.
 
@@ -91,13 +91,13 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 | 4.1.2-łącza-powiadomienia-o-zmianach | 6.B     | Użytkownik jest powiadamiany o każdej zmianie treści, która jest wynikiem interakcji z łączem lub przyciskiem.  |
 
 
-#### Cel testu 6B: 4.1.2-łącza-powiadomienia-o-zmianach
+### Cel testu 6B: 4.1.2-łącza-powiadomienia-o-zmianach
 Celem tego testu jest ustalenie, czy strona internetowa zapewnia wystarczające powiadomienie i opis o wszelkich zmianach treści na stronie internetowej, które nastąpiły w wyniku interakcji z łączem lub przyciskiem. Programiści mogą użyć łącza lub przycisku i innego powiązanego tekstu zidentyfikowanego w poprzednim teście, aby powiadomić o zmianach związanych z łączem/przyciskiem. Programiści mogą również stosować inne techniki w celu powiadamiania o zmianach związanych z łączami/przyciskami. 
 
 Wyniki tego testu pozwalają ustalić, czy spełnione jest kryterium sukcesu WCAG 4.1.2 Nazwa, Rola, Wartość.
 
 
-#### Metody i narzędzia testowe 
+### Metody i narzędzia testowe 
 
 1.	ANDI: łącza/przyciski > łącza
 
@@ -106,14 +106,14 @@ Wyniki tego testu pozwalają ustalić, czy spełnione jest kryterium sukcesu WCA
 3.	ANDI: struktury > żywe regiony.
 
 
-#### Identyfikacja treści
+### Identyfikacja treści
 
 1. Użyj ANDI: łącza/przyciski, aby zidentyfikować wszystkie łącza i przyciski.
 
 2. Zidentyfikuj wszelkie zmiany treści strony, które nastąpią w wyniku interakcji z łączami lub przyciskami. Zmiany treści mogą obejmować zmiany innych łączy i przycisków, informacji tekstowych, struktury strony, obrazów, wykresów, schematów kolorów itp.
 
 
-#### Zastosowanie:
+### Zastosowanie
 
 Test 6B: 4.1.2-łącza-powiadomienia-o-zmianach **nie ma zastosowania**, jeśli na stronie nie ma łączy ani przycisków ORAZ jeśli treść strony nie zmienia się w efekcie interakcji z łączem lub przyciskiem.
 
@@ -130,7 +130,7 @@ Innymi słowy, jeśli klikniesz łącze lub przycisk i:
 
 
 
-#### Jak testować:
+### Jak testować
 
 1.  Aktywuj każde łącze lub przycisk, które wywołuje zmiany w treści strony (np. usunięcie treści, dodanie treści itp.).
 
@@ -161,7 +161,7 @@ Innymi słowy, jeśli klikniesz łącze lub przycisk i:
         3.  Sprawdź, czy zmieniająca się treść jest zawarta w „żywym regionie”.
 
 
-#### Wyniki oceny // Ocena treści
+### Ocena wyników
 
 Jeśli którakolwiek z poniższych sytuacji, to **prawda**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 4.2.1:
 
