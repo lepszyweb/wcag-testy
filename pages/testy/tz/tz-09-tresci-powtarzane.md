@@ -31,7 +31,7 @@ Procedura testowa „Treści powtarzane” obejmuje trzy testy:
 
 Celem testu 2.4.1-omijanie-tresci jest ustalenie, czy na stronie istnieją metody na omijanie treści powtarzanych na wielu stronach oparte tylko na korzystaniu z klawiatury. Takie metody są niezbędne, aby użytkownicy z ograniczeniami ruchowymi lub wzrokowymi, którzy nawigują po stronach tylko za pomocą klawiatury, mogli łatwo przechodzić do głównej treści strony. Aby użytkownik mógł swobodnie omijać powtarzające się bloki treści, nie powinno być wymagane żadne dodatkowe narzędzia, takie jak technologia wspomagająca.     
 
-Wyniki tego testu pozwalają ustalić, czy spełnione jest kryterium sukcesu 2.4.1 Możliwość pominięcia bloków.
+Wyniki tego testu pozwalają ustalić, czy spełnione jest [kryterium sukcesu 2.4.1 Możliwość pominięcia bloków](https://wcag.lepszyweb.pl/#bypass-blocks).
 
 **Uwaga**: Ten test obejmuje tylko takie metody omijania treści, które opierają się na klawiaturze. Nie uwzględnia innych wystarczających technik WCAG, które do ominięcia powtarzanych treści wymagają innych narzędzi:
 
