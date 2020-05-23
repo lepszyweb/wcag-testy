@@ -29,7 +29,7 @@ Strony internetowe w zestawie powiązanych stron (witrynie).
     -   spis treści
     -   menu nawigacyjne lub menu rozwijane
     -   drzewa nawigacyjne
-    -   łacza między stronami (poprzednia - następna)
+    -   łącza między stronami (poprzednia - następna)
 
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 2.4.5  oraz Wymaganie podstawowe nr 23 kończy się niepowodzeniem.

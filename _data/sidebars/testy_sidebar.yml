@@ -19,7 +19,7 @@ entries:
 
     folderitems:
     - title: O łatwych testach
-      url: /00-P-wprowadzenie
+      url: /latwe-testy
       output: web
     - title: Wstępny przegląd dostępności
       url: /00-P-wprowadzenie2

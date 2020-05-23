@@ -3,9 +3,9 @@ title: O łatwych testach
 summary: "Łatwe testy pozwalają stwierdzić, czy strona internetowa jest dostępna na podstawowym poziomie. Mogą wykryć nawet 75-80% barier dostepności występujących na stronie."
 
 sidebar: testy_sidebar
-permalink: 00-P-wprowadzenie
+permalink: latwe-testy
 folder: testy/latwe
-last_updated: 2 lutego 2020
+last_updated: 24 maja 2020
 ---
 
 ## Baza łatwych testów dostępności
