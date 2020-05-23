@@ -207,7 +207,7 @@ Użyj ANDI, aby zidentyfikować wszystkie ramki `iframe` w kolejności tabulator
    -   nie ma atrybutu `tabindex`.
 
 
-**Przetestuj tylko te ramki `<iframe>`. ** Nie testuj ramek `<iframe>`, które mają ujemną wartość atrybutu `tabindex` lub nie mają attrybutu `tabindex`.
+**Przetestuj tylko te ramki iframe **. Nie testuj ramek `<iframe>`, które mają ujemną wartość atrybutu `tabindex` lub nie mają attrybutu `tabindex`.
 
 
 ### Zastosowanie
