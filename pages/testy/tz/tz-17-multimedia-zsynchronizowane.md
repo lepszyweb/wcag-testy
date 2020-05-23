@@ -202,16 +202,10 @@ Jeśli poniższe twierdzenie jest **PRAWDZIWE**, then the content **PASSES**:
 
 Zidentyfikuj dowolny odtwarzacz multimedialny za pomocą kontroli wyboru programu.
 
-> **Uwaga:** Program selection is a feature of a media player that allows the user to choose what presentation, or portion of a longer presentation, to play. Program selection is typically the same user experience as opening a file or using a table of contents. The media controls to view an open file (play, pause, fast forward, rewind, etc.) are NOT considered program selection controls.
+> ** Uwaga: ** Wybór programu to funkcja odtwarzacza multimedialnego, która umożliwia użytkownikowi wybór prezentacji lub części dłuższej prezentacji do odtworzenia. Wybór programu jest zazwyczaj taki sam, jak w przypadku otwierania pliku lub korzystania ze spisu treści. Elementy sterujące multimediami służące do wyświetlania otwartego pliku (odtwarzanie, pauza, szybkie przewijanie do przodu, przewijanie do tyłu itp.) NIE są uważane za elementy sterujące wyborem programu.
 
+> W większości implementacji internetowych odtwarzacze multimediów są zazwyczaj dostarczane do przeglądania określonych zsynchronizowanych multimediów, więc elementy sterujące wyborem programu do otwierania dowolnego pliku nie są powszechne. Można zapewnić kontrolę wyboru programu, aby przejść do określonych tematów w mediach (czasami określanych jako „rozdziały”). Kontrola głośności jest traktowana jako unikalna kontrola, różna od kontroli wyboru programu.
 
-
-
-> ** Uwaga: ** Wybór programu to funkcja odtwarzacza multimedialnego, która umożliwia użytkownikowi wybór prezentacji lub części dłuższej prezentacji. Wybór programu jest zazwyczaj taki sam jak otwarcie pliku lub użycie spisu treści. Elementy sterujące multimediami służące do wyświetlania otwartego pliku (odtwarzanie, pauza, szybkie przewijanie do przodu, przewijanie do tyłu itp.) NIE są uważane za elementy sterujące wyborem programu.
-
-> In most web implementations, media players are typically provided to view specific synchronized media so program selection controls to open any file are not common. Program selection controls to advance to the identified topics in the media (sometimes referred to as “chapters”) may be provided. Volume control is treated as a unique control, distinct from program selection controls.
-
-W większości implementacji internetowych odtwarzacze multimediów są zazwyczaj dostarczane w celu wyświetlania określonych zsynchronizowanych multimediów, więc elementy sterujące wyborem programu do otwarcia dowolnego pliku nie są powszechne. Możliwe jest zapewnienie kontrolek wyboru programu, aby przejść do określonych tematów w mediach (czasami określanych jako „rozdziały”). Kontrola głośności jest traktowana jako unikalna kontrola, różna od kontroli wyboru programu.
 
 Jeśli nie ma takiej treści, wynik dla następujących identyfikatorów testów **NIE MA ZASTOSOWANIA**: 17.F.
 

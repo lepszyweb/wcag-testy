@@ -532,9 +532,6 @@ entries:
     - title: 6 prostych testów wg K. Grovesa
       url: /testy-6-prostych
       output: web
-    - title: Audyt
-      url: /audyt
-      output: web
 
   - title: Zaufany tester
     output: web, pdf
@@ -555,8 +552,8 @@ entries:
         - title: 2. Automatyczne odtwarzanie i...
           url: /tz-02-auto
           output: web, pdf
-        - title: 3. Błyskanie
-          url: /tz-03-blyskanie
+        - title: 3. Migotanie
+          url: /tz-03-migotanie
           output: web, pdf
         - title: 4. Dostęp z klawiatury i fokus
           url: /tz-04-klawiatura
