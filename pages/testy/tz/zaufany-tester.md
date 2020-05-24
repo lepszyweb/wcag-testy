@@ -1,11 +1,11 @@
 ---
 title: O procesie testowym Trusted Tester
-summary: "Proces testowy Trusted Tester został pierwotnie stworzony przez Biuro Dostępnych Systemów i Technologii (OAST) w Departamencie Bezpieczeństwa Wewnętrznego (DHS) Stanów Zjednoczonych, a później przyyjęty przez kilka innych amerykańskich agencji federalnych. Jest to zestaw procedur testowych, ktorych celem jest stwierdzenie zgodności treści stron internetowych ze Zmienioną Sekcją 508, która w całości implementuje WCAG 2.1."
+summary: "Proces testowy Trusted Tester został pierwotnie stworzony przez Biuro Dostępnych Systemów i Technologii (OAST) w Departamencie Bezpieczeństwa Wewnętrznego (DHS) Stanów Zjednoczonych, a później przyyjęty przez kilka innych amerykańskich agencji federalnych. Jest to zestaw procedur testowych, ktorych celem jest stwierdzenie zgodności treści stron internetowych ze Zmienioną Sekcją 508, która w całości implementuje WCAG 2.0."
 
 sidebar: testy_sidebar
 permalink: zaufany-tester
 folder: testy/tz
-last_updated: 24 maja 2020
+last_updated: 25 maja 2020
 ---
 
 O dokumencie

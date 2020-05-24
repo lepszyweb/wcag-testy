@@ -41,7 +41,7 @@ topnav_dropdowns:
         - title: Testy zgodności z WCAG
           url: /H0-00-wprowadzenie
         - title: Bazy źródłowe
-          url: /ICT-00-wprowadzenie
+          url: /ICT-podstawa-testowania
     - title: Narzędzia
       folderitems:
         - title: Przegląd
