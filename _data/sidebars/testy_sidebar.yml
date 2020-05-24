@@ -537,7 +537,7 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: Zaufany tester
+    - title: Zaufany Tester
       url: /zaufany-tester
       output: web
 
