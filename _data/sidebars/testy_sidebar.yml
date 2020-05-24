@@ -538,7 +538,7 @@ entries:
 
     folderitems:
     - title: Zaufany tester
-      url: /tz-about
+      url: /zaufany-tester
       output: web
 
       subfolders:

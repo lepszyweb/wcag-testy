@@ -228,7 +228,7 @@ Jeśli którekolwiek twierdzenie poniżej jest **prawdą**, wówczas strona (tre
 2.	Jeśli tekst jest obrazem tekstu, kontrast między obrazem tekstu a jego tłem jest równy lub większy niż 4,5:1, jak określono za pomocą Analizatora kontrastu kolorów.
 
 
-## Zastosowane standardy
+## Obowiązujące normy
 
 - {% include ks/1-4-1.md %}
 - {% include ks/1-3-3.md %}

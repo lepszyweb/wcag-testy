@@ -217,7 +217,7 @@ Jeśli którekolwiek z poniższych stwierdzeń jest **PRAWDZIWE**, wówczas tre�
 -   Ten test sprawdza powiadamianie o zmianach treści. Testowanie treści przed zmianą i po niej należy przeprowadzić w innych testach. Na przykład elementy formularza, które zmieniły się podczas tego testu, należy przetestować pod kątem testu 5.B.
 
 
-### Zastosowane standardy
+### Obowiązujące normy
 
 {% include ks/2-2-2.md %}
 

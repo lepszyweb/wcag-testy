@@ -248,7 +248,7 @@ Jeśli którekolwiek twierdzenie poniżej jest **prawdą**, wówczas strona (tre
 
     2.  Tabela nie używa żadnego elementu ani atrybutu, określającego strukturę danych tabeli i powiązania między komórkami i nagłówkami (np. `<th>`, `scope="row"`)
 
-## Zastosowane standardy
+## Obowiązujące normy
 
 - {% include ks/1-3-1.md %}
 - {% include ks/1-3-2.md %}

@@ -55,7 +55,7 @@ Do czasu określenia odpowiedniego narzędzia testującego wynik **Nie testowano
 -	**Nie ma zastosowania**, jeśli nie ma tresci migoczącej (błyskjacej), **lub**
 -	**Nie testowano**, jeśli na stronie internetowej istnieje treść migocząca (błyskjaca).
 
-### Zastosowane standardy
+### Obowiązujące normy
 
 {% include ks/2-3-1.md %}
 

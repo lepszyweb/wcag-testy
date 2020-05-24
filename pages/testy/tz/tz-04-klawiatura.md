@@ -561,7 +561,7 @@ Jeśli którekolwiek z poniższych twierdzeń jest **prawdą**, wówczas strona 
 **Uwaga**: Sekwencja logiczna oznacza, że znaczenie i użyteczność strony są zachowane. Dopuszczalne jest, jeśli fokus nie wraca dokładnie do miejsca sprzed ujawnienia treści, o ile sekwencja jest logiczna. Może się to zdarzyć w przypadku elementów takich jak menu; zamknięcie opcji menu może spowodować przeniesienie użytkownika do następnego elementu w kolejności fokusu. Może to nadal utrzymywać logiczną sekwencję.
 
 
-### Zastosowane standardy
+### Obowiązujące normy
 
 
 {% include ks/2-1-1.md %}

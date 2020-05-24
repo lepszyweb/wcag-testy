@@ -45,7 +45,7 @@ Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść)
 
 4.  Istnieje cała treść.
 
-## Zastosowane standardy
+## Obowiązujące normy
 
 - {% include ks/1-4-4.md %}
 - [22. Zmiana rozmiaru tekstu](ICT-22-zmiana-rozmiaru-tekstu.md)                                                                                              

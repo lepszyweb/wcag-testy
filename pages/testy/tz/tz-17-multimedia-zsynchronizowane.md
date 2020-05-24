@@ -231,7 +231,7 @@ Jeśli poniższe twierdzenie jest **PRAWDZIWE**, then the content **PASSES**:
 
 1.  Elementy sterujące dla opisów audio znajdują się na tym samym poziomie menu, co elementy sterujące wyborem programu lub głośność.
 
-### Zastosowane standardy
+### Obowiązujące normy
 
 {% include ks/1-2-2.md %}
 

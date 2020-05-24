@@ -235,7 +235,7 @@ Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełn
 
 - Aby otworzyć każdą `<iframe>` do przetestowania należy w module ANDI: ramki iframe wybrać przycisk „testuj na nowej karcie”.
 
-## Zastosowane standardy
+## Obowiązujące normy
 - {% include ks/2-4-2.md %}
 - {% include ks/4-1-2.md %}
 - [11. Tytuły stron](ICT-11-tytuly-stron)

@@ -52,7 +52,7 @@ Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść)
 
 2.  Techniki te działają poprawnie, dzięki czemu prowadzą do właściwej strony internetowej.
 
-## Zastosowane standardy
+## Obowiązujące normy
 
 - {% include ks/2-4-5.md %}
 - [23. Wiele dróg](ICT-23-wiele-drog)                                                                                         

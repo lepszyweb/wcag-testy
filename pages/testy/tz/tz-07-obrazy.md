@@ -339,7 +339,7 @@ Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona
 
 Pamiętaj, że sama strona internetowa musi oferować opcje dostosowywania, aby zmienić czcionkę, rozmiar, kolor i tło (WCAG definiuje wizualne dostosowanie jako możliwość ustawienia czcionki, rozmiaru, koloru i tła; dlatego wszystkie cztery opcje dostosowywania muszą istnieć na stronie, aby wystarczająco umożliwić wizualne dostosowanie wymagane do spełnienia tego warunku testowego).
 
-### Zastosowane standardy
+### Obowiązujące normy
 - {% include ks/1-1-1.md %}
 - {% include ks/1-4-5.md %}
 - {% include ks/4-1-2.md %}

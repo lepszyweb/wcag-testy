@@ -174,7 +174,7 @@ Jeśli którakolwiek z poniższych sytuacji, to **prawda**, wówczas strona (tre
 4.  Zmieniona treść jest zawarta w „żywym regionie” ARIA.
 
 
-### Zastosowane standardy
+### Obowiązujące normy
 
 {% include ks/2-4-4.md %}
 

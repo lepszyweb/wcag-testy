@@ -646,7 +646,7 @@ Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona
 3.  Strona sprawdza dane pod kątem błędów i daje użytkownikowi możliwość ich poprawienia.
 
 
-### Zastosowane standardy
+### Obowiązujące normy
 - {% include ks/1-3-1.md %}
 - {% include ks/2-4-6.md %}
 - {% include ks/3-2-2.md %}

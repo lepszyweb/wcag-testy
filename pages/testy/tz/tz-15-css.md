@@ -130,7 +130,7 @@ Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełn
 Do rozpoznania kolejności odczytu przed linearyzacją treści można również wykorzystać opcję ANDI: struktury i łącze „porządek odczytu”. Ale włączenie tej opcji nie wyróżnia treści, której położenie na stronie zostało ustalone za pomocą CSS.
 
 
-## Zastosowane standardy
+## Obowiązujące normy
 
 - {% include ks/1-3-1.md %}
 - {% include ks/1-3-2.md %}

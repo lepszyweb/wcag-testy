@@ -239,7 +239,7 @@ Jeśli poniższe stwierdzenie jest prawdziwe, treść (strona) **SPEŁNIA** wym�
 -  Pojedynczy element nietekstowy może służyć do pełnienia różnych funkcji. W takich przypadkach konieczne są różne alternatywy tekstowe i należy je stosować. Przykładami mogą być często spotykane ikony, takie jak fiszki, krzyżyki czy znaki drogowe. Ich funkcje mogą się różnić w zależności od kontekstu strony internetowej. Ikona fiszki (haczyk) może oznaczać „zatwierdzono”, „wypełniono” lub „dołączono”, aby wymienić tylko kilka przypadków. Użycie jako alternatywy tekstowej na wszystkich stronach internetowych jednakowego tekstu typu  „znacznik wyboru” nie pomaga użytkownikom zrozumieć funkcji ikony. Zasadne jest zastosowanie różnych alternatyw tekstowych, gdy ta sama treść nietekstowa pełni wiele funkcji.
 
 
-## Standardy dostępności
+## Obowiązujące normy
 
 {% include ks/2-4-1.md %}
 

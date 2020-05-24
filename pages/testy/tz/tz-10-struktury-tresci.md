@@ -288,7 +288,7 @@ Jeśli WSZYSTKIE poniższe twierdzenia są **PRAWDZIWE**, wówczas strona (treś
 -	Nie wszystkie listy wymagają znaczników. Na przykład lista pozycji w zdaniu, oddzielona przecinkami, nie musi być oznakowana (zakodowana) jako lista wypunktowana lub numerowana.
 
 
-## Standardy dostępności
+## Obowiązujące normy
 
 {% include ks/2-4-5.md %}
 

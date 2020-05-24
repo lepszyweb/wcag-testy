@@ -166,7 +166,7 @@ Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść)
 
 2.  Tekst lub dźwięk stanowi dokładne i pełne przedstawienie treści tylko wideo.
 
-## Zastosowane standardy
+## Obowiązujące normy
 
 - {% include ks/1-2-1.md %}
 - [16. Tylko audio i tylko wideo](ICT-16-tylko-audio-tylko-wideo)                                                                                                   

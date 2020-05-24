@@ -90,7 +90,7 @@ Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona
     2.  Użytkownik może przedłużyć limit czasu co najmniej dziesięć razy.
 	
 
-## Standardy dostępności
+## Obowiązujące normy
 
 {% include ks/2-2-1.md %}
 

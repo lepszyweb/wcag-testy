@@ -21,7 +21,7 @@ Wynik testu 20.A (4.1.1-parsowanie) powinien być ustalony jako **Nie testowano*
 - Dla wymogu Parsowanie określono wiele wymagań. Aby ustalić, czy wymagania są spełnione, bardzo pomocne byłoby narzędzie testujące, ale aktualnie takie wiarygodne narzędzie nie jest znane. Proces testowania zostanie zaktualizowany, gdy zostanie określone odpowiednie narzędzie testowego. Do tego czasu wynik testu powinien być ustalny jako „Nie testowano”.
 
 
-## Zastosowane standardy
+## Obowiązujące normy
 
 - {% include ks/4-1-1.md %}
 - [24. Parsowanie](ICT-24-parsowanie)                                                                                               

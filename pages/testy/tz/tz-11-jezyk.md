@@ -165,7 +165,7 @@ Jeśli **oba** twierdzenia poniżej są **prawdą**, wówczas strona (treść) *
 
 -   Podznacznik języka podstawowego musi być zgodny z [Rejestrem Podznaczników Języka (IANA, Internet Assigned Numbers Authority.](https://www.iana.org/assignments/language-subtag-registry)
 
-### Zastosowane standardy
+### Obowiązujące normy
 - {% include ks/3-1-1.md %}
 - {% include ks/3-1-2.md %}
 - [15. Język](ICT-15-jezyk)

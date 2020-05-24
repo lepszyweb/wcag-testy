@@ -10,6 +10,39 @@ folder: testy/tz
 {% include note.html content="Praca nad tłumaczeniem trwa. To jest zgrubna, robocza wersja tłumaczenia." %}
 
 
+## Cel zestawu testów
+
+Testy z tego zestawu służą ocenie wersji alternatywnych zapewniających zgodność oraz spełniania wymogu &bdquo;Brak zakłóceń&rdquo;, gdy na stronie wykorzystywane sa technologie, które nnie obsługują dostepności albo użyte są tak, że nie obsługują dostępności.
+
+
+Treść może być udostępniana w wielu wersjach, pod warunkiem, że jedna z nich jest w pełni zgodna z wymogami dostępności na wybranym poziomie. Dostarczenie wersji alternatywnej zapewniającej zgodność nie jest wymagane przez WCAG, jest to raczej dopuszczalna metoda zapewnienia tych samych treści i funkcjonalności w sposób spełniający normy dostępności, gdy istnieją inne niezgodne wersje tych treści, czyli wersje niespełniające norm dostępności.
+
+Na stronie internetowej mogą być zaastosowane technologie internetowe, które nie obsługują dostępności albo nie są obsługiwane przez dostępność, albo zostały użyte tak, że nie obsługują dostępności. W takich przypadkach można uznać, że spełnione są normy dostępności pod warunkiem, że technologie, które nie obsługują dostępności nie blokują użytkownikom dostępu do reszty strony.       
+
+
+wersja_alternatywna_zapewniajaca_zgodnosc
+
+
+Można udostępniać wiele wersji treści, o ile jedna z nich jest w pełni zgodna. Zapewnienie zgodnej wersji alternatywnej nie jest wymagane. Jest to raczej dopuszczalna metoda dostarczenia tych samych informacji i / lub funkcjonalności w przystępny sposób, gdy istnieją inne niezgodne wersje tych treści.
+
+
+Gdy witryna internetowa zawiera alternatywne wersje treści w celu spełnienia wymagań dostępności, dowiesz się, jak ocenić, czy podana wersja alternatywna jest rzeczywiście dostępna i równoważna. Dowiesz się również, jak oceniać, czy wersje spełniają wymagania WCAG dotyczące dostępu do alternatywnej treści, od wersji niezgodnej do wersji zgodnej i odwrotnie. Zanim alternatywną wersję można uznać za „zgodną wersję alternatywną”, należy ocenić:
+•	Czy jest w pełni dostępny?
+•	Czy ma równoważne informacje i funkcjonalność?
+•	Czy wszyscy użytkownicy mogą uzyskać dostęp do wersji zgodnej / niezgodnej?
+Temat ten nieznacznie różni się od innych tematów tego kursu: podczas testowania musisz najpierw ustalić, czy dostępna jest alternatywna wersja treści i ustalić, czy spełnia ona wszystkie wymagania „zgodnej wersji alternatywnej”. To określi zakres twojego testowania. Jeśli istnieje zgodna wersja alternatywna, ta wersja zasadniczo zastępuje wersję niezgodną w zakresie testowania, a wersja niezgodna nie jest uwzględniona w raporcie z testu.
+Podobnie jak w przypadku innych tematów tego kursu, podczas oceny wyników, wynik PASY, jeśli warunek testu jest PRAWDA . Wykonywanie niektórych testów w Temacie 1 zależy od tego, czy poprzedni wynik testu ID PASSED lub został oznaczony, NIE MA ZASTOSOWANIA . Ponadto, ponieważ nie jest wymagane zawsze zapewnienie zgodnej wersji alternatywnej, ten temat różni się od innych, ponieważ testy zgodnych wersji alternatywnych (1.A - 1.D) nigdy nie będą miały wyniku oceny FAIL . Jeśli warunek testu ma wartość FAŁSZ , oznacza to, że zgodna wersja alternatywna nie jest dostępna, a wynik testu NIE NALEŻY (DNA) .
+Jeśli wszystkie obowiązujące wymagania NIE zostaną spełnione w żadnej wersji (wersjach), NIE MOŻNA żądać zgodnej wersji alternatywnej , ponieważ musi być ona w pełni zgodna. Przestałbyś wykonywać ten zestaw testów dla tej zawartości i obejmowałbyś wszystkie wersje treści zakresem testowania. Przejdziesz do następnego warunku testowego, testując i rejestrując wyniki dla wszystkich wersji treści dla wszystkich warunków testowych. Dlatego ważne jest, aby ustalić, czy masz zgodną alternatywną wersję na początku testowania, aby w testach uwzględnić tylko odpowiednią treść.
+Gdy zostanie znaleziona zgodna wersja alternatywna, niezgodne wersje treści można pominąć w zakresie testowania. Jednak przed całkowitym wykluczeniem niezgodnej wersji treści należy ocenić ograniczoną liczbę wymagań, aby upewnić się, że niezgodna treść nie zakłóca możliwości dostępu użytkownika do treści. Nauczysz się oceniać te szczególne wymagania dotyczące braku zakłóceń. Wymagania dotyczące braku zakłóceń mają zastosowanie do wszystkich treści na stronie internetowej, w tym treści, które mają zgodną alternatywną wersję, ponieważ ich niespełnienie może zakłócać dowolne korzystanie ze strony.
+Tylko do celów szkoleniowych ten kurs obejmuje część testową 1: „Zgodność z wersją alternatywną i brak zakłóceń” poza kolejnością i jako ostatni temat kursu. Test na zgodność z wersją alternatywną i brakiem zakłóceń jest pierwszym testem w procesie Trusted Tester, ponieważ jest niezbędny do zdefiniowania zakresu testowania. Jednak ze względu na złożoność koncepcji i ponieważ ukończenie testów polega na zrozumieniu innych etapów procesu testowego, ten temat najlepiej jest rozwiązać na końcu kursu.
+
+
+
+
+
+
+
+
 
 Warunki testowe wersji alternatywnych zapewniających zgodność różnią się nieznacznie od pozostałych testów na kilka ważnych sposobów:
 
@@ -326,7 +359,7 @@ Jeśli poniższe twierdzenie jest **PRAWDZIWE**, to treść **PRZESZŁA** test; 
 
 **Uwaga:** Po wykonaniu tego testu na niezgodnej wersji treści, która ma zgodną wersję alternatywną, pomiń testowanie niezgodnej treści w pozostałej części testowania.
 
-### Zastosowane standardy
+## Obowiązujące normy
 
 [Wersja alternatywna zapewniająca zgodność](http://www.fdc.org.pl/wcag2/index.html#conforming-alternate-versiondef) nie jest wymogiem. Wymóg zgodności \#1 pozwala na włączenie do zakresu zgodności stron niezgodnych z wymaganiami, o ile mają one „zgodną wersję alternatywną”. Gwarantuje to, że wszystkie informacje i wszystkie funkcje, które znajdują się na stronach objętych zakresem zgodności, są dostępne na stronach internetowych zgodnych z wymogami.
 
