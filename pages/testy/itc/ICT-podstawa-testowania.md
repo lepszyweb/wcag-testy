@@ -3,7 +3,7 @@ title: Podstawa testowania TIK - wprowadzenie
 
 toc: false
 sidebar: testy_sidebar
-permalink: ICT-00-wprowadzenie
+permalink: ICT-podstawa-testowania
 folder: testy/itc
 ---
 

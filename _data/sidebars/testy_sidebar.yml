@@ -207,7 +207,7 @@ entries:
 
     folderitems:
     - title: Podstawowe testy ITC
-      url: /ICT-00-wprowadzenie
+      url: /ICT-podstawa-testowania
       output: web
 
       subfolders:
