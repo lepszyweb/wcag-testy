@@ -13,7 +13,7 @@ Celem tej procedury testowej jest sprawdzenie, czy zapewniono użytkownikom z ni
 
 Procedura testowa „Dostosowanie limitów czasu” obejmuje jeden test:
 
-1.	8A. Dostosowanie czas - 2.2.1-dostosowanie-czasu
+1.	8.A - 2.2.1-dostosowanie-czasu
 
 
 ### Test 8A: 2.2.1-dostosowanie-czasu

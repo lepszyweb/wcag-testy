@@ -17,8 +17,8 @@ Spełnianie przez strony internetowe tych trzech kryteriów ma zapewnić, że u�
 Procedura testowa „Treści powtarzane” obejmuje trzy testy:
 
 - Test 9A: 2.4.1-omijanie-tresci
-- Test 9B: 3.2.3-spójna nawigacja
-- Test 9C: 3.2.4-spójna identyfikacja
+- Test 9B: 3.2.3-spojna-nawigacja
+- Test 9C: 3.2.4-spojna-identyfikacja
 
 ## Omijanie treści powtarzalnych
 

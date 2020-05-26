@@ -16,8 +16,8 @@ Treść wprowadzana za pomocą CSS może być niewidoczna dla niektórych czytni
 Scenariusz „Treść wstawiana i pozycjonowana za pomocą CSS” obejmuje dwa testy:
 
 W tym temacie są dwie lekcje:
-1.	Treść dodana przez CSS - 15A 1.3.1-tresci-dodane-przez-css
-2.	Pozycjonowanie CSS - Test 15.B 1.3.2-zrozumiala-kolejnosc-tresci
+1.	Test 15A 1.3.1-tresci-dodane-przez-css
+2.	Test 15.B 1.3.2-zrozumiala-kolejnosc-tresci
 
 ## Treść dodana przez CSS 
 

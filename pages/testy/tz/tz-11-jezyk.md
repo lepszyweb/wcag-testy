@@ -18,7 +18,7 @@ Poprawne programowe określenie języka lub języków naturalnych używanych na 
 Procedura testowa „Języki” obejmuje dwa testy:
 
 1.	Test 11.A 3.1.1-okreslono-jezyk-strony
-2.	Test 11.B 3.1.2-okreslono-jezyk-części
+2.	Test 11.B 3.1.2-okreslono-jezyk-czescii
 
 
 
@@ -89,16 +89,16 @@ Jeśli **oba** twierdzenia poniżej są **prawdą**, wówczas strona (treść) *
 
 ## Język części
 
-### Test 11.B 3.1.2-okreslono-jezyk-części
+### Test 11.B 3.1.2-okreslono-jezyk-czescii
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
-| 3.1.2-okreslono-jezyk-części | 11.B    | The human language for any content segment that differs from the default human language of the page can be programmatically determined. |
+| 3.1.2-okreslono-jezyk-czescii | 11.B    | The human language for any content segment that differs from the default human language of the page can be programmatically determined. |
 
 Język naturalny każdego segmentu treści, napisanego w innym niż domyślny język strony, może być określony programowo.
 
 
-### Cel testu 11.B 3.1.2-okreslono-jezyk-części
+### Cel testu 11.B 3.1.2-okreslono-jezyk-czescii
 
 Celem tego testu jest sprawdzenie, czy technologia wspomagająca  będzie prawidłowo wymawiać słowa, fragmenty lub frazy, które zostały zapisane w innym języku niż reszta strony. Język naturalny używany w części lub częściach musi być określony programowo. 
 
@@ -121,7 +121,7 @@ Aby określić, co należy przetestować:
 -   Nazwy własne, , terminy techniczne, słowa o nieokreślonym języku oraz słowa lub zwroty, które stały się częścią słownika bezpośrednio sąsiadującego tekstu, nie wymagają atrybutu `lang` innego niż domyślny język strony i nie są objęte tym testem.
 
 ### Zastosowanie
-Test 11.B 3.1.2-okreslono-jezyk-części  **nie ma zastosowania**, jeśli 
+Test 11.B 3.1.2-okreslono-jezyk-czescii  **nie ma zastosowania**, jeśli 
 
 - Na stronie jest tylko jeden język.
 - Segment tekstu to bełkot.

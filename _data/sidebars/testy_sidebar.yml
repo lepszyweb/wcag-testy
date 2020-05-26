@@ -606,3 +606,6 @@ entries:
         - title: 20. Parsowanie
           url: /tz-20-parsowanie
           output: web, pdf	
+        - title: Dodatek A
+          url: /tz-dodateka
+          output: web, pdf	

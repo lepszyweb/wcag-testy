@@ -26,10 +26,10 @@ Procedura testowa „Formularze” obejmuje osiem testów:
 
 1.	Test 5.A: 3.3.2-etykiety-lub-instrukcje 
 2.	Test 5.B: 2.4.6-opisowe-etykiety.
-3.	Test 5.C: 1.3.1-etykiety-instrukcje-powiązane programowo
-4.	Test 5.D: 3.2.2-podczas-wprowadzania-danyc
+3.	Test 5.C: 1.3.1-etykiety-instrukcje-powiązane-programowo
+4.	Test 5.D: 3.2.2-podczas-wprowadzania-danych
 5.	Test 5.E: 4.1.2-powiadomienia-o-zmianie
-6.	Test 5.F: 3.3.1-identyfikacja-błędów
+6.	Test 5.F: 3.3.1-identyfikacja-błedow
 7.	Test 5.G: 3.3.3-sugestie-poprawy-bledow
 8.	Test 5.H: 3.3.4-zapobieganie-błedom
 
@@ -162,14 +162,14 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 
 ## Etkiety i instrukcje powiązane programowo
 
-### Test 5.C: 1.3.1-etykiety-powiązane programowo
+### Test 5.C: 1.3.1-etykiety-powiązane-programowo
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
-| 1.3.1-etykiety-powiązane programowo | 5.C     | Kombinacja dostępnej nazwy, dostępnego opisu i innych asocjacji programowych (np. powiązania nagłówków kolumn lub wierszy z kolumnami lub wierszami) opisuje każde pole wejściowe i zawierają wszystkie niezbędne instrukcje i wskazówki (tekstowe i graficzne). |
+| 1.3.1-etykiety-powiązane-programowo | 5.C     | Kombinacja dostępnej nazwy, dostępnego opisu i innych asocjacji programowych (np. powiązania nagłówków kolumn lub wierszy z kolumnami lub wierszami) opisuje każde pole wejściowe i zawierają wszystkie niezbędne instrukcje i wskazówki (tekstowe i graficzne). |
 
 
-#### Cel testu  5.C: 1.3.1-etykiety-powiązane programowo
+#### Cel testu  5.C: 1.3.1-etykiety-powiązane-programowo
 
 
 Celem testu 5.C: 1.3.1-etykiety-instrukcje-powiązane programowo jest sprawdzenie, czy etykiety i instrukcje dla pól formularzy są programowo powiązane z tymi polami. Ten test stanowi kontynuację dwóch poprzednich testów (5.A i&nbsp;5.B), które służyły ocenie, czy pola formularza posiadają widoczne etykiety lub instrukcje i czy są ono wystarczająco opisowe i jasne. 

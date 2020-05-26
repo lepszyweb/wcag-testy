@@ -14,8 +14,8 @@ Gdy dostępna jest alternatywa dla wcześniej nagranych mediów audio lub wideo,
 
 
 Ten zestaw obejmuje dwa testy:
-1.	Transkrypcje nagrań dźwiękowych - Test 16.A 1.2.1-transkrypcja-audio
-2.	Alternatywy nagrań wideo - Test 16.B 1.2.1-odpowiedniki-wideo
+1.	Test 16.A 1.2.1-transkrypcja-audio
+2.	Test 16.B 1.2.1-odpowiedniki-wideo
 
 ## Nagrania dźwiękowe
 

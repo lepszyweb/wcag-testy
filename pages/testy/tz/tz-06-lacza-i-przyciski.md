@@ -12,19 +12,19 @@ Celem tej procedury jest sprawdzenie, czy łącza i przyciski zapewniają wystar
 
 Procedura testowa „Łącza i przyciski” obejmuje dwa testy:
 
-- Test 6A: 2.4.4-cele-łączy-przycisków
+- Test 6A: 2.4.4-cele-laczy-przyciskow
 
-- Test 6B: 4.1.2-łącza-powiadomienia-o-zmianach
+- Test 6B: 4.1.2-lacza-powiadomienia-o-zmianach
 
 
-### Test 6A: 2.4.4-cele-łączy-przycisków
+### Test 6A: 2.4.4-cele-laczy-przyciskow
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
-| 2.4.4-cele-łączy-przycisków | 6.A     | Cel każdego łącza lub przycisku można określić na podstawie dowolnej kombinacji tekstu łącza/przycisku, dostępnej nazwy, dostępnego opisu lub programowo określonego kontekstu łącza/przycisku. |
+| 2.4.4-cele-laczy-przyciskow | 6.A     | Cel każdego łącza lub przycisku można określić na podstawie dowolnej kombinacji tekstu łącza/przycisku, dostępnej nazwy, dostępnego opisu lub programowo określonego kontekstu łącza/przycisku. |
 
 
-### Cel testu 6A: 2.4.4-cele-łączy-przycisków
+### Cel testu 6A: 2.4.4-cele-laczy-przyciskow
 
 Celem tego testu jest ustalenie, czy każde łącze lub przycisk na stronie posiada wystarczający opis celu łącza lub przycisku. Aby zdecydować, czy skorzystać z łącza lub aktywować przycisk, użytkownicy muszą rozumieć, jakie działanie zostanie wykonane po wybraniu łącza lub przycisku. Programiści mogą opisać cel łącza lub przycisku bezpośrednio w tekście łącza lub przycisku (tytule), kojarząc programowo z łączem lub przyciskiem inny tekst opisowy, a także podając kontekstowe wskazówki, które można określić programowo. 
 
@@ -52,7 +52,7 @@ Wyniki tego testu pozwalają ustalić, czy spełnione jest kryterium sukcesu WCA
 
 ### Zastosowanie
 
-Test 6A: 2.4.4-cele-łączy-przycisków **nie ma zastosowania**, jeśli na stronie nie ma łączy ani przycisków. Jeśli ANDI nie zidentyfikuje żadnych łączy ani przycisków, oznacz wynik testu jako **ND**.
+Test 6A: 2.4.4-cele-laczy-przyciskow **nie ma zastosowania**, jeśli na stronie nie ma łączy ani przycisków. Jeśli ANDI nie zidentyfikuje żadnych łączy ani przycisków, oznacz wynik testu jako **ND**.
 
 
 ### Jak testować
@@ -84,14 +84,14 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 -   Łącza i przyciski mogą zmieniać się automatycznie lub w wyniku interakcji z treścią strony. Takie zmiany powinny zostać uwzględnione w tym teście. Za każdym razem, gdy zmienia się tekst łącza lub przycisku lub otaczający je kontekst, należy ponownie ocenić łącze lub przycisk, aby ustalić, czy nadal odpowiednio opisują swój cel.
 
 
-### Test 6B: łącza-powiadomienia-o-zmianach
+### Test 6B: 4.1.2-lacza-powiadomienia-o-zmianach
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
-| 4.1.2-łącza-powiadomienia-o-zmianach | 6.B     | Użytkownik jest powiadamiany o każdej zmianie treści, która jest wynikiem interakcji z łączem lub przyciskiem.  |
+| 4.1.2-lacza-powiadomienia-o-zmianach | 6.B     | Użytkownik jest powiadamiany o każdej zmianie treści, która jest wynikiem interakcji z łączem lub przyciskiem.  |
 
 
-### Cel testu 6B: 4.1.2-łącza-powiadomienia-o-zmianach
+### Cel testu 6B: 4.1.2-lacza-powiadomienia-o-zmianach
 Celem tego testu jest ustalenie, czy strona internetowa zapewnia wystarczające powiadomienie i opis o wszelkich zmianach treści na stronie internetowej, które nastąpiły w wyniku interakcji z łączem lub przyciskiem. Programiści mogą użyć łącza lub przycisku i innego powiązanego tekstu zidentyfikowanego w poprzednim teście, aby powiadomić o zmianach związanych z łączem/przyciskiem. Programiści mogą również stosować inne techniki w celu powiadamiania o zmianach związanych z łączami/przyciskami. 
 
 Wyniki tego testu pozwalają ustalić, czy spełnione jest kryterium sukcesu WCAG 4.1.2 Nazwa, Rola, Wartość.
@@ -115,7 +115,7 @@ Wyniki tego testu pozwalają ustalić, czy spełnione jest kryterium sukcesu WCA
 
 ### Zastosowanie
 
-Test 6B: 4.1.2-łącza-powiadomienia-o-zmianach **nie ma zastosowania**, jeśli na stronie nie ma łączy ani przycisków ORAZ jeśli treść strony nie zmienia się w efekcie interakcji z łączem lub przyciskiem.
+Test 6B: 4.1.2-lacza-powiadomienia-o-zmianach **nie ma zastosowania**, jeśli na stronie nie ma łączy ani przycisków ORAZ jeśli treść strony nie zmienia się w efekcie interakcji z łączem lub przyciskiem.
 
 Ten test dotyczy tylko treści zmieniających się na danej stronie internetowej w wyniku wybrania łącza lub przycisku.
  

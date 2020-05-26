@@ -13,9 +13,9 @@ Celem tego scenariusza testowego jest sprawdzenie, czy struktury tabel i relacje
 
 Scenariusz „Tabele” obejmuje trzy testy:
 
-1.	Tabela danych - Test 14.A: 1.3.1-oznakowanie-tabeli
-2.	Powiązanie komórek - Test 14.B: 1.3.1-powiazanie-nagłowkow-komorek
-3.	Tabela układów - Test 14.C: 1.3.1-tabela-układu
+1.	Test 14.A: 1.3.1-oznakowanie-tabeli
+2.	Test 14.B: 1.3.1-powiazanie-nagłowkow-komorek
+3.	Test 14.C: 1.3.1-tabela-układu
 
 
 

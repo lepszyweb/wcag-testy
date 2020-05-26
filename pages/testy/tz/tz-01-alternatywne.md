@@ -64,19 +64,19 @@ Testy (warunki testowe) wersji alternatywnych zapewniających zgodność różni
 
 Procedura testowa „Zgodna wersja alternatywna i brak zakłóceń” obejmuje pięć testów:
 
-1.	Test 1.A zgodna-wersja-alternatywna
-2.  Test 1.B rownowaznosc-wersji-alternatywnej
-3.  Test 1.C dostep-do-wersji-alternatywnej
-4.  Test 1.D dostep-do-wersji-niezgodnej
-5.  Test 1.E bez-zaklocen
+1.	Test 1.A Wersja-alt-zgodna 
+2.  Test 1.B Wersja-alt-rownowazna
+3.  Test 1.C Dostep-z-wersji-niezgodnej
+4.  Test 1.D Dostep-do-wersji-niezgodnej
+5.  Test 1.E Bez-zaklocen
 
 ## Dostępność wersji alternatywnej
 
-### Test 1.A zgodna-wersja-alternatywna
+### Test 1.A Wersja-alt-zgodna
 
 | Nazwa testu | ID testu | Warunek testowy |
 |------------------------|---------|---------------------------------------|
-| zgodna-wersja-alternatywna | 1.A | Wersja alternatywna zapewniająca zgodność spełnia wszystkie wymagania testowe objęte tą procedurą testową. |
+| Wersja-alt-zgodna | 1.A | Wersja alternatywna zapewniająca zgodność spełnia wszystkie wymagania testowe objęte tą procedurą testową. |
 
 ### Cel testu
 
@@ -113,7 +113,7 @@ Inne wersje tej samej treści, tj. treści, które zostały dostarczone na więc
 3.	Zgodne wersje alternatywne nie muszą się znajdować się w „zakresie zgodności” (zbiorze stron, których dotyczy oświadczenie o zgodności), ani nawet w tej samej witrynie internetowej, o ile są równie łatwo osiągalne, jak wersja niezgodna. Na przykład alternatywna wersja może znajdować się w innej domenie niż testowana witryna. W przypadku tej procedury testowej zakres testów jest ograniczony tylko do zgodnych wersji alternatywnych, które są osiągalne na komputerach stacjonarnych. Zgodne wersje alternatywne nie obejmują aplikacji mobilnych, do których dostęp można uzyskać tylko na urządzeniu przenośnym.
 
 ### Zastosowanie:
-Test 1.A zgodna-wersja-alternatywna **nie ma zastosowania**, jeśli istnieje tylko jedna wersja treści.
+Test 1.A Wersja-alt-zgodna **nie ma zastosowania**, jeśli istnieje tylko jedna wersja treści.
 
 ### Jak testować:
 
@@ -156,11 +156,11 @@ Jeżeli wynikiem tego warunku testu jest:
 
 ## Równoważność zgodnej wersji alternatywnej
 
-### Test 1.B rownowaznosc-wersji-alternatywnej
+### Test 1.B Wersja-alt-rownowazna
 
 | Nazwa testu | ID testu | Warunek testowy |
 |------------------------|---------|--------------------------------------------|
-| rownowaznosc-wersji-alternatywnej | 1.B | Zgodna wersja alternatywna zawiera równoważne (takie same) informacje i funkcjonalności.|
+| Wersja-alt-rownowazna | 1.B | Zgodna wersja alternatywna zawiera równoważne (takie same) informacje i funkcjonalności.|
 
 ### Cel testu
 Celem tego testu jest sprawdzenie, czy dostępna wersja alternatywna (wersja, która przeszła test 1.A) zapewnia te same informacje i funkcje w tym samym języku naturalnym co treść niezgodna, oraz czy informacje są aktualne. 
@@ -181,7 +181,7 @@ Dostepna wersja alternatywna, która przeszła pomyślnie test 1.A.
 
 ### Zastosowanie
 
-Test 1.B rownowaznosc-wersji-alternatywnej **nie ma zastosowania**, jeśli istnieje tylko jedna wersja treści (czyli jeśli test 1.A **nie ma zastosowania**).
+Test 1.B Wersja-alt-rownowazna **nie ma zastosowania**, jeśli istnieje tylko jedna wersja treści (czyli jeśli test 1.A **nie ma zastosowania**).
 
 ### Jak testować
 
@@ -217,24 +217,24 @@ Jeżeli wynikiem tego warunku testu jest:
 
 ## Dostęp do zgodnej wersji alternatywnej
 
-### Test 1.C dostep-do-wersji-alternatywnej
+### Test 1.C Dostep-do-wersji-zgodnej
 
 | Nazwa testu | ID testu | Warunek testowy |
 |------------------------|---------|--------------------------------------------|
-| dostep-do-wersji-alternatywnej | 1.C |  Istnieje mechanizm umożliwiający osiągnięcie zgodnej wersji alternatywnej ze strony niezgodnej.|
+| Dostep-do-wersji-zgodnej | 1.C |  Istnieje mechanizm umożliwiający osiągnięcie zgodnej wersji alternatywnej ze strony niezgodnej.|
 
 ### Cel testu
 
 Zarówno ten test, jak i następny wymaga ustalenia, w jaki sposób można uzyskać dostęp do równoważnej dostępnej wersji (która przeszła pomyślnie test 1.B) i podjęcia decyzji, czy testy 1.C lub 1.D mają zastosowanie. 
 
-Jeśli użytkownik najpierw napotka niezgodną wersję treści, a następnie musi przejść do dostępnej równoważnej wersji, przetestuj *1.C dostep-do-wersji-alternatywnej*. Jeśli użytkownik nie zobaczy najpierw niezgodnej treści , przetestuj *1.D dostep-do-wersji-niezgodnej*.
+Jeśli użytkownik najpierw napotka niezgodną wersję treści, a następnie musi przejść do dostępnej równoważnej wersji, przetestuj *1.C Dostep-do-wersji-zgodnej*. Jeśli użytkownik nie zobaczy najpierw niezgodnej treści , przetestuj *1.D Dostep-do-wersji-niezgodnej*.
 
 Tylko jeden z tych testów, 1.C lub 1D może być przeprowadzony, oba nie mogą dotyczyć tej samej dostępnej równoważnej wersji.
  
 Jeżeli test 1.C **nie ma zastosowania** do treści, o której mowa, tester musi przeprowadzić test 1.D. Możliwe jest, że wiele dostępnych równoważnych wersji **różnych** treści jest prezentowanych na różne sposoby (więc zarówno test 1.C, jak i 1.D mogą mieć zastosowanie, gdy oceniane są **różne** dostępne równoważne treści).
 
 
-Na przykład tester może testować stronę internetową, która tylko na jednej stronie ma przycisk przełączania, który włączyć ustawienia dostępności dla formularzy. Ponieważ użytkownik otrzymuje najpierw wersję niezgodną z wymaganiami, zostanie ona przetestowana dla 1.C dostep-do-wersji-alternatywnej. W innym miejscu witryny znajduje się strona internetowa z dwoma łączami, które prowadzą użytkowników do „łącza do dostępnej wersja tabeli” lub „łącza do niezgodnego wykresu”. Ponieważ użytkownikowi nie została przedstawiona najpierw treść zgodna, tester wykona  najpierw test 1.D dostep-do-wersji-niezgodnej. 
+Na przykład tester może testować stronę internetową, która tylko na jednej stronie ma przycisk przełączania, który włączyć ustawienia dostępności dla formularzy. Ponieważ użytkownik otrzymuje najpierw wersję niezgodną z wymaganiami, zostanie ona przetestowana dla 1.C Dostep-do-wersji-zgodnej. W innym miejscu witryny znajduje się strona internetowa z dwoma łączami, które prowadzą użytkowników do „łącza do dostępnej wersja tabeli” lub „łącza do niezgodnego wykresu”. Ponieważ użytkownikowi nie została przedstawiona najpierw treść zgodna, tester wykona  najpierw test 1.D Dostep-do-wersji-niezgodnej. 
  
 W danym momencie można użyć tylko **jednej** metody prezentacji każdej dostępnej równoważnej wersji, która podlega ocenie. Albo warunek testowy 1.C, albo 1.D musi być oceniony jako **spełniony** dla każdej dostępnej równoważnej wersji, aby można ją uznać za zgodną wersją alternatywną i kontynuować testowanie w 1.E.
 
@@ -258,7 +258,7 @@ Do osiągnięcia zgodnej wersji alternatywnej można zastosować różne metody,
 
 ### Zastosowanie
 
-Test 1.C dostep-do-wersji-alternatywnej **nie ma zastosowania**, jeśli  
+Test 1.C Dostep-do-wersji-zgodnej **nie ma zastosowania**, jeśli  
 - istnieje tylko jedna wersja treści albo 
 - test z identyfikatorem 1.A lub 1.B został oceniony jako **NIE MA ZASTOSOWANIA**, albo 
 - jeśli użytkownik nie spotyka się najpierw z wersją niezgodną (wtedy przejdź do testu 1.D).
@@ -319,11 +319,11 @@ Wszystkie wersje treści powinny zostać przetestowane i uwzględnione w raporci
 
 ### Dostep do wersji niezgodnej
 
-### Test 1.D dostep-do-wersji-niezgodnej
+### Test 1.D Dostep-do-wersji-niezgodnej
 
 | Nazwa testu | ID testu | Warunek testowy |
 |------------------------|---------|--------------------------------------------|
-| dostep-do-wersji-niezgodnej | 1.D | Dostęp do wersji niezgodnej można uzyskać tylko z wersji zgodnej. |
+| Dostep-do-wersji-niezgodnej | 1.D | Dostęp do wersji niezgodnej można uzyskać tylko z wersji zgodnej. |
 
 ### Cel testu 
 Ten test, podobnie jak poprzedni, wymaga najpierw zrozumienia, w jaki sposób można uzyskać dostęp do równoważnej dostępnej wersji, a następnie podjęcia decyzji o zastosowaniu testu 1.C lub 1.D. Jeśli test 1.C **nie miał zastosowania**, ponieważ użytkownik nie zaczyna od strony z wersją niezgodną, wykonaj test 1.D. Testów 1.C i 1.D nie można zastosować jednocześnie do tej samej dostępnej wersji równoważnej. (Mogą one mieć zastosowanie do dwóch różnych dostępnych równoważnych wersji o różnej zawartości lub funkcjonalności).
@@ -354,7 +354,7 @@ W testach w świecie rzeczywistym częściej spotyka się scenariusz, który by�
 
 
 ### Zastosowanie:
-Test 1.D dostep-do-wersji-niezgodnej **nie ma zastosowania**, jeśli 
+Test 1.D Dostep-do-wersji-niezgodnej **nie ma zastosowania**, jeśli 
 
 -   jest tylko jedna wersja treści **lub**
 -   test 1.A lub test 1.B oceniono jako **nie ma zastosowania**, **lub**
@@ -399,11 +399,11 @@ Jeśli którekolwiek z twierdzenie poniżej jest **prawdą**, wówczas strona (t
 
 ## Brak zakłóceń
 
-### Test 1.E bez-zaklocen
+### Test 1.E Bez-zaklocen
 
 | Nazwa testu | ID testu | Warunek testowy |
 |------------------------|---------|--------------------------------------------|
-| bez-zaklocen | 1.E     | Treści w wersjach niezgodnych spełniają wymóg zgodności 5. |
+| Bez-zaklocen | 1.E     | Treści w wersjach niezgodnych spełniają wymóg zgodności 5. |
 
 ### Cel testu
 
@@ -425,7 +425,7 @@ Wyniki tego testu służą do ustalenia, czy spełnione są [wymagania WCAG  5.2
 Niezgodne wersje treści, które mają alternatywną wersję zgodną.
 
 ### Zastosowanie
-Test 1.E bez-zaklocen **nie ma zastosowania**, jeżeli:
+Test 1.E Bez-zaklocen **nie ma zastosowania**, jeżeli:
 
 -  jest tylko jedna wersja treści, **lub**
 

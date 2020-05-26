@@ -15,9 +15,9 @@ Ponadto celem tego scenariusza jest sprawdzenie, czy informacje tekstowe i istot
 Wpływ tego wymogu nie ogranicza się do użytkowników technologii wspomagających.
 
 Scenariusz „Charakterystyki zmysłowe i kontrast” obejmuje trzy testy:
-1.	Użycie koloru - Test 13.A 1.4.1-uzycie-koloru
-2.	Użycie właściwości zmysłowych - Test 13.B 1.3.3-charakterystyki-zmyslowe
-3.	Kontrast kolorów - Test 13.A 1.4.1-uzycie-koloru
+1.	Test 13.A 1.4.1-uzycie-koloru
+2.	Test 13.B 1.3.3-charakterystyki-zmyslowe
+3.	Test 13.C 1.4.3-kontrast
 
 ## Użycie koloru
 
@@ -137,7 +137,7 @@ Część testu 13.A 1.4.1-uzycie-koloru polega na upewnieniu się, że sam kolor
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
-| Test 13.C 1.4.3-kontrast   | Wizualna prezentacja tekstu i obrazy tekstu mają wystarczający kontrast. |
+| 1.4.3-kontrast   | Wizualna prezentacja tekstu i obrazy tekstu mają wystarczający kontrast. |
 
 ### Cel testu 13.C 1.4.3-kontrast
 Celem tego testu jest zapewnienie wystarczającego kontrastu między tekstem pierwszego planu i jego tłem, aby był czytelny. Dotyczy to tekstu i obrazów tekstu. Wyniki tego testu są wykorzystywane do ustalenia, czy kontrast WCAG SC 1.4.3 (minimum) jest spełniony.

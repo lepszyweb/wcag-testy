@@ -13,20 +13,20 @@ Celem tego scenariusza testowego jest sprawdzenie, czy każda strona, każda ram
 
 Scenariusz testowy „Tytuły stron i ramek” obejmuje cztery testy:
 
-1.	Test 12.A 2-4-2-okreslony-tytul-strony
+1.	Test 12.A 2-4-2-okreslono-tytul-strony
 2.	Test 12.B 2-4-2-tytul-opisuje-tresc-strony
-3.	Test 12.C 4-1-2-okreslony-tytul-ramki
-4.	Test 12.D 4-1-2-okreslona-nazwa-ramki-łaczonej
+3.	Test 12.C 4-1-2-okreslono-tytul-ramki
+4.	Test 12.D 4-1-2-nazwa-ramki-łaczonej
 
 ## Tytuły stron
 
-### Test 12.A 2-4-2-okreslony-tytul-strony
+### Test 12.A 2-4-2-okreslono-tytul-strony
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
-| 2-4-2-okreslony-tytul-strony | 12.A    | Strona ma tytuł zdefiniowany w kodzie znacznikiem `<title>`. |
+| 2-4-2-okreslono-tytul-strony | 12.A    | Strona ma tytuł zdefiniowany w kodzie znacznikiem `<title>`. |
 
-### Cel testu 12.A 2-4-2-okreslony-tytul-strony
+### Cel testu 12.A 2-4-2-okreslono-tytul-strony
 
 Każda strona powinna mieć tytuł opisujący jej treść. Celem tego testu jest sprawdzenie, czy tytuł został określony programowo dla każdej strony internetowej. Tytuły stron pomagają szczególnie użytkownikom z ograniczeniami wzroku, mobilności i poznawczymi określać i rozróżniać treść oraz łatwo nawigować między stronami internetowymi. 
 
@@ -117,13 +117,13 @@ Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść)
 
 ## Ramki
 
-### Test 12.C 4-1-2-okreslony-tytul-ramki
+### Test 12.C 4-1-2-okreslono-tytul-ramki
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
-| 4-1-2-okreslony-tytul-ramki | 12.C    | Każdy element `<frame>`ma atrybut tytułu, który opisuje treść ramki. 
+| 4-1-2-okreslono-tytul-ramki | 12.C    | Każdy element `<frame>`ma atrybut tytułu, który opisuje treść ramki. 
 
-### Cel testu 12.A 2-4-2-okreslony-tytul-strony
+### Cel testu 12.A 2-4-2-okreslono-tytul-strony
 
 
 Celem tego testu jest sprawdzenie, czy każda ramka ma atrybut `title` z tytułem opisującym treść ramki. Użytkownicy, którzy polegają na powiązaniach programowych, np. użytkownicy czytników ekranu, potrzebują sposobu na określenie celu lub tematu ramki, oraz i podjęcie decyzji, czy chcą z nimi wchodzić w interakcje.
@@ -147,7 +147,7 @@ Użyj ANDI, aby wykryć wszystkie ramki.
 
 ### Zastosowanie
 
-Test 12.C: 4-1-2-okreslony-tytul-ramki  **nie ma zastosowania**, jeśli na stronie nie ma ramek. W takim przypadku oznacz wynik testu jako **ND**. 
+Test 12.C: 4-1-2-okreslono-tytul-ramki  **nie ma zastosowania**, jeśli na stronie nie ma ramek. W takim przypadku oznacz wynik testu jako **ND**. 
 
 ### Jak testować
 
@@ -177,13 +177,13 @@ Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełn
 
 ## Ramki łaczone (iframe)
 
-### 4.	Test 12.D 4-1-2-okreslona-nazwa-ramki-łaczonej
+### 4.	Test 12.D 4-1-2-nazwa-ramki-łaczonej
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
-| 4-1-2-okreslona-nazwa-ramki-łaczonej | 12.D    | Kombinacja dostępnej nazwy i opisu każdej `<iframe>` opisuje jej zawartość. |
+| 4-1-2-nazwa-ramki-łaczonej | 12.D    | Kombinacja dostępnej nazwy i opisu każdej `<iframe>` opisuje jej zawartość. |
 
-### Cel testu 12.D 4-1-2-okreslona-nazwa-ramki-łaczonej
+### Cel testu 12.D 4-1-2-nazwa-ramki-łaczonej
 
 Celem tego testu jest sprawdzenie, czy każda ramka łączona  ma dostępną nazwę lub dostępny opis, które opisują treść ramki. Użytkownicy, którzy polegają na powiązaniach programowych, np. użytkownicy czytników ekranu, potrzebują sposobu na określenie celu lub tematu ramki łączonej i podjęcie decyzji, czy chcą z nimi wchodzić w interakcje.
 
@@ -212,7 +212,7 @@ Użyj ANDI, aby zidentyfikować wszystkie ramki `iframe` w kolejności tabulator
 
 ### Zastosowanie
 
-Test 12.D 4-1-2-okreslona-nazwa-ramki-łaczonej  **nie ma zastosowania**, jeśli na stronie nie ma ramek łączonych **lub** jeśli istniejące ramki `<iframe>` są poza porządkiem tabulacji. W takim przypadku oznacz wynik testu jako **ND**. 
+Test 12.D 4-1-2-nazwa-ramki-łaczonej  **nie ma zastosowania**, jeśli na stronie nie ma ramek łączonych **lub** jeśli istniejące ramki `<iframe>` są poza porządkiem tabulacji. W takim przypadku oznacz wynik testu jako **ND**. 
 
 
 ### Jak testować
