@@ -11,19 +11,19 @@ folder: testy/tz
 
 | ID testu | Nazwa testu                              | Wymagania Sekcji 508 / WCAG                         |
 |--------------------------------------------------|--------------------------------------------------------|
-| 1.A | Wersja-alt-zgodna                     | Zgodn.1 Wymogi zgodności 1. Poziom zgodności     | 
-| 1.B | Wersja-alt-rownowazna                     | Zgodn.1 Wymogi zgodności 1. Poziom zgodności     | 
-| 1.C | Dostep-z-wersji-niezgodnej                         | Zgodn.1 Wymogi zgodności 1. Poziom zgodności     | 
-| 1.D | Dostep-do-wersji-niezgodnej                      | Zgodn.1 Wymogi zgodności 1. Poziom zgodności     | 
-| 1.E | Bez-zaklocen                           | Zgodn.5 Wymogi zgodności 5.2.5 Bez zakłóceń      | 
-| 2.A | 1.4.2-sterowanie-dzwiekiem                        | 1.4.2 Kontrola odtwarzania dźwięku<br>Zgodn.5 Wymogi zgodności 5.2.5 Bez zakłóceń       | 
-| 2.B | 2.2.2-tresci-ruchome            | 2.2.2 Pauza, zatrzymanie, ukrycie<br>Zgodn.5 Wymogi zgodności 5.2.5 Bez zakłóceń       | 
-| 2.C | 2.2.2-automatyczna-aktualizacja                        | 2.2.2 Pauza, zatrzymanie, ukrycie<br>Zgodn.5 Wymogi zgodności 5.2.5 Bez zakłóceń       |
+| 1.A | Wersja-alt-zgodna                     | Wymogi zgodności 1. Poziom zgodności     | 
+| 1.B | Wersja-alt-rownowazna                     | Wymogi zgodności 1. Poziom zgodności     | 
+| 1.C | Dostep-z-wersji-niezgodnej                         | Wymogi zgodności 1. Poziom zgodności     | 
+| 1.D | Dostep-do-wersji-niezgodnej                      | Wymogi zgodności 1. Poziom zgodności     | 
+| 1.E | Bez-zaklocen                           | Wymogi zgodności 5.2.5 Bez zakłóceń      | 
+| 2.A | 1.4.2-sterowanie-dzwiekiem                        | 1.4.2 Kontrola odtwarzania dźwięku<br>Wymogi zgodności 5.2.5 Bez zakłóceń       | 
+| 2.B | 2.2.2-tresci-ruchome            | 2.2.2 Pauza, zatrzymanie, ukrycie<br>Wymogi zgodności 5.2.5 Bez zakłóceń       | 
+| 2.C | 2.2.2-automatyczna-aktualizacja                        | 2.2.2 Pauza, zatrzymanie, ukrycie<br>Wymogi zgodności 5.2.5 Bez zakłóceń       |
 | 2.D | 4.1.2-powiadamianie-o-automatycznej-zmianie                   | 4.1.2 Nazwa, rola, wartość                                |           |
-| 3.A | 2.3.1-migotanie                             | 2.3.1 2.3.1 Trzy błyski lub przekaz podprogowy<br>Zgodn.5 Wymogi zgodności 5.2.5 Bez zakłóceń       | 
+| 3.A | 2.3.1-migotanie                             | 2.3.1 2.3.1 Trzy błyski lub przekaz podprogowy<br>Wymogi zgodności 5.2.5 Bez zakłóceń       | 
 | 4.A | 2.1.1-dostęp z klawiatury                      | 2.1.1 Klawiatura                                         | 
 | 4.B | 2.1.1-bez-czasu-nacisniecia-klawiszy                  | 2.1.1 Klawiatura                                         |
-| 4.C | 2.1.2-bez-pułapki-na-klawiaturę                     | 2.1.2 Bez pułapki na klawiaturę<br>Zgodn.5 Wymogi zgodności 5.2.5 Bez zakłóceń       |
+| 4.C | 2.1.2-bez-pułapki-na-klawiaturę                     | 2.1.2 Bez pułapki na klawiaturę<br>Wymogi zgodności 5.2.5 Bez zakłóceń       |
 | 4.D | 2.4.7-widoczny-fokus                        | 2.4.7 Widoczny fokus                                    |
 | 4.E | 3.2.1-po-oznaczeniu-fokusem                             | 3.2.1 Po zaznaczeniu fokusem                                         |
 | 4.F | 2.4.3-kolejnosc-fokusa                  | 2.4.3 Kolejność fokusa                                      |
@@ -130,7 +130,7 @@ folder: testy/tz
 | 3.3.3 Sugestie korekty błędów  | 5.G / 3.3.3-sugestie-poprawy-bledow                     | 
 | 3.3.4 Zapobieganie błędom (formularze prawne,<br />finansowe, z&nbsp;podawaniem danych) | 5.H / 3.3.4-zapobieganie-błedom | 
 | 4.1.1 Parsowanie  | 20.A / 2.4.5-parsowanie                             | 
-| 4.1.2 Nazwa, rola, wartość | 12.C / 4-1-2-okreslono-tytul-ramki<br>12.D / 4.1.2-iframe-name<br>2.D / 4.1.2-powiadamianie-o-automatycznej-zmianie<br>5.C / 1.3.1-etykiety-instrukcje-powiązane-programowo<br>5.E / 4.1.2-powiadomienia-o-zmianie<br>6.A / 2.4.4-cele-laczy-przyciskow<br>6.B / 4.1.2-lacza-powiadomienia-o-zmianach<br>7.A / 1.1.1-znaczaca-nazwa-obrazu<br>7.B / 1.1.1-obrazy-dekoracyjne<br>7.C / 1.1.1-dekoracyjne-obrazy-tla<br>7.D / 1.1.1-alternatywa-captcha  | 
+| 4.1.2 Nazwa, rola, wartość | 12.C / 4-1-2-okreslono-tytul-ramki<br>12.D / 4-1-2-okreslono-tytul-ramki<br>2.D / 4.1.2-powiadamianie-o-automatycznej-zmianie<br>5.C / 1.3.1-etykiety-instrukcje-powiązane-programowo<br>5.E / 4.1.2-powiadomienia-o-zmianie<br>6.A / 2.4.4-cele-laczy-przyciskow<br>6.B / 4.1.2-lacza-powiadomienia-o-zmianach<br>7.A / 1.1.1-znaczaca-nazwa-obrazu<br>7.B / 1.1.1-obrazy-dekoracyjne<br>7.C / 1.1.1-dekoracyjne-obrazy-tla<br>7.D / 1.1.1-alternatywa-captcha  | 
 | 4.1.3 Komunikaty o stanie | |
 | 36 CFR 1194 503.4 Kontrolki napisów i audiodeskrypcji | 17.D / 503.4-sterowanie-napisami-i-audiodeskrypcją        | 
 | 36 CFR 1194 503.4.1 Kontrolki napisów    | 17.E / 503.4.1-sterowanie-napisami                   |
