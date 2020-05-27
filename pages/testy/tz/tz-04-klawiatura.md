@@ -25,14 +25,14 @@ Do wykonania testów dostępu z klawiatury i widoczności fokusa klawiatury nie 
 
 Procedura testowa „Dostęp z klawiatury i fokus” obejmuje osiem testów:
 
-- 4.A - 2.1.1-dostęp z klawiatury
-- 4.B - 2.1.1-bez-czasu-nacisniecia-klawiszy
-- 4.C - 2.1.2-bez-pułapki-na-klawiaturę 
-- 4.D - 2.4.7-widoczny-fokus
-- 4.E - 3.2.1-po-oznaczeniu-fokusem
-- 4.F - 2.4.3-kolejnosc-fokusa
-- 4.G - 2.4.3-fokus-do-tresci-odkrytej
-- 4.H - 2.4.3-powrot-fokusa-do-porządku
+- Test 4.A - 2.1.1-dostęp z klawiatury
+- Test 4.B - 2.1.1-bez-czasu-nacisniecia-klawiszy
+- Test 4.C - 2.1.2-bez-pułapki-na-klawiaturę 
+- Test 4.D - 2.4.7-widoczny-fokus
+- Test 4.E - 3.2.1-po-oznaczeniu-fokusem
+- Test 4.F - 2.4.3-kolejnosc-fokusa
+- Test 4.G - 2.4.3-fokus-do-tresci-odkrytej
+- Test 4.H - 2.4.3-powrot-fokusa-do-porządku
 
 
 ## Dostęp z klawiatury
@@ -41,7 +41,7 @@ Procedura testowa „Dostęp z klawiatury i fokus” obejmuje osiem testów:
 
 | Nazwa testu             | ID testu | Warunek testowy |
 |----------------|------|-------------------------------------------------------------------|
-| 2.1.1-dostep-z-klawiatury | 4.A     | Wszystkie funkcje mogą być dostępne i wykonywane tylko za pomocą klawiatury. |
+| 2.1.1-dostep-z-klawiatury | 4.A     | Wszystkie funkcje i wszystkie informacje, które są niezbędne lub wymagane do wykonania danej czynności, mogą być dostępne i  wykonywane wyłącznie za pomocą klawiatury. |
 
 ### Cel testu
 Celem tego testu jest ustalenie, czy wszystkie działania na stronie internetowej i wszystkie informacje niezbędne lub wymagane do ukończenia działania są dostępne i mogą być wykonywane przez osoby, które mogą się posługiwać tylko klawiaturą, wyłącznie za pomocą klawiatury bez potrzeby użycia innych interfejsów. 
@@ -51,7 +51,7 @@ Niektóre osoby (w tym osoby niewidome, z ograniczeniami wzroku, z ograniczeniam
 
 **Uwaga**:
 - Informacje w atrybucie `title` są uważane za niezbędne lub wymagane, gdy są niezbędne do wykonania działania lub zrozumienia informacji i relacji.
-- Informacje w atrybucie `title` pojawiają się często jako podpowiedzi po najechaniu na element wskaźnikiem myszy. W większości przeglądarek informacje w atrybucie `title `nie są dostępne dla użytkowników korzystających wyłącznie z klawiatury, jeśli nie zastosowano dodatkowego kodowania, które je odsłania.
+- Informacje w atrybucie `title` pojawiają się często jako podpowiedzi po najechaniu na element wskaźnikiem myszy. W większości przeglądarek informacje w atrybucie `title` nie są dostępne dla użytkowników korzystających wyłącznie z klawiatury, jeśli nie zastosowano dodatkowego kodowania, które je odsłania.
 
 Wyniki tego testu pozwalają ustalić, czy spełnione jest [kryterium sukcesu 2.1.1 Klawiatura](https://wcag.lepszyweb.pl/#keyboard).
 
@@ -81,9 +81,9 @@ Dane wejściowe zależne od ścieżki wymagają wprowadzenia danych za pomocą r
 
 Czynności takie jak rysowanie linii prostych, regularnych kształtów geometrycznych, zmiana rozmiaru okien i przeciąganie obiektów w wybrane miejsce (gdy ścieżka do tego miejsca nie jest istotna) nie wymagają wprowadzania danych zależnych od ścieżki.
 
-Ponieważ różnica pomiędzy tymi funkcjami może być trudna do określenia, testerzy nie s zobowiązani do określania, czy funkcje zależą od ścieżki ruchu użytkownika. Przetestuj wszystkie funkcje. <!-- a jeśli z powodu funkcji zależnej od ścieżki dojdzie do defektu dostępności klawiatury, koordynator sekcji 508 może uznać wyjątek dotyczący zmiany fundamentalnej.-->
+Ponieważ różnica pomiędzy tymi funkcjami może być trudna do określenia, testerzy nie są zobowiązani do określania, czy funkcje zależą od ścieżki ruchu użytkownika. Przetestuj wszystkie funkcje. <!-- a jeśli z powodu funkcji zależnej od ścieżki dojdzie do defektu dostępności klawiatury, koordynator sekcji 508 może uznać wyjątek dotyczący zmiany fundamentalnej.-->
 
-###Zastosowanie:
+### Zastosowanie
 
 Test 4.A 2.1.1-dostep-z-klawiatury **nie ma zastosowania**, jeśli na stronie nie ma interaktywnych elementów treści, na których można ustawić fokus klawiatury.
 
@@ -104,19 +104,17 @@ Jeśli na stronie nie ma interaktywnych elementów treści, na których można u
 1.  Użyj myszy, aby zidentyfikować funkcjonalności i niezbędne informacje dostarczane przez elementy interaktywne.
 
     1.  Funkcja ANDI: interaktywne > „atrybuty title” może pomóc zidentyfikować wszelkie istotne informacje zawarte w atrybutach `title`.
-
-   - Jeśli nie ma przycisku „atrybuty title”, to znaczy, że na stronie nie ma atrybutów `title`.
-   - Ustal przypadki, w których atrybut `title` zawiera informacje niezbędne do zrozumienia lub obsługi treści strony.
-
+	
+	   - Jeśli nie ma przycisku „atrybuty title”, to znaczy, że na stronie nie ma atrybutów `title`.
+	   - Ustal przypadki, w których atrybut `title` zawiera informacje niezbędne do zrozumienia lub obsługi treści strony.
 
 2.  Użyj klawiatury, aby obsługiwać konkretną funkcjonalność i uzyskać dostęp do niezbędnych informacji:   klawiszem Tab uzyskaj dostęp do elementu i uruchom funkcjonalność (np. naciśnij klawisz Enter).
 
-    1.  W przypadku elementów interaktywnych z atrybutami `title` umieść fokus klawiatury na elemencie. Jeśli podpowiedź nie pojawi się w ciągu dwóch sekund, fokus klawiatury nie ujawnia informacji z atrybutu `title`.
+    1.  W przypadku elementów interaktywnych z atrybutami `title` umieść fokus klawiatury na elemencie. Jeśli w ciągu dwóch sekund nie pojawi się podpowiedź, fokus klawiatury nie ujawnia informacji z atrybutu `title`.
 
     **Uwaga**: Jeśli na stronie wystąpią jakiekolwiek automatyczne zmiany funkcjonalności (takie jak wyświetlenie powiadomienia o przekroczeniu limitu czasu, aby umożliwić Ci zażądanie więcej czasu), należy je tutaj przetestować.
 	
 	Jeśli na stronie wystąpią jakiekolwiek zmiany w wyniku z interakcji ze stroną (takie jak ujawnienie dodatkowych pól formularza), należy je tutaj przetestować.
-
 
 3.  Jeśli element interaktywny nie ma dostępu do klawiatury, sprawdź, czy na stronie dostępna jest inna metoda dostępna za pomocą klawiatury, która zapewnia tę samą funkcjonalność, np. jedna z dwóch podanych metod  drukowania jest dostępna za pomocą klawiatury itp. Aby uzyskać szczegółowe informacje, zobacz [Zgodna wersja alternatywna](tz-01-alternatywne.md)
 
@@ -128,7 +126,7 @@ Jeśli na stronie nie ma interaktywnych elementów treści, na których można u
 
 ### Ocena wyników
 
-Jeśli OBA poniższe twierdzenia są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 2.1.1:
+Jeśli **oba** poniższe twierdzenia są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 2.1.1:
 
 1.  Dostęp do wszystkich funkcji można uzyskać za pomocą klawiatury **oraz**
 

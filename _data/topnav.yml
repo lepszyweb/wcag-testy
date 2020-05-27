@@ -37,7 +37,7 @@ topnav_dropdowns:
         - title: Wprowadzenie
           url: /testy-wprowadzenie
         - title: Łatwe testy dostępności
-          url: /00-P-wprowadzenie
+          url: /latwe-testy
         - title: Testy zgodności z WCAG
           url: /H0-00-wprowadzenie
         - title: Bazy źródłowe
