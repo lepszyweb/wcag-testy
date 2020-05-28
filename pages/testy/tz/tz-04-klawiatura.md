@@ -167,14 +167,14 @@ Sprawdzasz wszystkie elementy interaktywne i wszystkie funkcjonalności zidentyf
 
 **Uwaga**. Ten test nie wymaga oceniania, czy funkcjonalności nie podlegają temu wymogowi ze na funkcję wymagającą danych wejściowych zależną od ścieżki ruchu użytkownika. 
 
-### Zastosowanie:
+### Zastosowanie
 
 Test 4.B 2.1.1-bez-czasu-nacisniecia **nie ma zastosowania**, jeśli na stronie nie ma funkcji aktywowanych przez użytkownika (takie sytuacje są raczej niespotykane, ale możliwe).
 
 **Uwaga**: Jeśli test 4.A 2-1-1 został oznaczony jako **nie ma zastosowania**, to test 4.B 2.1.1-bez-czasu-nacisniecia również **nie ma zastosowania**.
 
 
-### Jak testować:
+### Jak testować
 
 1.  Kontynuuj test 4.A.
 
@@ -233,7 +233,7 @@ Test 4.C 2.1.2-bez-pulapki-na-klawiature **nie ma zastosowania**, jeśli na stro
 **Uwaga**: Jeśli test 4.A 2-1-1 został oznaczony jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a więc także test 4.C 2.1.2-bez-pulapki-na-klawiature **nie ma zastosowania**.
 
 
-#### Jak testować:
+#### Jak testować
 
 1.  Nawiguj tabulatorem między wszystkimi komponentami strony, na których można ustawić fokus klawiatury.
 2.  Ustal, czy istnieją przypadki, w których nawigacja klawiaturą jest zablokowana:
@@ -311,7 +311,7 @@ Test 4.D 2.4.7-widoczny-fokus **nie ma zastosowania**, jeśli na stronie nie ma 
 **Uwaga**: Jeśli test 4.A 2-1-1 został oznaczony jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a więc także test 4.D 2.4.7-widoczny-fokus **nie ma zastosowania**.
 
 
-#### Jak testować:
+#### Jak testować
 
 1.  Kontynuuj test 4.C.
 
@@ -425,7 +425,7 @@ Test 4.F 2.4.3-kolejnosc-fokusa  **nie ma zastosowania**, jeśli na stronie nie 
 
 **Uwaga**: Jeśli test 4.F 2.4.3-kolejnosc-fokusa jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a więc także test 4.F 2.4.3-kolejnosc-fokusa **nie ma zastosowania**.
 
-### Jak testowa
+### Jak testować
 
 1.  Ustaw kursor w pasku adresu przeglądarki, a następnie użyj klawisza Tab, aby przemieszczać się do kolejnych interaktywnych elementów strony (łącza, przyciski, przełączniki, pola formularzy, itd.).  Nie używaj myszy.
 
@@ -477,7 +477,7 @@ Wszystkie interaktywne elementy treści.
 
 Użyj klawiatury, aby poruszać się po wszystkich komponentach interfejsu dostępnych z klawiatury **oraz** wszystkich interaktywnych komponentów interfejsu (łącza, przyciski, przełączniki, pola formularzy, rozwijane menu, treść odkrywana/ukrywana itd.). 
 
-### Zastosowanie:
+### Zastosowanie
 Test 4.G 2.4.3-fokus-do-tresci-odkrytej  **nie ma zastosowania**, jeśli na stronie nie ma komponentów, na których można ustawić fokus klawiatury, czyli nie ma funkcji aktywowanych przez użytkownika (takie sytuacje są raczej niespotykane, ale możliwe).
 
 **Uwaga**: Jeśli test 4.G 2.4.3-fokus-do-tresci-odkrytej jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a więc także test 4.G 2.4.3-fokus-do-tresci-odkrytej  **nie ma zastosowania**.
@@ -485,7 +485,7 @@ Test 4.G 2.4.3-fokus-do-tresci-odkrytej  **nie ma zastosowania**, jeśli na stro
 **Uwaga**: Ten test **nie jest stosowany**, gdy element interaktywny otwiera całkowicie nową stronę treści, na przykład gdy łącze prowadzi użytkownika do nowej strony internetowej.
 
 
-#### Jak testować:
+#### Jak testować
 
 1. Użyj klawiatury, aby aktywować elementy sterujące, które ujawniają ukrytą treść (np. menu, okna dialogowe, modalne okna dialogowe).
 
@@ -530,12 +530,13 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 
 Wszystkie interaktywne elementy treści.
 
 Użyj klawiatury, aby poruszać się po wszystkich komponentach interfejsu dostępnych z klawiatury **oraz** wszystkich interaktywnych komponentów interfejsu (łącza, przyciski, przełączniki, pola formularzy, rozwijane menu, treść odkrywana/ukrywana itd.). 
-### Zastosowanie:
+
+### Zastosowanie
 Test 4.H 2.4.3-powrot-fokusa-do-porządku **nie ma zastosowania**, jeśli na stronie nie ma komponentów, na których można ustawić fokus klawiatury, czyli nie ma funkcji aktywowanych przez użytkownika (takie sytuacje są raczej niespotykane, ale możliwe).
 
 **Uwaga**: Jeśli test 4.H 2.4.3-powrot-fokusa-do-porządku jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a więc także test 4.H 2.4.3-powrot-fokusa-do-porządku **nie ma zastosowania**.
 
-### Jak testować:
+### Jak testować
 
 1.  Kontynuuj test 4.G
 
