@@ -6,7 +6,7 @@ analiza_testow: "Proces analizy podstawy testów i definiowania celów testu."
 
 audyt: "Niezależne badanie produktu pracy, procesu lub zestawu procesów wykonywanych przez stronę trzecią w celu oceny zgodności ze specyfikacjami, standardami, umowami lub innymi kryteriami. Wg [IEEE 1028]."
 
-awaria: "Odchyłłka modułu lub systemu od oczekiwanego zachowania lub rezultatu działania (wg Fenton)."
+awaria: "Odchyłka modułu lub systemu od oczekiwanego zachowania lub rezultatu działania (wg Fenton)."
 
 cel_testu: "Przyczyna lub powód zaprojektowania i przeprowadzania testu."
 
@@ -56,7 +56,7 @@ norma: "Formalny, o ile to możliwe obowiązkowy, zbiór wymagań stworzony i uz
 
 oceniajacy: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny."
 
-ocena_heurystyczna: "Technika statycznego testowania użytecznoscci mająca na celu określenie zgodności interfejsu użytkownika lub projektu tego interfejsu. Wykorzystując tę technikę przeglądający sprawdzają interfejs i oceniają jego zgodność z uznanymi zasadami użyteczności (tzw. &bdquo;heurystykami&rdquo;)."
+ocena_heurystyczna: "Technika statycznego testowania użytecznoscci mająca na celu określenie zgodności interfejsu użytkownika lub projektu tego interfejsu. Wykorzystując tę technikę przeglądający sprawdzają interfejs i oceniają jego zgodność z&nbsp;uznanymi zasadami użyteczności (tzw. &bdquo;heurystykami&rdquo;)."
 
 planowanie_testow: "Czynność tworzenia planów testów lub wprowadzanie do nich zmian."
 
@@ -66,7 +66,7 @@ podejscie_do_testowania: "Implementacja strategii testowej w określonym projekc
 
 podstawa_testow: "Wszystkie dokumenty, z których można wywnioskować wymagania dla moddułu lub systemu. Dokumentacja, na podstawie której oparte są przypadki testowe."
 
-podstawowy_zestaw_testow: "Zestaw przypadków testowych powstały na podstawie wewnętrznej struktury modułu lub specyfikacji, któóry zapewnia 100% określonego kryterium pokrycia."
+podstawowy_zestaw_testow: "Zestaw przypadków testowych powstały na podstawie wewnętrznej struktury modułu lub specyfikacji, który zapewnia 100% określonego kryterium pokrycia."
 
 pokrycie: "Stopień, wyrażony w procentach, w jakim określone elementy pokrycia zostały określone lub sprawdzone przez zestaw testowy."
 
@@ -84,7 +84,7 @@ przeglad: "Ocena produktu lub statusu projektu mająca na celu stwierdzenie rozb
 
 przeglad_formalny: "Przeglad charakteryzujący się udokumentowanymi procedurami i wymaganiami, np. inspekcja."
 
-przeglad_nieformalny: "Przegląd, któóry nie jest oparty na formalnej (udokumentowanej) procedurze."
+przeglad_nieformalny: "Przegląd, który nie jest oparty na formalnej (udokumentowanej) procedurze."
 
 przypadek_testowy: "Zestaw warunków wstępnych, danych wejściowych, akcji (w stosownych przypadkach), oczekiwanych rezultatów i warunków końcowych opracowany w oparciu o warunki testowe. Wg [ISO/IEC/IEEE 29119]"
 

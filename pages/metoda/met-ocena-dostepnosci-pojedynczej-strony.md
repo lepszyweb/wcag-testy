@@ -7,8 +7,8 @@ folder: metoda
 ---
 
 ## Wprowadzenie
-Wykonanie audytu dużej witryny złożonej z dziesiątków stron niewątpliwie wymaga wiedzy, doświadczenia, biegłości i sprawności w posługiwaniu się i dokumentacją, i narzędziami wspomagającymi audytora. Ale...
-Zanim zostaniesz doświadczonym audytorem dostępności, musisz najpierw przejść etap zdobywania i gromadzenia doświadczeń i przećwiczyć różne podejścia do oceny dostępności. Z czasem, w miarę zdobywania doświadczenia, opracujesz własną metodykę czy metodologię oceny. Odkryjesz również najlepsze dla siebie narzędzia i procedury. Ale zaczynaj od małych kroków.
+Wykonanie audytu dużej witryny złożonej z dziesiątków stron niewątpliwie wymaga wiedzy, doświadczenia, biegłości i&nbsp;sprawności w posługiwaniu się i dokumentacją, i narzędziami wspomagającymi audytora. Ale...
+Zanim zostaniesz doświadczonym audytorem dostępności, musisz najpierw przejść etap zdobywania i&nbsp;gromadzenia doświadczeń i&nbsp;przećwiczyć różne podejścia do oceny dostępności. Z czasem, w miarę zdobywania doświadczenia, opracujesz własną metodykę czy metodologię oceny. Odkryjesz również najlepsze dla siebie narzędzia i&nbsp;procedury. Ale zaczynaj od małych kroków.
 
 Jednym z nich jest opanowanie umiejętności oceny pojedynczej strony.
 
@@ -22,13 +22,13 @@ Zawsze zaczynaj od pobieżnego przeglądu strony, którą zamierzasz ocenić, ab
 Wstępny ogląd strony poprzedzamy zazwyczaj eksploracją całej witryny, aby się zorientować, jakie jest miejsce ocenianej strony w witrynie:
 - **czy jest to strona główna**, osadzona najwyżej w strukturze witryny, otwierająca witrynę, wspólna dla wszystkich stron witryny, przedstawiająca jej cel, treści, kierująca do różnych głównych obszarów witryny i do treści polecanych, na przykład najnowszych
 - **czy jest to strona docelowa**, czyli strona osadzona najniżej w strukturze witryny, ale – wraz ze wszystkimi stronami docelowymi – prezentująca główne treści witryny, artykuł, formularz kontaktowy, itp.
-- **czy jest to strona przejściowa** (nawigacyjna), osadzona w strukturze witryny między stroną główną (którą też można by zaliczyć do stron przejściowych), a stronami docelowymi – umożliwiająca użytkownikom orientację w treściach witryny i dotarcie do stron docelowych z danego obszaru witryny (kategorii, działu),
+- **czy jest to strona przejściowa** (nawigacyjna), osadzona w strukturze witryny między stroną główną (którą też można by zaliczyć do stron przejściowych), a stronami docelowymi – umożliwiająca użytkownikom orientację w&nbsp;treściach witryny i dotarcie do stron docelowych z danego obszaru witryny (kategorii, działu),
 - **czy jest to strona wspólna** dla całej witryny innego rodzaju niż strona główna, na przykład strona z warunkami użytkowania, deklaracją dostępności czy strona z mapą witryny.
 Każdy z tych czterech typów stron jest specyficzny, bo każdemu z nich przyświeca inny ogólny cel, a ocena skuteczności spełniania przez stronę jej celu jest podstawowym aspektem oceny dostępności cyfrowej. Bo przecież w ocenie dostępności cyfrowej chodzi nam o to, by sprawdzić, czy każdy użytkownik, na dowolnym urządzeniu, na dowolnym programie użytkownika (przeglądarce), z dowolnego rodzaju połączenia, w każdych warunkach, niezależnie od swojej sprawności, uzyskał dostęp do wszystkich treści i do wszystkich funkcji na stronie, aby mógł wykonać wszystkie zadania, którym strona służy.
 
 #### Krok 1b. „Wyodrębnij” do oceny kluczowe aspekty strony
 
-Raczej rzadko się zdarza, aby audytor analizował na każdej stronie spełnienie wszystkich kryteriów sukcesu WCAG, aby badał dokładnie każdy aspekt strony. Raczej jest tak, że w oparciu o swoje doświadczenie, intuicję, wyczucie, wybiera do oceny aspekty istotne dla konkretnej strony. Można by rzec, że uruchamia swój siódmy zmysł, który mu podpowiada, czym się musi zająć, a co może pominąć. lm większe ma doświadczenie, tym „siódmy zmysł” jest sprawniejszy. Oczywiście, siódmego zmysłu nie ma, a to, że jego wybory są trafne, wynika po prostu z doświadczenia. Ot widzi szybciej, dostrzega więcej.
+Raczej rzadko się zdarza, aby audytor analizował na każdej stronie spełnienie wszystkich kryteriów sukcesu WCAG, aby badał dokładnie każdy aspekt strony. Raczej jest tak, że w oparciu o swoje doświadczenie, intuicję, wyczucie, wybiera do oceny aspekty istotne dla konkretnej strony. Można by rzec, że uruchamia swój siódmy zmysł, który mu podpowiada, czym się musi zająć, a co może pominąć. lm większe ma doświadczenie, tym „siódmy zmysł” jest sprawniejszy. Oczywiście, siódmego zmysłu nie ma, a to, że jego wybory są trafne, wynika po prostu z&nbsp;doświadczenia. Ot widzi szybciej, dostrzega więcej.
 Obejrzyj stronę, którą masz ocenić, i rozważ takie kwestie:
 - **Cel**. Czy możesz określić, do czego służy ta strona? Czy jest to strona docelowa, przejściowa, główna, wspólna? Które elementy strony realizują jej główny cel?
 - **Struktura**. Jaki jest układ treści? Jakie kluczowe obszary można wyróżnić na stronie? Które z tych obszarów powtarzają się na innych stronach? Które elementy są unikalne? Pomocne może być sporządzenie szkicu strony, schematu jej zawartości.
@@ -41,7 +41,7 @@ Obejrzyj stronę, którą masz ocenić, i rozważ takie kwestie:
 
 Zazwyczaj oceniamy dostępność kluczowego, głównego obszaru strony i elementów, które są z nim   powiązane bezpośrednio. Jeśli zdecydujesz się ocenić tylko wybrane elementy strony, zdecyduj, które elementy będą oceniane.
 
-Elementy, które pojawiają się standardowo na wszystkich lub wielu stronach, takie jak nagłówek, stopka, menu administratora, oceniamy osobno. Oczywiście wszystkie inne wykryte problemy z dostępnością można zgłosić w raporcie, ale należy skupić się na specyficznych cechach testowanej strony lub ocenie wybranego elementu interfejsu użytkownika.
+Elementy, które pojawiają się standardowo na wszystkich lub wielu stronach, takie jak nagłówek, stopka, menu administratora, oceniamy osobno. Oczywiście wszystkie inne wykryte problemy z dostępnością można zgłosić w&nbsp;raporcie, ale należy skupić się na specyficznych cechach testowanej strony lub ocenie wybranego elementu interfejsu użytkownika.
 
 #### Krok 2a. Wybierz elementy strony do oceny
 
@@ -49,7 +49,7 @@ Odpowiedz sobie na pytania:
 - **Co jest główną treścią strony**? Które aspekty głównej treści strony wymagają oceny pod względem dostępności?
 - **Które elementy strony są unikalne** (nie pojawiły się jeszcze na wcześniej badanych stronach)? Jakie aspekty tych elementów wymagają zbadania?
 - **Czy na stronie są stałe elementy** (powtarzające się na innych stronach)? Które elementy strony powtarzają się na innych stronach tego samego typu bądź na wszystkich stronach witryny?
-- **Czy w elementach stałych widoczne są jakieś zmiany**? Jeśli wcześniej tego typu elementy były już badane i oceniane, zauważenie zmian może sygnalizować potrzebę ich ponownej oceny.
+- **Czy w elementach stałych widoczne są jakieś zmiany**? Jeśli wcześniej tego typu elementy były już badane i&nbsp;oceniane, zauważenie zmian może sygnalizować potrzebę ich ponownej oceny.
 
 
 #### Krok 2b. Zbadaj drzewo dostępności strony (opcjonalnie)
@@ -57,7 +57,7 @@ Odpowiedz sobie na pytania:
 Spróbuj, nawet jeśli wydaje Ci się to skomplikowane czy zbyt techniczne. Drzewo dostępności to ukryty na stronie zbiór informacji niezwykle ważnych dla technologii wspomagających. Drzewo dostępności jest podobne do drzewa DOM (Obiektowego Modelu Dokumentu). Mówiąc precyzyjniej,  drzewo dostępności jest podzbiorem DOM obejmującym tylko obiekty istotne dla dostępności strony.
 Słowo „drzewo”  podkreśla hierarchiczną strukturę tego zbioru obiektów. Wszystkie obiekty wyrastają bezpośrednio lub pośrednio ze wspólnego pnia, który jest obiektem nadrzędnym, macierzystym, głównym węzłem. Ten węzeł to ***document***.
 
-Słowo „wyrastają” opisuje raczej wygląd drzewa dostępności niż rzeczywistą strukturę, którą można sobie wyobrazić jako podobną do ludowej zabawki rosyjskiej, złożona z drewnianych, wydrążonych w środku lalek, włożonych jedna w drugą, z tym, że w matrioszce wewnątrz kolejnej babuszki znajduje się tylko jedna mniejsza, a w drzewie dostępności na każdym poziomie może znajdować się wiele równorzędnych obiektów zawierających kolejne.
+Słowo „wyrastają” opisuje raczej wygląd drzewa dostępności niż rzeczywistą strukturę, którą można sobie wyobrazić jako podobną do ludowej zabawki rosyjskiej, złożona z drewnianych, wydrążonych w środku lalek, włożonych jedna w&nbsp;drugą, z tym, że w matrioszce wewnątrz kolejnej babuszki znajduje się tylko jedna mniejsza, a w drzewie dostępności na każdym poziomie może znajdować się wiele równorzędnych obiektów zawierających kolejne.
 
 A ponieważ w drzewie dostępności zawarte są wszystkie istotne dla dostępności informacje o każdym obiekcie strony,  ważne jest, aby – nawet jeśli nie masz odpowiedniej wiedzy technicznej – od zaraz zaprzyjaźnić się z jego widokiem. Zwłaszcza, że od pewnego czasu jest to niezwykle łatwe. Wystarczy skorzystać z przeglądarki Firefox, która – pewno tylko na razie – jako jedyna oferuje podgląd drzewa dostępności i przeprowadzenia fundamentalnego dla oceny dostępności strony oglądu jej właściwości budujących dostępność.
 
@@ -71,7 +71,7 @@ Drzewo dostępności można filtrować, aby wyświetlać tylko obiekty, które n
 
 Nazwa jest podstawowym źródłem informacji dla technologii wspomagających. Informuje użytkownika, co dany element robi. Na przykład etykieta przycisku *Wyślij* informuje technologię, a za jej pośrednictwem użytkownika, że po aktywacji przycisku nastąpi przesłanie formularza. Inspektor testuje wszystkie obiekty i sprawdza, czy posiadają nazwę określoną programowo.
 
-Interpretacja wyników, jakich dostarcza Inspektor dostępności, może ci sprawić trochę kłopotów. Z czasem nabędziesz doświadczenia. Na początku po prostu odnotuj wszystko, co jest według ciebie warte odnotowania. Na przykład wszystkie problemy z obiektami bez nazw powinny zostać rozwiązane, a więc odnotowane w raporcie z oceny. Także problemy z niewystarczającym kontrastem warto wynotować, choć w tej mierze być może łatwiej ci będzie skorzystać z innego narzędzia.
+Interpretacja wyników, jakich dostarcza Inspektor dostępności, może ci sprawić trochę kłopotów. Z&nbsp;czasem nabędziesz doświadczenia. Na początku po prostu odnotuj wszystko, co jest według ciebie warte odnotowania. Na&nbsp;przykład wszystkie problemy z&nbsp;obiektami bez nazw powinny zostać rozwiązane, a więc odnotowane w&nbsp;raporcie z&nbsp;oceny. Także problemy z niewystarczającym kontrastem warto wynotować, choć w&nbsp;tej mierze być może łatwiej ci będzie skorzystać z&nbsp;innego narzędzia.
 
 Największy kłopot mogą sprawić wskazane przez Inspektora dostępności problemy z klawiaturą. Potraktuj je więc jako sygnały, które należy sprawdzić innym sposobem.
 

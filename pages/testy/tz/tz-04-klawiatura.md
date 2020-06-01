@@ -41,7 +41,7 @@ Procedura testowa „Dostęp z klawiatury i fokus” obejmuje osiem testów:
 
 | Nazwa testu             | ID testu | Warunek testowy |
 |----------------|------|-------------------------------------------------------------------|
-| 2.1.1-dostep-z-klawiatury | 4.A     | Wszystkie funkcje i wszystkie informacje, które są niezbędne lub wymagane do wykonania danej czynności, mogą być dostępne i  wykonywane wyłącznie za pomocą klawiatury. |
+| 2.1.1-dostep-z-klawiatury | 4.A     | Wszystkie funkcje i wszystkie informacje, które są niezbędne lub wymagane do wykonania danej czynności, mogą być dostępne i wykonywane wyłącznie za pomocą klawiatury. |
 
 ### Cel testu
 Celem tego testu jest ustalenie, czy wszystkie działania na stronie internetowej i wszystkie informacje niezbędne lub wymagane do ukończenia działania są dostępne i mogą być wykonywane przez osoby, które mogą się posługiwać tylko klawiaturą, wyłącznie za pomocą klawiatury bez potrzeby użycia innych interfejsów. 
@@ -126,9 +126,9 @@ Jeśli na stronie nie ma interaktywnych elementów treści, na których można u
 
 ### Ocena wyników
 
-Jeśli **oba** poniższe twierdzenia są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 2.1.1:
+Jeśli **wszystkie** poniższe twierdzenia są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 2.1.1:
 
-1.  Dostęp do wszystkich funkcji można uzyskać za pomocą klawiatury **oraz**
+1.  Za pomocą klawiatury można uzyskać dostęp do wszystkich funkcjonalności i uruchomić je **oraz**
 
 2.  Dostęp do wszystkich niezbędnych informacji można uzyskać za pomocą klawiatury **lub** informacje istnieją w innym miejscu strony.
 
