@@ -38,7 +38,7 @@ W przeglądarkach, która obsługują nawigację za pomocą klawiatury za pomoc�
 	- naciśnij Enter, gdy fokus znajdzie się na elemencie, który chcesz wybrać.
 
 ### Co sprawdzać
--	**Tab do wszystkich**: Sprawdź, czy klawiszem Tab można dotrzeć do wszystkich interaktywnych elementów na stronie, w tym linków, pól formularzy, przycisków i pokręteł odtwarzacza multimedialnego. (Częstym problemem jest to, że nie można tabulatorem do elementów sterujących odtwarzacza multimedialnego.)
+-	**Tab do wszystkich**: Sprawdź, czy klawiszem Tab można dotrzeć do wszystkich interaktywnych elementów na stronie, w tym linków, pól formularzy, przycisków i pokręteł odtwarzacza multimedialnego. (Częstym problemem jest to, że nie można dotrzeć tabulatorem do elementów sterujących odtwarzacza multimedialnego.)
 -	**Tab ze wszystkich**: Sprawdź, czy za pomocą klawisza Tab można wyjść ze wszystkich elementów, do których można było przenieść fokus. (Częstym problemem jest zatrzymanie fokusa klawiatury przez kontrolki mediów albo utknięcie wewnątrz innego elementu osadzonego na stronie, np. mapie tak, że nie można się z nich wydostać bez użycia myszki. Nazywa się to „pułapką na klawiaturę”).
 -	**Kolejność tabulacji**: Sprawdź, czy kolejność przemieszczania  następuje w logicznej kolejności czytania (np. od lewej do prawej, w przypadku języków, w których obowiązuje taki kierunek pisania,  z góry na dół).
 -	**Widoczny fokus**: Sprawdź, czy fokus jest wyraźnie widoczny, gdy przemieszczasz się prze kolejne elementy, to znaczy, czy w każdym momencie umiesz powiedzieć, w którym miejscu znajduje się fokus, np. że łącze uzyskało dodatkowe wyróżnienie (uwaga, zniknięcie podkreślenia nie jest dodatkowym wyróżnieniem!), że przycisk zmienił kolorystykę, że wokół pola  formularza pojawił się obrys. Uwaga: Nie wszystkie elementy muszą uzyskiwać taki sam wskaźnik fokusa, ale wszystkie elementy pełniące podobne funkcje powinny być oznaczane fokusem w podobny sposób.
@@ -63,3 +63,7 @@ Przejdź przez wszystkie elementy strony klawiszem Tab, a w obrębie złożonej 
 	- [Zrozumieć Kryterium sukcesu 2.1.2 Bez pułapki na klawiaturę](https://www.w3.org/WAI/WCAG21/Understanding/no-keyboard-trap.html)(poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Zrozumieć Sukces Kryterium 2.4.3 Kolejność zaznaczania](https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html)(poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Zrozumieć Kryterium sukcesu 2.4.7 Widoczny fokus](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html)(poziom AA); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+
+
+--------------------
+[&lt; Zmiana rozmiaru tekstu ](05-P-zmiana-rozmiaru-tekstu) | [Łatwe testy - spis treści](00-P-spis-tresci) | [Formularze, etykiety i błędy >](07-P-formularze)

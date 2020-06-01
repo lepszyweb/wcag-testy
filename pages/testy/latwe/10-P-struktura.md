@@ -20,25 +20,30 @@ Poniższe zdjęcia ilustrują domyślny sposób wyświetlania strony internetowe
 Rysunek A pokazuje domyślne wyświetlanie trzech kolumn z nawigacją po lewej stronie.
 
 ![Rysunek A. Domyślne wyświetlanie strony z trzema kolumnami i stopką](images/andi/10_P_linear_01.png)
+
 RysunekA
 
 Rysunek B pokazuje stronę zlinearyzowaną w jedną kolumnę, z nawigacją u góry. Rysunek C pokazuje stronę zlinearyzowaną, z nawigacją na dole. Kolejność sekcji (np. nawigacja u góry, u dołu lub w innym miejscu) zależy od projektu strony internetowej - użytkownik zwykle nie może kontrolować kolejności.
 
 ![Rysunek B. Strona zlinearyzowana w jedna kolumnę z nawigacją na górze](images/andi/10_P_linear_02.png)
+
 Rysunek B
 
 ![Rysunek C. Strona zlinearyzowana w jedna kolumnę z nawigacją na dole](images/andi/10_P_linear_03.png)
+
 Rysunek C
 
 Rysunek D pokazuje stronę zlinearyzowaną z wyłączonymi stylami. Gdy wykonasz poniższe kroki sprawdzania struktury podstawowej, twoja strona będzie wyglądać mniej więcej tak:
 
 ![Rysunek D Strona z wyłączonymi stylami](images/andi/10_P_linear_04.png)
+
 Rysunek D  
 
 Rysunek E pokazuje stronę zmienioną przez osobę słabowidzącą, aby była bardziej czytelna, na przykład główny tekst jest duży, tekst stopki jest bardzo mały, a nagłówki mają inny kolor.
 
 
 ![Rysunek E](images/andi/10_P_linear_05.png)
+
 Rysunek E  
 
 Chociaż dobrze jest mieć doświadczonego użytkownika czytnika ekranu testującego strony internetowe, każdy może uzyskać wstępne wyobrażenie o potencjalnych barierach dostępu dla użytkowników czytników ekranu i innych osób, które zmieniają sposób prezentacji strony. Poniższe kroki pokazują, jak wyłączyć obrazy, wyłączyć style wyświetlania strony i linearyzować stronę w&nbsp;celu sprawdzenia struktury strony.
@@ -86,3 +91,7 @@ Aby sprawdzić podstawową strukturę za pomocą paska narzędzi WebDeveloper:
    1. Wykonaj kolejno przedstawione powyżej testy, aby wyłączyć obrazy, wyłączyć CSS i włączyć linearyzację strony (najlepiej widać w przeglądarce Firefox). Zwróć uwagę, jak rozmieszczone są pola przeznaczone na adres e-mail. Zauważ, że etykiety nie są powiązane z polami (jest tak, ponieważ strona nieprawidłowo używa tabeli układu):
 
    ![Linearyzacja strony z formularzem. Fragment](images/andi/10_P_linear-formularz.png)
+
+
+--------------------
+[&lt; Alternatywy multimediów ](09-P-multimedia) | [Łatwe testy - spis treści](00-P-spis-tresci) | [O Łatwych testach >](latwe-testy)

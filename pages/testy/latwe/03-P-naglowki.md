@@ -130,3 +130,7 @@ Aby sprawdzić nagłówki w dowolnej przeglądarce:
 -	[Zrozumieć kryterium sukcesu 1.3.1 Informacje i relacje](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Zrozumieć kryterium sukcesu 2.4.6 Nagłówki i etykiety](https://www.w3.org/WAI/WCAG21/Understanding/headings-and-labels.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Zrozumieć kryterium sukcesu 2.4.10 Nagłówki sekcji](https://www.w3.org/WAI/WCAG21/Understanding/section-headings.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+
+
+--------------------
+[&lt; Teksty alternatywne obrazów](02-P-odpowiedniki-tekstowe-obrazow) | [Łatwe testy - spis treści](00-P-spis-tresci) | [Współczynnik kontrastu >](04-P-wspolczynnik-kontrastu)

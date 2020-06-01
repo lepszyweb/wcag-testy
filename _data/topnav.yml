@@ -39,9 +39,9 @@ topnav_dropdowns:
         - title: Łatwe testy dostępności
           url: /latwe-testy
         - title: Testy zgodności z WCAG
-          url: /H0-00-wprowadzenie
+          url: /testy-zgodnosci-z-wcag
         - title: Bazy źródłowe
-          url: /ICT-podstawa-testowania
+          url: /bazy-zrodlowe
     - title: Narzędzia
       folderitems:
         - title: Przegląd

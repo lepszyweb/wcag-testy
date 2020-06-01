@@ -45,8 +45,8 @@ Przeprowadzanie przeglądów dostępności w oparciu o bazę łatwych testów i 
 Baza łatwych testów obejmuje sprawdzenie 10 wymienionych poniżej aspektów witryny oraz zawiera wskazówki dotyczące kolejnych kroków i łącza do dodatkowych zasobów.
 
 
-- [Tytuł strony](01_P_tytul-strony)
-- [Teksty alternatywne obrazów](02_P_odpowiedniki-tekstowe-obrazow) ( „alternatywy tekstowe” zdjęć, ilustracji, wykresów, etc.)
+- [Tytuł strony](01-P-tytul-strony)
+- [Teksty alternatywne obrazów](02-P-odpowiedniki-tekstowe-obrazow) ( „alternatywy tekstowe” zdjęć, ilustracji, wykresów, etc.)
 - **Tekst**:
   - [Nagłówki](03_P_naglowki)
   - [Kontrast kolorów](04_P_wspolczynnik_kontrastu) („współczynnik kontrastu”)
@@ -80,3 +80,6 @@ W tabeli poniżej znajduje się zestawienie łatwych testów i kryteriów sukces
 | Formularze, etykiety i błędy | 3.3.2 Etykiety lub instrukcje (A), 1.3.1 Informacje i relacje (A), 3.3.1 Identyfikacja błędu (A), 3.3.3 Sugestie korekty błędów (A), 3.3.4 Zapobieganie błędom… (AA) |
 | Treść przesuwana, migocąca lub błyskająca | 2.2.2 Wstrzymywanie (pauza), zatrzymywanie, ukrywanie (A), 2.3.1 Trzy błyski lub wartości poniżej progu (A) |
 | Odpowiedniki multimediów | 1.2.2 Napisy (rozszerzone) (A), 1.2.3 Audiodeskrypcja lub alternatywa dla mediów (nagranie) (A), 1.2.5 Audiodeskrypcja (nagranie) (AA), 1.4.2 Kontrola odtwarzania dźwięku  (A), 1.2.8 Alternatywa dla mediów (nagranie) (AAA) |
+
+--------------
+[&lt; Łatwe testy - spis treści](00-P-spis-tresci) | [Wstępny przegląd dostępności >](00-P-wprowadzenie2)

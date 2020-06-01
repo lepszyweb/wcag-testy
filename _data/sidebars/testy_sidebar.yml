@@ -77,8 +77,8 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: O testach zgodności
-      url: /H0-00-wprowadzenie
+    - title: O Testach zgodności
+      url: /testy-zgodnosci-z-wcag
       output: web
 
       subfolders:
@@ -202,6 +202,14 @@ entries:
           url: /H7-01-mruganie-i-miganie
           output: web, pdf
 
+  - title: Bazy źródłowe
+    output: web, pdf
+
+    folderitems:
+    - title: O bazach źródłowych
+      url: /bazy-zrodlowe
+      output: web
+
   - title: Podstawowe testy ITC
     output: web, pdf
 
@@ -319,6 +327,82 @@ entries:
           url: /ICT-26-dodatekA
           output: web
 
+  - title: Zaufany Tester
+    output: web, pdf
+
+    folderitems:
+    - title: Zaufany Tester
+      url: /zaufany-tester
+      output: web
+
+      subfolders:
+      - title: Baza testów
+        output: web
+        subfolderitems:
+
+        - title: 1. Zgodna wersja alternatywna i brak zakłóceń
+          url: /tz-01-alternatywne
+          output: web, pdf
+        - title: 2. Automatyczne odtwarzanie i...
+          url: /tz-02-auto
+          output: web, pdf
+        - title: 3. Migotanie
+          url: /tz-03-migotanie
+          output: web, pdf
+        - title: 4. Dostęp z klawiatury i fokus
+          url: /tz-04-klawiatura
+          output: web, pdf
+        - title: 5. Formularze
+          url: /tz-05-formularze
+          output: web, pdf		  
+        - title: 6. Łącza i przyciski
+          url: /tz-06-lacza-i-przyciski
+          output: web, pdf	
+        - title: 7. Obrazy
+          url: /tz-07-obrazy
+          output: web, pdf	
+        - title: 8. Limit czasu
+          url: /tz-08-limit-czasu
+          output: web, pdf	
+        - title: 9. Treści powtarzane
+          url: /tz-09-tresci-powtarzane
+          output: web, pdf	
+        - title: 10. Struktury treści
+          url: /tz-10-struktury
+          output: web, pdf
+        - title: 11. Język
+          url: /tz-11-jezyk
+          output: web, pdf		  
+        - title: 12. Tytuły
+          url: /tz-12-tytuly
+          output: web, pdf	
+        - title: 13. Charakterystyki zmysłowe
+          url: /tz-13-charakterystyki-zmyslowe
+          output: web, pdf	
+        - title: 14. Tabele
+          url: /tz-14-tabele
+          output: web, pdf	
+        - title: 15. CSS
+          url: /tz-15-css
+          output: web, pdf	
+        - title: 16. Audio i wideo
+          url: /tz-16-audio-video
+          output: web, pdf
+        - title: 17. Miltimedia zsynchronizowane
+          url: /tz-17-multimedia-zsynchronizowane
+          output: web, pdf             
+        - title: 18. Zmiana rozmiaru
+          url: /tz-18-zmiana-rozmiaru
+          output: web, pdf		  
+        - title: 19. Wiele dróg
+          url: /tz-19-wiele-drog
+          output: web, pdf	
+        - title: 20. Parsowanie
+          url: /tz-20-parsowanie
+          output: web, pdf	
+        - title: Dodatek A
+          url: /tz-dodateka
+          output: web, pdf	
   - title: Ocena wielopoziomowa
     output: web, pdf
 
@@ -531,81 +615,4 @@ entries:
     folderitems:
     - title: 6 prostych testów wg K. Grovesa
       url: /testy-6-prostych
-      output: web
-
-  - title: Zaufany tester
-    output: web, pdf
-
-    folderitems:
-    - title: Zaufany Tester
-      url: /zaufany-tester
-      output: web
-
-      subfolders:
-      - title: Baza testów
-        output: web
-        subfolderitems:
-
-        - title: 1. Zgodna wersja alternatywna i brak zakłóceń
-          url: /tz-01-alternatywne
-          output: web, pdf
-        - title: 2. Automatyczne odtwarzanie i...
-          url: /tz-02-auto
-          output: web, pdf
-        - title: 3. Migotanie
-          url: /tz-03-migotanie
-          output: web, pdf
-        - title: 4. Dostęp z klawiatury i fokus
-          url: /tz-04-klawiatura
-          output: web, pdf
-        - title: 5. Formularze
-          url: /tz-05-formularze
-          output: web, pdf		  
-        - title: 6. Łącza i przyciski
-          url: /tz-06-lacza-i-przyciski
-          output: web, pdf	
-        - title: 7. Obrazy
-          url: /tz-07-obrazy
-          output: web, pdf	
-        - title: 8. Limit czasu
-          url: /tz-08-limit-czasu
-          output: web, pdf	
-        - title: 9. Treści powtarzane
-          url: /tz-09-tresci-powtarzane
-          output: web, pdf	
-        - title: 10. Struktury treści
-          url: /tz-10-struktury
-          output: web, pdf
-        - title: 11. Język
-          url: /tz-11-jezyk
-          output: web, pdf		  
-        - title: 12. Tytuły
-          url: /tz-12-tytuly
-          output: web, pdf	
-        - title: 13. Charakterystyki zmysłowe
-          url: /tz-13-charakterystyki-zmyslowe
-          output: web, pdf	
-        - title: 14. Tabele
-          url: /tz-14-tabele
-          output: web, pdf	
-        - title: 15. CSS
-          url: /tz-15-css
-          output: web, pdf	
-        - title: 16. Audio i wideo
-          url: /tz-16-audio-video
-          output: web, pdf
-        - title: 17. Miltimedia zsynchronizowane
-          url: /tz-17-multimedia-zsynchronizowane
-          output: web, pdf             
-        - title: 18. Zmiana rozmiaru
-          url: /tz-18-zmiana-rozmiaru
-          output: web, pdf		  
-        - title: 19. Wiele dróg
-          url: /tz-19-wiele-drog
-          output: web, pdf	
-        - title: 20. Parsowanie
-          url: /tz-20-parsowanie
-          output: web, pdf	
-        - title: Dodatek A
-          url: /tz-dodateka
-          output: web, pdf	
+      output: web		  

@@ -32,3 +32,7 @@ Ponadto migająca lub błyskająca treść może powodować drgawki u osób z pa
 -	[Zrozumieć Kryterium sukcesu 2.2.2 Wstrzymywanie (pauza), zatrzymywanie, ukrywanie](https://www.w3.org/WAI/WCAG21/Understanding/pause-stop-hide.html) (poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Zrozumieć kryterium sukcesu 2.3.1 Trzy błyski lub wartości poniżej progu](https://www.w3.org/WAI/WCAG21/Understanding/three-flashes-or-below-threshold.html) (Poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Animacje - WAI Web Accessibility Tutorial](https://www.w3.org/WAI/tutorials/carousels/animations/) - poradnik w języku angielskim, skorzystaj z tłumaczenia Google.
+
+
+--------------------
+[&lt; Formularze, etykiety i błędy ](07-P-formularze) | [Łatwe testy - spis treści](00-P-spis-tresci) | [Alternatywy multimediów >](09-P-multimedia)

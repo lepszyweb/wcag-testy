@@ -61,3 +61,6 @@ Na dokumentację wstępnego przeglądu dostępności witryny powinny się złoż
 - lista wykrytych problemów dostępności,
 - syntetyczna ocena dostępności,
 - wskazówki do poprawy dostępności serwisu.
+
+--------------------
+[&lt; O Łatwych testach](latwe-testy) | [Łatwe testy - spis treści](00-P-spis-tresci) | [Korzystanie z Łatwych testów >](00-P-wprowadzenie3)

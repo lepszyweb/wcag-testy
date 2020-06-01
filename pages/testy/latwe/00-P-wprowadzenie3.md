@@ -1,5 +1,5 @@
 ---
-title: Korzystanie z łatwych testów
+title: Korzystanie z Łatwych testów
 summary: "Łatwe testy może przeprowadzić każdy, kto korzysta z Internetu. Nie potrzebujesz specjalnej wiedzy ani umiejętności. Niektóre testy wymagają obejrzenia strony bądź posłuchania dźwięku. Inne wymagają zastosowania prostych narzędzi. Ale ogólnie rzecz biorąc są to testy łatwe do przeprowadzenia."
 sidebar: testy_sidebar
 permalink: 00-P-wprowadzenie3
@@ -58,3 +58,6 @@ Oto kilka rzeczy, które należy wiedzieć, aby dobrze rozumieć instrukcje prze
 Aby dowiedzieć się więcej, zobacz:
 -	[Wprowadzenie do dostępności sieci](http://dostepny.joomla.pl/dostepnosc/internet-dla-wszystkich/50-wprowadzenie-do-dostepnosci-sieci)
 -	[Zasady dostępności](https://www.w3.org/WAI/fundamentals/accessibility-principles/); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+
+--------------------
+[&lt; Wstępny przegląd dostępności](00-P-wprowadzenie2) | [Łatwe testy - spis treści](00-P-spis-tresci) | [Tytuł strony >](01-P-tytul-strony)

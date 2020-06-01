@@ -64,3 +64,7 @@ Audiodeskrypcja, nazywana też narracją dźwiękową, opisem dźwiękowym, opis
 - [AudioMovie. Informator dla producentów i dystrybutorów](http://audiomovie.pl/wp-content/uploads/2016/11/INFORMATOR-DLA-PRODUCENT%C3%93W-I-DYSTRYBUTOR%C3%93W.pdf)
 - [Standardy tworzenia audiodeskrypcji do produkcji audiowizualnych](http://avt.ils.uw.edu.pl/files/2010/12/AD-_standardy_tworzenia.pdf)
 - [Audiodeskrypcja w teorii i praktyce](http://avt.ils.uw.edu.pl/files/2014/01/Szarkowska_Kuenstler_AD-w-kinie-teatrze-i-muzeum.pdf)
+
+
+--------------------
+[&lt; Treść ruchoma, migająca lub błyskająca](08-P-poruszanie-i-blyski) | [Łatwe testy - spis treści](00-P-spis-tresci) | [Podstawowy test struktury strony >](10-P-struktura)

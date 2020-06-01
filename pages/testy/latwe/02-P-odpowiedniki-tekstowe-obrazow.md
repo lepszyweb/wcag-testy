@@ -110,3 +110,6 @@ W ramach ćwiczeń przygotowawczych do powyższych testów możesz sprawdzić pr
 -	[Text alternatives for non-text content](http://www.w3.org/WAI/intro/people-use-web/principles#alternatives) (Tekst alternatywny dla treści nietekstowych) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Zrozumieć kryterium sukcesu 1.1.1 Treść nietekstowa](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[An alt text decision tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+
+--------------------
+[&lt; Tytuł strony](01-P-tytul-strony) | [Łatwe testy - spis treści](00-P-spis-tresci) | [Nagłówki >](03-P-naglowki)

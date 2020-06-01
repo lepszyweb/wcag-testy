@@ -135,10 +135,13 @@ W ramach ćwiczeń przygotowawczych do powyższych testów możesz sprawdzić pr
 
 ## Dowiedz się więcej o współczynniku kontrastu
 -	[Zrozumieć kryterium sukcesu 1.4.3: Kontrast minimalny)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
--	[Zrozumieć kryterium sukcesu 1.4.6: Wzmocniony kontrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)   - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+-	[Zrozumieć kryterium sukcesu 1.4.6: Wzmocniony kontrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 
 ## Narzędzia sprawdzające kontrast
 
 - [Color Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/): aplikacja działająca w systemie Windows i MacOS. Kilka sposobów ustawiania kolorów, obsługa przezroczystości alfa w kolorach pierwszego planu, symulator ślepoty barw
 - [Tota11y](https://khan.github.io/tota11y/): zestaw narzędzi sprawdzających kilka aspektów dostępności cyfrowej, w tym kontrast. Wskazuje elementy z niewystarczającym kontrastem, pokazuje fragment kodu z problematycznym elementem, sugeruje dobór kolorów zapewniających odpowiedni kontrast.
 - [Vischeck](http://www.vischeck.com/vischeck/): symulator ślepoty barw, który może być używany online lub jako wtyczka programu Photoshop, która pojawia się w menu „Filtr”. Narzędzie online symuluje ślepotę kolorów na przesyłanym obrazie lub na określonej stronie internetowej.
+
+--------------------
+[&lt; Nagłówki](03-P-naglowki) | [Łatwe testy - spis treści](00-P-spis-tresci) | [ Zmiana rozmiaru tekstu>](05-P-zmiana-rozmiaru-tekstu)

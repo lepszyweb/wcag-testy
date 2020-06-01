@@ -122,3 +122,7 @@ Aby sprawdzić tytuły stron w różnych przeglądarkach:
 
 ## Dowiedz się więcej o tytułach stron
 - [Zrozumienie kryterium sukcesu 2.4.2 Tytuły stron w WCAG 2.1 (poziom A](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html) - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+
+
+--------------------
+[&lt; Korzystanie z Łatwych testów](00-P-wprowadzenie3) | [Łatwe testy - spis treści](00-P-spis-tresci) | [Teksty alternatywne obrazów >](02-P-odpowiedniki-tekstowe-obrazow)

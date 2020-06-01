@@ -123,3 +123,6 @@ Aby sprawdzić skutki zmiany rozmiaru tekstu zawartości w przeglądarce Microso
 ### Dowiedz się więcej o zmianie rozmiaru tekstu
 -	[Zrozumieć kryterium sukcesu 1.4.4 Zmiana rozmiaru tekstu](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Zrozumieć kryterium sukcesu 1.4.5 Obrazy tekstu](https://www.w3.org/WAI/WCAG21/Understanding/images-of-text.html)  - artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+
+--------------------
+[&lt; Współczynnik kontrastu](04-P-wspolczynnik-kontrastu) | [Łatwe testy - spis treści](00-P-spis-tresci) | [Dostęp do klawiatury i widoczny fokus >](06-P-klawiatura)

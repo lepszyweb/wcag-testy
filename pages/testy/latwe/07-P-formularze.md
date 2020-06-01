@@ -139,3 +139,7 @@ Aby poćwiczyć sprawdzanie etykiet formularzy i błędów na stronie demo Przed
 -	[Zrozumieć kryterium sukcesu 3.3.1 Identyfikacja błędu](https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html)(poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Zrozumieć kryterium sukcesu 3.3.3 Sugestie korekty błędów](https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html)(poziom A); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
 -	[Zrozumieć kryterium sukcesu 3.3.4 Zapobieganie błędom&hellip;](https://www.w3.org/WAI/WCAG21/Understanding/error-prevention-legal-financial-data.html)(poziom AA); artykuł w języku angielskim, skorzystaj z tłumaczenia Google.
+
+
+--------------------
+[&lt; Dostęp do klawiatury i widoczny fokus](06-P-klawiatura) | [Łatwe testy - spis treści](00-P-spis-tresci) | [Treść ruchoma, migająca lub błyskająca >](08-P-poruszanie-i-blyski)
