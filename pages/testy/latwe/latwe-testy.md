@@ -1,5 +1,5 @@
 ---
-title: O łatwych testach
+title: Łatwe testy - prosty przegląd dostępności cyfrowej
 summary: "Łatwe testy pozwalają stwierdzić, czy strona internetowa jest dostępna na podstawowym poziomie. Mogą wykryć nawet 75-80% barier dostepności występujących na stronie."
 
 sidebar: testy_sidebar
@@ -8,7 +8,7 @@ folder: testy/latwe
 last_updated: 24 maja 2020
 ---
 
-## Baza łatwych testów dostępności
+## O łatwych testach
 Baza łatwych testów pomaga oceniać dostępność cyfrową stron internetowych. Dzięki łatwym testom można się zorientować, czy dostępność treści na stronie internetowej została zapewniona w najbardziej elementarny sposób.
 
 Testy zostały dobrane i zaprojektowane tak, aby mógł je przeprowadzić każdy, kto posiadł wykształcenie ogólne i&nbsp;korzysta ze stron internetowych. Wcześniej nabyta wiedza o dostępności cyfrowej czy projektowaniu stron na pewno będzie pomocna w przeprowadzeniu przeglądu, ale nie jest konieczna.

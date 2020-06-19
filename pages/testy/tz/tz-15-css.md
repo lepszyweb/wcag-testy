@@ -58,7 +58,7 @@ Test 15A 1.3.1-tresci-dodane-przez-css **nie ma zastosowania**, jeśli na stroni
 
 ### Jak testować
 
-1.  Launch ANDI: hidden content and select content ::before ::after to reveal all content.Uruchom ANDI: ukryta treść i wybierz prrzycisk content::before ::after, aby wykryć treści wstawione za pomocą CSS.
+1.  Uruchom ANDI: ukryta treść i wybierz prrzycisk content::before ::after, aby wykryć treści wstawione za pomocą CSS.
     1.  Treści wstawione przy użyciu `::before` lub `::after` zostaną oznaczone na czerwono.
 	
 	**Uwaga**: ANDI pokazuje elementy tylko za pomocą koloru podświetlenia na ekranie; w ANDI nie ma innych danych wyjściowych.

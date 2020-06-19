@@ -1,0 +1,48 @@
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is D8EF-87CD
+
+ Directory of C:\xampp\htdocs\wcag-testy\images\wave\alerts
+
+03.06.2020  16:47    <DIR>          .
+03.06.2020  16:47    <DIR>          ..
+03.06.2020  00:09             1ÿ038 accesskey.svg
+03.06.2020  00:06             1ÿ561 alt_duplicate.svg
+03.06.2020  00:06             1ÿ076 alt_long.svg
+03.06.2020  00:06             1ÿ155 alt_redundant.svg
+03.06.2020  00:06             1ÿ997 alt_suspicious.svg
+03.06.2020  00:08             2ÿ967 applet.svg
+03.06.2020  00:08             1ÿ136 audio_video.svg
+03.06.2020  00:09               982 event_handler.svg
+03.06.2020  00:07               782 fieldset_missing.svg
+03.06.2020  00:08               789 flash.svg
+03.06.2020  00:07             1ÿ109 h1_missing.svg
+03.06.2020  00:07             1ÿ440 heading_missing.svg
+03.06.2020  00:07             2ÿ104 heading_possible.svg
+03.06.2020  00:07             1ÿ986 heading_skipped.svg
+03.06.2020  00:08             1ÿ105 html5_video_audio.svg
+03.06.2020  00:09               995 javascript_jumpmenu.svg
+03.06.2020  00:06             1ÿ462 label_orphaned.svg
+03.06.2020  00:07             2ÿ180 label_title.svg
+03.06.2020  00:07             1ÿ003 legend_missing.svg
+03.06.2020  00:08             1ÿ408 link_document.svg
+03.06.2020  00:08             4ÿ335 link_excel.svg
+03.06.2020  00:07             2ÿ088 link_internal_broken.svg
+03.06.2020  00:08             4ÿ365 link_pdf.svg
+03.06.2020  00:08             1ÿ899 link_powerpoint.svg
+03.06.2020  00:08             1ÿ615 link_redundant.svg
+03.06.2020  00:07             1ÿ683 link_suspicious.svg
+03.06.2020  00:08             3ÿ406 link_word.svg
+03.06.2020  00:06             1ÿ037 longdesc.svg
+03.06.2020  00:09             3ÿ897 noscript.svg
+03.06.2020  00:09               822 plugin.svg
+03.06.2020  00:07               842 region_missing.svg
+03.06.2020  16:47                 0 spis.txt
+03.06.2020  00:09             1ÿ149 tabindex.svg
+03.06.2020  00:07             1ÿ347 table_caption_possible.svg
+03.06.2020  00:07             1ÿ020 table_layout.svg
+03.06.2020  00:09             1ÿ492 text_justified.svg
+03.06.2020  00:09               918 text_small.svg
+03.06.2020  00:09             2ÿ727 title_redundant.svg
+03.06.2020  00:09             1ÿ133 underline.svg
+              39 File(s)         64ÿ050 bytes
+               2 Dir(s)  73ÿ756ÿ250ÿ112 bytes free

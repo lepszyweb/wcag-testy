@@ -1,0 +1,16 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="22" cy="22" r="19" fill="white"/>
+<circle cx="22" cy="22" r="16" fill="#800000"/>
+<circle opacity="0.6" cx="22" cy="22" r="12" fill="#FF3333"/>
+<rect width="6" height="4" transform="matrix(-1 0 0 1 33 15)" stroke="white" stroke-width="2"/>
+<rect opacity="0.5" width="6" height="4" transform="matrix(-1 0 0 1 25 15)" fill="white"/>
+<rect opacity="0.5" width="6" height="4" transform="matrix(-1 0 0 1 18 15)" fill="white"/>
+<rect opacity="0.5" width="6" height="4" transform="matrix(-1 0 0 1 32 21)" fill="white"/>
+<rect opacity="0.5" width="6" height="4" transform="matrix(-1 0 0 1 25 21)" fill="white"/>
+<rect opacity="0.5" width="6" height="4" transform="matrix(-1 0 0 1 18 21)" fill="white"/>
+<rect opacity="0.5" width="6" height="4" transform="matrix(-1 0 0 1 32 26)" fill="white"/>
+<rect opacity="0.5" width="6" height="4" transform="matrix(-1 0 0 1 25 26)" fill="white"/>
+<rect opacity="0.5" width="6" height="4" transform="matrix(-1 0 0 1 18 26)" fill="white"/>
+<rect x="28" y="28" width="13" height="13" rx="3" fill="black"/>
+<path d="M37.0562 38.1111L34.427 35.5111L31.7978 38.1111L30.7753 37.1L33.4045 34.5L30.7753 31.9L31.7978 30.8889L34.427 33.4889L37.0562 30.8889L38.0787 31.9L35.4495 34.5L38.0787 37.1L37.0562 38.1111Z" fill="white"/>
+</svg>

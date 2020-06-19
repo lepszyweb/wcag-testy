@@ -58,6 +58,10 @@ entries:
       url: /nod-insights
       output: web
 
+    - title: WAVE
+      url: /nod-wave
+      output: web
+
     - title: WET
       url: /nod-wet
       output: web, pdf
