@@ -80,7 +80,7 @@ Mimo tego obrazy nie powinny być wymagane do zrozumienia treści strony i nie n
 Wszystkie obrazy przedstawiające ważną treść powinny otrzymać tekst alternatywny, a niektóre obrazy najlepiej opisać bezpośrednio w treści strony. Termin „opis alternatywny” oznacza przekazanie takich samych informacji, jakie niesie obraz, a nie wyglądu obrazu, choć niekiedy opis pewnych aspektów wyglądu również może mieć znaczenie. Teksty prezentowane na obrazach należy umieszczać w opisach alternatywnych (z wyjątkiem treści odnoszących się do marki, takich jak logo lub znaki towarowe).
 
 ### 4. Sprawdź napisy lub transkrypcje
-OK, skłamałem, który z tych testów był najłatwiejszy. Ten jest łatwiejszy niż wszystkie inne. Jeśli masz na swojej witrynie multimedia, sprawdź nadpisy, transkrypcje i inne możliwe alternatywy. Gdziekolwiek masz media:
+OK, skłamałem, który z tych testów był najłatwiejszy. Ten jest łatwiejszy niż wszystkie inne. Jeśli masz na swojej witrynie multimedia, sprawdź napisy, transkrypcje i inne możliwe alternatywy. Gdziekolwiek masz media:
 
 - Czy napisy znajdują się bezpośrednio na filmie lub czy w odtwarzaczu jest kontrolka, która włącza i wyłącza napisy?
 - Czy w odtwarzaczu istnieje alternatywna wersja z opisem dźwiękowym (audiodeskrypcją) lub kontrolka, która włącza i wyłącza opis dźwiękowy?

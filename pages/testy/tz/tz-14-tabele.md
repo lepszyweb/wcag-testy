@@ -146,9 +146,9 @@ Test  14.B 1.3.1-powiazanie-komorek-z-naglowkami **nie ma zastosowania**, jeśli
 
 ### Jak testować
 
-1.  Użyj przycisków Analizuj następną/poprzednią tabelę, aby przenosić punkt uwagi na każdej tabeli.
+1.  Użyj przycisków Analizuj następną/poprzednią tabelę, aby przenosić punkt uwagi na kolejne tabele.
 
-2.  Przejdź do każdej komórki danych za pomocą: tabele. Użyj przycisków Poprzedni element / Następny element, aby poruszać się po każdej tabeli, komórka po komórce
+2.  Przejdź do każdej komórki danych za pomocą: tabele. Użyj przycisków Poprzedni element / Następny element, aby poruszać się po każdej tabeli, komórka po komórce.
 
 3.  Sprawdź dane wyjściowe ANDI dla każdej komórki danych i / lub sprawdź wizualne wyróżnianie tabeli danych, aby ustalić, czy w tabeli określono odpowiednio wszystkie nagłówki dla każdej komórki danych.
  
@@ -170,7 +170,7 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 
 ### Uwaga
 
--   W tym teście należy uwzględnić wszelkie zmiany w tabelach danych, które nastąpią automatycznie lub w wyniku interakcji ze stroną.
+-   W tym teście należy uwzględnić wszelkie zmiany w tabelach danych, które nastąpią automatycznie lub w&nbsp;wyniku interakcji ze stroną.
 
 ## Tabele układu
 
@@ -244,7 +244,7 @@ Jeśli którekolwiek twierdzenie poniżej jest **prawdą**, wówczas strona (tre
 
 3.  Oba twierdzenia poniżej są **prawdą**:
 
-    1.  Tabela nie używa atrybutu `role="table"` lub jakiegokolwiek powiązanego z rolą tabeli atrybutu (np., `role="row"`, `role="columnheader"`) **oraz**
+    1.  Tabela nie używa atrybutu `role="table"` lub jakiegokolwiek powiązanego z rolą tabeli atrybutu (np. `role="row"`, `role="columnheader"`) **oraz**
 
     2.  Tabela nie używa żadnego elementu ani atrybutu, określającego strukturę danych tabeli i powiązania między komórkami i nagłówkami (np. `<th>`, `scope="row"`)
 
