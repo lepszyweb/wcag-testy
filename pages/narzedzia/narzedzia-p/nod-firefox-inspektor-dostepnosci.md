@@ -11,6 +11,7 @@ Od wydania w czerwcu 2018 roku wersji 63 Firefox oferuje Inspektora dostępnośc
 Inspektor dostępności jest dostępny w przeglądarce domyślnie. Nie trzeba go instalować. Wybierz z menu przeglądarki Narzędzia dla twórców witryn (<kbd>Ctrl + Shift + I</kbd>), a następnie odkryj kartę Dostępność. Możesz również użyć skrótu klawiaturowego <kbd>Shift + F12</kbd>. Możesz też wskazać na stronie myszką dowolny element i wybrać z menu kontekstowego polecenie *Zbadaj własności dostępności*.
 
 ![Karta Dostępność w Narzędziach twórcy witryn](images/narzedzia/firefox_ID_01_widok-ogolny.png)
+
 Początkowo funkcje inspektora dostępności mogą być wyłączone. W takim przypadku użyj przycisku *Włącz funkcje dostępności*. Zwykle za pomocą tego przycisku funkcje analizatora dostępności można również wyłączyć (na przycisku jest wówczas etykieta *Wyłącz funkcje dostępności*). Jeśli nie jest to możliwe, bo np. Firefox rozpoznał, że w systemie zainstalowany jest czytnik ekranu, to przycisk jest nieaktywny (wyszarzony).
 
 **Uwaga**: Jeśli używasz funkcji dostępności na wielu kartach, wyłączenie ich na jednej karcie, wyłącza je we wszystkich kartach.
@@ -18,6 +19,7 @@ Początkowo funkcje inspektora dostępności mogą być wyłączone. W takim prz
 ## Funkcje inspektora dostępności
 Karta inspektora dostępności podzielona jest na dwa panele:
 ![Po lewej panel z drzewem dostępności, po prawej panel z własnościami wybranego elementu](/images/narzedzia/firefox_ID_02_drzewo-dost.png)
+
 W lewym panelu wyświetlane jest drzewo dostępności bieżącej strony. Jest to hierarchiczna struktura wszystkich znajdujących się na stronie obiektów. Początkowo drzewo jest zwinięte. Aby je rozwinąć, użyj strzałki przed węzłem.
 
 Informacje o obiektach uporządkowane są w dwóch kolumnach. Każdy obiekt opisany jest przez dwie właściwości:
@@ -32,6 +34,7 @@ Każdy obiekt charakteryzowany jest przez następujący zestaw właściwości:
 -	*actions* (akcje) - lista akcji, które można wykonać na elemencie, na przykład akcją dla przycisku będzie „Naciśnij”, a dla łącza „Skocz”; zauważ, że akcje są zdefiniowane w języku użytkownika
 -	*value* – wartość elementu. Może to oznaczać różne rzeczy w zależności od typu elementu; na przykład pola danych w formularzu (role: *entry*) będą miały wartość tego, co zostanie wprowadzone w polu, a wartością łącza będzie adres URL podany w atrybucie `<href>` elementu `<a>`.
 -	*DOMNode* – rodzaj węzła w Obiektowym Modelu Dokumentu (DOM).
+
    ![Ikona celu obok określenia węzła DOM](/images/narzedzia/firefox_ID_03_DOMnode.png)
 
    Najechanie kursorem na ikonę „cel” podświetla węzeł DOM w treści strony.

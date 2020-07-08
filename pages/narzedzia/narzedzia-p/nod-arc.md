@@ -32,19 +32,19 @@ ARC Toolkit instalujemy jak każde inne rozszerzenie przeglądarki Chrome.
 ### Testowanie strony
 Aby rozpocząć testowanie strony internetowej, naciśnij na pasku przycisk _Run Tests_ (Uruchom testy).
 
-![Opcja Urudhom testy](/images/narzedzia/arc_toolkit-uruchom-test.png)
+![Opcja Uruchom testy](/images/narzedzia/arc_toolkit-uruchom-test.png)
 
 Po chwili otrzymamy wyniki. Przyjrzyjmy się bliżej funkcjom oferowanym przez ARC Toolkit.
 Narzędzie składa się z dwóch obszarów: paska bocznego i głównego okna. Pasek boczny zawiera tabelę ze statystyką wyników.
 Oceniane reguły silnika ARC są zorganizowane w kategorie i podkategorie:
 -	**Media**: Obrazy (*Images*), Obrazy tła (*BG Images*), Bogate media (*Rich Media*);
--	**Struktura** (*Structure*): Nagłówki (*Headings*), Punkty orientacyjne (*Landmarks*), Listy (*Lists)*, Akapity (*Paragraph*), Treśc generowana (*Pseudo Content*), Tabele (*Tables*), Formularze (*Forms)*, Ramki (*Frames*), Tytuły (*Title*), Wyróżnianie tekstu (*Text Formating*), Języki (*Languages*);
+-	**Struktura** (*Structure*): Nagłówki (*Headings*), Punkty orientacyjne (*Landmarks*), Listy (*Lists)*, Akapity (*Paragraph*), Treść generowana (*Pseudo Content*), Tabele (*Tables*), Formularze (*Forms)*, Ramki (*Frames*), Tytuły (*Title*), Wyróżnianie tekstu (*Text Formating*), Języki (*Languages*);
 -	**Klawiatura** (Keyboard): Łącza (*Links*), Łącza wewnętrzne (*Internal Links*), Przyciski (*Buttons*), Klawisze dostępu (*Access Key*), Indeks tabulacji (*Tabindex*), Porządek tabulacji (*Tab Order*);
--	**ARIA**: ARIA w komponentach interfejsu użytkownika (*ARIA UI*), ARIA zawartości modyfikowanej dynamicznie (*ARIA Live*), Stosowanie ARIA (*ARIA Usage*), ARIA ukrywająca elementy (*ARIA Hidden*);
+-	**ARIA**: ARIA w komponentach interfejsu użytkownika (*ARIA UI*), ARIA treści modyfikowanej dynamicznie (*ARIA Live*), Stosowanie ARIA (*ARIA Usage*), ARIA ukrywająca elementy (*ARIA Hidden*);
 -	**Kolor** (*Color*): Kontrast koloru (*Color Contrast*)
 -	**Identyfikatory** (*IDs*).
-Nazwy kategorii i podkategorii są nagłówkami wierszy tabeli, prezentującej wyniki w sześciu kolumnach.
-Kolumny w tabeli wyników pokazują liczbę widocznych i niewidocznych wystąpień, w tym błędów i ostrzeżeń. Nagłówkami kolumn są ikony symbolizujące kolejno:
+
+Nazwy kategorii i podkategorii są nagłówkami wierszy tabeli, prezentującej wyniki w sześciu kolumnach. Kolumny w tabeli wyników pokazują liczbę widocznych i niewidocznych wystąpień, w tym błędów i ostrzeżeń. Nagłówkami kolumn są ikony symbolizujące kolejno:
 
 ![Nagłówki kolumn w tabeli w pasku bocznym](/images/narzedzia/arc-toolkit-nglowki-kolumn.png)
 
@@ -54,7 +54,9 @@ Kolumny w tabeli wyników pokazują liczbę widocznych i niewidocznych wystąpie
 4.	Ukryte wystąpienia (*Hidden Instances*)
 5.	Ukryte błędy (*Hidden Errors*)
 6.	Ukryte ostrzeżenia (*Hidden Warnings*)
+
 Elementy ukryte to elementy niewidoczne w przeglądarkach, ale istniejące w kodzie strony, widoczne m.in. dla technologii wspomagających.  Ostrzeżenia dotyczą sytuacji, które mogą być problemami, ale wymaga to oceny człowieka.
+
 Po wykonaniu testów w oknie głównym wyświetlana jest tabela wyników prezentowanych w czterech kolumnach. W pierwszej znajdziemy systemowy opis testu (reguły ARC), w drugiej liczbę błędów, w trzeciej liczbę ostrzeżeń, a w czwartej nazwę kategorii błędu lub ostrzeżenia.  
 
 ![Interejs ARC Toolkit. Pasek boczny i główne okno](/images/narzedzia/arc-toolkit-okno.png)
@@ -74,7 +76,9 @@ Szczegółowe wyniki testów sklasyfikowane są jako:
 ### Analiza wyników
 Aby przeanalizować wyniki, w tabeli w pasku bocznym wybierz podkategorię (np. Images).
 Wszystkie wykryte wystąpienia zostaną oznaczone na stronie czerwoną przerywaną linią i znacznikiem IMG.
+
 W oknie głównym ARC zostaną wyświetlone szczegółowe wyniki. Każde z wystąpień opatrzone jest numerem porządkowym i ikoną (OK, WARN, ERR, HIDDEN). Obok znajdują się objaśnienia i ewentualne wskazówki. Dodatkowo wyświetlana jest także miniatura obrazu. W przypadku obrazów podawany jest kod osadzający obrazek oraz obok treść tekstu alternatywnego, jeśli istnieje, bądź wartość NIL (pusty), jeśli istnieje atrybut alt.
+
 Gdy ARC wykryje błąd lub możliwy błąd (ERR bądź WARN), w informacji o wystąpieniu znajduje się zwięzły opis problemu i zalecone działanie.
 
 ![Wyniki szczegółowe](/images/narzedzia/arc-toolkit-szczegolowe.png)
@@ -82,8 +86,10 @@ Gdy ARC wykryje błąd lub możliwy błąd (ERR bądź WARN), w informacji o wys
 Informacje te wyświetlane są w języku angielskim. W razie potrzeby można je skopiować i przetłumaczyć za pomocą translatora internetowego (Google, Deepl i inne).
 
 ### Lokalizacja problemów w kodzie strony
-Dzięki integracji z narzędziami programisty ARC umożliwia łatwą lokalizację każdego  błędu w kontekście wynikowego kodu strony .
+Dzięki integracji z narzędziami programisty ARC umożliwia łatwą lokalizację każdego  błędu w kontekście wynikowego kodu strony.
+
 Aby zobaczyć problematyczny kod w kontekście źródłowego kodu strony, kliknij w głównym panelu w wynikach testu cytowany fragment kodu.
+
 ARC przeniesie cię na kartę Elementy w oknie narzędzi programisty. Wskazany fragment kodu będzie wyróżniony i wyświetlony w kontekście.
 
 
@@ -96,10 +102,13 @@ Gdy wybierzesz w bocznym pasku tę podkategorię, ARC Toolkit natychmiast wyświ
 ![Graficzna reprezentacja porządku tabulacji](/images/narzedzia/arc-toolkit-tab-order.png)
 
 #### Wzmocnienie fokusa
-Zaznacz opcję **Show and Track Focus** (Pokaż i śledź skupienie) i wybierz w pasku bocznym podkategorię Tabindex (Indeks tabulatora). Następnie użyj klawisza Tab, by nawigować po stronie. Elementy, które uzyskują skupienie, zostaną wyróżnione wzmocnionym czerwonym obramowaniem. Jest to szczególnie pomocne narzędzie,  gdy projektant strony zmodyfikuje style tak, że fokus będzie niewidoczny lub nawet ukryty przed użytkownikiem.
+Zaznacz opcję **Show and Track Focus** (Pokaż i śledź fokus) i wybierz w pasku bocznym podkategorię Tabindex (Indeks tabulatora). Następnie użyj klawisza Tab, by nawigować po stronie. Elementy, na które zostanie przeniesiony fokus klawiatury, zostaną wyróżnione wzmocnionym czerwonym obramowaniem. Jest to szczególnie pomocne narzędzie,  gdy projektant strony zmodyfikuje style tak, że fokus będzie niewidoczny lub nawet ukryty przed użytkownikiem.
+
 #### Przewijanie ekranu
 Włączenie funkcji **Check Page Reflow** (Wlej zawartość ponownie) spowoduje przeładowanie strony, powiększenie jej zawartości do 400% i ponowne wlanie do jednej kolumny dopasowanej do szerokości okna (rzutni). Funkcja ta pozwala sprawdzić zgodność z nowym w WCAG 2.1 kryterium sukcesu 1.4.10 Przewijanie tekstu. Tester może sprawdzić, czy użytkownik może przewijać i przeglądać zawartość pionowo lub poziomo, w jednym wymiarze bez konieczności przewijania w dwóch wymiarach (z wyjątkiem przypadków szczególnych). Równocześnie sprawdzamy, czy kolejność odczytu jest poprawna (logiczna).
+
 #### Odstępy w tekście
 Funkcja **Check Text Spacing** (Sprawdź odstępy w tekście) służy do testów zgodności z nowym WCAG 2.1 kryterium sukcesu 1.4.12. Gdy włączysz tę opcję, zostaną zwiększone odstępy między znakami co najmniej do wielkości równej 0,12 rozmiaru czcionki, między wyrazami do 0,16 rozmiaru czcionki, między wierszami do 1,5 rozmiaru czcionki. Aby zaliczyć test, zmiana ta nie powinna spowodować trudności w czytaniu (nakładania się znaków i wierszy na siebie, oddzielania znaków diakrytycznych od znaków, itp.).
+
 #### Skróty do walidatora HTML
-Wygodną dla testerów funkcją są również przyciski **Send DOM to Validator **(Prześlij DOM do walidatora) oraz **Send URL to Validator** (Prześlij URL do walidatora). Oba przyciski przesyłają dane do walidatora Nu Html Checker, który sprawdza poprawność kodu HTML i XHTML.
+Wygodną dla testerów funkcją są również przyciski **Send DOM to Validator ** (Prześlij DOM do walidatora) oraz **Send URL to Validator** (Prześlij URL do walidatora). Oba przyciski przesyłają dane do walidatora Nu Html Checker, który sprawdza poprawność kodu HTML i XHTML.

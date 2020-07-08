@@ -42,3 +42,6 @@ entries:
     - title: Słownik testera
       url: /slownik-testera
       output: web
+    - title: Co to jest dostępność
+      url: /co-to-jest-dostepnosc
+      output: web
