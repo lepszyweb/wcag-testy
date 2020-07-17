@@ -12,16 +12,6 @@ Osoby z wadami wzroku mogą czytać dokumenty elektroniczne za pomocą specjalis
 
 Z narzędzia internetowego można bezpłatnie korzystać pod następującym adresem: http://www.pave-pdf.org/index.en.html
 
-## Co to jest mglistość języka
-Mglistość języka (ang. <span lang="en">fog</span>), to cecha, która utrudnia percepcję tekstu. Jej poziom zależy od długości zdań i długości wyrazów. Logios korzysta z indeksu FOG-PL. Indeks Fog to współczynnik mglistości opracowany przez amerykańskich dziennikarzy na podstawie wzoru Roberta Gunninga, sprawdzajacego trudność odbioru tekstu. Algorytm ten został przystosowany do właściwości polszczyzny.
-
-## Korzystanie z usługi Logios
-Korzystanie z serwisu jest bardzo proste i intuicyjne. Należy w określone miejsce zaznaczone na stronie, wkleić badany tekst i wcisnąć przycisk „diagnoza”. Wyświetlony wynik podaje liczbę lat przybliżonej edukacji potrzebnej do zrozumienia tekstu.
-
-Oto wynik badania tekstu tej informacji:
-
-Przedstawia wynik testu: FOG wynosi 9-10 lat edukacji. Diagnoza: język zalecany w komunikacji publicznej
-
 ## Cztery kroki do dostępnego pliku PDF
 Możesz użyć PAVE, aby twoje dokumenty PDF były dostępne i poprawnie interpretować konwencjonalne programy czytające. Nie zmienia to wyglądu wizualnego twojego pliku PDF. The  Laboratorium dostępności ICT z ZHAW School of Engineering, które opracowało PAVE, udostępnia je bezpłatnie do użytku osobistego. Spróbuj! Jeśli chcesz udostępnić dużą liczbę plików PDF, proszę  skontaktuj się z nami .
 
