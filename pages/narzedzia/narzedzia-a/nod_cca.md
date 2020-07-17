@@ -36,16 +36,16 @@ W menu (1) znajdziemy takie opcje, jak: *Preferences* (Ustawienia), *Edit -> Cop
 
 W górnej części okna znajdują się narzędzia do określenia badanych kolorów (2, 3).  Mamy możliwość wyboru jednego z typowych formatów zapisu kolorów (HEX, RGB, HSL, HSV), przy czym w&nbsp;przypadku kolorów pierwszego planu obsługiwane są również formaty z przezroczystością alfa (HEXa, RGBa, HSLa i HSVa). 
 
-![Główne okno programu Colour Contrast Analyser (Windows)](/images/narzedzia/cca/cca-glowny.png)
+![Główne okno programu Colour Contrast Analyser (Windows)](/images/cca/cca-glowny.png)
 
 
 Kolory można wprowadzić ręcznie, podając w odpowiednich polach ich kody, albo wybrać z&nbsp;badanej strony czy dokumentu, korzystając z&nbsp;próbnika kolorów. Próbnik powiększa obszar, z którego chcemy pobrać próbkę tak, że można wskazać żądany kolor bardzo precyzyjnie. 
 
-![Próbnik (wybierak) kolorów w analizatorze](/images/narzedzia/cca/cca-wybor-koloru.png)
+![Próbnik (wybierak) kolorów w analizatorze](/images/cca/cca-wybor-koloru.png)
 
 Po wskazaniu kolorów, które chcemy zbadać, w sekcji *Sample preview* (Podgląd przykładu, 4) wyświetlany jest przykładowy tekst na wybranym tle oraz przykładowa grafika (ikona). Za pomocą pierwszej ikony poniżej pola ze wskazanym kolorem pierwszego planu wskazane kolory można przełączyć i podejrzeć efekt inwersji.
 
-![Fragment okna programu z wynikami testu](/images/narzedzia/cca/cca-wynik.png)
+![Fragment okna programu z wynikami testu](/images/cca/cca-wynik.png)
 
 Poniżej sekcji z podglądem próbki w trzech rozwijanych panelach wyświetlany jest wyliczony współczynnik kontrastu oraz jego dla kryteriów sukcesu WCAG (5):
 
@@ -61,12 +61,12 @@ Wynik każdego testu można skopiować do schowka, a następnie wkleić do dokum
 CCA umożliwia również analizę badanych zestawów barw za pomocą symulatora ślepoty barw. Symulator można włączyć, wybierając z menu opcję *Viev -> Colour blidness simulation* albo korzystając ze skrótu klawiaturowego Ctrl+B (w Windows).
  
 
-![Analizator kontrastu kolorów z otwartym oknem symulacji ślepoty kolorów (Windows)](/images/narzedzia/cca/symulacja-slepoty-barw.png)
+![Analizator kontrastu kolorów z otwartym oknem symulacji ślepoty kolorów (Windows)](/images/cca/symulacja-slepoty-barw.png)
 
 
 W starszej wersji CCA istniała pożyteczna funkcja powiększonego podglądu wybranych elementów z równoczesnym zastosowaniem filtrów symulujących zaburzenia widzenia barw. Poniższy zrzut ekranu ilustruje, jak zawodnym sposobem wyróżnienia łączy jest użycie koloru zamiast podkreślenia lub innego niż tylko kolor wyróżnienia. Niepogrubione łącza widziane w skali szarości nie odróżniają się od otaczającego je tekstu.  
 
-![Powiększony podgląd  wybranego fragmentu strony w starszej wersji programu (Windows)](/images/narzedzia/cca/ccs-symulator-zdjecie.png)
+![Powiększony podgląd  wybranego fragmentu strony w starszej wersji programu (Windows)](/images/cca/ccs-symulator-zdjecie.png)
 
 
 
