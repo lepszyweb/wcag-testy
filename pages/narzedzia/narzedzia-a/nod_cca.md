@@ -9,7 +9,7 @@ folder: narzedzia-a
 ## Analizator kontrastu kolorów
 Analizator kontrastu kolorów (CCA) pomaga określić czytelność tekstu i kontrast elementów wizualnych, takich jak kontrolki graficzne i wskaźniki wizualne.
 
-Program jest aplikacją komputerową działającą na platformach Windows i Mac OS, stworzoną przez zespół programistów z [https://developer.paciellogroup.com/resources/contrastanalyser/](The Paciello Group), wydaną na Powszechne Licencji Publicznej GNU.
+Program jest aplikacją komputerową działającą na platformach Windows i Mac OS, stworzoną przez zespół programistów z [The Paciello Group](https://developer.paciellogroup.com/resources/contrastanalyser/), wydaną na Powszechne Licencji Publicznej GNU.
 
 Twórcy programu promują jego 4 główne cechy:
 
@@ -63,11 +63,15 @@ Wynik każdego testu można skopiować do schowka, a następnie wkleić do dokum
 ![Definiowanie własnych kolorów](/images/cca/cca-dobor-kolorow.png)
 
 
+### Kopiowanie wyników
+
+
+
 ### Symulator ślepoty barw
 CCA umożliwia również analizę badanych zestawów barw za pomocą symulatora ślepoty barw. Symulator można włączyć, wybierając z menu opcję *Viev -> Colour blidness simulation* albo korzystając ze skrótu klawiaturowego Ctrl+B (w Windows).
  
 
-![Analizator kontrastu kolorów z otwartym oknem symulacji ślepoty kolorów (Windows)](/images/cca/symulacja-slepoty-barw.png)
+![Analizator kontrastu kolorów z otwartym oknem symulacji ślepoty kolorów (Windows)](/images/cca/cca-symulacja-slepoty-barw.png)
 
 
 W starszej wersji CCA istniała pożyteczna funkcja powiększonego podglądu wybranych elementów z równoczesnym zastosowaniem filtrów symulujących zaburzenia widzenia barw. Poniższy zrzut ekranu ilustruje, jak zawodnym sposobem wyróżnienia łączy jest użycie koloru zamiast podkreślenia lub innego niż tylko kolor wyróżnienia. Niepogrubione łącza widziane w skali szarości nie odróżniają się od otaczającego je tekstu.  
