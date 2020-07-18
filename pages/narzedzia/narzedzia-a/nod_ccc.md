@@ -1,22 +1,30 @@
 ---
-title: WCAG Color Contrast Checker 
+title: Tester kontrastu kolorów WCAG 
 tags: [narzędzia-oceny-dostępności,kontrast kolorów]
 sidebar: narzedzia_sidebar
 permalink: nod-ccc
 folder: narzedzia-a
 ---
 
-## Do czego służy?
-Jednym z najbardziej poręcznych narzędzi oceny kontrastu między tekstem i tłem jest rozszerzenie przeglądarek Chrome i Firefox autorstwa Jorge Rumosoro. 
+## Przeznaczenie
+Jednym z najbardziej poręcznych narzędzi oceny kontrastu między tekstem i tłem jest **WCAG Color Contrast Checker** - rozszerzenie przeglądarek Chrome i Firefox autorstwa Jorge Rumosoro. 
 
-Dodatek analizuje kontrast między barwą tekstu i barwą tła wszystkich elementów tekstowych na stronie internetowej. 
+Dodatek testuje kontrast między barwą tekstu i barwą tła wszystkich elementów tekstowych na stronie internetowej i analizuje jego zgodność z kryteriami sukcesu WCAG na poziomie AA 1.4.3 Kontrast minimalny oraz 1.4.6 Kontrast rozszerzony na poziomie AAA. 
 
 Z dokumentacji dodatku wynika, że może również analizować kontrast w dokumentach osadzonych na stronie za pomocą ramek łączonych (iframe). Do przełączania się między dokumentami miałby służyć specjalny przycisk, którego do chwili napisania tego poradnika nie udało nam się zlokalizować.
 
-Niestety, rozszerzenie nie analizuje kontrastu między obiektami nietekstowymi i ich tłem. Autor objaśnia, że „Jeśli element jest obrazem, to wykrytym kolorem pierwszego planu jest ten, którego używałby tekst alternatywny obrazu, a&nbsp;jeśli element zawiera obraz jako tło, to kolor tła jest tym, który został określony bez uwzględnienia obrazu.” Trochę to skomplikowane, ale w praktyce raczej bez znaczenia. Nie spotkaliśmy się z przypadkiem, by dodatek „pomylił” tekst z&nbsp;nie-tekstem. Ale możliwe jest, że w przypadkach, gdy tłem dla tekstu jest obraz osadzony lub obraz tła, uzyskamy błędny wynik. Na przykład, gdy na jednolicie czarnym obrazie zostanie umieszczony biały tekst dodatek zgłosi błąd współczynnika kontrastu, gdy kolorem tła strony będzie kolor biały lub niewystarczająco ciemny. 
+Niestety, rozszerzenie nie analizuje kontrastu między obiektami nietekstowymi i ich tłem. 
+
+Autor objaśnia, że „Jeśli element jest obrazem, to wykrytym kolorem pierwszego planu jest ten, którego używałby tekst alternatywny obrazu, a&nbsp;jeśli element zawiera obraz jako tło, to kolor tła jest tym, który został określony bez uwzględnienia obrazu.” 
+
+Trochę to skomplikowane, ale w praktyce raczej bez znaczenia. Nie spotkaliśmy się z przypadkiem, by dodatek „pomylił” tekst z&nbsp;nie-tekstem. Ale możliwe jest, że w przypadkach, gdy tłem dla tekstu jest obraz osadzony lub obraz tła, uzyskamy błędny wynik. Na przykład, gdy na jednolicie czarnym obrazie zostanie umieszczony biały tekst dodatek zgłosi błąd współczynnika kontrastu, gdy kolorem tła strony będzie kolor biały lub niewystarczająco ciemny. 
 
 ## Instalacja
 Rozszerzenie instalujemy jak każdy inny dodatek do przeglądarki. Przejdź do internetowego sklepu Chrome lub Mozilla Add-ons, wyszukaj WCAG Color Contrast Checker i zainstaluj w przeglądarce, naciskając przycisk Dodaj do… (Chrome, Firefoxa).
+
+- [Zainstaluj z internetowego sklepu Chrome](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf)
+- [Zainstaluj w Firefox z Mozilla Add-ons](https://addons.mozilla.org/pl/firefox/addon/wcag-contrast-checker/)
+
 
 ## Stosowanie 
 Korzystanie z dodatku nie wymaga specjalnych umiejętności. Po prostu przejdź na stronę, którą chcesz zbadać i&nbsp;uruchom dodatek. Niemal natychmiast w bocznym oknie wyświetlą się wyniki testu.

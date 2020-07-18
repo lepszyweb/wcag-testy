@@ -50,7 +50,7 @@ entries:
       url: /nod-arc
       output: web, pdf
 
-    - title: Color Contrast Checker
+    - title: WCAG Color Contrast Checker
       url: /nod-ccc
       output: web, pdf
 
