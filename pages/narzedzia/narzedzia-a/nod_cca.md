@@ -32,8 +32,10 @@ Po instalacji warto w opcjach konfiguracyjnych ustawić opcję Enable Auto Updat
  
 W oknie programu możemy wyróżnić kilka sekcji.
 
+### Menu
 W menu (1) znajdziemy takie opcje, jak: *Preferences* (Ustawienia), *Edit -> Copy results* (Edycja – Kopiuj wyniki), *Colour blidness simulation*  (Symulator ślepoty kolorów).
 
+### Określanie badanych kolorów
 W górnej części okna znajdują się narzędzia do określenia badanych kolorów (2, 3).  Mamy możliwość wyboru jednego z typowych formatów zapisu kolorów (HEX, RGB, HSL, HSV), przy czym w&nbsp;przypadku kolorów pierwszego planu obsługiwane są również formaty z przezroczystością alfa (HEXa, RGBa, HSLa i HSVa). 
 
 ![Główne okno programu Colour Contrast Analyser (Windows)](/images/cca/cca-glowny.png)
@@ -43,6 +45,7 @@ Kolory można wprowadzić ręcznie, podając w odpowiednich polach ich kody, alb
 
 ![Próbnik (wybierak) kolorów w analizatorze](/images/cca/cca-wybor-koloru.png)
 
+### Prezentacja wyników testu
 Po wskazaniu kolorów, które chcemy zbadać, w sekcji *Sample preview* (Podgląd przykładu, 4) wyświetlany jest przykładowy tekst na wybranym tle oraz przykładowa grafika (ikona). Za pomocą pierwszej ikony poniżej pola ze wskazanym kolorem pierwszego planu wskazane kolory można przełączyć i podejrzeć efekt inwersji.
 
 ![Fragment okna programu z wynikami testu](/images/cca/cca-wynik.png)

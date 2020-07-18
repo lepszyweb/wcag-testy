@@ -50,6 +50,10 @@ entries:
       url: /nod-arc
       output: web, pdf
 
+    - title: WCAG Color Contrast Analuser
+      url: /nod-ccc
+      output: web, pdf
+
     - title: Inspektor dostępności w Firefox
       url: /nod-firefox-inspektor-dostepnosci
       output: web
