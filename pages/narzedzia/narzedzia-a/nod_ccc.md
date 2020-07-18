@@ -32,6 +32,7 @@ Korzystanie z dodatku nie wymaga specjalnych umiejętności. Po prostu przejdź 
 
 ## Okno i funkcje programu
 Okno dodatku podzielone jest na trzy sekcje. W nagłówku znajduje się logo, menu z dostępem do opcji *Help* (Pomoc), *Check contrast* (Sprawdź kontrast) i *Relase notes* (Uwagi o wydaniu), przycisk wyłączania dodatku oraz trzy rozwijane listy opcji z możliwością ustawienia wymaganego poziomu WCAG – AA lub AAA, filtra symulatora ślepoty barw oraz autoodświeżania.
+
 ![Menu dodatku](/images/cca/ccc-menu.png)
 
 Główna część okna podzielona jest na dwie sekcje. W pierwszej, górnej wyświetlana jest tabela z wynikami testów, w&nbsp;dolnej dynamicznie wyświetlane są szczegółowe dane każdego z wykrytych przypadków pary kolorów.
