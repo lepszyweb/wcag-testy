@@ -31,7 +31,7 @@ entries:
   - title: Aplikacje
     output: web, pdf
     folderitems:
-    - title: Color Contrast Analyzer
+    - title: CCA - Analizator kontrastu kolorów
       url: /nod-cca
       output: web
     - title: PAC - walidator PDF
@@ -50,7 +50,7 @@ entries:
       url: /nod-arc
       output: web, pdf
 
-    - title: WCAG Color Contrast Checker
+    - title: Tester kontrastu kolorów WCAG
       url: /nod-ccc
       output: web, pdf
 
