@@ -349,7 +349,7 @@ Jeśli dana <a href="#" data-toggle="tooltip" data-original-title="{{site.data.g
 
 Tylko <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.obslugiwana_przez_dostepnosc | strip_html | replace: '*', ''}}">technologie obsługujące dostępność</a> są uwzględniane jako podstawa spełnienia kryteriów sukcesu. Każda informacja czy funkcjonalność, która nie jest dostarczona w postaci obsługującej dostępność, muszą mieć swoją wersję alternatywną obsługującą dostępność. (Więcej informacji: [Understanding accessibility suport](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-accessibility-support-head)).
 
-### 5.2.5 Brak zakłóceń
+### 5.2.5 Bez zakłóceń
 
 Jeśli na stronie wykorzystywane są technologie, które nie obsługują dostępności lub są użyte tak, że nie obsługują dostępności, to technologie te nie blokują użytkownikom dostępu do reszty strony. Dodatkowo, <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.strona_internetowa | strip_html | replace: '*', ''}}">strona internetowa</a> jako całość nadal spełnia wymogi zgodności pod każdym z następujących warunków:
 
@@ -360,9 +360,9 @@ Jeśli na stronie wykorzystywane są technologie, które nie obsługują dostęp
 Ponadto, następujące kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ niezastosowanie poniższych kryteriów mogłoby uniemożliwiać korzystanie ze strony:
 
 - **1.4.2 Kontrola odtwarzania dźwięku**
-- **2.1.2 Brak pułapki na klawiaturę**
+- **2.1.2 Bez pułapki na klawiaturę**
 - **2.3.1 Trzy błyski lub wartości poniżej progu**
-- **2.2.2: Wstrzymywanie (pauza), zatrzymywanie, ukrywanie**
+- **2.2.2 Pauza, zatrzymanie, ukrycie**
 
 *Uwaga:* Jeśli strona nie może być zgodna (na przykład testowa strona zgodności lub strona przykładowa), to nie można jej uwzględnić w zakresie zgodności ani w oświadczenia o zgodności.
 
