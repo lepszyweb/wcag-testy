@@ -194,9 +194,7 @@ Jeśli WSZYSTKIE poniższe twierdzenia są **PRAWDZIWE**, wówczas strona (treś
 
 1.	Każdy programowo zidentyfikowany poziom nagłówka logicznie odpowiada wizualnej strukturze nagłówka na stronie **ORAZ**
 
-2.	Programowe określenia poziomu nagłówka, jeśli użyto znacznika H i atrybutu ARIA, są takie same (poziom nagłówka jest poprawnie określony - nie ma konfliktów w okreśłeniu poziomów nagłóków) 
-
-?????????
+2.	Programowe określenia poziomu nagłówka, jeśli użyto znacznika H i atrybutu ARIA, są takie same (poziom nagłówka jest poprawnie określony - nie ma konfliktów w określeniu poziomów nagłówków).
 
 3.  Każdy nagłówek wizualny jest określony programowo.
 
@@ -290,7 +288,7 @@ Jeśli WSZYSTKIE poniższe twierdzenia są **PRAWDZIWE**, wówczas strona (treś
 
 ## Obowiązujące normy
 
-{% include ks/2-4-5.md %}
+{% include ks/2-4-6.md %}
 
 {% include ks/1-3-1.md %}
 

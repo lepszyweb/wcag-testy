@@ -355,6 +355,8 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 ### Obowiązujące normy
 
 {% include ks/1-2-2.md %}
+{% include ks/1-2-4.md %}
+{% include ks/1-2-5.md %}
 
 [*Section 508 503.4.1 Sterowanie napisami*](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#503-applications): Jeżeli do regulacji głośności przez użytkownika służą elementy sterujące, technologia zapewnia elementy sterujące wyborem napisów na tym samym poziomie menu, co elementy sterujące wyborem przez użytkownika głośności lub programu.
 

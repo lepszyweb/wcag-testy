@@ -123,7 +123,7 @@ Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść)
 |------------------------|---------|------------------------------------------|
 | 4-1-2-okreslono-tytul-ramki | 12.C    | Każdy element `<frame>`ma atrybut tytułu, który opisuje treść ramki. 
 
-### Cel testu 12.A 2-4-2-okreslono-tytul-strony
+### Cel testu 12.C 4-1-2-okreslono-tytul-ramki
 
 
 Celem tego testu jest sprawdzenie, czy każda ramka ma atrybut `title` z tytułem opisującym treść ramki. Użytkownicy, którzy polegają na powiązaniach programowych, np. użytkownicy czytników ekranu, potrzebują sposobu na określenie celu lub tematu ramki, oraz i podjęcie decyzji, czy chcą z nimi wchodzić w interakcje.
@@ -181,7 +181,7 @@ Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełn
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
-| 4-1-2-nazwa-ramki-łaczonej | 12.D    | Kombinacja dostępnej nazwy i opisu każdej `<iframe>` opisuje jej zawartość. |
+| 4-1-2-nazwa-ramki-łaczonej | 12.D    | Kombinacja dostępnej nazwy i opisu każdej `<iframe>` opisuje jej treść. |
 
 ### Cel testu 12.D 4-1-2-nazwa-ramki-łaczonej
 

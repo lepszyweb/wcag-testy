@@ -98,7 +98,7 @@ Następujące kryteria sukcesu są nowe w WCAG 2.1:
 - [**1.4.11 Kontrast elementów nietekstowych**](https://wcag.lepszyweb.pl/#non-text-contrast) (AA)
 - [**1.4.12 Odstępy w tekście**](https://wcag.lepszyweb.pl/#non-text-contrast) (AA)
 - [**1.4.13 Treść spod kursora lub fokusa**](https://wcag.lepszyweb.pl/#content-on-hover-or-focust) (AA)
-- [**2.1.4 Skróty klawiaturowe**](https://wcag.lepszyweb.pl/#character-key-shortcuts) (A)
+- [**2.1.4 Jednoznakowe skróty klawiaturowe**](https://wcag.lepszyweb.pl/#character-key-shortcuts) (A)
 - [**2.2.6 Ostrzeżenie o limicie czasu**](https://wcag.lepszyweb.pl/#timeouts) (AAA)
 - [**2.3.3 Animacja po interakcji**](https://wcag.lepszyweb.pl/#animation-from-interactions) (AAA)
 - [**2.5.1 Gesty dotykowe**](https://wcag.lepszyweb.pl/#pointer-gestures) (A)

@@ -31,7 +31,7 @@ Procedura testowa „Obrazy” obejmuje pięć testów:
 
 ## Obrazy niosące informacje
 
-### Testu 7.A 1.1.1-znaczaca-nazwa-obrazu
+### Test 7.A 1.1.1-znaczaca-nazwa-obrazu
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
