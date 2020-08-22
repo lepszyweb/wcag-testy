@@ -63,7 +63,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 
 -   Polecenia klawiaturowe obejmują standardowe i wszelkie niestandardowe polecenia klawiaturowe.
 -   Dostęp z klawiatury dla atrybutu title jest możliwy w Internet Explorerze 11 dla Windows 8.1 i 10. Przydatne może być powiadomienie testerów, aby zatrzymywali się podczas tabulacji interaktywnych treśc nad atrybutem TITLE, aby sprawdzić, czy zawartość TITLE jest ujawniana podczas testowania nawigacji za pomocą klawiatury.
--   Ten test można połączyć z testami widoczności fokusa i kolejności tabulacji.
+-   Ten test można połączyć z testami widoczności fokusu i kolejności tabulacji.
 -   Wskazówki i techniki wyszukiwania ukrytych treści mogą być potrzebne testerom.
 -   Przydatne może być udostępnienie testerom przewodnika po klawiaturze Windows.
 -   Treść, która zostanie uznana za niezgodną z KS 2.1.1, może zostać oznaczona do dalszej analizy pod kątem wyjątku z Sekcji 508, jeżeli „podstawowa funkcja wymaga danych wejściowych, które zależą od ścieżki ruchu użytkownika, a nie tylko punktów końcowych”.

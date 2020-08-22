@@ -15,13 +15,13 @@ Wiele osób nie może korzystać z myszy i w interakcjach z internetem musi pole
 Dla osób słabowidzących niezbędna jest również widoczność wskaźnika klawiatury, który nazywamy fokusem. Fokus pokazuje, na którym elemencie w danej chwili skupiona jest uwaga odbiornika sygnałów z klawiatury w programie użytkownika, czyli który z&nbsp;interaktywnych elementów strony jest aktualnie wybrany, który jest gotowy, by wykonać działanie żądane przez użytkownika.
 Podczas nawigacji klawiaturą po stronie, nazywanej nawigacją sekwencyjną, fokus powinien się przemieszczać sensownie zgodnie z&nbsp;logiczną kolejnością elementów strony.
 
-Aby zapewnić widoczność fokusa, twórcy stron mogą posłużyć się różnymi wskaźnikami, np. obramowaniem lub podkreśleniem elementu, który uzyskał fokus, odwróceniem (inwersją) kolorów elementu – wyświetleniem jasnego tekstu na ciemnym tle lub odwrotnie. W&nbsp;polach formularzy domyślnym wskaźnikiem fokusa jest migający kursor. Autorzy stron są zachęcani, by wzmocnić widoczność fokusa, który jest użyteczny dla wszystkich, a niezbędny dla osób z niepełnosprawnościami wzroku i ruchu.  
+Aby zapewnić widoczność fokusu, twórcy stron mogą posłużyć się różnymi wskaźnikami, np. obramowaniem lub podkreśleniem elementu, który uzyskał fokus, odwróceniem (inwersją) kolorów elementu – wyświetleniem jasnego tekstu na ciemnym tle lub odwrotnie. W&nbsp;polach formularzy domyślnym wskaźnikiem fokusu jest migający kursor. Autorzy stron są zachęcani, by wzmocnić widoczność fokusu, który jest użyteczny dla wszystkich, a niezbędny dla osób z niepełnosprawnościami wzroku i ruchu.  
 
 ![Kontur wokół środkowego łacza](images/andi/06_P_fokus-linki.png)
 Rysunek: Zwróć uwagę na kontur wokół środkowego łącza
 
-![Przycisk bez fokusa po lewej stronie i z fokusem po prawej stronie](images/andi/06_P_fokus-przycisk.png)
-Rysunek: Porównaj ten sam przycisk bez fokusa (po prawej - fioletowy napis na białym obramowanym tle) i z fokusem (po prawej - biały napis na fioletowym tle i otoczka)
+![Przycisk bez fokusu po lewej stronie i z fokusem po prawej stronie](images/andi/06_P_fokus-przycisk.png)
+Rysunek: Porównaj ten sam przycisk bez fokusu (po prawej - fioletowy napis na białym obramowanym tle) i z fokusem (po prawej - biały napis na fioletowym tle i otoczka)
 
 
 ### Co robić
@@ -39,18 +39,18 @@ W przeglądarkach, która obsługują nawigację za pomocą klawiatury za pomoc�
 
 ### Co sprawdzać
 -	**Tab do wszystkich**: Sprawdź, czy klawiszem Tab można dotrzeć do wszystkich interaktywnych elementów na stronie, w tym linków, pól formularzy, przycisków i pokręteł odtwarzacza multimedialnego. (Częstym problemem jest to, że nie można dotrzeć tabulatorem do elementów sterujących odtwarzacza multimedialnego.)
--	**Tab ze wszystkich**: Sprawdź, czy za pomocą klawisza Tab można wyjść ze wszystkich elementów, do których można było przenieść fokus. (Częstym problemem jest zatrzymanie fokusa klawiatury przez kontrolki mediów albo utknięcie wewnątrz innego elementu osadzonego na stronie, np. mapie tak, że nie można się z nich wydostać bez użycia myszki. Nazywa się to „pułapką na klawiaturę”).
+-	**Tab ze wszystkich**: Sprawdź, czy za pomocą klawisza Tab można wyjść ze wszystkich elementów, do których można było przenieść fokus. (Częstym problemem jest zatrzymanie fokusu klawiatury przez kontrolki mediów albo utknięcie wewnątrz innego elementu osadzonego na stronie, np. mapie tak, że nie można się z nich wydostać bez użycia myszki. Nazywa się to „pułapką na klawiaturę”).
 -	**Kolejność tabulacji**: Sprawdź, czy kolejność przemieszczania  następuje w logicznej kolejności czytania (np. od lewej do prawej, w przypadku języków, w których obowiązuje taki kierunek pisania,  z góry na dół).
--	**Widoczny fokus**: Sprawdź, czy fokus jest wyraźnie widoczny, gdy przemieszczasz się prze kolejne elementy, to znaczy, czy w każdym momencie umiesz powiedzieć, w którym miejscu znajduje się fokus, np. że łącze uzyskało dodatkowe wyróżnienie (uwaga, zniknięcie podkreślenia nie jest dodatkowym wyróżnieniem!), że przycisk zmienił kolorystykę, że wokół pola  formularza pojawił się obrys. Uwaga: Nie wszystkie elementy muszą uzyskiwać taki sam wskaźnik fokusa, ale wszystkie elementy pełniące podobne funkcje powinny być oznaczane fokusem w podobny sposób.
+-	**Widoczny fokus**: Sprawdź, czy fokus jest wyraźnie widoczny, gdy przemieszczasz się prze kolejne elementy, to znaczy, czy w każdym momencie umiesz powiedzieć, w którym miejscu znajduje się fokus, np. że łącze uzyskało dodatkowe wyróżnienie (uwaga, zniknięcie podkreślenia nie jest dodatkowym wyróżnieniem!), że przycisk zmienił kolorystykę, że wokół pola  formularza pojawił się obrys. Uwaga: Nie wszystkie elementy muszą uzyskiwać taki sam wskaźnik fokusu, ale wszystkie elementy pełniące podobne funkcje powinny być oznaczane fokusem w podobny sposób.
 -	**Wszystkie funkcje za pomocą klawiatury**: Sprawdź, czy za pomocą klawiatury można zrobić wszystko, to znaczy, że nie potrzebujesz myszy, aby aktywować akcje, opcje, widoczne zmiany i inne funkcje. (Częstym problemem jest to, że niektóre funkcje są dostępne tylko przy najechaniu myszą i nie są dostępne z ogniskowaniem na klawiaturze).
 -	**Rozwijane listy**: Sprawdź, czy po przejściu tabulatorem do listy rozwijanej, można użyć klawiszy strzałek, aby przejść przez wszystkie opcje bez wywołania działania. (Częstym problemem w przypadku list rozwijanych używanych do nawigacji jest to, że gdy tylko strzałka przeniesie fokus na następną pozycję, to ta pozycja zostaje automatycznie wybrana i nie można już przejść do innych pozycji na liście albo następuje przekierowanie na inną stronę lub w inne miejsce strony.
 -	**Linki graficzne**: Sprawdź, gdy obrazy, które są łączami, mają wyraźnie widoczny fokus i czy łącza mogą być aktywowane za pomocą klawiatury (zwykle przez naciśnięcie klawisza Enter).
 
-### Sprawdzenie widoczności fokusa na stronie demo PrzediPo  
+### Sprawdzenie widoczności fokusu na stronie demo PrzediPo  
 Otwórz dostępną wersję strony Ankieta: https://przedipo.lepszyweb.pl/after/survey.html
 Przejdź przez wszystkie elementy strony klawiszem Tab, a w obrębie złożonej grupy elementów poruszaj się strzałkami. Zwróć uwagę,
--	że wiele elementów w chwili uzyskania fokusa otrzymuje zielone tło
--	że niektóre  elementy w chwili uzyskania fokusa są obrysowane przerywaną linią
+-	że wiele elementów w chwili uzyskania fokusu otrzymuje zielone tło
+-	że niektóre  elementy w chwili uzyskania fokusu są obrysowane przerywaną linią
 -	że przyciski opcji są otaczane przerywanym obrysem i przenoszone jest do nich zaznaczenie (kropka)
 -	że między opcjami w grupie opcji można się poruszać strzałkami
 -	że pozycje na liście rozwijanej można wybierać strzałkami.   

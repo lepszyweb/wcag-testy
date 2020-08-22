@@ -231,8 +231,8 @@ entries:
           url: /ICT-02-widoczny-fokus
           output: web, pdf
 
-        - title: 3. Kolejność fokusa
-          url: /ICT-03-kolejnosc-fokusa
+        - title: 3. Kolejność fokusu
+          url: /ICT-03-kolejnosc-fokusu
           output: web, pdf
 
         - title: 4. Treść powtarzalna
@@ -541,8 +541,8 @@ entries:
           url: /2-4-2-Tytuly-stron
           output: web
 
-        - title: 2.4.3 Kolejność fokusa
-          url: /2-4-3-Kolejnosc-fokusa
+        - title: 2.4.3 Kolejność fokusu
+          url: /2-4-3-Kolejnosc-fokusu
           output: web, pdf
 
         - title: 2.4.4 Cel linku w kontekście

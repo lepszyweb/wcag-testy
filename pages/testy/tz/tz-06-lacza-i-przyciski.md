@@ -148,9 +148,9 @@ Innymi słowy, jeśli klikniesz łącze lub przycisk i:
 		
 		**Uwaga**: Niektóre zmiany treści mogą nie wystąpić w bezpośredniej bliskości łącza lub przycisku lub mogą nie być możliwe do bezpośredniej identyfikacji za pomocą programowych atrybutów łącza lub przycisku. Takie zmiany treści mogą wymagać dodatkowego powiadomienia, na przykład w oknie dialogowym. Okna dialogowe mogą służyć do różnych celów, takich jak przekazywanie komunikatów ostrzegawczych, czy  udostępnianie opcji akceptowania lub anulowania zmian, które mogą wystąpić w wyniku wybrania przycisku lub łącza.
 
-    3.  Zidentyfikuj zmiany treści, które powodują przeniesienie fokusa na treść, która uległa zmianie.
+    3.  Zidentyfikuj zmiany treści, które powodują przeniesienie fokusu na treść, która uległa zmianie.
 
-        1.  Ustal, czy przeniesienie fokusa na zmienioną treść jest wystarczające, aby powiadomić użytkownika o wystąpieniu zmiany (np. opisując zmianę bezpośrednio w treści, na którą fokus został przeniesiony).
+        1.  Ustal, czy przeniesienie fokusu na zmienioną treść jest wystarczające, aby powiadomić użytkownika o wystąpieniu zmiany (np. opisując zmianę bezpośrednio w treści, na którą fokus został przeniesiony).
 
     4.  Zidentyfikuj zmiany treści występujące w dynamiczym (żywym) regionie ARIA:
 

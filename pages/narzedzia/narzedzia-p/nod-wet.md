@@ -29,7 +29,7 @@ Za pomocą narzędzi na badanej stronie możemy zobaczyć właściwości niewido
 - **Tabindex** - wyróżnia obiekty z oznaczonym atrybutem tabindex, podaje wartość atrybutu,
 - **Internal Link** - wyróżnia łącza wewnętrzne, prowadzące do miejsc na stronie, zarówno ich źródło, jak i cel. Jeśli określono dla łącza atrybut *tabindex*, podaje jego wartość, jeśli nie określono, komunikuje brak atrybutu (*missing tabindex*), ale nie jest to bład.
 - **Cross Site Content** - wyróżnia obszary zawartości pochodzące z innych witryn (np. reklamy),
-- **Force Show Visual Focus** - wymusza widoczność fokusa (punktów uwagi),
+- **Force Show Visual Focus** - wymusza widoczność fokusu (punktów uwagi),
 - **High Contrast CSS** - przełącza widok w tryb wysokiego kontrastu,
 - **Language Attributes** - wyróżnia części strony z oznaczonym atrybutem języka i wartość atrybutu.
 

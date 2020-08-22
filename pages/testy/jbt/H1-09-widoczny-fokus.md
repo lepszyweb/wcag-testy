@@ -26,12 +26,12 @@ Kryterium sukcesu: [2.4.7 Widoczny fokus](https://wcag.lepszyweb.pl/#focus-visib
     -	Kontur, tło lub podkreślenie ma współczynnik kontrastu 4,5:1 w stosunku do tła.
     -	Zmiana koloru obiektu ma współczynnik kontrastu pomiędzy dwoma kolorami wynoszący co najmniej 3:1
 
-*Uwaga:* Wyrazistość widocznego fokusa jest subiektywna. Minimalnym wymaganym poziomem wyrazistości są domyślne ustawienie wyświetlacza przeglądarki (lub platformy systemu operacyjnego).
+*Uwaga:* Wyrazistość widocznego fokusu jest subiektywna. Minimalnym wymaganym poziomem wyrazistości są domyślne ustawienie wyświetlacza przeglądarki (lub platformy systemu operacyjnego).
 
-*Uwaga2*: Wskaźnik fokusa może przybierać różne formy: obramowania elementu, migającego kursora w polu tekstowym, wizualnej zmiany wyglądu przycisku.
+*Uwaga2*: Wskaźnik fokusu może przybierać różne formy: obramowania elementu, migającego kursora w polu tekstowym, wizualnej zmiany wyglądu przycisku.
 
 ### Procedura testowania:
-Uwaga: W środowisku testowym podczas testowania nie należy używać żadnych narzędzi modyfikujących wygląd fokusa. Niektóre narzędzia testowe dodają widoczny kontur wokół elementów, które otrzymują fokus.  Chociaż takie narzędzia mogą być pomocne w śledzeniu fokusa, to w testowaniu zgodności z KS [2.4.7 Widoczny fokus](https://wcag.lepszyweb.pl/#focus-visible) nie mogą być stosowane, bo spowodują uzyskanie nieprawdziwych wyników testu.  
+Uwaga: W środowisku testowym podczas testowania nie należy używać żadnych narzędzi modyfikujących wygląd fokusu. Niektóre narzędzia testowe dodają widoczny kontur wokół elementów, które otrzymują fokus.  Chociaż takie narzędzia mogą być pomocne w śledzeniu fokusu, to w testowaniu zgodności z KS [2.4.7 Widoczny fokus](https://wcag.lepszyweb.pl/#focus-visible) nie mogą być stosowane, bo spowodują uzyskanie nieprawdziwych wyników testu.  
 1.	Użyj klawiatury, aby poruszać się po wszystkich interaktywnych komponentach strony.
     1.	Użyj Tab i kombinacji klawiszy Shift+Tab, aby poruszać się między widżetami zarówno do przodu, jak i do tyłu.
     2.	Użyj klawiszy strzałek, aby poruszać się między elementami, na których można ustawiać fokus w złożonym widżecie.

@@ -255,9 +255,9 @@ Test 2.D 4.1.2-powiadamianie-o-automatycznej-zmianie **nie ma zastosowania**, je
 
         1.  Ustal, czy okna dialogowe zapewniają wystarczające programowe powiadamianie o zmianach treści.
 
-    2.  Zidentyfikuj zmiany treści, które powodują przeniesienie fokusa na treść, która uległa zmianie.
+    2.  Zidentyfikuj zmiany treści, które powodują przeniesienie fokusu na treść, która uległa zmianie.
 
-        1.  Ustal, czy przeniesienie fokusa na zmienioną treść jest wystarczające, aby powiadomić użytkownika o zdarzeniu zmiany (np. opisując zmianę bezpośrednio w treści, na którą fokus został przeniesiony).
+        1.  Ustal, czy przeniesienie fokusu na zmienioną treść jest wystarczające, aby powiadomić użytkownika o zdarzeniu zmiany (np. opisując zmianę bezpośrednio w treści, na którą fokus został przeniesiony).
 
     3.  Zidentyfikuj zmiany treści występujące w aktywnym „żywym” obszarze ARIA:
 

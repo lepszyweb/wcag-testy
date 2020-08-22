@@ -16,7 +16,7 @@ folder: testy/latwe
 - [Nagłówki](03_P_naglowki)
 - [Kontrast kolorów](04_P_wspolczynnik_kontrastu)
 - [Zmiana rozmiaru tekstu](05_P_zmiana-rozmiaru-tekstu)
-- [Dostęp za pomocą klawiatury i widoczność fokusa](06_P_klawiatura)
+- [Dostęp za pomocą klawiatury i widoczność fokusu](06_P_klawiatura)
 - [Formularze, etykiety i błędy](07_P_formularze) (w tym pól Szukaj)
 - [Treść przesuwana, migocąca lub błyskająca](08_P_poruszanie-i-blyski)
 - [Odpowiedniki multimediów](09_P_multimedia.md) (wideo, audio)

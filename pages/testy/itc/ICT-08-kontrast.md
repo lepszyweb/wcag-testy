@@ -24,7 +24,7 @@ Ten test jest przeprowadzany w celu oceny równego dostępu do informacji dla ws
     -   Czysto dekoracyjne i nieistotne, bez żadnej funkcjonalności
     -   Zawarte w obrazach, które zawierają inną znaczącą treść wizualną
 -   Testowanie zmian w kontraście tekstu obejmuje zmiany wynikające z najechania myszą i stanu zaznaczenia.
--   Wyłączone elementy wejściowe, które nie otrzymują fokusa klawiatury, których nie można ich wybrać ani modyfikować. Nie są one wymagane do spełnienia wymagań dotyczących kontrastu. **Uwaga:** Komponenty interfejsu *tylko do odczytu* i wyłączone to nie to samo. Wyłączone komponenty interfejsu można uznać za nieaktywne komponenty interfejsu; komponenty interfejsu *tylko do odczytu* są aktywnymi elementami interfejsu i muszą spełniać wymagania dotyczące współczynnika kontrastu.
+-   Wyłączone elementy wejściowe, które nie otrzymują fokusu klawiatury, których nie można ich wybrać ani modyfikować. Nie są one wymagane do spełnienia wymagań dotyczących kontrastu. **Uwaga:** Komponenty interfejsu *tylko do odczytu* i wyłączone to nie to samo. Wyłączone komponenty interfejsu można uznać za nieaktywne komponenty interfejsu; komponenty interfejsu *tylko do odczytu* są aktywnymi elementami interfejsu i muszą spełniać wymagania dotyczące współczynnika kontrastu.
 -   Duży tekst to tekst co najmniej 18-punktowy lub tekst pogrubiony 14-punktowy.
 
 ## Procedura testu dla KS 1.4.3 Kontrast (minimum)

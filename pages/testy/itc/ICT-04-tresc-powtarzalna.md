@@ -29,12 +29,12 @@ Aby umożliwić równe korzystanie ze strony przez użytkowników osbługującyc
 Bloki treści, które powtarzają się na wielu stronach, w tym zestawy łączy nawigacyjnych, nagłówki stron i banery.
 
 ### Instrukcja testowania
-1.  Użyj standardowych poleceń klawiatury, aby przechodzić do przodu do powtarzalnych bloków treści. Niektóre funkcje obejścia mogą być niewidoczne, dopóki nie uzyskają fokusa.
+1.  Użyj standardowych poleceń klawiatury, aby przechodzić do przodu do powtarzalnych bloków treści. Niektóre funkcje obejścia mogą być niewidoczne, dopóki nie uzyskają fokusu.
 2.  Sprawdź, czy dostępna jest metoda umożliwiająca pomijanie powtarzających się treści przy użyciu klawiatury.
 3.  Użyj klawiatury, aby aktywować metodę obejścia i sprawdzić działanie funkcji obejścia.
 4.  Sprawdź, czy metoda działa zgodnie z przeznaczeniem. Na przykład:
     -   Blok powtarzanej treści jest ukrywany, zamykany lub pomijany.
-    -   Jeśli metoda ma na celu pominięcie, sprawdź, czy fokus jest przesunięty poza powtarzalną treść. Treści, które nie są powtarzalne, nie należy pomijać. Jeśli jest tylko tekst/brak elementu interaktywnego, który ma odbierać przesunięcie fokusa, może nie być oczywiste, że nastąpiło przesunięcie fokusa.
+    -   Jeśli metoda ma na celu pominięcie, sprawdź, czy fokus jest przesunięty poza powtarzalną treść. Treści, które nie są powtarzalne, nie należy pomijać. Jeśli jest tylko tekst/brak elementu interaktywnego, który ma odbierać przesunięcie fokusu, może nie być oczywiste, że nastąpiło przesunięcie fokusu.
 
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 2.4.1 oraz wymaganie podstawowe nr 4 kończy się niepowodzeniem.
@@ -73,7 +73,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 Ten test podstawowy obejmuje metody obejścia, które działają tylko z klawiaturą. Nie uwzględniono następujących wystarczających technik WCAG, które wymagają dodatkowych narzędzi pomocniczych do działania jako metody obejścia:
 
 - {% include techniki/H69.md %}
--   [Używanie punktów orientacyjnych ARIA do określenia istotnych obszarów strony](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA11.html)
+- {% include techniki/ARIA11.md %}
 
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
 

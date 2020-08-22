@@ -33,7 +33,7 @@ folder: testy/jbt
 |1.4.10 Dopasowanie do szerokości ekranu | AA|Zmiany rozmiaru i orientacji|
 |1.4.11 Kontrast elementów nietekstowych | AA|Kontrast; Obrazy |
 |1.4.12 Odstępy w tekście | AA|Zmiany rozmiaru i orientacji|
-|1.4.13 Treść spod kursora lub fokusa | AA|   |
+|1.4.13 Treść spod kursora lub fokusu | AA|   |
 |2.1.1 Klawiatura | A |Nawigacja sekwencyjna; |
 |2.1.2 Brak pułapki na klawiaturę | A |Zachowanie fokusowanych  |
 |2.1.4 Skróty klawiaturowe | A |   |
@@ -42,7 +42,7 @@ folder: testy/jbt
 |2.3.1 Trzy błyski | A |Mruganie, miganie, błyskanie|
 |2.4.1 Możliwość pominięcia bloków  | A |Nawigacja pomijająca|
 |2.4.2 Tytuły stron | A |Tytuł strony |
-|2.4.3 Kolejność fokusa | A |Nawigacja sekwencyjna|
+|2.4.3 Kolejność fokusu | A |Nawigacja sekwencyjna|
 |2.4.4 Cel linku w kontekście | A |Łącza|
 |2.4.5 Wiele dróg | AA|Wiele dróg, Nagłówek - wyszukiwanie|
 |2.4.6 Nagłówki i etykiety | AA|Nagłówki; Formularze: Etykiety i instrukcje; Nagłówek - wyszukiwanie|

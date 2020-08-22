@@ -26,9 +26,9 @@ folder: testy/tz
 | 4.C | 2.1.2-bez-pułapki-na-klawiaturę                     | 2.1.2 Bez pułapki na klawiaturę<br>Wymogi zgodności 5.2.5 Bez zakłóceń       |
 | 4.D | 2.4.7-widoczny-fokus                        | 2.4.7 Widoczny fokus                                    |
 | 4.E | 3.2.1-po-oznaczeniu-fokusem                             | 3.2.1 Po zaznaczeniu fokusem                                         |
-| 4.F | 2.4.3-kolejnosc-fokusa                  | 2.4.3 Kolejność fokusa                                      |
-| 4.G | 2.4.3-fokus-do-tresci-odkrytej                   | 2.4.3 Kolejność fokusa                                      |
-| 4.H | 2.4.3-powrot-fokusa-do-porządku                   | 2.4.3 Kolejność fokusa                                      |
+| 4.F | 2.4.3-kolejnosc-fokusu                  | 2.4.3 Kolejność fokusu                                      |
+| 4.G | 2.4.3-fokus-do-tresci-odkrytej                   | 2.4.3 Kolejność fokusu                                      |
+| 4.H | 2.4.3-powrot-fokusu-do-porządku                   | 2.4.3 Kolejność fokusu                                      |
 | 5.A | 3.3.2-etykiety-lub-instrukcje                       | 3.3.2 Etykiety lub instrukcje                           | 
 | 5.B | 2.4.6-opisowe-etykiety                     | 2.4.6 Nagłówki i etykiety                              |
 | 5.C | 1.3.1-etykiety-instrukcje-powiązane-programowo                   | 1.3.1 Informacje i relacje<br>4.1.2 Nazwa, rola, wartość                                 | 
@@ -101,7 +101,7 @@ folder: testy/tz
 | 1.4.10 Dopasowanie do szerokości ekranu  |  | 
 | 1.4.11 Kontrast nie-tekstu  | | 
 | 1.4.12 Odstępy w tekście|   | 
-| 1.4.13 Treść spod kursora lub fokusa  |  | 
+| 1.4.13 Treść spod kursora lub fokusu  |  | 
 | 2.1.1 Klawiatura | 4.A / 2.1.1-dostęp z klawiatury<br>4.B / 2.1.1-bez-czasu-nacisniecia-klawiszy  | 
 | 2.1.2 Klawiatura niezablokowana  | 4.C / 2.1.2-bez-pułapki-na-klawiaturę   | 
 | 2.1.4 Skróty klawiaturowe  |  | 
@@ -110,7 +110,7 @@ folder: testy/tz
 | 2.3.1 Trzy błyski lub przekaz podprogowy | 3.A / 2.3.1-migotanie           |
 | 2.4.1 Możliwość pominięcia bloków| 9.A / 2.4.1-omijanie-tresci    | 
 | 2.4.2 Tytuł strony| 12.A / 2-4-2-okreslono-tytul-strony<br>12.B / 2-4-2-tytul-opisuje-tresc-strony |
-| 2.4.3 Kolejność fokusa| 4.F / 2.4.3-kolejnosc-fokusa<br>4.G / 2.4.3-fokus-do-tresci-odkrytej<br>4.H / 2.4.3-powrot-fokusa-do-porządku  | 
+| 2.4.3 Kolejność fokusu| 4.F / 2.4.3-kolejnosc-fokusu<br>4.G / 2.4.3-fokus-do-tresci-odkrytej<br>4.H / 2.4.3-powrot-fokusu-do-porządku  | 
 | 2.4.4 Cel linku (z kontekstem)  | 6.A / 2.4.4-cele-laczy-przyciskow       | 
 | 2.4.5 Wiele dróg  | 19.A / 2.4.5-wiele-drog    | 
 | 2.4.6 Nagłówki i etykiety | 10.A / 2-4-6-adekwatne-naglowki<br>5.B/ 2.4.6-opisowe-etykiety    | 

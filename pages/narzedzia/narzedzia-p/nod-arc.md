@@ -101,7 +101,7 @@ Gdy wybierzesz w bocznym pasku tę podkategorię, ARC Toolkit natychmiast wyświ
 
 ![Graficzna reprezentacja porządku tabulacji](/images/narzedzia/arc-toolkit-tab-order.png)
 
-#### Wzmocnienie fokusa
+#### Wzmocnienie fokusu
 Zaznacz opcję **Show and Track Focus** (Pokaż i śledź fokus) i wybierz w pasku bocznym podkategorię Tabindex (Indeks tabulatora). Następnie użyj klawisza Tab, by nawigować po stronie. Elementy, na które zostanie przeniesiony fokus klawiatury, zostaną wyróżnione wzmocnionym czerwonym obramowaniem. Jest to szczególnie pomocne narzędzie,  gdy projektant strony zmodyfikuje style tak, że fokus będzie niewidoczny lub nawet ukryty przed użytkownikiem.
 
 #### Przewijanie ekranu

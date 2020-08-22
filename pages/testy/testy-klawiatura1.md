@@ -39,7 +39,7 @@ Aby przeskakiwać między interaktywnymi elementami strony:
 
 Poruszanie się po stronie za pomocą klawisza **Tab** lub kombinacji klawiszy **Shift + Tab** nazywa się **nawigacją sekwencyjną**, czasem **nawigacją liniową**, często **tabulacją*.
 
-Nawigacja sekwencyjna polega na przenoszeniu tzw. <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.interaktywnosc}}">fokusa klawiatury</a> między kolejnymi interaktywnymi elementami strony. Komponentami, na których można ustawić fokus są łącza, przyciski, kontrolki formularzy (pola, opcje wyboru), a także złożone kmponenty oparte na javascript, nazywane <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.widzet}}">widżetami</a>.
+Nawigacja sekwencyjna polega na przenoszeniu tzw. <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.interaktywnosc}}">fokusu klawiatury</a> między kolejnymi interaktywnymi elementami strony. Komponentami, na których można ustawić fokus są łącza, przyciski, kontrolki formularzy (pola, opcje wyboru), a także złożone kmponenty oparte na javascript, nazywane <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.widzet}}">widżetami</a>.
 
 Aby nawigacja sekwencyjna była możliwa, komponent strony otrzymujący fokus musi być odpowiednio wyróżniony. W&nbsp;przeciwnym przypadku osoba korzystająca z&nbsp;klawiatury nie będzie w stanie skutecznie nawigować po stronie.    
 

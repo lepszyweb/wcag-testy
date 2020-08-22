@@ -23,15 +23,15 @@ Przejrzyj instrukcje formularza pod kątem kompletności i programowego powiąza
 
 ## Ograniczenia, założenia lub wyjątki
 -   Pola formularza tylko do odczytu (np. wstępnie wypełnione) otrzymują fokus klawiatury i można je wybierać, ale nie można ich modyfikować. Pola te muszą być oznaczone i [możliwe do odczytania przez program komputerowy](https://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable) oraz są testowane zgodnie z KS 1.3.1.
--   Wyłączone kontrolki nie otrzymują fokusa klawiatury, nie można ich wybrać ani modyfikować. Nie są one uwzględniane w tym teście.
+-   Wyłączone kontrolki nie otrzymują fokusu klawiatury, nie można ich wybrać ani modyfikować. Nie są one uwzględniane w tym teście.
 -   Kliknięcie opcji lub zaznaczenie opcji w formularzu powinno wybrać opcję, ale nie powinno inicjować zmiany kontekstu.
 -   [Zmiana kontekstu](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html#context-changedef) została zdefiniowana na stronie [Objaśnienie KS 3.2.1: Po oznaczeniu fokusem](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) jako: znaczące zmiany treści \[strony internetowej\], które dokonywane bez świadomości użytkownika, mogą go dezorientować, jeżeli nie jest on w stanie oglądać całej strony jednocześnie. Zmiany kontekstu obejmują zmiany:
     1.  W programie użytkownika (przeglądarce, itp.)
     2.  Obszaru operacyjnego
-    3.  Fokusa
+    3.  fokusu
     4.  Treści, która zmienia sens \[strony internetowej\].
--   **Uwaga:** Zmiana treści nie zawsze oznacza zmianę kontekstu. Zmiana w treści, na przykład rozwinięcie drzewa, dynamicznego menu lub zakładki niekoniecznie zmieniają kontekst, dopóki nie zmienią jednego z powyższych (np. fokusa).
--   **Przykład zmiany kontekstu**: Otwarcie nowego okna, przeniesienie fokusa na inny obiekt, przejście na inną stronę internetową (włączając w to także każdą sytuację, kiedy użytkownikowi tylko wydaje się, że przechodzi na inną stronę internetową) lub znaczące przekształcenie wyglądu strony są przykładami zmiany kontekstu.
+-   **Uwaga:** Zmiana treści nie zawsze oznacza zmianę kontekstu. Zmiana w treści, na przykład rozwinięcie drzewa, dynamicznego menu lub zakładki niekoniecznie zmieniają kontekst, dopóki nie zmienią jednego z powyższych (np. fokusu).
+-   **Przykład zmiany kontekstu**: Otwarcie nowego okna, przeniesienie fokusu na inny obiekt, przejście na inną stronę internetową (włączając w to także każdą sytuację, kiedy użytkownikowi tylko wydaje się, że przechodzi na inną stronę internetową) lub znaczące przekształcenie wyglądu strony są przykładami zmiany kontekstu.
 
 ## Procedura testu dla KS 1.3.1 Informacje i relacje oraz 4.1.2 Nazwa, rola, wartość
 
@@ -69,7 +69,7 @@ Wszystkie aktywne komponenty formularza.
     -   Automatyczne przesłanie formularza po opuszczeniu pola,
     -   Automatyczne przesłanie formularza po opuszczeniu ostatniego pola w formularzu,
     -   Uruchamienie nowego okna, gdy zostanie zmienione zaznaczenie w grupie przycisków opcji
-    -   Przeniesienie fokusa na inny komponent interfejsu po zaznaczeniu elementu na liśccie wyboru
+    -   Przeniesienie fokusu na inny komponent interfejsu po zaznaczeniu elementu na liśccie wyboru
 
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.2.2  oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
@@ -144,7 +144,7 @@ Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówcza
 Zobacz [5. Treść zmienna](ICT_05_tresc-zmienna.md)
 
 ##  Wskazówki dotyczące usprawniania procesu testowego
--   W przypadku KS 3.3.1 dopuszczalne techniki obejmują: a) przeniesienie fokusa na komunikat o błędzie informujący użytkownika, że ​​poprzednie pole wymaga korekty i opisujące błąd, b) odświeżenie strony po przesłaniu formularza i wyświetlenie na górze strony opisów i lokalizacji błędów. **Uwaga**: Ponowne wyświetlenie formularza i wskazanie błędnych pól w formularzu jest niewystarczające, aby spełnić to wymaganie. Użytkownik nie powinien przeszukiwać formularza, aby dowiedzieć się, gdzie popełniono błędy.
+-   W przypadku KS 3.3.1 dopuszczalne techniki obejmują: a) przeniesienie fokusu na komunikat o błędzie informujący użytkownika, że ​​poprzednie pole wymaga korekty i opisujące błąd, b) odświeżenie strony po przesłaniu formularza i wyświetlenie na górze strony opisów i lokalizacji błędów. **Uwaga**: Ponowne wyświetlenie formularza i wskazanie błędnych pól w formularzu jest niewystarczające, aby spełnić to wymaganie. Użytkownik nie powinien przeszukiwać formularza, aby dowiedzieć się, gdzie popełniono błędy.
 -   W przypadku KS 3.3.4: ponieważ użytkownik może przejrzeć prosty, 1-stronicowy formularz przed naciśnięciem przycisku wysyłania na stronie, inny specjalny mechanizm weryfikacji poprawności nie jest wymagany.
 
 

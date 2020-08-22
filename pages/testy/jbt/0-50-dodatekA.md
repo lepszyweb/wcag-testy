@@ -20,7 +20,7 @@ folder: testy/jbt
 |Menu nawigacyjne |3.2.3 Konsekwentna nawigacja; 3.2.4 Konsekwentna identyfikacja |
 |Nagłówek - logo |1.1.1 Treść nietekstowa; 3.2.3 Konsekwentna nawigacja; 3.2.4 Konsekwentna identyfikacja |
 |Nagłówek - wyszukiwanie |2.4.5 Wiele dróg; 2.4.6 Nagłówki i etykiety; |
-|Nawigacja sekwencyjna | 2.4.3 Kolejność fokusa |
+|Nawigacja sekwencyjna | 2.4.3 Kolejność fokusu |
 |Widoczny fokus | 2.4.7 Widoczny fokus |
 |Zachowanie fokusowanych |2.1.2 Brak pułapki na klawiaturę; 3.2.1 Po oznaczeniu fokusem |
 |Nagłówki | 1.3.1 Informacje i relacje; 2.4.6 Nagłówki i etykiety |

@@ -15,7 +15,7 @@ Testy podstawowe a kryteria sukcesu WCAG 2.1
 |-------------------------------|--------------------------------------------------------------------|
 | 1. Dostęp z klawiatury        | 2.1.1 Klawiatura; 2.1.2 Brak pułapki na klawiaturę                 |
 | 2. Widoczny fokus             | 2.1.1 Klawiatura; 2.4.7 Widoczny fokus                             |
-| 3. Kolejność fokusa           | 2.4.3 Kolejność fokusa; 3.2.1 Po oznaczeniu fokusem                |
+| 3. Kolejność fokusu           | 2.4.3 Kolejność fokusu; 3.2.1 Po oznaczeniu fokusem                |
 | 4. Treść powtarzalna          | 2.4.1 Możliwość pominięcia bloków; 3.2.3 Konsekwentna nawigacja; 3.2.4 Konsekwentna identyfikacja|
 | 5. Treść zmienna              | 4.1.2 Nazwa, rola, wartość                                         |
 | 6. Obrazy                     | 1.1.1 Treść nietekstowa; 1.4.5 Obrazy tekstu; 4.1.2 Nazwa, rola, wartość|

@@ -25,8 +25,8 @@ Prawdopodobnie najszybszym i najłatwiejszym sposobem przetestowania dostępnoś
 **Proces testowania jest prosty**: Działaj na stronie – poruszaj się, uaktywniaj łącza i kontrolki tylko klawiaturą. Klawisz [Tab] pozwoli Ci przechodzić do przodu w kolejności tabulacji. Równoczesne naciskanie klawiszy [Shift] i [Tab] spowoduje przechodzenie w kolejności tabulacji do tyłu. Naciśnięcie [Enter] spowoduje przejście do miejsc wskazywanych  przez łącza. Naciśnięcie spacji uaktywnia przyciski. Gdy znajdziesz się wewnątrz złożonego komponentu strony, np. menu rozwijanego, rozwijanej harmonijki ukrywającej treści, kalendarzyka wydarzeń, powinno być możliwe przemieszczanie się między pozycjami w tym komponencie za pomocą strzałek w lewo, w prawo, w dół, w górę.
 
 - Czy możesz obsłużyć wszystkie elementy sterujące, łącza i menu za pomocą samej klawiatury?
-- Czy widzisz w każdym momencie, na którym elemencie strony znajduje się punkt uwagi (wskaźnik fokusa)?  
-- Czy kolejność przenoszenia fokusa jest zgodna z logiczna kolejnością interakcji?
+- Czy widzisz w każdym momencie, na którym elemencie strony znajduje się punkt uwagi (wskaźnik fokusu)?  
+- Czy kolejność przenoszenia fokusu jest zgodna z logiczna kolejnością interakcji?
 - Czy fokus pozostaje w punkcie, do którego został przeniesiony, nie powodując zmiany kontekstu?
 
 Jeśli nie możesz odpowiedzieć „Tak” na wszystkie powyższe pytania, wówczas strona wymaga naprawy, aby była dostępna.
@@ -34,7 +34,7 @@ Jeśli nie możesz odpowiedzieć „Tak” na wszystkie powyższe pytania, wówc
 #### Jakie to ma znaczenie?
 Duża liczba osób z niepełnosprawnościami nie może używać myszy w pracy z komputerem.
 Użytkownicy niewidomi nie widzą wskaźnika myszy. Użytkownicy słabowidzący mogą preferować klawiaturę. Użytkownicy z zaburzeniami motoryki mogą nie być w stanie używać myszy, a dla osób z chronicznym bólem korzystanie z myszy może być bolesne.
-Dostępność z klawiatury jest wymagana dla użytkowników niewidomych, słabowidzących lub z zaburzeniami motoryki. Należy pamiętać: widoczność wskaźnika fokusa jest szczególnie ważne dla ogólnej użyteczności, a krytyczna dla użytkowników słabowidzących lub cierpiących na zaburzenia motoryki. Nie wszyscy użytkownicy niepełnosprawni są niewidomi!
+Dostępność z klawiatury jest wymagana dla użytkowników niewidomych, słabowidzących lub z zaburzeniami motoryki. Należy pamiętać: widoczność wskaźnika fokusu jest szczególnie ważne dla ogólnej użyteczności, a krytyczna dla użytkowników słabowidzących lub cierpiących na zaburzenia motoryki. Nie wszyscy użytkownicy niepełnosprawni są niewidomi!
 
 ### 2. Włącz tryb wysokiego kontrastu
 W systemie operacyjnym Windows, tryb wysokiego kontrastu umożliwia użytkownikom o słabym wzroku, użytkownikom wrażliwym na światło (światłowstręt), a czasem także użytkownikom z dysleksją w wygodny sposób poprawić zdolności skutecznego korzystania z komputera. Tryb wysokiego kontrastu w systemie Windows zmienia kolory pierwszego planu i tła, aby uzyskać wyższy kontrast. Kolory na stronie internetowej są zasadniczo całkowicie usuwane. Całe tło jest czarne, a cały tekst na pierwszym planie ma znacznie jaśniejszy kolor, taki jak biały lub żółty (użytkownicy mogą go dostosować).
@@ -99,7 +99,7 @@ Transkrypcja tekstu jest dobra dla SEO, a także dla użytkowników, którzy chc
 ### 5. Kliknij etykiety pól w formularzach
 Formularze są najlepszą metodą interakcji ze stronami internetowymi i najlepszą metodą pomiaru konwersji. Niestety, problemy związane z dostępnością formularzy należą do najczęstszych.
 
-Problemy z formularzami dzielą się na trzy główne kategorie: brakujące lub niekompletne etykiety, nieefektywna obsługa błędów i słaba widoczność fokusa. Jednym z najprostszych sposobów sprawdzenia istnienia etykiet formularzy jest po prostu kliknięcie etykiety tekstowej przylegającej do pola.
+Problemy z formularzami dzielą się na trzy główne kategorie: brakujące lub niekompletne etykiety, nieefektywna obsługa błędów i słaba widoczność fokusu. Jednym z najprostszych sposobów sprawdzenia istnienia etykiet formularzy jest po prostu kliknięcie etykiety tekstowej przylegającej do pola.
 
 - Czy po kliknięciu etykiety obok pola kursor wchodzi w pole?
 - Czy kliknięcie etykiety obok przycisku opcji lub pola wyboru zaznacza się opcja sąsiadująca z etykietą?

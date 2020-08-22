@@ -88,7 +88,7 @@ Test 9A 2.4.1-omijanie-tresci **nie ma zastosowania** na stronach, na których n
 
     1.  Wiele bloków powtarzających się treści może wymagać kilku metod omijania bloków; ominięcie wszystkich bloków powtarzającej się treści może być niemożliwe za pomocą jednej metody.
 
-    2.  Przenoszenie fokusa poza bloki powtarzanej treści może nie zawsze być wyraźnie widoczne, jeśli nie ma elementów, na które można ustawić fokus bezpośrednio po ominiętym bloku.
+    2.  Przenoszenie fokusu poza bloki powtarzanej treści może nie zawsze być wyraźnie widoczne, jeśli nie ma elementów, na które można ustawić fokus bezpośrednio po ominiętym bloku.
 
 
 ### Ocena wyników
@@ -102,7 +102,7 @@ Jeśli oba poniższe twierdzenia są **prawdą**, wówczas strona (treść) **sp
 
 **Ważne**: 
 
-- Jeśli bezpośrednio za omijanym blokiem treści nie ma interaktywnego elementu, który odbierałby fokus klawiatury, może nie być oczywiste, że nastąpiło przeniesienie punktu uwagi w inne miejsce strony (np. do treści głównej). Zmniejszenie wysokości okna przeglądarki może sprawić, że przeneisienie fokusa stanie się bardziej oczywiste.
+- Jeśli bezpośrednio za omijanym blokiem treści nie ma interaktywnego elementu, który odbierałby fokus klawiatury, może nie być oczywiste, że nastąpiło przeniesienie punktu uwagi w inne miejsce strony (np. do treści głównej). Zmniejszenie wysokości okna przeglądarki może sprawić, że przeneisienie fokusu stanie się bardziej oczywiste.
 
 - Każdy blok powtarzających się treści może mieć własną metodę omijania. 
 

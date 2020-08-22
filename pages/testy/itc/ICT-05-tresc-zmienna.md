@@ -30,7 +30,7 @@ Zidentyfikuj zmiany w prezentowanej treści (zarówno wywołane przez użytkowni
 
 ### Instrukcja testowania
 1. Sprawdź, czy strona programowo powiadamia o zmianie treści.
-   - Powiadomienia o zdarzeniach programowych obejmują okna dialogowe z alertami, przeniesienie fokusa na zmienioną treść oraz aktywne (*live*) regiony ARIA.
+   - Powiadomienia o zdarzeniach programowych obejmują okna dialogowe z alertami, przeniesienie fokusu na zmienioną treść oraz aktywne (*live*) regiony ARIA.
 1. Przy każdej zmianie treści sprawdź, czy kombinacja nazwy, roli, stanu i wartości zmienionej treści jest odpowiednia.
     - Nazwa: nazwa jest odpowiednia po zmianie.
         - Zastosuj [kombinację dostępnej nazwy i opisu](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), jeśli zmiana nazwy miała miejsce.

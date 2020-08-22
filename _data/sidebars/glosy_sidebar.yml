@@ -32,7 +32,8 @@ entries:
       output: web
     - title: Nagłówki i etykiety
       url: /glosy-naglowki-i-etykiety
-      output: web	  
+      output: web
+  
   - title: Słowniki
     output: web, pdf
     folderitems:

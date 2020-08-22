@@ -15,13 +15,13 @@ Ponadto, celem jest ustalenie, czy kolejność, w jakiej użytkownik dociera do 
 
 Dostęp do treści strony internetowej tylko za pomocą klawiatury jest niezbędny dla osób niewidomych, a także dla osób z ograniczonymi możliwościami ruchu i manipulacji oraz osób, które nie mogą korzystać z innych urządzeń wskazujących takich, jak mysz czy dotyk. Osoby te mogą, ale nie muszą korzystać z technologii pomocniczych, takich jak czytniki ekranu. 
 
-Celem jest również sprawdzenie, czy na stronie stosowane są widoczne wskaźniki fokusa, czyli oznaczenia miejsca, które aktualnie oczekuje na sygnały wprowadzane przez użytkownika za pomocą klawiatury (naciśnięcia klawiszy). Widoczny wskaźnik fokusa zapewnia, że użytkownicy klawiatury,  mogą się w każdym momencie zorientować, w którym  miejscu strony się znajdują. Wyraźne wskaźniki fokusa są szczególnie ważne dla osób słabowidzących oraz dla osób z problemami poznawczymi, z trudnościami koncentracji uwagi, bo pozwalają im na takie same możliwości orientowania się na stronie, jakie mają osoby korzystające z urządzeń wskazujących.    
+Celem jest również sprawdzenie, czy na stronie stosowane są widoczne wskaźniki fokusu, czyli oznaczenia miejsca, które aktualnie oczekuje na sygnały wprowadzane przez użytkownika za pomocą klawiatury (naciśnięcia klawiszy). Widoczny wskaźnik fokusu zapewnia, że użytkownicy klawiatury,  mogą się w każdym momencie zorientować, w którym  miejscu strony się znajdują. Wyraźne wskaźniki fokusu są szczególnie ważne dla osób słabowidzących oraz dla osób z problemami poznawczymi, z trudnościami koncentracji uwagi, bo pozwalają im na takie same możliwości orientowania się na stronie, jakie mają osoby korzystające z urządzeń wskazujących.    
 
 
 Testy zostały zgrupowane w jeden zestaw, ponieważ wszystkie wymagają ręcznej kontroli w celu ustalenia, czy treść spełnia wymagania dostępu za pomocą klawiatury.
 
 
-Do wykonania testów dostępu z klawiatury i widoczności fokusa klawiatury nie są potrzebne żadne narzędzia testowe.
+Do wykonania testów dostępu z klawiatury i widoczności fokusu klawiatury nie są potrzebne żadne narzędzia testowe.
 
 Procedura testowa „Dostęp z klawiatury i fokus” obejmuje osiem testów:
 
@@ -30,9 +30,9 @@ Procedura testowa „Dostęp z klawiatury i fokus” obejmuje osiem testów:
 - Test 4.C - 2.1.2-bez-pułapki-na-klawiaturę 
 - Test 4.D - 2.4.7-widoczny-fokus
 - Test 4.E - 3.2.1-po-oznaczeniu-fokusem
-- Test 4.F - 2.4.3-kolejnosc-fokusa
+- Test 4.F - 2.4.3-kolejnosc-fokusu
 - Test 4.G - 2.4.3-fokus-do-tresci-odkrytej
-- Test 4.H - 2.4.3-powrot-fokusa-do-porządku
+- Test 4.H - 2.4.3-powrot-fokusu-do-porządku
 
 
 ## Dostęp z klawiatury
@@ -95,9 +95,9 @@ Jeśli na stronie nie ma interaktywnych elementów treści, na których można u
 - 4.C - 2.1.2-bez-pułapki-na-klawiaturę 
 - 4.D - 2.4.7-widoczny-fokus
 - 4.E - 3.2.1-po-oznaczeniu-fokusem
-- 4.F - 2.4.3-kolejnosc-fokusa
+- 4.F - 2.4.3-kolejnosc-fokusu
 - 4.G - 2.4.3-fokus-do-tresci-odkrytej
-- 4.H - 2.4.3-powrot-fokusa-do-porządku
+- 4.H - 2.4.3-powrot-fokusu-do-porządku
 
 ### Jak testować
 
@@ -273,11 +273,11 @@ W przypadku wystąpienia pułapki na klawiaturę kontynuuj testowanie interaktyw
 
 | Nazwa testu              | ID testu | Warunek testowy             |
 |--------------------------|----------|-----------------------------|
-| 2.4.7-widoczny-fokus | 4.D     | Graficzny wskaźnik fokusa jest wyświetlany, gdy fokus znajduje się na komponencie interfejsu.|
+| 2.4.7-widoczny-fokus | 4.D     | Graficzny wskaźnik fokusu jest wyświetlany, gdy fokus znajduje się na komponencie interfejsu.|
 
 ### Cel testu 
 
-Celem tego testu jest ustalenie, czy wszystkie komponenty interfejsu dostępne z klawiatury mają w stanie gotowości na odbieranie zdarzeń związanych z naciskaniem klawiatury widoczne oznaki fokusa.
+Celem tego testu jest ustalenie, czy wszystkie komponenty interfejsu dostępne z klawiatury mają w stanie gotowości na odbieranie zdarzeń związanych z naciskaniem klawiatury widoczne oznaki fokusu.
 
 ### Dlaczego to jest ważne?
 Osoby, które obsługują stronę internetową tylko za pomocą klawiatury muszą wiedzieć, który z elementów interaktywnych na stronie jest aktualnie w stanie gotowości na odbieranie zdarzeń związanych z naciskaniem klawiatury. Taki stan nazywa się *skupieniem*, *punktem uwagi* albo z angielskiego *fokusem*. W otwartym oknie strony lub aplikacji tylko jeden element w danym momencie może się znajdować w stanie skupienia. 
@@ -315,23 +315,23 @@ Test 4.D 2.4.7-widoczny-fokus **nie ma zastosowania**, jeśli na stronie nie ma 
 
 1.  Kontynuuj test 4.C.
 
-2.  Ustal, czy na elemencie, który ma fokus klawiatury, widoczny jest graficzny wskaźnik fokusa.
+2.  Ustal, czy na elemencie, który ma fokus klawiatury, widoczny jest graficzny wskaźnik fokusu.
 
-    1.  Gdy fokus klawiatury jest ustawiony na ramce, niektóre przeglądarki wyświetlają graficzny wskaźnik fokusa, a inne nie. Jeśli graficzny wskaźnik fokusa nie jest widoczny na ramce, zignoruj ten fakt, **nie jest** to defekt treści internetowej.	
+    1.  Gdy fokus klawiatury jest ustawiony na ramce, niektóre przeglądarki wyświetlają graficzny wskaźnik fokusu, a inne nie. Jeśli graficzny wskaźnik fokusu nie jest widoczny na ramce, zignoruj ten fakt, **nie jest** to defekt treści internetowej.	
 
-    **Uwaga**: Aby potwierdzić, że niewidoczny fokus klawiatury znajduje się na ramce, użyj kombinacji klawiszy Tab i Shift+Tab, aby wydedukować, że fokus klawiatury jest na ramce. Będąc na ramce, naciśnij tabulator, aby przenieść fokus na pierwszy element, który można ustawić za pomocą klawiatury w ramce. Tam naciśnij klawisze Shift+Tab, aby wrócić do ramki, i kolejny raz Shift+Tab, aby przenieść fokus na element interaktywny przed ramką. Tylko ramka może nie mieć widocznego fokusa. Upewnij się, że to ramka nie ma widocznego fokusa, a nie inny element.
+    **Uwaga**: Aby potwierdzić, że niewidoczny fokus klawiatury znajduje się na ramce, użyj kombinacji klawiszy Tab i Shift+Tab, aby wydedukować, że fokus klawiatury jest na ramce. Będąc na ramce, naciśnij tabulator, aby przenieść fokus na pierwszy element, który można ustawić za pomocą klawiatury w ramce. Tam naciśnij klawisze Shift+Tab, aby wrócić do ramki, i kolejny raz Shift+Tab, aby przenieść fokus na element interaktywny przed ramką. Tylko ramka może nie mieć widocznego fokusu. Upewnij się, że to ramka nie ma widocznego fokusu, a nie inny element.
 
-    Wizualny wskaźnik fokusa może przyjmować różną formę, taką jak kropkowany kontur, wyróżnienie kolorem, podświetlenie, pionowy pasek (kursor, karetka) w polu tekstowym. 
+    Wizualny wskaźnik fokusu może przyjmować różną formę, taką jak kropkowany kontur, wyróżnienie kolorem, podświetlenie, pionowy pasek (kursor, karetka) w polu tekstowym. 
 
-    Odczucie jasności fokusa jest subiektywne, ale tester powinien być w stanie zidentyfikować zmianę wizualną elementu, który ma fokus klawiatury lub otrzymuje fokus.
+    Odczucie jasności fokusu jest subiektywne, ale tester powinien być w stanie zidentyfikować zmianę wizualną elementu, który ma fokus klawiatury lub otrzymuje fokus.
 
-    W niektórych przypadkach może być konieczne nawigowanie po całej stronie zarówno do tyłu, jak i do przodu, aby ustalić, czy określony element interfejsu zapewnia wizualne wskazanie fokusa. Należy jednak pamiętać, że kolejność ustawiania fokusa jest testowana osobno. 
+    W niektórych przypadkach może być konieczne nawigowanie po całej stronie zarówno do tyłu, jak i do przodu, aby ustalić, czy określony element interfejsu zapewnia wizualne wskazanie fokusu. Należy jednak pamiętać, że kolejność ustawiania fokusu jest testowana osobno. 
 
 
 ### Ocena wyników 
 Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 2.4.7
 
-1.  Gdy komponent interfejsu otrzymuje fokus klawiatury, widoczny jest graficzny wskaźnik fokusa.
+1.  Gdy komponent interfejsu otrzymuje fokus klawiatury, widoczny jest graficzny wskaźnik fokusu.
 
 ## Po oznaczeniu fokusem 
 
@@ -339,17 +339,17 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 
 | Nazwa testu              | ID testu | Warunek testowy             |
 |--------------------------|----------|-----------------------------|
-| 3.2.1-po-oznaczeniu-fokusem| 4.E     | Przeniesienie fokusa na element interaktywny nie inicjuje zmiany kontekstu |
+| 3.2.1-po-oznaczeniu-fokusem| 4.E     | Przeniesienie fokusu na element interaktywny nie inicjuje zmiany kontekstu |
 
 ## Cel testu
-Celem tego testu jest sprawdzenie, czy komponenty interfejsu, które otrzymują fokus, nie inicjują nieoczekiwanej zmianę kontekstu w wyniku samego faktu przeniesienia fokusa na element. Takie zachowanie zapewnia przewidywanie zachowania się elementów funkcjonalnych strony. Żaden element interfejsu, który jest w stanie wyzwolić zdarzenie po otrzymaniu fokusa, nie może zmieniać kontekstu.
+Celem tego testu jest sprawdzenie, czy komponenty interfejsu, które otrzymują fokus, nie inicjują nieoczekiwanej zmianę kontekstu w wyniku samego faktu przeniesienia fokusu na element. Takie zachowanie zapewnia przewidywanie zachowania się elementów funkcjonalnych strony. Żaden element interfejsu, który jest w stanie wyzwolić zdarzenie po otrzymaniu fokusu, nie może zmieniać kontekstu.
 
 Zmiana kontekstu to poważna zmiana treści, która może dezorientować użytkowników, zwłaszcza, jeśli nie są w stanie wyświetlić całej strony równocześnie. 
 
 Przykłady nieoczekiwanych zmian kontekstu obejmują:
 
 -	otwieranie nowego okna przeglądarki,
--	przeniesienie fokusa na inny komponent interfejsu na stronie,
+-	przeniesienie fokusu na inny komponent interfejsu na stronie,
 -	automatyczne przesłanie formularza,
 -	przejście na inną stronę internetową lub do innego okna,
 -	znacząca zmiana treści strony.
@@ -391,22 +391,22 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 ## Kolejność tabulacji
 
 
-### Test 4.F 2.4.3-kolejnosc-fokusa 
+### Test 4.F 2.4.3-kolejnosc-fokusu 
 
 | Nazwa testu              | ID testu | Warunek testowy             |
 |--------------------------|----------|-----------------------------|
-| 2.4.3-kolejnosc-fokusa  | 4.F     | Kolejność ustawiania fokusa zachowuje znaczenie i użyteczność strony. |
+| 2.4.3-kolejnosc-fokusu  | 4.F     | Kolejność ustawiania fokusu zachowuje znaczenie i użyteczność strony. |
 
 ### Cel testu
 
-Celem tego testu jest upewnienie się, że użytkownicy klawiatury poruszający się sekwencyjnie po stronie internetowej napotykają informacje w kolejności zgodnej ze znaczeniem treści. Wskaźnik fokusa powinien poruszać się po elementach strony w logicznej kolejności, a gdy sekwencja nawigacyjna wpływa na znaczenie lub działanie, komponenty, na których można ustawić fokus, powinny otrzymywać fokus w kolejności, która zachowuje to znaczenie. Kolejność ustawiania fokusa może nie być identyczna z ustaloną programowo lub wizualną kolejnością czytania, o ile użytkownik nadal może zrozumieć i obsługiwać stronę internetową. 
+Celem tego testu jest upewnienie się, że użytkownicy klawiatury poruszający się sekwencyjnie po stronie internetowej napotykają informacje w kolejności zgodnej ze znaczeniem treści. Wskaźnik fokusu powinien poruszać się po elementach strony w logicznej kolejności, a gdy sekwencja nawigacyjna wpływa na znaczenie lub działanie, komponenty, na których można ustawić fokus, powinny otrzymywać fokus w kolejności, która zachowuje to znaczenie. Kolejność ustawiania fokusu może nie być identyczna z ustaloną programowo lub wizualną kolejnością czytania, o ile użytkownik nadal może zrozumieć i obsługiwać stronę internetową. 
 
 Ten test dotyczy tylko elementów, które otrzymują fokus klawiatury. 
 
 Kolejność tabulacji ma szczególne znaczenie dla osób, które obsługują stronę tylko za pomocą klawiatury. 
 Osoby te spodziewają się, że porządek tabulacji będzie intuicyjny, zgodny ze znaczeniem treści, logiczny i dostosowany do porządku czytania.  
 
-Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 2.4.3 Kolejność fokusa](https://wcag.lepszyweb.pl/#focus-order).
+Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 2.4.3 Kolejność fokusu](https://wcag.lepszyweb.pl/#focus-order).
 
 ### Metody i narzędzia testowe
 
@@ -421,17 +421,17 @@ Użyj klawiatury, aby poruszać się po wszystkich komponentach interfejsu dost�
 
 ### Zastosowanie
 
-Test 4.F 2.4.3-kolejnosc-fokusa  **nie ma zastosowania**, jeśli na stronie nie ma komponentów, na których można ustawić fokus klawiatury, czyli nie ma funkcji aktywowanych przez użytkownika (takie sytuacje są raczej niespotykane, ale możliwe).
+Test 4.F 2.4.3-kolejnosc-fokusu  **nie ma zastosowania**, jeśli na stronie nie ma komponentów, na których można ustawić fokus klawiatury, czyli nie ma funkcji aktywowanych przez użytkownika (takie sytuacje są raczej niespotykane, ale możliwe).
 
-**Uwaga**: Jeśli test 4.F 2.4.3-kolejnosc-fokusa jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a więc także test 4.F 2.4.3-kolejnosc-fokusa **nie ma zastosowania**.
+**Uwaga**: Jeśli test 4.F 2.4.3-kolejnosc-fokusu jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a więc także test 4.F 2.4.3-kolejnosc-fokusu **nie ma zastosowania**.
 
 ### Jak testować
 
 1.  Ustaw kursor w pasku adresu przeglądarki, a następnie użyj klawisza Tab, aby przemieszczać się do kolejnych interaktywnych elementów strony (łącza, przyciski, przełączniki, pola formularzy, itd.).  Nie używaj myszy.
 
-2.  Oceń, czy kolejność przemieszczania się fokusa wpływa na znaczenie i użyteczność (funkcjonalność)  strony (np. pola przeznaczone na adres otrzymują fokus w logicznej kolejności - zgodnej z budową adresu).
+2.  Oceń, czy kolejność przemieszczania się fokusu wpływa na znaczenie i użyteczność (funkcjonalność)  strony (np. pola przeznaczone na adres otrzymują fokus w logicznej kolejności - zgodnej z budową adresu).
 
-    1.  Najczęściej można zauważyć, że kolejność przemieszczania się fokusa nie jest zgodna z wizualnym porządkiem elementów i logiczną kolejnością działania (zwykle od lewej do prawej, z góry na dół)
+    1.  Najczęściej można zauważyć, że kolejność przemieszczania się fokusu nie jest zgodna z wizualnym porządkiem elementów i logiczną kolejnością działania (zwykle od lewej do prawej, z góry na dół)
 
 
     2.  W przypadku modalnych okien dialogowych fokus powinien pozostać w oknie, dopóki nie zostanie ono zamknięte. Modalne okno dialogowe wymaga interakcji użytkownika, aby powrócić do aplikacji.
@@ -441,15 +441,15 @@ Test 4.F 2.4.3-kolejnosc-fokusa  **nie ma zastosowania**, jeśli na stronie nie 
 ### Ocena wyniku
 Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 2.4.2
 
-1.  Kolejność ustawiania fokusa zachowuje znaczenie treści **oraz**
+1.  Kolejność ustawiania fokusu zachowuje znaczenie treści **oraz**
 
-2.  Kolejność ustawienia fokusa zachowuje funkcjonalności strony.
+2.  Kolejność ustawienia fokusu zachowuje funkcjonalności strony.
 
 ### Uwaga:
 
 -   Znaczniki kolejności tabulatorów ANDI mogą się nieznacznie różnić od rzeczywistej kolejności tabulatorów klawiatury w niektórych przeglądarkach. Zawsze oceniaj wyniki z kolejności tabulacji klawiatury.
 
-## Powrót fokusa
+## Powrót fokusu
 
 ### Test 4.G 2.4.3-fokus-do-tresci-odkrytej 
 
@@ -462,9 +462,9 @@ Celem tego testu jest sprawdzenie, czy po ujawnieniu ukrytej treści na tej same
 
 Ujawnianie treści to np. rozwijanie pozycji menu, otwieranie okna modalnego, odkrywanie treści ukrytej w harmonijce.
 
-Ten test jest ściśle związany z poprzednim 4.F 2.4.3-kolejnosc-fokusa. Oba testy łącznie sprawdzają, czy kolejność fokusa jest logiczna, gdy użytkownik wchodzi w interakcję z treścią strony.
+Ten test jest ściśle związany z poprzednim 4.F 2.4.3-kolejnosc-fokusu. Oba testy łącznie sprawdzają, czy kolejność fokusu jest logiczna, gdy użytkownik wchodzi w interakcję z treścią strony.
  
-Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 2.4.3 Kolejność fokusa](https://wcag.lepszyweb.pl/#focus-order).
+Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 2.4.3 Kolejność fokusu](https://wcag.lepszyweb.pl/#focus-order).
 
 ### Metody i narzędzia testowe
 
@@ -495,7 +495,7 @@ Test 4.G 2.4.3-fokus-do-tresci-odkrytej  **nie ma zastosowania**, jeśli na stro
 
 2. Przemieszczaj fokus poprzez ujawnioną treść za pomocą klawisza TAB.
 
-   1.  Widoczny fokus może nie przechodzić do ujawnionej treści, jeśli nie zawiera ona elementów, które mogą otrzymać fokus lub jeśli  nie można ustawić fokusa na całej ujawnionej treści.
+   1.  Widoczny fokus może nie przechodzić do ujawnionej treści, jeśli nie zawiera ona elementów, które mogą otrzymać fokus lub jeśli  nie można ustawić fokusu na całej ujawnionej treści.
 
 ### Ocena wyników
 Jeśli którekolwiek z poniższych twierdzeń jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 2.4.3
@@ -505,21 +505,21 @@ Jeśli którekolwiek z poniższych twierdzeń jest **prawdą**, wówczas strona 
 2.  Jedno dodatkowe naciśnięcie klawisza przenosi fokus na ujawnioną treść.
 
 
-### Test 4.H 2.4.3-powrot-fokusa-do-porządku 
+### Test 4.H 2.4.3-powrot-fokusu-do-porządku 
 
 | Nazwa testu              | ID testu | Warunek testowy             |
 |--------------------------|----------|-----------------------------|
-| 2.4.3-powrot-fokusa-do-porządku | 4.H     | Fokus powraca do logicznej sekwencji |
+| 2.4.3-powrot-fokusu-do-porządku | 4.H     | Fokus powraca do logicznej sekwencji |
 
 ## Cel testu
 
-Celem tego testu jest sprawdzenie, czy użytkownik powraca do logicznej sekwencji fokusa sprzed ujawnienia treści. Ten test dotyczy tego, na jaki element interfejsu przechodzi fokus po opuszczeniu obszaru z ujawnioną treścią, jeśli został do tego obszaru przeniesiony. Po  
+Celem tego testu jest sprawdzenie, czy użytkownik powraca do logicznej sekwencji fokusu sprzed ujawnienia treści. Ten test dotyczy tego, na jaki element interfejsu przechodzi fokus po opuszczeniu obszaru z ujawnioną treścią, jeśli został do tego obszaru przeniesiony. Po  
 
 Po zakończeniu interakcji użytkownika z ujawnioną treścią fokus powinien powrócić do elementu, który zainicjował akcję, lub przejść do następnego elementu w logicznym porządku tabulacji, aby umożliwić użytkownikowi kontynuowanie nawigacji po stronie internetowej. 
 
-Ten test jest ściśle związany z poprzednim 4.G 2.4.3-fokus-do-tresci-odkrytej, ponieważ oba testy łącznie weryfikują, czy kolejność fokusa jest logiczna, gdy użytkownik wchodzi w interakcję z treścią strony.
+Ten test jest ściśle związany z poprzednim 4.G 2.4.3-fokus-do-tresci-odkrytej, ponieważ oba testy łącznie weryfikują, czy kolejność fokusu jest logiczna, gdy użytkownik wchodzi w interakcję z treścią strony.
  
-Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 2.4.3 Kolejność fokusa](https://wcag.lepszyweb.pl/#focus-order).
+Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 2.4.3 Kolejność fokusu](https://wcag.lepszyweb.pl/#focus-order).
 
 ### Metody i narzędzia testowe
 
@@ -532,9 +532,9 @@ Wszystkie interaktywne elementy treści.
 Użyj klawiatury, aby poruszać się po wszystkich komponentach interfejsu dostępnych z klawiatury **oraz** wszystkich interaktywnych komponentów interfejsu (łącza, przyciski, przełączniki, pola formularzy, rozwijane menu, treść odkrywana/ukrywana itd.). 
 
 ### Zastosowanie
-Test 4.H 2.4.3-powrot-fokusa-do-porządku **nie ma zastosowania**, jeśli na stronie nie ma komponentów, na których można ustawić fokus klawiatury, czyli nie ma funkcji aktywowanych przez użytkownika (takie sytuacje są raczej niespotykane, ale możliwe).
+Test 4.H 2.4.3-powrot-fokusu-do-porządku **nie ma zastosowania**, jeśli na stronie nie ma komponentów, na których można ustawić fokus klawiatury, czyli nie ma funkcji aktywowanych przez użytkownika (takie sytuacje są raczej niespotykane, ale możliwe).
 
-**Uwaga**: Jeśli test 4.H 2.4.3-powrot-fokusa-do-porządku jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a więc także test 4.H 2.4.3-powrot-fokusa-do-porządku **nie ma zastosowania**.
+**Uwaga**: Jeśli test 4.H 2.4.3-powrot-fokusu-do-porządku jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a więc także test 4.H 2.4.3-powrot-fokusu-do-porządku **nie ma zastosowania**.
 
 ### Jak testować
 
@@ -546,16 +546,16 @@ Test 4.H 2.4.3-powrot-fokusa-do-porządku **nie ma zastosowania**, jeśli na str
 
     1.  Konieczne może być naciśnięcie klawiszy Shift + Tab lub klawisza strzałki, aby przesunąć fokus do tyłu.
 
-3.  Porównaj położenie elementu, który po otrzymaniu fokusa ujawnił ukrytą treść, z miejscem, w ktróym znajduje się fokus po opuszczeniu obszaru z ujawnioną treścią. Jeśli fokus nie powróci do elementu wyzwalającego ukrytą treść, sprawdź, czy elementem, do którego zostanie przeniesiony, jest następny element interaktywny na stronie, czy żaden interaktywny element nie zostanie pominięty w porządku tabulacji.
+3.  Porównaj położenie elementu, który po otrzymaniu fokusu ujawnił ukrytą treść, z miejscem, w ktróym znajduje się fokus po opuszczeniu obszaru z ujawnioną treścią. Jeśli fokus nie powróci do elementu wyzwalającego ukrytą treść, sprawdź, czy elementem, do którego zostanie przeniesiony, jest następny element interaktywny na stronie, czy żaden interaktywny element nie zostanie pominięty w porządku tabulacji.
 
 
 ### Ocena wyników
 
 Jeśli którekolwiek z poniższych twierdzeń jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 2.4.3
 
-1.  Fokus klawiatury automatycznie powraca do logicznej sekwencji kolejności fokusa sprzed ujawnienia treści **albo**
+1.  Fokus klawiatury automatycznie powraca do logicznej sekwencji kolejności fokusu sprzed ujawnienia treści **albo**
 
-2.  Jedna dodatkowe naciśnięcie klawisza lub kombinacji klawiszy przywraca fokus do logicznej sekwencji kolejności fokusa sprzed ujawnienia treści.
+2.  Jedna dodatkowe naciśnięcie klawisza lub kombinacji klawiszy przywraca fokus do logicznej sekwencji kolejności fokusu sprzed ujawnienia treści.
 
 **Uwaga**: Sekwencja logiczna oznacza, że znaczenie i użyteczność strony są zachowane. Dopuszczalne jest, jeśli fokus nie wraca dokładnie do miejsca sprzed ujawnienia treści, o ile sekwencja jest logiczna. Może się to zdarzyć w przypadku elementów takich jak menu; zamknięcie opcji menu może spowodować przeniesienie użytkownika do następnego elementu w kolejności fokusu. Może to nadal utrzymywać logiczną sekwencję.
 
@@ -577,5 +577,5 @@ Jeśli którekolwiek z poniższych twierdzeń jest **prawdą**, wówczas strona 
 
 {% include ks/3-2-1.md %}
 
-[3. Kolejność fokusa](ICT-03-kolejnosc-fokusa)
+[3. Kolejność fokusu](ICT-03-kolejnosc-fokusu)
 

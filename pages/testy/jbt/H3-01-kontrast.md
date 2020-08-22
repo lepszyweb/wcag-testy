@@ -26,7 +26,7 @@ Kryteria sukcesu: [1.4.3 Kontrast (minimalny)](https://wcag.lepszyweb.pl/#contra
 -	Współczynnik kontrastu dla obrazów tekstu, innych niż logotypy i wizerunki marki, które są wykorzystywane do przekazywania informacji przekracza 3,0:1.
 -	Współczynnik kontrastu dla wszystkich tekstów w aktywnych kontrolkach przekracza 4,5:1.
     -	Wyłączone elementy sterujące nie wymagają kontrastu.
--	Aktywne elementy interfejsu strony, takie jak linki, przyciski, kontrolki formularzy, styl domyślnego fokusa,  mają współczynnik kontrastu  w stosunku do tła 3:1 zarówno w stanie domyślnym, po wczytaniu strony, jak i w stanie aktywności (wskazywania, po otrzymaniu fokusa)
+-	Aktywne elementy interfejsu strony, takie jak linki, przyciski, kontrolki formularzy, styl domyślnego fokusu,  mają współczynnik kontrastu  w stosunku do tła 3:1 zarówno w stanie domyślnym, po wczytaniu strony, jak i w stanie aktywności (wskazywania, po otrzymaniu fokusu)
 -	Obiekty graficzne na grafikach wymaganych do zrozumienia treści mają współczynnik kontrastu w stosunku do tła co najmniej 3:1
 
 ### Procedura testowania:

@@ -16,7 +16,7 @@ Ta procedura testowa obejmuje zmiany treści strony internetowej, które pojawia
 
 Ta procedura testowa obejmuje kilka testów związanych z identyfikacją błędów, sugestiami i zapobieganiem błędom.
 
-**Uwaga**: Ważne jest, aby zrozumieć różnicę między zmianami treści a zmianami kontekstu. Zmiany w treści obejmują zmiany związane z rozszerzaniem konspektu strony, ujawnianiem i ukrywaniem treści lub dostępem do menu dynamicznego. Natomiast zmiany w kontekście to poważne zmiany w treści lub funkcjonalnościach strony, takie jak uruchomienie nowego okna, wykonanie określonej akcji lub celowe przeniesienie fokusa klawiatury na inny komponent interfejsu. 
+**Uwaga**: Ważne jest, aby zrozumieć różnicę między zmianami treści a zmianami kontekstu. Zmiany w treści obejmują zmiany związane z rozszerzaniem konspektu strony, ujawnianiem i ukrywaniem treści lub dostępem do menu dynamicznego. Natomiast zmiany w kontekście to poważne zmiany w treści lub funkcjonalnościach strony, takie jak uruchomienie nowego okna, wykonanie określonej akcji lub celowe przeniesienie fokusu klawiatury na inny komponent interfejsu. 
 
 Zmiany kontekstu mogą być oczekiwane lub nieoczekiwane. Nieoczekiwane zmiany są mylące i uznawane za barierę dostępności.
 
@@ -62,7 +62,7 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu W
 
 2.  Znajdź wszystkie instrukcje i wskazówki (tekstowe i graficzne) związane z kontrolkami formularza, w tym dotyczące elementów pogrupowanych, kolejności wypełniania, specjalnych warunków lub instrukcji formatowania itp.
 
-    **WYJATEK**: Wyklucz kontrolki wyłączone. Nie są elementami aktywnymi, nie mogą otrzymać fokusa klawiatury, nie mogą być wybrane ani modyfikowane. 
+    **WYJATEK**: Wyklucz kontrolki wyłączone. Nie są elementami aktywnymi, nie mogą otrzymać fokusu klawiatury, nie mogą być wybrane ani modyfikowane. 
 
 
 ### Zastosowanie
@@ -128,7 +128,7 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu W
 
 2.  Znajdź wszystkie instrukcje i wskazówki (tekstowe i graficzne) związane z  kontrolkami formularza, w tym dotyczące elementów pogrupowanych, kolejności wypełniania, specjalnych warunków lub kwalifikatorów, instrukcji formatowania itp.
 
-    **WYJATEK**: Wyklucz kontrolki wyłączone. Nie są elementami aktywnymi, nie mogą otrzymać fokusa klawiatury, nie mogą być wybrane ani modyfikowane. 
+    **WYJATEK**: Wyklucz kontrolki wyłączone. Nie są elementami aktywnymi, nie mogą otrzymać fokusu klawiatury, nie mogą być wybrane ani modyfikowane. 
 
 
 ### Zastosowanie
@@ -196,7 +196,7 @@ Wyniki tego testu służą do ustalenia, czy spełnione są kryteria sukcesu WCA
 2.  Znajdź wszystkie instrukcje i wskazówki (tekstowe i graficzne) związane z  kontrolkami formularza, w tym dotyczące elementów pogrupowanych, kolejności wypełniania, specjalnych warunków lub kwalifikatorów, instrukcji formatowania itp.
 
 
-    **WYJATEK**: Wyklucz kontrolki wyłączone. Nie są elementami aktywnymi, nie mogą otrzymać fokusa klawiatury, nie mogą być wybrane ani modyfikowane. 
+    **WYJATEK**: Wyklucz kontrolki wyłączone. Nie są elementami aktywnymi, nie mogą otrzymać fokusu klawiatury, nie mogą być wybrane ani modyfikowane. 
 	
 ### Zastosowanie
 
@@ -272,7 +272,7 @@ Przykłady nieoczekiwanych zmian kontekstu obejmują:
 -	automatyczne przesłanie formularza po opuszczeniu pola,
 -	automatyczne przesłanie formularza po opuszczeniu ostatniego pola w formularzu,
 -	uruchomienie nowego okna, gdy zostanie zmienione zaznaczenie w grupie przycisków opcji,
--   przeniesienie fokusa na inny komponent interfejsu po zaznaczeniu elementu na liście wyboru,
+-   przeniesienie fokusu na inny komponent interfejsu po zaznaczeniu elementu na liście wyboru,
 -   zmiana rozmiaru okna po wprowadzeniu tekstu w polu szczegółów.
 
 Nieoczekiwana zmiana kontekstu może powodować znaczące zamieszanie dla użytkowników.
@@ -291,7 +291,7 @@ Kontrola ręczna, obserwacja
 2.  Znajdź wszystkie instrukcje i wskazówki (tekstowe i graficzne) związane z  kontrolkami formularza, w tym dotyczące elementów pogrupowanych, kolejności wypełniania, specjalnych warunków lub kwalifikatorów, instrukcji formatowania itp.
 
 
-    **WYJATEK**: Wyklucz kontrolki wyłączone. Nie są elementami aktywnymi, nie mogą otrzymać fokusa klawiatury, nie mogą być wybrane ani modyfikowane. 
+    **WYJATEK**: Wyklucz kontrolki wyłączone. Nie są elementami aktywnymi, nie mogą otrzymać fokusu klawiatury, nie mogą być wybrane ani modyfikowane. 
 	
 ### Zastosowanie
 
@@ -309,9 +309,9 @@ Test 5.D: 3.2.2-podczas-wprowadzania-danych **nie ma zastosowania**, jeśli na s
 
 3.  Opuść wypełniony element formularza i zaobserwuj, czy powoduje to są jakieś nieoczekiwane zmiany kontekstu.
 
-    **Uwaga**: W przypadku niektórych typów pól formularzy, takich jak pola wprowadzania tekstu, może być konieczne odsunięcie fokusa od pola, aby zaobserwować, czy nie następuje zmiana kontekstu.
+    **Uwaga**: W przypadku niektórych typów pól formularzy, takich jak pola wprowadzania tekstu, może być konieczne odsunięcie fokusu od pola, aby zaobserwować, czy nie następuje zmiana kontekstu.
 
-4.  Zmiany w kontekście obejmują zmiany: programu użytkownika, rzutni, fokusa, treści zmieniającej znaczenie strony.
+4.  Zmiany w kontekście obejmują zmiany: programu użytkownika, rzutni, fokusu, treści zmieniającej znaczenie strony.
 
     **Uwagi dotyczące definicji**:
 
@@ -334,7 +334,7 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 
 ### Uwaga
 
--   W przypadku niektórych typów pól formularzy, takich jak pola wprowadzania tekstu, może być konieczne odsunięcie fokusa od pola, aby zaobserwować, czy nie następuje zmiana kontekstu.
+-   W przypadku niektórych typów pól formularzy, takich jak pola wprowadzania tekstu, może być konieczne odsunięcie fokusu od pola, aby zaobserwować, czy nie następuje zmiana kontekstu.
 
 
 ## Powiaddomeinia o zmianie
@@ -374,7 +374,7 @@ Wyniki tego testu służą do ustalenia, czy spełnione są kryteria sukcesu WCA
 
     **Uwaga**: Ten test dotyczy tylko i wyłącznie treści, które w wyniku interakcji z formularzem zmieniają się na badanej stronie, a nie na innych stronach. 
 	
-    **NIE WYKLUCZAJ** z badania wyłączonych elementów formularzy. Wprawdzie nie są one elementami aktywnymi, nie mogą otrzymać fokusa klawiatury, nie mogą być wybrane ani modyfikowane, ale w wyniku interakcji z formularzem może nastąpić zmiana treści, która spowoduje włączenie wyłączonej wcześniej kontrolki. W takim przypadku należy wykonać ten, a także poprzednie testy, aby sprawdzić, czy te kontrolki spełniają wymagania dostępności.    
+    **NIE WYKLUCZAJ** z badania wyłączonych elementów formularzy. Wprawdzie nie są one elementami aktywnymi, nie mogą otrzymać fokusu klawiatury, nie mogą być wybrane ani modyfikowane, ale w wyniku interakcji z formularzem może nastąpić zmiana treści, która spowoduje włączenie wyłączonej wcześniej kontrolki. W takim przypadku należy wykonać ten, a także poprzednie testy, aby sprawdzić, czy te kontrolki spełniają wymagania dostępności.    
 	
 ### Zastosowanie
 
@@ -395,7 +395,7 @@ Test 5.E 4.1.2-powiadomienia-o-zmianie **nie ma zastosowania**, jeśli na stroni
 3.  Określ, w jaki sposób użytkownik jest powiadamiany o zmianie treści.
  
 	
-	Istnieje kilka sposobów powiadamiania użytkownika, w tym komunikaty o elemencie formularza wywołującym zmianę, otwarcie okna dialogowego, przeniesienie fokusa na zmienioną treść lub do żywego regionu ARIA.
+	Istnieje kilka sposobów powiadamiania użytkownika, w tym komunikaty o elemencie formularza wywołującym zmianę, otwarcie okna dialogowego, przeniesienie fokusu na zmienioną treść lub do żywego regionu ARIA.
 	
 	**Uwaga**: Ta lista technik spełniających KS 4.1.2 nie jest wyczerpująca; mogą pojawić się nowe  dopuszczalne techniki.
 	
@@ -410,7 +410,7 @@ Test 5.E 4.1.2-powiadomienia-o-zmianie **nie ma zastosowania**, jeśli na stroni
 
     3.  Zidentyfikuj zmiany treści, które powodują przeniesienie fokusu na treść, która uległa zmianie.
 
-        1.  Ustal, czy przeniesienie fokusa na zmienioną treść jest wystarczające, aby powiadomić użytkownika o zdarzeniu zmiany (np. istnieje wystarczający opis zmiany w treści, na którą fokus został przeniesiony.
+        1.  Ustal, czy przeniesienie fokusu na zmienioną treść jest wystarczające, aby powiadomić użytkownika o zdarzeniu zmiany (np. istnieje wystarczający opis zmiany w treści, na którą fokus został przeniesiony.
 
     4.  Zidentyfikuj zmiany treści występujące w żywym regionie ARIA:
 

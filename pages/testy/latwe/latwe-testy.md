@@ -52,7 +52,7 @@ Baza łatwych testów obejmuje sprawdzenie 10 wymienionych poniżej aspektów wi
   - [Kontrast kolorów](04_P_wspolczynnik_kontrastu) („współczynnik kontrastu”)
   - [Zmiana rozmiaru tekstu](05_P_zmiana-rozmiaru-tekstu)
 - **Interakcja**:
-  - [Dostęp za pomocą klawiatury i widoczność fokusa](06_P_klawiatura)
+  - [Dostęp za pomocą klawiatury i widoczność fokusu](06_P_klawiatura)
   - [Formularze, etykiety i błędy](07_P_formularze) (w tym pól Szukaj)
 - **Ogólne**:
   - [Treść przesuwana, migocąca lub błyskająca](08_P_poruszanie-i-blyski)
@@ -76,7 +76,7 @@ W tabeli poniżej znajduje się zestawienie łatwych testów i kryteriów sukces
 | Współczynnik kontrastu | 1.4.3: Kontrast minimalny (AA) |
 | Zmiana rozmiaru tekstu | 1.4.4 Zmiana rozmiaru tekstu (AA) |
 | Nagłówki | 1.3.1 Informacje i relacje (A), 2.4.6 Nagłówki i etykiety  (AA), 2.4.10 Nagłówki sekcji (AAA), 1.4.5 Obrazy tekstu (AA) |
-| Dostęp za pomocą klawiatury i widoczność fokusa | 2.1.1 Klawiatura (A), 2.1.2 Bez pułapki na klawiaturę (A), 2.4.3 Kolejność zaznaczania (A), 2.4.7 Widoczny fokus (AA) |
+| Dostęp za pomocą klawiatury i widoczność fokusu | 2.1.1 Klawiatura (A), 2.1.2 Bez pułapki na klawiaturę (A), 2.4.3 Kolejność zaznaczania (A), 2.4.7 Widoczny fokus (AA) |
 | Formularze, etykiety i błędy | 3.3.2 Etykiety lub instrukcje (A), 1.3.1 Informacje i relacje (A), 3.3.1 Identyfikacja błędu (A), 3.3.3 Sugestie korekty błędów (A), 3.3.4 Zapobieganie błędom… (AA) |
 | Treść przesuwana, migocąca lub błyskająca | 2.2.2 Wstrzymywanie (pauza), zatrzymywanie, ukrywanie (A), 2.3.1 Trzy błyski lub wartości poniżej progu (A) |
 | Odpowiedniki multimediów | 1.2.2 Napisy (rozszerzone) (A), 1.2.3 Audiodeskrypcja lub alternatywa dla mediów (nagranie) (A), 1.2.5 Audiodeskrypcja (nagranie) (AA), 1.4.2 Kontrola odtwarzania dźwięku  (A), 1.2.8 Alternatywa dla mediów (nagranie) (AAA) |

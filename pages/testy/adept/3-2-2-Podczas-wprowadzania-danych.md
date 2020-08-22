@@ -16,7 +16,7 @@ Niepełnosprawny użytkownik może mieć ograniczony dostęp do całości inform
 -	przejście na inną stronę,
 -	otwarcie zewnętrznej aplikacji, na przykład odtwarzacza,
 -	istotna zmiana treści wyświetlanej na stronie,
--	przeniesienie fokusa w inne miejsce.
+-	przeniesienie fokusu w inne miejsce.
 
 ## Testowanie
 Najbardziej podatnymi na tego typu błędy są formularze do wprowadzania danych. Przyjrzyj się im korzystając z klawiatury i sprawdź, jak się zachowują. Możesz zaznaczać pola wyboru, pola opcji, wpisywać tekst i wykonywać inne czynności, najlepiej naprzemiennie za pomocą klawiatury i myszki. Błędy mogą się objawiać wyskakującymi oknami, przeładowywaniem strony, zmianami w treści bez przeładowywania (Ajax), uruchamianiem odtwarzacza i w podobny sposób. Natomiast działania takie mogą być realizowane po naciśnięciu przycisku. Za tego typu zachowania odpowiadają akcje typu onChange, które możesz znaleźć w kodzie strony internetowej.

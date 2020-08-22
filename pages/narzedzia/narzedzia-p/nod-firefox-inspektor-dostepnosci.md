@@ -99,7 +99,7 @@ Inspektor dostępności potrafi wykryć wszystkie znane potencjalne problemy z o
 -	Czy elementy interaktywne można uaktywnić tylko za pomocą klawiatury?
 -	Czy każdy element interaktywny otrzymuje fokus podczas tabulacji?
 -	Czy do elementów uzyskujących fokus została zastosowana odpowiednia stylistyka?
-Pamiętać należy, że istnieje wiele sposobów stylizacji wskaźnika fokusa, stąd mogą się przytrafić inspektorowi dostępności fałszywe alarmy. Ale trochę doświadczony audytor łatwo zweryfikuje takie przypadki.
+Pamiętać należy, że istnieje wiele sposobów stylizacji wskaźnika fokusu, stąd mogą się przytrafić inspektorowi dostępności fałszywe alarmy. Ale trochę doświadczony audytor łatwo zweryfikuje takie przypadki.
 
 ### Kontrast
 Kolejną zdolność Inspektora dostępności zapewnia moduł testowania kontrastu kolorów na całej stronie. Inspektor sprawdza wszystkie trzy typy problemów z kontrastem wskazywane przez WCAG 2.1:

@@ -97,7 +97,7 @@ Następujące kryteria sukcesu są nowe w WCAG 2.1:
 - [**1.4.10 Dopasowanie do ekranu**](https://wcag.lepszyweb.pl/#reflow) (AA)
 - [**1.4.11 Kontrast elementów nietekstowych**](https://wcag.lepszyweb.pl/#non-text-contrast) (AA)
 - [**1.4.12 Odstępy w tekście**](https://wcag.lepszyweb.pl/#non-text-contrast) (AA)
-- [**1.4.13 Treść spod kursora lub fokusa**](https://wcag.lepszyweb.pl/#content-on-hover-or-focust) (AA)
+- [**1.4.13 Treść spod kursora lub fokusu**](https://wcag.lepszyweb.pl/#content-on-hover-or-focust) (AA)
 - [**2.1.4 Jednoznakowe skróty klawiaturowe**](https://wcag.lepszyweb.pl/#character-key-shortcuts) (A)
 - [**2.2.6 Ostrzeżenie o limicie czasu**](https://wcag.lepszyweb.pl/#timeouts) (AAA)
 - [**2.3.3 Animacja po interakcji**](https://wcag.lepszyweb.pl/#animation-from-interactions) (AAA)
@@ -414,7 +414,7 @@ W takich przypadkach w momencie opublikowania strony nie można przewidzieć, ja
 
 **LUB**:
 
-2. Można złożyć „Oświadczenie częściowej zgodności”, że strona nie jest zgodna, ale spełniałaby wymogi zgodności, gdyby pewne jej części zostały usunięte. Brzmienie takiego oświadczenia jest następujące: „a strona nie jest zgodna, ale byłaby zgodna z WCAG 2.1 na poziomie X, gdyby następujące treści z niekontrolowanych przez autora źródeł zostały usunięte”. Dodatkowo, treść niekontrolowana musi spełnić poniższe kryteria:
+2. Można złożyć „Oświadczenie częściowej zgodności”, że strona nie jest zgodna, ale spełniałaby wymogi zgodności, gdyby pewne jej części zostały usunięte. Brzmienie takiego oświadczenia jest następujące: „Strona nie jest zgodna, ale byłaby zgodna z WCAG 2.1 na poziomie X, gdyby następujące treści z niekontrolowanych przez autora źródeł zostały usunięte”. Dodatkowo, treść niekontrolowana musi spełnić poniższe kryteria:
 
    a. Nie jest to treść, która jest pod kontrolą autora.
 
@@ -429,7 +429,7 @@ Definicje słownikowe wykorzystane w WCAG 2.1 opublikowane zostały w odrębnym 
 
 ## 7. Przeznaczenie pól danych w komponentach interfejsu uzytkowników
 
-Ta część zawiera listę typowych celów pól formularzy w komponentach interfejsu uzytkowników. Terminy poniżej  nie są słowami kluczowymi, których należy użyć, ale reprezentują cele, które muszą zostać ujęte w taksonomii przyjętej przez stronę internetową. W stosownych przypadkach, autorzy oznaczają kontrolki przy pomocy wybranej taksonomii, aby wskazać cel semantyczny. Daje to potencjalnym programom użytkownika i technologiom pomocniczym możliwość stosowania spersonalizowanych prezentacji, które mogą umożliwić większej liczbie osób zrozumienie i wykorzystanie treści.
+Ta część zawiera listę typowych celów pól formularzy w komponentach interfejsu użytkowników. Terminy poniżej  nie są słowami kluczowymi, których należy użyć, ale reprezentują cele, które muszą zostać ujęte w taksonomii przyjętej przez stronę internetową. W stosownych przypadkach, autorzy oznaczają kontrolki przy pomocy wybranej taksonomii, aby wskazać cel semantyczny. Daje to potencjalnym programom użytkownika i technologiom pomocniczym możliwość stosowania spersonalizowanych prezentacji, które mogą umożliwić większej liczbie osób zrozumienie i wykorzystanie treści.
 
 **UWAGA** Lista  celów typów pól danych jest oparta na celach kontrolek zdefiniowanych w części HTML 5.2 Autofill field, ale ważne jest, aby zrozumieć, że inna technologia może mieć niektóre lub wszystkie z tych samych pojęć zdefiniowanych w swojej specyfikacji i wymagane są tylko te pojęcia, które są mapowane do poniższych znaczeń.
 
@@ -488,7 +488,7 @@ Poniższe cele pól danych mają odnosić się do użytkownika treści i dotyczy
 - **tel-local-suffix** - rruga część elementu numeru telefonu, która następuje po numerze kierunkowym, gdy ten element jest podzielony na dwa elementy
 - **tel-extension** - numer telefonu wewnętrznego
 - **email** - adres e-mail
-- **impp** - adres URL reprezentujący punkt końcowy protokołu wiadomości błyskawicznych (np, "aim:goim?screenname=example" lub "xmpp:fred@example.net")
+- **impp** - adres URL reprezentujący punkt końcowy protokołu wiadomości błyskawicznych (np. "aim:goim?screenname=example" lub "xmpp:fred@example.net")
 
 ## A. Poddziękowania
 Dodatkowe informacje na temat uczestnictwa w Grupie Roboczej Wytyczne dla Dostępności (AG WG) można znaleźć na [stronie głównej Grupy Roboczej](https://www.w3.org/WAI/GL/).

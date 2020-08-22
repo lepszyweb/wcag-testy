@@ -98,7 +98,7 @@ Jeżeli powyższa próba zakończy się niepowodzeniem, wówczas test KS  1.4.2,
 
 ##  Wskazówki dotyczące usprawniania procesu testowego
 
--   Przypomnij testerom, że w przypadku przekroczenia limitu czasu wskaźnik fokusa powinien powinien się przemieścić  do komunikatu o limicie czasu, aby spełnić kryteria sukcesu dotyczące dostępności klawiatury i kolejności fokusa.
+-   Przypomnij testerom, że w przypadku przekroczenia limitu czasu wskaźnik fokusu powinien powinien się przemieścić  do komunikatu o limicie czasu, aby spełnić kryteria sukcesu dotyczące dostępności klawiatury i kolejności fokusu.
 -   W niektórych przypadkach może być konieczne skontaktowanie się z autorami aplikacji w celu wyjaśnienia warunków przekroczenia limitu czasu.
 -   Defekty KS 1.4.2 lub 2.2.2 również powodują niespełnienie Wymogu zgodności 5: Brak zakłóceń i powinny być zaznaczone w raporcie z testów, aby wskazać poważny wpływ na dostępność.
 -   Przed rozpoczęciem testu przeglądarki muszą być skonfigurowane tak, aby zezwalały na odtwarzanie dźwięku. Wyniki testu mogą zależeć od przeglądarki.

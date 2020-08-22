@@ -13,7 +13,7 @@ Zawsze należy wypełnić wszystkie poziomy dokładności (zobacz: [Wprowadzenie
 
 | Test        | Protokoły                    |OK|Źle|ND| Uwagi  |KS WCAG|
 |-------------|------------------------------|--|---|--|--------|--------|
-|1. Widoczność fokusa|Użyj klawisza tabulatora na klawiaturze do poruszania się po każdej stronie i upewnij się, że oznaczenie fokusem punktu uwagi jest zawsze wyraźnie widoczne, można określić, gdzie się aktualnie znajduje się punkt uwagi.| | | | |[2.4.7](https://wcag.lepszyweb.pl/#focus-visible)|
+|1. Widoczność fokusu|Użyj klawisza tabulatora na klawiaturze do poruszania się po każdej stronie i upewnij się, że oznaczenie fokusem punktu uwagi jest zawsze wyraźnie widoczne, można określić, gdzie się aktualnie znajduje się punkt uwagi.| | | | |[2.4.7](https://wcag.lepszyweb.pl/#focus-visible)|
 |2. Kolejność tabulacji|Użyj klawisza tabulatora na klawiaturze, aby poruszać się po każdej stronie i upewnij się, że kolejność, w jakiej elementy są oznaczane fokusem, ma sens. Upewnij się również, że nieaktywne części stron nie są oznaczane fokusem.| | | | |[2.4.3](https://wcag.lepszyweb.pl/#focus-order)|
 |3. Dostęp z klawiatury|Upewnij się, że wszystko na każdej stronie działa z klawiaturą (tzn. wszystko, co można zrobić za pomocą myszy lub ekranu dotykowego, można również zrobić bez nich).| | | | |[2.1.1](https://wcag.lepszyweb.pl/#keyboard)|
 |4. Bez pułapek klawiatury|Upewnij się, że punkt uwagi nie może być nigdzie zablokowany (tzn. z każdego miejsca oznaczonego fokusem możesz się wydostać za pomocą klawiatury, bez konieczności używania myszy lub ekranu dotykowego).| | | | |[2.1.2](https://wcag.lepszyweb.pl/#no-keyboard-trap)|
