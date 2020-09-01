@@ -1,0 +1,3 @@
+[**1.2.5 Audiodeskrypcja (nagranie)**](https://wcag.lepszyweb.pl/#audio-description-prerecorded) - **poziom AA**: Zapewniona jest audiodeskrypcja dla wszystkich <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.nagranie | strip_html | replace: '*', ''}}">nagrań</a> <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.wideo | strip_html | replace: '*', ''}}">wideo</a> w <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.zsynchronizowane_multimedia | strip_html | replace: '*', ''}}">multimediach zsynchronizowanych</a> (dźwięk i obraz).
+
+

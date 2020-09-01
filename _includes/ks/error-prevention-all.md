@@ -1,0 +1,5 @@
+[**3.3.6 Zapobieganie błędom (wszystkim)**](https://wcag.lepszyweb.pl/#error-prevention-all) - **poziom AAA**: Dla <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.strona_internetowa | strip_html | replace: '*', ''}}">stron internetowych</a>, które wymagają od użytkownika podania informacji, przynajmniej jedno z poniższych założeń jest prawdziwe:
+
+ - **Odwracalność**: Wprowadzenie danych jest odwracalne.
+ - **Sprawdzanie**: Dane wprowadzone przez użytkownika są sprawdzane pod kątem <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.blad | strip_html | replace: '*', ''}}">błędów</a>, a użytkownik ma możliwość wprowadzenia poprawek.
+ - **Potwierdzenie**: Dostępny jest <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.mechanizm | strip_html | replace: '*', ''}}">mechanizm</a> sprawdzania, potwierdzania oraz korekty informacji przed jej ostatecznym wysłaniem.

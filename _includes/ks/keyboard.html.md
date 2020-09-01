@@ -1,0 +1,5 @@
+[**2.1.1 Klawiatura**](https://wcag.lepszyweb.pl/#keyboard) - **poziom A**: Cała treść oraz wszystkie zawarte w niej <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.funkcjonalnosc | strip_html | replace: '*', ''}}">funkcjonalności</a>  dostępne są z <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.interfejs_klawiaturowy | strip_html | replace: '*', ''}}">interfejsu klawiatury</a>, bez wymogu określonego czasu użycia poszczególnych klawiszy, poza tymi przypadkami, kiedy dana funkcja wymaga wprowadzenia informacji przez użytkownika w oparciu o ścieżkę ruchów, a nie w oparciu o punkty końcowe wejścia.
+
+*Uwaga 1*: Ten wyjątek dotyczy danej funkcji, a nie techniki wejścia. Przykładowo, kiedy używa się pisma odręcznego celem wprowadzenia tekstu, technika wejścia (pismo odręczne) wymaga wprowadzenia informacji w oparciu o ścieżkę, jednak powiązana z tym funkcja (wprowadzenie tekstu) już tego nie wymaga.
+
+*Uwaga 2*: To nie powinno blokować ani ograniczać użycia interfejsu innymi metodami niż klawiatura, np. za pomocą myszki.

@@ -1,0 +1,1 @@
+[**3.2.4 Spójna identyfikacja**](https://wcag.lepszyweb.pl/#consistent-identification) - **poziom AA**: Komponenty, które posiadają <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.taka_sama_funkcjonalnosc | strip_html | replace: '*', ''}}">tę samą funkcjonalność</a> w danym serwisie internetowym, są w taki sam sposób zidentyfikowane.

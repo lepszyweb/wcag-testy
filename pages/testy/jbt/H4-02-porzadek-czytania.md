@@ -34,7 +34,8 @@ Kryterium sukcesu: [1.3.2 Zrozumiała kolejność](https://wcag.lepszyweb.pl/#me
 2.	Sprawdź, czy kolejność, w jakiej treść strony jest odczytywana przez czytnik ekranu, jest logiczna i znacząca.
 
 ### Wykorzystanie skryptozkładki ANDI
-![Wykorzystanie skryptozkładki ANDI](/img/andi-reading-order.png)
+{% include image.html file="andi/andi-reading-order.png" alt="Wykorzystanie skryptozkładki ANDI" %}
+
 1.	Uruchom skryptozakładkę ANDI i wybierz z menu ANDI opcję *structures*.
 2.	Wybierz z menu poziomego opcję *reading order* (Porządek czytania)
 3.	Możesz użyć łącza *View outline*, aby rozwinąć konspekt strony.

@@ -6,7 +6,7 @@ akapit: "Podstawowy sposób dzielenia łamu na rozpoznawalne wzrokiem mniejsze f
 
 alert: "Komunikat z ostrzeżeniem przerywający nawigację lub używanie strony, zwłaszcza z żądaniem kliknięcia na przycisk lub link w celu kontynuowania nawigacji lub używania treści."
 
-alternatywa_dla_mediow_zmiennych_w_czasie: "(ang. 'alternative for time-based media'). Dokument zawierający prawidłowo uporządkowany tekst opisujący wizualną i dźwiękową informację zmienną w czasie oraz uwzględniający końcowy stan interakcji z tymi mediami. <br/>**Uwaga**: Scenariusz użyty do stworzenia zsynchronizowanych multimediów może być objęty taką definicją tylko wówczas, gdy został poprawiony, tak, by odpowiadać dokładnej końcowej wersji multimediów po zakończeniu edycji."
+alternatywa_dla_mediow_zmiennych_w_czasie: "(ang. 'alternative for time-based media'). Dokument zawierający prawidłowo uporządkowany tekst przedstwiający informacje przekazywane w medium opartym na czasie wizualnie i dźwiękowo oraz uwzględniający końcowy stan interakcji z tym medium. <br/>**Uwaga**: Scenariusz użyty do stworzenia zsynchronizowanych multimediów może być objęty taką definicją tylko wówczas, gdy został poprawiony, tak, by odpowiadać dokładnej końcowej wersji multimediów po zakończeniu edycji."
 
 alternatywa_tekstowa: "(ang. 'text alternative'), inaczej *odpowiednik tekstowy*. Tekst używany zamiast treści nietekstowej, przedstawiający tę samą informację, co treść nietekstowa, w odniesieniu do kontekstu treści dokumentu, w którym się znajduje, skojarzony programowo z treścią nietekstową. Tekst *skojarzony programowo* to taki, którego położenie w stosunku do treści nietekstowej jest określone w kodzie, dzięki czemu może być odczytany przez technologie wspomagajace oraz funkcje dostępności w przeglądarkach internetowych."
 
@@ -16,9 +16,9 @@ aplikacja_mobilna: "Publicznie dostępne oprogramowanie z interfejsem dotykowym 
 
 arkusz_stylow: "Kod zapisany w języku CSS, określający reguły formatowania elementów treści (na przykład koloru tła strony, rozmiaru/koloru czcionki, pozycjonowania informacji na stronie internetowej itp.). Style CSS mogą być zewnętrzne (plik CSS), wbudowane (zadeklarowane w nagłówku strony - head) lub bezpośrednie (zadeklarowane przez atrybut style znacznika)."
 
-audio: "Treści przekazywane elektronicznie dźwiękiem, technika rejestrowania i przekazywania sygnałów dźwiękowych. <br>**Uwaga:** Audio może być tworzone w sposób sztuczny (włączając w  to syntezę mowy), przez nagrywanie prawdziwego dźwięku lub na oba sposoby."
+audio: "Technologia powielania dźwięku. <br>**Uwaga:** Dźwięk może być tworzony syntetycznie (w mowa syntetyczna), nagrywany z dźwięków świata rzeczywistego lub na oba sposoby."
 
-audiodeskrypcja: "(ang. 'audio description'). Narracja dodana do ścieżki dźwiękowej w celu przedstawienia istotnych szczegółów obrazu, które nie wynikają z samej ścieżki dźwiękowej. <br>**Uwaga 1**: Audiodeskrypcja materiału wideo zapewnia informacje o akcji, postaciach, zmianie scenerii, tekstach wyświetlanych na ekranie i innych treściach wizualnych. <br>**Uwaga 2**: W standardowej audiodeskrypcji narracja jest dodawana w przerwach pomiędzy dialogami. (zobacz także „rozszerzona audiodeskrypcja”). <br>**Uwaga 3**: Jeżeli pełna informacja o wideo jest już zapewniona przez podstawową ścieżkę dźwiękową, dodatkowa audiodeskrypcja jest zbędna. <br>**Uwaga 4**: Nazywana także „wideodeskrypcją” i „narracją opisową”."
+audiodeskrypcja: "(ang. 'audio description'). Narracja dodana do ścieżki dźwiękowej w celu przedstawienia istotnych szczegółów obrazu, które nie wynikają z samej ścieżki dźwiękowej. <br>**Uwaga 1**: Audiodeskrypcja materiału wideo zapewnia informacje o akcji, postaciach, zmianie scenerii, tekstach wyświetlanych na ekranie i innych treściach wizualnych. <br>**Uwaga 2**: W standardowej audiodeskrypcji narracja jest dodawana w przerwach pomiędzy dialogami (zobacz także „rozszerzona audiodeskrypcja”). <br>**Uwaga 3**: Jeżeli pełna informacja o wideo jest już zapewniona przez podstawową ścieżkę dźwiękową, dodatkowa audiodeskrypcja jest zbędna. <br>**Uwaga 4**: Nazywana również „opisem wideo”, „narracją opisową” i  „narracją dźwiękową”.."
 
 audiodeskrypcja_rozszerzona: "Audiodeskrypcja, dodawana do materiału wideo, poprzez zatrzymanie odtwarzacza (pauza), by uzyskać odpowiedni czas na wstawienie audiodeskrypcji. <br>**Uwaga**: Ta technika jest stosowana tylko wówczas, gdy sensu materiału wideo nie da się zachować bez dodatkowej audiodeskrypcji, a przerwy pomiędzy dialogami są za krótkie."
 
@@ -26,11 +26,11 @@ automatyczne_przekierowanie: "Proces polegający na automatycznym przekierowaniu
 
 ATAG: "Akronim od angielskiego tytułu dokumentu [Authoring Tool Accessibility Guidelines](https://www.w3.org/TR/ATAG20/) (Wytyczne dotyczące dostępności narzędzi autorskich)."
 
-blok_tekstu: "Tekst składający się z więcej niż jednego zdania."
+blok_tekstu: "Więcej tekstu niż jedno zdanie"
 
 blad_wprowadzania_danych: "(ang. 'input error'). Informacja wprowadzona przez użytkownika, która nie jest akceptowana przez system. <br>**Uwaga**: Dotyczy:<br>1. informacji, które są wymagane przez stronę internetową, a pominięte przez użytkownika; <br>2.	informacji wprowadzonych przez użytkownika, ale w niewłaściwym formacie lub o niedopuszczalnej wartości."
 
-blysk: "(ang. 'flash'). Para relatywnie przeciwstawnych luminancji, która może u niektórych osób wywołać atak padaczki, jeżeli efekt ten ma odpowiednie natężenie i zmienia się z pewną określoną częstotliwością. <br>**Uwaga 1**: Zobacz „informacje o granicznych wartościach ogólnych błysków i czerwonych błysków”, aby dowiedzieć się, które błyski są niedopuszczalne. <br>**Uwaga 2**: Zobacz także „migotanie”."
+blysk: "(ang. 'flash'). Para przeciwstawnych względnych luminancji, która może u niektórych osób wywołać atak padaczki, jeżeli efekt ten ma odpowiednie natężenie i zmienia się z pewną określoną częstotliwością. <br>**Uwaga 1**: Zobacz „informacje o granicznych wartościach ogólnych błysków i czerwonych błysków”, aby dowiedzieć się, które błyski są niedopuszczalne. <br>**Uwaga 2**: Zobacz także „migotanie”."
 
 CAPTCHA: "Skrót od „Completely Automated Public Turing test to tell Computers and Humans Apart” (całkowicie automatyczny publiczny test Turinga do odróżniania komputerów od ludzi). <br>**Uwaga 1:** Test CAPTCHA najczęściej polega na przepisaniu przez użytkownika tekstu ze zniekształconego obrazu lub nagrania dźwiękowego. <br>**Uwaga 2:** Test Turinga to każdy system testów, który został zaprojektowany w celu odróżnienia człowieka od komputera. Został tak nazwany na cześć słynnego informatyka Alana Turinga. Pojęcie to sformułowane zostało na Uniwersytecie Carnegie Mellon."
 
@@ -56,7 +56,7 @@ etykieta: "(ang. 'label'): Tekst lub inny komponent z tekstem alternatywnym, kt�
 
 fokus_klawiatury: "(ang. 'focus') - skupienie. Stan gotowości komponentu interfejsu użytkownika (zobacz) do odbioru informacji o naciśnięciu klawiszy, które jest zdolny obsłużyć. Fokus jest zwykle odpowiednio odwzorowany w wyglądzie komponentu, np. przycisk dostaje dodatkowe obramowanie, w polu formularza pojawia się migający kursor, pod łączem w menu zmienia się kolor tła, itp. Wszelkie zdarzenia związane z naciskaniem przez użytkownika klawiszy są kierowane właśnie do tego komponentu, o ile nie zostaną wcześniej przechwycone. Zdarzenia z klawiatury w pierwszej kolejności przekazywane są do systemu okienkowego (menedżera okien), który z kolei przekazuje je do aplikacji. Aplikacja obsługuje te zdarzenia sama albo przekazuje je do obsłużenia do komponentu gotowego do obsługi zdarzenia."
 
-funkcjonalnosc: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiająca użytkownikowi skorzystanie ze wszystkich oferowanych przez nie funkcji."
+funkcjonalnosc: "Procesy i efekty osiągalne w wyniku działań użytkownika. Właściwość strony internetowej lub aplikacji mobilnej umożliwiająca użytkownikowi skorzystanie ze wszystkich oferowanych przez nie funkcji. "
 
 gdy_naciskane: "(ang. 'down-event'). Zdarzenie dotykowe, które następuje potem, gdy palec, rysik, wskaźnik myszki lub inny bodziec naciska punkt interaktywny na ekranie, powodując „wciśnięcie” komponentu interfejsu użytkownika. Zdarzenie może mieć na różnych platformach różne nazwy, takie jak „touchstart” lub „mousedown”."
 
@@ -72,7 +72,7 @@ interfejs_klawiaturowy: "(ang. 'keyboard interface'). Interfejs używany przez o
 
 istotna_funkcjonalnosc: "Niezbędna dla konkretnej witryny funkcja (funkcjonalność), której usunięcie zasadniczo zmienia sposób użytkowania lub przeznaczenie witryny. Obejmuje zarówno informacje, do których odnoszą się użytkownicy, jak i czynności, które wykonują, aby użyć tej funkcji. <br>**Uwaga**: Przykłady podstawowych funkcji obejmują np. „wybór i zakup produktu w sklepie internetowym”, „wypełnienie i przesłanie formularza kontaktowego”, „rejestrację konta użytkownika”."
 
-istotny: "(ang. 'essential'). Jeżeli taki element zostanie usunięty, może to całkowicie zmienić informację lub funkcjonalność, a informacja lub funkcjonalność nie mogą zostać osiągnięte w inny sposób, zapewniający zgodność."
+istotny: "(ang. 'essential'). Jeżeli taki element zostanie usunięty, może to całkowicie zmienić informację lub funkcjonalność treści, a informacja i funkcjonalność nie mogą zostać osiągnięte w inny sposób, zapewniający zgodność"
 
 jezyk_naturalny: "(ang. 'human language'). Język mówiony, pisany lub język migowy (zarówno znaków wizualnych, jak dotykowych) służący do komunikowania się między ludźmi. <br>**Uwaga**: zobacz także „język migowy”."
 
@@ -101,7 +101,7 @@ media: "Środek przekazu, to, za pośrednictwem czego są przekazywane lub wyra�
 
 media_zmienne_w_czasie: "Media dynamiczne, oparte na sekwencji obrazów i dźwięków"
 
-migotanie: "(ang. 'blinking'). Naprzemienna zmiana stanu wizualnego w celu zwrócenia uwagi.<br>**Uwaga:** Zobacz także błysk. W przypadku odpowiedniej wielkości, odpowiedniej jasności oraz odpowiedniej częstotliwości, migotanie może być zakwalifikowane jako błysk."
+migotanie: "(ang. 'blinking'). Naprzemienna zmiana stanu wizualnego w celu zwrócenia uwagi.<br>**Uwaga:** Zobacz także błysk. W przypadku odpowiedniej wielkości, odpowiedniej jasności oraz odpowiedniej częstotliwości, migotanie może być zakwalifikowane jako błyskanie."
 
 mozliwy_do_odczytania_przez_program_komputerowy: "zobacz: określony programowo "
 
@@ -184,7 +184,7 @@ program_uzytkownika: "(ang. 'user agent'). Oprogramowanie umożliwiające pobier
 
 projekt: "Dobór i zestawienie elementów składowych oraz ich właściwości i wzajemnych relacji w całość służącą satysfakcjonującemu zaspokajaniu wyznaczonych i zakładanych potrzeb użytkowników. Nierozerwalne połączenie wszystkich „warstw” składających się na stronę, definiujących ją jako całość. (ang. *design*)"
 
-programowo_ustawione: "(ang. 'programmatically set'). Ustawione przez oprogramowanie, za pomocą metod obsługiwanych przez oprogramowanie użytkownika, w tym przez technologie wspomagające."
+programowo_ustawione: "(ang. 'programmatically set'). Ustawione przez oprogramowanie wykorzystującego metody obsługiwane przez oprogramowanie użytkownika, w tym przez technologie wspomagające"
 
 przedstawianie: "(ang. 'presentation'). Renderowanie treści w sposób, który jest postrzegalny dla użytkownika."
 
@@ -199,7 +199,7 @@ renderowanie: "(ang. 'rendering'). Przedstawianie informacji zawartych w dokumen
 
 rola: "(ang. 'role'). Tekst lub liczba, poprzez którą oprogramowanie może określić funkcję komponentu w treści internetowej. <br>**Przykład**: Liczba, dzięki której można określić funkcję grafiki jako linku, przycisku lub pola wyboru."
 
-rozszerzona_audiodeskrypcja: "(ang. 'extended audio description'). Audiodeskrypcja, dodawana do materiału wideo, poprzez zatrzymanie odtwarzacza (pauza), by uzyskać odpowiedni czas wstawienie audiodeskrypcji. <br/>**Uwaga**: Ta technika jest stosowana tylko wówczas, gdy sensu materiału wideo nie da się zachować bez dodatkowej audiodeskrypcji, a przerwy pomiędzy dialogami są za krótkie."
+rozszerzona_audiodeskrypcja: "(ang. 'extended audio description'). Audiodeskrypcja, dodawana do materiału wideo poprzez zatrzymanie odtwarzacza (pauza), dzięki czemu jest czas na wstawienie dodatkowego opisu. <br/>**Uwaga**: Ta technika jest stosowana tylko wówczas, gdy sensu materiału wideo nie da się zachować bez dodatkowej audiodeskrypcji, a przerwy dialogami i narracją są zbyt krótkie."
 
 rzetelnosc: "Właściwość strony internetowej lub aplikacji mobilnej polegająca na starannym, dokładnym, zgodnym ze standardami kodowaniu treści, umożliwiającym ich interpretowanie przez różne rodzaje oprogramowania użytkownika."
 
@@ -236,7 +236,7 @@ technologie_tresci_internetowych: "Mechanizmy służące do odkodowania danych, 
 
 technologia_pomocnicza: "(ang. 'assistive technology'). Sprzęt lub oprogramowanie, zaprojektowane tak, aby pomagać osobom z&nbsp;niepełnosprawnościami w wykonywaniu ich codziennych obowiązków. Do technologii pomocniczych zalicza się wózki inwalidzkie, maszyny do czytania, urządzenia do podnoszenia rzeczy, itd. W dziedzinie dostępności internetowej, powszechne technologie pomocnicze oparte na programach komputerowych obejmują takie urządzenia jak: czytniki ekranu, powiększacze ekranu, syntezatory mowy, programy głosowe współpracujące z przegladarkami graficznymi. Technologie pomocnicze oparte na sprzęcie obejmują: alternatywne klawiatury i urządzenia wskazujące. Inne nazwy: *technologia wspomagajaca*, *technologia asystująca*."
 
-tekst: "(ang. 'text'). Ciąg znaków, który można odczytać za pomocą programu komputerowego, gdzie ciąg wyraża coś w ludzkim języku naturalnym."
+tekst: "(ang. 'text'). Ciąg znaków, który można programowo określić, gdzie ciąg ten wyraża coś w języku naturalnym"
 
 tekst_alternatywny: "(ang. 'text alternative'). Tekst skojarzony programistycznie z treścią nietekstową lub odnoszący się do tekstu programistycznie skojarzonego z treścią nietekstową. Tekst programowo skojarzony to taki tekst, którego położenie może być programowo określone w stosunku do treści nietekstowej. <br>*Przykład*: Obraz wykresu jest opisany w następującym po nim akapicie. Krótki tekst alternatywny dla wykresu informuje, że takie objaśnienie znajduje się zaraz za nim (w kolejności treści)."
 
@@ -260,7 +260,9 @@ tresc_ukryta: "Wszelka treść ukryta przed technologiami pomocniczymi na pomoc�
 
 tresc_widoczna: "Treść, która jest widoczna, gdy wyłączony zostanie CSS."
 
-tylko_wideo: "(ang. 'video-only') Zmienna w czasie prezentacja zawierająca tylko wideo bez dźwięku i interakcji."
+tylko_audio: "(ang. 'video-only') Prezentacja oparta na czasie zawierająca tylko dźwięk (bez obrazu i bez interakcji)"
+
+tylko_wideo: "(ang. 'video-only') Prezentacja oparta na czasie zawierająca tylko wideo bez dźwięku i interakcji."
 
 UAAG: "Akronim od angielskiego tytułu dokumentu [User Agent Accessibility Guidelines](https://www.w3.org/TR/UAAG20/) (Wytyczne dotyczące dostępności oprogramowania użytkownika: przeglądarek i innych aplikacji i urządzeń służących do odczytywania treści cyfrowych)."
 
@@ -310,7 +312,7 @@ wzgledna_luminancja: "(ang. 'relative luminance'). Względna jasność punktu w 
 zagrozenie: "(ang. 'emergency'). Nagła, nieoczekiwana sytuacja lub zdarzenie, wymagające natychmiastowej reakcji dla ochrony zdrowia, bezpieczeństwa lub mienia."
 
 
-zestaw_stron_internetowych: "(ang. 'set of web pages') Zbiór stron internetowych, które mają wspólny cel i które są tworzone przez tego samego autora, grupę lub organizację. <br>Przykładem jest publikacja podzielona na wiele stron internetowych, gdzie każda strona zawiera jeden rozdział lub inną znaczącą część pracy. Publikacja jest logicznie pojedynczą, ciągłą jednostką i zawiera funkcje nawigacyjne, które umożliwiają dostęp do pełnego zestawu stron. <br>**Uwaga:** Różne wersje językowe będą uważane za różne zestawy stron internetowych."
+zestaw_stron_internetowych: "(ang. 'set of web pages') Zbiór stron internetowych, które mają wspólny cel i które są tworzone przez tego samego autora, grupę lub organizację. <br>Przykładem jest publikacja podzielona na wiele stron internetowych, gdzie każda strona zawiera jeden rozdział lub inną znaczącą część pracy. Publikacja jest logicznie pojedynczą, ciągłą jednostką i zawiera funkcje nawigacyjne, które umożliwiają dostęp do pełnego zestawu stron. <br>**Uwaga:** Różne wersje językowe będą traktowane jako różne zestawy stron internetowych."
 
 zgodnosc: "(ang. 'conformance'). Spełnienie wszystkich wymagań danej normy, wytycznych lub specyfikacji."
 

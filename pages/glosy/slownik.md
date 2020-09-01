@@ -419,6 +419,10 @@ treść uzupełniająca
 treść widoczna
 : {{site.data.glossary.tresc_widoczna}}
 
+
+tylko audio
+: {{site.data.glossary.tylko_audio}}
+
 tylko wideo
 : {{site.data.glossary.tylko_wideo}}
 

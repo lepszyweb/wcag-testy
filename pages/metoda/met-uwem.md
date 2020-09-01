@@ -7,7 +7,7 @@ permalink: met-uwem
 folder: metoda
 ---
 
-## Jednolita metodologia oceniania dostepności
+## Jednolita metodologia oceniania dostępności
 
 UWEM jest skrótem tytułu <span lang="en">Unified Web Evaluation Methodology</span>, co można przetłumaczyć na język polski jako „jednolita metodologia oceny dostępności internetowej”.   
 
@@ -50,37 +50,37 @@ UWEM zdefiniowała trzy główne scenariusze zastosowania, zależne od celów oc
 - zastosowanie w celu monitorowania dostępności dużej liczby stron internetowych.
 
 ## Procedury
-UWEM wskazuje na trzy zasadnicze procedury testowania dostepności:
+UWEM wskazuje na trzy zasadnicze procedury testowania dostępności:
 - testowanie automatyczne,
 - badanie eksperckie,
 - testy użyteczności z udziałem użytkowników z niepełnosprawnościami.   
 
 Każda z tych procedur ma swoje mocne i słabe strony. Żadna nie jest kompletna i wyczerpująca.
 
-Najlepszym sposobem zapewnienia rzetelnej i warygodnej oceny dostępności i&nbsp;zgodności z&nbsp;normami jest zastosowanie podejścia łączonego, obejmującego wszystkie metody oceny: ocenę automatyczną, ocenę ekspercką i testowanie z udziałem użytkowników z niepełnosprawnościami.
+Najlepszym sposobem zapewnienia rzetelnej i wiarygodnej oceny dostępności i&nbsp;zgodności z&nbsp;normami jest zastosowanie podejścia łączonego, obejmującego wszystkie metody oceny: ocenę automatyczną, ocenę ekspercką i testowanie z udziałem użytkowników z niepełnosprawnościami.
 
 
 ## Zakres i pobieranie próbek zasobów
 W metodologii UWEM stwierdzenia dotyczące zgodności i inne raporty oceniające muszą odnosić się do listy zasobów ocenianych w&nbsp;ramach strony internetowej (stron internetowych).
 
 ## Procedura wyznaczania zakresu ocenianych zasobów
-Dla celów UWEM witrynę internetową definiuje się jako dowolny zbiór połączonych hiperłaczami zasobów internetowych, z których każdy jest określany zgodnie z procedurą opisaną w sekcji definiującej.  
+Dla celów UWEM witrynę internetową definiuje się jako dowolny zbiór połączonych hiperłączami zasobów internetowych, z których każdy jest określany zgodnie z procedurą opisaną w sekcji definiującej.  
 
 Celem UWEM jest wspieranie powtarzalności wyników. Z tego powodu jednoznaczna identyfikacja ocenianych zasobów ma zasadnicze znaczenie dla agregacji i porównywania wyników. Stwierdzenia ogólne, takie jak: "http://przyklad.org/ jest zgodna z normą UWEM 1.2 Poziom 1" są nie do przyjęcia w oświadczeniach o zgodności z normą UWEM 1.2. Takie oświadczenie sugerowałoby, że zestaw zasobów został przeszukany do końca zgodnie z pewnymi wcześniej ustalonymi limitami lub ograniczeniami. Biorąc jednak pod uwagę szeroką gamę istniejących skanerów i różne stosowane przez nie technologie, nie można zweryfikować wiarygodności tych stwierdzeń. Ponadto różne RFC związane z nazwami domen pozostawiają otwarte pole do interpretacji w odniesieniu do koncepcji poddomeny i jej rozdzielczości.
 
 Dlatego w przypadku deklaracji zgodności UWEM 1.2 zakres witryny MUSI być wyrażony w formie listy zasobów.
 
 ### Procedury wyboru próbek do oceny
-Testowanie wszystkich zasobow witryny pod kątem wszystkich kryteriów oceny nie jest praktyczne. W zwiazku z tym, po ustaleniu listy zasobów do oceny oraz celów oceny, można wybrać podzbiór lub „próbkę” zasobów do oceny.    
+Testowanie wszystkich zasobów witryny pod kątem wszystkich kryteriów oceny nie jest praktyczne. W związku z tym, po ustaleniu listy zasobów do oceny oraz celów oceny, można wybrać podzbiór lub „próbkę” zasobów do oceny.    
 
-UWEM określa dwie procedury generowania probek do oceny:
+UWEM określa dwie procedury generowania próbek do oceny:
 - **próbka losowa**, wygenerowana automatycznie przez narzędzie; jeżeli ocena musi być powtarzalna i umożliwiać porównania synchroniczne lub asynchroniczne (np. monitorowanie), próbka do oceny musi być wygenerowana w drodze jednolitej procedury losowej.
 - **próbka nielosowa**, wybierana przez eksperta, jeśli powtarzalność wyników nie jest kluczowa.
 
 
 #### Pobieranie próbek nielosowych: Lista zasobów podstawowych
 
-Lista zasobów podstawowych (ang. <span lang="en">Core Resource List</span>) stanowi zbiór zasobow kluczowych dla oceny użyteczności i dostepnpości strony. Lista zasobow podstawowych stanowi zatem zbiór zasobów, które powinny być objęte każdą oceną dostępności witryny dokonywaną przez ekspertów. Lista zasobów podstawowych nie może, ogólnie rzecz biorąc, być określona automatycznie, ale wymaga wyboru zasobów na podstawie osądu ludzkiego.Lista zasobów podstawowych powinna składać się z jak największej liczby następujących zasobów, które mają zastosowanie:
+Lista zasobów podstawowych (ang. <span lang="en">Core Resource List</span>) stanowi zbiór zasobów kluczowych dla oceny użyteczności i dostępności strony. Lista zasobów podstawowych stanowi zatem zbiór zasobów, które powinny być objęte każdą oceną dostępności witryny dokonywaną przez ekspertów. Lista zasobów podstawowych nie może, ogólnie rzecz biorąc, być określona automatycznie, ale wymaga wyboru zasobów na podstawie osądu ludzkiego. Lista zasobów podstawowych powinna składać się z jak największej liczby następujących zasobów, które mają zastosowanie:
 
 - Zasób „Strona główna”.
 - Zasób „Informacje kontaktowe” (jeśli istnieje).

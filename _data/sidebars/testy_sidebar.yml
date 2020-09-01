@@ -57,7 +57,7 @@ entries:
           url: /06-P-klawiatura
           output: web, pdf
 
-        - title: Formularze, etykiety i błedy
+        - title: Formularze, etykiety i błędy
           url: /07-P-formularze
           output: web, pdf
 
