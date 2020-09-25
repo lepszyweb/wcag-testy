@@ -1,0 +1,1 @@
+[ARIA22: Używanie atrybutu role=status do prezentacji statusu komunikatu błędu"](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA22.html) 

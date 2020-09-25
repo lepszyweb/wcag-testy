@@ -1,0 +1,1 @@
+[ARIA5: Użycie atrybutów stanu i właściwości WAI-ARIA do ujawnienia stanu komponentu interfejsu użytkownika"](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA5.html) 

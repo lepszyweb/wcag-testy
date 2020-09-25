@@ -1,0 +1,1 @@
+[ARIA4: Używanie atrybutu &bdquo;role&rdquo;, aby wyeksponować rolę komponentu interfejsu użytkownika"](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA4.html) 

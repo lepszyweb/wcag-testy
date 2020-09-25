@@ -1,0 +1,1 @@
+[ARIA23: Używanie atrybutu role=log do identyfikowania sekwencyjnych aktualizacji informacji"](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA23.html) 
