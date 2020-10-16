@@ -9,7 +9,7 @@ folder: testy/msu
 ---
 
 
-Zawsze należy wypełnić wszystkie poziomy dokładności (zobacz: [Wprowadzenie](MSU_00_wprowadzenie), aby uzyskać szczegółowe informacje). Jeśli strony nie zawierają żadnych treści audio/wideo, należy odpowiednio zaznaczyć "nie dotyczy".
+Zawsze należy wypełnić wszystkie poziomy w całości (zobacz: [Wprowadzenie](MSU-00-wprowadzenie), aby uzyskać szczegółowe informacje). Jeśli strony nie zawierają żadnych treści audio/wideo, należy odpowiednio zaznaczyć "nie dotyczy".
 
 | Test        | Protokoły                    |OK|Źle|ND| Uwagi  |KS WCAG|
 |-------------|------------------------------|--|---|--|--------|--------|
