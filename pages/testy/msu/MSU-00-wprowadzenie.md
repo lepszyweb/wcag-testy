@@ -37,4 +37,5 @@ Wyniki badania mogą być również notowane w specjalnie przygotowannym arkuszu
 
 Tłumaczenie może posłużyć do prowadzenia testów przez osoby o niewielkiej wiedzy na temat dostępności, a także do opracowania własnych procedur testowych.  
 
-- Zobacz [Wielopoziomowy protokół oceny WCAG 2.0 AA](https://webaccess.msu.edu/Help_and_Resources/evaluation-validation.html).
+- Zobacz oryginał [Wielopoziomowego protokołu oceny WCAG 2.0 AA](https://webaccess.msu.edu/Help_and_Resources/evaluation-validation.html).
+- Zobacz [Poziom 1](MSU-01-poziom_1).
