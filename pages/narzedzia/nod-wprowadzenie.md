@@ -191,13 +191,14 @@ Poniżej przedstawiamy nieco sugestii i przykładów pod rozwagę.
   - Dyslexia Simulation
   - Dyslexia Extension
 
-#### Skryptozakładki ([81 użytecznych skryptoakładek](http://dostepny.joomla.pl/warsztat/narzedzia/19-walidatory/210-skryptozakladki))
+#### Skryptozakładki
   - [Web Evaluation Tools Bookmarklet](https://accessibility.oit.ncsu.edu/tools/web-evaluation-tools/)
   - [ANDI - Accessible Name and Description Inspector](https://www.ssa.gov/accessibility/andi/help/install.html)
   - [HTML_CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/)
   - [tota11y](https://khan.github.io/tota11y/) - accessibility visualization toolkit
   - [ASLint](https://www.aslint.org/) - Accessibility testing tool
-
+  - [81 użytecznych skryptoakładek](http://dostepny.joomla.pl/warsztat/narzedzia/19-walidatory/210-skryptozakladki)
+  
 ### Rozszerzenia narzędzi autorskich
 - [callas pdfGoHTML](https://www.callassoftware.com/en/products/pdfgohtml) (callas software GmbH)
 - [CKSource Accessibility Checker](https://ckeditor.com/ckeditor-4/accessibility-checker/) (CKSource)
@@ -228,6 +229,7 @@ Poniżej przedstawiamy nieco sugestii i przykładów pod rozwagę.
 - [Adobe Acrobat Pro](https://acrobat.adobe.com/pl/pl/acrobat/acrobat-pro-cc.html) (aplikacja komputerowa)
 - [PAC – PDF Accessibility Checker](http://www.access-for-all.ch/en/pdf-lab/pdf-accessibility-checker-pac.html) (aplikacja komputerowa)
 - [Tingtun PDF Checker](http://checkers.eiii.eu/en/pdfcheck/) (usługa internetowa)
+- [PAVE](https://pave-pdf.org/) (usługa internetowa)
 
 ### Czytniki ekranu
 - [Jaws – Job Access With Speech](http://www.freedomscientific.com/Products/Blindness/JAWS)
