@@ -1,6 +1,6 @@
 ---
 title: Punkty orientacyjne
-summary: "Treść strony jest podzielona na istotne obszary opisane nagłówkami lub etykietami"
+summary: "Treść strony jest podzielona na obszary kluczowe - punkty orientacyjne"
 tags: [nawigacja,struktury]
 sidebar: testy_sidebar
 permalink: H1-02-punkty-orientacyjne
@@ -24,9 +24,10 @@ Specyfikacja WAI-ARIA umożliwia określanie kluczowych obszarów strony za pomo
 - **WCAG 2.1 - kryterium sukcesu** {% include ks/2-4-6.md %}
 - **WCAG 2.1 - kryterium sukcesu** {% include ks/3-2-3.md %}
 - **WCAG 2.1 - kryterium sukcesu** {% include ks/3-2-4.md %}
+- **WCAG 2.1 - kryterium sukcesu** {% include ks/4-1-2.md %}
 
 ## Oczekiwania:
-{% include note.html content="Kryteria sukcesu WCAG nie wymagają, aby oznaczać obszary strony i punkty orientacyjne. Czy strona spełnia wymienione poniżej oczekiwania sprawdzamy **tylko wtedy**, gdy stosowane są punkty orientacyjne i oznaczenia sekcji strony." %}
+{% include note.html content="Kryteria sukcesu WCAG nie wymagają, aby oznaczać kluczowe obszary strony i punkty orientacyjne. Czy strona spełnia wymienione poniżej oczekiwania sprawdzamy **tylko wtedy**, gdy stosowane są punkty orientacyjne i oznaczenia sekcji strony." %}
 
 -	Cała zawartość strony znajduje się w kluczowych obszarach strony objętych znacznikami lub atrybutami ARIA definiującymi punkty orientacyjne, odpowiednio do celów tych obszarów:  
     -	znacznikiem `header` lub atrybutem `role="banner"` (nagłówek strony, tylko jeden)
@@ -35,12 +36,12 @@ Specyfikacja WAI-ARIA umożliwia określanie kluczowych obszarów strony za pomo
     -	znacznikiem `nav` lub atrybutem `role="navigation"` (nawigacja, jeżeli więcej niż jedna, każda jest jednoznacznie określona etykietą)
     -	znacznikiem `main` lub atrybutem `role="main"` (obszar treści głównej, tylko jeden)
     -	znacznikiem `aside` lub atrybutem `role="complementary"`  (jeśli więcej niż jeden, każdy jest jednoznacznie określony etykietą)
--	Gdy używana jest więcej niż jedna instancja typu obszaru, to każdy z&nbsp;nich jest jednoznacznie określony za pomocą
+-	Gdy na stronie istnieje więcej niż jedno wystąpienie typu obszaru, to każdy z&nbsp;nich jest jednoznacznie określony za pomocą:
     -	atrybutu `aria-labelledby` wskazującego na widoczny nagłówek.
-    -	atrybutu `aria-label`, jeżeli sekcja nie rozpoczyna się od nagłówka.
--	Obszar oznaczony głównym punktem orientacyjnym nie zawiera żadnych bloków treści, które powtarzają się na pozostałych stronach witryny, np. powtarzalnego obszaru nawigacyjnego (nie dotyczy ścieżki powrotu – jej treść jest inna na każdej stronie).
--	Liczba obszarów została zminimalizowana.
--   Punkt orientacyjny `banner` nie może być zawarty w innym punkcie orientacyjnym.
+    -	atrybutu `aria-label`, jeżeli obszar nie rozpoczyna się od nagłówka.
+- Obszar oznaczony głównym punktem orientacyjnym nie zawiera żadnych bloków treści, które powtarzają się na pozostałych stronach witryny, np. powtarzalnego obszaru nawigacyjnego (nie dotyczy ścieżki powrotu – jej treść jest inna na każdej stronie).
+- Liczba obszarów jest niewielka.
+- Punkt orientacyjny `banner` nie może być zawarty w innym punkcie orientacyjnym.
 - Punkt orientacyjny `contentinfo`  nie może być zawarty w innym punkcie orientacyjnym
 - Punkt orientacyjny `main`  nie może być zawarty w innym punkcie orientacyjnym
 - Na stronie znajduje się tylko jeden punkt orientacyjny `banner`
@@ -53,7 +54,6 @@ Specyfikacja WAI-ARIA umożliwia określanie kluczowych obszarów strony za pomo
 - Obszary `complementary` i `aside` są na najwyższym poziomie hierachii obszarów funkcjonalnych
 
 
-
 ## Założenia, zastrzeżenia lub wyjątki
 _do opracowania_
 
@@ -62,19 +62,19 @@ _do opracowania_
 ### Metoda badania:
 Wykorzystanie narzędzia ujawniającego punkty orientacyjne, inspekcja kodu.
 ### Pomocne narzędzia:
--	[skryptozakładka Active Images](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera. Oznacza punkty orientacyjne. Sprawdza i wyświetla etykiety zdefiniowane przez aria-labelledby, a nawet poprawność ortograficzną nazwy tego atrybutu (częsty błąd = jedno 'l' zamiast dwóch).
+
 -	[skryptozakładka Ladmarks](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama. Oznacza punkty orientacyjne. Jeśli zdefiniowane są znacznikiem html – umieszcza etykietę ze znacznikiem na żółtym tle. Jeśli zdefiniowane są atrybutem role, umieszcza etykietę z wartością atrybutu
 -	[skryptozakładka Duplicate-landmark-roles](https://github.com/ThePacielloGroup/bookmarklets) z kolekcji Pacciello Group. Oznacza obszary, którym zdefiniowano nadmiarowy niepotrzebny atrybut role.
 -	[skryptozakładka Ladmarks](https://accessibility-bookmarklets.org/install.html) z kolekcji Pixo i University of Illinois. Oznacza nakładkami punkty orientacyjne. W etykiecie nakładki komunikuje zastosowany element HTML oraz dostępną nazwę punktu orientacyjnego.
 -	[opcja Landmarks w skryptozakładce Tota11y](https://khan.github.io/tota11y/)
 -	[skryptozakładka Web Evaluation Tools](https://accessibility.oit.ncsu.edu/tools/web-evaluation-tools/) udostępniona przez IT Accessibility z NC State University
+-	[skryptozakładka Active Images](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera. Oznacza punkty orientacyjne. Sprawdza i wyświetla etykiety zdefiniowane przez aria-labelledby, a nawet poprawność ortograficzną nazwy tego atrybutu (częsty błąd = jedno 'l' zamiast dwóch).
 
 ### Procedura testowania:
 1.	Uruchom podgląd rozmieszczenia punktów orientacyjnych na stronie za pomocą jednego z narzędzi ujawniających punkty orientacyjne (zobacz niżej: *Pomocne narzędzia*).
 2.	Sprawdź, czy typy punktów orientacyjnych określone użytymi znacznikami bądź atrybutami role zostały odpowiednio zastosowane do kluczowych obszarów strony (tzn. czy znacznik header bądź rola banner została zastosowana do nagłówka strony, znacznik bądź rola main została zastosowana do obszaru zawierającego główną treść strony, itd.
-3.	Jeżeli na stronie występuje więcej niż jeden obszar tego samego typu, sprawdź, czy każdy z nich został oznaczony odróżniającą go etykietą lub nagłówkiem. (*Uwaga*: jeżeli jakiś obszar nawigacyjny na stronie jest powtórzony, np. w nagłówku i stopce, wówczas może być oznaczony taką samą etykietą).     
+3.	Jeżeli na stronie występuje więcej niż jeden obszar tego samego typu, sprawdź, czy każdy z nich został oznaczony odróżniającą go etykietą lub nagłówkiem. (*Uwaga*: Jeżeli jakiś obszar nawigacyjny na stronie jest powtórzony, np. w&nbsp;nagłówku i stopce, wówczas może być oznaczony taką samą etykietą).     
 4.	Sprawdź czy w obszarze głównego punktu orientacyjnego (`main`), znajdują się tylko niepowtarzalne treści (obszar `main` nie może zawierać żadnych bloków treści, które powtarzają się na stronach).
-
 
 ## Zasoby
 ### Techniki WCAG 2.1

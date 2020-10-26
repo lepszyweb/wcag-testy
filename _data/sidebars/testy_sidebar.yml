@@ -94,7 +94,7 @@ entries:
           url: /H1-02-punkty-orientacyjne
           output: web, pdf
 
-        - title: Łącza pomijajace
+        - title: Łącza pomijające
           url: /H1-03-linki-pomijajace
           output: web, pdf
 
@@ -388,7 +388,7 @@ entries:
         - title: 16. Audio i wideo
           url: /tz-16-audio-video
           output: web, pdf
-        - title: 17. Miltimedia zsynchronizowane
+        - title: 17. Multimedia zsynchronizowane
           url: /tz-17-multimedia-zsynchronizowane
           output: web, pdf             
         - title: 18. Zmiana rozmiaru

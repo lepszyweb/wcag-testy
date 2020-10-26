@@ -6,7 +6,7 @@ permalink: H1-03-linki-pomijajace
 folder: testy/jbt
 ---
 
-## Nawigacja - Linki pomijające
+## Nawigacja - Łącza pomijające
 
 ### Metoda badania:
 Kontrola wzrokowa i test ręczny
