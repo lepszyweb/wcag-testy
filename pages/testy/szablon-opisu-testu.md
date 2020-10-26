@@ -9,44 +9,68 @@ folder: testy
 
 
 ## Tytuł
-*Sformułuj w kilku słowach problem, którego dotyczy reguła testowa, lub jej cel, przeznaczenie.*
+Streść w kilku słowach, co test bada.
 
-## Identyfikator reguły
-*Zaproponuj unikalny identyfikator reguły, najlepiej złożony ze słów tytułujących regułę.*
+## Identyfikator testu
+Zaproponuj unikalny identyfikator testu, najlepiej złożony ze słów tytułujących test.
 
-*Jeśli proponujesz nową wersję istniejącej reguły, użyj tego samego identyfikatora, ale dodaj informację o wersji, dołączając do identyfikatora datę, np. alternatywa-wideo-2020-02-17.*
+Jeśli proponujesz nową wersję istniejącego testu, użyj tego samego identyfikatora, ale dodaj informację o wersji, dołączając do identyfikatora datę, np. alternatywa-wideo-2020-02-17.
 
-## Opis reguły
-*Opis w prostym języku, objaśniający działanie reguły - co reguła sprawdza.*
+## Opis testu
+Opisz w prostym języku, objaśniający działanie testu - co test sprawdza.
 
 ## Mapowanie do wymagań dostępności
-*Wskaż wszystkie wymogi dostępności, do których odnosi się reguła. Określ identyfikator wymagania, nazwę dokumentu z wymaganiami, łącze do wymagania, poziom zgodności.*
-
 Jeśli odwołujesz się do kryteriów sukcesu WCAG, wystarczy, że wpiszesz np.
 - KS WCAG 1.1.1
 
+Gdy odwołujesz się do innych standardów:
+- wskaż wszystkie wymogi dostępności, do których odnosi się test
+- określ identyfikator wymagania,
+- podaj nazwę dokumentu z wymaganiami,
+- podaj łącze do wymagania,
+- określ poziom zgodności.
+
 ## Zastosowanie
-*Wskaż obszary witryny, treści, komponenty, które mogą być badane za pomocą reguły.*
+Wskaż obszary witryny, treści, komponenty, które mogą być badane za pomocą testu.
 
 ## Oczekiwania
-*Wypunktuj twierdzenia, które opisują wyniki zgodne z wymaganiami.*
+Wypunktuj twierdzenia, które opisują wyniki testu zgodne z wymaganiami.
 
-## Założenia
-*Wypunktuj wszelkie znane założenia, ograniczenia lub wyjątki dotyczące oceny, środowiska  testowego, używanych technologii lub testowanego elementu.*
+## Założenia, ograniczenia, wyjątki
+Wypunktuj wszelkie znane założenia, ograniczenia lub wyjątki dotyczące oceny, środowiska  testowego, używanych technologii lub testowanego elementu.
 
 ## Obsługa dostępności
-*Wypunktuj informacje, w tym znane problemy, związane z obsługą dostępności odnoszące się do tej reguły.*
+Wypunktuj informacje, w tym znane problemy, związane z obsługą dostępności odnoszące się do tego testu.
 
-## Procedura testowania
-*Opisz szczegółowe, co i w jaki sposób należy przetestować.*
+## Testowanie
+Opisz szczegółowo, co i w jaki sposób należy przetestować.
 
-## Tło, zasoby
+### Metoda badania
+Określ zwieźle, jakimi metodami można przeprowadzić test, np. inspekcja kodu źródłowego, kontrola wzrokowa, użycie narzędzia ujawniającego badaną właściwość, testowanie obsługi za pomocą technologii wspomagającej, programu użytkownika (odtwarzacza), manipulowanie widokiem, test automatyczny, porównanie, itp.
 
+### Pomocne narzędzia
+Zaproponuj skuteczne narzędzia testowe, opisz krótko ich walory
+
+### Procedura testowania
+Przedstaw przebieg testów, najlepiej wypunktuj kolejne kroki i opatrz je, jeśli trzeba, uwagami
+
+### Wykorzystanie narzędzi
+Przedstaw przebieg testu za pomocą proponowanych narzędzi
+
+-  ANDI - jeśli możliwe jest przeprowadzenie testu za pomocą ANDI,
+-  innego narzędzia, jeśli oferuje skuteczniejszą metodę, łatwe dokumentowanie problemów, itp.  
+
+## Zasoby
+
+### Techniki WCAG
 - Łacza do [technik WCAG 2.x](https://www.w3.org/WAI/WCAG21/Techniques/#techniques)
+
+### Opracowania
 - Łącza do innych metodyk, specyfikacji testów lub narzędzi
+
+### Przykłady
 - Łącza do opisu przypadków testowych, zestawów testowych, testów jednostkowych itp.
 - Odniesienia do przykładów testowych w [Zrozumieć kryteria sukcesu WCAG](https://www.w3.org/WAI/WCAG21/Understanding/) oraz w demo [Przed i Po](https://przedipo.lepszyweb.pl/)
-- Inne zasoby
 
 ## Przypadki testowe
 
@@ -64,7 +88,7 @@ Opis...
 
 ...
 
-### Niezaliczone / Defekty / Awarie /
+### Niezaliczone
 
 #### Przykład 1
 
