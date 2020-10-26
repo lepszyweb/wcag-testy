@@ -2,7 +2,7 @@
 title: Określenie języka
 
 sidebar: testy_sidebar
-permalink: H4-01-identyfikacja_jezyka
+permalink: H4-01-identyfikacja-jezyka
 folder: testy/jbt
 ---
 
