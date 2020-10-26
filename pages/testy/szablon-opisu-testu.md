@@ -1,6 +1,6 @@
 ---
 title: Szablon opisu testu
-Summary: "Chcesz zaproponowac test? Użyj poniższego szablonu."
+Summary: "Chcesz zaproponować test? Użyj poniższego szablonu."
 toc: false
 sidebar: testy_sidebar
 permalink: szablon-opisu-testu

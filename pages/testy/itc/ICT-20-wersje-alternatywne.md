@@ -9,11 +9,7 @@ folder: testy/itc
 
 Według zdefiniownych w WCAG [wymogów zgodności](wcag21#5-zgodność") strona internetowa lub jej część może być uznana za zgodną z WCAG na określonym poziomie, jeśli spełnia wszystkie kryteria sukcesu na tym poziomie ALBO dostępna jest <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.wersja_alternatywna_zapewniajaca_zgodnosc | strip_html | replace: '*', ''}}">wersja alternatywna zapewniająca zgodność</a> na tym poziomie **ORAZ** zostaną spełnione pozostałe cztery wymogi zgodności.    
 
-
-
-
 ## Wymagania dostępności
----------------------
 -   [WCAG: Wersja alternatywna zapewniająca zgodność](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-conforming-alt-versions-head): Wersja alternatywna zapewniająca zgodność - Poziom AA: w przypadku zgodności z poziomem AA, treść spełnia wszystkie kryteria sukcesu na poziomie A i poziomie AA lub zapewniona jest wersja alternatywna zgodna z poziomem AA („zgodna wersja alternatywna”). Wymóg zgodności \#1 pozwala na włączenie w zakres zgodności stron niezgodnych, jeżeli istnieje „wersja alternatywna zapewniająca zgodność”, czyli wersja tej samej treści, która:
     1.  spełnia wszystkie kryteria sukcesu na wyznaczonym poziomie **ORAZ**
 	2.  zawiera równoważne informacje i funkcjonalności w tym samym języku, **ORAZ**
@@ -24,9 +20,7 @@ Według zdefiniownych w WCAG [wymogów zgodności](wcag21#5-zgodność") strona 
         3.  wersja niezgodna może być osiągalna tylko z wersji zgodnej, o ile wersja niezgodna zawiera również mechanizm osiągnięcia wersji zgodnej.
 
 ## Uzasadnienie metody badania
-------------------------------
 Wersja alternatywna musi spełniać wszystkie części definicji, aby uznać ją za „wersję zapewniająca zgodność” („zgodnę wersję alternatywną”).
-
 
 ## Ograniczenia, założenia lub wyjątki
 
