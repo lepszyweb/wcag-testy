@@ -30,7 +30,7 @@ Zestawy testów zgrupowane zostały w dwóch sekcjach:
 Celem sekcji **Bazy źródłowe** jest zgromadzenie różnych zestawów testów, dzięki którym można tworzyć własne opisy testów oraz wzbogacać i korygować opisy w bazie testów podstawowych. W zbiorze baz źródłowych może znaleźć się każdy zwarty testów i&nbsp;procedur testowych przetłumaczonych na język polski, o ile nie są opublikowane w&nbsp;zwartej formie w innym miejscu.   
 
 ## Jak możesz pomóc?
-- **Zostań współtwórcą**. Zaproponuj i opracuj test lub zestaw testów. Prześlij swoje propozycje. Skorzystaj z [szablonu opisu testu](szablon_opisu_testu)
+- **Zostań współtwórcą**. Zaproponuj i opracuj test lub zestaw testów. Prześlij swoje propozycje. Skorzystaj z [szablonu opisu testu](szablon-opisu-testu)
 - **Zgłoś swoje sugestie, pomysły, propozycje poprawek**. Skorzystaj z systemu [śledzenia problemów](https://github.com/lepszyweb/wcag-testy/issues)
 
 Zobacz artykuł [Zaangażuj się](zaangazuj-sie), aby dowiedzieć się więcej.
