@@ -71,7 +71,7 @@ Wykorzystanie narzędzia ujawniającego punkty orientacyjne, inspekcja kodu.
 -	[skryptozakładka Active Images](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera. Oznacza punkty orientacyjne. Sprawdza i wyświetla etykiety zdefiniowane przez aria-labelledby, a nawet poprawność ortograficzną nazwy tego atrybutu (częsty błąd = jedno 'l' zamiast dwóch).
 
 ### Procedura testowania:
-1.	Uruchom podgląd rozmieszczenia punktów orientacyjnych na stronie za pomocą jednego z narzędzi ujawniających punkty orientacyjne (zobacz niżej: *Pomocne narzędzia*).
+1.	Uruchom podgląd rozmieszczenia punktów orientacyjnych na stronie za pomocą jednego z narzędzi ujawniających punkty orientacyjne (zobacz powyżej: *Pomocne narzędzia*).
 2.	Sprawdź, czy typy punktów orientacyjnych określone użytymi znacznikami bądź atrybutami role zostały odpowiednio zastosowane do kluczowych obszarów strony (tzn. czy znacznik header bądź rola banner została zastosowana do nagłówka strony, znacznik bądź rola main została zastosowana do obszaru zawierającego główną treść strony, itd.
 3.	Jeżeli na stronie występuje więcej niż jeden obszar tego samego typu, sprawdź, czy każdy z nich został oznaczony odróżniającą go etykietą lub nagłówkiem. (*Uwaga*: Jeżeli jakiś obszar nawigacyjny na stronie jest powtórzony, np. w&nbsp;nagłówku i stopce, wówczas może być oznaczony taką samą etykietą).     
 4.	Sprawdź czy w obszarze głównego punktu orientacyjnego (`main`), znajdują się tylko niepowtarzalne treści (obszar `main` nie może zawierać żadnych bloków treści, które powtarzają się na stronach).

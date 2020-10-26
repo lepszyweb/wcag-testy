@@ -37,13 +37,13 @@ Kryterium sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-
 
 ### Test z wykorzystaniem ANDI
 
-{% include image.html file="andi/andi-wyszukiwarka2.png" alt="Wykorzystanie skryptozkładki ANDI" %}
+{% include image.html file="andi/andi-wyszukiwarka2.png" alt="Testowanie opcji wyszukiwania strony za pomocą skryptozkładki ANDI" %}
 
 1.	Uruchom skryptozakładkę ANDI.
-2.	Wybierz z menu ANDI opcję *focusable elements*, a następnie z menu poziomego *label tags*.
+2.	Wybierz z menu ANDI opcję *interaktywne*, a następnie z menu poziomego *znaczniki label*.
 3.	Posługując się przełącznikiem między wykrytymi elementami struktury strony, znajdź komponent wyszukiwarki.
 4.	Sprawdź, czy w informacjach o komponencie znajduje się tekst zdefiniowanej etykiety (tekst po słowie label poniżej wylistowanych składników.
-5.	Sprawdź, czy w sekcji *ANDI Output* znajduje się ikona symbolizująca dźwięk i napis z tekstem etykiety Szukaj lub równoważnym (jest to tekst ogłaszany przez czytnik ekranu).
+5.	Sprawdź, czy w sekcji *Wyjście ANDI* znajduje się ikona symbolizująca dźwięk i napis z tekstem etykiety Szukaj lub równoważnym (jest to tekst ogłaszany przez czytnik ekranu).
 6.	Jeśli obok pola wyszukiwania umieszczony jest przycisk „Znajdź”, „Idź” lub podobny, wybierz go za pomocą przełącznika między wykrytymi elementami struktury i sprawdź, czy posiada dostępną nazwę ogłaszaną przez czytnik ekranu.       
 
 ### Zasoby

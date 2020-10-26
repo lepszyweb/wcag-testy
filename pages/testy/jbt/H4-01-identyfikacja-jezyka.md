@@ -40,7 +40,8 @@ Kryterium sukcesu: [3.1.1 Język strony](https://wcag.lepszyweb.pl/#language-of-
 - opcja *structure* w skryptozakładce ANDI  https://www.ssa.gov/accessibility/andi/help/install.html
 
 #### Wykorzystanie skryptozkładki ANDI
-![Wykorzystanie skryptozkładki ANDI](/img/andi_lang.png)
+![Testowanie języka strony za pomocą skryptozkładki ANDI](/images/andi/andi_lang.png)
+
 1.	Uruchom skryptozakładkę ANDI i wybierz z menu opcję *structure*.
 2.	Wybierz z menu poziomego opcję  *more details*  (więcej szczegółów).
 3.	Wybierz z rozwijanej listy opcję *page language* (język strony)

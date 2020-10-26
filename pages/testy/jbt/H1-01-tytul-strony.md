@@ -23,7 +23,7 @@ Badanie znacznika `<title>`.
 ## Oczekiwania
 -	Strona ma tytuł zdefiniowany w kodzie znacznikiem `<title>`.
 -	Strona posiada tylko jeden tytuł.
--   Tytuł strony jest unikalny w zestawie stron 
+-   Tytuł strony jest unikalny w zestawie stron
 -	Tytuł strony opisuje jej treść lub przeznaczenie.
 -	Tytuł strony zawiera temat strony i nazwę witryny.
 -	Tytuł strony zawiera tylko niezbędną interpunkcję.
@@ -53,7 +53,9 @@ Inspekcja kodu. Użycie narzędzia ujawniającego tytuł strony.
 
 ### Wykorzystanie ANDI
 
-{% include image.html file="andi/andi_page-title.png" alt="Wykorzystanie skryptozkładki ANDI" %}
+{% include image.html file="andi/andi_page-title.png" alt="Testowanie tytułu strony za pomocą skryptozkładki ANDI" %}
+
+
 1.	Uruchom skryptozakładkę ANDI i wybierz z menu opcję *struktura*.
 2.	Wybierz z menu poziomego opcję *więcej szczegółów*.
 3.	Wybierz z rozwijanej listy opcję *tytuł strony*.
