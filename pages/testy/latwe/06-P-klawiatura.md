@@ -10,24 +10,28 @@ folder: testy/latwe
 
 ## Dostęp do klawiatury i widoczny fokus
 
-Wiele osób nie może korzystać z myszy i w&nbsp;interakcjach z&nbsp;internetem musi polegać na klawiaturze. Osoby niewidome i&nbsp;słabowidzące, a&nbsp;także osoby z&nbsp;ograniczonymi możliwościami ruchu i&nbsp;manipulacji oraz osoby, które nie mogą korzystać z&nbsp;innych urządzeń wskazujących takich, jak mysz czy dotyk, polegają na klawiaturze lub technologiach wspomagających i&nbsp;strategiach adaptacyjnych, które opierają się na poleceniach klawiaturowych wprowadzanych za pomocą skrótów klawiaturowych lub poleceń głosowych.
+Wiele osób nie może korzystać z myszy i w&nbsp;interakcjach z&nbsp;internetem musi polegać na klawiaturze.
 
-Dla takich osób strony są dostępne tylko wówczas, gdy umożliwiają przeglądanie wszystkich treści i obsługę wszystkich funkcji - łączy, formularzy, odtwarzaczy mediów itp. – za pomocą klawiatury. Takie osoby mogą, ale nie muszą korzystać z&nbsp;technologii wspomagających, takich jak czytniki ekranu.
+Osoby niewidome i&nbsp;słabowidzące, a&nbsp;także osoby z&nbsp;ograniczonymi możliwościami ruchu i&nbsp;manipulacji oraz osoby, które nie mogą korzystać z&nbsp;innych urządzeń wskazujących takich, jak mysz czy dotyk, polegają na klawiaturze lub technologiach wspomagających i&nbsp;strategiach adaptacyjnych, które opierają się na poleceniach klawiaturowych wprowadzanych za pomocą skrótów klawiaturowych lub poleceń głosowych.
 
-Dla osób słabowidzących niezbędna jest również widoczność wskaźnika fokusu, czyli oznaczenia miejsca, które aktualnie oczekuje na sygnały wprowadzane przez użytkownika za pomocą klawiatury (naciśnięcia klawiszy). Fokus pokazuje, na którym elemencie w danej chwili w programie użytkownika skupiona jest uwaga odbiornika sygnałów z klawiatury, czyli który z&nbsp;interaktywnych elementów strony jest aktualnie wybrany i&nbsp;gotowy, by wykonać działanie żądane przez użytkownika.
+Dla takich osób strony są dostępne tylko wówczas, gdy umożliwiają przeglądanie wszystkich treści i obsługę wszystkich funkcji – łączy, formularzy, odtwarzaczy mediów itp. – za pomocą klawiatury. Takie osoby mogą, ale nie muszą korzystać z&nbsp;technologii wspomagających, takich jak czytniki ekranu.
 
-Widoczny wskaźnik fokusu zapewnia, że użytkownicy klawiatury mogą się w&nbsp;każdym momencie zorientować, w&nbsp;którym miejscu strony się znajdują. Wyraźne wskaźniki fokusu są szczególnie ważne dla osób słabowidzących oraz dla osób z&nbsp;problemami poznawczymi, z&nbsp;trudnościami koncentracji uwagi, bo pozwalają im na takie same możliwości orientowania się na stronie, jakie mają osoby korzystające z urządzeń wskazujących.
+Dla osób słabowidzących niezbędna jest również widoczność wskaźnika fokusu, czyli oznaczenia miejsca, które aktualnie oczekuje na sygnały wprowadzane przez użytkownika za pomocą klawiatury (naciśnięcia klawiszy). Fokus pokazuje, na którym elemencie w&nbsp;danej chwili w&nbsp;programie użytkownika skupiona jest uwaga odbiornika sygnałów z&nbsp;klawiatury, czyli który z&nbsp;interaktywnych elementów strony jest aktualnie wybrany i&nbsp;gotowy, by wykonać działanie żądane przez użytkownika.
+
+Widoczny wskaźnik fokusu zapewnia, że użytkownicy klawiatury mogą się w&nbsp;każdym momencie zorientować, w&nbsp;którym miejscu strony się znajdują. Wyraźne wskaźniki fokusu są szczególnie ważne dla osób słabowidzących oraz dla osób z&nbsp;problemami poznawczymi, z&nbsp;trudnościami koncentracji uwagi, bo pozwalają im na takie same możliwości orientowania się na stronie, jakie mają osoby korzystające z&nbsp;urządzeń wskazujących.
 
 Podczas nawigacji klawiaturą po stronie, nazywanej nawigacją sekwencyjną, fokus powinien się przemieszczać sensownie zgodnie z&nbsp;logiczną kolejnością elementów strony.
 
-Aby zapewnić widoczność fokusu, twórcy stron mogą posłużyć się różnymi wskaźnikami, np. obramowaniem lub podkreśleniem elementu, który uzyskał fokus, odwróceniem (inwersją) kolorów elementu – wyświetleniem jasnego tekstu na ciemnym tle lub odwrotnie. W&nbsp;polach formularzy domyślnym wskaźnikiem fokusu jest migający kursor. Autorzy stron są zachęcani, by wzmocnić widoczność fokusu, który jest użyteczny dla wszystkich, a niezbędny dla osób z niepełnosprawnościami wzroku i&nbsp;ruchu.  
+Aby zapewnić widoczność fokusu, twórcy stron mogą posłużyć się różnymi wskaźnikami, np. obramowaniem lub podkreśleniem elementu, który uzyskał fokus, odwróceniem (inwersją) kolorów elementu – wyświetleniem jasnego tekstu na ciemnym tle lub odwrotnie. W&nbsp;polach formularzy domyślnym wskaźnikiem fokusu jest migający kursor. Autorzy stron są zachęcani, by wzmocnić widoczność fokusu, który jest użyteczny dla wszystkich, a&nbsp;niezbędny dla osób z&nbsp;niepełnosprawnościami wzroku i&nbsp;ruchu.  
 
 
 ![Kontur wokół środkowego łacza](images/andi/06_P_fokus-linki.png)
+
 Rysunek 1. Zwróć uwagę na kontur wokół środkowego łącza
 
 ![Przycisk bez fokusu po lewej stronie i z fokusem po prawej stronie. Zastosowano inwersję kolorów](images/andi/06_P_fokus-przycisk.png)
-Rysunek 2. Porównaj ten sam przycisk bez fokusu (po prawej - fioletowy napis na białym obramowanym tle) i z fokusem (po prawej - biały napis na fioletowym tle i otoczka)
+
+Rysunek 2. Porównaj ten sam przycisk bez fokusu (po prawej – fioletowy napis na białym obramowanym tle) i&nbsp;z&nbsp;fokusem (po prawej – biały napis na fioletowym tle i&nbsp;obramowanie).
 
 
 ### Co robić
