@@ -10,18 +10,22 @@ folder: testy/latwe
 
 ## Dostęp do klawiatury i widoczny fokus
 
-Wiele osób nie może korzystać z myszy i w interakcjach z internetem musi polegać na klawiaturze. Osoby niewidome i słabo widzące oraz osoby słabowidzące z ograniczeniami ruchu polegają na klawiaturze lub technologiach i strategiach wspomagających, które opierają się na poleceniach klawiaturowych wprowadzanych za pomocą skrótów klawiszowych lub poleceń głosowych. Dla takich osób strony są dostępne tylko wówczas, gdy umożliwiają przeglądanie wszystkich treści i obsługę wszystkich funkcji - łączy, formularzy, odtwarzaczy mediów itp. – za pomocą klawiatury.
+Wiele osób nie może korzystać z myszy i w&nbsp;interakcjach z&nbsp;internetem musi polegać na klawiaturze. Osoby niewidome i&nbsp;słabowidzące, a&nbsp;także osoby z&nbsp;ograniczonymi możliwościami ruchu i&nbsp;manipulacji oraz osoby, które nie mogą korzystać z&nbsp;innych urządzeń wskazujących takich, jak mysz czy dotyk, polegają na klawiaturze lub technologiach wspomagających i&nbsp;strategiach adaptacyjnych, które opierają się na poleceniach klawiaturowych wprowadzanych za pomocą skrótów klawiaturowych lub poleceń głosowych.
 
-Dla osób słabowidzących niezbędna jest również widoczność wskaźnika klawiatury, który nazywamy fokusem. Fokus pokazuje, na którym elemencie w danej chwili skupiona jest uwaga odbiornika sygnałów z klawiatury w programie użytkownika, czyli który z&nbsp;interaktywnych elementów strony jest aktualnie wybrany, który jest gotowy, by wykonać działanie żądane przez użytkownika.
+Dla takich osób strony są dostępne tylko wówczas, gdy umożliwiają przeglądanie wszystkich treści i obsługę wszystkich funkcji - łączy, formularzy, odtwarzaczy mediów itp. – za pomocą klawiatury. Takie osoby mogą, ale nie muszą korzystać z&nbsp;technologii wspomagających, takich jak czytniki ekranu.
+
+Dla osób słabowidzących niezbędna jest również widoczność wskaźnika fokusu, czyli oznaczenia miejsca, które aktualnie oczekuje na sygnały wprowadzane przez użytkownika za pomocą klawiatury (naciśnięcia klawiszy). Fokus pokazuje, na którym elemencie w danej chwili w programie użytkownika skupiona jest uwaga odbiornika sygnałów z klawiatury, czyli który z&nbsp;interaktywnych elementów strony jest aktualnie wybrany i&nbsp;gotowy, by wykonać działanie żądane przez użytkownika.
+
 Podczas nawigacji klawiaturą po stronie, nazywanej nawigacją sekwencyjną, fokus powinien się przemieszczać sensownie zgodnie z&nbsp;logiczną kolejnością elementów strony.
 
-Aby zapewnić widoczność fokusu, twórcy stron mogą posłużyć się różnymi wskaźnikami, np. obramowaniem lub podkreśleniem elementu, który uzyskał fokus, odwróceniem (inwersją) kolorów elementu – wyświetleniem jasnego tekstu na ciemnym tle lub odwrotnie. W&nbsp;polach formularzy domyślnym wskaźnikiem fokusu jest migający kursor. Autorzy stron są zachęcani, by wzmocnić widoczność fokusu, który jest użyteczny dla wszystkich, a niezbędny dla osób z niepełnosprawnościami wzroku i ruchu.  
+Aby zapewnić widoczność fokusu, twórcy stron mogą posłużyć się różnymi wskaźnikami, np. obramowaniem lub podkreśleniem elementu, który uzyskał fokus, odwróceniem (inwersją) kolorów elementu – wyświetleniem jasnego tekstu na ciemnym tle lub odwrotnie. W&nbsp;polach formularzy domyślnym wskaźnikiem fokusu jest migający kursor. Autorzy stron są zachęcani, by wzmocnić widoczność fokusu, który jest użyteczny dla wszystkich, a niezbędny dla osób z niepełnosprawnościami wzroku i&nbsp;ruchu.  
+
 
 ![Kontur wokół środkowego łacza](images/andi/06_P_fokus-linki.png)
-Rysunek: Zwróć uwagę na kontur wokół środkowego łącza
+Rysunek 1. Zwróć uwagę na kontur wokół środkowego łącza
 
 ![Przycisk bez fokusu po lewej stronie i z fokusem po prawej stronie. Zastosowano inwersję kolorów](images/andi/06_P_fokus-przycisk.png)
-Rysunek: Porównaj ten sam przycisk bez fokusu (po prawej - fioletowy napis na białym obramowanym tle) i z fokusem (po prawej - biały napis na fioletowym tle i otoczka)
+Rysunek 2. Porównaj ten sam przycisk bez fokusu (po prawej - fioletowy napis na białym obramowanym tle) i z fokusem (po prawej - biały napis na fioletowym tle i otoczka)
 
 
 ### Co robić
