@@ -46,4 +46,9 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 
 - {% include techniki/G149.md %}
 - {% include techniki/G165.md %}
+- {% include techniki/C15.md %}
 - {% include techniki/G195.md %}
+- {% include techniki/C45.md %}
+- {% include techniki/SCR31.md %}
+- {% include techniki/F65.md %}
+- {% include techniki/F78.md %}
