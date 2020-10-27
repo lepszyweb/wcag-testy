@@ -14,10 +14,10 @@ folder: testy/itc
 Ręczna nawigacja lub sterowanie interfejsem tylko za pomocą klawiatury umożliwi testerowi rozpoznanie, kiedy nie ma wizualnego rozróżnienia między elementem posiadajacym fokus a resztą interfejsu lub zawartości.
 
 ## Ograniczenia, założenia lub wyjątki
--   Niektóre elementy interfejsu (np. tekst na ekranie do instrukcji wypełniania formularzy), które nie są zwykle uważane za interaktywne, mogą być w kolejności tabulacji. Takie komponenty interfejsu powinny otrzymywać widoczny fokus, gdy użytkownik nawiguje do nich za pomocą klawiatury.
+-   W porządku tabulacji mogą być niektóre elementy interfejsu, które nie są zwykle uważane za interaktywne (np. tekst instrukcji wypełniania formularzy). Takie komponenty interfejsu powinny otrzymywać widoczny fokus, gdy użytkownik nawiguje do nich za pomocą klawiatury.
 -   Częścią tego testu jest widoczność fokusu na łączach pomijających.
--   Przełączanie fokusu na odkrywane treści nie jest tutaj testowane. Zobacz [5. Treść zmienna](testy/ICT_05_tresc-zmienna.md)
--   Utrata widocznego fokusu nie powinna wystąpić podczas ręcznego przesuwania fokusu przez stronę (za pomocą TAB lub klawiszy strzałek). Jednak po uruchomieniu funkcji, która przemieszcza fokus (np. odsłonięcie wewnętrznego łącza strony lub ukrytej zawartości), może być konieczne ręczne przesunięcie fokusu za pomocą klawiatury, zanim fokus stanie się ponownie widoczny. To nie jest uważane za defekt.
+-   Przełączanie fokusu na odkrywane treści nie jest tutaj testowane. Zobacz [5. Treść zmienna](testy/ICT_05_tresc-zmienna)
+-   Podczas ręcznego przesuwania fokusu przez stronę (za pomocą <kbd>Tab</kbd> lub klawiszy strzałek) nie powinno wystąpić zniknięcie fokusu. Jednak po uruchomieniu funkcji, która przemieszcza fokus (np. odsłonięcie wewnętrznego łącza strony lub ukrytej zawartości), może być konieczne ręczne przesunięcie fokusu za pomocą klawiatury, zanim fokus stanie się ponownie widoczny. To nie jest uważane za defekt.
 
 ## Procedura testu dla KS 2.4.7 Widoczny fokus
 
