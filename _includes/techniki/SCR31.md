@@ -1,0 +1,1 @@
+[SCR31: Używanie skryptu do zmiany koloru tła lub obramowania elementu z fokusem](https://www.w3.org/TR/WCAG20-TECHS/SCR31.html)
