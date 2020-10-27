@@ -9,13 +9,13 @@ folder: testy/tz
 ## Cel procedury testowej
 
 
-Celem tej procedury jest ustalenie, czy użytkownicy mogą skorzystać ze wszystkich informacji na stronie internetowej i ze wszystkich funkcji, jeśli posługują się tylko klawiaturą. Krócej, celem tej procedury jest ustalenie, czy użytkownicy mają dostęp do treści strony, jeśli posługują się tylko klawiaturą. 
+Celem tej procedury jest ustalenie, czy użytkownicy mogą skorzystać ze wszystkich informacji na stronie internetowej i ze wszystkich funkcji, jeśli posługują się tylko klawiaturą. Krócej, celem tej procedury jest ustalenie, czy użytkownicy mają dostęp do wszystkich treści strony, jeśli posługują się tylko klawiaturą.
 
 Ponadto, celem jest ustalenie, czy kolejność, w jakiej użytkownik dociera do elementów strony internetowej podczas nawigacji za pomocą klawiatury, jest logiczna. Logiczny porządek poruszania się podczas nawigacji po stronie zapewnia, że użytkownicy mają pełny dostęp do funkcjonalności strony w sposób, który nie jest mylący.
 
-Dostęp do treści strony internetowej tylko za pomocą klawiatury jest niezbędny dla osób niewidomych, a także dla osób z ograniczonymi możliwościami ruchu i manipulacji oraz osób, które nie mogą korzystać z innych urządzeń wskazujących takich, jak mysz czy dotyk. Osoby te mogą, ale nie muszą korzystać z technologii pomocniczych, takich jak czytniki ekranu. 
+Dostęp do treści strony internetowej tylko za pomocą klawiatury jest niezbędny dla osób niewidomych, a także dla osób z ograniczonymi możliwościami ruchu i&nbsp;manipulacji oraz osób, które nie mogą korzystać z&nbsp;innych urządzeń wskazujących takich, jak mysz czy dotyk. Osoby te mogą, ale nie muszą korzystać z&nbsp;technologii wspomagających, takich jak czytniki ekranu.
 
-Celem jest również sprawdzenie, czy na stronie stosowane są widoczne wskaźniki fokusu, czyli oznaczenia miejsca, które aktualnie oczekuje na sygnały wprowadzane przez użytkownika za pomocą klawiatury (naciśnięcia klawiszy). Widoczny wskaźnik fokusu zapewnia, że użytkownicy klawiatury,  mogą się w każdym momencie zorientować, w którym  miejscu strony się znajdują. Wyraźne wskaźniki fokusu są szczególnie ważne dla osób słabowidzących oraz dla osób z problemami poznawczymi, z trudnościami koncentracji uwagi, bo pozwalają im na takie same możliwości orientowania się na stronie, jakie mają osoby korzystające z urządzeń wskazujących.    
+Celem jest również sprawdzenie, czy na stronie stosowane są widoczne wskaźniki fokusu, czyli oznaczenia miejsca, które aktualnie oczekuje na sygnały wprowadzane przez użytkownika za pomocą klawiatury (naciśnięcia klawiszy). Widoczny wskaźnik fokusu zapewnia, że użytkownicy klawiatury mogą się w każdym momencie zorientować, w którym  miejscu strony się znajdują. Wyraźne wskaźniki fokusu są szczególnie ważne dla osób słabowidzących oraz dla osób z&nbsp;problemami poznawczymi, z&nbsp;trudnościami koncentracji uwagi, bo pozwalają im na takie same możliwości orientowania się na stronie, jakie mają osoby korzystające z urządzeń wskazujących.    
 
 
 Testy zostały zgrupowane w jeden zestaw, ponieważ wszystkie wymagają ręcznej kontroli w celu ustalenia, czy treść spełnia wymagania dostępu za pomocą klawiatury.
@@ -27,7 +27,7 @@ Procedura testowa „Dostęp z klawiatury i fokus” obejmuje osiem testów:
 
 - Test 4.A - 2.1.1-dostęp z klawiatury
 - Test 4.B - 2.1.1-bez-czasu-nacisniecia-klawiszy
-- Test 4.C - 2.1.2-bez-pułapki-na-klawiaturę 
+- Test 4.C - 2.1.2-bez-pułapki-na-klawiaturę
 - Test 4.D - 2.4.7-widoczny-fokus
 - Test 4.E - 3.2.1-po-oznaczeniu-fokusem
 - Test 4.F - 2.4.3-kolejnosc-fokusu
@@ -37,26 +37,26 @@ Procedura testowa „Dostęp z klawiatury i fokus” obejmuje osiem testów:
 
 ## Dostęp z klawiatury
 
-### Test 4.A 2.1.1-dostep-z-klawiatury 
+### Test 4.A 2.1.1-dostep-z-klawiatury
 
 | Nazwa testu             | ID testu | Warunek testowy |
 |----------------|------|-------------------------------------------------------------------|
 | 2.1.1-dostep-z-klawiatury | 4.A     | Wszystkie funkcje i wszystkie informacje, które są niezbędne lub wymagane do wykonania danej czynności, mogą być dostępne i wykonywane wyłącznie za pomocą klawiatury. |
 
 ### Cel testu
-Celem tego testu jest ustalenie, czy wszystkie działania na stronie internetowej i wszystkie informacje niezbędne lub wymagane do ukończenia działania są dostępne i mogą być wykonywane przez osoby, które mogą się posługiwać tylko klawiaturą, wyłącznie za pomocą klawiatury bez potrzeby użycia innych interfejsów. 
+Celem tego testu jest ustalenie, czy wszystkie działania na stronie internetowej i&nbsp;wszystkie informacje niezbędne lub wymagane do ukończenia działania są dostępne i&nbsp;mogą być wykonywane przez osoby, które mogą się posłużyć tylko klawiaturą, wyłącznie za pomocą klawiatury bez potrzeby użycia innych interfejsów.
 
 
 Niektóre osoby (w tym osoby niewidome, z ograniczeniami wzroku, z ograniczeniami sprawności ruchowej) mogą nie być w stanie korzystać z myszy lub innego urządzenia wskazującego. Zamiast tego do nawigacji po stronach, wybierania i uruchamiania elementów funkcjonalnych, uzyskiwania informacji umożliwiających zrozumienie treści strony i wykonywania niezbędnych czynności używają klawiatury lub innego urządzenia. Każda funkcjonalność, którą można „wybrać” lub jest dostępna dla osoby używającej myszy, musi być również dostępna dla użytkowników klawiatury. Obejmuje to elementy menu rozwijanego, łącza, przyciski, podpowiedzi, podstawowe informacje w atrybucie `title` i ikony, aby wymienić tylko kilka.
 
 **Uwaga**:
 - Informacje w atrybucie `title` są uważane za niezbędne lub wymagane, gdy są niezbędne do wykonania działania lub zrozumienia informacji i relacji.
-- Informacje w atrybucie `title` pojawiają się często jako podpowiedzi po najechaniu na element wskaźnikiem myszy. W większości przeglądarek informacje w atrybucie `title` nie są dostępne dla użytkowników korzystających wyłącznie z klawiatury, jeśli nie zastosowano dodatkowego kodowania, które je odsłania.
+- Informacje w atrybucie `title` pojawiają się często jako podpowiedzi po najechaniu na element wskaźnikiem myszy. W większości przeglądarek informacje w&nbsp;atrybucie `title` nie są dostępne dla użytkowników korzystających wyłącznie z&nbsp;klawiatury, jeśli nie zastosowano dodatkowego kodowania, które je odsłania.
 
 Wyniki tego testu pozwalają ustalić, czy spełnione jest [kryterium sukcesu 2.1.1 Klawiatura](https://wcag.lepszyweb.pl/#keyboard).
 
 
-### Metody i narzędzia testowe 
+### Metody i narzędzia testowe
 
 1.	Kontrola ręczna
 
@@ -69,17 +69,17 @@ Wszystkie interaktywne elementy treści.
    - dostępne funkcje zapewniane przez elementy interaktywne (w tym menu rozwijane, pola formularzy, ujawnianie / ukrywanie treści, podpowiedzi ORAZ wszystkie elementy interfejsu interaktywnego),
    - elementy interaktywne, które dostarczają informacji niezbędnych lub wymaganych do ukończenia działania.
 
-2.	ANDI: interaktywne > przycisk „atrybuty title”, aby wykryć elementy z atrybutami `title` i ich treść.
+2.	ANDI: interaktywne > przycisk „atrybuty title”, aby wykryć elementy z&nbsp;atrybutami `title` i&nbsp;ich treść.
    - Jeśli nie ma przycisku „atrybuty title”, to znaczy, że na stronie nie ma atrybutów `title`.
    - Ustal przypadki, w których atrybut `title` zawiera informacje niezbędne do zrozumienia lub obsługi treści strony.
 
 **Uwaga**:
 
--   Kryterium sukcesu WCAG 2.1.1 nie dotyczy funkcji, które wymagają danych wejściowych zależnych od ścieżki ruchu użytkownika, a nie tylko punktów końcowych. W przypadku tego procesu testowego, tester nie ma obowiązku identyfikacji i pominięcia tego typu funkcji. Tester powinien uwzględnić wszystkie funkcje, które odpowiadają opisowi w części Identyfikacja treści. <!-- W przypadku niektórych funkcji można zastosować wyjątek określony w sekcji 508, jednak jest to poza zakresem procesu testowego.-->
+-   Kryterium sukcesu WCAG 2.1.1 nie dotyczy funkcji, które wymagają danych wejściowych zależnych od ścieżki ruchu użytkownika, a nie tylko punktów końcowych. W przypadku tego procesu testowego tester nie ma obowiązku identyfikacji i&nbsp;pominięcia tego typu funkcji. Tester powinien uwzględnić wszystkie funkcje, które odpowiadają opisowi w części Identyfikacja treści. <!-- W przypadku niektórych funkcji można zastosować wyjątek określony w sekcji 508, jednak jest to poza zakresem procesu testowego.-->
 
-Dane wejściowe zależne od ścieżki wymagają wprowadzenia danych za pomocą ruchu użytkownika wykonanego wskaźnikiem po ścieżce. Tego rodzaju dane wejściowe to niewielka klasa akcji „myszy”, których nie można wykonać z klawiatury bez konieczności wykonania dodatkowych ruchów. Obejmuje to między innymi używanie myszy do rysowania odręcznego, malowania lub poruszania się po torze przeszkód.
+Dane wejściowe zależne od ścieżki wymagają wprowadzenia danych za pomocą ruchu użytkownika wykonanego wskaźnikiem po ścieżce. Tego rodzaju dane wejściowe to niewielka klasa akcji „myszy”, których nie można wykonać z&nbsp;klawiatury bez konieczności wykonania dodatkowych ruchów. Obejmuje to między innymi używanie myszy do rysowania odręcznego, malowania lub poruszania się po torze przeszkód.
 
-Czynności takie jak rysowanie linii prostych, regularnych kształtów geometrycznych, zmiana rozmiaru okien i przeciąganie obiektów w wybrane miejsce (gdy ścieżka do tego miejsca nie jest istotna) nie wymagają wprowadzania danych zależnych od ścieżki.
+Czynności takie jak rysowanie linii prostych, regularnych kształtów geometrycznych, zmiana rozmiaru okien i&nbsp;przeciąganie obiektów w wybrane miejsce (gdy ścieżka do tego miejsca nie jest istotna) nie wymagają wprowadzania danych zależnych od ścieżki.
 
 Ponieważ różnica pomiędzy tymi funkcjami może być trudna do określenia, testerzy nie są zobowiązani do określania, czy funkcje zależą od ścieżki ruchu użytkownika. Przetestuj wszystkie funkcje. <!-- a jeśli z powodu funkcji zależnej od ścieżki dojdzie do defektu dostępności klawiatury, koordynator sekcji 508 może uznać wyjątek dotyczący zmiany fundamentalnej.-->
 
@@ -88,11 +88,11 @@ Ponieważ różnica pomiędzy tymi funkcjami może być trudna do określenia, t
 Test 4.A 2.1.1-dostep-z-klawiatury **nie ma zastosowania**, jeśli na stronie nie ma interaktywnych elementów treści, na których można ustawić fokus klawiatury.
 
 **Uwaga**
-Jeśli na stronie nie ma interaktywnych elementów treści, na których można ustawić fokus klawiatury, przeprowadzanie kolejnych testów z tej procedury nie jest możliwe. Odnotuj jako wynik testów **nie ma zastosowania** przy wszystkich testach z tego zestawu, a więc:
+Jeśli na stronie nie ma interaktywnych elementów treści, na których można ustawić fokus klawiatury, przeprowadzanie kolejnych testów z&nbsp;tej procedury nie jest możliwe. Odnotuj jako wynik testów **nie ma zastosowania** przy wszystkich testach z tego zestawu, a więc:
 
 - 4.A - 2.1.1-dostęp z klawiatury
 - 4.B - 2.1.1-bez-czasu-nacisniecia-klawiszy
-- 4.C - 2.1.2-bez-pułapki-na-klawiaturę 
+- 4.C - 2.1.2-bez-pułapki-na-klawiaturę
 - 4.D - 2.4.7-widoczny-fokus
 - 4.E - 3.2.1-po-oznaczeniu-fokusem
 - 4.F - 2.4.3-kolejnosc-fokusu
@@ -101,24 +101,24 @@ Jeśli na stronie nie ma interaktywnych elementów treści, na których można u
 
 ### Jak testować
 
-1.  Użyj myszy, aby zidentyfikować funkcjonalności i niezbędne informacje dostarczane przez elementy interaktywne.
+1.  Użyj myszy, aby zidentyfikować funkcjonalności i&nbsp;niezbędne informacje dostarczane przez elementy interaktywne.
 
     1.  Funkcja ANDI: interaktywne > „atrybuty title” może pomóc zidentyfikować wszelkie istotne informacje zawarte w atrybutach `title`.
-	
+
 	   - Jeśli nie ma przycisku „atrybuty title”, to znaczy, że na stronie nie ma atrybutów `title`.
 	   - Ustal przypadki, w których atrybut `title` zawiera informacje niezbędne do zrozumienia lub obsługi treści strony.
 
-2.  Użyj klawiatury, aby obsługiwać konkretną funkcjonalność i uzyskać dostęp do niezbędnych informacji:   klawiszem Tab uzyskaj dostęp do elementu i uruchom funkcjonalność (np. naciśnij klawisz Enter).
+2.  Użyj klawiatury, aby obsługiwać konkretną funkcjonalność i uzyskać dostęp do niezbędnych informacji: klawiszem <kbd>Tab</kbd> uzyskaj dostęp do elementu i uruchom funkcjonalność (np. naciśnij klawisz <kbd>Enter</kbd>).
 
     1.  W przypadku elementów interaktywnych z atrybutami `title` umieść fokus klawiatury na elemencie. Jeśli w ciągu dwóch sekund nie pojawi się podpowiedź, fokus klawiatury nie ujawnia informacji z atrybutu `title`.
 
     **Uwaga**: Jeśli na stronie wystąpią jakiekolwiek automatyczne zmiany funkcjonalności (takie jak wyświetlenie powiadomienia o przekroczeniu limitu czasu, aby umożliwić Ci zażądanie więcej czasu), należy je tutaj przetestować.
-	
+
 	Jeśli na stronie wystąpią jakiekolwiek zmiany w wyniku z interakcji ze stroną (takie jak ujawnienie dodatkowych pól formularza), należy je tutaj przetestować.
 
-3.  Jeśli element interaktywny nie ma dostępu do klawiatury, sprawdź, czy na stronie dostępna jest inna metoda dostępna za pomocą klawiatury, która zapewnia tę samą funkcjonalność, np. jedna z dwóch podanych metod  drukowania jest dostępna za pomocą klawiatury itp. Aby uzyskać szczegółowe informacje, zobacz [Zgodna wersja alternatywna](tz-01-alternatywne.md)
+3.  Jeśli element interaktywny nie ma dostępu do klawiatury, sprawdź, czy na stronie dostępna jest inna metoda dostępna za pomocą klawiatury, która zapewnia tę samą funkcjonalność, np. jedna z dwóch podanych metod  drukowania jest dostępna za pomocą klawiatury itp. Aby uzyskać szczegółowe informacje, zobacz [Zgodna wersja alternatywna](tz-01-alternatywne)
 
-4.  Jeśli element interaktywny nie zapewnia dostępu do istotnych informacji za pomocą interakcji klawiatury, sprawdź, czy informacje są dostępne w innym miejscu strony (np. jako tekst).
+4.  Jeśli element interaktywny nie zapewnia dostępu do istotnych informacji za pomocą interakcji klawiatury, sprawdź, czy informacje są dostępne w&nbsp;innym miejscu strony (np. jako tekst).
 
 **Uwaga:** Nie wszystkie przeglądarki wyświetlają wizualnie atrybut `title` jako etykietkę narzędzia, gdy element uzyskuje fokus klawiatury.
 
@@ -128,12 +128,12 @@ Jeśli na stronie nie ma interaktywnych elementów treści, na których można u
 
 Jeśli **wszystkie** poniższe twierdzenia są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 2.1.1:
 
-1.  Za pomocą klawiatury można uzyskać dostęp do wszystkich funkcjonalności i uruchomić je **oraz**
+1.  Za pomocą klawiatury można uzyskać dostęp do wszystkich funkcjonalności i&nbsp;uruchomić je **oraz**
 
 2.  Dostęp do wszystkich niezbędnych informacji można uzyskać za pomocą klawiatury **lub** informacje istnieją w innym miejscu strony.
 
 
-### Uwaga: 
+### Uwaga:
 
 -   W tym teście należy uwzględnić wszelkie zmiany funkcji, które nastąpią automatycznie lub w wyniku interakcji ze stroną.
 -   Informacje uważa się za niezbędne lub wymagane, gdy są one niezbędne do wykonania działania lub zrozumienia informacji i relacji.
@@ -145,13 +145,13 @@ Jeśli **wszystkie** poniższe twierdzenia są **prawdą**, wówczas strona (tre
 
 | Nazwa testu               | ID testu | Warunek testowy  |
 |----------------|------|-------------------------------------------------------------------|
-| 2.1.1-bez-czasu-nacisniecia-klawisza | 4.B | Poszczególne naciśnięcia klawiszy nie wymagają określonego czasu aktywacji funkcji. |
+| 2.1.1-bez-czasu-nacisniecia-klawisza | 4.B | Aktywacja poszczególnych funkcji nie wymaga określonego czasu naciskania klawiszy. |
 
 Celem tego testu jest sprawdzenie, czy na stronie istnieje jakakolwiek funkcjonalność, która wymaga od użytkownika wykonania naciśnięcia pewnych klawiszy w określonym czasie lub z zachowaniem określonego czasu między naciśnięciami klawiszy. Na przykład, czy istnieją sytuacje, w których użytkownik musi powtórzyć lub wykonać wiele naciśnięć klawiszy w krótkim czasie lub gdy klawisz musi być przytrzymany przez dłuższy czas, aby wywołać działanie.   
 
-Wymóg naciskania klawiszy przez określony czas lub z zachowaniem określonego czasu przerw między naciśnięciami klawiszy stanowi poważne utrudnienie dla osób z ograniczonymi możliwościami ruchu i manipulacji.
+Wymóg naciskania klawiszy przez określony czas lub z zachowaniem określonego czasu przerw między naciśnięciami klawiszy stanowi poważne utrudnienie dla osób z&nbsp;ograniczonymi możliwościami ruchu i&nbsp;manipulacji.
 
-**Uwaga**: Wymóg naciskania klawiszy przez określony czas występuje często w grach (naciskanie spacji, aby strzelać, gdy cel znajduje się w celowniku) lub w symulacjach aktywności (przesuwanie bloku po stole za pomocą klawiszy strzałek).
+**Uwaga**: Wymóg naciskania klawiszy przez określony czas występuje często w&nbsp;grach (naciskanie spacji, aby strzelać, gdy cel znajduje się w&nbsp;celowniku) lub w&nbsp;symulacjach aktywności (przesuwanie bloku po stole za pomocą klawiszy strzałek).
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 2.1.1 Klawiatura](https://wcag.lepszyweb.pl/#keyboard).
 
@@ -163,9 +163,9 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 
 ### Identyfikacja treści
 Wszystkie interaktywne elementy treści.
 
-Sprawdzasz wszystkie elementy interaktywne i wszystkie funkcjonalności zidentyfikowane w teście 4.A (2.1.1-dostęp z klawiatury). W teście 4.A sprawdzaliśmy, czy wszystkie elementy interaktywne i funkcjonalności są dostępne wyłącznie za pomocą klawiatury. Teraz ustalamy, czy skorzystanie z którejkolwiek z tych funkcjonalności nie wymaga od użytkownika określonego czasu przytrzymywania klawiszy albo naciskania klawiszy w określonych odstępach czasu.  
+Sprawdzasz wszystkie elementy interaktywne i wszystkie funkcjonalności zidentyfikowane w teście 4.A (2.1.1-dostęp z klawiatury). W teście 4.A sprawdzaliśmy, czy wszystkie elementy interaktywne i&nbsp;funkcjonalności są dostępne wyłącznie za pomocą klawiatury. Teraz ustalamy, czy skorzystanie z&nbsp;którejkolwiek z tych funkcjonalności nie wymaga od użytkownika określonego czasu przytrzymywania klawiszy albo naciskania klawiszy w&nbsp;określonych odstępach czasu.  
 
-**Uwaga**. Ten test nie wymaga oceniania, czy funkcjonalności nie podlegają temu wymogowi ze na funkcję wymagającą danych wejściowych zależną od ścieżki ruchu użytkownika. 
+**Uwaga**. Ten test nie wymaga oceniania, czy funkcjonalności nie podlegają temu wymogowi ze na funkcję wymagającą danych wejściowych zależną od ścieżki ruchu użytkownika.
 
 ### Zastosowanie
 
@@ -181,10 +181,10 @@ Test 4.B 2.1.1-bez-czasu-nacisniecia **nie ma zastosowania**, jeśli na stronie 
 2.  Ustal, czy istnieją przypadki, w których wymagany jest określony czas naciśnięcia klawiszy, aby aktywować element, np. szybkość wpisywania hasła jest częścią uwierzytelniania hasła.
 
     1. Poszukaj instrukcji wskazujących, że klawisz musi być przytrzymany przez określony czas lub że przydzielono określoną ilość czasu na wykonanie serii naciśnięć klawiszy.
-	
+
 	2. Poszukaj komunikatów wskazujących, że nie można aktywować funkcji, ponieważ akcja nie została ukończona w wyznaczonym czasie.
-	
-	**Uwaga**: Testowana jest wszelka treść, która wymaga wyczucia czasu naciśnięcia klawisza, nawet jeśli wydaje się, że funkcja może zależeć od ścieżki ruchu użytkownika, a nie tylko punktów końcowych.
+
+	**Uwaga**: Testowana jest wszelka treść, która wymaga wyczucia czasu naciśnięcia klawisza, nawet jeśli wydaje się, że funkcja może zależeć od ścieżki ruchu użytkownika, a&nbsp;nie tylko punktów końcowych.
 
 3.  Jeśli istnieje funkcja zależna od czasu, sprawdź, czy na stronie istnieje inna metoda wykonania zadania za pomocą klawiatury, która nie wymaga określonego czasu.
 
@@ -204,15 +204,15 @@ Jeśli poniższe stwierdzenie jest prawdziwe, treść (strona) **spełnia** wym�
 | 2.1.2-bez-pulapki-na-klawiature | 4.C     | Nie ma pułapki na klawiaturę. |
 
 ### Cel testu
-Celem tego testu jest sprawdzenie, czy użytkownicy są w przenosić fokus klawiatury z elementów interaktywnych, które otrzymały fokus klawiatury na poprzednie i następne elementy interaktywne, jeśli istnieją. Jeśli nie jest to możliwe, mówimy, że na stronie istnieje „pułapka na klawiaturę”.
+Celem tego testu jest sprawdzenie, czy użytkownicy są w przenosić fokus klawiatury z&nbsp;elementów interaktywnych, które otrzymały fokus klawiatury na poprzednie i&nbsp;następne elementy interaktywne, jeśli istnieją. Jeśli nie jest to możliwe, mówimy, że na stronie istnieje „pułapka na klawiaturę”.
 
 Pułapka na klawiaturę zdarza się często wtedy, gdy na stronie znajduje się wiele połączonych wtyczek lub osadzonych aplikacji.
 
-Test dotyczy wszystkich elementów strony, także sekcji, które są ujawniane (odkrywane) w wyniku interakcji z elementem strony (np. przyciskiem, zakładką karty, itp.). Jeśli użytkownik przejdzie do takiej treści, konieczna jest również metoda opuszczenia tego obszaru. 
+Test dotyczy wszystkich elementów strony, także sekcji, które są ujawniane (odkrywane) w wyniku interakcji z elementem strony (np. przyciskiem, zakładką karty, itp.). Jeśli użytkownik przejdzie do takiej treści, konieczna jest również metoda opuszczenia tego obszaru.
 
-Jeśli do opuszczenia takiego obszaru lub jakiegokolwiek elementu interaktywnego konieczna jest niestandardowa metoda (inna niż naciśnięcie klawisza Tab lub klawiszy strzałek), użytkownik musi zostać poinformowany o tej metodzie. 
+Jeśli do opuszczenia takiego obszaru lub jakiegokolwiek elementu interaktywnego konieczna jest niestandardowa metoda (inna niż naciśnięcie klawisza <kbd>Tab</kbd> lub klawiszy strzałek), użytkownik musi zostać poinformowany o tej metodzie.
 
-Pułapka na klawiaturę może zakłócać zdolność użytkownika do korzystania z całej strony. 
+Pułapka na klawiaturę może zakłócać zdolność użytkownika do korzystania z całej strony.
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 2.1.2 Bez pułapki na klawiaturę](https://wcag.lepszyweb.pl/#no-keyboard-trap).
 
@@ -224,7 +224,7 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 
 ### Identyfikacja treści
 Wszystkie interaktywne elementy treści.
 
-Nawiguj tabulatorem po elementach interaktywnych strony (odkrytych w teście 4.A), aby ustalić, czy klawiatura (i użytkownicy) nie zostanie uwięziona w jakimś elemencie strony albo obszarze na stronie odkrytym w efekcie interakcji z komponentem strony.
+Nawiguj tabulatorem po elementach interaktywnych strony (odkrytych w teście 4.A), aby ustalić, czy klawiatura (i użytkownicy) nie zostanie uwięziona w&nbsp;jakimś elemencie strony albo obszarze na stronie odkrytym w efekcie interakcji z&nbsp;komponentem strony.
 
 ### Zastosowanie
 
@@ -235,10 +235,10 @@ Test 4.C 2.1.2-bez-pulapki-na-klawiature **nie ma zastosowania**, jeśli na stro
 
 #### Jak testować
 
-1.  Nawiguj tabulatorem między wszystkimi komponentami strony, na których można ustawić fokus klawiatury.
+1.  Nawiguj klawiszem <kbd>Tab</kbd> między wszystkimi komponentami strony, na których można ustawić fokus klawiatury.
 2.  Ustal, czy istnieją przypadki, w których nawigacja klawiaturą jest zablokowana:
 
-   1.  Użytkownicy klawiatury nie mogą wyjść z elementu, np. za pomocą klawisza TAB lub klawiszy strzałek albo klawisza ESC
+   1.  Użytkownicy klawiatury nie mogą wyjść z elementu, np. za pomocą klawisza <kbd>Tab</kbd> lub klawiszy strzałek albo klawisza <kbd>Esc</kbd>,
    2.  Dostęp z klawiatury jest ograniczony do niewielkiej części strony, bez możliwości wyjścia z „pętli” do innych interaktywnych komponentów strony.
 
 2.  Jeśli znaleziono pułapkę na klawiaturę::
@@ -248,49 +248,49 @@ Test 4.C 2.1.2-bez-pulapki-na-klawiature **nie ma zastosowania**, jeśli na stro
 
 **Uwaga**: W przypadku wystąpienia pułapki na klawiaturę kontynuuj testowanie interaktywnych elementów za „pułapką”, używając do omijania pułapki myszy lub odświeżając stronę i używając klawiatury do nawigowania wstecz po stronie.
 
-### Ocena wyników 
+### Ocena wyników
 Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 2.1.1
 
 1.  Fokus klawiatury można przenieść z każdego komponentu strony za pomocą:
 
-    1.  Standardowych klawiszy nawigacyjnych (tab, klawisze strzałek) 
+    1.  Standardowych klawiszy nawigacyjnych (<kbd>Tab</kbd>, klawisze strzałek)
     2.  Niestandardowych naciśnięć klawiszy (które są udokumentowane i dostępne dla użytkowników w aplikacji).
 
 **oraz**
 
 2.  Fokus klawiatury można przenieść z każdego zawierającego komponenty interaktywne obszaru strony do innego obszaru za pomocą:
 
-    1.  Standardowych klawiszy nawigacyjnych
+    1.  Standardowych klawiszy nawigacyjnych,
     2.  Niestandardowych naciśnięć klawiszy (które są udokumentowane i dostępne dla użytkowników w aplikacji).
 
 ### Uwaga:
 
-W przypadku wystąpienia pułapki na klawiaturę kontynuuj testowanie interaktywnych elementów poza „pułapką”, używając do omijania pułapki myszy lub odświeżając stronę i używając klawiatury do nawigowania wstecz po stronie.
+W przypadku wystąpienia pułapki na klawiaturę kontynuuj testowanie interaktywnych elementów poza „pułapką”, używając do omijania pułapki myszy lub odświeżając stronę i&nbsp;używając klawiatury do nawigowania wstecz po stronie.
 
-## Fokus klawiatury 
+## Fokus klawiatury
 
-### Test 4.D 2.4.7-widoczny-fokus 
+### Test 4.D 2.4.7-widoczny-fokus
 
 | Nazwa testu              | ID testu | Warunek testowy             |
 |--------------------------|----------|-----------------------------|
-| 2.4.7-widoczny-fokus | 4.D     | Graficzny wskaźnik fokusu jest wyświetlany, gdy fokus znajduje się na komponencie interfejsu.|
+| 2.4.7-widoczny-fokus | 4.D     | Graficzny wskaźnik fokusu jest widoczny, gdy fokus znajduje się na komponencie interfejsu.|
 
-### Cel testu 
+### Cel testu
 
-Celem tego testu jest ustalenie, czy wszystkie komponenty interfejsu dostępne z klawiatury mają w stanie gotowości na odbieranie zdarzeń związanych z naciskaniem klawiatury widoczne oznaki fokusu.
+Celem tego testu jest ustalenie, czy wszystkie komponenty interfejsu dostępne z&nbsp;klawiatury w stanie gotowości na odbieranie zdarzeń związanych z naciskaniem klawiatury mają widoczne oznaki fokusu.
 
 ### Dlaczego to jest ważne?
-Osoby, które obsługują stronę internetową tylko za pomocą klawiatury muszą wiedzieć, który z elementów interaktywnych na stronie jest aktualnie w stanie gotowości na odbieranie zdarzeń związanych z naciskaniem klawiatury. Taki stan nazywa się *skupieniem*, *punktem uwagi* albo z angielskiego *fokusem*. W otwartym oknie strony lub aplikacji tylko jeden element w danym momencie może się znajdować w stanie skupienia. 
+Osoby, które obsługują stronę internetową tylko za pomocą klawiatury muszą wiedzieć, który z&nbsp;elementów interaktywnych na stronie jest aktualnie w&nbsp;stanie gotowości na odbieranie zdarzeń związanych z naciskaniem klawiatury. Taki stan nazywa się *skupieniem*, *punktem uwagi* albo z angielskiego *fokusem*. W&nbsp;otwartym oknie strony lub aplikacji tylko jeden element w&nbsp;danym momencie może się znajdować w stanie skupienia.
 
-Wizualny sygnał stanu skupienia jest również bardzo pomocny osobom z ograniczeniami uwagi, pamięci krótkotrwałej, zręczności, procesów wykonawczych.
+Wizualny sygnał stanu skupienia jest również bardzo pomocny osobom z&nbsp;ograniczeniami uwagi, pamięci krótkotrwałej, zręczności, procesów wykonawczych.
 
-Skupienie można przenosić z jednego elementu na następny za pomocą klawiszy Tab oraz Shift+Tab, a wewnątrz złożonych elementów za pomocą klawiszy strzałek.
+Skupienie można przenosić z jednego elementu na następny za pomocą klawiszy <kbd>Tab</kbd> oraz <kbd>Shift+Tab</kbd>, a wewnątrz złożonych elementów za pomocą klawiszy strzałek.
 
 Elementy mogą się znaleźć w stanie skupienia także w wyniku kliknięcia myszą, ale w reakcji na kliknięcie wykonują zwykle jeszcze dodatkowe funkcje.
 
-Wskaźnik skupienia może przybierać różne formy: obramowania elementu, migającego kursora (karetka) w polu tekstowym, wizualnej zmiany wyglądu przycisku. 
+Wskaźnik fokusu może przybierać różne formy: obramowania elementu, migającego kursora (karetka) w polu tekstowym, wizualnej zmiany wyglądu przycisku.
 
-Twórcy stron i aplikacji mogą umożliwiać i wyłączać możliwość otrzymywania skupienia przez elementy strony, a także zmieniać kolejność przenoszenia skupienia, korzystając z atrybutu `tabindex` oraz ze skryptów.
+Twórcy stron i aplikacji mogą umożliwiać i wyłączać możliwość otrzymywania fokusu przez elementy strony, a także zmieniać kolejność przenoszenia fokusu, korzystając z atrybutu `tabindex` oraz ze skryptów.
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 2.4.6 Widoczny fokus](https://wcag.lepszyweb.pl/#focus-visible).
 
@@ -302,13 +302,13 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 
 ### Identyfikacja treści
 Wszystkie interaktywne elementy treści.
 
-Użyj klawiatury, aby poruszać się po wszystkich komponentach interfejsu dostępnych z klawiatury **oraz** wszystkich interaktywnych komponentów interfejsu (łącza, przyciski, przełączniki, pola formularzy, rozwijane menu, treść odkrywana/ukrywana itd.). 
+Użyj klawiatury, aby poruszać się po wszystkich komponentach interfejsu dostępnych z klawiatury **oraz** wszystkich interaktywnych komponentów interfejsu (łącza, przyciski, przełączniki, pola formularzy, rozwijane menu, treść odkrywana/ukrywana itd.).
 
 ### Zastosowanie
 
 Test 4.D 2.4.7-widoczny-fokus **nie ma zastosowania**, jeśli na stronie nie ma komponentów, na których można ustawić fokus klawiatury, czyli nie ma funkcji aktywowanych przez użytkownika (takie sytuacje są raczej niespotykane, ale możliwe).
 
-**Uwaga**: Jeśli test 4.A 2-1-1 został oznaczony jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a więc także test 4.D 2.4.7-widoczny-fokus **nie ma zastosowania**.
+**Uwaga**: Jeśli test 4.A 2-1-1 został oznaczony jako **nie ma zastosowania**, to wszystkie inne testy z&nbsp;tej procedury testowej, a więc także test 4.D 2.4.7-widoczny-fokus **nie ma zastosowania**.
 
 
 #### Jak testować
@@ -317,34 +317,34 @@ Test 4.D 2.4.7-widoczny-fokus **nie ma zastosowania**, jeśli na stronie nie ma 
 
 2.  Ustal, czy na elemencie, który ma fokus klawiatury, widoczny jest graficzny wskaźnik fokusu.
 
-    1.  Gdy fokus klawiatury jest ustawiony na ramce, niektóre przeglądarki wyświetlają graficzny wskaźnik fokusu, a inne nie. Jeśli graficzny wskaźnik fokusu nie jest widoczny na ramce, zignoruj ten fakt, **nie jest** to defekt treści internetowej.	
+    1.  Gdy fokus klawiatury jest ustawiony na ramce, niektóre przeglądarki wyświetlają graficzny wskaźnik fokusu, a&nbsp;inne nie. Jeśli graficzny wskaźnik fokusu nie jest widoczny na ramce, zignoruj ten fakt, **nie jest** to defekt treści internetowej.
 
-    **Uwaga**: Aby potwierdzić, że niewidoczny fokus klawiatury znajduje się na ramce, użyj kombinacji klawiszy Tab i Shift+Tab, aby wydedukować, że fokus klawiatury jest na ramce. Będąc na ramce, naciśnij tabulator, aby przenieść fokus na pierwszy element, który można ustawić za pomocą klawiatury w ramce. Tam naciśnij klawisze Shift+Tab, aby wrócić do ramki, i kolejny raz Shift+Tab, aby przenieść fokus na element interaktywny przed ramką. Tylko ramka może nie mieć widocznego fokusu. Upewnij się, że to ramka nie ma widocznego fokusu, a nie inny element.
+    **Uwaga**: Aby potwierdzić, że niewidoczny fokus klawiatury znajduje się na ramce, użyj kombinacji klawiszy <kbd>Tab</kbd> i <kbd>Shift+Tab</kbd>, aby wydedukować, że fokus klawiatury jest na ramce. Będąc na ramce, naciśnij <kbd>Tab</kbd>, aby przenieść fokus na pierwszy element, który można ustawić za pomocą klawiatury w ramce. Tam naciśnij klawisze <kbd>Shift+Tab</kbd>, aby wrócić do ramki, i kolejny raz <kbd>Shift+Tab</kbd>, aby przenieść fokus na element interaktywny przed ramką. Tylko ramka może nie mieć widocznego fokusu. Upewnij się, że to ramka nie ma widocznego fokusu, a nie inny element.
 
-    Wizualny wskaźnik fokusu może przyjmować różną formę, taką jak kropkowany kontur, wyróżnienie kolorem, podświetlenie, pionowy pasek (kursor, karetka) w polu tekstowym. 
+    Wizualny wskaźnik fokusu może przyjmować różną formę, taką jak kropkowany kontur, wyróżnienie kolorem, podświetlenie, pionowy pasek (kursor, karetka) w&nbsp;polu tekstowym.
 
     Odczucie jasności fokusu jest subiektywne, ale tester powinien być w stanie zidentyfikować zmianę wizualną elementu, który ma fokus klawiatury lub otrzymuje fokus.
 
-    W niektórych przypadkach może być konieczne nawigowanie po całej stronie zarówno do tyłu, jak i do przodu, aby ustalić, czy określony element interfejsu zapewnia wizualne wskazanie fokusu. Należy jednak pamiętać, że kolejność ustawiania fokusu jest testowana osobno. 
+    W niektórych przypadkach może być konieczne nawigowanie po całej stronie zarówno do tyłu, jak i&nbsp;do przodu, aby ustalić, czy określony element interfejsu zapewnia wizualne wskazanie fokusu. Należy jednak pamiętać, że kolejność ustawiania fokusu jest testowana osobno.
 
 
-### Ocena wyników 
+### Ocena wyników
 Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 2.4.7
 
 1.  Gdy komponent interfejsu otrzymuje fokus klawiatury, widoczny jest graficzny wskaźnik fokusu.
 
-## Po oznaczeniu fokusem 
+## Po oznaczeniu fokusem
 
-### Test 4.E 3.2.1-po-oznaczeniu-fokusem 
+### Test 4.E 3.2.1-po-oznaczeniu-fokusem
 
 | Nazwa testu              | ID testu | Warunek testowy             |
 |--------------------------|----------|-----------------------------|
-| 3.2.1-po-oznaczeniu-fokusem| 4.E     | Przeniesienie fokusu na element interaktywny nie inicjuje zmiany kontekstu |
+| 3.2.1-po-oznaczeniu-fokusem| 4.E     | Przeniesienie fokusu na element interaktywny nie inicjuje zmiany kontekstu.|
 
 ## Cel testu
 Celem tego testu jest sprawdzenie, czy komponenty interfejsu, które otrzymują fokus, nie inicjują nieoczekiwanej zmianę kontekstu w wyniku samego faktu przeniesienia fokusu na element. Takie zachowanie zapewnia przewidywanie zachowania się elementów funkcjonalnych strony. Żaden element interfejsu, który jest w stanie wyzwolić zdarzenie po otrzymaniu fokusu, nie może zmieniać kontekstu.
 
-Zmiana kontekstu to poważna zmiana treści, która może dezorientować użytkowników, zwłaszcza, jeśli nie są w stanie wyświetlić całej strony równocześnie. 
+Zmiana kontekstu to poważna zmiana treści, która może dezorientować użytkowników, zwłaszcza, jeśli nie są w stanie wyświetlić całej strony równocześnie.
 
 Przykłady nieoczekiwanych zmian kontekstu obejmują:
 
@@ -354,7 +354,7 @@ Przykłady nieoczekiwanych zmian kontekstu obejmują:
 -	przejście na inną stronę internetową lub do innego okna,
 -	znacząca zmiana treści strony.
 
-Zmiany treści **nie zawsze** są zmianami kontekstu. Zmiany treści mogą polegać na rozszerzeniu konturu, odsłonięciu treści ukrytych bądź ukrycie odsłoniętych, uzyskaniu dostępu do pozycji dynamicznego menu. Takie zmiany nie zmieniają ani kontekstu.
+Zmiany treści **nie zawsze** są zmianami kontekstu. Zmiany treści mogą polegać na rozszerzeniu obramowania, odsłonięciu treści ukrytych bądź ukrycie odsłoniętych, uzyskaniu dostępu do pozycji dynamicznego menu. Takie zmiany nie zmieniają treści strony ani kontekstu.
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 3.2.1 Po oznaczeniu fokusem](https://wcag.lepszyweb.pl/#on-focus).
 
@@ -367,12 +367,12 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 
 ### Identyfikacja treści
 Wszystkie interaktywne elementy treści.
 
-Użyj klawiatury, aby poruszać się po wszystkich komponentach interfejsu dostępnych z klawiatury **oraz** wszystkich interaktywnych komponentów interfejsu (łącza, przyciski, przełączniki, pola formularzy, rozwijane menu, treść odkrywana/ukrywana itd.). 
+Użyj klawiatury, aby poruszać się po wszystkich komponentach interfejsu dostępnych z klawiatury **oraz** wszystkich interaktywnych komponentów interfejsu (łącza, przyciski, przełączniki, pola formularzy, rozwijane menu, treść odkrywana/ukrywana itd.).
 ### Zastosowanie
 
 Test 4.E 3.2.1-po-oznaczeniu-fokusem **nie ma zastosowania**, jeśli na stronie nie ma komponentów, na których można ustawić fokus klawiatury, czyli nie ma funkcji aktywowanych przez użytkownika (takie sytuacje są raczej niespotykane, ale możliwe).
 
-**Uwaga**: Jeśli test 4.A 2-1-1 został oznaczony jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a więc także test 4.E 3.2.1-po-oznaczeniu-fokusem **nie ma zastosowania**.
+**Uwaga**: Jeśli test 4.A 2-1-1 został oznaczony jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a&nbsp;więc także test 4.E 3.2.1-po-oznaczeniu-fokusem **nie ma zastosowania**.
 
 
 ### Jak testować
@@ -381,17 +381,17 @@ Test 4.E 3.2.1-po-oznaczeniu-fokusem **nie ma zastosowania**, jeśli na stronie 
 
 2.  Gdy na element interfejsu zostanie przeniesiony  fokus, oceń, czy nastąpi nieoczekiwana zmiana kontekstu, np. uruchomione zostanie nowe okno lub fokus zostanie przeniesiony na inny element interfejsu.
 
-Pamiętaj, że sprawdzasz poprawność tego, co się dzieje, gdy komponent otrzymuje fokus. Podczas tego testu nie uruchamiasz komponentu np. naciskając klawisze Enter lub Spacja, aby aktywować przycisk „prześlij” czy „rozwinąć” menu. Podczas tego testu oceniasz jedynie, co się dzieje, gdy fokus wyląduje na elemencie.
+Pamiętaj, że sprawdzasz poprawność tego, co się dzieje, gdy komponent otrzymuje fokus. Podczas tego testu nie uruchamiasz komponentu np. naciskając klawisze <kbd>Enter</kbd> lub <kbd>Spacja</kbd>, aby aktywować przycisk „Prześlij”, czy „rozwiń” menu. Podczas tego testu oceniasz jedynie, co się dzieje, gdy fokus wyląduje na elemencie.
 
 ### Ocena wyników
 Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 3.2.1
 
-1.  Gdy komponent interfejsu otrzymuje fokus, nie jest inicjowana żadna zmiana niespodziewana kontekstu.
+1.  Gdy komponent interfejsu otrzymuje fokus, nie jest inicjowana żadna  niespodziewana zmiana kontekstu.
 
 ## Kolejność tabulacji
 
 
-### Test 4.F 2.4.3-kolejnosc-fokusu 
+### Test 4.F 2.4.3-kolejnosc-fokusu
 
 | Nazwa testu              | ID testu | Warunek testowy             |
 |--------------------------|----------|-----------------------------|
@@ -399,12 +399,11 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 
 ### Cel testu
 
-Celem tego testu jest upewnienie się, że użytkownicy klawiatury poruszający się sekwencyjnie po stronie internetowej napotykają informacje w kolejności zgodnej ze znaczeniem treści. Wskaźnik fokusu powinien poruszać się po elementach strony w logicznej kolejności, a gdy sekwencja nawigacyjna wpływa na znaczenie lub działanie, komponenty, na których można ustawić fokus, powinny otrzymywać fokus w kolejności, która zachowuje to znaczenie. Kolejność ustawiania fokusu może nie być identyczna z ustaloną programowo lub wizualną kolejnością czytania, o ile użytkownik nadal może zrozumieć i obsługiwać stronę internetową. 
+Celem tego testu jest upewnienie się, że użytkownicy klawiatury poruszający się sekwencyjnie po stronie internetowej napotykają informacje w&nbsp;kolejności zgodnej ze znaczeniem treści. Wskaźnik fokusu powinien poruszać się po elementach strony w logicznej kolejności, a&nbsp;gdy sekwencja nawigacyjna wpływa na znaczenie lub działanie, komponenty, na których można ustawić fokus, powinny otrzymywać fokus w&nbsp;kolejności, która zachowuje to znaczenie. Kolejność ustawiania fokusu może nie być identyczna z&nbsp;ustaloną programowo lub wizualną kolejnością czytania, o&nbsp;ile użytkownik nadal może zrozumieć i&nbsp;obsługiwać stronę internetową.
 
-Ten test dotyczy tylko elementów, które otrzymują fokus klawiatury. 
+Ten test dotyczy tylko elementów, które otrzymują fokus klawiatury.
 
-Kolejność tabulacji ma szczególne znaczenie dla osób, które obsługują stronę tylko za pomocą klawiatury. 
-Osoby te spodziewają się, że porządek tabulacji będzie intuicyjny, zgodny ze znaczeniem treści, logiczny i dostosowany do porządku czytania.  
+Kolejność tabulacji ma szczególne znaczenie dla osób, które obsługują stronę tylko za pomocą klawiatury. Osoby te spodziewają się, że porządek tabulacji będzie intuicyjny, zgodny ze znaczeniem treści, logiczny i&nbsp;dostosowany do porządku czytania.  
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 2.4.3 Kolejność fokusu](https://wcag.lepszyweb.pl/#focus-order).
 
@@ -417,26 +416,26 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 
 Wszystkie interaktywne elementy treści.
 
 
-Użyj klawiatury, aby poruszać się po wszystkich komponentach interfejsu dostępnych z klawiatury **oraz** wszystkich interaktywnych komponentów interfejsu (łącza, przyciski, przełączniki, pola formularzy, rozwijane menu, treść odkrywana/ukrywana itd.). 
+Użyj klawiatury, aby poruszać się po wszystkich komponentach interfejsu dostępnych z klawiatury **oraz** wszystkich interaktywnych komponentów interfejsu (łącza, przyciski, przełączniki, pola formularzy, rozwijane menu, treść odkrywana/ukrywana itd.).
 
 ### Zastosowanie
 
 Test 4.F 2.4.3-kolejnosc-fokusu  **nie ma zastosowania**, jeśli na stronie nie ma komponentów, na których można ustawić fokus klawiatury, czyli nie ma funkcji aktywowanych przez użytkownika (takie sytuacje są raczej niespotykane, ale możliwe).
 
-**Uwaga**: Jeśli test 4.F 2.4.3-kolejnosc-fokusu jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a więc także test 4.F 2.4.3-kolejnosc-fokusu **nie ma zastosowania**.
+**Uwaga**: Jeśli test 4.F 2.4.3-kolejnosc-fokusu jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a&nbsp;więc także test 4.F 2.4.3-kolejnosc-fokusu **nie ma zastosowania**.
 
 ### Jak testować
 
-1.  Ustaw kursor w pasku adresu przeglądarki, a następnie użyj klawisza Tab, aby przemieszczać się do kolejnych interaktywnych elementów strony (łącza, przyciski, przełączniki, pola formularzy, itd.).  Nie używaj myszy.
+1.  Ustaw kursor w pasku adresu przeglądarki, a&nbsp;następnie użyj klawisza Tab, aby przemieszczać się do kolejnych interaktywnych elementów strony (łącza, przyciski, przełączniki, pola formularzy, itd.).  Nie używaj myszy.
 
-2.  Oceń, czy kolejność przemieszczania się fokusu wpływa na znaczenie i użyteczność (funkcjonalność)  strony (np. pola przeznaczone na adres otrzymują fokus w logicznej kolejności - zgodnej z budową adresu).
+2.  Oceń, czy kolejność przemieszczania się fokusu wpływa na znaczenie i&nbsp;użyteczność (funkcjonalność)  strony (np. pola przeznaczone na adres otrzymują fokus w logicznej kolejności - zgodnej z budową adresu).
 
-    1.  Najczęściej można zauważyć, że kolejność przemieszczania się fokusu nie jest zgodna z wizualnym porządkiem elementów i logiczną kolejnością działania (zwykle od lewej do prawej, z góry na dół)
+    1.  Najczęściej można zauważyć, że kolejność przemieszczania się fokusu nie jest zgodna z wizualnym porządkiem elementów i&nbsp;logiczną kolejnością działania (zwykle od lewej do prawej, z&nbsp;góry na dół)
 
 
     2.  W przypadku modalnych okien dialogowych fokus powinien pozostać w oknie, dopóki nie zostanie ono zamknięte. Modalne okno dialogowe wymaga interakcji użytkownika, aby powrócić do aplikacji.
 
-    3.  Pomocne może być uruchomienie ANDI: interaktywne i wybranie przycisku porządek tabulacji.
+    3.  Pomocne może być uruchomienie ANDI: interaktywne i&nbsp;wybranie przycisku &bdquo;porządek tabulacji&rdquo;.
 
 ### Ocena wyniku
 Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z&nbsp;KS 2.4.2
@@ -447,23 +446,23 @@ Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść)
 
 ### Uwaga:
 
--   Znaczniki kolejności tabulatorów ANDI mogą się nieznacznie różnić od rzeczywistej kolejności tabulatorów klawiatury w niektórych przeglądarkach. Zawsze oceniaj wyniki z kolejności tabulacji klawiatury.
+-   Znaczniki kolejności tabulatorów ANDI mogą się nieznacznie różnić od rzeczywistej kolejności tabulatorów klawiatury w&nbsp;niektórych przeglądarkach. Zawsze oceniaj wyniki z&nbsp;kolejności tabulacji klawiatury.
 
 ## Powrót fokusu
 
-### Test 4.G 2.4.3-fokus-do-tresci-odkrytej 
+### Test 4.G 2.4.3-fokus-do-tresci-odkrytej
 
 | Nazwa testu              | ID testu | Warunek testowy             |
 |--------------------------|----------|-----------------------------|
 | 2.4.3-fokus-do-tresci-odkrytej | 4.G     | Fokus jest przenoszony na odkryte treści. |
 
-### Cel testu 
-Celem tego testu jest sprawdzenie, czy po ujawnieniu ukrytej treści na tej samej stronie fokus jest przenoszony do ujawnionej treści albo natychmiast, albo po jednym naciśnięciu klawisza. 
+### Cel testu
+Celem tego testu jest sprawdzenie, czy po ujawnieniu ukrytej treści na tej samej stronie fokus jest przenoszony do ujawnionej treści albo natychmiast, albo po jednym naciśnięciu klawisza.
 
-Ujawnianie treści to np. rozwijanie pozycji menu, otwieranie okna modalnego, odkrywanie treści ukrytej w harmonijce.
+Ujawnianie treści to np. rozwijanie pozycji menu, otwieranie okna modalnego, odkrywanie treści ukrytej w&nbsp;harmonijce.
 
-Ten test jest ściśle związany z poprzednim 4.F 2.4.3-kolejnosc-fokusu. Oba testy łącznie sprawdzają, czy kolejność fokusu jest logiczna, gdy użytkownik wchodzi w interakcję z treścią strony.
- 
+Ten test jest ściśle związany z poprzednim 4.F 2.4.3-kolejnosc-fokusu. Oba testy łącznie sprawdzają, czy kolejność fokusu jest logiczna, gdy użytkownik wchodzi w&nbsp;interakcję z&nbsp;treścią strony.
+
 Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 2.4.3 Kolejność fokusu](https://wcag.lepszyweb.pl/#focus-order).
 
 ### Metody i narzędzia testowe
@@ -475,12 +474,12 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 
 Wszystkie interaktywne elementy treści.
 
 
-Użyj klawiatury, aby poruszać się po wszystkich komponentach interfejsu dostępnych z klawiatury **oraz** wszystkich interaktywnych komponentów interfejsu (łącza, przyciski, przełączniki, pola formularzy, rozwijane menu, treść odkrywana/ukrywana itd.). 
+Użyj klawiatury, aby poruszać się po wszystkich komponentach interfejsu dostępnych z&nbsp;klawiatury **oraz** wszystkich interaktywnych komponentów interfejsu (łącza, przyciski, przełączniki, pola formularzy, rozwijane menu, treść odkrywana/ukrywana itd.).
 
 ### Zastosowanie
 Test 4.G 2.4.3-fokus-do-tresci-odkrytej  **nie ma zastosowania**, jeśli na stronie nie ma komponentów, na których można ustawić fokus klawiatury, czyli nie ma funkcji aktywowanych przez użytkownika (takie sytuacje są raczej niespotykane, ale możliwe).
 
-**Uwaga**: Jeśli test 4.G 2.4.3-fokus-do-tresci-odkrytej jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a więc także test 4.G 2.4.3-fokus-do-tresci-odkrytej  **nie ma zastosowania**.
+**Uwaga**: Jeśli test 4.G 2.4.3-fokus-do-tresci-odkrytej jako **nie ma zastosowania**, to wszystkie inne testy z&nbsp;tej procedury testowej, a&nbsp;więc także test 4.G 2.4.3-fokus-do-tresci-odkrytej  **nie ma zastosowania**.
 
 **Uwaga**: Ten test **nie jest stosowany**, gdy element interaktywny otwiera całkowicie nową stronę treści, na przykład gdy łącze prowadzi użytkownika do nowej strony internetowej.
 
@@ -489,11 +488,11 @@ Test 4.G 2.4.3-fokus-do-tresci-odkrytej  **nie ma zastosowania**, jeśli na stro
 
 1. Użyj klawiatury, aby aktywować elementy sterujące, które ujawniają ukrytą treść (np. menu, okna dialogowe, modalne okna dialogowe).
 
-   1. W przypadku modalnych okien dialogowych, widoczny fokus powinien pozostać w oknie do momentu jego zamknięcia. (Jest to uwzględnione w teście 4.F.)
-   
+   1. W przypadku modalnych okien dialogowych, widoczny fokus powinien pozostać w&nbsp;oknie do momentu jego zamknięcia. (Jest to uwzględnione w teście 4.F.)
+
    2. Ujawniona treść nie zawiera informacji, które pojawiają się jak część atrybutu `title` podpowiedzi (tooltipa).
 
-2. Przemieszczaj fokus poprzez ujawnioną treść za pomocą klawisza TAB.
+2. Przemieszczaj fokus poprzez ujawnioną treść za pomocą klawisza <kbd>Tab</kbd>.
 
    1.  Widoczny fokus może nie przechodzić do ujawnionej treści, jeśli nie zawiera ona elementów, które mogą otrzymać fokus lub jeśli  nie można ustawić fokusu na całej ujawnionej treści.
 
@@ -505,20 +504,20 @@ Jeśli którekolwiek z poniższych twierdzeń jest **prawdą**, wówczas strona 
 2.  Jedno dodatkowe naciśnięcie klawisza przenosi fokus na ujawnioną treść.
 
 
-### Test 4.H 2.4.3-powrot-fokusu-do-porządku 
+### Test 4.H 2.4.3-powrot-fokusu-do-porządku
 
 | Nazwa testu              | ID testu | Warunek testowy             |
 |--------------------------|----------|-----------------------------|
-| 2.4.3-powrot-fokusu-do-porządku | 4.H     | Fokus powraca do logicznej sekwencji |
+| 2.4.3-powrot-fokusu-do-porządku | 4.H     | Fokus powraca do logicznej sekwencji tabulacji.|
 
 ## Cel testu
 
-Celem tego testu jest sprawdzenie, czy użytkownik powraca do logicznej sekwencji fokusu sprzed ujawnienia treści. Ten test dotyczy tego, na jaki element interfejsu przechodzi fokus po opuszczeniu obszaru z ujawnioną treścią, jeśli został do tego obszaru przeniesiony. Po  
+Celem tego testu jest sprawdzenie, czy użytkownik powraca do logicznej sekwencji fokusu sprzed ujawnienia treści. Ten test dotyczy tego, na jaki element interfejsu przechodzi fokus po opuszczeniu obszaru z&nbsp;ujawnioną treścią, jeśli został do tego obszaru przeniesiony.  
 
-Po zakończeniu interakcji użytkownika z ujawnioną treścią fokus powinien powrócić do elementu, który zainicjował akcję, lub przejść do następnego elementu w logicznym porządku tabulacji, aby umożliwić użytkownikowi kontynuowanie nawigacji po stronie internetowej. 
+Po zakończeniu interakcji użytkownika z ujawnioną treścią fokus powinien powrócić do elementu, który zainicjował akcję, lub przejść do następnego elementu w&nbsp;logicznym porządku tabulacji, aby umożliwić użytkownikowi kontynuowanie nawigacji po stronie internetowej.
 
-Ten test jest ściśle związany z poprzednim 4.G 2.4.3-fokus-do-tresci-odkrytej, ponieważ oba testy łącznie weryfikują, czy kolejność fokusu jest logiczna, gdy użytkownik wchodzi w interakcję z treścią strony.
- 
+Ten test jest ściśle związany z poprzednim 4.G 2.4.3-fokus-do-tresci-odkrytej, ponieważ oba testy łącznie weryfikują, czy kolejność fokusu jest logiczna, gdy użytkownik wchodzi w&nbsp;interakcję z&nbsp;treścią strony.
+
 Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 2.4.3 Kolejność fokusu](https://wcag.lepszyweb.pl/#focus-order).
 
 ### Metody i narzędzia testowe
@@ -529,24 +528,24 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 
 ### Identyfikacja treści
 Wszystkie interaktywne elementy treści.
 
-Użyj klawiatury, aby poruszać się po wszystkich komponentach interfejsu dostępnych z klawiatury **oraz** wszystkich interaktywnych komponentów interfejsu (łącza, przyciski, przełączniki, pola formularzy, rozwijane menu, treść odkrywana/ukrywana itd.). 
+Użyj klawiatury, aby poruszać się po wszystkich komponentach interfejsu dostępnych z klawiatury **oraz** wszystkich interaktywnych komponentów interfejsu (łącza, przyciski, przełączniki, pola formularzy, rozwijane menu, treść odkrywana/ukrywana itd.).
 
 ### Zastosowanie
 Test 4.H 2.4.3-powrot-fokusu-do-porządku **nie ma zastosowania**, jeśli na stronie nie ma komponentów, na których można ustawić fokus klawiatury, czyli nie ma funkcji aktywowanych przez użytkownika (takie sytuacje są raczej niespotykane, ale możliwe).
 
-**Uwaga**: Jeśli test 4.H 2.4.3-powrot-fokusu-do-porządku jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a więc także test 4.H 2.4.3-powrot-fokusu-do-porządku **nie ma zastosowania**.
+**Uwaga**: Jeśli test 4.H 2.4.3-powrot-fokusu-do-porządku jako **nie ma zastosowania**, to wszystkie inne testy z tej procedury testowej, a&nbsp;więc także test 4.H 2.4.3-powrot-fokusu-do-porządku **nie ma zastosowania**.
 
 ### Jak testować
 
 1.  Kontynuuj test 4.G
 
-2.  Jeśli to możliwe, aby zamknąć/ukryć lub odrzucić ujawnianą treść, użyj klawiatury, aby zamknąć / ukryć i / lub przenieść fokus z ujawnionej treści.
+2.  Jeśli to możliwe, aby zamknąć/ukryć lub odrzucić ujawnianą treść, użyj klawiatury, aby zamknąć / ukryć i / lub przenieść fokus z&nbsp;ujawnionej treści.
 
 3.  Zidentyfikuj element, który ma fokus klawiatury.
 
-    1.  Konieczne może być naciśnięcie klawiszy Shift + Tab lub klawisza strzałki, aby przesunąć fokus do tyłu.
+    1.  Konieczne może być naciśnięcie klawiszy <kbd>Shift+Tab</kbd> lub klawisza strzałki, aby przesunąć fokus do tyłu.
 
-3.  Porównaj położenie elementu, który po otrzymaniu fokusu ujawnił ukrytą treść, z miejscem, w ktróym znajduje się fokus po opuszczeniu obszaru z ujawnioną treścią. Jeśli fokus nie powróci do elementu wyzwalającego ukrytą treść, sprawdź, czy elementem, do którego zostanie przeniesiony, jest następny element interaktywny na stronie, czy żaden interaktywny element nie zostanie pominięty w porządku tabulacji.
+3.  Porównaj położenie elementu, który po otrzymaniu fokusu ujawnił ukrytą treść, z&nbsp;miejscem, w ktróym znajduje się fokus po opuszczeniu obszaru z ujawnioną treścią. Jeśli fokus nie powróci do elementu wyzwalającego ukrytą treść, sprawdź, czy elementem, do którego zostanie przeniesiony, jest następny element interaktywny na stronie, czy żaden interaktywny element nie zostanie pominięty w porządku tabulacji.
 
 
 ### Ocena wyników
@@ -557,7 +556,7 @@ Jeśli którekolwiek z poniższych twierdzeń jest **prawdą**, wówczas strona 
 
 2.  Jedna dodatkowe naciśnięcie klawisza lub kombinacji klawiszy przywraca fokus do logicznej sekwencji kolejności fokusu sprzed ujawnienia treści.
 
-**Uwaga**: Sekwencja logiczna oznacza, że znaczenie i użyteczność strony są zachowane. Dopuszczalne jest, jeśli fokus nie wraca dokładnie do miejsca sprzed ujawnienia treści, o ile sekwencja jest logiczna. Może się to zdarzyć w przypadku elementów takich jak menu; zamknięcie opcji menu może spowodować przeniesienie użytkownika do następnego elementu w kolejności fokusu. Może to nadal utrzymywać logiczną sekwencję.
+**Uwaga**: Sekwencja logiczna oznacza, że znaczenie i&nbsp;użyteczność strony są zachowane. Dopuszczalne jest, jeśli fokus nie wraca dokładnie do miejsca sprzed ujawnienia treści, o&nbsp;ile sekwencja jest logiczna. Może się to zdarzyć w&nbsp;przypadku elementów takich jak menu; zamknięcie opcji menu może spowodować przeniesienie użytkownika do następnego elementu w&nbsp;kolejności fokusu. Może to nadal utrzymywać logiczną sekwencję.
 
 
 ### Obowiązujące normy
@@ -565,9 +564,9 @@ Jeśli którekolwiek z poniższych twierdzeń jest **prawdą**, wówczas strona 
 
 {% include ks/2-1-1.md %}
 
-{% include ks/2-1-2.md %} 
+{% include ks/2-1-2.md %}
 
-[1. Dostęp z klawiatury](ICT-01-klawiatura) 
+[1. Dostęp z klawiatury](ICT-01-klawiatura)
 
 {% include ks/2-4-7.md %}
 
@@ -578,4 +577,3 @@ Jeśli którekolwiek z poniższych twierdzeń jest **prawdą**, wówczas strona 
 {% include ks/3-2-1.md %}
 
 [3. Kolejność fokusu](ICT-03-kolejnosc-fokusu)
-
