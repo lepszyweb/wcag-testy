@@ -16,6 +16,8 @@ Dla takich osób strony są dostępne tylko wówczas, gdy umożliwiają przeglą
 
 Dla osób słabowidzących niezbędna jest również widoczność wskaźnika fokusu, czyli oznaczenia miejsca, które aktualnie oczekuje na sygnały wprowadzane przez użytkownika za pomocą klawiatury (naciśnięcia klawiszy). Fokus pokazuje, na którym elemencie w danej chwili w programie użytkownika skupiona jest uwaga odbiornika sygnałów z klawiatury, czyli który z&nbsp;interaktywnych elementów strony jest aktualnie wybrany i&nbsp;gotowy, by wykonać działanie żądane przez użytkownika.
 
+Widoczny wskaźnik fokusu zapewnia, że użytkownicy klawiatury mogą się w&nbsp;każdym momencie zorientować, w&nbsp;którym miejscu strony się znajdują. Wyraźne wskaźniki fokusu są szczególnie ważne dla osób słabowidzących oraz dla osób z&nbsp;problemami poznawczymi, z&nbsp;trudnościami koncentracji uwagi, bo pozwalają im na takie same możliwości orientowania się na stronie, jakie mają osoby korzystające z urządzeń wskazujących.
+
 Podczas nawigacji klawiaturą po stronie, nazywanej nawigacją sekwencyjną, fokus powinien się przemieszczać sensownie zgodnie z&nbsp;logiczną kolejnością elementów strony.
 
 Aby zapewnić widoczność fokusu, twórcy stron mogą posłużyć się różnymi wskaźnikami, np. obramowaniem lub podkreśleniem elementu, który uzyskał fokus, odwróceniem (inwersją) kolorów elementu – wyświetleniem jasnego tekstu na ciemnym tle lub odwrotnie. W&nbsp;polach formularzy domyślnym wskaźnikiem fokusu jest migający kursor. Autorzy stron są zachęcani, by wzmocnić widoczność fokusu, który jest użyteczny dla wszystkich, a niezbędny dla osób z niepełnosprawnościami wzroku i&nbsp;ruchu.  
