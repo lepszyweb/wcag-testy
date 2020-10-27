@@ -73,17 +73,3 @@ Ręczna nawigacja lub sterowanie interfejsem tylko za pomocą klawiatury umożli
     1.	Użyj <kbd>Tab</kbd> i kombinacji klawiszy <kbd>Shift+Tab</kbd>, aby poruszać się między widżetami, zarówno do przodu, jak i do tyłu.
     2.	Użyj klawiszy <kbd>strzałek</kbd>, aby poruszać się między elementami, na których można ustawiać fokus w złożonym widżecie.
 2.	Gdy przenosisz fokus do każdego kolejnego komponentu, sprawdź, czy następuje widoczna i wyraźna zmiana wyglądu elementu, wskazująca, że otrzymał fokus.
-
-### Zasoby
-
-
-
-
-
-### Przypadki testowe
-
-#### Zaliczone
-_do opracowania_
-
-#### Niezaliczone
-_do opracowania_
