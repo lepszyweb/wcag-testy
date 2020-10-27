@@ -292,7 +292,7 @@ Wskaźnik fokusu może przybierać różne formy: obramowania elementu, migając
 
 Twórcy stron i aplikacji mogą umożliwiać i wyłączać możliwość otrzymywania fokusu przez elementy strony, a także zmieniać kolejność przenoszenia fokusu, korzystając z atrybutu `tabindex` oraz ze skryptów.
 
-Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 2.4.6 Widoczny fokus](https://wcag.lepszyweb.pl/#focus-visible).
+Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu 2.4.7 Widoczny fokus](https://wcag.lepszyweb.pl/#focus-visible).
 
 ### Metody i narzędzia testowe
 

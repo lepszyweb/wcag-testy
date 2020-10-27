@@ -1,13 +1,37 @@
 ---
-title: Nawigacja - Widoczny wskaźnik fokusu
+title: Nawigacja - Widoczny fokus
 
 sidebar: testy_sidebar
 permalink: H1-09-widoczny-fokus
 folder: testy/jbt
 ---
 
+## Nawigacja - Widoczny fokus
 
-## Nawigacja - Widoczny wskaźnik fokusu
+| Nazwa testu              | ID testu | Warunek testowy             |
+|--------------------------|----------|-----------------------------|
+| 2.4.7-widoczny-fokus | 4.D     | Gdy fokus znajduje się na komponencie interfejsu użytkownika,  widoczny jest graficzny wskaźnik fokusu. |
+
+### Cel testu
+
+Celem tego testu jest ustalenie, czy podczas nawigacji sekwencyjnej klawiszem <kbd>Tab</kbd> po stronie każdy komponent interfejsu użytkownika, który otrzymał fokus i jest gotowy na odbieranie zdarzeń związanych z naciskaniem klawiatury, ma widoczne oznaki fokusu.
+
+### Dlaczego to jest ważne?
+Osoby, które obsługują stronę internetową tylko za pomocą klawiatury muszą wiedzieć, który z&nbsp;elementów interaktywnych na stronie jest aktualnie w&nbsp;stanie gotowości na odbieranie zdarzeń związanych z naciskaniem klawiatury. Taki stan nazywa się *skupieniem*, *punktem uwagi* albo z angielskiego *fokusem*. W&nbsp;otwartym oknie strony lub aplikacji tylko jeden element w&nbsp;danym momencie może się znajdować w stanie skupienia.
+
+Wizualny sygnał stanu skupienia jest również bardzo pomocny osobom z&nbsp;ograniczeniami uwagi, pamięci krótkotrwałej, zręczności, procesów wykonawczych.
+
+Fokus można przenosić z jednego elementu na następny za pomocą klawiszy <kbd>Tab</kbd> oraz <kbd>Shift+Tab</kbd>, a wewnątrz złożonych elementów za pomocą klawiszy strzałek.
+
+Elementy mogą się znaleźć w stanie skupienia także w wyniku kliknięcia myszą, ale w&nbsp;reakcji na kliknięcie wykonują zwykle jeszcze dodatkowe funkcje.
+
+Wskaźnik fokusu może przybierać różne formy: obramowania elementu, migającego kursora (karetka) w polu tekstowym, wizualnej zmiany wyglądu przycisku.
+
+Twórcy stron i aplikacji mogą umożliwiać i&nbsp;wyłączać możliwość otrzymywania fokusu przez elementy strony, a&nbsp;także zmieniać kolejność przenoszenia fokusu, korzystając z&nbsp;atrybutu `tabindex` oraz ze skryptów.
+
+## Mapowanie do wymagań dostępności
+{% include ks/2-4-7.md %}
+
 
 ### Metoda badania:
 Kontrola wizualna. Test nawigacji za pomocą klawiatury
@@ -38,6 +62,22 @@ Uwaga: W środowisku testowym podczas testowania nie należy używać żadnych n
 2.	Gdy przenosisz fokus do każdego kolejnego komponentu, sprawdź, czy następuje widoczna i wyraźna zmiana wyglądu elementu, wskazująca, że otrzymał fokus.
 
 ### Zasoby
+
+-	[Funkcjonalność jest dostępna z klawiatury](http://www.w3.org/WAI/intro/people-use-web/principles#keyboard) - sekcja w <span lang="en">Accessibility Principles</span>; w języku angielskim, skorzystaj z tłumaczenia Google.
+-	[Przeglądanie stron internetowych za pomocą klawiatury](http://www.w3.org/WAI/users/browsing#keyboard) - sekcja na stronie <span lang="en">Better Web Browsing: Tips for Customizing Your Computer</span>; w&nbsp;języku angielskim, skorzystaj z&nbsp;tłumaczenia Google.
+-	[Zrozumieć Kryterium sukcesu 2.4.7 Widoczny fokus](https://www.w3.org/WAI/WCAG21/Understanding/focus-visible.html)(poziom AA); w&nbsp;języku angielskim, skorzystaj z&nbsp;tłumaczenia Google.
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### Pomocne narzędzia:
 
