@@ -75,14 +75,14 @@ Ręczna nawigacja lub sterowanie interfejsem tylko za pomocą klawiatury umożli
 2.	Gdy przenosisz fokus do każdego kolejnego komponentu, sprawdź, czy następuje widoczna i wyraźna zmiana wyglądu elementu, wskazująca, że otrzymał fokus.
 ### Zasoby
 #### Techniki WCAG
-- {% include techniki/G149.md %}
-- {% include techniki/C15.md %}
-- {% include techniki/G165.md %}
-- {% include techniki/G195.md %}
-- {% include techniki/C40.md %}
-- {% include techniki/SCR31.md %}
-- {% include techniki/F65.md %}
-- {% include techniki/F78.md %}
+- {% include /techniki/G149.md %}
+- {% include /techniki/C15.md %}
+- {% include /techniki/G165.md %}
+- {% include /techniki/G195.md %}
+- {% include /techniki/C40.md %}
+- {% include /techniki/SCR31.md %}
+- {% include /techniki/F65.md %}
+- {% include /techniki/F78.md %}
 
 
 
