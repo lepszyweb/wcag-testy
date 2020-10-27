@@ -47,7 +47,7 @@ W przeglądarkach, która obsługują nawigację za pomocą klawiatury za pomoc�
 -	**Linki graficzne**: Sprawdź, czy obrazy, które są łączami, mają wyraźnie widoczny fokus i czy łącza mogą być aktywowane za pomocą klawiatury (zwykle przez naciśnięcie klawisza Enter).
 
 ### Sprawdzenie widoczności fokusu na stronie demo PrzediPo  
-Otwórz dostępną wersję strony Ankieta: https://przedipo.lepszyweb.pl/after/survey.html
+Otwórz dostępną wersję strony [Ankieta](https://przedipo.lepszyweb.pl/after/survey.html).
 Przejdź przez wszystkie elementy strony klawiszem Tab, a w obrębie złożonej grupy elementów poruszaj się strzałkami. Zwróć uwagę,
 -	że wiele elementów w chwili uzyskania fokusu otrzymuje zielone tło
 -	że niektóre  elementy w chwili uzyskania fokusu są obrysowane przerywaną linią
