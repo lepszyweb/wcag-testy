@@ -1,6 +1,6 @@
 ---
 title: Skuteczność testowania dostępności lub dlaczego testy użyteczności powinny być ostatnie
-summary: "Efektywne i skuteczne ocenianie dostepności cyfrowej wymaga zastosowania kombinacji metod oceniania - od testów automatycznych po testy użyteczności. Jaka jest efektywność metod oceniania?"
+summary: "Efektywne i skuteczne ocenianie dostępności cyfrowej wymaga zastosowania kombinacji metod oceniania - od testów automatycznych po testy użyteczności. Jaka jest efektywność metod oceniania?"
 sidebar: testy_sidebar
 permalink: met-skutecznosc-testowania
 folder: metoda
