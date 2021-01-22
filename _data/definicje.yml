@@ -86,7 +86,7 @@ przeglad_formalny: "Przeglad charakteryzujący się udokumentowanymi procedurami
 
 przeglad_nieformalny: "Przegląd, który nie jest oparty na formalnej (udokumentowanej) procedurze."
 
-przypadek_testowy: "Zestaw warunków wstępnych, danych wejściowych, akcji (w stosownych przypadkach), oczekiwanych rezultatów i warunków końcowych opracowany w oparciu o warunki testowe. Wg [ISO/IEC/IEEE 29119]"
+przypadek_testowy: "Zestaw warunków wstępnych, danych wejściowych, akcji (w stosownych przypadkach), oczekiwanych rezultatów i&nbsp;warunków końcowych opracowany w oparciu o&nbsp;warunki testowe. Wg [ISO/IEC/IEEE 29119]"
 
 przypadek_uzycia: "Sekwencja transakcji w interakcji pomiędzy aktorem a modułem lub systemem z namacalnym rezultatem, przy czym aktorem może być użytkownik lub cokolwiek innego, co może wymieniać informacje z systemem."
 
