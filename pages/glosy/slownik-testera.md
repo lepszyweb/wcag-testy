@@ -166,6 +166,9 @@ przegląd formalny
 przegląd nieformalny
 : {{site.data.definicje.przeglad_nieformalny}}
 
+przypadek testowy
+: {{site.data.definicje.przypadek_testowy}}
+
 przypadek użycia
 : {{site.data.definicje.przypadek_uzycia}}
 

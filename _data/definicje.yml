@@ -30,7 +30,7 @@ implementacja_testow: "Czynność polegająca na przygotowaniu testaliów potrze
 
 infrastruktura_testu: "Organizacyjne artefakty niezbędne do przeprowadzenia testu, składające się ze środowisk testowych, wyposażenia biurowego i procedur."
 
-karta_opisu_testu: "Dekalracja celow testu oraz ewentualnie pomysłów na testowanie."
+karta_opisu_testu: "Deklaracja celow testu oraz ewentualnie pomysłów na testowanie."
 
 kierownik_testow: "Osoba odpowiedzialna za zarządzanie czynnościami testowymi, zasobami oraz oceną przedmiotu testu. Osoba, która kieruje, zarządza, administruje, planuje i reguluje ocenę przedmiotu testu."
 
@@ -139,7 +139,7 @@ walidacja: "Sprawdzanie poprawności i dostarczenie obiektywnego dowodu, że pro
 
 walidator: "Program sprawdzający poprawność dokumentu o określonej składni, np. walidator kodu HTML, walidator kodu CSS. Pomyślne przejście walidacji oznacza zwykle, że kod został napisany zgodnie z&nbsp;gramatyką (składnią) danego języka."
 
-warunek_testowy: "Aspekt podstawy testów, który jest istotny dla osiągnięcia określonych celów testowych."
+warunek_testowy: "Element lub zdarzenie modułu lub systemu, który może być zweryfikowany przez jeden lub więcej przypadków testowych, np. funkcja, transakcja, cecha, atrybut, element struktury."
 
 weryfikacja: "Egzaminowanie poprawności i dostarczenie obiektywnego dowodu, że produkt procesu wytwarzania oprogramowania spełnienia zdefiniowane wymagania. [ISO 9000]"
 
