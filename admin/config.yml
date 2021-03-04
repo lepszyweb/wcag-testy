@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: lepszyweb/wcag-testy  # your GitHub username and repository name, separated by a slash
+  name: git-gateway
   branch: gh-pages # optional, default value is "master"
 media_folder: 'assets/uploads'
 collections:
