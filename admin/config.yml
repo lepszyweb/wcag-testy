@@ -1,8 +1,7 @@
-# config.yml
-
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  name: github
+  repo: lepszyweb/wcag-testy  # your GitHub username and repository name, separated by a slash
+  branch: gh-pages # optional, default value is "master"
 media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
