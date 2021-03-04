@@ -20,7 +20,7 @@ Dobrze zorganizowana treść jest przydatna dla wszystkich użytkowników, ale s
 ## Standard dostępności
 Standard dostępności wyznaczają **WCAG 2.1** w  **kryterium sukcesu**: {% include ks/1-3-1.md %}
 
-## Struktura stron a technologie internetowe
+## Struktura stron a technologie internetowe 
 Starsze wersje HTML nie posiadały efektywnego sposobu oznaczania struktury stron. Zapewnił je dopiero HTML5, korzystając z dorobku prac nad standardem WAI-ARIA. HTML5 wprowadził:
 
 - **nowe znaczniki semantyczne**, takie jak `header`, `nav`, `main`, `aside`, `footer` czy `section`.

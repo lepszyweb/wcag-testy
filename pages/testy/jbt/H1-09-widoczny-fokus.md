@@ -36,7 +36,7 @@ Twórcy stron i aplikacji mogą umożliwiać i&nbsp;wyłączać możliwość otr
 Kontrola wizualna. Test nawigacji za pomocą klawiatury
 
 ## Zastosowanie
-Komponenty interfejsu dostępne dla klawiatury, np. łącza, pola formularzy, rozwijane menu, treść rozwijana/zwijana treści, widoki drzewa, okienka wyskakujące, lightbox, ramki, ramki włączone (iframes).
+Wszystkie interaktywne elementy strony, np. łącza, kontrolki formularzy, rozwijane menu, rozwijane panele (karty, harmonijki, drzewa), okienka wyskakujące, lightboksy, ramki, ramki włączone (iframes).
 
 ## Założenia, ograniczenia, wyjątki
 -   W porządku tabulacji mogą być niektóre elementy interfejsu, które nie są zwykle uważane za interaktywne (np. tekst instrukcji wypełniania formularzy). Takie komponenty interfejsu powinny otrzymywać widoczny fokus, gdy użytkownik nawiguje do nich za pomocą klawiatury.

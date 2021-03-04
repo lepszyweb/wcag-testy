@@ -12,7 +12,8 @@ folder: testy/jbt
 Kontrola wizualna. Test nawigacji za pomocą klawiatury, wykorzystanie narzędzia ujawniającego interaktywne elementy strony
 
 ## Zastosowanie
-_do opracowania_
+Wszystkie interaktywne elementy strony, np. łącza, kontrolki formularzy, rozwijane menu, rozwijane panele (karty, harmonijki, drzewa), okienka wyskakujące, lightboksy, ramki, ramki włączone (iframes).
+
 ## Założenia, zastrzeżenia lub wyjątki
 _do opracowania_
 
