@@ -30,7 +30,7 @@ Kryteria sukcesu: [3.3.1 Identyfikacja błędu](https://wcag.lepszyweb.pl/#error
       - Jest powiązany z polem jako część etykiety za pomocą atrybutu `aria-labelledby` lub `aria-describedby` ALBO
       - Jest częścią obszaru z treścią dynamiczną (`aria-live`) i ogłaszaną jako *alert*.
     - Komunikat o błędach prezentowany jest na liście błędów, a fokus klawiatury umieszczany jest tuż przed początkiem listy umieszczonej nad formularzem.
--	Jeśli w polach formularza wprowadzane są dane, który skutkują podjęciem przez użytkownika zobowiązań prawnych lub finansowych albo dotyczą ważnych danych osobowych, wówczas:
+-	Jeśli w polach formularza wprowadzane są dane, które skutkują podjęciem przez użytkownika zobowiązań prawnych lub finansowych albo dotyczą ważnych danych osobowych, wówczas:
     - **Odwracalność**: Wprowadzenie danych jest odwracalne lub
     - **Sprawdzanie**: Dane są sprawdzane pod kątem błędów, a użytkownik ma możliwość poprawienia ewentualnych błędów lub
     - **Potwierdzenie**: Istnieje mechanizm, umożliwiający użytkownikowi sprawdzenie, skorygowanie i potwierdzenie poprawności danych przed ich ostatecznym przesłaniem.

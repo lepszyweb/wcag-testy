@@ -46,7 +46,7 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
     - atrybuty `aria-label` są używane tylko wtedy, gdy etykieta tekstowa nie byłaby odpowiednia dla osoby korzystającej z czytnika ekranu (preferowany tytuł)
 
 ### Wykorzystanie skryptozkładki ANDI
-![Wykorzystanie skryptozkładki ANDI](/images/andi-forms.png)
+![Wykorzystanie skryptozkładki ANDI](/images/andi/andi-forms.png)
 1.	Uruchom skryptozakładkę ANDI i wybierz z menu opcję *focusable elements*.
 2.	Użyj przełącznika między wykrytymi elementami strony, aby wybierać komponenty formularzy do analizy.
 3.	Dane wybranego komponentu (znacznik, typ,...) pojawiają obok etykiety *Element*.
@@ -76,8 +76,8 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
 -	skryptozakładka [Forms](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
 -	skryptozakładka [Form Labels](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera
 -	skryptozakładka [Forms](https://accessibility-bookmarklets.org/install.html) z kolekcji Pixo i University of Illinois. z kolekcji Pixo i University of Illinois.
--	Opcja focusable elements w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
--	Opcja links/buttons w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
+-	Opcja interaktywne w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
+-	Opcja łącza/przyciski w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
 
 #### Techniki WCAG 2.1
 _do opracowania_
