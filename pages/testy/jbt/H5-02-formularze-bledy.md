@@ -24,7 +24,7 @@ _do opracowania_
 ### Oczekiwanie:
 Kryteria sukcesu: [3.3.1 Identyfikacja błędu](https://wcag.lepszyweb.pl/#error-identification), [3.3.3 Sugestie korekty błędów](https://wcag.lepszyweb.pl/#error-suggestion), [3.3.4 Zapobieganie błędom (kontekst prawny, finansowy, związany z podawaniem danych)](https://wcag.lepszyweb.pl/#error-prevention-legal-financial-data)
 -	Każdy komunikat o błędzie dokładnie opisuje błąd i wskazuje, jak go usunąć.
--	Komunikaty o błędach są łatwo wykrywalny przez wszystkich użytkowników. Możliwe sposoby prezentacji:
+-	Komunikaty o błędach są łatwo wykrywalne przez wszystkich użytkowników. Możliwe sposoby prezentacji:
     - komunikat o błędzie jest wyświetlany w wyskakującym oknie dialogowym,
     - komunikat o błędzie jest wyświetlany bezpośrednio obok pola błędu ORAZ:
       - Jest powiązany z polem jako część etykiety za pomocą atrybutu `aria-labelledby` lub `aria-describedby` ALBO

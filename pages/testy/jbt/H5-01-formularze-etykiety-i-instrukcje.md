@@ -46,7 +46,7 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
     - atrybuty `aria-label` są używane tylko wtedy, gdy etykieta tekstowa nie byłaby odpowiednia dla osoby korzystającej z czytnika ekranu (preferowany tytuł)
 
 ### Wykorzystanie skryptozkładki ANDI
-![Wykorzystanie skryptozkładki ANDI](/img/andi-forms.png)
+![Wykorzystanie skryptozkładki ANDI](/images/andi-forms.png)
 1.	Uruchom skryptozakładkę ANDI i wybierz z menu opcję *focusable elements*.
 2.	Użyj przełącznika między wykrytymi elementami strony, aby wybierać komponenty formularzy do analizy.
 3.	Dane wybranego komponentu (znacznik, typ,...) pojawiają obok etykiety *Element*.
