@@ -33,6 +33,24 @@ Korzystanie z dodatku nie wymaga specjalnych umiejętności. Po prostu przejdź 
 ## Okno i funkcje programu
 Okno dodatku podzielone jest na trzy sekcje. W nagłówku znajduje się logo, menu z dostępem do opcji *Help* (Pomoc), *Check contrast* (Sprawdź kontrast) i *Relase notes* (Uwagi o wydaniu), przycisk wyłączania dodatku oraz trzy rozwijane listy opcji z możliwością ustawienia wymaganego poziomu WCAG – AA lub AAA, filtra symulatora ślepoty barw oraz autoodświeżania.
 
+### Uwaga
+Według tych kryteriów sukcesu, aby zapewnić, że wizualna prezentacja tekstu i obrazów tekstu będzie rozpoznawalna, współczynnik kontrastu powinien wynosić co najmniej:
+- Dla poziomu AA - 1.4.3 Kontrast (minimalny)
+  - **4,5** w przypadku małego tekstu,   
+  - **3,0** w przypadku dużego tekstu.
+- Dla poziomu AAA - 1.4.6 Kontrast (wzmocniony)  
+  - **7,0** w przypadku małego tekstu,
+  - **4,5** w przypadku dużego tekstu.  
+
+Jako tekst wystarczająco duży, aby wymagać niższego współczynnika kontrastu uznaje się tekst 18-punktowy lub 14-punktowy pogrubiony, czyli:
+
+- **Mały tekst**, według WCAG, jest wtedy, gdy:
+  - ma rozmiar mniejszy niż 18 punktów (24 piksele) ALBO
+  - ma rozmiar mniejszy niż 14 punktów (19 pikseli) i jest pogrubiona.   
+- **Duży tekst**, według WCAG, jest wtedy, gdy:
+  - ma rozmiar co najmniej 18 punktów (24 piksele) ALBO
+  - ma rozmiar co najmniej 14 punktów (19 pikseli) i jest pogrubiona. 
+
 ![Menu dodatku](/images/cca/ccc-menu.png)
 
 Główna część okna podzielona jest na dwie sekcje. W pierwszej, górnej wyświetlana jest tabela z wynikami testów, w&nbsp;dolnej dynamicznie wyświetlane są szczegółowe dane każdego z wykrytych przypadków pary kolorów.
@@ -41,7 +59,7 @@ Główna część okna podzielona jest na dwie sekcje. W pierwszej, górnej wyś
 
 ![Tabela wyników testów](/images/cca/ccc-tabela.png)
 
-Wyniki w tabeli uporządkowane są w trzech kolumnach. W kolumnie *Contrast* wyświetlana jest ikona informująca, czy spełnione zostały wymagania WCAG, a obok niej podany jest wyliczony współczynnik kontrastu. W kolumnie *Size* podany jest rozmiar tekstu – small (mały) lub large (duży), w kolumnie *Elements* znajdują się kolejno: próbka koloru pierwszego planu na tle, liczba wykrytych elementów, nazwa elementu html oraz ikona sygnalizująca, czy element jest widoczny (oko), czy ukryty (przekreślone oko).
+Wyniki w tabeli uporządkowane są w trzech kolumnach. W kolumnie *Contrast* wyświetlana jest ikona informująca, czy spełnione zostały wymagania WCAG, a obok niej podany jest wyliczony współczynnik kontrastu. W kolumnie *Size* podany jest rozmiar tekstu – small (mały) tekst) lub large (duży), w kolumnie *Elements* znajdują się kolejno: próbka koloru pierwszego planu na tle, liczba wykrytych elementów, nazwa elementu html oraz ikona sygnalizująca, czy element jest widoczny (oko), czy ukryty (przekreślone oko).
 
 ## Elementy widoczne i ukryte
 Ikonę sygnalizującą, czy element jest widoczny czy ukryty narzędzie dodaje w wierszu wyników, gdy wykryje, że w&nbsp;badanym elemencie strony zastosowano techniki ukrywania treści (dla elementów składanych, wysuwanych, menu, itp.).
