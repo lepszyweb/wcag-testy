@@ -59,4 +59,4 @@ Do czasu określenia odpowiedniego narzędzia testującego wynik **Nie testowano
 
 {% include ks/2-3-1.md %}
 
-[9. Błyskanie](ICT-09-blyskanie.md)                                                                                               
+[9. Błyskanie](ICT-09-blyskanie)                                                                                                
