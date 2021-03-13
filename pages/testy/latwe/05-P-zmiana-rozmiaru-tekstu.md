@@ -87,7 +87,7 @@ Aby powiększyć rozmiar strony w przeglądarce Chrome:
    - kliknij przycisk Pomniejsz (znak minus: '-'), aby zmniejszyć rozmiar zawartości,
    - kliknij przycisk Powiększ (znak '+'), aby zwiększyć rozmiar zawartości,
 
-	 ![Powiększanie zawartości strony w Chrome](images/andi/05_P_ie-powieksz-tekst.png)
+	 ![Powiększanie zawartości strony w Chrome](images/andi/05_P_chrome-powieksz.png)
 
 Aby powiększyć lub pomniejszyć zawartość strony, możesz też użyć skrótów klawiszowych:
 
