@@ -6,13 +6,19 @@ akapit: "Podstawowy sposób dzielenia łamu na rozpoznawalne wzrokiem mniejsze f
 
 alert: "Komunikat z ostrzeżeniem przerywający nawigację lub używanie strony, zwłaszcza z żądaniem kliknięcia na przycisk lub link w celu kontynuowania nawigacji lub używania treści."
 
-alternatywa_dla_mediow_zmiennych_w_czasie: "(ang. 'alternative for time-based media'). Dokument zawierający prawidłowo uporządkowany tekst przedstwiający informacje przekazywane w medium opartym na czasie wizualnie i dźwiękowo oraz uwzględniający końcowy stan interakcji z tym medium. <br/>**Uwaga**: Scenariusz użyty do stworzenia zsynchronizowanych multimediów może być objęty taką definicją tylko wówczas, gdy został poprawiony, tak, by odpowiadać dokładnej końcowej wersji multimediów po zakończeniu edycji."
+alternatywa_dla_mediow_opartych_na_czasie: "(ang. 'alternative for time-based media'). Dokument zawierający prawidłowo uporządkowany tekst przedstwiający informacje przekazywane w medium opartym na czasie wizualnie i dźwiękowo oraz uwzględniający końcowy stan interakcji z tym medium. <br/>**Uwaga**: Scenariusz użyty do stworzenia zsynchronizowanych multimediów może być objęty taką definicją tylko wówczas, gdy został poprawiony, tak, by odpowiadać dokładnej końcowej wersji multimediów po zakończeniu edycji."
 
 alternatywa_tekstowa: "(ang. 'text alternative'), inaczej *odpowiednik tekstowy*. Tekst używany zamiast treści nietekstowej, przedstawiający tę samą informację, co treść nietekstowa, w odniesieniu do kontekstu treści dokumentu, w którym się znajduje, skojarzony programowo z treścią nietekstową. Tekst *skojarzony programowo* to taki, którego położenie w stosunku do treści nietekstowej jest określone w kodzie, dzięki czemu może być odczytany przez technologie wspomagajace oraz funkcje dostępności w przeglądarkach internetowych."
 
 animacja_ruchowa: "(ang. 'motion animation'). Dodanie kroków między warunkami, aby stworzyć iluzję ruchu lub dać wrażenie płynnego przejścia. <br>Na przykład element, który przesuwa się na miejsce lub zmienia rozmiar podczas pojawiania się, jest uważany za animowany. Element, który pojawia się natychmiast bez przejścia, nie używa animacji. Animacja ruchowa nie obejmuje zmian koloru, rozmycia ani krycia."
 
-aplikacja_mobilna: "Publicznie dostępne oprogramowanie z interfejsem dotykowym zaprojektowane do wykorzystania na przenośnych urządzeniach elektronicznych, z wyłączeniem aplikacji przeznaczonych do użytku na przenośnych komputerach osobistych."
+aplikacja_hybrydowa: "Połączenie aplikacji natywnej i aplikacji internetowej. Jest zbudowana przy użyciu otwartych standardów internetowych, takich jak HTML5, CSS i JavaScript. Podobnie jak w przypadku aplikacji natywnych, aplikacje hybrydowe muszą być pobierane i instalowane na urządzeniach mobilnych."
+
+aplikacja_natywna: "Aplikacja do pobrania. Jest dedykowana dla określonej platformy. W większości przypadków może być używana w trybie offline. Aplikacje natywne należy przed uruchomieniem zainstalować na urządzeniu przenośnym."
+
+aplikacja_internetowa: "Aplikacja sieciowa, która musi zostać uruchomiona przez przeglądarkę urządzenia mobilnego. Ponieważ pliki źródłowe są przechowywane na serwerze, wymagane jest połączenie internetowe, ale pobieranie lub instalacja nie są konieczne."
+
+aplikacja_mobilna: "Oprogramowanie zaprojektowane do wykorzystania na przenośnych urządzeniach elektronicznych. Może być natywna, internetowa lub hybrydowa (mieszana)."
 
 arkusz_stylow: "Kod zapisany w języku CSS, określający reguły formatowania elementów treści (na przykład koloru tła strony, rozmiaru/koloru czcionki, pozycjonowania informacji na stronie internetowej itp.). Style CSS mogą być zewnętrzne (plik CSS), wbudowane (zadeklarowane w nagłówku strony - head) lub bezpośrednie (zadeklarowane przez atrybut style znacznika)."
 
@@ -92,14 +98,14 @@ kontrolowane_przez_uzytkownika: "(ang. 'user controllable'). Dane w zamierzeniu 
 
 lacze: "(ang. 'hyperlink, link'). Odnośnik, odsyłacz w dokumencie elektronicznym (tekstowym, graficznym, wideo, animacji, PDF, HTML) będące odwołaniem do innego dokumentu lub innego miejsca w danym dokumencie. Odwołanie takie związane jest z fragmentem tekstu lub obrazem – uaktywnienie hiperłącza (kliknięcie lub nadejście odpowiedniego momentu) powoduje otwarcie dokumentu docelowego. Łącza są powszechnie używane na stronach internetowych."
 
-material_dzwiekowy: "(ang. 'audio-only') Zmienne w czasie media zawierające wyłącznie dźwięk."
+material_dzwiekowy: "(ang. 'audio-only') Oparte na czasie media zawierające wyłącznie dźwięk."
 
 mechanizm: "Procedura lub technika prowadząca do osiągnięcia rezultatu. <br>*Uwaga 1:* Mechanizm może być dostarczany bezpośrednio w treści albo może być oparty zarówno na platformie, jak i na oprogramowaniu
 użytkownika, w tym na technologiach asystujących. <br>*Uwaga 2:* Mechanizm wymaga spełnienia wszystkich kryteriów sukcesu żądanych dla danego poziomu."
 
 media: "Środek przekazu, to, za pośrednictwem czego są przekazywane lub wyrażane jakieś treści. <br>**Uwaga**: Media umożliwiają wykorzystanie wszystkich środków prezentacyjnych i reprezentacyjnych takich jak: głos, wzrok, twarz, mimika, gesty, jak również teksty, obrazy, rysunki, fotografie, filmy."
 
-media_zmienne_w_czasie: "Media dynamiczne, oparte na sekwencji obrazów i dźwięków"
+media_oparte_na_czasie: "Media dynamiczne, oparte na sekwencji obrazów i dźwięków"
 
 migotanie: "(ang. 'blinking'). Naprzemienna zmiana stanu wizualnego w celu zwrócenia uwagi.<br>**Uwaga:** Zobacz także błysk. W przypadku odpowiedniej wielkości, odpowiedniej jasności oraz odpowiedniej częstotliwości, migotanie może być zakwalifikowane jako błyskanie."
 

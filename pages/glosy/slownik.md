@@ -23,8 +23,8 @@ akapit
 alert
 : {{site.data.glossary.alert}}
 
-alternatywa dla mediów zmiennych w czasie
-: {{site.data.glossary.alternatywa_dla_mediow_zmiennych_w_czasie}}
+alternatywa dla mediów opartych na czasie
+: {{site.data.glossary.alternatywa_dla_mediow_opartych_na_czasie}}
 
 alternatywa tekstowa
 : {{site.data.glossary.alternatywa_tekstowa}}
@@ -32,8 +32,17 @@ alternatywa tekstowa
 animacja ruchowa
 : {{site.data.glossary.animacja_ruchowa}}
 
+aplikacja hybrydowa
+: {{site.data.glossary.aplikacja_hybrydowa}}
+
+aplikacja internetowa
+: {{site.data.glossary.aplikacja_internetowa}}
+
 aplikacja mobilna
 : {{site.data.glossary.aplikacja_mobilna}}
+
+aplikacja natywna
+: {{site.data.glossary.aplikacja_natywna}}
 
 arkusz stylów
 : {{site.data.glossary.arkusz_stylow}}
@@ -172,8 +181,8 @@ mechanizm
 media
 : {{site.data.glossary.media}}
 
-media zmienne w czasie
-: {{site.data.glossary.media_zmienne_w_czasie}}
+media oparte na czasie
+: {{site.data.glossary.media_oparte_na_czasie}}
 
 migotanie
 : {{site.data.glossary.migotanie}}

@@ -1,10 +1,10 @@
-audytor: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny."
-
 analiza_statyczna_kodu: "Analiza kodu źródłowego bez wykonywania oprogramowania."
 
 analiza_testow: "Proces analizy podstawy testów i definiowania celów testu."
 
 audyt: "Niezależne badanie produktu pracy, procesu lub zestawu procesów wykonywanych przez stronę trzecią w celu oceny zgodności ze specyfikacjami, standardami, umowami lub innymi kryteriami. Wg [IEEE 1028]."
+
+audytor: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot odpowiedzialny za przeprowadzenie oceny."
 
 awaria: "Odchyłka modułu lub systemu od oczekiwanego zachowania lub rezultatu działania (wg Fenton)."
 
