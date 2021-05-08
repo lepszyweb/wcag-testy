@@ -477,7 +477,7 @@ wydanie punktowe
 wydarzenie w czasie rzeczywistym
 : {{site.data.glossary.wydarzenie_w_czasie_rzeczywistym}}
 
-wykluczenie_cyfrowe
+wykluczenie cyfrowe
 : {{site.data.glossary.wykluczenie_cyfrowe}}
 
 wyłącznie dekoracyjny
