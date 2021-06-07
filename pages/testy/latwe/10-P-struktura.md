@@ -50,7 +50,7 @@ Chociaż dobrze jest mieć doświadczonego użytkownika czytnika ekranu testują
 
 ### Uwagi:
 -	Tabele danych nie będą miały sensu, gdy zostaną zlinearyzowane – zignoruj to, ponieważ czytniki ekranu mają funkcję umożliwiającą korzystanie z tabel danych (pod warunkiem, że są odpowiednio oznakowane).
--	Demo Przed i Po daje wyraźny pogląd na to, jak podstawowy test struktury strony ujawnia bariery dostępności. (Jest to również trochę zabawne, więc sugerujemy, aby to sprawdzić, wykonując [poniższe ZŁE instrukcje]() ).
+-	Demo Przed i Po daje wyraźny pogląd na to, jak podstawowy test struktury strony ujawnia bariery dostępności. (Jest to również trochę zabawne, więc sugerujemy, aby to sprawdzić, [badając niedostępne strony PrzediPo wg instrukcji opisanych poniżej](sprawdzenie-struktury-na-stronie-demo-przedipo) ).
 
 ### Co robić:
 Uzyskaj widok podstawowej struktury strony, postępując zgodnie z instrukcjami w sekcji Podstawowe testy struktury poniżej, aby:
