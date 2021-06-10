@@ -74,7 +74,7 @@ Poniższe dokumenty wprowadzają podstawowe elementy dostępności stron interne
 Są to szczególnie ważne zasoby, które nakreślają różne podejścia do oceny stron internetowych pod kątem dostępności:
 
 - [**Łatwe testy** – pierwszy przegląd dostępności stron internetowych](00-P-wprowadzenie); oryginał: [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
-- [Zaangażowanie użytkowników w ocenę dostępności stron internetowych](http://www.w3.org/WAI/eval/users) (w języku angielskim)
+- [Włączanie użytkowników do oceny dostępności cyfrowej](https://lepszyweb.pl/blog2/wlaczanie-uzytkownikow-do-oceny-dostepnosci-cyfrowej); oryginał: [Involving Users in Evaluating Web Accessibility](https://www.w3.org/WAI/test-evaluate/involving-users/)
 - [Wybór narzędzi do oceny dostępności sieci (Web Accessibility Evaluation Tools)](http://www.w3.org/WAI/eval/selectingtools) (w języku angielskim)
 - [Wykorzystanie wiedzy specjalistycznej w celu oceny dostępności stron internetowych](http://www.w3.org/WAI/eval/reviewteams) (w języku angielskim)
 
@@ -82,8 +82,8 @@ Są to szczególnie ważne zasoby, które nakreślają różne podejścia do oce
 
 Jest to uznawany na całym świecie standard wyjaśniający, w jaki sposób sprawić, by treści internetowe były bardziej dostępne dla osób z&nbsp;niepełnosprawnościami. Poniższe materiały są szczególnie ważne dla oceny dostępności stron internetowych:
 
-- [WCAG 2.1 Przegląd](https://www.w3.org/WAI/standards-guidelines/wcag/) (w języku angielskim)
-- [WCAG 2.1 Specyfikacja techniczna](https://www.w3.org/TR/WCAG21/)  (w języku angielskim)
+- [WCAG 2.1 Omówienie WCAG](https://lepszyweb.pl/blog/omowienie-wcag) (w języku angielskim)
+- [WCAG 2.1 Specyfikacja techniczna](https://www.w3.org/Translations/WCAG21-pl/)
 - [Jak spełnić WCAG 2 (Krótki przewodnik)](https://wcag.lepszyweb.pl)
 - [Zrozumieć WCAG](https://www.w3.org/WAI/WCAG21/Understanding/)  (w języku angielskim)
 - [Techniki dla WCAG](https://www.w3.org/WAI/WCAG21/Techniques/)  (w języku angielskim)

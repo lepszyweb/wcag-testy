@@ -51,3 +51,14 @@ Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarcza
 
 - {% include techniki/G19.md %}
 - {% include techniki/G176.md %}
+
+Nagrania dźwiękowe zarejestrowane wcześniej (transmisje na żywo) nie są objęte tym testem.
+
+Wszystkie wideo bez dźwięku (tylko wideo) nagrane wcześniej.
+
+Uwaga: Treść „tylko wideo” nie obejmuje treści wideo z dźwiękiem, nawet jeśli jest to tylko muzyka w tle, która nie niesie żaddnej znaczącej informacji.
+
+Uwaga: Krótkie efekty animacji, takie jak zmiana stanu przycisku na „wciśnięty” lub „niewciśnięty”, zmniejszanie ikony pliku po zamknięciu pliku, nie są treściami wideo.
+
+
+

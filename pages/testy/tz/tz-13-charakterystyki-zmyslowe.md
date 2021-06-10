@@ -140,7 +140,7 @@ Część testu 13.A 1.4.1-uzycie-koloru polega na upewnieniu się, że sam kolor
 | 1.4.3-kontrast   | Wizualna prezentacja tekstu i obrazy tekstu mają wystarczający kontrast. |
 
 ### Cel testu 13.C 1.4.3-kontrast
-Celem tego testu jest zapewnienie wystarczającego kontrastu między tekstem pierwszego planu i jego tłem, aby był czytelny. Dotyczy to tekstu i obrazów tekstu. Wyniki tego testu są wykorzystywane do ustalenia, czy kontrast WCAG SC 1.4.3 (minimum) jest spełniony.
+Celem tego testu jest zapewnienie wystarczającego kontrastu między tekstem pierwszego planu i jego tłem, aby był czytelny. Dotyczy to tekstu i obrazów tekstu. Wyniki tego testu są wykorzystywane do ustalenia, czy kontrast WCAG SC 1.4.3 (minimalny) jest spełniony.
 
 ### Metody i narzędzia testowe 
 
@@ -152,7 +152,7 @@ Cały widoczny znaczący tekst ORAZ obrazy tekstu.
 
 **Uwaga:**
 
-- Niektóre teksty mogą być początkowo niewidoczne na stronie, w tym teksty, który stają się widoczny po wskazaniu kursorem myszki lub gdy element otrzymuje fokus. Niemniej jednak, tekst musi spełniać wymagania dotyczące kontrastu kolorów, niezależnie od miejsca jego występowania.
+- Niektóre teksty mogą być początkowo niewidoczne na stronie, w tym teksty, które stają się widoczne po wskazaniu kursorem myszki lub gdy element otrzymuje fokus. Niemniej jednak, tekst musi spełniać wymagania dotyczące kontrastu kolorów, niezależnie od miejsca jego występowania.
 
 ### Zastosowanie
 

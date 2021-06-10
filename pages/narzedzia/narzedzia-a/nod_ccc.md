@@ -88,5 +88,3 @@ Analizator posiada również funkcję wybierania kolorów bezpośrednio z dokume
 ## Aktualizacja DOM i odświeżanie wyników testu
 Ciekawą funkcjonalnością jest możliwość  przetestowania zmian w drzewie DOM lub zmiany wartości klas stylów CSS za pomocą narzędzi programisty w przeglądarce. Można np. zmodyfikować dowolny kolor wybranego elementu, a&nbsp;następnie użyć przycisku check contrast (sprawdź kontrast), aby ocenić efekt modyfikacji. 
 
-
-

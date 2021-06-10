@@ -17,7 +17,10 @@ folder: testy/itc
     -   2.2.2 - Wstrzymywanie (pauza), zatrzymywanie, ukrywanie.
 
 ## Uzasadnienie metody badania
-O wynikach tego testu podstawowego decydują wyniki testów dla KS 1.4.2, 2.1.2, 2.3.1 i 2.2.2
+O wynikach tego testu podstawowego decydują wyniki testów dla KS [1.4.2](ICT-21-limity-czasu.md), 2.1.2, 2.3.1 i 2.2.2
+
+Wyniki testów dla SC 1.4.2 (21.4-AudioControl), 2.1.2 (1.2-NoKeyboadTrap), 2.3.1 (9.1-Flashes) i 2.2.2 (21.2-MovingInfo i 21.3-AutoUpdate) określają wynik tego test podstawowy.
+
 
 ## Ograniczenia, założenia lub wyjątki
 
