@@ -149,11 +149,14 @@ Poniżej przedstawiamy nieco sugestii i przykładów pod rozwagę.
 - [Tenon](https://tenon.io/)
 - [A11Y compliance platform](https://www.boia.org/products/a11y-tool/)
 - [Continuum (Access Level)](https://www.webaccessibility.com/)
+- [Experte Accessibility Checker](https://www.experte.com/accessibility)
 - [Siteimprove](https://siteimprove.com/en/accessibility/)
 - [WorldSpace Attest](https://www.deque.com/tools/)
 - [Dyno  Mapper](https://dynomapper.com/)
 - [Utilitia](http://utilitia.pl/)
 - [Walidator ALLY](https://wallidator.lepszyweb.pl) ([Tanaguru](https://www.tanaguru.com/en/), [Asqatasun](https://asqatasun.org/))
+
+
 
 #### Walidatory znaczników
 - [Walidator HTML](https://validator.w3.org/)
@@ -183,6 +186,9 @@ Poniżej przedstawiamy nieco sugestii i przykładów pod rozwagę.
   - [Siteimprove Accessibility Checker](https://chrome.google.com/webstore/detail/siteimprove-accessibility/efcfolpjihicnikpmhnmphjhhpiclljc)
   - [WCAG Accessibility Audit Developer UI](https://chrome.google.com/webstore/detail/wcag-accessibility-audit/kpfleokokmllclahndmochhenmhncoej)
   - [Accessibility Insights for Web](https://accessibilityinsights.io/docs/en/web/overview)
+  - [IBM Equal Access Accessibility Checker dla Chrome](https://chrome.google.com/webstore/detail/ibm-equal-access-accessib/lkcagbfjnkomcinoddgooolagloogehp) 
+  - [IBM Equal Access Accessibility Checker dla Firefox](https://addons.mozilla.org/en-US/firefox/addon/accessibility-checker/)
+  - [TAD - Twój Asystent Dostępności](https://tad.lepszyweb.pl/)
 
 #### Narzędzia wyspecjalizowane
   - [Web Disability Simulator](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) (już wyłączone)
@@ -198,6 +204,7 @@ Poniżej przedstawiamy nieco sugestii i przykładów pod rozwagę.
   - [tota11y](https://khan.github.io/tota11y/) - accessibility visualization toolkit
   - [ASLint](https://www.aslint.org/) - Accessibility testing tool
   - [81 użytecznych skryptoakładek](http://dostepny.joomla.pl/warsztat/narzedzia/19-walidatory/210-skryptozakladki)
+  - [a11y.css](https://lepszyweb.github.io/a11y.css/)
   
 ### Rozszerzenia narzędzi autorskich
 - [callas pdfGoHTML](https://www.callassoftware.com/en/products/pdfgohtml) (callas software GmbH)
