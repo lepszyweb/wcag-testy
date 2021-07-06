@@ -116,7 +116,7 @@ IBM Equal Access Accessibility Checker oferuje dwa widoki. Widok Tester dostępn
      - Otwórzyć i zaznaczyć wszystkie problemy w elemencie, jeśli występują (fioletowe podświetlenie)
      - Otwórzyć i zaznaczyć wszystkie problemy w elementach potomnych elementu, jeśli występują (jasnofioletowe podświetlenie).
 10. Karta Wymagania:
-    - Wybierz kartę **Wymagania**, aby wyświetlić wyniki skanowania <a href="https://www.ibm.com/able/requirements/requirements/">według wymagań dostępności IBM
+    - Wybierz kartę **Wymagania**, aby wyświetlić wyniki skanowania [według wymagań dostępności IBM](https://www.ibm.com/able/requirements/requirements/)
     - Wybierz element lub wystąpienie problemu, aby wyróżnić ten sam zestaw problemów i&nbsp;problemów podrzędnych, co na karcie „Role elementów”. W&nbsp;tym widoku problemy zostaną pokazane w&nbsp;ramach odpowiednich wymagań.
 11. Karta Reguły:
     - Wybierz kartę **Reguły**, aby wyświetlić wyniki skanowania według reguł sprawdzania dostępności.
