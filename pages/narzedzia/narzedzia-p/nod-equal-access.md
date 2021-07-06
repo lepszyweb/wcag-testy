@@ -39,9 +39,9 @@ Wykonaj poniższe kroki, aby zainstalować rozszerzenie przeglądarki dla Mozill
 
 Narzędzie zgłasza trzy rodzaje problemów z dostępnością:
 
-- <img src="" alt="Ikona naruszeń " style="vertical-align: middle;"> **Naruszenia** - błędy dostępności, które wymagają naprawy.
-- <img src="" alt="ikona Do przeglądu " style="vertical-align: middle;"> **Do przeglądu** - przypadki, które mogą nie być naruszeniem. Wymagają one ręcznego przeglądu w celu określenia, czy istnieje problem z dostępnością.
-- <img src="" alt="ikona Ulepszenia" style="vertical-align: middle;"> **Ulepszenia** - możliwości zastosowania najlepszych praktyk w celu dalszej poprawy dostępności.
+- <img src="/images/equal-access/Violation16.svg" alt="ikona Rekomendacje" style="vertical-align: middle;"> **Naruszenia** - błędy dostępności, które wymagają naprawy.
+- <img src="/images/equal-access/NeedsReview16.svg" alt="ikona Do przeglądu " style="vertical-align: middle;"> **Do przeglądu** - przypadki, które mogą nie być naruszeniem. Wymagają one ręcznego przeglądu w celu określenia, czy istnieje problem z dostępnością.
+- <img src="/images/equal-access/Recommendation16.svg" alt="ikona Rekomendacje" style="vertical-align: middle;"> **Rekomendacje** - możliwości zastosowania najlepszych praktyk w celu dalszej poprawy dostępności.
 
 Jak w przypadku każdego narzędzia do automatycznego testowania dostępności, testy te nie wychwytują wszystkich problemów. Dopełnij swoją ocenę dostępności [szybkim testem jednostkowym](https://ibm.com/able/toolkit/develop/considerations/unit-testing) lub przejdź do [pełnego procesu testowania dostępności](https://ibm.com/able/toolkit/verify).
 
@@ -63,8 +63,7 @@ Po zmianie opcji zamknij i otwórz ponownie narzędzia programistyczne, aby zmia
 
 Wykonaj poniższe kroki, aby otworzyć stronę z opcjami programu Tester dostępności:
 
-1. W pasku narzędzi przeglądarki, wybierz ikonę IBM Equal Access Accessibility Checker, widoczną jako fioletowa pszczoła 
-<img src="" alt="ikona aplikacji Tester dostępności">. Zazwyczaj znajduje się on w&nbsp;prawym górnym rogu okna okna przeglądarki. Pojawi się nakładka.
+1. W pasku narzędzi przeglądarki, wybierz ikonę IBM Equal Access Accessibility Checker, widoczną jako fioletowa pszczoła <img src="/images/equal-access/Bee_Logo@32px.png" alt="ikona aplikacji Tester dostępności">. Zazwyczaj znajduje się on w&nbsp;prawym górnym rogu okna okna przeglądarki. Pojawi się nakładka.
 
 2. Wybierz w nakładce **Opcje**. Opcje zostaną otwarte na nowej karcie przeglądarki. **Uwaga:** W przeglądarce Firefox, gdy w opcjach *Wzmocniona ochrona przed śledzeniem* wybrano ustawienie **Ścisła**, zdarza się, że niektóre witryny lub treści mogą zostać uszkodzone i może to uniemożliwić otwarcie strony Opcje. Zmień ustawienia prywatności przeglądarki na Standard, aby uniknąć tej sytuacji.<br />
 ![Zrzut ekranu strony opcji - strona, na której można wybrać wdrożenie zestawu reguł oraz zestaw reguł, z jakiego ma korzystać kontroler.](/images/equal-access/5_Options.png)
