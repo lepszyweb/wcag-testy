@@ -122,7 +122,7 @@ IBM Equal Access Accessibility Checker oferuje dwa widoki. Widok Tester dostępn
     - Wybierz kartę **Reguły**, aby wyświetlić wyniki skanowania według reguł sprawdzania dostępności.
     - Wybierz element lub wystąpienie problemu, aby wyróżnić ten sam zestaw problemów i&nbsp;problemów podrzędnych, co na karcie „Role elementów”. Z&nbsp;tego punktu widzenia problemy zostaną pokazane w ramach odpowiednich zasad.
     - Przełączaj się między kartami, aby zobaczyć ten sam zestaw wyróżnionych problemów w&nbsp;różnych widokach.
-    - Użyj przycisku menu **Raporty**, aby pobrać raporty oraz przechowywać i&nbsp;zarządzać skanami w celu połączenia ich w raporty. Aby uzyskać szczegółowe informacje, zobacz sekcje [6.4 Tworzenie raportu ze skanowania](), [6.5 Tworzenie raportu z wielu skanów]() oraz [7 Raporty sprawdzania dostępności]
+    - Użyj przycisku menu **Raporty**, aby pobrać raporty oraz przechowywać i&nbsp;zarządzać skanami w celu połączenia ich w raporty. Aby uzyskać szczegółowe informacje, zobacz sekcje [6.4 Tworzenie raportu ze skanowania](#64-tworzenie-raportu-ze-skanowania), [6.5 Tworzenie raportu z wielu skanów](#65-tworzenie-raportu-z-wielu-skan%C3%B3w) oraz [7 Raporty sprawdzania dostępności](#7-raporty-sprawdzania-dost%C4%99pno%C5%9Bci)
     - Opcjonalnie możesz zaktualizować kod w panelu Elementy przeglądarki i&nbsp;ponownie uruchomić **Skanuj**, aby potwierdzić, że zmiany w kodzie rozwiązują problem.
 
 ### 6.2 Widok skoncentrowany
@@ -176,7 +176,7 @@ Na tym zrzucie ekranu wybrano pole wyszukiwania &lt;input&gt; w DOM, a przełąc
 
 Aby wygenerować raport dla pojedynczego skanu w widoku **Tester dostępności**:
 
-1. Postępuj zgodnie z instrukcjami w [6.1 Tester dostępności](), aby zeskanować stronę internetową.
+1. Postępuj zgodnie z instrukcjami w [6.1 Tester dostępności](#61-tester-dostępności), aby zeskanować stronę internetową.
 2. Otwórz menu rozwijane **Raporty**, które znajduje się za przyciskiem skanowania.<br />
 ![Zrzut ekranu menu 'Raporty'](/images/equal-access/6_4_CreatingSingleScanReport2.png)
 3. Wybierz **Pobierz aktualny skan**.
@@ -184,7 +184,7 @@ Aby wygenerować raport dla pojedynczego skanu w widoku **Tester dostępności**
 
 Aby wygenerować raport dla pojedynczego skanowania w widoku **Ocena dostępności**:
 
-1. Postępuj zgodnie z instrukcjami w [6.3 Ocena dostępności](), aby zeskanować stronę internetową.
+1. Postępuj zgodnie z instrukcjami w [6.3 Ocena dostępności](#63-ocena-dostępności), aby zeskanować stronę internetową.
 2. Wybierz przycisk **Raporty**.
 3. Raport z ostatniego skanowania zostanie pobrany w formacie arkusza kalkulacyjnego HTML i&nbsp;MS Excel.
 
@@ -192,7 +192,7 @@ Aby wygenerować raport dla pojedynczego skanowania w widoku **Ocena dostępnoś
 
 Wykonaj poniższe czynności, aby połączyć kilka skanów w jeden raport. Można połączyć do 50 skanów. Raporty zawierające więcej niż 50 skanów mogą nie otwierać się poprawnie w&nbsp;MS Excel ze względu na ograniczenia bibliotek używanych do pisania raportów.
 
-1. Otwórz widok **Tester dostępności** (opisany w [6.1 Tester dostępności]()).
+1. Otwórz widok **Tester dostępności** (opisany w [6.1 Tester dostępności](#61-tester-dostępności)).
 2. Otwórz menu rozwijane **Raporty**.
 3. Wybierz pozycję menu **Rozpocznij przechowywanie skanów**.
 4. Wskaźnik stanu poniżej przycisku skanowania pokaże, że teraz przechowujesz skany w&nbsp;celu utworzenia raportu i&nbsp;że żadne skany nie są przechowywane.<br />
@@ -256,7 +256,7 @@ Poniżej wyróżniono kilka funkcji dostępności umożliwiających dostosowanie
 
 ## 7. Raporty sprawdzania dostępności
 
-Narzędzie sprawdzania dostępności może tworzyć raporty dla pojedynczego skanowania lub dla wielu skanów połączonych (raporty z wielu skanów). Raporty pojedynczego skanowania są dostarczane zarówno w formacie arkuszy kalkulacyjnych HTML, jak i&nbsp;MS Excel. Raporty z&nbsp;wielu skanów są dostępne tylko w formacie arkusza kalkulacyjnego MS Excel. Rozdziały [6.4 Tworzenie raportu ze skanowania]() oraz [6.5 Tworzenie raportu z wielu skanów]() opisują sposób generowania raportów.
+Narzędzie sprawdzania dostępności może tworzyć raporty dla pojedynczego skanowania lub dla wielu skanów połączonych (raporty z wielu skanów). Raporty pojedynczego skanowania są dostarczane zarówno w formacie arkuszy kalkulacyjnych HTML, jak i&nbsp;MS Excel. Raporty z&nbsp;wielu skanów są dostępne tylko w formacie arkusza kalkulacyjnego MS Excel. Rozdziały [6.4 Tworzenie raportu ze skanowania](#64-tworzenie-raportu-ze-skanowania) oraz [6.5 Tworzenie raportu z wielu skanów](#65-tworzenie-raportu-z-wielu-skanów) opisują sposób generowania raportów.
 
 ### 7.1 Raport HTML
 
