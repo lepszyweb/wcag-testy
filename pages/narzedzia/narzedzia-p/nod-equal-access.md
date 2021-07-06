@@ -63,7 +63,7 @@ Po zmianie opcji zamknij i otwórz ponownie narzędzia programistyczne, aby zmia
 
 Wykonaj poniższe kroki, aby otworzyć stronę z opcjami programu Tester dostępności:
 
-1. W pasku narzędzi przeglądarki, wybierz ikonę IBM Equal Access Accessibility Checker, widoczną jako fioletowa pszczoła <img src="/images/equal-access/Bee_Logo@32px.png" alt="ikona aplikacji Tester dostępności">. Zazwyczaj znajduje się on w&nbsp;prawym górnym rogu okna okna przeglądarki. Pojawi się nakładka.
+1. W pasku narzędzi przeglądarki, wybierz ikonę IBM Equal Access Accessibility Checker, widoczną jako fioletowa pszczoła <img src="/images/equal-access/Bee_Logo32px.png" alt="ikona aplikacji Tester dostępności">. Zazwyczaj znajduje się on w&nbsp;prawym górnym rogu okna okna przeglądarki. Pojawi się nakładka.
 
 2. Wybierz w nakładce **Opcje**. Opcje zostaną otwarte na nowej karcie przeglądarki. **Uwaga:** W przeglądarce Firefox, gdy w opcjach *Wzmocniona ochrona przed śledzeniem* wybrano ustawienie **Ścisła**, zdarza się, że niektóre witryny lub treści mogą zostać uszkodzone i może to uniemożliwić otwarcie strony Opcje. Zmień ustawienia prywatności przeglądarki na Standard, aby uniknąć tej sytuacji.<br />
 ![Zrzut ekranu strony opcji - strona, na której można wybrać wdrożenie zestawu reguł oraz zestaw reguł, z jakiego ma korzystać kontroler.](/images/equal-access/5_Options.png)
