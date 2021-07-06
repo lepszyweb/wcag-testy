@@ -106,7 +106,8 @@ IBM Equal Access Accessibility Checker oferuje dwa widoki. Widok Tester dostępn
 4. Kliknij przycisk **Skanuj**, aby zeskanować stronę internetową.
 5. Wynik skanowania wyświetla łączną liczbę wykrytych problemów oraz liczbę naruszeń, kwestii wymagających przeglądu i zaleceń. Domyślnie lista problemów jest wyświetlana w&nbsp;widoku „Role elementów” (patrz poprzednia definicja), dostępne są również karty „Wymagania” i&nbsp;„Reguły”. Wszystkie widoki pokazują ten sam zestaw problemów.<br />
 ![Wyniki oceniania dostępności](/images/equal-access/6_1_AccessibilityChecker5.png)
-6. Aby **filtrować** problemy i skupić się tylko na naruszeniach, kwestiach, które wymagają sprawdzenia lub na ulepszeniach, usuń zaznaczenie pola wyboru obok typu problemu w obszarze liczby problemów poniżej przycisku **Skanuj**, aby wykluczyć typ problemu z wyników. Zaznacz pole wyboru obok typu problemów, aby uwzględnić typ problemu w wynikach. Na tym zrzucie ekranu elementy „Do przeglądu” zostały odfiltrowane.<br />{% include image.html file="insights/6_1_AccessibilityChecker6.png" alt="Wyniki sprawdzania dostępności z odfiltrowanymi problemami Do przeglądu"  %}
+6. Aby **filtrować** problemy i skupić się tylko na naruszeniach, kwestiach, które wymagają sprawdzenia lub na ulepszeniach, usuń zaznaczenie pola wyboru obok typu problemu w obszarze liczby problemów poniżej przycisku **Skanuj**, aby wykluczyć typ problemu z wyników. Zaznacz pole wyboru obok typu problemów, aby uwzględnić typ problemu w wynikach. Na tym zrzucie ekranu elementy „Do przeglądu” zostały odfiltrowane.<br />
+![Wyniki sprawdzania dostępności z odfiltrowanymi problemami Do przeglądu](/images/equal-access/6_1_AccessibilityChecker6.png)
 7. Wybierz ikonę rozwijania (^) obok roli elementu, wymagania lub reguły w tabeli, aby wyświetlić odpowiednie znalezione problemy.
 8. Wybierz link „Dowiedz się więcej” w definicji problemu, aby wyświetlić bardziej szczegółowe informacje pomocy opisujące problem i&nbsp;sposoby jego rozwiązania. Pomoc zawiera łącza do bardziej szczegółowych wyjaśnień i&nbsp;podsumowuje, dlaczego ten problem jest ważny i&nbsp;kogo dotyczy.
 9. Karta Role elementu:
@@ -147,23 +148,17 @@ Na tym zrzucie ekranu wybrano pole wyszukiwania &lt;input&gt; w DOM, a przełąc
    - W przeglądarce Firefox: z menu „Narzędzia” przeglądarki wybierz „Narzędzia przeglądarki”, a następnie wybierz „Narzędzia dla twórców witryn” lub
    - Naciśnij **Command+Option+I** w systemie MacOS® lub **Control+Shift+I** w&nbsp;systemie Microsoft Windows®, lub
    - Kliknij prawym przyciskiem myszy element strony i&nbsp;wybierz z&nbsp;menu kontekstowego „Zbadaj”
-2. Wybierz panel  **Ocena dostępności** panel: 
-
-<img src="chrome-extension://agkmeejjncicmdgdmbcecphplicjmjbd/assets/img/6_3_AccessibilityAssessment2.png" alt="Zrzut ekranu oceny dostępności - Kompleksowe narzędzie do oceny dostępności" width="100%" height="100%">
-
+2. Wybierz panel  **Ocena dostępności** panel: <br />
+![Kompleksowe narzędzie do oceny dostępności](/images/equal-access/6_3_AccessibilityAssessment2.png)
 3. Kliknij przycisk **Skanuj**, aby zeskanować stronę internetową.
 4. Domyślnie wyniki są wyświetlane według  **Wymagań** z podziałem całkowitej liczby wykrytych problemów według kategorii.
-5. Prawy panel wyświetla podsumowanie raportu Testera dostępności, a lewy panel pokazuje wynik skanowania z łączną liczbą wykrytych problemów, z liczbami naruszeń, kwestii, które wymagają sprawdzenia oraz ulepszeniami: 
-
-<img src="chrome-extension://agkmeejjncicmdgdmbcecphplicjmjbd/assets/img/6_3_AccessibilityAssessment5.png" alt="Zrzut ekranu raportu Oceny dostępności - przykładowy raport Oceny dostępności" width="100%" height="100%">
-
+5. Prawy panel wyświetla podsumowanie raportu Testera dostępności, a lewy panel pokazuje wynik skanowania z łączną liczbą wykrytych problemów, z liczbami naruszeń, kwestii, które wymagają sprawdzenia oraz ulepszeniami:<br />
+![Zrzut ekranu raportu Oceny dostępności - przykładowy raport Oceny dostępności](/images/equal-access/6_3_AccessibilityAssessment5.png) 
 6. Domyślnie problemy są wyświetlane w widoku „Wymagania”, ale dostępne są również karty „Role elementów” i&nbsp;„Reguły”. Wszystkie widoki pokazują ten sam zestaw problemów.
 7. Karta Wymagania:
    - Wybierz ikonę rozwijania obok wymagania w tabeli, aby wyświetlić listę problemów znalezionych w ramach tego wymagania.
-   - Wybierz wystąpienie problemu, a podsumowanie raportu zostanie zastąpione szczegółowym opisem, który zawiera poziom błędu, dlaczego treść nie działa dostępnie, jakie są wymagania, jakich zasobów użyć, co zrobić, aby naprawić problem, kogo dotyczy i&nbsp; dlaczego jest to ważne: 
-
-<img src="6_3_AccessibilityAssessment7.png" alt="Zrzut ekranu panelu pomocy Oceny dostępności - przykładowy panel pomocy Oceny dostępności " width="100%" height="100%">
-
+   - Wybierz wystąpienie problemu, a podsumowanie raportu zostanie zastąpione szczegółowym opisem, który zawiera poziom błędu, dlaczego treść nie działa dostępnie, jakie są wymagania, jakich zasobów użyć, co zrobić, aby naprawić problem, kogo dotyczy i&nbsp; dlaczego jest to ważne: <br />
+![Zrzut ekranu panelu pomocy Oceny dostępności - przykładowy panel pomocy Oceny dostępności](/images/equal-access/6_3_AccessibilityAssessment7.png)
 8. Karta Rola elementu:
    - Wybierz kartę **Role elementów**, aby wyświetlić wyniki skanowania uporządkowane według ról elementów na stronie internetowej.
    - Rozwiń rolę elementu, aby wyświetlić problemy dla tej roli elementu.
