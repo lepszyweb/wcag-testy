@@ -1,14 +1,14 @@
 ## Topnav single links
 ## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
 topnav:
-- title: Topnav
+- title: Górna
   items:
     - title: Dziennik
       url: /dziennik
 
 #Topnav dropdowns
 topnav_dropdowns:
-- title: Topnav dropdowns
+- title: Górna rozwijana
   folders:
     - title: Wymagania
       folderitems:
@@ -54,7 +54,7 @@ topnav_dropdowns:
           url: /nod-jasnopis
 
 topnav_sec:
-- title: Topnav sec
+- title: Drugorzędna
   items:
     - title: GitHub
       external_url: https://github.com/lepszyweb/wcag-testy

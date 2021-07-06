@@ -50,6 +50,10 @@ entries:
       url: /nod-arc
       output: web, pdf
 
+    - title: IBM Accessibility Checker
+      url: /nod-equal-access
+      output: web, pdf
+      
     - title: Tester kontrastu kolorów WCAG
       url: /nod-ccc
       output: web, pdf
