@@ -14,7 +14,7 @@ Aby uzyskać tło i wprowadzenie do WCAG, zobacz [Omówienie Wytycznych dotyczą
 ### Standard WCAG 2
 [Wytyczne dla dostępności treści internetowych (WCAG) 2](https://www.w3.org/Translations/WCAG21-pl/) zostały opracowane jako stabilny, referencyjny standard techniczny. Większość osób korzysta z dokumentów pomocniczych przy opracowywaniu treści internetowych i narzędzi internetowych, zamiast dokumentu z rzeczywistymi standardami technicznymi.
 
-### Jak poznać WCAG 2 (Skrócona instrukcja)
+### Jak spełnić WCAG 2 (Skrócona instrukcja)
 [Jak spełnić WCAG 2 (Skrócona instrukcja)](https://wcag.lepszyweb.pl/): Dostosowywalne szybkie odniesienie do wymagań WCAG 2 (Kryteria sukcesu) i technik jest kluczowym zasobem dla projektantów i programistów używających WCAG 2. Zawiera wszystkie wytyczne WCAG 2 i kryteria sukcesu . Jest to zasadniczo lista kontrolna WCAG 2 .
 
 Kryteria sukcesu to testowalne stwierdzenia, które określają, w jaki sposób treść sieci spełnia (odpowiada) WCAG 2. Pod każdym kryterium sukcesu znajduje się lista wystarczających technik; to znaczy, jeśli zastosujesz te techniki, spełnisz kryteria sukcesu. Wymienia również typowe awarie, czyli rzeczy, które nie spełniają wytycznych.
@@ -31,11 +31,11 @@ Możesz dostosować How to Meet WCAG 2, aby pokazać, co Cię interesuje w tym c
 Dokumenty WCAG 2 są ze sobą powiązane. Na przykład:
 
 - W WCAG 2
-  - Łącza, takie jak „Jak poznać 1.1.1”, prowadzą do dokumentu „ Jak poznać WCAG 2” i prowadzą do tej sekcji w dokumencie.
-  - Łącza takie jak „Zrozumienie 1.1.1” prowadzą do strony tematycznej Zrozumienie WCAG 2 .
+  - Łącza, takie jak „Jak spełnić KS 1.1.1”, prowadzą do dokumentu [Jak spełnić WCAG 2](https://wcag.lepszyweb.pl/) i prowadzą do tej sekcji w dokumencie.
+  - Łącza takie jak „Objaśnienie KS 1.1.1” prowadzą do strony tematycznej [Zrozumieć WCAG 2[(https://www.w3.org/WAI/WCAG21/Understanding/).
     - Możesz przejść do listy Spis treści wszystkich tematów Zrozumienie, klikając przycisk [Spis treści] u góry.
     - Możesz uzyskać wszystkie tematy na jednej dużej stronie internetowej z łącza „pojedyncza wersja HTML” w stopce każdej strony tematu.
-- Zarówno w Jak poznać WCAG 2, jak i Zrozumienie WCAG 2, znajdują się listy technik, które są łączami. Te łącza prowadzą do strony tematycznej Techniki dla WCAG 2 .
+- Zarówno w Jak spełnić WCAG 2, jak i Zrozumieć WCAG 2, znajdują się listy technik, które są łączami. Te łącza prowadzą do strony tematycznej [Techniki dla WCAG 2](https://www.w3.org/WAI/WCAG21/Techniques/#techniques).
   - Możesz przejść do listy Spis treści wszystkich tematów Techniki, klikając przycisk [Spis treści] u góry.
   - Możesz uzyskać wszystkie tematy na jednej dużej stronie internetowej z łącza „pojedyncza wersja HTML” w&nbsp;stopce każdej strony tematu.
 
