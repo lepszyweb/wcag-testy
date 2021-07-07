@@ -6,7 +6,7 @@ permalink: glosy-dokumenty-wcag
 folder: glosy
 ---
 
-Aby uzyskać tło i wprowadzenie do WCAG, zobacz Omówienie Wytycznych dotyczących dostępności treści WWW (WCAG) .
+Aby uzyskać tło i wprowadzenie do WCAG, zobacz Omówienie Wytycznych dotyczących dostępności treści WWW (WCAG).
 
 ## Różne dokumenty do różnych celów
 {% include image.html file="ogolne/dokumenty_wacg.svg"  alt="Schemat dokumentacji WCAG opisanej w tekście" caption="Rysunek 1: Dokumenty WCAG. WCAG 2.0 i WCAG 2.1 składają się z takiego samego zestawu dokumentów" max-width="800" %}
@@ -31,17 +31,16 @@ Techniki dla WCAG 2: Techniki i awarie dotyczące Wytycznych dotyczących dostę
 Dokumenty WCAG 2 są ze sobą powiązane. Na przykład:
 
 - W WCAG 2
-  - Linki, takie jak „Jak poznać 1.1.1”, prowadzą do dokumentu „ Jak poznać WCAG 2” i prowadzą do tej sekcji w dokumencie.
-  - Linki takie jak „Zrozumienie 1.1.1” prowadzą do strony tematycznej Zrozumienie WCAG 2 .
+  - Łącza, takie jak „Jak poznać 1.1.1”, prowadzą do dokumentu „ Jak poznać WCAG 2” i prowadzą do tej sekcji w dokumencie.
+  - Łącza takie jak „Zrozumienie 1.1.1” prowadzą do strony tematycznej Zrozumienie WCAG 2 .
     - Możesz przejść do listy Spis treści wszystkich tematów Zrozumienie, klikając przycisk [Spis treści] u góry.
-    - Możesz uzyskać wszystkie tematy na jednej dużej stronie internetowej z linku „pojedyncza wersja HTML” w stopce każdej strony tematu.
-- Zarówno w Jak poznać WCAG 2, jak i Zrozumienie WCAG 2, znajdują się listy technik, które są linkami. Te linki prowadzą do strony tematycznej Techniki dla WCAG 2 .
+    - Możesz uzyskać wszystkie tematy na jednej dużej stronie internetowej z łącza „pojedyncza wersja HTML” w stopce każdej strony tematu.
+- Zarówno w Jak poznać WCAG 2, jak i Zrozumienie WCAG 2, znajdują się listy technik, które są łączami. Te łącza prowadzą do strony tematycznej Techniki dla WCAG 2 .
   - Możesz przejść do listy Spis treści wszystkich tematów Techniki, klikając przycisk [Spis treści] u góry.
-  - Możesz uzyskać wszystkie tematy na jednej dużej stronie internetowej z linku „pojedyncza wersja HTML” w stopce każdej strony tematu.
+  - Możesz uzyskać wszystkie tematy na jednej dużej stronie internetowej z łącza „pojedyncza wersja HTML” w&nbsp;stopce każdej strony tematu.
 
+{% include image.html file="ogolne/dokumenty_wacg2.svg"  alt="schemat dokumentów opisanych w tekście" caption="Rysunek 2: Przykład powiązań między dokumentami" max-width="800" %}
 
-schemat dokumentów opisanych w tekście
-Rysunek 2: Przykład powiązań między dokumentami
 
 ## Dodatkowe zasoby
 Istnieją dodatkowe materiały edukacyjne związane z WCAG 2, w tym:
