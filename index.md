@@ -54,7 +54,7 @@ summary: "Budujemy bazę wiedzy o ocenianiu dostępności cyfrowej stron interne
                 <div class="panel-body">
                     <h3>Testy</h3>
                     <p>Łatwe testy Testy&nbsp;zgodności Bazy&nbsp;źródłowe</p>
-                    <a href="testy-przeglad" class="btn btn-primary">Czytaj więcej</a> <span class="sr-only">o testach</span>
+                    <a href="testy-przeglad" class="btn btn-primary">Czytaj więcej <span class="sr-only">o testach</span></a>
                 </div>
             </div>
         </div>
