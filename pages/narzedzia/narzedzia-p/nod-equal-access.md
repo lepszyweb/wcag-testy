@@ -113,8 +113,8 @@ IBM Equal Access Accessibility Checker oferuje dwa widoki. Widok Tester dostępn
    - Wybierz instancję problemu lub element w obiektowym modelu dokumentu (DOM) lub użyj polecenia „Zbadaj” na stronie internetowej, aby:
      - Podświetlić wybrany element lub element zawierający wybrane zagadnienie w DOM pod panelem Elementy przeglądarki i zaznacz jego lokalizację na stronie internetowej.
      - Zobaczyć liczniki podsumowujące pokazujące liczbę problemów każdego typu w wybranym elemencie i jego dzieciach.
-     - Otwórzyć i zaznaczyć wszystkie problemy w elemencie, jeśli występują (fioletowe podświetlenie)
-     - Otwórzyć i zaznaczyć wszystkie problemy w elementach potomnych elementu, jeśli występują (jasnofioletowe podświetlenie).
+     - Otworzyć i zaznaczyć wszystkie problemy w elemencie, jeśli występują (fioletowe podświetlenie)
+     - Otworzyć i zaznaczyć wszystkie problemy w elementach potomnych elementu, jeśli występują (jasnofioletowe podświetlenie).
 10. Karta Wymagania:
     - Wybierz kartę **Wymagania**, aby wyświetlić wyniki skanowania [według wymagań dostępności IBM](https://www.ibm.com/able/requirements/requirements/)
     - Wybierz element lub wystąpienie problemu, aby wyróżnić ten sam zestaw problemów i&nbsp;problemów podrzędnych, co na karcie „Role elementów”. W&nbsp;tym widoku problemy zostaną pokazane w&nbsp;ramach odpowiednich wymagań.
@@ -270,7 +270,7 @@ Bieżący stan dostępności treści internetowych jest wyświetlany jako procen
 
 ### 7.2 Raport w arkuszu kalkulacyjnym MS Excel
 
-Raport zkłada się z 5 arkuszy kalkulacyjnych. Może opisywać pojedynczy skan lub wiele skanów.
+Raport składa się z 5 arkuszy kalkulacyjnych. Może opisywać pojedynczy skan lub wiele skanów.
 
 1. **Przegląd** zawiera nazwę narzędzia i jego wersję, datę skanowania, zestaw reguł, wytyczne i platformę używaną do skanowania oraz podsumowanie ogólnych wyników wszystkich uwzględnionych skanów.
 2. **Zestawienie skanowań** zawiera przegląd zestawu skanów w raporcie.

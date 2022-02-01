@@ -33,7 +33,7 @@ Dokumenty WCAG 2 są ze sobą powiązane. Na przykład:
 - W WCAG 2
   - Łącza, takie jak „Jak spełnić KS 1.1.1”, prowadzą do dokumentu [Jak spełnić WCAG 2](https://wcag.lepszyweb.pl/) i prowadzą do tej sekcji w dokumencie.
   - Łącza takie jak „Objaśnienie KS 1.1.1” prowadzą do strony tematycznej [Zrozumieć WCAG 2](https://www.w3.org/WAI/WCAG21/Understanding/).
-    - Możesz przejść do listy Spis treści wszystkich tematów Zrozumienie, klikając przycisk [Spis treści] u góry.
+    - Możesz przejść do listy Spis treści wszystkich tematów Zrozumienie, klikając przycisk [Contents] u góry.
     - Możesz uzyskać wszystkie tematy na jednej dużej stronie internetowej z łącza „pojedyncza wersja HTML” w stopce każdej strony tematu.
 - Zarówno w Jak spełnić WCAG 2, jak i Zrozumieć WCAG 2, znajdują się listy technik, które są łączami. Te łącza prowadzą do strony tematycznej [Techniki dla WCAG 2](https://www.w3.org/WAI/WCAG21/Techniques/#techniques).
   - Możesz przejść do listy Spis treści wszystkich tematów Techniki, klikając przycisk [Spis treści] u góry.

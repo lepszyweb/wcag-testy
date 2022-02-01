@@ -46,3 +46,6 @@ entries:
     - title: Co to jest dostępność
       url: /co-to-jest-dostepnosc
       output: web
+    - title: Problemy
+      url: /bledy-ostrzezenia
+      output: web      

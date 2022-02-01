@@ -6,27 +6,27 @@ akapit: "Podstawowy sposób dzielenia łamu na rozpoznawalne wzrokiem mniejsze f
 
 alert: "Komunikat z ostrzeżeniem przerywający nawigację lub używanie strony, zwłaszcza z żądaniem kliknięcia na przycisk lub link w celu kontynuowania nawigacji lub używania treści."
 
-alternatywa_dla_mediow_opartych_na_czasie: "(ang. 'alternative for time-based media'). Dokument zawierający prawidłowo uporządkowany tekst przedstwiający informacje przekazywane w medium opartym na czasie wizualnie i dźwiękowo oraz uwzględniający końcowy stan interakcji z tym medium. <br/>**Uwaga**: Scenariusz użyty do stworzenia zsynchronizowanych multimediów może być objęty taką definicją tylko wówczas, gdy został poprawiony, tak, by odpowiadać dokładnej końcowej wersji multimediów po zakończeniu edycji."
+alternatywa_dla_mediow_opartych_na_czasie: "(ang. 'alternative for time-based media'). Dokument zawierający prawidłowo uporządkowany tekst przedstawiający informacje przekazywane wizualnie i dźwiękowo w medium opartym na czasie oraz uwzględniający końcowy stan interakcji z tym medium <br/>**Uwaga**: Scenariusz użyty do stworzenia zsynchronizowanych multimediów może być objęty taką definicją tylko wówczas, gdy został poprawiony, tak, by odpowiadać dokładnej końcowej wersji multimediów po zakończeniu edycji."
 
-alternatywa_tekstowa: "(ang. 'text alternative'), inaczej *odpowiednik tekstowy*. Tekst używany zamiast treści nietekstowej, przedstawiający tę samą informację, co treść nietekstowa, w odniesieniu do kontekstu treści dokumentu, w którym się znajduje, skojarzony programowo z treścią nietekstową. Tekst *skojarzony programowo* to taki, którego położenie w stosunku do treści nietekstowej jest określone w kodzie, dzięki czemu może być odczytany przez technologie wspomagajace oraz funkcje dostępności w przeglądarkach internetowych."
+alternatywa_tekstowa: "(ang. 'text alternative'), inaczej *odpowiednik tekstowy* lub *zamiennik tekstowy*. Tekst używany zamiast treści nietekstowej, przedstawiający tę samą informację, co treść nietekstowa, w odniesieniu do kontekstu treści dokumentu, w którym się znajduje, *skojarzony programowo* z treścią nietekstową. Tekst skojarzony programowo to taki, którego położenie w stosunku do treści nietekstowej jest określone w kodzie, dzięki czemu może być odczytany przez technologie wspomagające oraz funkcje dostępności w przeglądarkach internetowych"
 
-animacja_ruchowa: "(ang. 'motion animation'). Dodanie kroków między warunkami, aby stworzyć iluzję ruchu lub dać wrażenie płynnego przejścia. <br>Na przykład element, który przesuwa się na miejsce lub zmienia rozmiar podczas pojawiania się, jest uważany za animowany. Element, który pojawia się natychmiast bez przejścia, nie używa animacji. Animacja ruchowa nie obejmuje zmian koloru, rozmycia ani krycia."
+animacja_ruchowa: "(ang. 'motion animation'). Dodanie kroków między klatkami, aby stworzyć iluzję ruchu lub dać wrażenie płynnego przejścia. <br>Na przykład element, który przesuwa się na miejsce lub zmienia rozmiar podczas pojawiania się, jest uważany za animowany. Element, który pojawia się natychmiast bez przejścia, nie używa animacji. Animacja ruchowa nie obejmuje zmian koloru, rozmycia ani krycia."
 
-aplikacja_hybrydowa: "Połączenie aplikacji natywnej i aplikacji internetowej. Jest zbudowana przy użyciu otwartych standardów internetowych, takich jak HTML5, CSS i JavaScript. Podobnie jak w przypadku aplikacji natywnych, aplikacje hybrydowe muszą być pobierane i instalowane na urządzeniach mobilnych."
+aplikacja_hybrydowa: "Rodzaj aplikacji mobilnej, połączenie aplikacji natywnej i aplikacji internetowej, stworzona za pomocą otwartych standardów internetowych, takich jak HTML5, CSS i JavaScript. Podobnie jak w przypadku aplikacji natywnych, aplikacje hybrydowe muszą być pobierane i instalowane na urządzeniach mobilnych"
 
-aplikacja_natywna: "Aplikacja do pobrania. Jest dedykowana dla określonej platformy. W większości przypadków może być używana w trybie offline. Aplikacje natywne należy przed uruchomieniem zainstalować na urządzeniu przenośnym."
+aplikacja_internetowa: "Aplikacja stworzona za pomocą otwartych standardów internetowych, takich jak HTML5, CSS i JavaScript, która musi zostać uruchomiona przez przeglądarkę urządzenia mobilnego. Ponieważ pliki źródłowe są przechowywane na serwerze, wymagane jest połączenie internetowe, ale pobieranie lub instalacja nie są konieczne"
 
-aplikacja_internetowa: "Aplikacja sieciowa, która musi zostać uruchomiona przez przeglądarkę urządzenia mobilnego. Ponieważ pliki źródłowe są przechowywane na serwerze, wymagane jest połączenie internetowe, ale pobieranie lub instalacja nie są konieczne."
+aplikacja_mobilna: "Oprogramowanie stworzone do wykorzystania na przenośnych urządzeniach elektronicznych. Może być natywna, internetowa lub hybrydowa (mieszana)."
 
-aplikacja_mobilna: "Oprogramowanie zaprojektowane do wykorzystania na przenośnych urządzeniach elektronicznych. Może być natywna, internetowa lub hybrydowa (mieszana)."
+aplikacja_natywna: "Aplikacja mobilna zaprojektowana dla określonej platformy: iOS lub Android w języku właściwym dla tego systemu. W większości przypadków może być używana w trybie offline. Aplikacje natywne należy przed uruchomieniem zainstalować na urządzeniu przenośnym"
 
 arkusz_stylow: "Kod zapisany w języku CSS, określający reguły formatowania elementów treści (na przykład koloru tła strony, rozmiaru/koloru czcionki, pozycjonowania informacji na stronie internetowej itp.). Style CSS mogą być zewnętrzne (plik CSS), wbudowane (zadeklarowane w nagłówku strony - head) lub bezpośrednie (zadeklarowane przez atrybut style znacznika)."
 
 audio: "Technologia powielania dźwięku. <br>**Uwaga:** Dźwięk może być tworzony syntetycznie (w mowa syntetyczna), nagrywany z dźwięków świata rzeczywistego lub na oba sposoby."
 
-audiodeskrypcja: "(ang. 'audio description'). Narracja dodana do ścieżki dźwiękowej w celu przedstawienia istotnych szczegółów obrazu, które nie wynikają z samej ścieżki dźwiękowej. <br>**Uwaga 1**: Audiodeskrypcja materiału wideo zapewnia informacje o akcji, postaciach, zmianie scenerii, tekstach wyświetlanych na ekranie i innych treściach wizualnych. <br>**Uwaga 2**: W standardowej audiodeskrypcji narracja jest dodawana w przerwach pomiędzy dialogami (zobacz także „rozszerzona audiodeskrypcja”). <br>**Uwaga 3**: Jeżeli pełna informacja o wideo jest już zapewniona przez podstawową ścieżkę dźwiękową, dodatkowa audiodeskrypcja jest zbędna. <br>**Uwaga 4**: Nazywana również „opisem wideo”, „narracją opisową” i  „narracją dźwiękową”.."
+audiodeskrypcja: "(ang. 'audio description'). Dodatkowa narracja dźwiękowa w nagraniu wideo, przedstawiająca osobom niewidomym i słabowidzącym istotne szczegóły prezentacji wizualnej, które nie mogą być zrozumiane jedynie na podstawie głównej ścieżki dźwiękowej  <br>**Uwaga 1**: Audiodeskrypcja materiału wideo zapewnia informacje o akcji, postaciach, zmianie scenerii, tekstach wyświetlanych na ekranie i innych treściach wizualnych. <br>**Uwaga 2**: W standardowej audiodeskrypcji narracja jest dodawana w przerwach pomiędzy dialogami (zobacz także „rozszerzona audiodeskrypcja”). <br>**Uwaga 3**: Jeżeli pełna informacja o wideo jest już zapewniona przez podstawową ścieżkę dźwiękową, dodatkowa audiodeskrypcja jest zbędna. <br>**Uwaga 4**: Nazywana również „opisem wideo”, „narracją opisową” i  „narracją dźwiękową”."
 
-audiodeskrypcja_rozszerzona: "Audiodeskrypcja, dodawana do materiału wideo, poprzez zatrzymanie odtwarzacza (pauza), by uzyskać odpowiedni czas na wstawienie audiodeskrypcji. <br>**Uwaga**: Ta technika jest stosowana tylko wówczas, gdy sensu materiału wideo nie da się zachować bez dodatkowej audiodeskrypcji, a przerwy pomiędzy dialogami są za krótkie."
+audiodeskrypcja_rozszerzona: "Audiodeskrypcja, dodawana do materiału wideo, poprzez zatrzymanie odtwarzacza (pauza), by uzyskać odpowiedni czas na wstawienie dodatkowej narracji. <br>**Uwaga**: Ta technika jest stosowana tylko wówczas, gdy sensu materiału wideo nie da się zachować bez dodatkowej audiodeskrypcji, a przerwy pomiędzy dialogami są za krótkie."
 
 automatyczne_przekierowanie: "Proces polegający na automatycznym przekierowaniu użytkownika ze strony na inną, w tej samej lub innej domenie."
 
@@ -38,11 +38,11 @@ blad_wprowadzania_danych: "(ang. 'input error'). Informacja wprowadzona przez u�
 
 blysk: "(ang. 'flash'). Para przeciwstawnych względnych luminancji, która może u niektórych osób wywołać atak padaczki, jeżeli efekt ten ma odpowiednie natężenie i zmienia się z pewną określoną częstotliwością. <br>**Uwaga 1**: Zobacz „informacje o granicznych wartościach ogólnych błysków i czerwonych błysków”, aby dowiedzieć się, które błyski są niedopuszczalne. <br>**Uwaga 2**: Zobacz także „migotanie”."
 
-CAPTCHA: "Skrót od „Completely Automated Public Turing test to tell Computers and Humans Apart” (całkowicie automatyczny publiczny test Turinga do odróżniania komputerów od ludzi). <br>**Uwaga 1:** Test CAPTCHA najczęściej polega na przepisaniu przez użytkownika tekstu ze zniekształconego obrazu lub nagrania dźwiękowego. <br>**Uwaga 2:** Test Turinga to każdy system testów, który został zaprojektowany w celu odróżnienia człowieka od komputera. Został tak nazwany na cześć słynnego informatyka Alana Turinga. Pojęcie to sformułowane zostało na Uniwersytecie Carnegie Mellon."
+CAPTCHA: "Skrót od „Completely Automated Public Turing test to tell Computers and Humans Apart” – całkowicie automatyczny publiczny test Turinga do odróżniania komputerów od ludzi. Technika ochrony stron internetowych przed przesyłaniem niepożądanych danych, wymagająca potwierdzenia, że przesyłający dane jest człowiekiem. <br>**Uwaga 1:** Test CAPTCHA najczęściej polega na przepisaniu przez użytkownika tekstu ze zniekształconego obrazu lub nagrania dźwiękowego. <br>**Uwaga 2:** Test Turinga to każdy system testów, który został zaprojektowany w celu odróżnienia człowieka od komputera. Został tak nazwany na cześć słynnego informatyka Alana Turinga. Pojęcie to sformułowane zostało na Uniwersytecie Carnegie Mellon."
 
 cala_strona: "(ang. 'Full page'). Zgodność oraz poziomy zgodności dotyczą całej strony i nie można jej osiągnąć, jeśli jakaś część strony zostanie wyłączona z oceny. <br>**Uwaga**: W celu ustalenia zgodności, przyjmuje się, iż wersje alternatywne części treści strony są częścią strony, jeśli wersje alternatywne są dostępne bezpośrednio z danej strony, np. długi opis lub alternatywna prezentacja nagrania wideo."
 
-cale_procesy: "(ang. 'complete processes'). Wszystkie kroki, etapy składajace się na cały proces, procedurę. Zgodność oraz poziom zgodności dotyczy całych procesów. Proces spełnia wymogi zgodności na określonym poziomie tylko wtedy, gdy wszystkie strony prezentujące etapy procesu spełniają wymogi co najmniej na tym sammym poziomie. Gdy tylko niektóre etapy procesu spełniają wymogi zgodności na wyższym poziomie, to cały proces (i strony, na których jest obsługiwany) spełnia wyniki na niższym poziomie. Inaczej - zgodność na określonym poziomie nie jest osiągnięta, jeżeli którakolwiek ze stron prezentujących którykolwiek z etapów procesu nie spełnia wszystkich wymogów zgodności na tym poziomie."
+cale_procesy: "(ang. 'complete processes'). Wszystkie kroki, etapy składające się na cały proces, procedurę. Zgodność oraz poziom zgodności dotyczy całych procesów. Proces spełnia wymogi zgodności na określonym poziomie tylko wtedy, gdy wszystkie strony prezentujące etapy procesu spełniają wymogi co najmniej na tym samym poziomie. Gdy tylko niektóre etapy procesu spełniają wymogi zgodności na wyższym poziomie, to cały proces (i strony, na których jest obsługiwany) spełnia wyniki na niższym poziomie. Inaczej - zgodność na określonym poziomie nie jest osiągnięta, jeżeli którakolwiek ze stron prezentujących którykolwiek z etapów procesu nie spełnia wszystkich wymogów zgodności na tym poziomie."
 
 cel: "(ang. 'target'). Region wyświetlacza, który zaakceptuje akcję wskaźnika, taki jak obszar interaktywny komponentu interfejsu użytkownika. <br>Jeżeli dwa lub więcej celów dotykowych nakładają się na siebie, pokrywający się obszar nie powinien być uwzględniany przy pomiarze wielkości celu, chyba że nakładające się cele wykonują tę samą czynność lub otwierają tę samą stronę."
 
@@ -50,13 +50,13 @@ cel_lacza: "(ang. 'link purpose'). Oczekiwany skutek aktywacji łącza."
 
 cel_testu: "Przyczyna lub powód zaprojektowania i przeprowadzenia testu."
 
-czytnik_ekranu: "Program komputerowy, który czyta użytkownikowi na głos treść ekranu oraz przekazuje informacje o roli i istotnych dla obsługi właściwościach treści. Jest używany przede wszystkim przez ludzi niewidomych. Czytniki ekranu mogą zazwyczaj czytać tekst drukowany, a nie malowany na ekranie."
+czytnik_ekranu: "Technologia wspomagająca, program komputerowy, który odczytuje z kodu treść prezentowaną na ekranie, w tym informacje o roli i istotnych dla obsługi właściwościach treści, a następnie przedstawia je użytkownikowi w postaci głosowej za pomocą syntezatora mowy lub wysyła do brajlowskiego urządzenia wyjściowego"
 
 dostosowanie_wygladu: "(ang. 'visually customized'). Możliwość ustawienia istotnych właściwości wyglądu, np. kolorystyki, rozmiaru i kroju czcionek, wielkości obszaru, tła."
 
 dotyk_jednopunktowy: "(ang. single pointer). Wprowadzanie danych dotykiem, które działa z jednym punktem kontaktu z ekranem, w tym pojedyncze stuknięcia i kliknięcia, podwójne stuknięcia i kliknięcia, długie naciśnięcia i gesty oparte na ścieżce."
 
-duza_wielkosc_tekstu: "(ang. 'large scale text'). Tekst o wielkości przynajmniej 18 pt lub 14 pt, ale pogrubiony lub odpowiadające im wielkością znaki alfabetu chińskiego, japońskiego i koreańskiego (CJK)."
+duza_wielkosc_tekstu: "(ang. 'large scale text'). Tekst o wielkości przynajmniej 18 pt lub pogrubiony o wielkości przynajmniej 14 pt albo odpowiadające im wielkością znaki alfabetu chińskiego, japońskiego i koreańskiego (CJK)"
 
 etykieta: "(ang. 'label'): Tekst lub inny komponent z tekstem alternatywnym, który jest prezentowany użytkownikowi w celu identyfikacji komponentu w treści internetowej. <br>**Uwaga 1**: Etykieta jest widoczna dla wszystkich użytkowników, podczas gdy **nazwa** może być przekazywana tylko technologiom wspomagającym. W&nbsp;wielu przypadkach (choć nie we wszystkich) etykieta i nazwa są takie same. <br>**Uwaga 2**: Pojęcie etykiety nie ogranicza się tylko do elementu „label” w HTML."
 
@@ -166,7 +166,6 @@ oprogramowanie_uzytkownika: "(ang. 'user agent'). Oprogramowanie zapewniające d
 
 parsowanie: "Analizowanie składni i reguł gramatycznych kodu źródłowego napisanego w języku programowania w celu przetworzenia tekstowych danych wejściowych na hierarchiczną strukturę danych."
 
-
 percepcja: "Organizacja i interpretacja wrażeń zmysłowych, w celu zrozumienia otoczenia. Percepcja to postrzeganie; uświadomiona reakcja narządu zmysłowego na bodziec zewnętrzny; sposób reagowania, odbierania wrażeń."
 
 piksel_CSS: "(ang. 'CSS pixel'). Piksel referencyjny (piksel odniesienia, ang. 'reference piksel'). Jest to kąt widzenia jednego piksela na urządzeniu o gęstości pikseli 96 dpi i&nbsp;odległości od czytnika równiej długości ramienia. W przypadku nominalnej długości ramienia 28 cali kąt widzenia wynosi zatem około 0,0213 stopni.<br>Piksel CSS jest kanoniczną jednostką miary dla wszystkich długości i&nbsp;pomiarów w&nbsp;CSS. Pierwotnie pojęcie piksela było tożsame z fizycznym pikselem, świecącym punktem będącym elementem wyświetlacza. Ponieważ współczesne ekrany mają różną gęstość PPI (pikseli na cal), konieczna była definicja piksela niezależna od gęstości wyświetlacza, rożna od rzeczywistych pikseli sprzętowych obecnych na wyświetlaczu. Programy użytkownika i systemy operacyjne powinny zapewnić, że piksel CSS jest ustawiony jak najbliżej wartości i jednostek piksela referencyjnego (moduł CSS Poziom 3), który uwzględnia fizyczne wymiary wyświetlacza. oraz zakładaną odległość oglądania (czynniki, których autorzy treści nie mogą określić)."
@@ -193,7 +192,6 @@ projekt: "Dobór i zestawienie elementów składowych oraz ich właściwości i 
 programowo_ustawione: "(ang. 'programmatically set'). Ustawione przez oprogramowanie wykorzystującego metody obsługiwane przez oprogramowanie użytkownika, w tym przez technologie wspomagające"
 
 przedstawianie: "(ang. 'presentation'). Renderowanie treści w sposób, który jest postrzegalny dla użytkownika."
-
 
 punkt_dotyku: "(ang. 'pointer inputs'). Punkt kontaktu z powierzchnią. Może to być palec (lub łokieć, ucho, nos, cokolwiek, ale najczęściej jednak palec) lub rysik."
 
@@ -233,7 +231,6 @@ szablony: "(ang. 'templates'). Wzorce, które są wypełniane treścią przez au
 
 tabela: "Sposób zapisu i przedstawiania informacji, który umożliwia zapoznanie się w krótszym czasie z niektórymi rodzajami informacji oraz ułatwia ich porównywanie. Dane w tabeli umieszcza się w&nbsp;odpowiednio rozmieszczonych polach nazywanych komórkami. Pola te utworzone są przez poziome i pionowe linie (na wydrukach lub ekranach linie te nie muszą być widoczne). Miejsca pomiędzy dwiema sąsiednimi pionowymi liniami nazywa się kolumnami, a miejsce pomiędzy dwiema sąsiednimi poziomymi liniami nazywa się wierszami. Komórki tytułujące kolumny lub wiersze nazywa się nagłówkami lub komórkami nagłówków. Wszystkie inne nazywa się komórkami danych. Z&nbsp;punktu widzenia dostępności wyróżnia się tabele danych i&nbsp;tabele układu, a&nbsp;wśród tabel danych tabele proste i&nbsp;tabele złożone. Tabele układu to technika rozmieszczania na stronie internetowej, na ekranie lub w&nbsp;dokumencie treści, które nie mają charakteru danych tabelarycznych. O&nbsp;tabeli złożonej mówimy wówczas, gdy tabela danych zawiera nagłówki, które nie są umieszczone wyłącznie w&nbsp;pierwszym wierszu lub w&nbsp;pierwszej kolumnie tabeli lub ich zakres nie odnosi się do wszystkich kolumn i wierszy. "
 
-
 taka_sama_funkcjonalnosc: "(ang. 'same functionality'). Użycie pozwala na uzyskanie takiego samego rezultatu. <br>**Przykład**: Przycisk „wyślij” w jednym serwisie i przycisk „szukaj” w innym mogą mieć pole do wprowadzania wyrażenia, a następnie wyświetlania odnalezionych w serwisie informacji związanych z tym wyrażeniem. W takiej sytuacji oba mają taką samą funkcjonalność, chociaż nie są konsekwentnie etykietowane."
 
 taka_sama_wzgledna_kolejnosc: "(ang. 'same relative order'). Taka sama pozycja względem innych elementów. **Uwaga**: Uznaje się, że pozycje posiadają taką samą względną kolejność, nawet jeśli inne elementy zostały dodane lub usunięte z kolejności oryginalnej. Przykładowo, rozszerzenie menu nawigacji może wyświetlić dodatkowy poziom szczegółów, lub też druga sekcja nawigacji może zostać dodana do kolejności czytania."
@@ -246,7 +243,6 @@ tekst: "(ang. 'text'). Ciąg znaków, który można programowo określić, gdzie
 
 tekst_alternatywny: "(ang. 'text alternative'). Tekst skojarzony programistycznie z treścią nietekstową lub odnoszący się do tekstu programistycznie skojarzonego z treścią nietekstową. Tekst programowo skojarzony to taki tekst, którego położenie może być programowo określone w stosunku do treści nietekstowej. <br>*Przykład*: Obraz wykresu jest opisany w następującym po nim akapicie. Krótki tekst alternatywny dla wykresu informuje, że takie objaśnienie znajduje się zaraz za nim (w kolejności treści)."
 
-
 tekst_formatowany: "Tekst, którego formatowanie jest kontrolowane przez arkusz stylów."
 
 tlumaczenie_jezyka_migowego: "(ang. 'sign language interpretation'). Tłumaczenie języka, najczęściej mówionego, na język migowy. <br/>**Uwaga**: Prawdziwe języki migowe są niezależnymi językami i nie mają nic wspólnego z&nbsp;językami mówionymi z danego kraju lub regionu."
@@ -254,9 +250,7 @@ tlumaczenie_jezyka_migowego: "(ang. 'sign language interpretation'). Tłumaczeni
 
 tresc_cyfrowa: "(ang. 'electronic content', 'digital content', 'Web content'). Treści elektroniczne albo cyfrowe obejmują szeroki zestaw różnie kodowanych informacji i nie są ograniczone tylko do „stron internetowych” lub „dokumentów”. Treść elektroniczna obejmuje informacje i dane elektroniczne, a także kodowanie określające ich strukturę, prezentację i interakcje. Treść elektroniczna obejmuje strony internetowe, dokumenty elektroniczne oraz aplikacje internetowe i natywne oprogramowanie.<br />- Na przykład treść elektroniczna zawarta na typowej stronie internetowej obejmuje wszystkie informacje, do których użytkownik uzyskuje dostęp za pośrednictwem przeglądarki, jak również cały kod określający sposób prezentacji informacji (często określany w kombinacji hipertekstowego języka znaczników (HTML), JavaScript, kaskadowego arkusza stylów (CSS) i innych plików).<br />- W przypadku pliku PDF (`Przenosny Format Dokumentu`) treść elektroniczna zawiera informacje przedstawione w widoku czytelnika dokumentu, a także „znaczniki” PDF i inne właściwości dokumentu, które definiują różne atrybuty informacji i&nbsp; ogólną strukturę dokumentu.<br />- W przypadku treści innych niż internetowe, w natywnym oprogramowaniu, treść elektroniczna obejmuje informacje prezentowane za pomocą interfejsu użytkownika, a także kod określający strukturę i prezentację informacji."
 
-
 tresc_internetowa: "(ang. 'content (Web content)'). Informacja i komunikat zmysłowy przekazywany użytkownikowi za pośrednictwem programu użytkownika, włączając w to kod lub znaczniki definiujące strukturę, wygląd lub interakcję z informacją."
-
 
 tresc_nietekstowa: "(ang. 'non-text content'). Każda treść, która nie jest sekwencją znaków, które mogą być programowo określone lub nie wyraża niczego w jakimkolwiek języku naturalnym. <br/>**Uwaga**: Obejmuje to ASCII Art (będący układanką złożoną ze znaków), emotikony, slang na forach (korzystający z zastępowania znaków) i obrazy przedstawiające tekst."
 
@@ -280,7 +274,6 @@ WAI: "Akronim utworzony od nazwy *Web Accessibility Initiative* – inicjatywa W
 
 WAI-ARIA: "Specyfikacja techniczna opublikowana przez World Wide Web Consortium (W3C), która określa, w jaki sposób zwiększyć dostępność stron internetowych, w szczególności treści dynamicznych i komponentów interfejsu użytkownika opracowanych za pomocą Ajax , HTML , JavaScript i powiązane technologie. Nazwa jest akronimem angielskiego *Web Accessibility Initiative - Accessible Rich Internet Applications* - Inicjatywa dla Dostępności Internetowej - Dostępność Bogatych Aplikacji Internetowych. Prace nad WAI-ARIA rozpoczęto w 2006 roku. "
 
-
 WCAG: "Akronim (skrót) od angielskiego tytułu zbioru dokumentów [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) – opublikowanego przez WAI, zawierający zalecenia dotyczące tworzenia dostępnych treści internetowych. 15 października 2012 roku wytyczne WCAG w wersji 2.0 zyskały status międzynarodowej normy ISO/IEC 40500:2012."
 
 wersja_alternatywna_zapewniajaca_zgodnosc: "(ang. 'conforming alternate version'). Wersja tej samej treści, strony lub witryny, która<br>1) spełnia wszystkie kryteria sukcesu na określonym poziomie (A, AA lub AAA),  <br>2) zawiera równoważne informacje i funkcjonalności w tym samym języku oraz <br>- jest tak samo aktualna, jak wersja „niezgodna”, <br>dla której przynajmniej jeden z poniższych warunków jest spełniony <br>- wersja zgodna jest osiągalna z wersji niezgodnej za pomocą mechanizmu obsługującego dostępność albo wersja niezgodna jest osiągalna jedynie z wersji zgodnej, albo  wersja niezgodna jest osiągalna tylko z wersji zgodnej, o ile zawiera mechanizm osiągnięcia wersji zgodnej."
@@ -289,13 +282,10 @@ wideo: "Technologia poruszających się lub następujących po sobie obrazów. T
 
 witryna_internetowa: "(ang: 'Web site'). Dowolna samodzielna strona internetowa lub zbiór stron internetowych, należących do tej samej domeny lub subdomeny, do których można uzyskać dostęp ze strony głównej. <br>**Uwaga 1**: Pojedyncza strona internetowa jest witryną tylko wówczas, gdy jest jedyną stroną, do jakiej można uzyskać dostęp z adresu domenowego. <br>**Uwaga 2**: Witryna internetowe mogą składać się z mniejszych zbiorów stron, z których każdy można uznać za odrębną witrynę. Na przykład witryna może zawierać wyodrębnione obszary, takie jak sklep internetowy, forum dyskusyjne albo odrębne obszary dla filii instytucji czy firmy, powiązane wspólnym adresem domenowym. Każdy taki podzbiór może być uznany za odrębną witrynę. <br>**Uwaga 3**: Różnojęzyczne wersje witryny mogą być traktowane jak odrębne witryny."
 
-
 wlasciwosc_stylu: "Właściwość, której wartość określa sposób prezentacji (np. czcionka, kolor, rozmiar, lokalizacja, wypełnienie, głośność, synteza mowy) elementów treści w trakcie ich renderowania (np. na ekranie, przez głośnik, przez wyświetlacz brajlowski) przez programy użytkownika). <br>Właściwości stylu mogą mieć kilka źródeł:
 <br>**Domyślne style programu użytkownika**: Domyślne wartości właściwości stylu stosowane w przypadku braku stylów autora lub użytkownika. Niektóre technologie treści internetowych określają domyślne renderowanie, inne nie;<br>**Style autora**: Wartości właściwości stylu ustawione przez autora jako część treści (np. style wbudowane, arkusze stylów autora);<br>**Style użytkownika**: Wartości właściwości stylu ustawione przez użytkownika (np. poprzez ustawienia interfejsu programu użytkownika, arkusze stylów użytkownika)."
 
 wspolczynnik_kontrastu: "(ang. 'contrast ratio'). (L1 + 0.05) / (L2 + 0.05), gdzie:<br>- L1 to relatywna luminancja jaśniejszego z kolorów, a<br>L2 to relatywna luminancja ciemniejszego z kolorów. <br>*Uwaga 1*: Współczynnik kontrastu zawiera się pomiędzy 1 i 21 (powszechnie zapisywanych 1:1 do 21:1).<br>*Uwaga 2*: Ponieważ autor strony nie ma wpływu na sposób renderowania ustawiony przez użytkownika (np. wygładzanie czcionek lub antyaliasing), współczynnik kontrastu oblicza się jak dla wyłączonego antyaliasingu."
-
-
 
 wspolne_strony_internetowe: "(ang. 'Common web pages'). Strony i stany stron internetowych 'wspólne' dla całej witryny, odnoszące się do całej witryny, istotne dla funkcjonowania całej witryny, takie jak strona główna, strona logowania, mapa witryny, strona kontaktowa, strona pomocy, strona informacji prawnych i podobne, które są zazwyczaj połączone ze wszystkimi innymi stronami witryny (zwykle poprzez łącze w nagłówku, w&nbsp;stopce albo w menu nawigacyjnym)."
 
@@ -313,10 +303,7 @@ wymogi_zgodnosci_z_WCAG: "Pięć warunków, które muszą być spełnione, aby s
 
 wzgledna_luminancja: "(ang. 'relative luminance'). Względna jasność punktu w przestrzeni kolorów, znormalizowana do 0 dla najciemniejszego czarnego i 1 dla najjaśniejszego białego."
 
-
-
 zagrozenie: "(ang. 'emergency'). Nagła, nieoczekiwana sytuacja lub zdarzenie, wymagające natychmiastowej reakcji dla ochrony zdrowia, bezpieczeństwa lub mienia."
-
 
 zestaw_stron_internetowych: "(ang. 'set of web pages') Zbiór stron internetowych, które mają wspólny cel i które są tworzone przez tego samego autora, grupę lub organizację. <br>Przykładem jest publikacja podzielona na wiele stron internetowych, gdzie każda strona zawiera jeden rozdział lub inną znaczącą część pracy. Publikacja jest logicznie pojedynczą, ciągłą jednostką i zawiera funkcje nawigacyjne, które umożliwiają dostęp do pełnego zestawu stron. <br>**Uwaga:** Różne wersje językowe będą traktowane jako różne zestawy stron internetowych."
 
@@ -324,8 +311,6 @@ zgodnosc: "(ang. 'conformance'). Spełnienie wszystkich wymagań danej normy, wy
 
 zmiany_kontekstu: "(ang. 'changes of context'). Znaczące zmiany treści strony internetowej, które dokonywane bez świadomości użytkownika, mogą go dezorientować, jeżeli nie jest on w stanie oglądać całej strony jednocześnie. <br>Zmiany kontekstu obejmują zmiany:<br>1. w programie użytkownika; <br>2. obszaru obrazu; <br>3. fokusu; <br>4. treści, która zmienia sens strony internetowej. <br>
 *Uwaga*: Zmiana treści nie zawsze oznacza zmianę kontekstu. Zmiana w treści, na przykład rozwinięcie drzewa, dynamicznego menu lub zakładki niekoniecznie zmieniają kontekst, dopóki nie zmienią jednego z powyższych (np. fokusu). <br>*Przykład*: Otwarcie nowego okna, przeniesienie fokusu na inny obiekt, przejście na inną stronę internetową (włączając w to także każdą sytuację, kiedy użytkownikowi tylko wydaje się, że przechodzi na inną stronę internetową) lub znaczące przekształcenie wyglądu strony są przykładami zmiany kontekstu."
-
-
 
 zobowiazanie_prawne: "(ang. 'legal commitments'). Transakcja, gdzie osoba wiąże się prawnym obowiązkiem lub korzyścią. <br>*Przykład:* akt ślubu, umowa handlowa (finansowa i prawna), testament, pożyczka, adopcja, zaciągnięcie się do armii, kontrakt dowolnego rodzaju itp."
 
@@ -336,7 +321,5 @@ zrozumialosc: "Właściwość strony internetowej lub aplikacji mobilnej umożli
 zsynchronizowane_multimedia: "(ang. 'synchronised media'). Dźwięk lub wideo zsynchronizowane z innym formatem, w celu prezentacji informacji lub/i z interaktywnymi komponentami, o ile nie jest to wyraźnie oznaczona alternatywa dla tekstu."
 
 zwolnienie_nacisku: "(ang. 'up-event'). Zdarzenie dotykowe, które następuje potem, gdy palec, rysik, wskaźnik myszki lub inny bodziec zwalnia „wciśnięty” wcześniej punkt interaktywny na ekranie. Zwolnienie nacisku może mieć różne nazwy na różnych platformach, takie jak „touchend” lub „mouseup”."
-
-
 
 zargon: "(ang. jargon). Słowa używane w pewien określony sposób w pewnych określonych środowiskach. <br>*Przykład:* Słowo Sticky Keys używane jest w żargonie środowisk zajmujących się technologiami wspomagającymi i technologiami dostępności."

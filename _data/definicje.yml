@@ -34,13 +34,13 @@ karta_opisu_testu: "Deklaracja celow testu oraz ewentualnie pomysłów na testow
 
 kierownik_testow: "Osoba odpowiedzialna za zarządzanie czynnościami testowymi, zasobami oraz oceną przedmiotu testu. Osoba, która kieruje, zarządza, administruje, planuje i reguluje ocenę przedmiotu testu."
 
-komisarz_ds_oceny: "Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot, który zlecił ocenę.<br>*Uwaga*: W wielu przypadkach komisarz ds. oceny może być właścicielem lub twórcą witryny, w innych przypadkach może to być inny podmiot, taki jak zamawiający lub właściciel ankiety monitorującej dostępność."
+komisarz_ds_oceny: "(ang. _evaluation commissioner_). Zobacz → zlecający ocenę."
 
 kryteria_zaliczenia_niezaliczenia: "Reguły decyzyjne wykorzystywane do określenia, czy obiekt testowany (funkcja) lub cecha zaliczyła test. (IEEE 829)"
 
 lista_zasobow_podstawowych: "(ang. _Core Resource List_). Zbiór zasobów ogólnych, kluczowych dla oceny użyteczności i dostępności witryny, które można znaleźć na większości witryn."
 
-malpie_testowanie: "Metoda testowania poleggajaca na losowym wyborze z szerokiego zakresu wejść i losowym naciskaniu przycisków, ignorując sposób, w jaki produkt powinien być używany."
+malpie_testowanie: "Metoda testowania polegajaca na losowym wyborze z szerokiego zakresu wejść i losowym naciskaniu przycisków, ignorując sposób, w jaki produkt powinien być używany."
 
 modul: "Najmniejsza część systemu, która może być testowana w izolacji."
 
@@ -80,7 +80,7 @@ proces_testowy: "Zbiór powiązanych ze sobą działań obejmujący planowanie i
 
 projektowanie_testu: "Czynność wyprowadzania i specyfikowania przypadków testowych z warunków testowych. Wg ISO 29119]."
 
-przeglad: "Ocena produktu lub statusu projektu mająca na celu stwierdzenie rozbieżności od planowannych założeń i rekomendację usprwnień. Prrzykłądy: przegląd kierowniczy, przegląd techniczny, inspekcja."
+przeglad: "Ocena produktu lub statusu projektu mająca na celu stwierdzenie rozbieżności od planowanych założeń i rekomendację usprawnień. Przykłady: przegląd wstępny, przegląd kierowniczy, przegląd techniczny, inspekcja."
 
 przeglad_formalny: "Przeglad charakteryzujący się udokumentowanymi procedurami i wymaganiami, np. inspekcja."
 
@@ -160,3 +160,11 @@ zasob_HTTP: "Sieciowy (internetowy) obiekt danych identyfikowany za pomocą poje
 zdany: "Test jest uważany za zdany lub zaliczony, jeśli jego rezultat jest zgodny z rezultatem oczekiwanym. Zobacz → test zdany."
 
 zlecajacy_ocene: "(ang. _evaluation commissioner_). Osoba, zespół ludzi, organizacja, dział wewnętrzny lub inny podmiot, który zlecił ocenę. *Uwaga*: W wielu przypadkach zlecajacym ocenę będzie właściciel lub twórca, wydawca witryny. Ale może to być również np. naukowiec prowadzący badania dostępności albo podmiot monitorujący dostępność stron internetowych i aplikacji mobilnych."
+
+
+
+
+
+
+
+

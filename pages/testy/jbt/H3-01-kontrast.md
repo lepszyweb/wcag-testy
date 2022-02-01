@@ -1,18 +1,23 @@
 ---
-title: Współczynnik kontrastu tekstu do tła
+title: Kontrast elementów tekstowych i nietekstowych
 
 sidebar: testy_sidebar
 permalink: H3-01-kontrast
 folder: testy/jbt
 ---
 
-## Współczynnik kontrastu tekstu do tła
+## Kontrast elementów tekstowych i nietekstowych
 
 ### Metoda badania:
 Użyj narzędzia do testowania kontrastu, aby określić współczynniki kontrastu.
 
 ## Zastosowanie
-_do opracowania_
+
+- tekst podstawowy, teksty nagłówków i etykiet, teksty łączy, drobny druk
+- elementy sterujące
+- obramowanie kontrolek formularzy - pól tekstowych, pól wyboru, przycisków opcji, przycisków
+- znaczące elementy graficzne, w tym na wykresach, schematach 
+
 ## Założenia, zastrzeżenia lub wyjątki
 _do opracowania_
 
@@ -61,7 +66,16 @@ Kryteria sukcesu: [1.4.3 Kontrast (minimalny)](https://wcag.lepszyweb.pl/#contra
 -	opcja contrast w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
 
 #### Techniki WCAG 2.1
-_do opracowania_
+Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
+
+- {% include techniki/G18.md %}
+- {% include techniki/G145.md %}
+- {% include techniki/G148.md %}
+- {% include techniki/G174.md %}
+- {% include techniki/G156.md %}
+- {% include techniki/F24.md %}
+- {% include techniki/F83.md %}
+
 
 ### Przypadki testowe
 

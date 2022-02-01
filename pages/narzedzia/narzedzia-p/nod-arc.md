@@ -111,4 +111,4 @@ Włączenie funkcji **Check Page Reflow** (Wlej zawartość ponownie) spowoduje 
 Funkcja **Check Text Spacing** (Sprawdź odstępy w tekście) służy do testów zgodności z nowym WCAG 2.1 kryterium sukcesu 1.4.12. Gdy włączysz tę opcję, zostaną zwiększone odstępy między znakami co najmniej do wielkości równej 0,12 rozmiaru czcionki, między wyrazami do 0,16 rozmiaru czcionki, między wierszami do 1,5 rozmiaru czcionki. Aby zaliczyć test, zmiana ta nie powinna spowodować trudności w czytaniu (nakładania się znaków i wierszy na siebie, oddzielania znaków diakrytycznych od znaków, itp.).
 
 #### Skróty do walidatora HTML
-Wygodną dla testerów funkcją są również przyciski **Send DOM to Validator ** (Prześlij DOM do walidatora) oraz **Send URL to Validator** (Prześlij URL do walidatora). Oba przyciski przesyłają dane do walidatora Nu Html Checker, który sprawdza poprawność kodu HTML i XHTML.
+Wygodną dla testerów funkcją są również przyciski **Send DOM to Validator** (Prześlij DOM do walidatora) oraz **Send URL to Validator** (Prześlij URL do walidatora). Oba przyciski przesyłają dane do walidatora Nu Html Checker, który sprawdza poprawność kodu HTML i XHTML.
