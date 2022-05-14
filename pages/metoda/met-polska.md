@@ -17,10 +17,10 @@ Nic w tym prawdopodobnie zaskakującego, zważywszy że także w innych krajach 
 
 W kwietniu 2016 roku Fundacja Widzialni opublikowała podręcznik [Badanie dostępności strony internetowej w oparciu o WCAG](http://www.widzialni.org/badanie-dostepnosci-strony-www-w-oparciu-o-wcag,new,mg,5,254). Podręcznik jestopracowanym przez Artura Marcinkowskiego rozwinięciem pierwszej publikacji, z&nbsp;nieco wzbogaconymi wskazówkami dotyczącymi sposobu oceniania zgodności z&nbsp;poszczególnymi kryteriami sukcesu WCAG oraz o&nbsp;obszerną, blisko 50-stronicową prezentacją narzędzi do badania i&nbsp;oceniania dostępności autorstwa Sebastiana Depty.
 
-W styczniu 2020 roku Fundacja Widzialni opublikowała porawione wydanie metodologii z 2013 roku, zatytułowane tym razem [Metoda oceny dostępności cyfrowej strony internetowej zgodnie z zasadami WCAG 2.1](http://widzialni.org/metoda-oceny-dostepnosci-cyfrowej-strony-internetowej-zgodnie-z-zasadami-wcag-21,new,mg,6,371). Grono autorów nowej wersji liczy 5 osób (Przemysław&nbsp;Marcinkowski, Marcin&nbsp;Luboń
+W styczniu 2020 roku Fundacja Widzialni opublikowała poprawione wydanie metodologii z 2013 roku, zatytułowane tym razem [Metoda oceny dostępności cyfrowej strony internetowej zgodnie z zasadami WCAG 2.1](http://widzialni.org/metoda-oceny-dostepnosci-cyfrowej-strony-internetowej-zgodnie-z-zasadami-wcag-21,new,mg,6,371). Grono autorów nowej wersji liczy 5 osób (Przemysław&nbsp;Marcinkowski, Marcin&nbsp;Luboń
 dr&nbsp;Izabela&nbsp;Mrochen, Monika&nbsp;Szczygielska, Artur&nbsp;Marcinkowski).  
 
-## Co zawiera &bdquo;polskiej metodologii&rdquo;?
+## Co zawiera &bdquo;polska metodologia&rdquo;?
 
 Odnowione wydanie niewiele różni się od pierwszego. Autorzy podzielili swoją prezentację na 4 części:
 - Metodyka przeprowadzania badań/audytu
@@ -47,11 +47,12 @@ W nowym wydaniu ostała się już tylko - i słusznie - jedna metoda nazwana po 
 
 {% include callout.html content="Analiza ekspercka polega na sprawdzeniu zgodności z WCAG 2.1 (metoda problemowa). Oparta jest na czterech zasadach i&nbsp;odpowiadających im wytycznych, które zostały przedstawione szczegółowo odpowiednio w&nbsp;Tabelach (1-13)." type="success" %}
 
-Charaktersytyce tak rozumianej metodzie analizy eksperckiej autorzy poświęcają zasadniczą część swego opracowania.  W&nbsp;13&nbsp;tabelkach prezentuja zwięzłe, ale jasne, zrozumiałe 1-3 zdaniowe wskazówki, objaśniające, co należy poddać badaniu. W każdej z tabel zgromadzono wskazówki odnoszące się do jednej wytycznej WCAG 2.1. W nowym wydaniu uwzględniono kryteria sukcesu zdefiniowane w WCAG 2.1.
+Charaktersytyce tak rozumianej metody analizy eksperckiej autorzy poświęcają zasadniczą część swego opracowania.  W&nbsp;13&nbsp;tabelkach prezentuja zwięzłe, ale jasne, zrozumiałe 1-3 zdaniowe wskazówki, objaśniające, co należy poddać badaniu. W każdej z tabel zgromadzono wskazówki odnoszące się do jednej wytycznej WCAG 2.1. W&nbsp;nowym wydaniu uwzględniono kryteria sukcesu zdefiniowane w WCAG 2.1.
 
-Na etapie **badania z użytkownikami** autorzy proponują obserwację uczestniczącą realizacji przez kilku użytkowników z&nbsp;niepełnosprawnościami zestawu  trzech do pięciu zadań, których dobór zależy od charakteru i&nbsp;celów strony, np. założenie swojego konta na stronie, odnalezienie numeru telefonu kontaktowego, odnalezienie informacji przy pomocy wyszukiwarki, zamówienie towaru w&nbsp;sklepie internetowym.
+Na etapie **badania z użytkownikami** autorzy proponują obserwację uczestniczącą w realizacji przez kilku użytkowników z&nbsp;niepełnosprawnościami zestawu  trzech do pięciu zadań, których dobór zależy od charakteru i&nbsp;celów strony, np. założenie swojego konta na stronie, odnalezienie numeru telefonu kontaktowego, odnalezienie informacji przy pomocy wyszukiwarki, zamówienie towaru w&nbsp;sklepie internetowym.
 
 Optymalna liczba osób biorących udział w badaniach z użytkownikami nie powinna przekraczać 7-8.
 
-Jako zwięzły opis sposobu przeprowadzenia oceny dostępności witryny internetowej zarówno pierwsze starsze wydawnie **Metodologii...**, jak i drugie nowsze wydanie **Metody...** to niewątpliwie ważki wkład w prace nad upowszechnianiem problemów dostępności cyfrowej w Polsce.
+Jako zwięzły opis sposobu przeprowadzenia oceny dostępności witryny internetowej zarówno pierwsze starsze wydawnie **Metodologii...**, jak i drugie nowsze wydanie **Metody...** to niewątpliwie ważki wkład w prace nad upowszechnianiem problemów dostępności cyfrowej w&nbsp;Polsce.
+
 Wszystkim, którzy przyczynili się do ich powstania, należą się słowa uznania.
