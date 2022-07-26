@@ -45,11 +45,11 @@ Kryterium sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-t
 ### Wykorzystanie skryptozkładki ANDI
 {% include image.html file="andi/andi-images.png" alt="Wykorzystanie skryptozkładki ANDI" %}
 
-1.	Uruchom skryptozakładkę ANDI i wybierz z menu ANDI opcję *graphic/images*.  
-2.	ANDI wykryje wszystkie elementy graficzne na stronie i poda zwięzłą statystykę (Znalezionych obrazów (*Images found*) – XX, XX obrazów w tekście (*inline images*), X obrazów łączy (*image links*), XX ikon z fontów (*font icons*) oraz XX obrazów tła (*background-images*)
-3.	Sprawdź w sekcji *Element*, czy obraz posiada dostępną nazwę lub opis powiązane programowo (atrybut `alt`, `title` i inne).
-4.	Sprawdź w sekcji *ANDI Output*, treść tekstowego odpowiednika obrazu, jaką ogłoszą czytniki ekranu.  
-5.	Rozważ ostrzeżenia wyszczególnione w sekcji *Graphics Alerts*.
+1.	Uruchom skryptozakładkę ANDI i wybierz z menu ANDI opcję *grafika/obrazy*.  
+2.	ANDI wykryje wszystkie elementy graficzne na stronie i poda zwięzłą statystykę: *Znaleziono obrazów* – XX, XX *obrazów osadzonych*, X *łączy graficznych*, XX *ikon z fontów* oraz XX *obrazów tła*.
+3.	Sprawdź w sekcji *Element*, czy obraz posiada dostępną nazwę lub opis powiązane programowo (atrybut `alt` lub inny: `title`, `aria-label`, `aria-labelldedby`).
+4.	Sprawdź w sekcji *Wyjście ANDI*, treść tekstowego odpowiednika obrazu, jaką ogłoszą czytniki ekranu.  
+5.	Rozważ ostrzeżenia wyszczególnione w sekcji *Alertów dostępności*.
 6.	Za pomocą przełącznika wykrytych elementów przejdź do testowania następnego obrazu.  
 
 *Uwaga*: ANDI oznacza na stronie analizowane obrazy wyraźnym konturem.  
@@ -59,7 +59,7 @@ Kryterium sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-t
 -	skryptozakładka [Images](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
 -	skryptozakładka [Active Images](https://jimthatcher.com/favelets/) z kolekcji Jima Tatchera
 -	skryptozakładka [Img-Alt Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access
--	opcja graphics/images w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
+-	opcja graphics/images w skryptozakładce [ANDI](https://lepszyweb.pl/andi/help/install.html)
 
 #### Techniki WCAG 2.1
 _do opracowania_

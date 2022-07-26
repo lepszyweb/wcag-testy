@@ -68,7 +68,7 @@ Kryteria sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-a
 -	skryptozakładka [Complex Tables Favlet](https://labs.levelaccess.com/index.php/Category:Favlet) z kolekcji Level Access. Pobiera powiązaną zawartość komórki nagłówka z każdej komórki, do której odwołuje się atrybut nagłówka, i umieszcza je na ekranie w komórce danych w taki sam sposób, w jaki czytnik ekranu może prezentować nagłówki użytkownikom czytnika ekranu.
 -	skryptozakładka [tables](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama. Wstawia znaczniki i atrybuty tabeli danych na żółtym tle, dzięki czemu można łatwo identyfikować błędy dostępności w tabeli.
 -	skryptozakładka [Content Structure](https://accessibility-bookmarklets.org/install.html) z kolekcji Pixo i University of Illinois. z kolekcji Pixo i University of Illinois. Autorzy wykorzystali skrypt Inhalte gegliedert, wzbogacając go o rozpoznawanie struktury list, tabel, linków i elementów formularzy.
--	moduł *tabele* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
+-	moduł *tabele* w skryptozakładce [ANDI](https://lepszyweb.pl/andi/help/install.html)
 
 #### Techniki WCAG 2.1
 Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:

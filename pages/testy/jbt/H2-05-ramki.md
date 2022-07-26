@@ -56,7 +56,7 @@ Kryterium sukcesu: [2.4.4. Cel linku w kontekście](https://wcag.lepszyweb.pl/#l
 -	opcja *Link Text* w skryptozakładce [Tota11y](https://khan.github.io/tota11y/)  
 -	skryptozakładka [Restore Link Underlines](http://adrianroselli.com/2015/01/css-bookmarklets-for-testing-and-fixing.html) Adriana Roselliego. Podkreśla łącza na całej stronie.
 -	skryptozakładka [Link underlines] https://github.com/ThePacielloGroup/bookmarklets  z kolekcji Pacciello Group
--	opcja tables w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
+-	opcja tables w skryptozakładce [ANDI](https://lepszyweb.pl/andi/help/install.html)
 
 #### Techniki WCAG 2.1
 _do opracowania_

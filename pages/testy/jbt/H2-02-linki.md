@@ -43,10 +43,10 @@ Kryterium sukcesu: [2.4.4. Cel linku w kontekście](https://wcag.lepszyweb.pl/#l
 
 {% include image.html file="andi/andi-linki.png" alt="Wykorzystanie skryptozkładki ANDI" %}
 1.	Uruchom skryptozakładkę ANDI.
-2.	Wybierz z menu ANDI opcję *links/buttons* i zaznacz w menu poziomym opcję *XX links*. (XX oznacza liczbę wykrytych łączy).
-3.	Uaktywnij łącze View links list i przejrzyj tabelę z listą wykrytych łączy. Można użyć jednego z filtrów (*all links* – wszystkie łącza, *skip links* -  łącza pomijające, *external links* – łącza do lokalizacji zewnętrznych), aby ograniczyć liczbę wyświetlanych pozycji.  
+2.	Wybierz z menu ANDI opcję *łącza/przyciski* i zaznacz w menu poziomym opcję *XX łączy*. (XX oznacza liczbę wykrytych łączy).
+3.	Uaktywnij łącze *Pokaż listę łączy* i przejrzyj tabelę z listą wykrytych łączy. Można użyć jednego z filtrów (*wszystkie łącza*  *łącza pomijające* *łącza zewnętrzne*), aby ograniczyć liczbę wyświetlanych pozycji.  
 4.	Sprawdź, czy wybrane łącze zostało utworzone znacznikiem `<a>` (*anachor* - kotwica).
-5.	Sprawdź, czy wybrane łącze ma dostępną nazwę oraz atrybut href wskazujący cel łącza
+5.	Sprawdź, czy wybrane łącze ma dostępną nazwę oraz atrybut `href` wskazujący cel łącza
 6.	Sprawdź, czy tekst, jaki ogłosi czytnik ekranu, będzie zrozumiały bez kontekstu. Jeśli nie, sprawdź kontekst łącza i oceń, czy cel łącza będzie zrozumiały z kontekstu.   
 7.	Użyj przełącznika między wykrytymi elementami strony, aby sprawdzić kolejne łącze.
 
@@ -55,8 +55,8 @@ Kryterium sukcesu: [2.4.4. Cel linku w kontekście](https://wcag.lepszyweb.pl/#l
 #### Pomocne narzędzia:
 -	opcja *Link Text* w skryptozakładce [Tota11y](https://khan.github.io/tota11y/)  
 -	skryptozakładka [Restore Link Underlines](http://adrianroselli.com/2015/01/css-bookmarklets-for-testing-and-fixing.html) Adriana Roselliego. Podkreśla łącza na całej stronie.
--	skryptozakładka [Link underlines] https://github.com/ThePacielloGroup/bookmarklets  z kolekcji Pacciello Group
--	opcja tables w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
+-	skryptozakładka [Link underlines] https://github.com/ThePacielloGroup/bookmarklets z kolekcji Pacciello Group
+-	opcja *tabele* w skryptozakładce [ANDI](https://lepszyweb.pl/andi/help/install.html)
 
 #### Techniki WCAG 2.1
 _do opracowania_

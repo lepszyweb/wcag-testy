@@ -47,7 +47,7 @@ Kryterium sukcesu: [2.4.3 Kolejność fokusu](https://wcag.lepszyweb.pl/#focus-o
 #### Pomocne narzędzia:
 -	skryptozakładka [Focus Interactive Controls](http://adrianroselli.com/2015/01/css-bookmarklets-for-testing-and-fixing.html) z kolekcji Adriana Roselliego. Zamiast uderzać wielokrotnie w klawisz tabulatura, aby sprawdzić style fokusu, kolejność odczytu, usłyszeć, jak czytnik ekranu ogłasza kolejne elementy, uruchom tę zakładkę. Nie będzie można jej zatrzymać do ukończenia zadania. Na każdym elemencie wskaźnik fokusu zostanie zatrzymany na 1 sekundę (możesz dostosować ten czas w kodzie zakładki). Możesz również dostosować selektor CSS, aby testować interaktywne elementy np. tylko w obszarze main.
 -	skryptozakładka [Force show focus](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama. Dodaje jednolity pomarańczowy kontur o rozmiarze 4 pikseli wokół wszystkich elementów interaktywnych, gdy staja się punktem uwagi podczas tabulacji.
--	Opcja *interaktywne* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
+-	Opcja *interaktywne* w skryptozakładce [ANDI](https://lepszyweb.pl/andi/help/install.html)
 -	Opcja *Trace tab path* oferowana w dodatku [ChromeLens](https://chrome.google.com/webstore/detail/chromelens/idikgljglpfilbhaboonnpnnincjhjkd). Z testu tabulacji otrzymasz plik graficzny w formacie PNG pokazujący trasę fokusu.  
 -	Opcja *Show Tab Stops* w narzędziu [Accessibility Insights for Web](https://accessibilityinsights.io/) firmy Microsoft
 

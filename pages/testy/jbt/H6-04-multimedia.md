@@ -44,7 +44,17 @@ Kryteria sukcesu: [1.2.2 Napisy rozszerzone (nagranie)](https://wcag.lepszyweb.p
 #### Pomocne narzędzia:
 
 #### Techniki WCAG 2.1
-_do opracowania_
+- {% include techniki/G8.md %}
+- {% include techniki/G69.md %}
+- {% include techniki/G58.md %}
+- {% include techniki/G93.md %}
+- {% include techniki/G87.md %}
+- {% include techniki/G100.md %}
+- {% include techniki/G158.md %}
+- {% include techniki/G159.md %}
+- {% include techniki/G166.md %}
+- {% include techniki/H96.md %}
+
 
 ### Przypadki testowe
 

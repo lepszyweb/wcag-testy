@@ -36,9 +36,9 @@ Kryterium sukcesu: [1.3.2 Zrozumiała kolejność](https://wcag.lepszyweb.pl/#me
 ## Wykorzystanie skryptozkładki ANDI
 {% include image.html file="andi/andi-reading-order.png" alt="Wykorzystanie skryptozkładki ANDI" %}
 
-1.	Uruchom skryptozakładkę ANDI i wybierz z menu ANDI opcję *structures*.
-2.	Wybierz z menu poziomego opcję *reading order* (Porządek czytania)
-3.	Możesz użyć łącza *View outline*, aby rozwinąć konspekt strony.
+1.	Uruchom skryptozakładkę ANDI i wybierz z menu ANDI opcję *struktura*.
+2.	Wybierz z menu poziomego opcję *porządek czytania*
+3.	Możesz użyć łącza *pokaż konspekt*, aby rozwinąć konspekt strony.
 4.	Posługując się przełącznikiem między wykrytymi elementami struktury strony, badaj porządek czytania w kolejnych sekcjach strony.
 5.	Sprawdź, czy porządek czytania w każdej przeglądanej części strony jest logiczny i znaczący. ANDI oznacza kolejność czytania elementów liczbami porządkowymi.  
 
@@ -48,7 +48,7 @@ Kryterium sukcesu: [1.3.2 Zrozumiała kolejność](https://wcag.lepszyweb.pl/#me
 -	skryptozakładka [Reading Order Bookmarklet](https://adrianroselli.com/2019/04/reading-order-bookmarklet.html) z kolekcji Adriana Roselli
 -	bezpłatny czytnik ekranu [NVDA](https://www.nvda.pl/pobierz) dla Windows
 -	skryptozakładka [Screen Curtain](http://whatsock.com/training/matrices/screen_curtain.htm) z kolekcji WhatSock.
--	opcja structure w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
+-	opcja structure w skryptozakładce [ANDI](https://lepszyweb.pl/andi/help/install.html)
 
 *Uwaga*: Aby odsłuchać treść strony czytnikiem NVDA, użyj najpierw kombinacji klawiszy Ctrl+Home, a następnie [NVDA]+Strzałka w dół ([NVDA] to klawisz modyfikujący, domyślnie Insert, często zmieniany na CAPSLock).
 

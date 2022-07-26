@@ -46,7 +46,7 @@ Kryterium sukcesu: [1.3.1 Informacje i relacje](https://wcag.lepszyweb.pl/#info-
 
 #### Pomocne narzędzia:
 -	skryptozakładka [Lists](http://pauljadam.com/bookmarklets/index.html) z kolekcji Paula J. Adama
--	Opcja *structures* w skryptozakładce [ANDI](https://www.ssa.gov/accessibility/andi/help/install.html)
+-	Opcja *structures* w skryptozakładce [ANDI](https://lepszyweb.pl/andi/help/install.html)
 
 #### Techniki WCAG 2.1
 _do opracowania_
