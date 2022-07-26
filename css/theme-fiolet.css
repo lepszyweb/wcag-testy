@@ -260,3 +260,125 @@ height: 100%;
 .row {
  margin-right: 0;
 }
+
+
+a {
+    color: #2e75b2;
+    text-decoration: none
+}
+
+a:focus,
+a:hover {
+    color: #23527c;
+}
+.text-primary {
+    color: #2e75b2
+}
+.bg-primary {
+    background-color: #2e75b2
+}
+.btn-primary {
+    background-color: #2e75b2;
+}
+
+.btn-primary.disabled,
+.btn-primary.disabled.active,
+.btn-primary.disabled.focus,
+.btn-primary.disabled:active,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled],
+.btn-primary[disabled].active,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:active,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary,
+fieldset[disabled] .btn-primary.active,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:active,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
+    background-color: #2e75b2;
+}
+
+.btn-primary .badge {
+    color: #2e75b2;
+}
+
+.btn-link {
+    color: #2e75b2;
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+    background-color: #2e75b2;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    border-color: #2e75b2
+}
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: #2e75b2
+}
+.pagination>li>a,
+.pagination>li>span {
+    color: #2e75b2;
+}
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background-color: #2e75b2;
+    border-color: #2e75b2
+}
+.label-primary {
+    background-color: #2e75b2
+}
+.list-group-item.active>.badge,
+.nav-pills>.active>a>.badge {
+    color: #2e75b2;
+}
+
+a.thumbnail.active,
+a.thumbnail:focus,
+a.thumbnail:hover {
+    border-color: #2e75b2
+}
+
+.progress-bar {
+    background-color: #2e75b2;
+}
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+    background-color: #2e75b2;
+    border-color: #2e75b2
+}
+.panel-primary {
+    border-color: #2e75b2
+}
+
+.panel-primary>.panel-heading {
+    background-color: #2e75b2;
+    border-color: #2e75b2
+}
+
+.panel-primary>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #2e75b2
+}
+
+.panel-primary>.panel-heading .badge {
+    color: #2e75b2;
+}
+
+.panel-primary>.panel-footer+.panel-collapse>.panel-body {
+    border-bottom-color: #2e75b2
+}
