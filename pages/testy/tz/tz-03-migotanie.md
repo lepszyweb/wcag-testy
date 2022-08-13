@@ -44,9 +44,9 @@ Możesz zastosować narzędzie [PEAT](https://trace.umd.edu/peat).
 
 
 ### Ocena wyników
-Jeśli korzystasz z narzędzia [PEAT](https://trace.umd.edu/peat), ustal ocenę wyników na podstawie rpzeprowadzonego testu.
+Jeśli korzystasz z narzędzia [PEAT](https://trace.umd.edu/peat), ustal ocenę wyników na podstawie przeprowadzonego testu.
 
-**Uwaga**: Określono wiele wymagań dla zgodności treści błyskających i migoczących. Aby ustalić, czy wymagania są spełnione, potrzebne jest automatyczne narzędzie testujące, ale w systemie oceniania  Trusted tester uznano, że obecnie takie narzędzie nie jest dostępne. Dlatego, dopóty nie zostanie okreśłone konkretne narzędzie testowe, nalezy ocenić wynik testu 3.A 2.3.1-migotanie jako **nie testowano**. 
+**Uwaga**: Określono wiele wymagań dla zgodności treści błyskających i migoczących. Aby ustalić, czy wymagania są spełnione, potrzebne jest automatyczne narzędzie testujące, ale w systemie oceniania Trusted tester uznano, że obecnie takie narzędzie nie jest dostępne. Dlatego, dopóty nie zostanie okreśłone konkretne narzędzie testowe, nalezy ocenić wynik testu 3.A 2.3.1-migotanie jako **nie testowano**. 
 
 Do czasu określenia odpowiedniego narzędzia testującego wynik **Nie testowano** będzie wskazywał, że na stronie znaleziono treść błyskającą (migoczącą).
 

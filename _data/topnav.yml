@@ -1,5 +1,5 @@
 ## Topnav single links
-## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+## jeśli chcesz wymienić zewnętrzny adres url, użyj external_url zamiast url. motyw zastosuje inną bazę linków.
 topnav:
 - title: Górna
   items:

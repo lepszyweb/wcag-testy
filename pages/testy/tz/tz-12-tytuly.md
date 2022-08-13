@@ -177,15 +177,15 @@ Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełn
 
 ## Ramki łaczone (iframe)
 
-### 4.	Test 12.D 4-1-2-nazwa-ramki-łaczonej
+### 4.	Test 12.D 4-1-2-nazwa-ramki-wbudowanej
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
 | 4-1-2-nazwa-ramki-łaczonej | 12.D    | Kombinacja dostępnej nazwy i opisu każdej `<iframe>` opisuje jej treść. |
 
-### Cel testu 12.D 4-1-2-nazwa-ramki-łaczonej
+### Cel testu 12.D 4-1-2-nazwa-ramki-wbudowanej
 
-Celem tego testu jest sprawdzenie, czy każda ramka łączona  ma dostępną nazwę lub dostępny opis, które opisują treść ramki. Użytkownicy, którzy polegają na powiązaniach programowych, np. użytkownicy czytników ekranu, potrzebują sposobu na określenie celu lub tematu ramki łączonej i podjęcie decyzji, czy chcą z nimi wchodzić w interakcje.
+Celem tego testu jest sprawdzenie, czy każda ramka wbudowana (<code>iframe</code>) ma dostępną nazwę lub dostępny opis, które opisują treść ramki. Użytkownicy, którzy polegają na powiązaniach programowych, np. użytkownicy czytników ekranu, potrzebują sposobu na określenie celu lub tematu ramki łączonej i podjęcie decyzji, czy chcą z nimi wchodzić w interakcje.
 
 Wyniki tego testu służą do ustalenia, czy spełnione jest [kryterium sukcesu WCAG 4-1-2 Nazwa, rola, wartość](https://wcag.lepszyweb.pl/#name-role-value).
 
