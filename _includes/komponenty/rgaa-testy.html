@@ -1,0 +1,74 @@
+<div id="criteres">
+
+
+    {% assign temat = "" %}
+    {% for tematy in site.data.rgaa.kryteria.tematy %}
+        {% if temat != tematy.temat %}
+            {% assign temat = tematy.temat %}
+            <h3 id="temat{{ tematy.numer }}">{{ tematy.numer }}. {{ tematy.temat }}</h3>
+        {% endif %}
+
+        {% for kryteria in tematy.kryteria %}
+            {% assign critLevel = "" %}
+            {% for sc in kryteria.kryterium.odniesienia[0].wcag %}
+                {% assign splitSc = sc | split: " " %}
+                {% assign level = splitSc | slice: -1 %}
+                {% capture level %}{{ level }}{% endcapture %}
+                {% assign levelSize = level | size %}
+                {% assign levelSize = levelSize | minus: 2 %}
+                {% assign level = level | slice: 1, levelSize %} 
+                {% if critLevel == "" or critLevel == "AA" %}
+                    {% assign critLevel = level %}
+                {% endif %}
+            {% endfor %}
+
+        <article id="kryt-{{ tematy.numer }}-{{ kryteria.kryterium.numer }}" data-level="{{ critLevel }}" class="is-visible">
+            <h4 class="critere">Kryterium {{ tematy.numer }}.{{ kryteria.kryterium.numer }}. {{ kryteria.kryterium.tytul | replace: "(#", "(/slowniczek-rgaa#" | markdownify  | remove: '<p>' | remove: '</p>' }}</h4>
+                <ul class="tests is-hidden">
+                    {% assign testNum = 1 %}
+                    {% for test in kryteria.kryterium.testy %}
+                        <li id="test-{{ tematy.numer }}-{{ kryteria.kryterium.numer }}-{{ testNum }}">
+                            <span class="test">Test {{ tematy.numer }}.{{ kryteria.kryterium.numer }}.{{ test.first }}</span> : {{ test[1].first | replace: "(#", "(/slowniczek-rgaa#" | markdownify }}
+                            {% if test[1].size > 1 %}
+                            <ul>
+                                {% for condition in test[1] %}
+                                    {% unless condition == test[1].first %}
+                                        <li>{{ condition | replace: "(#", "(/slowniczek-rgaa#" | markdownify }}</li>
+                                    {% endunless %}
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </li>
+                        {% assign testNum = testNum | plus: 1 %}
+                    {% endfor %}
+                </ul>
+            <div class="aside is-hidden">
+                {% if kryteria.kryterium.notaTechniczna %}
+                    <h5>Uwagi</h5>
+                    {% for nt in kryteria.kryterium.notaTechniczna %}
+                        {% if nt.first %}
+                        <ul>
+                            {% for li in nt.first[1] %}
+                                {% if li.first %}
+                                <ul>
+                                    {% for subLi in li.first[1] %}
+                                    <li>{{ subLi | replace: "(#kryt", "(#kryt" | replace: "(#test", "(#test" | replace: "(#", "(/slowniczek-rgaa#" | markdownify }}</li>
+                                    {% endfor %}
+                                </ul>
+                                {% else %}
+                                <li>{{ li | replace: "(#kryt", "(#kryt" | replace: "(#test", "(#test" | replace: "(#", "(/slowniczek-rgaa#" | markdownify }}</li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                        {% else %}
+                            {{ nt | replace: "(#kryt", "(#kryt" | replace: "(#test", "(#test" | replace: "(#", "(/slowniczek-rgaa#" | markdownify }}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+ 
+
+            </div>
+        </article>
+        {% endfor %}
+    {% endfor %}
+</div>

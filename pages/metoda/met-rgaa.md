@@ -8,11 +8,11 @@ folder: metoda
 ---
 
 ## Historia metody
-Początki metodyce RGAA dało francuskie stowarzyszenie [BraileNet](https://www.braillenet.org/), które już w 2003 roku opracowało i opublikowałło pod nazwą [AccessiWeb](https://www.braillenet.org/accessibilite-numerique/cadre-technique/), aby zapewnić ujednolicone podejście do kontroli zgodności usług sieciowych dla WCAG. Ta metoda została szeroko rozpowszechniona zastosowana we Francji oraz w&nbsp;świecie francuskojęzycznym.
+Początki metodyce RGAA dało francuskie stowarzyszenie [BraileNet](https://www.braillenet.org/), które już w 2003 roku opracowało i opublikowało pod nazwą [AccessiWeb](https://www.braillenet.org/accessibilite-numerique/cadre-technique/), aby zapewnić ujednolicone podejście do kontroli zgodności usług sieciowych dla WCAG. Ta metoda została szeroko rozpowszechniona we Francji oraz w&nbsp;świecie francuskojęzycznym.
 
 W 2009 roku francuska administracja rządowa opublikowała pierwszą wersję „ogólnych wytycznych dostępności dla administracji” („Référentiel Général d'Accessibilité des Administrations”, w&nbsp;skrócie RGAA). Wytyczne były adaptacją WCAG 2.0 na potrzeby administracji francuskiej, wzbogaconą o&nbsp;szczegółowe instrukcje oceniania zgodności. W&nbsp;wytycznych wykorzystano dorobek stowarzyszenia BraileNet.
 
-W 2014 roku stowarzyszenie BraileNet z grupą firm wygrało przetarg na aktualizację RGAA, w wyniku którego zostało wykonawca tego rządowego zamówienia. 29 kwietnia 2015 roku udostępniono wersję 3.0 RGAA, która w&nbsp;dużej mierze korzysta z&nbsp;repozytorium AccessiWeb HTML5/ARIA.   
+W 2014 roku stowarzyszenie BraileNet z grupą firm wygrało przetarg na aktualizację RGAA, w wyniku którego zostało wykonawcą tego rządowego zamówienia. 29 kwietnia 2015 roku udostępniono wersję 3.0 RGAA, która w&nbsp;dużej mierze korzysta z&nbsp;repozytorium AccessiWeb HTML5/ARIA.   
 
 W swej istocie RGAA to nie są tylko „ogólne wytyczne”, jak można by wnosić z&nbsp;nazwy. Jest to bogaty zasób cyfrowy, dostarczający precyzyjnych sposobów badania i&nbsp;oceniania dostępności stron internetowych.
 

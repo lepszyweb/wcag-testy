@@ -1,0 +1,1999 @@
+{
+  "terminy": [
+    {
+      "sekcja": "A",
+      "dl": [
+        {
+          "id": "alert",
+          "dt": "Alert",
+          "dd": [
+            "Komunikat z ostrzeżeniem przerywający nawigację lub używanie strony, zwłaszcza z&nbsp;żądaniem kliknięcia na przycisk lub link w&nbsp;celu kontynuowania nawigacji lub używania treści.",
+            "Przykładowo, okno dialogowe generowane przez JavaScript przy użyciu funkcji alert. W&nbsp;szerszym znaczeniu, za alert uważa się okno modalne (treść przedstawiana w postaci „okna” wstawionego lub wyświetlonego w DOM), które wymaga zamknięcia w celu kontynuowania nawigacji lub używania treści.",
+            "Uwaga: wyłączenie alertów może być zaproponowane przed uruchomieniem alertu, przykładowo przy pomocy parametru użytkownika lub podczas wyświetlania pierwszego alertu, przykładowo przy pomocy pola wyboru „nie pokazuj więcej tego alertu”"
+          ]
+        },
+        {
+          "id": "altSkrypt",
+          "dt": "Alternatywa (dla skryptu)",
+          "dd": [
+            "Tekst lub procedura przypisane do skryptu przy pomocy odpowiedniej techniki i&nbsp;umożliwiający udostępnienie funkcji lub treści podobnej do proponowanej przez skrypt.",
+            "Uwaga: gdy proponowana jest alternatywa dla procedury lub funkcjonalności JavaScript, witryna powinna dostarczyć środek umożliwiający do nich dostęp. Może być to link lub przycisk umożliwiający dostęp do strony alternatywnej działającej bez JavaScript lub pozwalający zastąpić element przez element alternatywny działający przykładowo bez JavaScript."
+          ]
+        },
+
+        {
+          "id": "alternatywaDlaSVG",
+          "dt": "Alternatywa dla obrazu SVG",
+          "dd": [
+            "Możliwymi alternatywami obrazu SVG są:",
+            {
+              "ul": [
+                "mechanizm zastępowania,",
+                "powiązany link, który umożliwia dostęp do alternatywy, której zawartość jest adekwatna, i taki sam jak właściwość `aria-label` i atrybut `title` znacznika `<svg>`, jeśli istnieje."
+              ]
+            }
+          ]
+        },
+        {
+              "id": "alternatywaTekstowa",
+              "dt": "Alternatywa tekstowa",
+              "dd": [
+                "Tekst powiązany z obrazem przy pomocy odpowiedniej techniki i przedstawiający informację zawartą na obrazie (w odniesieniu do kontekstu treści strony internetowej, na której się znajduje).",
+                "Przedstawiana przez technologie wspomagające „dostępna nazwa” elementów graficznych typu:",
+                {
+                  "ul": [
+                    "Obraz (znacznik `<img>` lub znacznik z atrybutem `role=\"img\"`",
+                    "Obszar mapy odsyłaczy (znacznik `<area>`)",
+                    "Obraz z obiektu (`<object type=\"image/…\">`",
+                    "Grafika wektorowa (znacznik `<svg>`)",
+                    "Obraz na kanwie (znacznik `<canvas>`",
+                    "Obraz osadzony (znacznik `<embed>`"
+                  ]
+                },
+                "W przypadku elementów graficznych „dostępna nazwa” jest „wyliczana” w następującej kolejności:",
+                {
+                  "ul": [
+                    "tekst skojarzony z obrazem za pomocą atrybutu `aria-labelledby` w znacznikach:",
+                    {
+                      "ul": [
+                        "`<img>`",
+                        "`<input type=\"image\">`",
+                        "`<svg>`",
+                        "`<object type=\"image/…\">`",
+                        "`<embed type=\"image/…\">`",
+                        "`<canvas>`",
+                        "elementów z atrybutem `role=\"img\"`"
+                      ]
+                    },
+                    "treść atrybutu `aria-label` w znacznikach",
+                    {
+                      "ul": [
+                        "`<img>`",
+                        "`<area>` ",
+                        "`<input type=\"image\">`",
+                        "`<svg>`",
+                        "`<object type=\"image/…\">`",
+                        "`<embed type=\"image/…\">`",
+                        "`<canvas>`",
+                        "elementów z atrybutem `role=\"img\"`"
+                      ]
+                    },
+                    "treść atrybutu `alt` w znacznikach",
+                    {
+                      "ul": [
+                        "`<img>`",
+                        "`<area>`",
+                        "`<input type=\"image\">`"
+                      ]
+                    },
+                    "treść atrybutu `title` w znacznikach",
+                    {
+                      "ul": [
+                        "`<img>`",
+                        "`<input type=\"image\">`",
+                        "`<object type=\"image/…\">` ",
+                        "`<embed type=\"image/…\">`"
+                      ]
+                    }
+                  ]
+                },
+                "Ta kolejność wagi sposobów definiowania dostępnej nazwy powinna być stosowana w celu określenia, co stanowi alternatywę tekstową.",
+                "Jednakże w przypadku częściowej obsługi algorytmu obliczania „dostępnej nazwy”, za alternatywę tekstową należy uznać wartość faktycznie dostarczoną przez technologie wspomagające stosowane w środowisku testowym (lub w „bazie referencyjnej”).",
+                "Na przykład:",
+                {
+                  "ul": [
+                    "Jeśli w znaczniku istnieją jednocześnie atrybuty `aria-label` i `aria-labelldeby`, to za alternatywę tekstową należy uznać tekst skojarzony za pomocą `aria-labelledby`, jeśli w środowisku testowym ten fragment tekstu jest faktycznie przedstawiany przez technologię wspomagającą. ",
+                    "Jeśli w znaczniku `<img>` istnieją jednocześnie atrybut `aria-label`  i atrybut `alt` na znaczniku, to za alternatywę tekstową należy uznać tekst podany przez atrybut `aria-label`, jeśli w środowisku testowym ten fragment tekstu jest faktycznie przedstawiany przez technologię wspomagającą. "
+                  ]
+                },
+                "RGAA uznaje trzy typy alternatyw powiązanych z rodzajem obrazu:",
+                {
+                  "ul": [
+                    "dla obrazu niosącego informację alternatywa dostarcza informację niezbędną do zrozumienia treści, z którą jest powiązany obraz;",
+                    "dla obrazu dekoracyjnego alternatywa musi być pusta (`alt=\"\"`);",
+                    "dla obrazu CAPTCHA lub obrazu-testu alternatywa nie może zawierać informacji przenoszonej przez obraz bez wyłączenia powiązanej funkcji. W takim przypadku, alternatywa powinna umożliwiać wyłącznie identyfikację rodzaju i funkcji obrazu."
+                  ]
+                },
+                "Uwaga tłumacza: W RGAA 3.0 wskazywano 4 typy alternatyw powiązanych z rodzajem obrazu. Poza wymienionymi:",
+                {
+                  "ul": [
+                    "dla obrazu-linku alternatywa powinna umożliwiać zrozumienie funkcji i celu linku;"
+                  ]
+                },
+                "Uwaga 1: Dla obrazu CAPTCHA alternatywą może być przykładowo: „Kod zabezpieczający przed spamem” lub „kod do sprawdzania, czy nie jesteś robotem” lub każda inna alternatywa pozwalająca użytkownikowi zrozumieć naturę i funkcję obrazu.",
+                "Uwaga 2: Dla grupy obrazów, przykładowo systemu głosowania złożonego z kilku obrazów gwiazdek zaleca się użycie albo pierwszego obrazu z grupy, aby przekazać bardziej spójną alternatywę dla  grupy obrazów (zobacz <a href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G196\">Techniki WCAG 2.1 (en), technika G196</a>, albo znacznika kontenera z atrybutem `role=\"img\"` i&nbsp;alternatywą tekstową. W&nbsp;pierwszym przypadku pozostałe obrazy z tej grupy są uważane za obrazy dekoracyjne. W&nbsp;drugim przypadku, wszystkie obrazy z tej grupy są uznawane za obrazy dekoracyjne.",
+                "Uwaga 3: W przypadku linków graficznych alternatywa musi umożliwiać zrozumienie funkcji i miejsca docelowego linku; ten przypadek jest rozpatrywany w linkach tematycznych.",
+                "Uwaga 4: W przypadku obrazów wektorowych (znacznik `<svg>`) tekst alternatywny może być również obecny w znaczniku `<text>` niezależnie od tego, czy ten znacznik jest widoczny, czy nie, nawet jeśli nie jest to rola przypisana do tego elementu w SVG.",
+                "Uwaga 5: Ponieważ użycie atrybutu `alt` jest jedyną techniką w pełni obsługiwaną przez technologie wspomagające, zaleca się stosowanie tego rozwiązania przy wdrażaniu alternatywy dla znaczników `<img>`, `<area>` oraz `<input type=\"image\">`."
+              ]
+            },
+            {
+              "id": "arkuszeStylow",
+              "dt": "Arkusze stylów",
+              "dd": [
+                "Język CSS przeznaczony do formatowania elementów treści (na przykład koloru tła strony, rozmiaru/koloru czcionki, pozycjonowania informacji na stronie internetowej itp.). Style CSS mogą być zewnętrzne (plik CSS), wbudowane (zadeklarowane w nagłówku strony - `head`) lub bezpośrednie (zadeklarowane przez atrybut `style` znacznika)."
+              ]
+            },
+            {
+              "id": "targetAtr",
+              "dt": "Atrybut target",
+              "dd": [
+                "Atrybut `target` otwiera nowe okno lub nową kartę przeglądarki, w zależności od wartości. Następujące wartości target nie otwierają nowych okien:",
+                {
+                  "ul": [
+                    "`_self`;",
+                    "`_top`;",
+                    "`_parent`."
+                  ]
+                },
+                "Dla wszystkich innych wartości target, element, na którym jest ustawiony otworzy nowe okno lub nową kartę. Odnosi się to przykładowo do wartości `_blank`, a także do każdej innej wartości (numerycznej lub alfabetycznej) niezdefiniowanej przez specyfikację. Należy ponadto zauważyć, że wartości te nie powodują błędów podczas walidacji kodu źródłowego w HTML5."
+              ]
+            },
+            {
+              "id": "audiodeskrypcjaRozszerzona",
+              "dt": "Audiodeskrypcja rozszerzona",
+              "dd": [
+                "Audiodeskrypcja, dodawana do materiału wideo, poprzez zatrzymanie odtwarzacza (pauza), by uzyskać odpowiedni czas na wstawienie audiodeskrypcji.",
+                "Uwaga: ta technika jest stosowana tylko wówczas, gdy sensu materiału wideo nie da się zachować bez dodatkowej audiodeskrypcji, a przerwy pomiędzy dialogami są za krótkie."
+              ]
+            },
+            {
+              "id": "audiodeskrypcjaZsynchronizowana",
+              "dt": "Audiodeskrypcja zsynchronizowana (media oparte na czasie)",
+              "dd": [
+                "Narracja dodawana (przy pomocy pliku dźwiękowego) do ścieżki dźwiękowej w celu opisu istotnych szczegółów obrazu, które nie wynikają z samej ścieżki dźwiękowej. Audiodeskrypcja powinna być zsynchronizowana z mediami opartymi na czasie przy pomocy urządzenia połączonego z odtwarzaczem lub dostarczonego w postaci programu przykładowo utworzonego w JavaScript.",
+                {
+                  "ul": [
+                    "Uwaga 1: Audiodeskrypcja materiału wideo zapewnia informacje o akcji, postaciach, zmianie scenerii, tekstach wyświetlanych na ekranie i innych treściach wizualnych.",
+                    "Uwaga 2: W standardowej audiodeskrypcji narracja jest dodawana w przerwach pomiędzy dialogami. (Zob. także audiodeskrypcja rozszerzona)",
+                    "Uwaga 3: Jeżeli pełna informacja o wideo jest już zapewniona przez podstawową ścieżkę dźwiękową, dodatkowa audiodeskrypcja jest zbędna."
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "autoPrzekierowanie",
+              "dt": "Automatyczne przekierowanie",
+              "dd": [
+                "Proces polegający na automatycznym przekierowaniu użytkownika ze strony na inną, w&nbsp;tej samej lub innej domenie."
+              ]
+            }
+
+          ]
+
+    },
+    {
+      "sekcja": "B",
+      "dl": [
+        {
+          "id": "",
+          "dt": "",
+          "dd": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "C",
+      "dl": [
+        {
+          "id": "captcha",
+          "dt": "CAPTCHA",
+          "dd": [
+            "CAPTCHA jest używane do odróżniania komputerów od ludzi. Test wykorzystuje najczęściej obraz ze zniekształconym tekstem, pomieszanym z innymi formami lub zestawy kolorów, które użytkownik musi przepisać. Inne formy CAPTCHA mogą opierać się na pytaniach logicznych lub nagraniach dźwiękowych."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "D",
+      "dl": [
+        {
+          "id": "dostepDoZbioruStron",
+          "dt": "Dostęp do każdej strony ze zbioru stron",
+          "dd": [
+            "W przypadku, gdy zbiór stron zawiera dużą liczbę stron, zazwyczaj umieszcza się linki dostępu do stron grupami, na przykład po 10 linków. Praktykę tę potwierdza test."
+          ]
+        },
+        {
+          "id": "dostIAktywKlawiatIMysz",
+          "dt": "Dostępny i aktywowany z klawiatury i za pomocą myszki",
+          "dd": [
+            {
+              "ul": [
+                "Element interfejsu (link, przycisk, element klikalny we flashu itp.) jest dostępny z&nbsp;klawiatury lub przy pomocy myszy, gdy użytkownik może zaznaczyć go zarówno kursorem myszy, jak i&nbsp;klawiszem tabulacji.",
+                "Element interfejsu (link, przycisk, element klikalny we flashu itp.) może być aktywowany z&nbsp;klawiatury i&nbsp;przy pomocy myszy, gdy użytkownik może uruchomić czynność zaprojektowaną dla elementu interfejsu zarówno klikając myszą, jak i&nbsp;używając przycisku <kbd>Enter</kbd> na klawiaturze."
+              ]
+            },
+            "Uwaga: Dla niektórych elementów interfejsu, takich jak suwaki (przycisk przesuwny lub obrotowy itp.), nie można kontrolować elementu wyłącznie klawiszem <kbd>Enter</kbd>. W takiej sytuacji można użyć innych przycisków (przyciski ze strzałkami).",
+            "W specyfikacji wyrażenie „kontrolowany z klawiatury i przy pomocy myszy” odnosi się również do niniejszej definicji.",
+            "Ważna uwaga: użycie niektórych technologii może spowodować, że nawigowanie fokusem jest zbyt złożone lub niestabilne wyłącznie przy użyciu tabulacji, przycisków strzałek i klawisza Enter.",
+            "W takim przypadku dostępne udostępnienie skrótów klawiszowych może być jedynym rozwiązaniem, dzięki któremu element może być używany.",
+            "Kryterium może być uznane za zgodne pod warunkiem, że używane skróty klawiszowe są dobrze opisane i działają niezależnie od położenia fokusu w interfejsie.",
+            "Odnośnie tego tematu można przejrzeć technikę <a rel=\"external\" class=\"external\" href=\"https://www.w3.org/WAI/WCAG21/Techniques/silverlight/SL15\">SL15: Providing Keyboard Shortcuts that Work Across the Entire Silverlight Application</a> na przykład dla środowiska Silverlight."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "E",
+      "dl": [
+        {
+          "id": "elementInterfejsu",
+          "dt": "Element interfejsu",
+          "dd": [
+            "Element interfejsu jest elementem, z którym użytkownik może wchodzić w interakcje, na przykład przyciskiem, linkiem, obszarem wprowadzania. Niektóre elementy mogą być bardziej złożone, jak przykładowo menu, okno dialogowe, system kart. Element interfejsu może być również oparty na natywnych elementach HTML lub zaprogramowanych z użyciem JavaScript i API ARIA."
+          ]
+        },
+        {
+          "id": "etykietaPolaFormularza",
+          "dt": "Etykieta pola formularza",
+          "dd": [
+            "Tekst w pobliżu pola formularza, który informuje o jego charakterze, typie lub formacie oczekiwanych informacji. Etykieta może być powiązana z polem formularza na różne sposoby:",
+            {
+              "ul": [
+                "Przez użycie znacznika `label`;",
+                "Przez użycie właściwości WAI-ARIA `aria-label`;",
+                "Przez użycie połączenia między tekstem a polem przez właściwość WAI-ARIA `aria-labelledby`;",
+                "Przez użycie atrybutu `title`."
+              ]
+            },
+            "Ważna uwaga: jeśli w jednym polu dostępnych jest wiele technik, określenie „dostępnej nazwy”, to znaczy nazwa, która będzie wyświetlana, podlega ścisłej kolejności:",
+            {
+              "ol": [
+                "`aria-labelledby`;",
+                "w innym wypadku `aria-label`.",
+                "w innym wypadku `label`;",
+                "w innym wypadku `title`."
+              ]
+            },
+            "Kolejność ta powinna być wykorzystana przy ocenie adekwatności etykiety (<a href=\"met-kryteria-rgaa#kryt-11-2\">kryterium 11.2</a>). Przykładowo, nawet jeśli istnieje etykieta  `label`, należy wziąć pod uwagę tekst z referencją `aria-labelledby`.",
+            "Referencja: <a href=\"http://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-calculation\">Accessible name and description calculation</a>.",
+            "Ważna uwaga dotycząca użycia placeholder: Jeśli istnieje atrybut `placeholder`, będzie odtworzony zamiast atrybutu `title`. W rezultacie, gdy obecne są oba atrybuty, `title` i `placeholder`, powinny być takie same.",
+            "Uwaga dotycząca etykiet powiązanych przez aria-labelledby: Są to fragmenty tekstów określone przez `id` i powiązane przez `aria-labelledby` na następującym modelu: `aria-labelledby=\"ID1 ID2 ID3…\"`. Aby zapewnić maksymalną kompatybilność z aplikacjami klienckimi, zwłaszcza z Internet Explorerem 11, zaleca się zaimplementowanie `tabindex=\"- 1\"` dla fragmentów tekstów, które nie są elementami interaktywnymi (przyciski, linki, elementy formularzy itp.)."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "F",
+      "dl": [
+        {
+          "id": "fokusKlawiatury",
+          "dt": "Fokus klawiatury",
+          "dd": [
+            "Skupienie. Stan gotowości komponentu interfejsu użytkownika (zobacz) do odbioru informacji o naciśnięciu klawiszy, które jest zdolny obsłużyć. Fokus jest zwykle odpowiednio odwzorowany w wyglądzie komponentu, np. przycisk dostaje dodatkowe obramowanie, w polu formularza pojawia się migający kursor, pod łączem w menu zmienia się kolor tła, itp. Wszelkie zdarzenia związane z naciskaniem przez użytkownika klawiszy są kierowane właśnie do tego komponentu, o ile nie zostaną wcześniej przechwycone. Zdarzenia z klawiatury w pierwszej kolejności przekazywane są do systemu okienkowego (menedżera okien), który z kolei przekazuje je do aplikacji. Aplikacja obsługuje te zdarzenia sama albo przekazuje je do obsłużenia do komponentu gotowego do obsługi zdarzenia."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "G",
+      "dl": [
+        {
+          "id": "gestyDotykowe",
+          "dt": "Gesty dotykowe",
+          "dd": [
+            "Gesty dotykowe to popularne określenie funkcjonalności nowych systemów operacyjnych, które ułatwiają pracę za pomocą ekranu dotykowego. Najpopularniejsze gesty to obrót, skalowanie oraz przewijanie. W kontekście WCAG istotne znaczenie ma rozróżnienie gestów prostych i złożonych:",
+            {
+              "ul": [
+                "Prosty gest wymaga kontaktu w jednym punkcie na ekranie. Może to być zarówno pojedyncze, jak i podwójne naciśnięcie, kliknięcie, stuknięcie, dotyk.",
+                "Złożony gest może być zarówno gestem obejmującym kilka punktów kontaktu na ekranie (przykład: gest dwoma palcami na ekranie, aby powiększyć lub pomniejszyć mapę), jak i gestem opartym na podążaniu ścieżką po ekranie (przykład: funkcja JavaScript umożliwiająca wykrycie ruchu palca w lewo lub w prawo na powierzchni dotykowej w celu uruchomienia przejścia do poprzedniego / następnego elementu karuzeli)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "H",
+      "dl": [
+        {
+          "id": "idTerminu",
+          "dt": "termin",
+          "dd": [
+            "definicja"
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "I",
+      "dl": [
+        {
+          "id": "informacjaKolorem",
+          "dt": "Informacja (przez kolor)",
+          "dd": [
+            "Informacja przekazywana wizualnie za pośrednictwem koloru. Wskazanie, że pola na czerwono są obowiązkowe w formularzu, zmiana koloru tła, aby wskazać stronę aktywną w menu nawigacji, zmiana koloru nazwy artykułu dla wskazania jego niedostępności na liście, to przykłady informacji przekazywanej przez kolor.",
+            "Informacji podanej wyłącznie przez kolor powinna towarzyszyć inna metoda przeznaczona dla użytkowników, którzy nie widzą lub źle rozróżniają kolory lub ich powiązania.",
+            "Inny środek uzyskiwania informacji przez kolor może być zupełnie różny, gdy środek wykorzystuje grafikę (użycie CSS lub elementu graficznego), informacji wizualnej może towarzyszyć informacja tekstowa. Przykładowo, efekt obramowania, wytłuszczenia, zmiany typografii lub inne podobne zabiegi będą uznane za niewystarczające, ponieważ informacje te nie będą dostępne zwłaszcza dla osób niewidomych."
+          ]
+        },
+        {
+          "id": "informacjaNieKolorem",
+          "dt": "Istotność (informacji inaczej niż przez kolor)",
+          "dd": [
+            "Środki umożliwiające uzyskanie informacji nie tylko na podstawie koloru musi być dostępny dla wszystkich. Na przykład, w przypadku listy artykułów, na której artykuły w promocji są na żółto, użycie tekstu ukrytego przy pomocy CSS jest środkiem umożliwiającym uzyskanie informacji „w promocji”, ale nie jest istotne, ponieważ informacja ta jest ukryta przed użytkownikiem, który wyświetla aktywną stronę CSS.",
+
+            "Uwaga: Użycie znacznika wyróżnienia (`strong` lub `em`) jako innego środka do uzyskania informacji podanej przez kolor pozwala potwierdzić kryterium, nawet jeśli elementy te nie są wspierane przez technologie wspomagające, zwłaszcza czytniki ekranu."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "J",
+      "dl": [
+        {
+          "id": "jezykDomyslny",
+          "dt": "Język domyślny strony",
+          "dd": [
+            "Wskazanie głównego języka przetwarzania dokumentu, które może być obecne w&nbsp;korzeniu `html` lub w każdym elemencie danej strony przez atrybuty `lang` lub `xml:lang` według następującego schematu:",
+            {
+              "ul": [
+                "Dla HTML do wersji 4.01: atrybut `lang` obowiązkowy, atrybut `xml:lang` nieobsługiwany.",
+                "Dla XHTML 1.0 w trybie \"text/html\": atrybut `lang` i `xml:lang` obowiązkowe.",
+                "Dla XHTML 1.0 w trybie \"application/xhtml+xml\": atrybut `xml:lang` obowiązkowy, atrybut `lang` zalecany.",
+                "Dla XHTML 1.1: atrybut `xml:lang` obowiązkowy, atrybut lang nieobsługiwany.",
+                "Dla HTML5: atrybut `lang` obowiązkowy."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "K",
+      "dl": [
+        {
+          "id": "kierunekCzytania",
+          "dt": "Kierunek czytania",
+          "dd": [
+            "Wskazuje kierunek czytania dokumentu lub fragmentu tekst przykładowo przy pomocy atrybutu `dir`, `dir=\"ltr\"`. Dwie rozpoznawane wartości to:",
+            {
+              "ul": [
+                "`ltr`: wskazuje kierunek czytania od lewej do prawej;",
+                "`rtl`:  wskazuje kierunek czytania od prawej do lewej;",
+                "`auto`: pozwala przeglądarce określić kierunek odczytu w oparciu o znaki Unicode znajdujące się w treści."
+              ]
+            },
+            "Uwaga: W razie braku wskazania kierunku czytania przy pomocy atrybutu dir dla elementu html, body, lub jednego z elementów nadrzędnych analizowanego tekstu, standardowy kierunek czytania to od lewej do prawej (wartość `ltr`)."
+          ]
+        },
+        {
+          "id": "kodJezyka",
+          "dt": "Kod języka",
+          "dd": [
+            "Dwuliterowy (ISO 639-1) lub trzyliterowy (ISO 639-2 i kolejne) standard kodów językowych pozwala wskazać język dokumentu lub fragmentu tekstu. Podanie kodu języka składa się z dwóch części oddzielonych półpauzą wg modelu `lang=\"[code][-option]\"`.",
+            {
+              "ul": [
+                "[code] - to dwuliterowy lub trzyliterowy kod języka;",
+                "[option] - opcjonalna, do wyboru przez autora."
+              ]
+            },
+            "Jeśli jako opcji używa się kod kraju, może on służyć do wskazania regionu pochodzenia języka, na przykład `\"en-US\"` oznacza język angielski amerykański. Kod języka jest podawany wyłącznie w części [code] przed półpauzą."
+          ]
+        },
+        {
+          "id": "kodPoprawny",
+          "dt": "Kod poprawny",
+          "dd": [
+            {
+              "ul": [
+                "Przypadek strony HTML: kod, w którym znaczniki i atrybuty są zaimplementowane zgodnie ze specyfikacją zadeklarowanego typu dokumentu.",
+                {
+                  "ul": [
+                    "Uwaga 1: O ile nie podano inaczej, atrybuty niewymienione w specyfikacjach nie mają zastosowania.",
+                    "Uwaga 2: O ile nie podano inaczej, znaczniki niewymienione w specyfikacjach nie mają zastosowania.",
+                    "Uwaga 3: <a rel=\"external\" class=\"external\" href=\"http://www.w3.org/TR/xhtml1/#C_3\">Zasada C3 specyfikacji XHTML (\"Element Minimization and Empty Element Content\")</a> nie zaleca używania elementów zminimalizowanych (`<elm />`) zamiast elementów pustych (przykładowo`<p/>`zamiast `<p></p>`). Praktyka ta stanowi niezgodność w ramach RGAA."
+                  ]
+                },
+                "Przypadek strony implementującej WAI-ARIA: kod, w którym zaimplementowane znaczniki i atrybuty są zgodne ze specyfikacjami typu zadeklarowanego dokumentu i&nbsp;w&nbsp;którym implementacja WAI ARIA jest zgodna ze specyfikacją WAI-ARIA."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kolejnoscTabulacji",
+          "dt": "Kolejność tabulacji",
+          "dd": [
+            "Kolejność, w której przesuwa się fokus (w kierunku elementu następnego lub elementu poprzedniego). Naturalna kolejność to kolejność implementowana przez kod źródłowy. Jeśli jest ona zmieniona przez użycie atrybutu tabindex lub użycie polecenia JavaScript, referencyjna jest zmieniona kolejność.",
+            "Uwaga: jeśli jakiś element inicjalizuje zmianę na stronie (zmiana kontekstu, zarządzanie obszarami ukrytymi, dodanie treści, zarządzanie polami formularza itp.), konieczna jest aktywacja elementu, który inicjalizuje zmianę, aby przetestować spójność kolejności tabulacji."
+          ]
+        },
+        {
+          "id": "kolorPrzylegly",
+          "dt": "Kolor przyległy i przyległy kolor tła",
+          "dd": [
+            "Kolor przyległego tła: kolor tła bezpośrednio stykający się z zewnętrzną krawędzią elementu interfejsu lub elementu graficznego.",
+            "Przykłady:",
+            {
+              "ul": [
+                "W przypadku białego przycisku z niebieską obwódką na białym tle, białe tło poza niebieską obwódką jest kolorem przyległego tła;",
+                "W przypadku czerwonego przycisku z niebieską obwódką na białym tle, białe tło poza czerwoną obwódką jest kolorem przyległego tła;",
+                "W przypadku białego przycisku z zieloną ramką, która zmienia kolor na czarny podczas ustawiania fokusu i najechania myszą, białe tło poza zieloną ramką stanu domyślnego i czarną ramką stanu po najechaniu myszą i ustawienia fokusu jest kolorem przyległego tła."
+              ]
+            },
+            "Kolor przyległy: kolor bezpośrednio stykający się z innym kolorem. Na przykład w&nbsp;znaku „zakaz wjazdu” czerwony kolor znaku to kolor sąsiadujący z białą linią na środku znaku.",
+            "Uwaga 1: W przypadku gradacji kolorów (gradientów) za kolor przyległy lub kolor przyległego tła uważa się najmniej kontrastujący kolor w gradacji.",
+            "Uwaga 2: W przypadku kilku kolorów, wszystkie kolory będą uważane za kolor przyległy lub kolor przyległego tła."
+          ]
+        },
+        {
+          "id": "kompatybilneZTech",
+          "dt": "Kompatybilny z technologiami wspomagającymi użytkownika",
+          "dd": [
+            "Treść lub funkcjonalność powinny być kompatybilne z technologiami wspomagającymi użytkowników, a także z funkcjami dostępności przeglądarek i innych aplikacji klienckich przy pomocy API dostępności.",
+            "Dotyczy to zarówno technologii, jej funkcjonalności i jej użytkowników:",
+            {
+              "ul": [
+                "Sposób, w jaki technologie internetowe są używane powinien być zgodny z&nbsp;technologiami wspomagającymi użytkowników. Oznacza to, że sposób, w&nbsp;jaki technologia jest używana został przetestowany w&nbsp;zakresie interoperacyjności z&nbsp;użytkownikami technologii wspomagających obsługę języków treści;",
+                "Technologia działa w sposób naturalny w szeroko rozpowszechnionych aplikacjach klienckich, które są same w sobie kompatybilne z dostępnością (jak HTML i CSS) lub z&nbsp;szeroko rozpowszechnionym modułem rozszerzenia, który jest, sam w sobie, kompatybilny z dostępnością."
+              ]
+            },
+            "Sprawdzenie kompatybilności z technologiami wspomagającymi wymaga przeprowadzenia pewnej liczby testów specyficznych dla używanej technologii, na&nbsp;przykład:",
+            {
+              "ul": [
+                "Sprawdzenie nazwy, roli, parametrów i zmian statusów elementów interfejsu;",
+                "Sprawdzenie, czy odzwierciedlenie elementu interfejsu jest prawidłowe dla używanych technologii wspomagających."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "komunikatOStanie",
+          "dt": "Komunikat o stanie",
+          "dd": [
+            "Komunikat o stanie informuje użytkownika o zmianie treści na stronie bez przerywania jego głównej aktywności (nie następuje zmiana kontekstu, na przykład zmiana położenia fokusu na wiadomości).",
+            "Komunikat o stanie może informować o:",
+
+            {
+              "ul": [
+                "Powodzeniu lub wyniku działania",
+                "Stan zajętości aplikacji",
+                "Postępie procesu",
+                "Istnieniu błędu"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kontekstLinku",
+          "dt": "Kontekst linku",
+          "dd": [
+            "Kontekst linku zawiera informacje dodatkowe (są to informacje kontekstowe), które mogą zostać programowo powiązane z tekstem linku.",
+            "Informacje kontekstowe, które zapewniają, że link jest jasny są następujące:",
+            {
+              "ul": [
+                "Treść zdania, w którym znajduje się link tekstowy;",
+                "Treść paragrafu (znacznik `p`), w którym znajduje się link tekstowy;",
+                "Treść pozycji listy (znacznik `li`) lub treść pozycji listy zagnieżdżonej (znacznik `li`), w której znajduje się link;",
+                "Treść tytułu (znacznik `h1` do `h6`) poprzedzająca link tekstowy;",
+                "Treść komórek nagłówka tabeli (znaczniki `th`) powiązanych z komórką danych (znacznik `td`), w której znajduje się link tekstowy;",
+                "Treść komórki danych (znacznik `td`), w której znajduje się link tekstowy;",
+                "Treść tytułu linku (atrybut `title`);",
+                "Treść właściwości ARIA `aria-label`;",
+                "Treść fragmentu tekstu powiązanego z właściwością `aria-labelledby`;"
+              ]
+            },
+            "Uwaga 1: Jeden z 9 kontekstów linku powinien umożliwić wyjaśnienie linku.",
+            "Uwaga 2: RGAA 4 zakłada, że linki specjalne, takie jak linki typu `mailto` (które tworzą odwołanie w postaci klikalnego adresu e-mail) są wystarczająco jasne i nie wymagają informowania przy pomocy tytułu, że czynność polega na wysłaniu maila. Autorzy zwracają uwagę na fakt, że ta ogólna zasada może być dostosowana do kontekstu, przykładowo, jeśli strona zawiera wiele klikalnych adresów e-mail, do których przypisane są różne akcje (na przykład dla jednego wysłanie e-maila przy pomocy klienta poczty, a&nbsp;dla drugiego dostęp do formularza), może być konieczne podanie dodatkowych informacji o działaniu linku, aby rozróżnić ich zachowania."
+          ]
+        },
+        {
+          "id": "kontrolaDzwiekuAuto",
+          "dt": "Kontrola (dźwięk uruchamiany automatycznie)",
+          "dd": [
+            "Możliwość zatrzymania lub ponownego uruchomienia przez użytkownika dźwięku uruchamianego automatycznie.",
+            "Uwaga: Sposób kontroli dźwięku powinien być dostępny jako pierwszy element strony."
+          ]
+        },
+        {
+          "id": "kontrolaMigotania",
+          "dt": "Kontrola (treść ruchoma lub migająca)",
+          "dd": [
+            "Możliwość kontroli przez użytkownika wyświetlenia lub odtwarzania treści ruchomych lub migających co najmniej z klawiatury i przy pomocy myszy.",
+            "Dotyczy to wszystkich treści ruchomych, za wyjątkiem mediów opartych na czasie wspieranych przez multimedia: obrazy animowane (na przykład animowane gify), treści ruchome obsługiwane przez znacznik `object`, przykładowo z kodu JavaScript lub efekty CSS.",
+            "Uwaga 1: W stosownych przypadkach, sposób kontroli powinien być dostępny jako pierwszy element strony.",
+            "Uwaga 2: Sposób kontroli treści ruchomej lub migającej powinien umożliwiać użytkownikowi wchodzić w interakcję z resztą strony. Dlatego też zatrzymanie lub pauza uruchamiane wyłącznie przez ustawienie fokusu nie pozwala zatwierdzić tego kryterium.",
+            "Uwaga 3: W niektórych przypadkach ruch stanowi integralną część elementu i nie jest możliwe kontrolowanie go przez użytkownika, jak przykładowo pasek postępu, którego funkcją jest wskazywanie przez ruch postępu zdarzenia, takiego jak pobieranie. W takim przypadku kryterium nie ma zastosowania."
+          ]
+        },
+        {
+          "id": "kontrolaPrzegladania",
+          "dt": "Kontrola przeglądania (media oparte na czasie)",
+          "dd": [
+            "Możliwość kontroli przez użytkownika przeglądania mediów opartych na czasie za pomocą klawiatury i dowolnego urządzenia wskazującego. Należy przestrzegać następujących punktów:",
+            {
+              "ul": [
+                "Lista obowiązkowych funkcjonalności kontroli przeglądania:",
+                {
+                  "ul": [
+                    "Obiekt multimedialny mieć zawsze następujące funkcjonalności, co najmniej: odczyt, pauza lub stop.",
+                    "Jeśli obiekt multimedialny ma dźwięk, musi mieć funkcjonalność umożliwiającą kontrolę dźwięku.",
+                    "Jeśli obiekt multimedialny ma napisy, musi mieć funkcjonalność umożliwiającą kontrolę pojawiania się/wyłączania napisów.",
+                    "Jeśli obiekt multimedialny ma audiodeskrypcję, musi mieć funkcjonalność umożliwiającą kontrolę pojawiania się/wyłączania audiodeskrypcji."
+                  ]
+                },
+                "Każda funkcjonalność powinna być co najmniej dostępna z klawiatury, przy pomocy klawisza `<kbd>Tab</kbd>` i dowolnego urządzenia wskazującego.",
+                "Każda funkcjonalność powinna być uruchamiania za pomocą klawiatury i dowolnego urządzenia wskazującego"
+              ]
+            },
+            "Uwaga: Jeśli media oparte na czasie nie zawierają dźwięku, nie ma potrzeby stosowania funkcjonalności kontroli głośności. Jeśli jednak ta funkcjonalność istnieje i wymaga alternatywy tekstowej, by mogła być zrozumiana przez niektórych użytkowników, należy zapewnić taką alternatywę, ponieważ użytkownik będzie prawdopodobnie chciał mieć do niej dostęp i ją uruchomić."
+          ]
+        },
+        {
+          "id": "kontrolaWprowadzania",
+          "dt": "Sprawdzanie poprawności danych (formularz)",
+          "dd": [
+            "Wszystkie procedury, które pozwalają powiadomić użytkownika o polach obowiązkowych, wskazówki dotyczące oczekiwanego typu lub formatu i błędy wprowadzania do formularza. Kontrole wprowadzania mogą być zaimplementowane przez autora treści lub opierać się na atrybutach (takich jak `required` lub `pattern`), właściwościach WAI-ARIA (takich jak `aria-required`) lub typy pól, które automatycznie generują wskazówki dotyczące wprowadzania i błędów (takie jak przykładowo typy `url`, `email`, `date`, `time`",
+            "Ważna uwaga: Gdy strona jest odsyłana z błędami wprowadzania, tytuł strony powinien zawierać informację „błąd w formularzu”."
+          ]
+        },
+        {
+          "id": "kontrolowaneDowolneUrzadzenie",
+          "dt": "Kontrolowany za pomocą klawiatury i dowolnego urządzenia wskazującego",
+          "dd": [
+            "Oznacza, że:",
+            {
+              "ul": [
+                "Komponent interfejsu (łącze, przycisk, ...) jest dostępny za pomocą klawiatury i dowolnego urządzenia wskazującego, gdy użytkownik może samodzielnie ustawić na elemencie fokus za pomocą wskaźnika lub klawisza tabulatora.",
+                "Komponent interfejsu (łącze, przycisk,…) można uruchomić za pomocą klawiatury i dowolnego urządzenia wskazującego, gdy użytkownik może samodzielnie zainicjować działanie oferowane przez komponent interfejsu, naciskając wskaźnik lub klawisz Enter na klawiaturze."
+              ]
+            },
+            "Uwaga: w przypadku niektórych komponentów interfejsu, takich jak suwaki (przycisk przesuwny lub pokrętło itp.) nie jest możliwe sterowanie elementem za pomocą samego klawisza Enter. W takich sytuacjach można użyć innych klawiszy (takich jak klawisze strzałek). W szczególności w przypadku elementów mających role WAI-ARIA odpowiadające <a href=\"#wzorzecProjektowy\">wzorcom projektowym</a> zaleca się, aby przy ich wdrażaniu uwzględnić dokument <a href=\"http://www.w3.org/TR/wai-aria-practices/\">WAI-ARIA Authoring Practices 1.1</a>",
+            "W repozytorium wyrażenie „sterowane za pomocą klawiatury i dowolnego urządzenia wskazującego” również odnosi się do tej definicji.",
+            "Ważna uwaga: użycie niektórych technologii może sprawić, że zarządzanie fokusem będzie zbyt skomplikowane lub zbyt niestabilne, aby polegać tylko na klawiszu Tab, klawiszach strzałek i klawiszu Enter. W takim przypadku zastosowanie skrótów klawiaturowych może być jedynym rozwiązaniem umożliwiającym korzystanie z komponentu.",
+            "Kryterium to może być spełnione tylko wtedy, gdy używane skróty klawiaturowe są właściwie udokumentowane, działają i spełniają kryterium 12.10."
+          ]
+        },
+        {
+          "id": "kotwica",
+          "dt": "Kotwica",
+          "dd": [
+            "W HTML, kotwica składa się ze znacznika `<a>` z atrybutem `id` i przykładowo nie ma `href`, `<a id=\"tresc\">`</a>`. Kotwica jest przykładowo odsyłaczem o postaci `<a href=\"#id\">`Tytuł`</a>`: `<a href=\"#tresc\">`Treść`</a>`."
+          ]
+        },
+        {
+          "id": "alternatywaKrotkaIZwiezla",
+          "dt": "Krótka i zwięzła alternatywa tekstowa",
+          "dd": [
+            "Warunki odwzorowania alternatywy tekstowej przy pomocy technologii wspomagającej (na przykład lupy) wymagają, aby była ona jak najkrótsza. Zalecana jest maksymalna długość 80 znaków; ogranicza to liczbę manipulacji niezbędnych do odczytania alternatywy przez użytkowników monitorów brajlowskich, a zwłaszcza lup ekranowych."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "L",
+      "dl": [
+        {
+          "id": "legenda",
+          "dt": "Legenda",
+          "dd": [
+            "HTML proponuje odpowiedni mechanizm do tytułowania <a href=\"#podobnePola\">grupy pól formularza</a> za pośrednictwem elementów `fieldset` i `legend`.",
+            "Można również utworzyć grupy przy pomocy roli ARIA `group` i fragmentu tekstu, który będzie stanowił legendę, powiązaną przez właściwość `aria-labelledby` lub implementowaną za pośrednictwem właściwości `aria-label`.",
+            "Uwaga 1: Grupy pól mogą wykorzystywać inne metody, które łączą informację o grupie bezpośrednio w etykiecie pola. Przykładowo, przy pomocy atrybutu `title`, właściwości `aria-label` lub powiązania `aria-labelledby` stanowiącego etykietę bądź też właściwości `aria-describedby` zawierającej tekst dodatkowy. W takim przypadku grupa pól jest bezużyteczna, ponieważ etykiety są wystarczające.",
+            "Uwaga 2: Jeśli formularz składa się z jednego bloku informacji takiego samego rodzaju (na przykład dane osobowe i adres) lub z jednego pola (na przykład wyszukiwarka), grupowanie pól nie jest obowiązkowe."
+          ]
+        },
+        {
+          "id": "legendaObrazu",
+          "dt": "Legenda obrazu",
+          "dd": [
+            "Gdy tekst przyległy do obrazu zawiera informacje o obrazie (na przykład notę o prawach autorskich, datę, autora itp.) lub jest przeznaczony do uzupełnienia informacji dostarczanych przez obraz (na przykład tekst powiązany z&nbsp;obrazem w galerii obrazów), można mówić o&nbsp;legendzie obrazu.",
+            "Gdy obraz ma legendę, konieczne jest strukturalne powiązanie legendy obrazu z&nbsp;obrazem, aby technologie wspomagające mogły przetwarzać obraz i jego legendę jako jedną całość.",
+            "HTML5 proponuje powiązanie legendy z obrazem przez elementy `figure` (obraz i&nbsp;legenda razem) i `figcaption` (legenda).",
+            "Obraz bez legendy może oznaczać:",
+            {
+              "ul": [
+                "Obraz, który nie został wprowadzony do elementu `figure`;",
+                "Obraz wprowadzony do elementu `figure` bez elementu `figcaption`."
+              ]
+            },
+            "Uwaga: jeśli tekst powiązany z obrazem może być zastępowany, nie jest konieczne używanie zestawu `figure`, `figcaption`, ponieważ obraz może być przetwarzany jako obraz dekoracyjny.",
+            "Więcej informacji na ten temat w uwadze <a href=\"https://www.w3.org/TR/html51/semantics-embedded-content.html#alt-text\">Requirements for providing text to act as an alternative for images</a> w W3C."
+          ]
+        },
+        {
+          "id": "listaWartosciAutocomlete",
+          "dt": "Lista możliwych wartości atrybutu autouzupełniania",
+          "dd": [
+            "Lista możliwych wartości atrybutu `autocomplete` została podana w specyfikacji WCAG 2.1:",
+            {
+              "ul": [
+                "`name` - pełna nazwa",
+                "`honorific-prefix` - Przedrostek lub tytuł (np. „Pan”, „Pani”, „Dr”, „Prof.”)",
+                "`given-name` - imię (w niektórych kulturach zachodnich, znane również jako „pierwsze imię”)",
+                "`additional-name` - dodatkowa nazwy (w niektórych kulturach zachodnich, znane również jako drugie imię, inne niż pierwsze)",
+                "`family-name` - nazwisko rodowe (w niektórych kulturach zachodnich znane również jako nazwisko)",
+                "`honorific-suffix` - przyrostek (np., „Jr.”, „B.Sc.”, „MBASW”, „II”)",
+                "`nickname` - pseudonim, nazwa ekranowa: zwykle krótka nazwa zamiast pełnej nazwy",
+                "`organization-title` - stanowisko (e.g., „Inżynier oprogramowania”, „Wiceprezes”, „Zastępca dyrektora generalnego”)",
+                "`username` - nazwa użytkownika",
+                "`new-password` - nowe hasło (np. podczas tworzenia konta lub zmiany hasła)",
+                "`current-password` - bieżące hasło do konta określone w polu nazwy użytkownika (np. podczas logowania)",
+                "`organization` - nazwa firmy odpowiadająca osobie, adresowi lub danym kontaktowym w innych polach powiązanych z tym polem",
+                "`street-address` - adres ulicy (wiele linii, zachowuje nowe linie)",
+                "`address-line1` - adres ulicy (jedna linia na pole, linia 1)",
+                "`address-line2` - adres ulicy (jedna linia na pole, linia 2)",
+                "`address-line3` - adres ulicy (jedna linia na pole, linia 3)",
+                "`address-level4` - najbardziej szczegółowy poziom administracyjny, w adresach z czterema poziomami administracyjnymi",
+                "`address-level3` - trzeci poziom administracyjny, w adresach z co najmniej trzema poziomami administracyjnymi",
+                "`address-level2` - drugi poziom administracyjny, w adresach z dwoma lub więcej poziomami administracyjnymi; w krajach o dwóch poziomach administracyjnych zwykle jest to miasto, miejscowość, wieś lub inna miejscowość, w której znajduje się odpowiedni adres",
+                "`address-level1` - najszerszy poziom administracyjny w adresie, tj. prowincja, w której znajduje się miejscowość; na przykład w USA byłby to stan; w Szwajcarii byłby to kanton; w Polsce województwo",
+                "`country` - kod kraju",
+                "`country-name` - nazwa kraju",
+                "`postal-code` - kod pocztowy, kod poczty, kod ZIP, kod CEDEX (jeśli CEDEX, dołącz „CEDEX” oraz, w stosownych przypadkach, pole na address-level2)",
+                "`cc-name` - pełna nazwa w brzmieniu podanym na dokumencie płatniczym",
+                "`cc-given-name` - imię podane na dokumencie płatniczym (w niektórych kulturach zachodnich, znane również jako „pierwsze imię”)",
+                "`cc-additional-name` - dodatkowe nazwy podane na dokumencie płatniczym (w niektórych kulturach zachodnich, znane również jako „drugie imię” inne niż pierwsze)",
+                "`cc-family-name` - nazwisko podane na dokumencie płatniczym (w niektórych kulturach zachodnich, znane również jako nazwisko rodowe)",
+                "`cc-number` - od identyfikujący dokument płatniczy (np. numer karty kredytowej)",
+                "`cc-exp` - data ważności dokumentu płatniczego",
+                "`cc-exp-month` - miesiąc daty ważności dokumentu płatniczego",
+                "`cc-exp-year` - rok daty ważności dokumentu płatniczego",
+                "`cc-csc` - Kod bezpieczeństwa dokumentu płatniczego (znany również jako kod bezpieczeństwa karty (CSC), kod weryfikacji karty (CVC), wartość weryfikacji karty (CVV), kod panelu podpisu (SPC), identyfikator karty kredytowej (CCID), itp.)",
+                "`cc-type` - rodzaj dokumentu płatniczego",
+                "`transaction-currency` - waluta, której użytkownik chce dokonać transakcji",
+                "`transaction-amount` - kwota transakcji (np. przy wprowadzaniu oferty lub ceny sprzedaży)",
+                "`language` - preferowany język",
+                "`bday` - urodziny",
+                "`bday-day` - dzień urodzin",
+                "`bday-month` - miesiąc urodzin",
+                "`bday-year` - rok urodzin",
+                "`sex` - tożsamość płciowa (np. kobieta, mężczyzna, fa’afafine)",
+                "`url` - adres strony głównej lub innej strony internetowej odpowiadająca firmie, osobie, adresowi lub danym kontaktowym w innych polach powiązanych z tym polem",
+                "`photo` - zdjęcie, ikona lub inny obraz odpowiadający firmie, osobie, adresowi lub danym kontaktowym w innych polach powiązanych z tym polem",
+                "`tel` - pełny numer telefonu, w tym kod kraju",
+                "`tel-country-code` - kod kraju w numerze kierunkowym telefonu",
+                "`tel-national` - numer telefonu bez kodu regionu, z prefiksem wewnętrznym kraju, jeśli ma zastosowanie",
+                "`tel-area-code` - element numeru kierunkowego numeru telefonu, w razie potrzeby z prefiksem wewnętrznym kraju",
+                "`tel-local` - numer telefonu bez kodu kraju i numeru kierunkowego",
+                "`tel-local-prefix` - pierwsza część elementu numeru telefonu, która następuje po numerze kierunkowym, gdy ten element jest podzielony na dwa elementy",
+                "`tel-local-suffix` - druga część elementu numeru telefonu, która następuje po numerze kierunkowym, gdy ten element jest podzielony na dwa elementy",
+                "`tel-extension` - numer telefonu wewnętrznego",
+                "`email` - adres e-mail",
+                "`impp` - adres URL reprezentujący punkt końcowy protokołu wiadomości błyskawicznych (np. \"aim:goim?screenname=przyklad\" lub \"xmpp:fred@przyklad.net\")"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "listaWyboru",
+          "dt": "Lista wyboru",
+          "dd": [
+            "Pole formularza wyświetlające serię pozycji do wyboru w postaci listy rozwijalnej (znacznik `select` ze znacznikami `option`)."
+          ]
+        },
+        {
+          "id": "listy",
+          "dt": "Listy",
+          "dd": [
+            "Ciąg elementów, które mogą być grupowane w postaci uporządkowanej, nieuporządkowanej lub zawierającej definicje listy. Przykładowo ciąg linków z menu nawigacji jest nieuporządkowaną listą linków, różne etapy procedury są uporządkowaną listą elementów, zaś para pojęcie/definicja w sowniku jest listą definicji. W HTML, listy wykorzystują następujące znaczniki:",
+            {
+              "ul": [
+                "Lista uporządkowana: znaczniki `ol` i `li` (każdy element listy ma indeksowane oznaczenie);",
+                "Lista nieuporządkowana: znaczniki `ul` i `li` (każdy element listy ma nieindeksowane oznaczenie);",
+                "Lista definicji: znaczniki `dl`, `dt` (definiowane pojęcie) i `dd` (definicja)."
+              ]
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "sekcja": "Ł",
+      "dl": [
+        {
+          "id": "linkiPomijajace",
+          "dt": "Łącza pomijające i łącza szybkiego dostępu",
+          "dd": [
+            "Łącza, których funkcją jest umożliwienie nawigacji wewnątrz treści (łącza pomijające, łącze dostępu do formularza wyszukiwania lub do menu itp.)."
+          ]
+        },
+        {
+          "id": "Link",
+          "dt": "Łącze (link)",
+          "dd": [
+            "Element, który może być uruchamiany przez użytkownika (przy pomocy myszy, z klawiatury itp.) i powodujący określone działanie (wyświetlenie strony internetowej, pobranie pliku itp.) lub zdarzenie generowane przez skrypt. Łącze posiada co najmniej:",
+            {
+              "ul": [
+                "Odniesienie do zasobu (atrybut `href` w HTML, atrybut `xlink:href` w SVG 1.1);",
+                "Tytuł łącza między `<a href=\"…\">` a `</a>`."
+              ]
+            },
+            "W HTML:",
+            {
+              "ul": [
+                "znacznik `a` z atrybutem `href`;",
+                "znacznik z atrybutem WAI-ARIA `role=\"link\"`, którego działanie nawigacyjne jest obsługiwane przez skrypt;"
+              ]
+            },
+            "W SVG:",
+            {
+              "ul": [
+                "znacznik `a` z atrybutem `xlink:href` w SVG 1.1;",
+                "znacznik z atrybutem WAI-ARIA `role=\"link\"`, którego działanie nawigacyjne jest obsługiwane przez skrypt;"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "linkObrazkowy",
+          "dt": "Łącze graficzne",
+          "dd": [
+            "W HTML łącze, którego treść między `<a href=\"…\">` a `</a>` składa się z jednego lub więcej obrazów. Tytułem łącza graficznego jest treść alternatywy tekstowej obrazu.",
+            "Łącze graficzne może składać się z:",
+            {
+              "ul": [
+                "(znacznik `img` lub znacznik posiadający atrybut `role=\"img\"`); alternatywą jest treść atrybutu `alt`,",
+                "obszaru klikalnego (znacznik `area`) z atrybutem `href`; alternatywą jest treść atrybutu `alt`;",
+                "obrazu z obiektu (znacznik `object`); alternatywa jest zawarta między `<object>` a&nbsp;`</object>`,",
+                "obrazu na kanwie (znacznik `canvas`); alternatywa jest zawarta między `<canvas>` a `</canvas>`,",
+                "grafiki wektorowej (znacznik `svg`); alternatywa jest zawarta w atrybucie `aria-label` lub znaczniku `<title>`."
+              ]
+            },
+
+            "Uwaga dotycząca embed: Dla `doctype` wcześniejszych niż HTML5, alternatywa obrazu wbudowanego może być zawarta między `<embed>` a `</embed>`. W HTML5 znacznik `embed` został zmodyfikowany. Jest to znacznik samozamykający  się, który nie może zawierać alternatywnej treści. Jako, że atrybuty ARIA, takie jak `aria-label`, które umożliwiają wbudowanie alternatywy, nie są obsługiwane w sposób jednorodny, jedynymi możliwymi metodami dla dostarczenia alternatywy dla obrazów wbudowanych będących nośnikami informacji są:",
+            {
+              "ul": [
+                "łącze przyległe umożliwiające wyświetlenie strony lub fragmentu tekstu zawierającego adekwatną alternatywę,",
+                "mechanizm, który użytkownikowi zastąpienie obrazu tekstem alternatywnym lub obrazem posiadającym adekwatną alternatywę."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "linkiIdentyczne",
+          "dt": "Łącza identyczne",
+          "dd": [
+            "Dwa łącza są określane jako identyczne, gdy łącze X (tytuł samego łącze, treść atrybutu `title` lub kontekst łącza) jest takie samo jak łącze Y. Definicja ta odnosi się wszystkich typów łączy: łączy tekstowych, łączy graficznych (łącza mają wówczas taki sam obraz) i łączy złożonych.",
+            "Uwaga: Łącza o takich samych tytułach, ale różnych atrybutach `title` lub różnych kontekstach nie są identyczne (na przykład: `<a href=\"link_bar.html\" title=\"kliknij tu, aby pobrać pasek narzędzi\">`kliknij tutaj`</a>`  i `<a href=\"link_doc.html\" title=\"kliknij tu, aby pobrać plik\">`kliknij tutaj`</a>`)."
+          ]
+        },
+        {
+          "id": "linkJednoznaczny",
+          "dt": "Łącze jednoznaczne poza kontekstem",
+          "dd": [
+            "Łącze jednoznaczne poza kontekstem, gdy sam tytuł łącza (treść między znacznikiem `<a href=\"…\">` a `</a>`) umożliwia poznanie i zrozumienie funkcji i przeznaczenia łącza."
+          ]
+        },
+        {
+          "id": "linkPrzylegly",
+          "dt": "Łącze lub przycisk przyległy",
+          "dd": [
+            "Łącze lub przycisk prezentowany obok elementu na stronie. Łącze lub przycisk muszą znajdować się obok elementu na prezentacji graficznej (aktywowany CSS), jak i&nbsp;w&nbsp;kodzie HTML. W kodzie HTML łącze lub przycisk musi znajdować się tuż przed lub bezpośrednio za elementem, z&nbsp;którym jest powiązany."
+          ]
+        },
+        {
+          "id": "linkNieoczywisty",
+          "dt": "Łącze nieoczywiste",
+          "dd": [
+            "Łącze, które użytkownicy mający problemy z rozróżnianiem kolorów, mogą pomylić z normalnym tekstem, gdy jest wyróżnione wyłącznie kolorem. Przykładowo w tekście „Nowy strajk na kolei”, jeśli słowo „strajk” będzie wyróżnione wyłącznie kolorem, jego właściwości mogą nie zostać zauważone przez użytkowników nierozróżniających kolorów, którzy czytają treść z aktywnym CSS. Natomiast w tekście „Nowy strajk na kolei, czytaj dalej”, jeśli „czytaj dalej” jest łączem, użytkownik nierozróżniający kolorów nie będzie miał problemów ze zrozumieniem jego funkcji.",
+            "Uwaga: „Wyróżnione wyłącznie kolorem” oznacza, że łącze nie ma żadnego innego wyróżnienia wizualnego (ikona, podkreślenie, obramowanie itp.). Kryterium to dotyczy łącza, którego kolor jest taki sam, jak otaczającego tekstu."
+          ]
+        },
+        {
+          "id": "linkWektorowy",
+          "dt": "Łącze SVG (Łącze wektorowe)",
+          "dd": [
+            "Łącze, którego zawartość między `<a href=\"…\">` a `</a>` składa się tylko z obrazu wektorowego (znacznik `svg`). W SVG 1.1 tytuł łącza („dostępna nazwa”) wyliczany jest w następujący sposób:",
+            {
+              "ol": [
+                "Jeśli istnieje - fragment tekstu skojarzony za pomocą atrybutu `aria-labelledby`;",
+                "W przeciwnym razie, z treści atrybutu `aria-label`;",
+                "W przeciwnym razie, z treści elementu `<title>` będącego bezpośrednim potomkiem łącza;",
+                "W przeciwnym razie, treść atrybutu `xlink:title`;",
+                "W przeciwnym razie zawartość tekstowa co najmniej jednego elementu `<text>`."
+              ]
+            },
+
+            "Należy jednak być ostrożnym, ponieważ ten algorytm obliczeniowy nie jest jeszcze uwzględniony i skuteczny w różnych czytnikach ekranu. Dotychczas obsługę zapewnia VoiceOver, ale w JAWS i NVDA obsługa jest niekompletna. W efekcie „najmniejszym wspólnym mianownikiem”, na którym można oprzeć się przy nadawaniu nazwy łącza, jest element `<text>`."
+          ]
+        },
+        {
+          "id": "linkTekstowy",
+          "dt": "Łącze tekstowe",
+          "dd": [
+            "W HTML łącze, którego treść między `<a href=\"…\">` a `</a>` jest utworzona wyłącznie z tekstu."
+          ]
+        },
+        {
+          "id": "linkZlozony",
+          "dt": "Łącze złożone",
+          "dd": [
+            "W HTML łącze, którego treść między `<a href=\"…\">` a `</a>` składa się z co najmniej 2 elementów różnego rodzaju; na przykład tekstu i jednego lub więcej obrazów: ",
+            {
+              "ul": [
+                "obrazu (znacznik `img` lub znacznik posiadający atrybut `role=\"img\"`);",
+                "obszar klikalny (znacznik `area`) z atrybutem `href`;",
+                "obraz z obiektu (znacznik `object`);",
+                "obraz na kanwie (znacznik `canvas`);",
+                "grafika wektorowa (znacznik `svg`);"
+              ]
+            },
+            "Tytułem łącza złożonego jest zestawienie tekstu i treści alternatywy tekstowej obrazów zawartych między `<a href=\"…\">` a `</a>`.",
+            "Ważna uwaga: Przypominamy, że użycie dwóch sąsiadujących  i identycznych łączy (łącze graficzne i łącze tekstowe) jest dużym utrudnieniem dla użytkownika. Nawet jeśli nie stanowi to niezgodności, należy unikać takiego użycia. Użycie takich typów łączy powinno polegać na umieszczeniu obrazu w łączu tekstowym w taki sposób, aby utworzyć łącze złożone, co pozwala uniknąć redundacji.",
+            "Odnośnie tego tematu można przejrzeć technikę <a href=\"http://www.w3.org/TR/WCAG20-TECHS/H2.html\">H2: Łączenie sąsiadujących obrazów i linków tekstowych do tego samego zasobu.</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "M",
+      "dl": [
+        {
+          "id": "mapaOdsylaczy",
+          "dt": "Mapa odsyłaczy",
+          "dd": [
+            "Obraz reaktywny - z obszarami aktywnymi, klikalnymi (atrybut `href`), które są łączami do zasobów internetowych, i neutralnymi (atrybut `nohref`). Może działać w przeglądarce (po stronie klienta, atrybut `usemap`) lub na serwerze (po stronie serwera, atrybut `ismap`).",
+            "Mapy odsyłaczy po stronie serwera stosuje się wyjątkowo rzadko.",
+            "Uwaga: w HTML5, atrybut `ismap` jest niekatulany i niezgodny dla przycisków typu (`input type=\"image\"`)."
+          ]
+        },
+        {
+          "id": "mechanizmZastepowania",
+          "dt": "Mechanizm zastępowania",
+          "dd": [
+            "Mechanizm oparty generalnie na CSS, umożliwiający użytkownikowi zastąpienie tekstu przez obraz lub odwrotnie na zasadzie przełącznika stylów. Mechanizm może wykorzystywać język skryptu po stronie serwera lub język skryptu po stronie klienta."
+          ]
+        },
+        {
+          "id": "mechanizmZmianyKontrastow",
+          "dt": "Mechanizm zmiany kontrastów",
+          "dd": [
+            "Jeśli mechanizm jest obsługiwany przez link lub przycisk, którego widoczny tytuł składa się tylko z tekstu (treść między znacznikami `<a>` i `</a>`, `<button>` i `</button>` lub na przykład atrybut value), współczynnik kontrastu elementu powinien być przetestowany przy pomocy testów 3.3.1, 3.3.2, 3.3.3, 3.3.4, 3.4.1, 3.4.2, 3.4.3 lub 3.4.5, w zależności od wymaganego poziomu i przypadku zastosowania.",
+            "Dla wszystkich innych implementacji wykorzystuje się testy od 3.3.5 do 3.4.5 (w zależności do wymaganego poziomu, AA lub AAA)."
+          ]
+        },
+        {
+          "id": "media",
+          "dt": "Media, multimedia",
+          "dd": [
+            "Obiekt medialny to informacja zrozumiała dla komputera, zakodowana w jednym medium. Obiekt multimedialny to informacja zrozumiała dla komputera, zakodowana w jednym lub więcej mediów.",
+            "Termin &bdquo;multimedia&rdquo; z racji przedrostka „multi-” powinien być w zasadzie stosowany do informacji zakodowanych w więcej niż jednym menu, ale w praktyce to rozróżnienie nie ma znaczenia.",
+            "Wykorzystywane obecnie media to media wizualne i akustyczne: tekst, nieruchome, obrazy, audio i wideo. Z punktu widzenia prezentacji istotny jest podział na media nieoparte na czasie (dyskretne, statyczne), obejmujące tekst i obrazy nieruchome oraz media oparte na czasie (ciągłe, dynamiczne), obejmujące audio i wideo."
+          ]
+        },
+        {
+          "id": "mediaNiezmienneWCzasie",
+          "dt": "Media nieoparte na czasie",
+          "dd": [
+            "Treść, która nie zmienia się w czasie, którą można przeglądać przy pomocy wtyczki (Flash, Java, Silverlight itp.) lub przy pomocy elementów svg i canvas; na przykład interaktywna karta we Flashu, aplikacja Flash lub Java, pokaz slajdów są mediami statycznymi, nie są mediami opartymi na czasie. Media nieoparte na czasie mogą zawierać media oparte na czasie (czytnik Flash, który zawiera na przykład listę wideo).",
+            "Uwaga: Użycie parametru wmode jako obiektu Flash z wartościami `\"transparent\"` i&nbsp;`\"opaque\"` unieważnia kryterium <a href=\"met-kryteria-rgaa#kryt-4-21\">4.21</a> (Czy przeglądanie każdych mediów opartych na czasie może być kontrolowane z&nbsp;klawiatury lub przy pomocy myszy?). Zastosowanie tych wartości powoduje, że animacja Flash nie jest widoczna dla użytkowników odtwarzaczy ekranowych."
+          ]
+        },
+        {
+          "id": "mediaZmienneWCzasie",
+          "dt": "Media oparte na czasie (typu dźwięk, wideo i zsynchronizowane)",
+          "dd": [
+            "Inaczej media ciągłe albo dynamiczne:",
+            {
+              "ul": [
+                "Media oparte na czasie tylko audio: treść dźwiękowa (Wave, Mp3, itp.);",
+                "Media oparte na czasie tylko wideo: obrazy lub zdjęcia w ruchu lub w sekwencjach;",
+                "Zsynchronizowane media oparte na czasie: strumień audio lub wideo z innym formatem do prezentacji informacji lub zawierające interaktywne komponenty oparte na czasie. Media oparte na czasie mogą być przeglądane na 2 różne sposoby:",
+                {
+                  "ul": [
+                    "Plik do pobrania, który można przeglądać w programie zewnętrznym dla strony internetowej;",
+                    "Treść wbudowana na stronie internetowej i przeglądana na stronie przy pomocy:",
+                    {
+                      "ul": [
+                        "Wtyczki (na przykład wideo rozpowszechnianej przez odtwarzacz Flash);",
+                        "Element `video` (na przykład film);",
+                        "Element `audio` (na przykład podcasty);",
+                        "Element `svg` (na przykład animowany rysunek wektorowy);",
+                        "Element `canvas` (na przykład animowana bitmapa);",
+                        "Element `bgsound` do rozpowszechniania jako tło dźwiękowe strony internetowej."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "Media oparte na czasie mogą być rozpowszechniane w czasie rzeczywistym lub proponowane do odczytu w sposób asynchroniczny (media nagrane).",
+            "Uwaga 1: Użycie parametru wmode jako obiektu Flash z wartościami `\"transparent\"` i `\"opaque\"` unieważnia <a href=\"met-kryteria-rgaa#kryt-4-20\">kryterium 4.20</a> (Czy przeglądanie każdych mediów opartych na czasie może być kontrolowane z klawiatury lub przy pomocy myszy?). Zastosowanie tych wartości powoduje, że animacja Flash nie jest widoczna dla użytkowników odtwarzaczy ekranowych.",
+            "Uwaga 2: Animowane gify, animacje wykonane przy użyciu JavaScript lub CSS nie są traktowane jako media oparte na czasie.",
+            "Uwaga 3: Element `bgsound` jest specyficzny dla Internet Explorera i&nbsp;nie powinien być używany."
+          ]
+        },
+        {
+          "id": "modyfikacjaDanych",
+          "dt": "Modyfikacja lub anulowanie danych i działań",
+          "dd": [
+            "Procedury, dzięki którym użytkownik może zmienić wprowadzone przez siebie dane, cofnąć swój wpis lub spowodować cofnięcie działań wynikających z jego wpisu, np. anulowanie zamówienia lub przelewu bankowego.",
+            "Uwaga: Strona zawierająca formularz, który modyfikuje lub usuwa dane, albo przekazuje odpowiedzi na test lub egzamin, albo którego poprawność ma skutki finansowe lub prawne, musi wyraźnie wskazywać okres, w którym użytkownik może poprosić o anulowanie wprowadzonych przez siebie danych. Musi ona również zawierać procedurę, którą należy przeprowadzić, aby anulować wprowadzone dane. Procedura ta nie musi być obowiązkowo przeprowadzana internetowo, nawet jeśli jest zalecana."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "N",
+      "dl": [
+        {
+          "id": "naglaZmianaLuminacji",
+          "dt": "Nagła zmiana luminancji lub efekt błyskowy",
+          "dd": [
+            "Zmiana luminancji względnej, która może u niektórych osób wywołać atak padaczki, jeżeli efekt ten ma odpowiednie natężenie i zmienia się z pewną określoną częstotliwością."
+          ]
+        },
+        {
+          "id": "naglowek",
+          "dt": "Nagłówek",
+          "dd": [
+            "Element HTML (znacznik `h`) z 6 poziomami hierarchii (od `h1` dla najważniejszego tytułu do najmniej ważnych `h6`) umożliwiających uporządkowanie treści strony internetowej.",
+            "Na stronach internetowych należy przestrzegać hierarchii, a poszczególnych poziomów nie można pominąć (na przykład tytuł `h3` nie może następować bezpośrednio po tytule `h1`).",
+            "Natomiast porządek hierarchii nie musi rozpoczynać się obowiązkowo od `h1`. Nawet jeśli takie użycie nie jest zalecane, jest uważane za zgodne rozpoczynanie hierarchii tytułów od innego poziomu niż poziom 1.",
+            "Na każdej stronie internetowej powinien znajdować się co najmniej jeden tytuł `h1`.",
+            "Uwaga: Tytuły ukryte przez CSS są uznawane jako obecne i potwierdzają kryterium <a href=\"met-kryteria-rgaa#kryt-9-1\">9.1</a>."
+          ]
+        },
+        {
+          "id": "naglowekKolumnyLubWiersza",
+          "dt": "Nagłówek kolumny lub wiersza",
+          "dd": [
+            "Treść komórki tabeli danych (zazwyczaj pierwszej komórki kolumny lub wiersza), która stanowi tytuł dla całości lub części kolumny lub wiersza. Kolumna lub wiersz może zawierać wiele nagłówków (nagłówki pośrednie). Nagłówki powinny wykorzystywać znacznik `th`."
+          ]
+        },
+        {
+          "id": "napisyZsynchronizowane",
+          "dt": "Napisy zsynchronizowane (obiekt multimedialny)",
+          "dd": [
+            "Tekst informacji audio (słowa osób, hałas istotny do zrozumienia akcji itp.) obecne w mediach zmiennych w&nbsp;czasie i&nbsp;wyświetlane w sposób synchroniczny wraz ze strumieniem multimedialnym.",
+            "Uwaga 1: Aby odróżnić źródła dźwięku (różne osoby, głos w tle itp.), zaleca się wykorzystanie odpowiedniego mechanizmu (umieszczenie w nawiasie kwadratowym, kursywa, wyraźne poinformowanie „głos w tle:…”).",
+            "Uwaga 2: Nie należy mylić napisów związanych z tłumaczeniem (na przykład `kind=\"subtitle\"` w&nbsp;HTML5) i napisów dla głuchych i niesłyszących (na przykład `kind=\"captions\"` w HTML5). Te dwa rodzaje napisów mają różne cele. Tylko obecność i&nbsp;adekwatność napisów dla głuchych i niedosłyszących zapewnia zgodność."
+          ]
+        },
+        {
+          "id": "nawigacjaOkruszkowa",
+          "dt": "Nawigacja okruszkowa, ścieżka powrotu",
+          "dd": [
+            "Technika nawigacji, wskazuje użytkownikowi aktualną lokalizację w zestawie stron, np. witrynie internetowej. Termin „nawigacja okruszkowa” (ang. 'breadcrumbs') wywodzi się od oznaczania przebytej drogi przy pomocy okruszków, pozostawianych przez Jasia i Małgosię, bohaterów popularnej baśni dla dzieci.",
+            "Najczęściej spotykanymi typami nawigacji okruszkowej są:",
+            {
+              "ul": [
+                "oparta na lokalizacji: wskazuje użytkownikowi hierarchię strony, dzięki czemu przeglądając stronę, może cofnąć się do kategorii, która ją zawiera",
+                "oparta na atrybutach: okruszki oznaczające atrybuty zawierają informacje, które kategoryzują bieżącą stronę, np. w sklepach internetowych marka, kolor czy rozmiar produktu",
+                "oparta na ścieżce: zawiera w sobie strony, które użytkownik przebył podczas przeglądania zestawu stron, korzystając z linkowania wewnętrznego"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nazwaRolaWlasnosciStatus",
+          "dt": "Nazwa, rola, wartość, parametry i zmiany statusu",
+          "dd": [
+            "Element powinien mieć odpowiednią rolę i nazwę, jego ewentualne wartości i parametry powinny być dostępne i prawidłowo przekazywane, zwłaszcza do API dostępowych.",
+            "Element może opierać się na elemencie interaktywnym HTML lub na elemencie nieinteraktywnym z API ARIA przy pomocy roli ad hoc. Ważne: przyciski (znaczniki `button` lub `input type=\"button\"`), gdy są kontrolowane przez JavaScript, powinny być sprawdzone z <a href=\"met-kryteria-rgaa#kryt-7-1\">kryterium 7.1</a>.",
+            "Nazwa może być tytułem elementu, przykładowo tytułem przycisku.",
+            "Wartość jest przykładowo elementem wybranym z listy rozwijalnej lub bieżącą wartością kursora (slider).",
+            "Rola odpowiada typowi elementu zdefiniowanemu przez specyfikację HTML lub API WAI-ARIA (jak znacznik `button` lub rola ARIA `role=\"button\"`).",
+            "Parametry odpowiadają szczególnym informacjom o elemencie, zazwyczaj udostępnianym przez API WAI-ARIA. Przykładowo `aria-controls` jest parametrem, który przekazuje do API informację, że element kontroluje taką lub taką treść (oznaczoną identyfikatorem - atrybut `id`).",
+            "Zmiany statusów są również udostępniane przez API WAI-ARIA. Na przykład `aria-expanded` jest statusem umożliwiającym poinformowanie API, że element jest „otwarty” lub „zamknięty”. Uwaga: status może być również przekazany przez nazwę, gdy tytuł zmienia się dynamicznie, odpowiadając zwłaszcza statusowi kontrolowanego obszaru.",
+            "Parametry te nie są obowiązkowe, ale mogą być wymagane, gdy stają się niezbędne do udostępnienia komponentu. Audytor rozważa przypadki, w których parametry te są niezbędne w zależności od kontekstu związanego z użyciem komponentu.",
+            "Audytor powinien również sprawdzić czy parametry, jeśli są, są poprawnie używane.",
+            "Uwaga: Role, właściwości i statusy ARIA są implementowane przykładowo przy pomocy atrybutów `role=\"banner\"`, `aria-hidden=\"true\"`."
+          ]
+        },
+        {
+          "id": "niejednoznacznyDlaUzytkowników",
+          "dt": "Niejednoznaczny dla użytkowników",
+          "dd": [
+            "Cel nie może być określony na podstawie treści linku lub treści strony wyświetlanej równocześnie z linkiem. (tzn. że użytkownicy bez niepełnosprawności wiedzą, co kryje się pod danym linkiem dopiero po kliknięciu na niego). Przykład: słowo guawa w tym zdaniu: „Najwięksi eksporterzy guawy” jest linkiem.",
+            "Tak umieszczony link może oznaczać przeniesienie do definicji guawy, listy eksporterów guawy lub zdjęcia przedstawiającego ludzi zbierających guawę. Dopóki link nie zostanie kliknięty, zarówno użytkownicy pełnosprawni, jak i niepełnosprawni, nie wiedzą, co się pod nim kryje."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "O",
+      "dl": [
+        {
+          "id": "obrazDekoracyjny",
+          "dt": "Obraz dekoracyjny",
+          "dd": [
+            "Obraz niemający żadnej funkcji i nieniosący żadnej szczególnej informacji względem treści, z którą jest powiązany. Przykłady:",
+            {
+              "ul": [
+                "Obraz służący do wyrównania układu strony;",
+                "Zaokrąglony obraz narożnika zdobiący blok informacji;",
+                "Obraz ilustracyjny nieniosący żadnej informacji niezbędnej do zrozumienia tekstu, z&nbsp;którym jest powiązany."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obrazInformacyjny",
+          "dt": "Obraz niosący informację",
+          "dd": [
+            "Obraz niosący informację niezbędną do zrozumienia treści, z którą jest powiązany.",
+            "Uwaga 1: jeśli obraz jest jedyną zawartością linku, jego alternatywa jest tekstem linku. W takim przypadku, alternatywa obrazu powinna być oceniona w ramach tematyki „Linki”.",
+            "Uwaga 2: gdy przycisk formularza, wstawiony przez element `<button>`, zawiera tylko obraz (znacznik `<img>`, `<object>`, `<embed>`, `<canvas>` lub `<svg>`), alternatywa obrazu jest tekstem przycisku. Możliwe są dwa przypadki:",
+            {
+              "ul": [
+                "Przycisk jest sterowany przez typ, przykładowo typ `submit` lub `reset`, i stanowi część formularza. W takim przypadku, przycisk obraz powinien być oceniany w ramach tematyki „Formularze”.",
+                "Przycisk jest sterowany narzędziem JavaScript. W takim przypadku, przycisk obraz powinien być oceniany w ramach tematyki „Skrypty”."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obrazInformujacyKolorem",
+          "dt": "Obraz niosący informacje kolorem",
+          "dd": [
+            "Obraz, którego całość lub część przekazuje wizualnie informację tylko za pośrednictwem koloru."
+          ]
+        },
+        {
+          "id": "obrazZObiektu",
+          "dt": "Obraz z obiektu",
+          "dd": [
+            "Obraz wbudowany lub wygenerowany przez znacznik `object`."
+          ]
+        },
+        {
+          "id": "obrazTekstu",
+          "dt": "Obraz tekstu",
+          "dd": [
+            "Obraz wyświetlający tekst.",
+            "Uwaga: Nie zaleca się używania obrazów tekstu. Gdy nie jest możliwe uzyskanie takich samych efektów w CSS, <a href=\"met-kryteria-rgaa#kryt-1-8\">kryterium 1.8</a> [AA] wymaga, aby tekst był utworzony jako tekst CSS, lub aby mechanizm zastępowania umożliwił użytkownikowi zastąpienie tych obrazów tekstem formatowanym w CSS."
+          ]
+        },
+        {
+          "id": "obrazTekstuZObiektu",
+          "dt": "Obraz tekstu z obiektu",
+          "dd": [
+            "Obraz utworzony przez znacznik `object` i wyświetlający tekst."
+          ]
+        },
+        {
+          "id": "obrazTest",
+          "dt": "Obraz - test",
+          "dd": [
+            "Obraz służący jako test, <a href=\"#captcha\">CAPTCHA</a> lub obraz służący jako test w quizie albo grze. Przykład: seria obrazów przedstawia detale ze znanych obrazów; należy odgadnąć tytuł i malarza każdego obrazu. W takiej sytuacji podanie odpowiedniej alternatywy (przykładowo nazwy obrazu lub malarza) powodowałoby, że obraz nie byłby testem. Alternatywa powinna wtedy po prostu dawać opcję identyfikacji obrazu, na przykład „1 obraz z testu”.",
+            "Alternatywa powinna wtedy dawać możliwość określenia, o który obraz chodzi, na przykład „1. obraz testu”."
+          ]
+        },
+        {
+          "id": "obszarMapyOdsylaczy",
+          "dt": "Obszar (mapy odsyłaczy)",
+          "dd": [
+            "Obszar klikalny lub obszar nieklikalny (mapy odsyłaczy po stronie klienta lub obszar klikalny mapy odsyłaczy po stronie serwera."
+          ]
+        },
+        {
+          "id": "obszarKlikalny",
+          "dt": "Obszar klikalny",
+          "dd": [
+            "Obszar mapy odsyłaczy, któremu przypisana jest akcja; na przykład uruchomienie zdarzenia przez kliknięcie na link (dla obszaru klikalnego po stronie klienta: znacznik `area` z atrybutem `href`). Znaczniki `area` są zawarte w znaczniku `map`.",
+            "Dla map odsyłaczy po stronie serwera, dane są przechowywane na serwerze."
+          ]
+        },
+        {
+          "id": "obszarNaglowkaStrony",
+          "dt": "Obszar nagłówka strony",
+          "dd": [
+            "Obszar strony, punkt orientacyjny, znajdujący na górze dokumentu i zawierający zazwyczaj tytuł serwisu, logo, slogan itp., zdefiniowany znacznikiem `header` lub atrybutem `role=\"banner\"`",
+            "Uwaga: Nie należy mylić obszaru nagłówka poziomu witryny, który odnosi się do całej strony, z innymi obszarami, która również mogą być oznaczone w HTML5 jako element `header`, ale odnosić się do części dokumentu, np. artykułu.",
+            "Zob. definicję techniczną podawaną przez API ARIA: <a rel=\"external\" class=\"external\" href=\"https://www.w3.org/WAI/PF/aria/roles#banner\">Banner (role)</a>."
+          ]
+        },
+        {
+          "id": "menuNawigacyjne",
+          "dt": "Obszar nawigacji, menu nawigacyjne",
+          "dd": [
+            "Obszar zawierający linki, które umożliwiają nawigację po stronie lub całej witrynie. Jest to zazwyczaj menu główne i menu kontekstowe, definiowany znacznikiem `nav` lub atrybutem `role=\"navigation\"`",
+            "Uwaga: Linki w stopce odsyłające do informacji prawnych, mapa strony i inne informacje dotyczące witryny nie należą do głównego menu nawigacji.",
+            "Zob. definicję techniczną obszaru nagłówka podaną przez API ARIA <a href=\"http://www.w3.org/WAI/PF/aria/roles#navigation\">Navigation (role)</a>."
+          ]
+        },
+        {
+          "id": "obszarNieklikalny",
+          "dt": "Obszar nieklikalny",
+          "dd": [
+            "Obszar mapy odsyłaczy, z którym nie jest związana żadna czynność. Obszar nieklikalny po stronie klienta jest zawarty w znaczniku area:",
+            {
+              "ul": [
+                "Z atrybutem `nohref`, gdy kod HTML strony nie jest HTML5;",
+                "Bez atrybutu `href` w HTML5.",
+                "Znaczniki `area` są zawarte w znaczniku `map`."
+              ]
+            }
+
+          ]
+        },
+        {
+          "id": "obszarStopkiStrony",
+          "dt": "Obszar stopki strony",
+          "dd": [
+            "Obszar strony, punkt orientacyjny, z informacjami dotyczącymi całj strony, zdefiniowany znacznikiem `footer` lub atrybutem `role=\"contentinfo\"` Znajdują się tu na przykład informacje prawne, warunki użytkowania, linki do polityk dostępności, prywatności, mapy strony i inne.",
+            "Uwaga: Nie należy mylić obszaru stopki poziomu witryny, który odnosi się do całej witryny, z innymi obszarami, która również mogą być oznaczone w HTML5 jako element `footer`, ale odnosić się do części dokumentu, np. artykułu.",
+            "Zob. definicję techniczną podawaną przez API ARIA: <a rel=\"external\" class=\"external\" href=\"https://www.w3.org/WAI/PF/aria/roles#contentinfo\">Contentinfo (role)</a>."
+          ]
+        },
+        {
+          "id": "obszarTresciGlownej",
+          "dt": "Obszar treści głównej",
+          "dd": [
+            "Główny obszar strony, punkt orientacyjny, zawierający podstawowe treści i funkcje (poza menu, wyszukiwarką, elementami pobocznymi, takimi jak strefy reklamowymi, powiązane aktualności itp.).",
+            "Uwaga: Może istnieć tylko jeden główny obszar strony. Na niektórych stronach, na przykład na stronie głównej, mogą być trudności w jego określeniu.",
+            "Zob. definicję techniczną podawaną przez API ARIA: <a href=\"http://www.w3.org/WAI/PF/aria/roles#main\">Main (role)</a>."
+          ]
+        },
+        {
+          "id": "obszarWyszukiwania",
+          "dt": "Obszar wyszukiwania, Wyszukiwarka (wewnętrzna witryny internetowej",
+          "dd": [
+            "Obszar strony, punkt orientacyjny, zawierający wyszukiwarkę umożliwiającą przeprowadzenie wyszukiwania w treści całej witryny, zdefiniowany atrybutem `role=\"search\"`",
+            "Uwaga: Nie należy mylić takiego obszaru wyszukiwania, unikalnego dla witryny, z innymi wyszukiwarkami umożliwiającymi przykładowo wyszukiwanie na ograniczonej części witryny: katalogu, ofert w sekcji przetargów publicznych itp.",
+            "Zob. definicję techniczną obszaru nagłówka podaną przez API ARIA <a rel=\"external\" class=\"external\" href=\"https://www.w3.org/WAI/PF/aria/roles#search\">Search (role)</a>"
+          ]
+        },
+        {
+          "id": "opisSzczegolowy",
+          "dt": "Opis szczegółowy (obraz)",
+          "dd": [
+            "Treść powiązana z obrazem wraz z alternatywą tekstową, aby opisać w całości informację przenoszoną przez obraz. Szczegółowy opis może być wprowadzony przez:",
+            {
+              "ul": [
+                "Atrybut `longdesc`, który zawiera adres strony lub miejsce na stronie zawierające opis szczegółowy;",
+                "Odnośnik, w atrybucie `alt`, do opisu szczegółowego powiązanego z obrazem;",
+                "Link powiązany z obrazem, który zawiera adres strony lub miejsce na stronie zawierające opis szczegółowy;",
+                "Jeden lub wiele fragmentów tekstu zdefiniowanych przez `id` i powiązanych przez właściwość `aria-describedby` w oparciu o model `aria-describedby=\"ID1 ID2 ID3…\"`."
+              ]
+            },
+            "Uwaga: Aby zapewnić maksymalną kompatybilność z aplikacjami klienckimi, zwłaszcza z Internet Explorerem 11, zaleca się zaimplementowanie `tabindex=\"-1\"` dla fragmentów tekstów, które nie są elementami interaktywnymi (przyciski, linki, elementy formularzy itp.)."
+          ]
+        },
+        {
+          "id": "oznaczonyFokusem",
+          "dt": "Oznaczenie fokusem",
+          "dd": [
+            "Oznaczenie fokusem powoduje wyeksponowanie elementu w wyniku działania użytkownika. W HTML dostępne są trzy możliwości oznaczania elementu fokusem:",
+            {
+              "ul": [
+                "Przez aktywację elementu urządzeniem wskazującym (mysz);",
+                "Przez aktywację elementu klawiszem `<kbd>Tab</kbd>` (tabulacji);",
+                "Przez aktywację elementu skrótem klawiszowym (`accesskey`)."
+              ]
+            },
+            "Niektóre elementy przyjmują fokus naturalnie, na przykład: `a`, `area`, `button`, `input`, `object`, `select`, `label`, `legend`, `optgroup`, `option` i `textarea`.. Zachowanie się elementu podczas oznaczania fokusem zależy od rodzaju elementu; na przykład link powinien być uruchamiany po oznaczeniu fokusem (za wyjątkiem użycia skryptu). Natomiast element formularza, taki jak `textarea`, powinien umożliwiać wprowadzanie po oznaczeniu fokusem. Elementy `label` i `legend` są oznaczane fokusem tylko kursorem myszy. Dla elementu label, oczekiwanym zachowaniem jest przesunięcie oznaczenia fokusem na element, który jest z nim powiązany.",
+            "Uwaga 1: Specyfikacja WAI-ARIA rozszerza rolę przypisaną do atrybutu  `tabindex` definiując, że każdy element html może być oznaczony fokusem przez przypisanie mu wartości `tabindex=\"0\"`. Natomiast żadne zachowanie nie jest przypisywane przez samą obecność  `tabindex`. Wartość `tabindex=\"-1\"` usuwa element, do którego jest przypisana z planu tabulacji, uniemożliwiając informowanie o „oznaczeniu fokusem”. Użycie  `tabindex`, zgodnie ze specyfikacją WAI-ARIA, może potwierdzić niektóre testy odnoszące się zwłaszcza do sterowania fokusem z tabulacji.",
+            "Uwaga 2: Wskazanie wizualne nie powinno się pogarszać, to znaczy nie powinno być zmniejszane przy pomocy wartości, które zmieniają styl w stosunku do stylu standardowego."
+          ]
+        },
+        {
+          "id": "oznaczeniePrzezKsztaltItd",
+          "dt": "Oznaczenie przez kształt, rozmiar lub położenie",
+          "dd": [
+            "Może to być przykładowo:",
+            {
+              "ul": [
+                "Obecność znacznika wizualnego, dla wskazania strony aktywnej w menu nawigacji (oznaczenie przez położenie);",
+                "Wyeksponowanie na pierwszy plan dla wskazania aktywnej karty (oznaczenie przez kształt);",
+                "Zmiana rozmiaru fontu w chmurze znaczników (oznaczenie przez rozmiar)."
+              ]
+            },
+            "I każdy inny podobny efekt graficzny."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "P",
+      "dl": [
+        {
+          "id": "pasekNawigacji",
+          "dt": "Pasek nawigacji",
+          "dd": [
+            "Lista linków umożliwiających poruszanie się po witrynie, rubrykach lub zbiorze stron. Podstawowe paski nawigacji to:",
+            {
+              "ul": [
+                "Główne menu nawigacji;",
+                "Nawigacja okruszkowa;",
+                "Lista przeglądania z listą wyników;",
+                "Menu podrubryki."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "poWciśnięciuWskaźnika",
+          "dt": "Po wciśnięciu wskaźnika",
+          "dd": [
+            "Zdarzenie, które występuje, gdy bodziec wyzwalający urządzenia wskazującego (wskaźnika myszy, dotyku palcem, rysikiem, itp.) jest wciśnięty. Zdarzenie „po wciśnięciu wskaźnika”  (<span lang=\"en\">down-event</span>) może mieć różne nazwy na różnych platformach, takie jak `touchstart` lub `mousedown`."
+          ]
+        },
+        {
+          "id": "poZwolnieniuWskaźnika",
+          "dt": "Po zwolnieniu wskaźnika",
+          "dd": [
+            "Zdarzenie, które występuje, gdy bodziec wyzwalający urządzenia wskazującego (wskaźnika myszy, dotyku palcem, rysikiem, itp.) zostanie zwolniony. Zdarzenie „po zwolnieniu wskaźnika” (<span lang=\"en\">up-event</span>) może mieć różne nazwy na różnych platformach, takie jak `touchend` lub `mouseup`."
+          ]
+        },
+        {
+          "id": "podobnePolaFormularza",
+          "dt": "Podobne pola formularza",
+          "dd": [
+            "Wszystkie pola w formularzu, które można pogrupować według rodzaju oczekiwanych informacji. Grupowanie ma na celu oznakowanie pól, które można traktować jako całość. Oto kilka przykładów:",
+            {
+              "ul": [
+                "Trzy kolejne pola do wprowadzania daty (dzień/miesiąc/rok).",
+                "Kolejne pola na numer telefonu.",
+                "Blok przeznaczony do wprowadzenia tożsamości i adresu użytkownika, gdy formularz zawiera kilka bloków kontaktów.",
+                "Grupa przycisków opcji lub pól wyboru, które odnoszą się do jednego tematu."
+              ]
+            },
+            "Pola te powinny być pogrupowane, gdy teksty etykiet nie są wystarczające, aby poinformować użytkownika, że pola stanowią część grupy. HTML proponuje odpowiedni mechanizm za pośrednictwem elementów `fieldset` i `legend`."
+          ]
+        },
+        {
+          "id": "podobnePozycjeNaListachWyboru",
+          "dt": "Podobne pozycje na listach wyboru",
+          "dd": [
+            "Zestaw elementów na liście rozwijanej (znacznik `select`), które można pogrupować według ich charakteru. Grupowanie ma na celu identyfikację elementów, które mają być traktowane jako całość (na przykład lista filii pogrupowanych według regionów)."
+          ]
+        },
+        {
+          "id": "poleFormularza",
+          "dt": "Pole formularza",
+          "dd": [
+            "Obiekt formularza pozwalający użytkownikowi na:",
+            {
+              "ul": [
+                "Wprowadzenie danych tekstowych lub wstępnie sformatowanych:",
+                {
+                  "ul": [
+                    "`input type=\"text\"`;",
+                    "`input type=\"password\"`;",
+                    "`input type=\"search\"`;",
+                    "`input type=\"tel\"`;",
+                    "`input type=\"email\"`;",
+                    "`input type=\"number\"`;",
+                    "`input type=\"tel\"`;",
+                    "`input type=\"url\"`;",
+                    "`textarea`;"
+                  ]
+                },
+                "Wybranie wartości predefiniowanych:",
+                {
+                  "ul": [
+                    "`input type=\"checkbox\"`",
+                    "`input type=\"radio\"`",
+                    "`input type=\"date\"`",
+                    "`input type=\"range\"`",
+                    "`input type=\"color\"`",
+                    "`input type=\"time\"`",
+                    "`select`",
+                    "`datalist`",
+                    "`optgroup`",
+                    "`option`",
+                    "`keygen`"
+                  ]
+                },
+                "Pobranie plików:",
+                {
+                  "ul": [
+                    "`input type=\"file\"`"
+                  ]
+                },
+                "Lub wyświetlenie wyników:",
+                {
+                  "ul": [
+                    "`output`",
+                    "`progress`",
+                    "`meter`"
+                  ]
+                }
+              ]
+            },
+            "Poniższe obiekty formularza nie są uznawane za pola formularza:",
+            {
+              "ul": [
+                "`input type=\"submit\"`",
+                "`input type=\"reset\"`",
+                "`input type=\"hidden\"`",
+                "`input type=\"image\"`",
+                "`input type=\"button\"`",
+                "`button`"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "podsumowanieTabeli",
+          "dt": "Podsumowanie (tabeli)",
+          "dd": [
+            "Podsumowanie (streszczenie) to fragment tekstu powiązany ze złożoną tabelą danych. Pozwala podać informacje dotyczące rodzaju i struktury tabeli, aby ułatwić korzystanie z tabeli przez użytkowników technologii wspomagających.",
+            "Specyfikacja proponuje wiele metod powiązania tabeli z jej podsumowaniem (powiązanie tabeli z fragmentem tekstu za pomocą atrybutu `aria-describedby`, tabela zgrupowana z podsumowaniem w tekście przyłegłym za pomocą elementu `figure`, tabela zgrupowana za pomocą elementu `figure` z podsumowaniem w elemencie `figcaption`, podsumowanie w elemencie `details` oraz podsumowanie w elemencie `caption`).",
+            "Niestety, aktualnie metody te nie mają wystarczajścego wsparcia technologii wspomagajacych. ",
+            "Spośród tych 5 metod proponowanych w specyfikacji jedyną możliwą do zastosowania techniką w HTML5 jest wstawienie podsumowania tabeli do jej tytułu  (znacznika `caption`) i ukrycie w razie konieczności przy pomocy CSS. ",
+            "W poprzednich wersjach HTML podsumowanie można wstawiać za pomocą atrybutu `summary` w znaczniku `table`. W HTML5 atrybut `summary` jest niedozwolony.",
+            "W przypadku elementu z atrybutem `role=\"table\"` podsumowanie musi być zapewnione za pomocą atrybutu `aria-describedby` i musi być poprawnie odwzorowane za pomocą technologii wspomagających."
+          ]
+        },
+        {
+          "id": "poprawnieOdwzorowany",
+          "dt": "Poprawnie odwzorowany przez technologie wspomagające",
+          "dd": [
+            "Jeśli kryterium, test lub warunek wymaga sprawdzenia odwzorowania narzędzia, należy upewnić się, że odwzorowanie to jest zgodne z dostępnością.",
+            "Test polega na sprawdzeniu czy odwzorowanie jest istotne dla co najmniej jednej z kombinacji z <a href=\"./base.html\"> bazy referencji</a> używanej do zadeklarowania, że element, urządzenie lub alternatywa są „zgodne z dostępnością”.",
+            "Na przykład: test 1.3.7 żąda sprawdzenia czy alternatywa obrazu niosącego informację wektorową jest poprawnie odwzorowana.",
+            "Test jest przeprowadzany przy użyciu NVDA (ostatnia wersja) i Firefox, JAWS (poprzednia wersja) i IE9+, Voice Over (ostatnia wersja) i Safari.",
+            "Jeśli zostanie stwierdzone, że alternatywa jest poprawnie odwzorowana, test jest poprawny."
+          ]
+        },
+        {
+          "id": "prezentacjaInformacji",
+          "dt": "Prezentacja informacji",
+          "dd": [
+            "Odtwarzanie wizualne treści przez przeglądarkę w trybie graficznym. Prezentacja odnosi się do stylu, położenia i wymiarów elementów HTML i ich zawartości. Prezentacja informacji powinna być wykonana za pomocą CSS. Elementy (`basefont`, `blink`, `center`, `font`, `marquee`, `s`, `strike`, `tt`, `u`;) i atrybuty (`align`, `alink`, `background`, `basefont`, `bgcolor`, `border`, `color`, `link`, `text`, `vlink`) są zabronione.",
+            "Uwaga: Atrybuty `width` i `height` używane na innych elementach niż znaczniki `img`, `object`, `embed`, `canvas` i `svg` są również zabronione."
+          ]
+        },
+        {
+          "id": "procentDomyslnegoRzmiaruCzcionki",
+          "dt": "Procent domyślnego rozmiaru czcionki",
+          "dd": [
+            "Do lub od 150% (1.5em) rozmiaru fontu standardowego bez pogrubienia lub od 120% (1.52em) rozmiaru fontu standardowego z pogrubieniem",
+            "Te dwa pomiary definiują rozmiar względny czcionki odpowiadający rozmiarowi czcionki wynoszącemu 14 punktów z pogrubieniem lub 18 punktów bez pogrubienia, zakładając, że font korpusu (body) to 100%.",
+            "Uwaga: Do 150% i do 120% oznacza, że rozmiar czcionki jest dokładnie mniejszy niż 150 lub 120%. Od 150% i do 120% oznacza, że rozmiar czcionki jest większy lub równy 150 lub 120%.",
+            "Standardowy rozmiar fontu to rozmiar zdefiniowany przez autora dla dokumentu lub, w razie jego braku, standardowy rozmiar użyty przez aplikację kliencką (np. przeglądarkę)."
+          ]
+        },
+        {
+          "id": "przekierowanie",
+          "dt": "Przekierowanie",
+          "dd": [
+            "Sposób, który pozwala przenieść użytkownika z wyświetlanej strony, na inną stronę należącą do tej samej lub innej domeny."
+          ]
+        },
+        {
+          "id": "przyciskFormularza",
+          "dt": "Przycisk (formularz)",
+          "dd": [
+            "Element formularza, którzy umożliwia wykonanie zdefiniowanej operacji. Na przykład przycisk wysłania formularza pozwala wysłać zebrane informacje do serwera w celu ich przetwarzania. Tytuł przycisku powinien opisywać operację, która zostanie wykonana po jego naciśnięciu (na przykład: „Uruchom wyszukiwanie”, „Wyślij wiadomość”). W HTML, istnieją trzy rodzaje przycisków formularza:",
+            {
+              "ul": [
+                "Znacznik `input` typu `submit`, `reset` lub `button`;",
+                "Znacznik `input` typu `image`;",
+                "Znacznik `button`."
+              ]
+            },
+            "Możliwe jest również utworzenie przycisku za pomocą atrybutu WAI-ARIA `role=\"button\"`.",
+            "Istnieje sześć rodzajów tytułu przycisku:",
+            {
+              "ul": [
+                "treść fragmentu tekstu powiązanego z przyciskiem za pomocą atrybutu `aria-labelledby`, jeśli istnieje;",
+                "treść atrybutu `aria-label`, jeśli istnieje;",
+                "treść atrybutu `alt` przycisku typu `image`;",
+                "treść atrybutu `value` przycisków formularza typu `submit`, `reset` lub `button`;",
+                "treść znacznika `button`;",
+                "treść atrybutu `title`, jeśli istnieje."
+              ]
+            },
+            "Ważna uwaga: Gdy na tym samym przycisku zastosowano kilka z tych technik, obliczenie „dostępnej nazwy”, czyli nazwy, którą przekażą użytkowni technologie wspomagajace, odbywa się w ściśle określonej kolejności:",
+            {
+              "ul": [
+                "treść `aria-labelledby`,",
+                "w przeciwnym razie treść `aria-label`",
+                "w przeciwnym razie treść `alt` w przypadku przycisku typu `image`",
+                "w przeciwnym razie wartość `value` w przypadku przycisku `submit`, `reset` lub `button`",
+                "w przeciwnym razie treść znacznika `button`",
+                "w przeciwnym razie treść atrybutu `title`."
+              ]
+            },
+            "Kolejność ta powinna być wykorzystana przy ustalaniu „dostępnej nazwy” przycisku. Przykładowo, nawet w przypadku, gdy istnieje atrybut `title` i fragment tekstu do którego odwołuje się `aria-labelledby`, należy ocenić, że „dostępną nazwę” przyciskowi nada fragment tekstu, do którego odnosi się `aria-labelledby`.",
+            "Referencja: <a href=\"http://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-calculation\">Accessible name and description calculation</a>.",
+            "Ponadto „dostępna nazwa” zostanie uznana za nieistotną, jeśli jej częścią nie będzie tekst widoczny na przycisku. Na przykład: <button aria-label=\"potwierdzenie zgłoszenia\">zatwierdź zgłoszenie</button> należy uznać  za niespełniające kryterium 11.2."
+          ]
+        },
+        {
+          "id": "procOdswiezania",
+          "dt": "Procedura odświeżania",
+          "dd": [
+            "Technika mająca na celu zmianę zawartości jednego lub wielu elementów strony internetowej. Sposób odświeżania może polegać na automatycznym przeładowaniu strony lub odbywać się dynamicznie bez przeładowywania strony (na przykład przy pomocy AJAX). Użytkownik musi mieć możliwość niezależnego kontrolowania każdej procedury odświeżania."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "R",
+      "dl": [
+        {
+          "id": "ramka",
+          "dt": "Ramka",
+          "dd": [
+            "Ramka wbudowana (znacznik `iframe`): element języka HTML, umożliwiający osadzenie zewnętrznego dokumentu HTML wewnątrz innego dokumentu HTML, w którym została zastosowana. Inne określenia: ramka liniowa, pływająca, lokalna.",
+            "Ramka (znacznik `frame`): element HTML  umożliwiający wyświetlenie na stronie internetowej treści tej strony zapisanych w&nbsp;odrębnych dokumentach (html, xhtml)."
+          ]
+        },
+        {
+          "id": "rozmiarCzcionki",
+          "dt": "Rozmiar czcionek",
+          "dd": [
+            "Wartość przypisywana czcionkom znajdującym się na stronie internetowej. Dla treści internetowych, czcionki należy definiować w jednostkach względnych (`%`, `em` lub `rem`, `vw`, `vh`, `vmin` lub `vmax`) lub przez słowa klucze (`xx-small`, `x-small`, `small`, `medium`, `large`, `x-large`, `xx-large`, `smaller`, or `larger`).",
+            "Uwaga: Użycie pikseli (`px`) w RGAA jest zabronione."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "S",
+      "dl": [
+        {
+          "id": "#skryptTech",
+          "dt": "Skrypt",
+          "dd": [
+            "Kod napisany zazwyczaj w postaci listy poleceń (na przykład w JavaScript). Języki interpretowane po stronie klienta wymagają kompatybilnej przeglądarki, w której aktywne jest wykonanie poleceń języka. Polecenia języka skryptu po stronie klienta mogą być wbudowane lub zawarte w pliku zewnętrznym. W obu przypadkach wprowadzenia dokonuje się przy pomocy znacznika `<script>`."
+          ]
+        },
+        {
+          "id": "spojna",
+          "dt": "Spójne",
+          "dd": [
+            "Etykiety pól formularza obecne jednocześnie na tej samej stronie lub w zestawie stron i informujące o wprowadzeniu tych samych danych muszą być sformułowane bez dwuznaczności, aby użytkownik wiedział, że wprowadzana przez niego dana jest taka sama."
+          ]
+        },
+        {
+          "id": "stronaMapaWitryny",
+          "dt": "Strona „mapa witryny”",
+          "dd": [
+            "Dedykowana strona przedstawiająca strukturę drzewiastą witryny internetowej, zazwyczaj w postaci list linków zorganizowanych w rubryki i podrubryki, umożliwiająca dostęp do wszystkich stron witryny.",
+            "Uwaga 1: Linki mapy strony mogą składać się ze znaczników `a` lub `area`.",
+            "Uwaga 2: Nie jest konieczne, aby mapa strony zawierała linki do wszystkich stron witryny, natomiast istotne jest, aby z poziomu mapy strony użytkownik mógł uzyskać dostęp zbioru stron witryny."
+          ]
+        },
+        {
+          "id": "strukturaDrzewiastaDokumentu",
+          "dt": "Struktura drzewiasta dokumentu",
+          "dd": [
+            "Test 9.2.2 wymaga sprawdzenia, czy struktura elementów tworzących sekcje (przykładowo `nav`), `section`, `article`) jest spójna, to znaczy reprezentatywna dla architektury dokumentu.",
+            "Struktura ta jest uzupełniająca w stosunku do struktury tytułów `h1` do `h6`, które są jego elementem.",
+            "Nieprawidłowe użycie elementów tworzących sekcje może spowodować utworzenie niespójnej struktury drzewiastej dokumentu, przykładowo przez nadmierne użycie elementów `section` lub `article` .",
+            "Uwaga 1: Dla zapewnienia stopniowego wprowadzania struktury drzewiastej dokumentu i biorąc pod uwagę, że specyfikacja wymaga, aby w każdym przypadku struktura treści (znaczniki `h(x)`) była stabilna i spójna, dopuszcza się uznanie testu 9.2.2 za niemający zastosowania, gdy nie można zapewnić doskonale spójnej struktury drzewiastej dokumentu. Odnośnie tego tematu można przejrzeć następującą notę techniczną: Nota techniczna dotycząca struktury drzewiastej dokumentu.",
+            "Uwaga 2: Odnośnie tego tematu można przejrzeć przykład podany w specyfikacji HTML5: <a rel=\"external\" class=\"external\" href=\"http://www.w3.org/TR/html5/sections.html#sample-outlines\">4.3.10.2 Sample outlines</a>."
+          ]
+        },
+        {
+          "id": "systemNawigacji",
+          "dt": "System nawigacji",
+          "dd": [
+            "Każdy sposób umożliwiający nawigację na witrynie lub stronie; uwzględniane systemy nawigacji to:",
+            {
+              "ul": [
+                "Główne menu nawigacji;",
+                "Spis treści;",
+                "Mapa strony;",
+                "Wyszukiwarka."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "Ś",
+      "dl": [
+        {
+          "id": "srodowiskoKontrolowane",
+          "dt": "Środowisko kontrolowane",
+          "dd": [
+            "Każde środowisko, w którym dostęp do informacji, technologie, warunki użytkowania i profil użytkowników, są znane i mogą być kontrolowane. Podstawowe elementy, których kontrolowanie jest kluczowe to:",
+            {
+              "ul": [
+                "Typ i wersja przeglądarek;",
+                "Obsługiwane technologie, ich wersja i uruchomienie (JavaScript, WAI-ARIA, Flash, Silverlight itp.);",
+                "Technologie wspomagające i wszelkie narzędzia używane w specyficzny sposób przez użytkowników niepełnosprawnych;",
+                "Obsługiwane systemy operacyjne i API dostępowe;",
+                "Szkolenie użytkowników technologii wspomagających z użytkowania wszelkich narzędzi specjalnych (interfejs, aplikacja online itp.)."
+              ]
+            },
+            "Autorzy i administratorzy muszą zapewnić kompatybilność używanych technologii i ich użycie przez użytkowników z własnymi technologiami (w tym technologie wspomagające). Serwis informacyjne lub witryny internetowe, niezależnie od ich statusu, które umożliwiają dostęp publiczny, nie mogą być uważane za środowiska kontrolowane."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "T",
+      "dl": [
+        {
+          "id": "tabelaDanych",
+          "dt": "Tabela danych",
+          "dd": [
+            "Element HTML (znacznik table) pozwalający na ustrukturyzowanie informacji w wierszach i kolumnach przy pomocy komórek danych (znacznik td) i komórek nagłówkowych (znacznik th)."
+          ]
+        },
+        {
+          "id": "tabelaUkladu",
+          "dt": "Tabela układu",
+          "dd": [
+            "Technika, która wykorzystuje element HTML (znacznik table) do kontrolowania wyświetlania informacji przy pomocy komórek (znacznik td)."
+          ]
+        },
+        {
+          "id": "tekstFormatowany",
+          "dt": "Tekst formatowany",
+          "dd": [
+            "Tekst, którego formatowanie jest kontrolowane przez arkusz stylów."
+          ]
+        },
+        {
+          "id": "tekstLinku",
+          "dt": "Tekst łącza (lub „dostępna nazwa”)",
+          "dd": [
+            "Technologie wspomagające uzyskują „dostępną nazwę” z informacji o łączu umieszczonych w atrybutach.",
+            "W przypadku łączy HTML, technologie wspomagające analizują atrybuty w&nbsp;następującej kolejności:",
+            {
+              "ol": [
+                "Tekst powiązany z łączem za pomocą atrybutu `aria-labelledby`",
+                "Treść umieszczona w atrybucie `aria-label`",
+                "Tekst zawarty między `<a href=\"…\">` a `</a>`",
+                "Treść umieszczona w atrybucie `title`"
+              ]
+            },
+            "Ta kolejność powinna być wykorzystywana do  określenia, co stanowi tekst łącza („dostępną nazwę”). Na przykład:",
+            "Jeżeli istnieje zarówno atrybut `aria-label`, jak i atrybut `aria-labelledby`, „dostępną nazwą” (tekstem łącza) jest fragment tekstu, który jest skojarzony z łączem za pomocą atrybutu `aria-labelledby` (atrybut `aria-labelledby` ma najwyższy priorytet).",
+            "Gdy oznakowanie łącza zawiera zarówno atrybut `aria-label`, jak i tekst między `<a href=\"…\">` a `</a>`, „dostępną nazwą” łącza jest treść atrybutu `aria-label`.",
+            "Dowiedz się więcej: <a hreflang=\"en\" href=\"https://www.w3.org/TR/accname-1.1/\">Accessible Name and Description Computation 1.1</a>.",
+            "W przypadku, gdy „dostępna nazwa” została uzyskana z treści linku, będzie się ona różnić w zależności od następujących przypadków:",
+            {
+              "ul": [
+                "Łącze tekstowe:<br />W HTML „dostępna nazwa” odpowiada tekstowi uzyskanemu z:",
+                {
+                  "ul": [
+                    "Tekst zawarty bezpośrednio w łączu (między `<a href=\"…\">` a `</a>`)",
+                    "Tekst zawarty w elementach potomnych łącza (znacznika `a`)."
+                  ]
+                }
+              ]
+            },
+            "Łącze graficzne:<br />W HTML „dostępna nazwa” odpowiada tekstowi utworzonemu z tekstu alternatywnego dla jednego lub więcej obrazów w łączu typu:",
+            {
+              "ul": [
+                "Obraz (znacznik `img` lub element z atrybutem `role=\"img\"`);",
+                "Obraz z obiektu (znacznik `object`);",
+                "Grafika na kanwie (znacznik `canvas&`);",
+                "Grafika wektorowa (znacznik `svg`)."
+              ]
+            },
+            "Łącze złożone:<br />W HTML „dostępna nazwa” odpowiada całemu tekstowi złożonemu z:",
+            {
+              "ul": [
+                "Tekstu wewnątrz łącza (między `<a href=\"…\">` a `</a>`;",
+                "Tekstu wewnątrz potomnych elementów łącza (umieszczonych między `<a href=\"…\">` a `</a>`);",
+                "Alternatywy tekstowej obrazów zawartych między `<a href=\"…\">` a `</a>`."
+              ]
+            },
+            "Łącze SVG (łącze wektorowe):<br />W przypadku łącza SVG (wersja 1.1) „dostępna nazwa” jest uzyskiwana w następujący sposób:",
+            {
+              "ul": [
+                "Fragment tekstu skojarzony za pomocą atrybutu `aria-labelledby`;",
+                "W przeciwnym razie, z treści atrybutu `aria-label`;",
+                "W przeciwnym razie, z treści elementu `<title>` będącego bezpośrednim potomkiem łącza;",
+                "W przeciwnym razie, treść atrybutu `xlink:title`;",
+                "W przeciwnym razie zawartość tekstowa co najmniej jednego elementu `<text>`."
+              ]
+            },
+            "Należy jednak być ostrożnym, ponieważ ten algorytm obliczeniowy nie jest jeszcze uwzględniony i skuteczny w różnych czytnikach ekranu. Dotychczas obsługę zapewnia VoiceOver, ale w JAWS i NVDA obsługa jest niekompletna. W efekcie „najmniejszym wspólnym mianownikiem”, na którym można oprzeć się przy nadawaniu nazwy łącza, jest element `<text>`.",
+            "Uwaga 1: Tytuł łącza należy uznać za nieprecyzyjny, jeżeli „dostępna nazwa” nie zawiera <a href=\"#trescWidoczna\">widocznej treści</a> łącza.",
+            "Uwaga 2: Ze względu na możliwą konfigurację technologii wspomagającej pozwalającej na  wymuszenie odczytu „dostępnej nazwy” z treści atrybutu `title` na niekorzyść „dostępnej nazwy” z treści łącza (treści między `<a...>` i `</a>`. Tytuł łącza należy uznać za nieprecyzyjny, jeśli łącze ma atrybut `title`, którego wartość nie zawiera co najmniej „dostępnej nazwy” z treści łącza.",
+            "Uwaga 3: Gdy istnieje kilka łączy do różnych miejsc docelowych, których „dostępna nazwa” jest identyczna, tytuł łącza należy uznać za nieprecyzyjny, jeśli kontekst łącza nie pozwala na ich różnicowanie.",
+            "Uwaga 4: Jeśli łącze nie zawiera treści (z wyjątkiem kotwic), należy je zaklasyfikować jako niezgodne z <a href=\"/rgaa4-criteres.html#crit-10-2\">kryterium 10.2</a> oraz <a href=\"/rgaa4-criteres.html#crit-6-2\">kryterium 6.2</a>.",
+            "Uwaga 5: Chociaż obliczenia „dostępnej nazwy” łącza uwzględniają treść tekstową generowaną w CSS za pomocą pseudoelementów `::before` i `::after`, nie należy stosować tej praktyki, ponieważ stanowi ona niezgodność z kryterium sukcesu 1.3.1 WCAG 2.1 (por. <a href=\"https://www.w3.org/WAI/WCAG21/Techniques/failures/F87\" hreflang=\"en\" rel=\"external\" class=\"external\">F87</a>)."
+          ]
+        },
+        {
+          "id": "powiazaneARIA",
+          "dt": "Tekst powiązany przez właściwość ARIA",
+          "dd": [
+            "Są to fragmenty tekstu zdefiniowane przez id i te powiązane przez `aria-labelledby` lub `aria-describedby` na następującym modelu: `aria-labelledby=\"ID1 ID2 ID3…\"`.",
+            "Uwaga: Aby zapewnić maksymalną kompatybilność z aplikacjami klienckimi, zwłaszcza z Internet Explorerem 11, zaleca się zaimplementowanie `tabindex=",
+            -1,
+            "` dla fragmentów tekstów, które nie są elementami interaktywnymi (przyciski, linki, elementy formularzy itp.).",
+            "Właściwości `aria-label` i `aria-labelledby` mogą być wykorzystywane do tworzenia etykiety pola formularza. Tak utworzona etykieta jest niewidoczna, co pozwala rozwiązać wiele przypadków, w których widoczna etykieta nie jest pożądana.",
+            "Natomiast wiąże się to z potencjalnym ryzykiem dla niektórych użytkowników i może być konieczne, aby narzędzia proponowane przez `aria-label` lub `aria-labelledby` były uzupełnione widocznym tekstem umieszczonym obok pola."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "T",
+      "dl": [
+        {
+          "id": "tekstUkryty",
+          "dt": "Tekst ukryty",
+          "dd": [
+            "Technologie wspomagające (zwłaszcza czytniki ekranu) nie odwzorowują tekstu ukrytego przy pomocy właściwości:",
+            {
+              "ul": [
+                "(CSS - display) przy wartości `display: none;`",
+                "(CSS - visibility) przy wartości `visibility: hidden`",
+                "(HTML - width i height) przy wartości 0 (`width: 0; height: 0;`)",
+                "(CSS - font-size) przy wartości `font-size: 0;`",
+                "(CSS - clip)  przy wartości `clip: 0;`",
+                "(HTML5 - atrybut) `hidden`",
+                "(HTML+ARIA) właściwość `aria-hidden=\"true\"`"
+              ]
+            },
+            "Do całej treści tekstowej wykorzystującej jedną z tych właściwości ma zastosowanie <a href=\"met-kryteria-rgaa#kryt-10-13\">kryterium 10.13</a>."
+          ]
+        },
+        {
+          "id": "transkrypcjaTekstowa",
+          "dt": "Transkrypcja (media oparte na czasie)",
+          "dd": [
+            "Transkrypcja to pisemne przedstawienie wypowiedzi z zapisów audio lub wideo.",
+            "Transkrypcja musi być powiązana z mediami opartymi na czasie za pomocą odpowiedniej techniki (tekst kodowany w HTML lub w pliku tekstowym, który znajduje się na tej samej stronie i można go przejrzeć przy pomocy linku).",
+            "Treść ta daje użytkownikowi dostęp (niezależnie od przeglądania obiektu multimedialnego) do:",
+            {
+              "ul": [
+                "całej treści, która jest wyrażona ustnie,",
+                "wszystkich informacji opisowych niezbędnych do zrozumienia akcji."
+              ]
+            },
+            "Te informacje muszą być ułożone w porządku chronologicznym pojawiania się w mediach opartych na czasie.",
+            "Uwaga: tekst transkrypcji musi być umieszczony na zewnątrz znacznika `object`."
+          ]
+        },
+        {
+          "id": "trescAlternatywna",
+          "dt": "Treść alternatywna",
+          "dd": [
+            "Treść, która jest „odpowiednikiem” innej, spełniającej ten sam cel lub funkcję, zastępująca inną podającą te same informacje, ale prezentowana w inny sposób. Treść alternatywna może być w formie tekstowej, ale może być również zorganizowana za pomocą innych znaczników. Treść alternatywna musi być zgodna ze wszystkimi wymogami RGAA, które mają do niej zastosowanie, aby mogła być uznana za dostępną alternatywę dla elementu, który zastępuje. Przykład: tabela danych może być treścią alternatywną obrazu na kanwie (znacznik `<canvas>`) wyświetlającego wykres statystyczny."
+          ]
+        },
+        {
+          "id": "trescWidoczna",
+          "dt": "Treść widoczna",
+          "dd": [
+            "Dla testu <a href=\"criteres.html#test-10-2-1\">10.2.1</a>: „Treść widoczna” oznacza, że treść pozostaje widoczna, gdy CSS jest wyłączony. Przykładowo, obraz będący nośnikiem informacji, wykorzystywany jako tło z użyciem CSS, nie przechodzi tego testu, ponieważ informacja nie jest „dostępna”, gdy style CSS są wyłączone. Natomiast obraz będący nośnikiem informacji, wykorzystywany jako tło z użyciem CSS, ale wraz ukrytym tekstem, przechodzi ten test, ponieważ informacja jest „dostępna”, gdy style CSS są wyłączone.",
+            "Uwaga: praktyka, która polega na wykorzystaniu obrazów będących nośnikiem informacji w postaci tła przy pomocy CSS jest formalnie niezalecana, nawet jeśli występuje tekst ukryty."
+          ]
+        },
+        {
+          "id": "tylkoWCelachPrezentacji",
+          "dt": "Tylko w celach prezentacji",
+          "dd": [
+            "Tylko w celach prezentacji: użycie znaczników HTML dla celu innego niż przewidziany w specyfikacji (w odniesieniu do zadeklarowanego typu dokumentu). Przykłady: użycie znaczników `H<i>n</i>` tylko dla stworzenia efektu typograficznego; użycie znacznika `blockquote` tylko w celu ustawienia wcięcia paragrafu itp.",
+            "Uwaga 1: Użycie elementów `div` lub `span` do tworzenia paragrafów jest uznawane za niezgodne i&nbsp;unieważnia kryterium.",
+            "Uwaga 2: WAI-ARIA proponuje rolę `presentation` umożliwiającą usunięcie semantyki elementu, na przykład `<h1 role=\"presentation\">`Tytuł`</h1>`. W takim przypadku tekst będzie prawidłowo wyświetlany, ale tytuł nie (wyświetlanym elementem będzie element nieokreślony typu `<title>`).`.",
+            "Użycie roli `presentation` może być wymagane, gdy używa się wzorca projektowego ARIA.",
+            "Użycie roli `presentation` może być również wykorzystane do usunięcia semantyki elementu, gdy jest on używany wyłącznie do celów prezentacji, na przykład `<blockquote role=\"presentation\">` daje taki sam efekt, jak brak elementu `blockquote`.",
+            "Mimo, iż takie użycie jest niezalecane (na przykład w technologiach wspomagających, które nie implementują ARIA), może być uznane za zgodne z WCAG. Natomiast użycie roli `presentation` na elemencie, którego natura (na przykład semantyka) jest kluczowa do zrozumienia treści, jest złamaniem zasad WCAG (zwłaszcza niepowodzenie <a rel=\"external\" class=\"external\" href=\"https://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/F92\">Failure F92</a>) i unieważnia kryterium."
+          ]
+        },
+        {
+          "id": "typDokumentu",
+          "dt": "Typ dokumentu",
+          "dd": [
+            "Zbiór danych referencyjnych, który pozwala aplikacjom klienckim rozpoznać charakterystyki techniczne języków używanych na stronie internetowej (znacznik `doctype`)."
+          ]
+        },
+        {
+          "id": "typIFormatDanych",
+          "dt": "Typ i format danych",
+          "dd": [
+            "Wskazówka dotycząca typu i formatu danych wymaganych podczas wypełniania pola formularza. Na przykład:",
+            {
+              "ul": [
+                "Data (dd/mm/rrrr);",
+                "Kwota w euro;",
+                "Kod pocztowy (5 cyfr: np.75001)."
+              ]
+            },
+            "Ważna uwaga: Jeśli typ pola formularza proponuje maskę wprowadzania, jak przykładowo pola `date` lub `time`, wskazanie formatu nie jest konieczne."
+          ]
+        },
+        {
+          "id": "tytulLinku",
+          "dt": "Tytuł łącza",
+          "dd": [
+            "Treść atrybutu `title` w łączu (znacznik `a`). Tę treść należy ustalić tylko wtedy, gdy konieczne jest zidentyfikowanie celu łącza. Tytuł łącza musi powielić tekst łącza i dodawać informacje uzupełniające. Tytuł łącza uznaje się za nieadekwatny w&nbsp;następujących przypadkach:",
+            {
+              "ul": [
+                "Tytuł łącza jest pusty (`title=",
+                "`);",
+                "Tytuł łącza jest taki sam, jak tekst łącza (zob. Uwaga 1);",
+                "W tytule łącza nie ma powtórzonego tekstu łącza."
+              ]
+            },
+            "Uwaga 1: Tytuł łącza identyczny jak tekst łącza jest wyjątkowo akceptowany tylko w przypadkach łączy graficznych (łącza zawierające tylko obrazy), na przykład klikalna ikona, lub łączy, których jedyną widoczną treścią jest obraz (łącze złożone, którego tekst jest ukryty).",
+            "Uwaga 2: Przypominamy, że atrybut `title` jest wysoce niepewnym środkiem przekazywanie istotnych informacji. W szczególności, treść w atrybucie `title` nie jest odtwarzana wizualnie podczas nawigacji za pomocą klawiatury, interfejsu dotykowego lub gdy technologia wspomagająca jest ustawiona w taki sposób, by ich nie odtwarzać. Dlatego atrybutu `title` należy ich używać wyłącznie w ostateczności."
+          ]
+        },
+        {
+          "id": "tytulRamki",
+          "dt": "Tytuł ramki",
+          "dd": [
+            "Zawartość atrybutu `title` znacznika `iframe` umożliwiająca poznanie rodzaju treści rozpowszechnianej przy pomocy ramki pływającej, gdy na przykład użytkownik kliknie na ramkę lub wyświetli listę ramek strony.",
+            "Uwaga 1: Niektóre ramki pływające służą wyłącznie do wykonywania operacji technicznych, takich jak przetwarzania przeznaczone do przygotowania lub sterowania treściami wyświetlonymi na stronie, jak przykładowo ramki używane przez niektóre sieci społecznościowe, np. Facebook.",
+            "Jeśli ramki nie posiadają tytułu dostarczonego przez zdalną usługę lub jeśli tytuły są nieadekwatne, można użyć ogólnych informacji, na przykład `title=\"treści techniczne Facebook\"`.",
+            "Uwaga 2: Jeśli nie przeszkadza to w działaniu takiej ramki, mogą być one niedostępne dla technologii wspomagających przez użycie na przykład właściwości ARIA `aria-hidden=\"true\"`."
+          ]
+        },
+        {
+          "id": "tytulStrony",
+          "dt": "Tytuł strony",
+          "dd": [
+            "Zawartość znacznika `title` strony internetowej umożliwiająca jasne, zwięzłe i unikalne zidentyfikowanie <a href=\"http://www.nomdusite.fr/\">treści/natury strony („Mapa strony www.nomdusite.fr</a>” przykładowo dla strony mającej mapę strony)."
+          ]
+        },
+        {
+          "id": "tytulTabeli",
+          "dt": "Tytuł tabeli (danych)",
+          "dd": [
+            "Zawartość elementu HTML (znacznik `caption`), która pozwala jasno i wyraźnie zidentyfikować treść tabeli danych."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "U",
+      "dl": [
+        {
+          "id": "umieszczoneObokSiebie",
+          "dt": "Umieszczone obok siebie",
+          "dd": [
+            "Konieczne jest, aby etykieta i jej pole były wizualnie blisko siebie, aby powiązanie między nimi nie mogło wprowadzać w błąd.",
+            "Uwaga: WCAG zaleca, aby etykiety pól wprowadzania tekstu lub uprzednio zdefiniowanych wartości, takich jak przykładowo listy, były umieszczone po lewej lub u góry odnośnych pól, natomiast etykiety pól typu radio lub pól wyboru były umieszczone po polu, a zatem po prawej lub u dołu. To zalecenie nie zawsze ma racjonalne uzasadnienie, nie jest zatem zawarte w RGAA",
+            "Inne położenie, które uwzględnia jednoznaczne połączenie wizualne nie może stanowić niezgodności w rozumieniu RGAA3."
+          ]
+        },
+        {
+          "id": "Url",
+          "dt": "URL",
+          "dd": [
+            "Adres pozwalający uzyskać dostęp do zasobów World Wide Web: dokument HTML, strony internetowe, obraz, dźwięk itp.",
+            "Uwaga: W specyfikacji RGAA, pojęcie URL jest używane zamiast URI (łańcuch znaków identyfikujący dane zasoby)."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "W",
+      "dl": [
+        {
+          "id": "wersjaAlternatywnaTylkoAudio",
+          "dt": "Wersja alternatywna „tylko audio”",
+          "dd": [
+            "Wersja „tylko audio” to wersja dźwiękowa, na przykład w postaci plików w formacie MP3, używana jako alternatywa dla wersji tylko wideo (wideo bez informacji dźwiękowej). Tylko użytkownikom wykorzystującym dostępność, którzy są osobami niewidomymi i nie mogą obejrzeć wideo, WCAG proponuje jako alternatywę wersję dźwiękową.",
+            "Wersja „tylko audio” powinna zawierać wszystkie informacje wizualne ważne dla wideo.",
+            "Zazwyczaj prościej tworzy się wersję dźwiękową niż wersję tekstową, gdy wideo jest bardziej opisowe (transkrypcja tekstowa wymaga często dużo pracy redakcyjnej). Przypominamy, że tylko transkrypcja tekstowa zapewnia uniwersalny dostęp do informacji przekazywanych przez wideo, jeśli użytkownik nie byłby w stanie na przykład uruchomić wideo."
+          ]
+        },
+        {
+          "id": "wersjaDostepnaDokumentu",
+          "dt": "Wersja dostępna (dla pobieranego dokumentu)",
+          "dd": [
+            "Do pobierania muszą być dostarczone dokumenty spełniające wymogi dostępności.",
+            "Dokumenty do pobrania muszą być dostarczone w formatach obsługiwanych przez dostępność, których rodzaje formatu są uznawane za kompatybilne z dostępnością muszą być udostępnione albo bezpośrednio, albo za pośrednictwem dostępnej wersji lub wersji w HTML. Formaty dokumentów, które są uznawane za obsługiwane przez dostępność, to:",
+            {
+              "ul": [
+                "Microsoft Office (Word 2003, OOXML);",
+                "Open Office Org(ODF);",
+                "AdobePDF;",
+                "Epub/Daisy."
+              ]
+            },
+            "Treści powinny być zgodne z <a href=\"http://references.modernisation.gouv.fr/sites/default/files/liste-criteres-documents-bureautiques-telechargement-RGAA.odt\">listą kryteriów Pobieranie dokumentów biurowych (format ODT, 74 kB)</a>",
+            "Uwaga: format txt nie może być używany do utworzenia dostępnej wersji pobieranego dokumentu."
+          ]
+        },
+        {
+          "id": "witrynaInternetowa",
+          "dt": "Witryna internetowa: zbiór wszystkich stron internetowych",
+          "dd": [
+            {
+              "ul": [
+                "Połączone linkami internetowymi;",
+                "Należące do tej samej domeny (np.: references.modernisation.gouv.fr);",
+                "Które stanowią spójny zbiór z punktu widzenia użytkownika."
+              ]
+            },
+            "Przypadek szczególny stron internetowych poddomeny; poddomena może:",
+            {
+              "ul": [
+                "należeć do witryny internetowej powiązanej z nazwą domeny, jeśli użytkownik zauważa jej spójność z innymi stronami witryny (na przykład taka sama struktura, nawigacja itp.);",
+                "nie należeć do witryny internetowej powiązanej z nazwą domeny (na przykład: różne blogi w poddomenie nazwy domeny i bez związku ze sobą)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wlasnosciIMetodyDOM",
+          "dt": "Własności i metody zgodne ze specyfikacją DOM",
+          "dd": [
+            "Metody wprowadzania treści zgodne ze specyfikacją DOM (Document Object Model) pozwalają utworzyć, wprowadzić i manipulować elementami przy pomocy DOM (na przykład document.createElementi element.appendChild) w przeciwieństwie do metody `document.write`, która może powodować problemy w niektórych kontekstach (zob.: <a href=\"https://www.w3.org/TR/html5/webappapis.html#dom-document-write\">https://www.w3.org/TR/html5/webappapis.html#dom-document-write</a>)."
+          ]
+        },
+        {
+          "id": "cssOkreslajacaKolor",
+          "dt": "Własność CSS określająca kolor",
+          "dd": [
+            "Dotyczy następujących właściwości: `color`, `background>`-color`, `background`, `border-color`, `border`, `outline-color`, `outline`.",
+            "Uwaga: może to dotyczyć również użycia obrazu tła do wprowadzenia koloru (własność `bakground:url(…)`)."
+          ]
+        },
+        {
+          "id": "wspolczynnikKontrastu",
+          "dt": "Współczynnik kontrastu",
+          "dd": [
+            "Różnica między luminancją koloru pierwszoplanowego a kolorem tła. Współczynnik kontrastu jest oparty na różnicy luminancji względnej między tłem a pierwszym planem zgodnie z zasadą: (L1 + 0,05) / (L2 + 0,05) gdzie L1 jest luminacją względną jaśniejszego z kolorów, a L2 jest luminacją względną ciemniejszego z kolorów. Luminacja jest obliczana według następującego wzoru: L = 0,2126 * R + 0,7152 * G + 0,0722 * B. gdzie R, G i B są zdefiniowane przez:",
+            {
+              "ul": [
+                "Jeśli RsRGB >`= 0,03928 to R = RsRGB/12,92, w przeciwnym razie R = ((RsRGB+0,055)/1,055) ^ 2,4",
+                "Jeśli GsRGB >`= 0,03928 to G = GsRGB/12,92, w przeciwnym razie G = ((GsRGB+0,055)/1,055) ^ 2,4",
+                "Jeśli BsRGB >`= 0,03928 to B = BsRGB/12.92, w przeciwnym razie B = ((BsRGB+0,055)/1,055) ^ 2,4"
+              ]
+            },
+            "i RsRGB, GsRGB i BsRGB są zdefiniowane przez:",
+            {
+              "ul": [
+                "RsRGB = R8bit/255",
+                "GsRGB = G8bit/255",
+                "BsRGB = B8bit/255"
+              ]
+            },
+            "Znak „^” jest operatorem wykładniczym.",
+            "Uwaga: pomiar kontrastu dotyczy tekstu, tekstu na obrazie, tekstu i tekstu na obrazie w&nbsp;animacjach, tekstu napisów i tekstu naniesionych na wideo. Dla tekstu, tekstu na obrazie, tekstu i tekstu na obrazie w animacjach, tekstu napisów i tekstu naniesionych na wideo, rozmiar czcionki powinien być mierzony w stosunku do standardowego rozmiaru wyświetlania (taki, jak wyświetlony). Nie dotyczy to tekstów znajdujących się na elementach obrazu lub wideo (na przykład napis, ogłoszenie itp.).",
+            "Źródło: <a href=\"http://www.w3.org/TR/WCAG20-TECHS/G18.html#G18-procedure\">Procedura obliczania kontrastu WCAG (po angielsku)</a>."
+          ]
+        },
+        {
+          "id": "wzorzecProjektowy",
+          "dt": "Wzorzec projektowy",
+          "dd": [
+            "Wzorzec projektowy (Design Pattern) jest modelem zdefiniowanym przez API WAI-ARIA, który opisuje strukturę, role i właściwości, które musi spełniać komponent JavaScript (widżet).",
+            "Wzorce projektowe są opisane w dokumencie: <a rel=\"external\" class=\"external\" href=\"http://www.w3.org/WAI/PF/aria-practices/\">WAI-ARIA 1.0 Authoring Practices</a>.",
+            "Komponent zaprogramowany w JavaScript powinien być zgodny ze wzorcem projektowym odpowiadającym wykorzystywanej roli WAI-ARIA.",
+            "Uwaga 1: biorąc pod uwagę brak obsługi niektórych właściwości i niektórych ról WAI-ARIA oraz dużą liczbę różnych sytuacji, w których można zaproponować komponent JavaScript, można dostosować wzorce projektowe do poszczególnych kontekstów i zastosowań.",
+            "W takim przypadku dostosowany wzorzec projektowy musi:",
+            {
+              "ul": [
+                "Być zgodny z ogólną strukturą, na przykład wszystkie panele (rola `role=\"tabpanel\"`) systemu zakładek są związane ze wszystkimi kartami (rola tablist);",
+                "Użyć zamiast źle obsługiwanej roli lub właściwości WAI-ARIA, równoważną rolę lub właściwość WAI-ARIA, zapewniającą podobne zachowanie i odtwarzanie."
+              ]
+            },
+            "Uwaga 2: Nie dotyczy to wzbogacania wzorca projektowego dodatkowymi rolami lub właściwościami WAI-ARIA, których kompatybilność z dostępnością jest kontrolowana przez test odtwarzania na bazie referencyjnej. Przykładowo dodanie właściwości `aria-hidden` do paneli (rola `role=\"tabpanel\"`) systemu zakładek nie określa dostosowanego wzorca projektowego."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "Z",
+      "dl": [
+        {
+          "id": "zasadySkladni",
+          "dt": "Zasady składni",
+          "dd": [
+            "Kod źródłowy musi przestrzegać następujących zasad zgodnie z deklaracją typu dokumentu użytą na stronie:",
+            {
+              "ul": [
+                "W znacznikach nie brakuje znaków owtierających lub zamykających ostre nawiasy (przykład błędu: li&gt;pozycja ",
+                "W znacznikach zamykających nie brakuje ukośników wskazujących, że są to znaczniki zamykające (przykład błędu: przykład błędu: &lt;li&gt;pozycja&lt;li&gt;)",
+                "W atrybutach z cytowaną wartością nie brakuje znaku (cudzysłowu) otwierającego lub zamykającego (przykład błędu: alt=\"jakaś wartość)",
+                "Między atrybutami nie brakuje spacji (przykład błędu: alt=\"jakaś wartość\"title=\"jakiś tytuł\")",
+                "Między atrybutami z wartościami nieobjętymi znakami cytatów nie brakuje spacji (przykład błędu: alt=wartośćtitle=tytuł)",
+                "W znacznikach, które nie akceptują składni elementu pustego nie brakuje znacznika zamykającego  (przykład błędu:  &lt;object&gt; bez &lt;/object&gt;",
+                "W znacznikach nie ma powtarzających się atrybutów (przykład błędu: alt=\"wartość\" alt=\"druga wartość\")",
+                "Żaden znacznik nie ma takiej samej wartości id (identyfikatora), jak inny znacznik)"
+              ]
+            },
+            "Uwaga tłumacza: W oryginale nie ma dwóch ostatnich z wymienionych na powyższej liści pozycji."
+          ]
+        },
+        {
+          "id": "WzorProjApiAria",
+          "dt": "Zastosowanie wzorca projektowego ARIA",
+          "dd": [
+            "API ARIA definiuje wzorce projektowe, na przykład dla systemu zakładek lub okna modalnego, których celem jest zapewnienie jednorodnego zachowania wzorcowego wszystkich elementów interfejsu. Przestrzeganie wzorców projektowych jest wymagane w specyfikacji RGAA.",
+            "Można dostosować wzorce projektowe, zastępując źle obsługiwaną właściwość właściwością równoważną lub wzbogacając element o właściwości polepszające doświadczenie użytkownika lub zabezpieczając jego zachowanie.",
+            "Zadaniem audytora jest sprawdzenie, czy te dostosowania są spójne ze wzorcem projektowym, nie zmieniają zachowania elementu w zakresie doświadczenia użytkownika i czy dostosowany element jest prawidłowo odwzorowany przez technologie wspomagające.",
+            "Jeśli te wymagania są spełnione, element może być zadeklarowany jako „zgodny” ze wzorcem projektowym."
+          ]
+        },
+        {
+          "id": "zbiorStron",
+          "dt": "Zbiór stron",
+          "dd": [
+            "Strony powiązane ze sobą linkami i mające wspólny temat lub charakter. Przykładowo strony będące wynikiem wyszukiwania lub strony katalogu (dla tego samego wyszukiwania) są zbiorami stron."
+          ]
+        },
+        {
+          "id": "zestawStron",
+          "dt": "Zestaw stron",
+          "dd": [
+            "Strony internetowe powiązane między sobą linkami i stanowiące spójną całość w ramach witryny internetowej. Przykładowo strony procedury płatności elektronicznych, strony o specjalnej rubryce, strony bloga, strony zarządzania kontem klienta są zestawami stron.",
+            "Uwaga: Strona główna witryny internetowej może sama w sobie stanowić „zestaw stron” ze względu na swoją jednolitość."
+          ]
+        },
+        {
+          "id": "zrozumialaTresc",
+          "dt": "Zrozumiała (treść)",
+          "dd": [
+            "Treść jest zrozumiała, jeśli jest jasne, jakie przekazuje znaczenie, informacje, jakiego zachowania lub powstrzymania się od działania oczekuje."
+          ]
+        },
+        {
+          "id": "zrozumialaKolejnosc",
+          "dt": "Zrozumiała (kolejność odczytu)",
+          "dd": [
+            "Zrozumiała treść jest czytelna (kolejność elementów jest logiczna) i spójna (powiązania w tekście są spójne)."
+          ]
+        },
+        {
+          "id": "zlozonaTabelaDanych",
+          "dt": "Złożona tabela danych",
+          "dd": [
+            "Jeśli tabela danych zawiera nagłówki, które nie są umieszczone wyłącznie w pierwszym wierszu lub w pierwszej kolumnie tabeli lub ich zakres nie odnosi się do wszystkich kolumn i wierszy, można mówić o złożonej tabeli danych. Konieczne jest zatem dostarczenie „podsumowania” umożliwiającego wyjaśnienie natury i struktury, aby ułatwić przeglądanie na przykład użytkownikom korzystającym z technologii wspomagających."
+          ]
+        },
+        {
+          "id": "zmianaJezyka",
+          "dt": "Zmiana języka",
+          "dd": [
+            "Podanie zmiany języka jest konieczne, aby technologie wspomagające mogły zmienić język odtwarzania głosowego elementu. Zmiana języka odnosi się do całej treści, w tym również do wartości niektórych atrybutów, takich jak `title`.",
+            "Uwaga: Nie można wskazać zmiany języka w samej wartości atrybutu, w takim przypadku zmiana języka jest podana w elemencie, który zawiera atrybut. Przykładowo, link po angielsku zawarty w `title` powinien mieć atrybut `lang=\"en\"`. Jeśli atrybut zawiera wiele fragmentów tekstu w różnych językach, kryterium nie ma zastosowania."
+          ]
+        },
+        {
+          "id": "zmianaKontekstu",
+          "dt": "Zmiana kontekstu",
+          "dd": [
+            "Znaczące zmiany treści strony internetowej, które dokonywane bez świadomości użytkownika, mogą go dezorientować, jeżeli nie jest on w stanie oglądać całej strony jednocześnie. Zmiany kontekstu obejmują zmiany:",
+            {
+              "ul": [
+                "w programie użytkownika;",
+                "obszaru obrazu;",
+                "fokusu;",
+                "treści, która zmienia sens strony internetowej."
+              ]
+            },
+            "Uwaga: Zmiana treści nie zawsze oznacza zmianę kontekstu. Zmiana w treści, na przykład rozwinięcie drzewa, dynamicznego menu lub karty niekoniecznie zmieniają kontekst, dopóki nie zmienią jednego z powyższych elementów (np. fokusu).",
+            "Przykład: Otwarcie nowego okna, przeniesienie fokusu na inny element, przejście na inną stronę internetową (włączając w to także każdą sytuację, kiedy użytkownikowi tylko wydaje się, że przechodzi na inną stronę internetową) lub znacząca reorganizacja treści strony są przykładami zmiany kontekstu."
+          ]
+        },
+        {
+          "id": "zmianaRodzimejRoliElementu",
+          "dt": "Zmiana rodzimej roli elementu HTML",
+          "dd": [
+            "Specyfikacja WAI-ARIA pozwala zmienić rodzimą rolę elementu, na przykład zmienić element `a` na element `button`.",
+            "Modyfikacje mogą być przeprowadzane tylko pod pewnymi warunkami, opisanymi w dokumencie: <a rel=\"external\" class=\"external\" href=\"https://www.w3.org/TR/aria-in-html/\">Notes on Using WAI-ARIA in HTML</a>, który opisuje kilka istotnych ograniczeń.",
+            "Aby modyfikacja roli natywnej elementu HTML przez WAI-ARIA była kompatybilna, zastrzeżenia te powinny być przestrzegane.",
+            "Każdy element, którego rodzaj został zmieniony przez implementację roli ARIA, powinien przestrzegać kryteriów i testów związanych ze zdefiniowaną rolą. Na przykład link `<a>`, który posiada rolę ARIA `button` powinien przestrzegać warunków zdefiniowanych dla elementów `button`, a nie warunków dla linków."
+          ]
+        }
+      ]
+    },
+    {
+      "sekcja": "Ż"
+
+    },
+    {
+      "sekcja": "Ź"
+
+    }
+  ]
+}

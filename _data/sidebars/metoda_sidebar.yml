@@ -71,3 +71,34 @@ entries:
     - title: Ocena witryny(w planie)
       url: /met-ocena-witryny
       output: web
+  - title: Metoda RGAA
+    output: web, pdf
+    folderitems: 
+    - title: Wprowadzenie
+      url: /rgaa-wprowadzenie
+      output: web      
+    - title: Kryteria RGAA
+      url: /rgaa-kryteria
+      output: web      
+    - title: Słownik RGAA
+      url: /rgaa-slownik
+      output: web
+    - title: Środowisko testowe
+      url: /rgaa-srodowisko
+      output: web      
+    - title: Bibliografia
+      url: /rgaa-bibliografia
+      output: web
+    - title: Metodyka testów
+      url: /rgaa-metodyka-testow
+      output: web      
+    - title: Noty prawne
+      url: /rgaa-noty-prawne
+      output: web
+
+
+
+
+
+
+      

@@ -1,0 +1,45 @@
+<div id="glossaire">
+    <nav aria-label="Streszczenie słownika">
+    {% for sekcje in site.data.rgaa.rgaa-slownik.terminy %}
+        <a href="#{{ sekcje.sekcja }}">{{ sekcje.sekcja }}</a>
+    {% endfor %}
+    </nav>
+    {% for sekcje in site.data.rgaa.rgaa-slownik.terminy %}
+        <h3 id="{{ sekcje.sekcja }}">{{ sekcje.sekcja }}</h3>
+        {% for dl in sekcje.dl %}
+            <dl>
+			<dt id="{{ dl.id }}">
+          <!--  <dt id="{{ dl.dt | slugify: 'latin' }}"> -->
+                {{ dl.dt }}
+            </dt>
+            <dd>
+                {% for dd in dl.dd %}
+                    {% if dd.first %}
+                    <ul>
+
+                        {% for li in dd.first[1] %}
+
+                            {% if li.first %}
+                            <li style="list-style: none;">
+                            <ul>
+                                {% for subLi in li.first[1] %}
+                                  <li>{{ subLi | replace: "(/#kryt", "(met-kryteria-rgaa/#kryt" | replace: "(#test", "(met-kryteria-rgaa/#test" | markdownify }}</li>
+                                {% endfor %}
+                            </ul>
+                            </li>
+                            {% else %}
+                            <li>{{ li | replace: "(/#kryt", "(met-kryteria-rgaa/#kryt" | replace: "(#test", "(met-kryteria-rgaa/#test" | markdownify }}</li>
+                            {% endif %}
+
+                        {% endfor %}
+
+                    </ul>
+                    {% else %}
+                        {{ dd | replace: "(/#kryt", "(met-kryteria-rgaa/#kryt" | replace: "(#test", "(met-kryteria-rgaa/#test" | markdownify }}
+                    {% endif %}
+                {% endfor %}
+            </dd>
+            </dl>
+        {% endfor %}
+    {% endfor %}
+</div>

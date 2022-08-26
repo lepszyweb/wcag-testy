@@ -47,15 +47,15 @@ Wszystkie nagrane wcześniej treści zawierajace tylko dźwięk.
 
 **z wyjątkiem** treści dźwiękowych, które:
 
--   są wyraźnie oznaczone jako medialna alternatywa dla tekstu, **lub*
+-   są wyraźnie oznaczone jako medialna alternatywa dla tekstu, **lub**
 
--   składają się z krótkich dźwięków używanych do sygnalizowania użytkownikowi zdarzeń  systemowych, takich jak sygnały potwierdzające i powiadomienia o błędach.
+-   składają się z krótkich dźwięków używanych do sygnalizowania użytkownikowi zdarzeń systemowych, takich jak sygnały potwierdzające i powiadomienia o błędach.
 
 **Uwagi**: 
 
-- Medialne alternatywy dla tekstu to media, które nie zawierają więcej informacji niż te, które są już przedstawione w tekście (bezpośrednio lub za pomocą tekstow alternatywnych). Treść zawierająca tylko dźwięk może być alternatywą medialną dla samej zawartości wideo, na przykład wideo w języku migowym.
+- Medialne alternatywy dla tekstu to media, które nie zawierają więcej informacji niż te, które są już przedstawione w tekście (bezpośrednio lub za pomocą tekstów alternatywnych). Treść zawierająca tylko dźwięk może być alternatywą medialną dla samej treści wideo, na przykład wideo w języku migowym.
 
--   Jeśli audio jest *zsynchronizowane* z dowolnymi elementami wizualnymi, takimi jak obraz, wideo, slajdy, animacje lub inne media wizualne oparte na czasie, skorzystaj z testów mediów zsynchronizowanych  w sekcji [17. Miltimedia zsynchronizowane](tz-17-multimedia-zsynchronizowane).
+-   Jeśli audio jest *zsynchronizowane* z dowolnymi elementami wizualnymi, takimi jak obraz, wideo, slajdy, animacje lub inne media wizualne oparte na czasie, skorzystaj z testów mediów zsynchronizowanych w sekcji [17. Miltimedia zsynchronizowane](tz-17-multimedia-zsynchronizowane).
 
 ### Zastosowanie
 

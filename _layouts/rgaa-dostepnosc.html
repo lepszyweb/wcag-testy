@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div id="rgaa">
+  <a id="content" tabindex="-1"></a>
+  <section class="margin-0 gray-background page-fille" >
+    <div class="max-width-75 white-area">
+      <div class="grid-x">
+        <h1 class="cell text-center padding-vertical-3  blue-gradient-underline font-bold">Ogólne wytyczne dostępności cyfrowej – RGAA, wersja 4.1</h1>
+        <div class="lead chapeau cell large-8 large-offset-2 medium-10 medium-offset-1 small-12 small-offset-0">
+          {{ site.data.rgaa-dostepnosc | markdownify }}
+        </div>
+
+      </div>
+      <div class="grid-x" id="contenu">
+        <div class="margin-bottom-3 padding-left-2 cell large-2 small-12 reveal-for-medium sommaire">
+          <h2>Spis treści</h2>
+
+        </div>
+        <div class="margin-bottom-3 large-offset-1 cell large-8 small-12">
+          {% if page.menu.title  == 'Aneks' %}
+            <h2>{{ page.menu.title }}</h2>
+          {% else %}
+            <h2>{{ page.menu.title }}</h2>
+          {% endif %}
+          <div class="page-fille-content-text">
+            {{ content | markdownify | smartify }}
+          </div>
+
+          {% if page.menu.title  == 'Kryteria RGAA' %}
+            {% include komponenty/kryteria.html %}
+          {% elsif page.menu.title  == 'Słownik RGAA' %}
+            {% include komponenty/slowniczek.html %}			
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
