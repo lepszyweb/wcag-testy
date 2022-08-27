@@ -1,8 +1,7 @@
 <div id="criteres">
-    <div id="topics">
+    <div id="toc">
 
-        <h3>Tematy</h3>
-        <ol id="topics-list">
+        <ul id="topics-list">
         {% assign temat = "" %}
         {% for tematy in site.data.rgaa.kryteria.tematy %}
             {% if temat != tematy.temat %}
@@ -10,7 +9,7 @@
                 <li><a href="#temat{{ tematy.numer }}">{{ tematy.numer }}. {{ tematy.temat }}</a></li>
             {% endif %}
         {% endfor %}
-        </ol>
+        </ul>
     </div>
     {% assign temat = "" %}
     {% for tematy in site.data.rgaa.kryteria.tematy %}
@@ -39,7 +38,7 @@
                     {% assign testNum = 1 %}
                     {% for test in kryteria.kryterium.testy %}
                         <li id="test-{{ tematy.numer }}-{{ kryteria.kryterium.numer }}-{{ testNum }}">
-                            <span class="test">Test {{ tematy.numer }}.{{ kryteria.kryterium.numer }}.{{ test.first }}</span> : {{ test[1].first | replace: "(#", "(/rgaa-slownik#" | markdownify }}
+                            <span class="test">Test {{ tematy.numer }}.{{ kryteria.kryterium.numer }}.{{ test.first }}</span>: {{ test[1].first | replace: "(#", "(/rgaa-slownik#" | markdownify }}
                             {% if test[1].size > 1 %}
                             <ul>
                                 {% for condition in test[1] %}
@@ -63,16 +62,16 @@
                                 {% if li.first %}
                                 <ul>
                                     {% for subLi in li.first[1] %}
-                                    <li>{{ subLi | replace: "(#kryt", "(#kryt" | replace: "(#test", "(#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}</li>
+									<li>{{ subLi | replace: "(#kryt", "(/rgaa-kryteria#kryt" | replace: "(#test", "(/rgaa-kryteria#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}</li>
                                     {% endfor %}
                                 </ul>
                                 {% else %}
-                                <li>{{ li | replace: "(#kryt", "(#kryt" | replace: "(#test", "(#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}</li>
+                                <li>{{ li | replace: "(#kryt", "(/rgaa-kryteria#kryt" | replace: "(#test", "(/rgaa-kryteria#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}</li>
                                 {% endif %}
                             {% endfor %}
                         </ul>
                         {% else %}
-                            {{ cp | replace: "(#kryt", "(#kryt" | replace: "(#test", "(#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}
+                            {{ cp | replace: "(#kryt", "(/rgaa-kryteria#kryt" | replace: "(#test", "(/rgaa-kryteria#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}
                         {% endif %}
                     {% endfor %}
                 {% endif %}
@@ -85,21 +84,21 @@
                                 {% if li.first %}
                                 <ul>
                                     {% for subLi in li.first[1] %}
-                                    <li>{{ subLi | replace: "(#kryt", "(#kryt" | replace: "(#test", "(#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}</li>
+                                    <li>{{ subLi | replace: "(#kryt", "(/rgaa-kryteria#kryt" | replace: "(#test", "(/rgaa-kryteria#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}</li>
                                     {% endfor %}
                                 </ul>
                                 {% else %}
-                                <li>{{ li | replace: "(#kryt", "(#kryt" | replace: "(#test", "(#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}</li>
+                                <li>{{ li | replace: "(#kryt", "(/rgaa-kryteria#kryt" | replace: "(#test", "(/rgaa-kryteria#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}</li>
                                 {% endif %}
                             {% endfor %}
                         </ul>
                         {% else %}
-                            {{ nt | replace: "(#kryt", "(#kryt" | replace: "(#test", "(#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}
+                            {{ nt | replace: "(#kryt", "(/rgaa-kryteria#kryt" | replace: "(#test", "(/rgaa-kryteria#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}
                         {% endif %}
                     {% endfor %}
                 {% endif %}
                 <h5>Mapowanie do WCAG 2.1</h5>
-                <ul><li><span>Kryterium sukcesu WCAG 2.1 : </span>
+                <ul><li><span>Kryterium sukcesu WCAG 2.1: </span>
                     <span lang="pl">
                          {% assign level = "" %}
                          {% for sc in kryteria.kryterium.odniesienia[0].wcag %}
@@ -121,7 +120,7 @@
                     </span>
                 </li>
                 {% if kryteria.kryterium.odniesienia[1].techniki.size > 0 %}
-                <li><span>Technika(i) wystarczająca(e) lub defekty WCAG 2.1 : </span>
+                <li><span>Technika(i) wystarczająca(e) lub defekty WCAG 2.1: </span>
                     <span>
                          {% for technika in kryteria.kryterium.odniesienia[1].techniki %}
                              {% assign firstLetter = technika | slice: 0 %}

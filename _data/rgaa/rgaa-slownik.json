@@ -111,7 +111,7 @@
                   "ul": [
                     "dla obrazu niosącego informację alternatywa dostarcza informację niezbędną do zrozumienia treści, z którą jest powiązany obraz;",
                     "dla obrazu dekoracyjnego alternatywa musi być pusta (`alt=\"\"`);",
-                    "dla obrazu CAPTCHA lub obrazu-testu alternatywa nie może zawierać informacji przenoszonej przez obraz bez wyłączenia powiązanej funkcji. W takim przypadku, alternatywa powinna umożliwiać wyłącznie identyfikację rodzaju i funkcji obrazu."
+                    "dla obrazu captcha lub obrazu-testu alternatywa nie może zawierać informacji przenoszonej przez obraz bez wyłączenia powiązanej funkcji. W takim przypadku, alternatywa powinna umożliwiać wyłącznie identyfikację rodzaju i funkcji obrazu."
                   ]
                 },
                 "Uwaga tłumacza: W RGAA 3.0 wskazywano 4 typy alternatyw powiązanych z rodzajem obrazu. Poza wymienionymi:",
@@ -120,7 +120,7 @@
                     "dla obrazu-linku alternatywa powinna umożliwiać zrozumienie funkcji i celu linku;"
                   ]
                 },
-                "Uwaga 1: Dla obrazu CAPTCHA alternatywą może być przykładowo: „Kod zabezpieczający przed spamem” lub „kod do sprawdzania, czy nie jesteś robotem” lub każda inna alternatywa pozwalająca użytkownikowi zrozumieć naturę i funkcję obrazu.",
+                "Uwaga 1: Dla obrazu captcha alternatywą może być przykładowo: „Kod zabezpieczający przed spamem” lub „kod do sprawdzania, czy nie jesteś robotem” lub każda inna alternatywa pozwalająca użytkownikowi zrozumieć naturę i funkcję obrazu.",
                 "Uwaga 2: Dla grupy obrazów, przykładowo systemu głosowania złożonego z kilku obrazów gwiazdek zaleca się użycie albo pierwszego obrazu z grupy, aby przekazać bardziej spójną alternatywę dla  grupy obrazów (zobacz <a href=\"https://www.w3.org/WAI/WCAG21/Techniques/general/G196\">Techniki WCAG 2.1 (en), technika G196</a>, albo znacznika kontenera z atrybutem `role=\"img\"` i&nbsp;alternatywą tekstową. W&nbsp;pierwszym przypadku pozostałe obrazy z tej grupy są uważane za obrazy dekoracyjne. W&nbsp;drugim przypadku, wszystkie obrazy z tej grupy są uznawane za obrazy dekoracyjne.",
                 "Uwaga 3: W przypadku linków graficznych alternatywa musi umożliwiać zrozumienie funkcji i miejsca docelowego linku; ten przypadek jest rozpatrywany w linkach tematycznych.",
                 "Uwaga 4: W przypadku obrazów wektorowych (znacznik `<svg>`) tekst alternatywny może być również obecny w znaczniku `<text>` niezależnie od tego, czy ten znacznik jest widoczny, czy nie, nawet jeśli nie jest to rola przypisana do tego elementu w SVG.",
@@ -199,9 +199,9 @@
       "dl": [
         {
           "id": "captcha",
-          "dt": "CAPTCHA",
+          "dt": "Captcha",
           "dd": [
-            "CAPTCHA jest używane do odróżniania komputerów od ludzi. Test wykorzystuje najczęściej obraz ze zniekształconym tekstem, pomieszanym z innymi formami lub zestawy kolorów, które użytkownik musi przepisać. Inne formy CAPTCHA mogą opierać się na pytaniach logicznych lub nagraniach dźwiękowych."
+            "Captcha jest używane do odróżniania komputerów od ludzi. Test wykorzystuje najczęściej obraz ze zniekształconym tekstem, pomieszanym z innymi formami lub zestawy kolorów, które użytkownik musi przepisać. Inne formy captcha mogą opierać się na pytaniach logicznych lub nagraniach dźwiękowych."
           ]
         }
       ]
@@ -307,16 +307,8 @@
       ]
     },
     {
-      "sekcja": "H",
-      "dl": [
-        {
-          "id": "idTerminu",
-          "dt": "termin",
-          "dd": [
-            "definicja"
-          ]
-        }
-      ]
+      "sekcja": "H"
+
     },
     {
       "sekcja": "I",
@@ -571,7 +563,7 @@
           "id": "kotwica",
           "dt": "Kotwica",
           "dd": [
-            "W HTML, kotwica składa się ze znacznika `<a>` z atrybutem `id` i przykładowo nie ma `href`, `<a id=\"tresc\">`</a>`. Kotwica jest przykładowo odsyłaczem o postaci `<a href=\"#id\">`Tytuł`</a>`: `<a href=\"#tresc\">`Treść`</a>`."
+            "W HTML, kotwica składa się ze znacznika `<a>` z atrybutem `id` i przykładowo nie ma `href`, `<a id=\"tresc\"></a>`. Kotwica jest przykładowo odsyłaczem o postaci `<a href=\"#id\">Tytuł</a>`: `<a href=\"#tresc\">Treść</a>`."
           ]
         },
         {
@@ -897,17 +889,8 @@
                 {
                   "ul": [
                     "Plik do pobrania, który można przeglądać w programie zewnętrznym dla strony internetowej;",
-                    "Treść wbudowana na stronie internetowej i przeglądana na stronie przy pomocy:",
-                    {
-                      "ul": [
-                        "Wtyczki (na przykład wideo rozpowszechnianej przez odtwarzacz Flash);",
-                        "Element `video` (na przykład film);",
-                        "Element `audio` (na przykład podcasty);",
-                        "Element `svg` (na przykład animowany rysunek wektorowy);",
-                        "Element `canvas` (na przykład animowana bitmapa);",
-                        "Element `bgsound` do rozpowszechniania jako tło dźwiękowe strony internetowej."
-                      ]
-                    }
+                    "Treść wbudowana na stronie internetowej i przeglądana na stronie przy pomocy:<br> - Wtyczki (na przykład wideo rozpowszechnianej przez odtwarzacz Flash);<br> - Elementu `video` (na przykład film);<br> - Elementu `audio` (na przykład podcasty);<br> - Elementu `svg` (na przykład animowany rysunek wektorowy);<br> - Elementu `canvas` (na przykład animowana bitmapa);<br> - Elementu `bgsound` do rozpowszechniania jako tło dźwiękowe strony internetowej."
+
                   ]
                 }
               ]
@@ -1071,7 +1054,7 @@
           "id": "obrazTest",
           "dt": "Obraz - test",
           "dd": [
-            "Obraz służący jako test, <a href=\"#captcha\">CAPTCHA</a> lub obraz służący jako test w quizie albo grze. Przykład: seria obrazów przedstawia detale ze znanych obrazów; należy odgadnąć tytuł i malarza każdego obrazu. W takiej sytuacji podanie odpowiedniej alternatywy (przykładowo nazwy obrazu lub malarza) powodowałoby, że obraz nie byłby testem. Alternatywa powinna wtedy po prostu dawać opcję identyfikacji obrazu, na przykład „1 obraz z testu”.",
+            "Obraz służący jako test, <a href=\"#captcha\">captcha</a> lub obraz służący jako test w quizie albo grze. Przykład: seria obrazów przedstawia detale ze znanych obrazów; należy odgadnąć tytuł i malarza każdego obrazu. W takiej sytuacji podanie odpowiedniej alternatywy (przykładowo nazwy obrazu lub malarza) powodowałoby, że obraz nie byłby testem. Alternatywa powinna wtedy po prostu dawać opcję identyfikacji obrazu, na przykład „1 obraz z testu”.",
             "Alternatywa powinna wtedy dawać możliwość określenia, o który obraz chodzi, na przykład „1. obraz testu”."
           ]
         },
@@ -1609,9 +1592,7 @@
           "dt": "Tekst powiązany przez właściwość ARIA",
           "dd": [
             "Są to fragmenty tekstu zdefiniowane przez id i te powiązane przez `aria-labelledby` lub `aria-describedby` na następującym modelu: `aria-labelledby=\"ID1 ID2 ID3…\"`.",
-            "Uwaga: Aby zapewnić maksymalną kompatybilność z aplikacjami klienckimi, zwłaszcza z Internet Explorerem 11, zaleca się zaimplementowanie `tabindex=",
-            -1,
-            "` dla fragmentów tekstów, które nie są elementami interaktywnymi (przyciski, linki, elementy formularzy itp.).",
+            "Uwaga: Aby zapewnić maksymalną kompatybilność z aplikacjami klienckimi, zwłaszcza z Internet Explorerem 11, zaleca się zaimplementowanie `tabindex=\\-1\\\"` dla fragmentów tekstów, które nie są elementami interaktywnymi (przyciski, linki, elementy formularzy itp.).",
             "Właściwości `aria-label` i `aria-labelledby` mogą być wykorzystywane do tworzenia etykiety pola formularza. Tak utworzona etykieta jest niewidoczna, co pozwala rozwiązać wiele przypadków, w których widoczna etykieta nie jest pożądana.",
             "Natomiast wiąże się to z potencjalnym ryzykiem dla niektórych użytkowników i może być konieczne, aby narzędzia proponowane przez `aria-label` lub `aria-labelledby` były uzupełnione widocznym tekstem umieszczonym obok pola."
           ]
@@ -1713,8 +1694,7 @@
             "Treść atrybutu `title` w łączu (znacznik `a`). Tę treść należy ustalić tylko wtedy, gdy konieczne jest zidentyfikowanie celu łącza. Tytuł łącza musi powielić tekst łącza i dodawać informacje uzupełniające. Tytuł łącza uznaje się za nieadekwatny w&nbsp;następujących przypadkach:",
             {
               "ul": [
-                "Tytuł łącza jest pusty (`title=",
-                "`);",
+                "Tytuł łącza jest pusty (`title=\"\"`);",
                 "Tytuł łącza jest taki sam, jak tekst łącza (zob. Uwaga 1);",
                 "W tytule łącza nie ma powtórzonego tekstu łącza."
               ]
@@ -1832,7 +1812,7 @@
           "id": "cssOkreslajacaKolor",
           "dt": "Własność CSS określająca kolor",
           "dd": [
-            "Dotyczy następujących właściwości: `color`, `background>`-color`, `background`, `border-color`, `border`, `outline-color`, `outline`.",
+            "Dotyczy następujących właściwości: `color`, `background-color`, `background`, `border-color`, `border`, `outline-color`, `outline`.",
             "Uwaga: może to dotyczyć również użycia obrazu tła do wprowadzenia koloru (własność `bakground:url(…)`)."
           ]
         },

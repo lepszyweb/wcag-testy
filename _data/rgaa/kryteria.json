@@ -186,8 +186,8 @@
                       ]
                     },
                     "przypadkiSzczegolne": [
-                      "Istnieje szczególny przypadek, gdy obraz jest użyty jako [CAPTCHA](#captcha) lub jako [obraz - test](#obrazTest). W tej przypadku, gdy nie jest możliwe podanie odpowiedniej alternatywy bez uszczerbku dla funkcji CAPTCHA lub testu, kryterium to nie ma zastosowania.",
-                      "Uwaga: Przypadek [CAPTCHA](#captcha) i [obrazu - testu](#obrazTest) jest w szczególności uwzględniony przez [kryterium 1.4](#kryterium-1-4)"
+                      "Istnieje szczególny przypadek, gdy obraz jest użyty jako [captcha](#captcha) lub jako [obraz - test](#obrazTest). W tej przypadku, gdy nie jest możliwe podanie odpowiedniej alternatywy bez uszczerbku dla funkcji captcha lub testu, kryterium to nie ma zastosowania.",
+                      "Uwaga: Przypadek [captcha](#captcha) i [obrazu - testu](#obrazTest) jest w szczególności uwzględniony przez [kryterium 1.4](#kryterium-1-4)"
                     ],
                     "odniesienia": [
                       {
@@ -214,51 +214,51 @@
                 {
                   "kryterium": {
                     "numer": 4,
-                    "tytul": "Czy dla każdego obrazu użytego jako [CAPTCHA](#captcha) lub jako [obraz testu](#obrazTest), który ma [alternatywę tekstową](#alternatywaTekstowa), alternatywa ta określa charakter i funkcję obrazu?",
+                    "tytul": "Czy dla każdego obrazu użytego jako [captcha](#captcha) lub jako [obraz testu](#obrazTest), który ma [alternatywę tekstową](#alternatywaTekstowa), alternatywa ta określa charakter i funkcję obrazu?",
                     "testy": {
                       "1": [
-                        "Czy dla każdego obrazu (znacznik `img`) użytego jako [CAPTCHA](#captcha) lub obraz testu, który ma [alternatywę tekstową](#alternatywaTekstowa), alternatywa ta jest odpowiednia?",
+                        "Czy dla każdego obrazu (znacznik `img`) użytego jako [captcha](#captcha) lub obraz testu, który ma [alternatywę tekstową](#alternatywaTekstowa), alternatywa ta jest odpowiednia?",
                         "Jeśli istnieje, treść atrybutu `alt` jest odpowiednia.",
                         "Jeśli istnieje, treść atrybutu `title` jest odpowiednia.",
                         "Jeśli istnieje, treść atrybutu `aria-label` jest odpowiednia.",
                         "Jeśli istnieje, treść fragmentu [tekstu powiązanego](#powiazaneARIA) za pomocą atrybutu `aria-labelledby` jest odpowiednia."
                       ],
                       "2": [
-                        "Czy dla każdego obszaru (znacznik `area`) mapy odsyłaczy użytej jako [CAPTCHA](#captcha) lub jako [obraz testu](#obrazTest), który ma [alternatywę tekstową](#alternatywaTekstowa), alternatywa ta jest odpowiednia?",
+                        "Czy dla każdego obszaru (znacznik `area`) mapy odsyłaczy użytej jako [captcha](#captcha) lub jako [obraz testu](#obrazTest), który ma [alternatywę tekstową](#alternatywaTekstowa), alternatywa ta jest odpowiednia?",
                         "Jeśli istnieje, treść atrybutu `alt` jest odpowiednia.",
                         "Jeśli istnieje, treść atrybutu `title` jest odpowiednia.",
                         "Jeśli istnieje, treść atrybutu `aria-label` jest odpowiednia.",
                         "Jeśli istnieje, treść fragmentu [tekstu powiązanego](#powiazaneARIA) za pomocą atrybutu `aria-labelledby` jest odpowiednia."
                       ],
                       "3": [
-                        "Czy dla każdego przycisku graficznego (znacznik (znacznik `input`) z atrybutem `type=\"image\"`) użytego jako [CAPTCHA](#captcha) lub [obraz testu](#obrazTest), który ma [alternatywę tekstową](#alternatywaTekstowa), alternatywa ta jest odpowiednia?",
+                        "Czy dla każdego przycisku graficznego (znacznik (znacznik `input`) z atrybutem `type=\"image\"`) użytego jako [captcha](#captcha) lub [obraz testu](#obrazTest), który ma [alternatywę tekstową](#alternatywaTekstowa), alternatywa ta jest odpowiednia?",
                         "Jeśli istnieje, treść atrybutu `alt` jest odpowiednia.",
                         "Jeśli istnieje, treść atrybutu `title` jest odpowiednia.",
                         "Jeśli istnieje, treść atrybutu `aria-label` jest odpowiednia.",
                         "Jeśli istnieje, treść fragmentu [tekstu powiązanego](#powiazaneARIA) za pomocą atrybutu `aria-labelledby` jest odpowiednia."
                       ],
                       "4": [
-                        "Czy dla każdego [obrazu z obiektu](#obrazZObiektu) (znacznik `object` z atrybutem `type=\"image\"`) użytego jako [CAPTCHA](#captcha) lub [obraz testu](#obrazTest), który ma [alternatywę tekstową](#alternatywaTekstowa) lub [treść alternatywną](#trescAlternatywna), alternatywa ta jest odpowiednia?",
+                        "Czy dla każdego [obrazu z obiektu](#obrazZObiektu) (znacznik `object` z atrybutem `type=\"image\"`) użytego jako [captcha](#captcha) lub [obraz testu](#obrazTest), który ma [alternatywę tekstową](#alternatywaTekstowa) lub [treść alternatywną](#trescAlternatywna), alternatywa ta jest odpowiednia?",
                         "Jeśli istnieje, treść atrybutu `title` jest odpowiednia.",
                         "Jeśli istnieje, treść atrybutu `aria-label` jest odpowiednia.",
                         "Jeśli istnieje, treść fragmentu [tekstu powiązanego](#powiazaneARIA) za pomocą atrybutu `aria-labelledby` jest odpowiednia.",
                         "Jeśli istnieje, [treść alternatywna](#trescAlternatywna) jest odpowiednia."
                       ],
                       "5": [
-                        "Czy dla każdego obrazu wbudowanego (znacznik `embed` z atrybutem `type=\"image\"`) użytego jako [CAPTCHA](#captcha) lub jako [obraz testu](#obrazTest), który ma [alternatywę tekstową](#alternatywaTekstowa) lub [treść alternatywną](#trescAlternatywna), alternatywa ta jest odpowiednia?",
+                        "Czy dla każdego obrazu wbudowanego (znacznik `embed` z atrybutem `type=\"image\"`) użytego jako [captcha](#captcha) lub jako [obraz testu](#obrazTest), który ma [alternatywę tekstową](#alternatywaTekstowa) lub [treść alternatywną](#trescAlternatywna), alternatywa ta jest odpowiednia?",
                         "Jeśli istnieje, treść atrybutu `title` jest odpowiednia.",
                         "Jeśli istnieje, treść atrybutu `aria-label` jest odpowiednia.",
                         "Jeśli istnieje, treść fragmentu [tekstu powiązanego](#powiazaneARIA) za pomocą atrybutu `aria-labelledby` jest odpowiednia.",
                         "Jeśli istnieje, [treść alternatywna](#trescAlternatywna) jest odpowiednia."
                       ],
                       "6": [
-                        "Czy dla każdego obrazu wektorowego (znacznik `svg`) użytego jako [CAPTCHA](#captcha) lub jako [obraz testu](#obrazTest), który ma [alternatywę tekstową](#alternatywaTekstowa), alternatywa ta jest odpowiednia?",
+                        "Czy dla każdego obrazu wektorowego (znacznik `svg`) użytego jako [captcha](#captcha) lub jako [obraz testu](#obrazTest), który ma [alternatywę tekstową](#alternatywaTekstowa), alternatywa ta jest odpowiednia?",
                         "Jeśli istnieje, treść atrybutu `title` jest odpowiednia.",
                         "Jeśli istnieje, treść atrybutu `aria-label` jest odpowiednia.",
                         "Jeśli istnieje, treść fragmentu [tekstu powiązanego](#powiazaneARIA) za pomocą atrybutu `aria-labelledby` jest odpowiednia."
                       ],
                       "7": [
-                        "Czy dla każdego obrazu na kanwie (znacznik `canvas`) użytego jako [CAPTCHA](#captcha) lub jako [obraz testu](#obrazTest), który ma [alternatywę tekstową](#alternatywaTekstowa) lub [treść alternatywną](#trescAlternatywna), alternatywa ta jest odpowiednia?",
+                        "Czy dla każdego obrazu na kanwie (znacznik `canvas`) użytego jako [captcha](#captcha) lub jako [obraz testu](#obrazTest), który ma [alternatywę tekstową](#alternatywaTekstowa) lub [treść alternatywną](#trescAlternatywna), alternatywa ta jest odpowiednia?",
                         "Jeśli istnieje, treść atrybutu `title` jest odpowiednia.",
                         "Jeśli istnieje, treść atrybutu `aria-label` jest odpowiednia.",
                         "Jeśli istnieje, treść fragmentu [tekstu powiązanego](#powiazaneARIA) za pomocą atrybutu `aria-labelledby` jest odpowiednia.",
@@ -283,17 +283,17 @@
                 {
                   "kryterium": {
                     "numer": 5,
-                    "tytul": "Czy dla każdego obrazu użytego jako [CAPTCHA](#captcha) istnieje alternatywne rozwiązanie dostępu do treści lub do funkcji CAPTCHA?",
+                    "tytul": "Czy dla każdego obrazu użytego jako [captcha](#captcha) istnieje alternatywne rozwiązanie dostępu do treści lub do funkcji captcha?",
                     "testy": {
                       "1": [
-                        "Czy każdy obraz (znaczniki `img`, `area`, `object`, `embed`, `svg` `canvas`) użyty jako [CAPTCHA](#captcha) spełnia jeden z tych warunków?",
-                        "Istnieje co najmniej jedna inna niegraficzna forma CAPTCHA.",
-                        "Istnieje inne rozwiązanie dostępu do funkcji chronionej przez CAPTCHA."
+                        "Czy każdy obraz (znaczniki `img`, `area`, `object`, `embed`, `svg` `canvas`) użyty jako [captcha](#captcha) spełnia jeden z tych warunków?",
+                        "Istnieje co najmniej jedna inna niegraficzna forma captcha.",
+                        "Istnieje inne rozwiązanie dostępu do funkcji chronionej przez captcha."
                       ],
                       "2": [
-                        "Czy każdy przycisk graficzny (znacznik `input` z atrybutem `type=\"image\"`) użyty jako [CAPTCHA](#captcha) spełnia jeden z tych warunków?",
-                        "Istnieje co najmniej jedna inna niegraficzna forma CAPTCHA.",
-                        "Istnieje inne rozwiązanie dostępu do funkcji chronionej przez CAPTCHA."
+                        "Czy każdy przycisk graficzny (znacznik `input` z atrybutem `type=\"image\"`) użyty jako [captcha](#captcha) spełnia jeden z tych warunków?",
+                        "Istnieje co najmniej jedna inna niegraficzna forma captcha.",
+                        "Istnieje inne rozwiązanie dostępu do funkcji chronionej przez captcha."
                       ]
                     },
                     "odniesienia": [
@@ -483,7 +483,7 @@
                       "Kryterium to nie ma wpływu na tekst w obrazach wektorowych będący rzeczywistym tekstem."
                     ],
                     "przypadkiSzczegolne": [
-                      "Dla tego kryterium istnieje przypadek szczególny, gdy tekst jest częścią logo, nazwy handlowej, [CAPTCHA](#captcha), [obrazu testowego](#obrazTest) lub obrazu, którego dokładność graficzna zostałaby uznana za niezbędną do prawidłowego przekazania informacji przekazywanych przez obraz. W takich sytuacjach kryterium to nie ma zastosowania do tych elementów."
+                      "Dla tego kryterium istnieje przypadek szczególny, gdy tekst jest częścią logo, nazwy handlowej, [captcha](#captcha), [obrazu testowego](#obrazTest) lub obrazu, którego dokładność graficzna zostałaby uznana za niezbędną do prawidłowego przekazania informacji przekazywanych przez obraz. W takich sytuacjach kryterium to nie ma zastosowania do tych elementów."
                     ],
                     "odniesienia": [
                       {
@@ -598,7 +598,7 @@
           {
             "kryterium": {
               "numer": 2,
-              "tytul": "Czy dla każdej [ramki](#ramka) , która ma tytuł ramki, ten [tytuł](#tytulRamki) jest odpowiedni?",
+              "tytul": "Czy dla każdej [ramki](#ramka), która ma tytuł ramki, ten [tytuł](#tytulRamki) jest odpowiedni?",
               "testy": {
                 "1": [
                   " Czy dla każdej [ramki](#ramka) (znacznik `iframe` lub `frame`), która ma atrybut `title`, treść tego atrybutu jest odpowiednia?"
@@ -825,7 +825,7 @@
                           "Media oparte na czasie są wykorzystywane do celów dekoracyjnych (to znaczy, że nie niosą żadnych informacji);",
                           "Media oparte na czasie same w sobie są alternatywą dla treści strony (na przykład wideo w języku migowym lub wokalizacja tekstu);",
                           "Media oparte na czasie służą do uzyskania dostępu do wersji rozszerzonej;",
-                          "Media oparte na czasie są używane jako CAPTCHA;",
+                          "Media oparte na czasie są używane jako captcha;",
                           "Media oparte na czasie są częścią testu, który stałby się bezużyteczny, gdyby podano transkrypcję tekstową, napisy zsynchronizowane lub audiodeskrypcję.",
                           "W przypadku usług podmiotów publicznych, rządowych i samorządowych oraz ich jednostek i placówek: jeżeli media oparte na czasie zostały opublikowane między 23 września 2018 r. a 23 września 2020 roku w internecie, intranecie lub ekstranecie utworzonym po 23 września 2018 roku, są one zwolnione z obowiązku dostępności.",
                           "W przypadku osób prawnych prawa prywatnego, o których mowa w akapitach 2° i 4° rozdziału I art. 47 rozdziału I 11 lutego 2005 r.: jeżeli media oparte na czasie zostały opublikowane przed 23 września 2020 r., są one zwolnione z obowiązku dostępności."
@@ -1549,18 +1549,18 @@
                       ]
                     },
                     "notaTechniczna": [
-                      "Gdy widoczny nagłówek jest uzupełniany przez inne wyrażenie w dostępnej nazwie :",
+                      "Gdy widoczny nagłówek jest uzupełniany przez inne wyrażenie w dostępnej nazwie:",
                       {
                         "ul": [
-                          "WCAG nalega na umieszczenie widocznego tytułu na początku dostępnej nazwy, ale nie zastrzega wyłączności tego miejsca ;",
+                          "WCAG nalega na umieszczenie widocznego tytułu na początku dostępnej nazwy, ale nie zastrzega wyłączności tego miejsca;",
                           "WCAG uznaje niedokładne dopasowanie widocznego łańcucha tytułu w ramach dostępnej nazwy za niepowodzenie."
                         ]
                       },
                       "Na przykład, jeśli rozważymy widoczny nagłówek „Zamów teraz” uzupełniony w dostępnej nazwie wyrażeniem „produkt X”, możemy mieć następujące różne przypadki :",
                       {
                         "ul": [
-                          "„Zamów teraz produkt X” jest poprawne (dobra praktyka) ;",
-                          "„Produkt X: zamów teraz” jest poprawne ;",
+                          "„Zamów teraz produkt X” jest poprawne (dobra praktyka);",
+                          "„Produkt X: zamów teraz” jest poprawne;",
                           "„Zamówienie produktu X teraz” jest niepoprawne."
                         ]
                       }
@@ -1667,7 +1667,7 @@
                       "Oznacza to, że wyłączenie JavaScript dla zbioru stron nie jest akceptowalne, chyba, że nie wyklucza użycia innych komponentów."
                     ],
                     "przypadkiSzczegolne": [
-                      "Istnieje specjalne zarządzanie przypadkami dla testu 7.1.3, gdy :",
+                      "Istnieje specjalne zarządzanie przypadkami dla testu 7.1.3, gdy:",
                       {
                         "ul": [
                           "W tekście [widocznego tytułu](#widocznyTytul) znajdują się wielkie litery i interpunkcja: można je zignorować w dostępnej nazwie bez żadnych konsekwencji.",
@@ -2253,7 +2253,7 @@
               "notaTechniczna": [
                 "Role WAI-ARIA `list` i `listitem` mogą wymagać użycia właściwości `aria-setsize` i `aria-posinset` w przypadku, gdy cała lista nie jest dostępna przy pomocy DOM wygenerowanego w momencie przeglądania.",
                 "Role `tree`, `tablist`, `menu`, `combobox` i `listbox` i nie odpowiadają liście HTML `ul` lub `ol`.",
-                "Zobacz: [The roles model - list](https://www.w3.org/TR/wai-aria/#list){.external} oraz [The role model - ARIA SETSIZE](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-setsize){.external}."
+                "Zobacz: [The roles model - list](https://www.w3.org/TR/wai-aria/#list) oraz [The role model - ARIA SETSIZE](http://www.w3.org/WAI/PF/aria/states_and_properties#aria-setsize)."
               ],
               "odniesienia": [
                 {
@@ -2456,7 +2456,7 @@
                   "Czy na każdej stronie internetowej każdej deklaracji CSS koloru fontu (`color`) elementu mogącego zawierać tekst, towarzyszy deklaracja koloru tła (`background`, `background-color`), przynajmniej odziedziczona po elemencie nadrzędnym?"
                 ],
                 "2": [
-                  "Czy na każdej stronie internetowej każdej deklaracji koloru tła (`background`, `background-color`) elementu mogącego zawierać tekst towarzyszy deklaracja koloru fontu (`color`) , przynajmniej odziedziczona po elemencie nadrzędnym?"
+                  "Czy na każdej stronie internetowej każdej deklaracji koloru tła (`background`, `background-color`) elementu mogącego zawierać tekst towarzyszy deklaracja koloru fontu (`color`), przynajmniej odziedziczona po elemencie nadrzędnym?"
                 ],
                 "3": [
                   "Czy na każdej stronie internetowej każdemu użyciu obrazu dla utworzenia tła elementu mogącego zawierać tekst, przy pomocy CSS (`background`) towarzyszy deklaracja koloru tła (`background`, `background-color`), przynajmniej odziedziczona po elemencie nadrzędnym?"
@@ -3191,7 +3191,7 @@
                       "Test 11.10.1 oraz test 11.10.2 zostanie uznany za niemający zastosowania, jeśli formularz ma tylko jedno [pole formularza](#polaFormularza) lub gdy zawiera pola opcjonalne, a więc:",
                       {
                         "ul": [
-                          "Widoczne ;",
+                          "Widoczne;",
                           "W znaczniku `label` lub w [legendzie](#legenda) związanej z grupą pól formularz"
                         ]
                       },
@@ -3243,7 +3243,7 @@
                     },
                     "notaTechniczna": [
                       "Niektóre typy formularzy HTML5 oferują automatyczne komunikaty z pomocą, na przykład typ `email` wyświetla komunikat w rodzaju „proszę wprowadzić poprawny adres e-mail”, gdy podany adres e-mail nie odpowiada oczekiwanemu formatowi. Komunikaty można dostosowywać za pomocą API Constraint Validation, które umożliwia dostosowanie komunikatów błędów i weryfikować kryteria. Atrybut `pattern`, który pozwala przeprowadzić automatycznie kontrolę formatu (przy pomocy wyrażeń regularnych), wyświetla również komunikat o pomocy, który można dostosować przy pomocy atrybutu `title`; ten mechanizm również spełnia to kryterium.",
-                      "Referencja: [WHATWG - 4.10.21.3 The constraint validation API](http://www.whatwg.org/specs/web-apps/current-work/#constraint-validation){.external}."
+                      "Referencja: [WHATWG - 4.10.21.3 The constraint validation API](http://www.whatwg.org/specs/web-apps/current-work/#constraint-validation)."
                     ],
                     "odniesienia": [
                       {
@@ -3785,7 +3785,7 @@
                 ]
               },
               "przypadkiSzczegolne": [
-                "Il existe une gestion de cas particuliers :",
+                "Istnieje specjalne zarządzanie przypadkiem:",
                 {
                   "ul": [
                     "Przypadek szczególny ma miejsce w odniesieniu do podmiotów publicznych i udostępnianych przez nie dokumentów (tekstowych i tekstowo-graficznych, dokumentów utworzonych w programach przeznaczonych do tworzenia prezentacji lub arkuszy kalkulacyjnych), opublikowanych przed dniem 23 września 2018 r., chyba że ich treść jest niezbędna do realizacji bieżących zadań podmiotu publicznego."
@@ -4008,7 +4008,7 @@
                 "Odnośna dokumentacja:",
                 {
                   "ul": [
-                    "API JS: [The Screen Orientation API](https://www.w3.org/TR/screen-orientation/) ;",
+                    "API JS: [The Screen Orientation API](https://www.w3.org/TR/screen-orientation/);",
                     "API Viewport: [CSS Device Adaptation Module Level 1. The orientation descriptor](https://www.w3.org/TR/css-device-adapt-1/#orientation-desc)."
                   ]
                 }
@@ -4080,7 +4080,7 @@
                 "Dwa przykłady mechanizmu anulowania lub przerwania akcji wywołanej przez pojedynczy punkt na ekranie:",
                 {
                   "ul": [
-                    "Okno modalne umożliwiające anulowanie akcji po jej zakończeniu ;",
+                    "Okno modalne umożliwiające anulowanie akcji po jej zakończeniu;",
                     "W przypadku funkcji przeciągania i upuszczania fakt, że działanie jest przerywane, jeśli użytkownik wypuści element poza obszar docelowy."
                   ]
                 }

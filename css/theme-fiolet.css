@@ -27,6 +27,10 @@ h4 {
     color: #767373;
 }
 
+h5 {
+    font-weight: bold;
+}
+
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #7e4795;
     color: white;
