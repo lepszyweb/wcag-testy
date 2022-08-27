@@ -4,7 +4,7 @@ permalink: rgaa-wprowadzenie
 sidebar: metoda_sidebar
 ---
 
-RGAA to wydane przez rząd francuski „ogólne wytyczne poprawy ogólnej dostępności”. Uznawane są za metodologię, czy też metodykę oceniania dostępności stron internetowych. W rzeczywistości nie są to tylko „ogólne wytyczne”, jak można by wnosić z&nbsp;nazwy, ale kompleksowy system oceny dostępności i&nbsp;zgodności stron internetowych z&nbsp;międzynarodowym standardem WCAG (Wytyczne dla dostępności stron internetowych.
+RGAA to wydane przez rząd francuski „ogólne wytyczne poprawy dostępności”. Uznawane są za metodologię, czy też metodykę oceniania dostępności stron internetowych. W rzeczywistości nie są to tylko „ogólne wytyczne”, jak można by wnosić z&nbsp;nazwy, ale kompleksowy system oceny dostępności i&nbsp;zgodności stron internetowych z&nbsp;międzynarodowym standardem WCAG (Wytyczne dla dostępności stron internetowych.
 
 ## Krótka historia 
 
