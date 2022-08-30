@@ -2415,7 +2415,7 @@
                   "Podczas używania [komponentu interfejsu](#komponentInterfejsu) specyficznego dla witryny w celu powiększenia tekstu lub powiększenia."
                 ],
                 "3": [
-                  "Na każdej stronie internetowej musi być możliwe zwiększenie rozmiaru znaków do co najmniej 200% dla całego tekstu na stronie. Czy zasada ta jest przestrzegana zgodnie z jednym z tych warunków (z wyjątkiem przypadków szczególnych)?",
+                  "Na każdej stronie internetowej musi być możliwe zwiększenie [rozmiaru czcionki](#rozmiarCzcionki) co najmniej do 200% dla całego tekstu na stronie. Czy zasada ta jest przestrzegana zgodnie z jednym z tych warunków (z wyjątkiem przypadków szczególnych)?",
                   "Podczas korzystania z funkcji powiększania tekstu w przeglądarce.",
                   "Podczas korzystania z funkcji powiększania grafiki w przeglądarce.",
                   "Podczas używania [komponentu interfejsu](#komponentInterfejsu) specyficznego dla witryny w celu powiększenia tekstu lub powiększenia."
@@ -2453,13 +2453,13 @@
               "tytul": "Czy na każdej stronie internetowej deklaracje CSS kolorów tła elementu i fontu są poprawnie używane?",
               "testy": {
                 "1": [
-                  "Czy na każdej stronie internetowej każdej deklaracji CSS koloru fontu (`color`) elementu mogącego zawierać tekst, towarzyszy deklaracja koloru tła (`background`, `background-color`), przynajmniej odziedziczona po elemencie nadrzędnym?"
+                  "Czy na każdej stronie internetowej każdej deklaracji CSS koloru fontu (`color`) elementu, który może zawierać tekst, towarzyszy deklaracja koloru tła (`background`, `background-color`), co najmniej odziedziczona po rodzicu?"
                 ],
                 "2": [
-                  "Czy na każdej stronie internetowej każdej deklaracji koloru tła (`background`, `background-color`) elementu mogącego zawierać tekst towarzyszy deklaracja koloru fontu (`color`), przynajmniej odziedziczona po elemencie nadrzędnym?"
+                  "Czy na każdej stronie internetowej każdej deklaracji koloru tła (`background`, `background-color`) elementu, który może zawierać tekst, towarzyszy deklaracja koloru fontu (`color`), co najmniej odziedziczona po rodzicu?"
                 ],
                 "3": [
-                  "Czy na każdej stronie internetowej każdemu użyciu obrazu dla utworzenia tła elementu mogącego zawierać tekst, przy pomocy CSS (`background`) towarzyszy deklaracja koloru tła (`background`, `background-color`), przynajmniej odziedziczona po elemencie nadrzędnym?"
+                  "Czy na każdej stronie internetowej każdemu obrazkowi użytemu przy pomocy CSS do stworzenia tła (`background`, `background-image`) elementu, który może zawierać tekst, towarzyszy deklaracja koloru tła (`background`, `background-color`), co najmniej odziedziczona po rodzicu?"
                 ]
               },
               "odniesienia": [
@@ -2482,10 +2482,10 @@
               "tytul": "Czy na każdej stronie internetowej łącze tekstowe, którego [charakter nie jest oczywisty](#linkNieoczywisty), jest widoczne na tle otaczającego tekstu?",
               "testy": {
                 "1": [
-                  "Czy na każdej stronie internetowej każde łącze tekstowe oznaczone tylko kolorem, a którego [charakter nie jest oczywisty](#linkNieoczywisty), spełnia te warunki?",
-                  "Kolor łącza przy [współczynniku kontrastu](#wspolczynnikKontrastu) większym lub równym 3:1 w porównaniu do otaczającego tekstu.",
+                  "Czy na każdej stronie internetowej każde oznaczone tylko kolorem łącze tekstowe, którego [charakter nie jest oczywisty](#linkNieoczywisty), spełnia te warunki?",
+                  "Łącze ma kolor o [współczynniku kontrastu](#wspolczynnikKontrastu) większym lub równym 3:1 w porównaniu do otaczającego tekstu.",
                   "Łącze ma wizualne wyróżnienie po najechaniu myszką inne niż zmiana koloru.",
-                  "Łącze ma wizualne wyróżnienie że [fokusu](#oznaczonyFokusem) inne niż zmiana koloru."
+                  "Łącze ma wizualne wyróżnienie [fokusu](#oznaczonyFokusem) inne niż zmiana koloru."
                 ]
               },
               "odniesienia": [
@@ -2549,7 +2549,7 @@
               },
               "notaTechniczna": [
                 "WAI-ARIA proponuje atrybut `aria-hidden` (`true` lub `false`), który hamuje odtwarzanie treści w technologiach wspomagających bez wpływu na widoczność w programów użytkownika: treść z `aria-hidden=\"true\"` nie będzie wypowiadana, ale pozostanie widoczna.",
-                "Oprócz przypadków, gdy treść kontrolowana przez `aria-hidden` nie jest przeznaczona do odtwarzania przez technologie wspomagające, wartość atrybutu `aria-hidden` musi być spójna z wyświetlonym lub ukrytym stanem treści na ekranie.",
+                "Oprócz przypadków, gdy treść kontrolowana przez `aria-hidden` nie jest przeznaczona do odwzorowania przez technologie wspomagające, wartość atrybutu `aria-hidden` musi być spójna z wyświetlonym lub ukrytym stanem treści na ekranie.",
                 "Specyfikacja HTML5 proponuje atrybut `hidden`, który uniemożliwia udostępnienie (gdy atrybut `hidden` jest obecny) treści w wygenerowanym DOM (w podobny sposób do `type=\"hidden\"` dla kontroli formularza).",
                 "Możliwe są sytuacje, gdy treść kontrolowana przez `hidden` lub `aria-hidden` ma chwilowo status niezgodny ze statusem wyświetlonym lub ukrytym, na przykład gdy chce się udostępnić element, ale jego wyświetlanie na ekranie zależy od późniejszej czynności. W takim przypadku, należy uwzględnić stan końcowy treści."
               ],
@@ -2574,16 +2574,16 @@
               "tytul": "Na żadnej stronie internetowej informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada jest przestrzegana?",
               "testy": {
                 "1": [
-                  "Na żadnej stronie internetowej, dla żadnego tekstu lub grupy tekstów, informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada jest przestrzegana?"
+                  "Na żadnej stronie internetowej dla żadnego tekstu lub grupy tekstów informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada jest przestrzegana?"
                 ],
                 "2": [
-                  "Na żadnej stronie internetowej, dla żadnego obrazu lub grupy obrazów, informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada jest przestrzegana?"
+                  "Na żadnej stronie internetowej dla żadnego obrazu lub grupy obrazów informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada jest przestrzegana?"
                 ],
                 "3": [
-                  "Na żadnej stronie internetowej, dla żadnych [mediów opartych na czasie](#mediaOparteNaCzasie), informacje nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada jest przestrzegana?"
+                  "Na żadnej stronie internetowej dla żadnych [mediów opartych na czasie](#mediaOparteNaCzasie)  informacje nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada jest przestrzegana?"
                 ],
                 "4": [
-                  "Na żadnej stronie internetowej, dla żadnych [mediów nieopartych na czasie](#mediaNieoparteNaCzasie), informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada jest przestrzegana?"
+                  "Na żadnej stronie internetowej  dla żadnych [mediów nieopartych na czasie](#mediaNieoparteNaCzasie) informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada jest przestrzegana?"
                 ]
               },
               "odniesienia": [
@@ -2610,16 +2610,16 @@
               "tytul": "Na żadnej stronie internetowej informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada została zaimplementowana w adekwatny sposób?",
               "testy": {
                 "1": [
-                  "Na żadnej stronie internetowej, dla żadnego tekstu lub grupy tekstów, informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada została zaimplementowana w adekwatny sposób?"
+                  "Na żadnej stronie internetowej dla żadnego tekstu lub grupy tekstów informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada została zaimplementowana w adekwatny sposób?"
                 ],
                 "2": [
-                  "Na żadnej stronie internetowej, dla żadnego obrazu lub grupy obrazów, informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada została zaimplementowana w adekwatny sposób?"
+                  "Na żadnej stronie internetowej  dla żadnego obrazu lub grupy obrazów informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada została zaimplementowana w adekwatny sposób?"
                 ],
                 "3": [
-                  "Na żadnej stronie internetowej, dla żadnych [mediów opartych na czasie](#mediaOparteNaCzasie), informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada została zaimplementowana w adekwatny sposób?"
+                  "Na żadnej stronie internetowej dla żadnych [mediów opartych na czasie](#mediaOparteNaCzasie) informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada została zaimplementowana w adekwatny sposób?"
                 ],
                 "4": [
-                  "Na żadnej stronie internetowej, dla żadnych [mediów nieopartych na czasie](#mediaNieoparteNaCzasie), informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada została zaimplementowana w adekwatny sposób?"
+                  "Na żadnej stronie internetowej dla żadnych [mediów nieopartych na czasie](#mediaNieoparteNaCzasie) informacja nie może być podawana wyłącznie przez [kształt, rozmiar lub położenie](#oznaczeniePrzezKsztaltItd). Czy ta zasada została zaimplementowana w adekwatny sposób?"
                 ]
               },
               "odniesienia": [
@@ -2646,10 +2646,10 @@
               "tytul": "Czy dla każdej strony internetowej treść może być prezentowana bez konieczności przewijania w pionie i poziomie w przypadku okien o wysokości 256 pikseli lub szerokości 320 pikseli (z wyjątkiem przypadków szczególnych)?",
               "testy": {
                 "1": [
-                  "Czy dla każdej strony internetowej, gdy treść, której [kierunek czytania](#kierunekCzytania) jest poziomy, jest wyświetlana w oknie zmniejszonym do szerokości 320 pikseli, wszystkie informacje i funkcje są dostępne bez przewijania w poziomie (z wyjątkiem przypadków szczególnych)?"
+                  "Czy na każdej stronie internetowej, na której [kierunek czytania](#kierunekCzytania) jest poziomy, wyświetlanej w oknie zmniejszonym do szerokości 320 pikseli, wszystkie informacje i funkcje są dostępne bez przewijania w poziomie (z wyjątkiem przypadków szczególnych)?"
                 ],
                 "2": [
-                  "Czy dla każdej strony internetowej, gdy treść, której [kierunek czytania](#kierunekCzytania) jest pionowy, umieszcza się w oknie zmniejszonym do wysokości 256 pikseli, wszystkie informacje i funkcje są dostępne bez przewijania w pionie (z wyjątkiem przypadków szczególnych)?"
+                  "Czy na każdej stronie internetowej, na której [kierunek czytania](#kierunekCzytania) jest pionowy, wyświetlanej w oknie zmniejszonym do wysokości 256 pikseli, wszystkie informacje i funkcje są dostępne bez przewijania w pionie (z wyjątkiem przypadków szczególnych)?"
                 ]
               },
               "notaTechniczna": [
@@ -3692,23 +3692,23 @@
               "tytul": "Czy na każdej stronie internetowej użytkownik ma kontrolę nad każdym limitem czasu przeznaczonego na modyfikację treści (z wyjątkiem przypadków szczególnych)?",
               "testy": {
                 "1": [
-                  "Czy dla każdej strony internetowej każda [procedura odświeżania](#procOdswiezania) lub [automatycznego przekierowania](#autoPrzekierowanie) (znacznik `object`, znacznik `embed`, znacznik `svg`, znacznik `canvas`, znacznik meta) spełnia jeden z tych warunków (z wyjątkiem przypadków szczególnych)?",
+                  "Czy dla każdej strony internetowej każdy [proces odświeżania](#procOdswiezania) lub [automatycznego przekierowania](#autoPrzekierowanie) (znacznik `object`, znacznik `embed`, znacznik `svg`, znacznik `canvas`, znacznik meta) spełnia jeden z tych warunków (z wyjątkiem przypadków szczególnych)?",
                   "Użytkownik może zatrzymać i ponownie uruchomić odświeżanie.",
                   "Użytkownik może zwiększyć limit czasowy między dwoma odświeżeniami co najmniej dziesięciokrotnie.",
                   "Użytkownik jest ostrzegany o zbliżającym się odświeżaniu i ma co najmniej dwadzieścia sekund, aby zwiększyć limit czasu przed przyszłym odświeżeniem.",
                   "Limit czasu między dwoma odświeżeniami wynosi co najmniej dwadzieścia godzin."
                 ],
                 "2": [
-                  "Czy dla każdej strony internetowej każda procedura przekierowania wykonana przy pomocy znacznika `meta` jest natychmiastowa (z wyjątkiem przypadków szczególnych)?"
+                  "Czy dla każdej strony internetowej każdy proces przekierowania wykonana przy pomocy znacznika `meta` jest natychmiastowa (z wyjątkiem przypadków szczególnych)?"
                 ],
                 "3": [
-                  "Czy dla każdej strony internetowej każda procedura przekierowania wykonana przy pomocy [skryptu](#skryptTech) spełnia jeden z tych warunków (z wyjątkiem przypadków szczególnych)?",
+                  "Czy dla każdej strony internetowej każdy proces przekierowania wykonana przy pomocy [skryptu](#skryptTech) spełnia jeden z tych warunków (z wyjątkiem przypadków szczególnych)?",
                   "Użytkownik może zatrzymać i ponownie uruchomić przekierowanie.",
                   "Użytkownik może zwiększyć limit czasowy między dwoma przekierowaniami co najmniej dziesięciokrotnie.",
                   "Użytkownik jest ostrzegany o zbliżającym się przekierowaniu i ma co najmniej dwadzieścia sekund, aby zwiększyć limit czasu przed przyszłym przekierowaniem."
                 ],
                 "4": [
-                  "Czy dla każdej strony internetowej każda procedura ograniczająca czas sesji spełnia jeden z tych warunków (z wyjątkiem przypadków szczególnych)?",
+                  "Czy dla każdej strony internetowej każdy proces ograniczająca czas sesji spełnia jeden z tych warunków (z wyjątkiem przypadków szczególnych)?",
                   "Użytkownik może usunąć limit czasowy.",
                   "Użytkownik może zwiększyć limit czasowy.",
                   "Limit czasu przed zakończeniem sesji wynosi co najmniej dwadzieścia godzin."

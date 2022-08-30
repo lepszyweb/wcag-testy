@@ -1,23 +1,22 @@
-.summary {
-    color: #767373;
-    border-left: 5px solid #df1465;
-    font-size: 16px;
-}
-
 a {
     color: #7e4795;
     text-decoration: none
 }
 
-main a:not(#toc) {
-    text-decoration: underline
-}
-
-
     a:focus,
     a:hover {
         color: #4d245e;
     }
+
+main a:not(#toc) {
+    text-decoration: underline
+}
+
+.summary {
+    color: #767373;
+    border-left: 5px solid #df1465;
+    font-size: 16px;
+}
 
 h3 {
     color: #df1465;
@@ -30,6 +29,7 @@ h4 {
 h5 {
     font-weight: bold;
 }
+/*dodane*/
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #7e4795;
@@ -48,6 +48,18 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
     background-color: #4d245e;
 }
 
+
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
+    color: white;
+}
+    /*dodane ?----------------- */
+
+    .navbar-inverse .navbar-nav > li > a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
+        color: #f0f0f0;
+    }
+/*dodane ?----------------- */
+
 .nav li.thirdlevel > a {
     background-color: #FAFAFA !important;
     color: #7e4795;
@@ -65,17 +77,16 @@ a[data-toggle="tooltip"] {
     border-color: #7e4795;
 }
 
-    .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand {
-        color: white;
-    }
 
-        .navbar-inverse .navbar-nav > li > a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
-            color: #f0f0f0;
-        }
+    .navbar-inverse .navbar-nav > li > a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
+        color: #f0f0f0;
+    }
+/* dodane */
 
 a.navbar-brand:hover {
     color: #f0f0f0;
 }
+/* dodane */
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #7e4795;
@@ -86,9 +97,23 @@ a.navbar-brand:hover {
         color: #ffffff;
     }
 
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #4d245e;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #7e4795;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #7e4795;
+}
+
+/* not sure if using this ...*/
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #7e4795 !important;
 }
+
 
 .btn-primary {
     color: #ffffff;
@@ -96,21 +121,103 @@ a.navbar-brand:hover {
     border-color: #4d245e;
 }
 
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #4d245e;
+    .navbar-brand:focus, /* dodane */
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active,
+    .btn-primary.active,
+    .open .dropdown-toggle.btn-primary {
+        background-color: #7e4795;
+        border-color: #4d245e;
+        border-style: dashed; /* dodane */
+        border-width: 1px; /* dodane */
+    }
+    /* to przybyło */
+    .btn-primary.disabled,
+    .btn-primary.disabled.active,
+    .btn-primary.disabled.focus,
+    .btn-primary.disabled:active,
+    .btn-primary.disabled:focus,
+    .btn-primary.disabled:hover,
+    .btn-primary[disabled],
+    .btn-primary[disabled].active,
+    .btn-primary[disabled].focus,
+    .btn-primary[disabled]:active,
+    .btn-primary[disabled]:focus,
+    .btn-primary[disabled]:hover,
+    fieldset[disabled] .btn-primary,
+    fieldset[disabled] .btn-primary.active,
+    fieldset[disabled] .btn-primary.focus,
+    fieldset[disabled] .btn-primary:active,
+    fieldset[disabled] .btn-primary:focus,
+    fieldset[disabled] .btn-primary:hover {
+        background-color: #7e4795;
+    }
+
+    .btn-primary .badge {
+        color: #4d245e;
+    }
+
+.btn-link {
+    color: #4d245e;
 }
 
-.navbar-brand:focus, /* dodane */
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-    background-color: #7e4795;
-    border-color: #4d245e;
-    border-style: dashed; /* dodane */
-    border-width: 1px; /* dodane */
+/*to przybyło*/
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+    background-color: #4d245e;
 }
+    /* Hover/Focus state */
+    .dropdown-menu > li > a:hover,
+    .dropdown-menu > li > a:focus,
+    .dropdown-menu > .active > a:hover,
+    .dropdown-menu > .active > a:focus {
+        text-decoration: none;
+        color: #fff;
+    }
+
+.dropdown-menu > li > a:hover {
+    color: #fff !important;
+}
+
+
+.nav > .dropdown-menu > ul li a:active, .nav > .dropdown-menu > ul li a:hover {
+    background-color: #FAFAFA;
+}
+
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+    border-color: #4d245e
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+    background-color: #7e4795;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: #4d245e;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #7e4795;
+    border-color: #4d245e
+}
+
+
+
+
+
+
 
 .printTitle {
     color: #7e4795 !important;
@@ -141,6 +248,7 @@ body.print h4 {
     color: #4d245e;
 }
 
+
 div.sidebarTitle {
     color: #7e4795;
 }
@@ -154,77 +262,7 @@ li.sidebarTitle {
     margin-left: 5px;
 }
 
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #7e4795;
-}
 
-.navbar-inverse .navbar-toggle {
-    border-color: #7e4795;
-}
-
-
-
-.btn-primary.disabled,
-.btn-primary.disabled.active,
-.btn-primary.disabled.focus,
-.btn-primary.disabled:active,
-.btn-primary.disabled:focus,
-.btn-primary.disabled:hover,
-.btn-primary[disabled],
-.btn-primary[disabled].active,
-.btn-primary[disabled].focus,
-.btn-primary[disabled]:active,
-.btn-primary[disabled]:focus,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary,
-fieldset[disabled] .btn-primary.active,
-fieldset[disabled] .btn-primary.focus,
-fieldset[disabled] .btn-primary:active,
-fieldset[disabled] .btn-primary:focus,
-fieldset[disabled] .btn-primary:hover {
-    background-color: #7e4795;
-}
-
-.btn-primary .badge {
-    color: #4d245e;
-}
-
-.btn-link {
-    color: #4d245e;
-}
-
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:focus,
-.dropdown-menu > .active > a:hover {
-    background-color: #4d245e;
-}
-
-.nav .open > a,
-.nav .open > a:focus,
-.nav .open > a:hover {
-    border-color: #4d245e
-}
-
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:focus,
-.nav-pills > li.active > a:hover {
-    background-color: #7e4795;
-}
-
-.pagination > li > a,
-.pagination > li > span {
-    color: #4d245e;
-}
-
-.pagination > .active > a,
-.pagination > .active > a:focus,
-.pagination > .active > a:hover,
-.pagination > .active > span,
-.pagination > .active > span:focus,
-.pagination > .active > span:hover {
-    background-color: #7e4795;
-    border-color: #4d245e
-}
 
 .label-primary {
     background-color: #7e4795;
@@ -274,50 +312,7 @@ a.thumbnail:hover {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Hover/Focus state */
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus,
-.dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
-    text-decoration: none;
-    color: #fff;
-}
-
-.dropdown-menu > li > a:hover {
-    color: #fff !important;
-}
-
-
-.nav > .dropdown-menu > ul li a:active, .nav > .dropdown-menu > ul li a:hover {
-    background-color: #FAFAFA;
-}
-
-
-
-
-
-
-
-
-
-
-
+/*dodane - nadpisania - uzupełnienia */
 
 
 body {
