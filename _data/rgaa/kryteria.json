@@ -863,7 +863,7 @@
                 {
                   "kryterium": {
                     "numer": 2,
-                    "tytul": "Czy dla każdych nagranych [mediów zmiennych w czasie](#mediaOparteNaCzasie), które mają [transkrypcję](#transkrypcjaTekstowa) lub [audiodeskrypcję zsynchronizowaną](#audiodeskrypcjaZsynchronizowana), są one odpowiednie (z wyjątkiem przypadków szczególnych)?",
+                    "tytul": "Czy dla każdych nagranych [mediów opartych na czasie](#mediaOparteNaCzasie), które mają [transkrypcję](#transkrypcjaTekstowa) lub [audiodeskrypcję zsynchronizowaną](#audiodeskrypcjaZsynchronizowana), są one odpowiednie (z wyjątkiem przypadków szczególnych)?",
                     "testy": {
                       "1": [
                         "Czy dla każdego nagranego [medium opartego na czasie](#mediaOparteNaCzasie), tylko audio, które ma transkrypcję, jest ona odpowiednia (z wyjątkiem przypadków szczególnych)?"
@@ -1014,13 +1014,13 @@
                 {
                   "kryterium": {
                     "numer": 6,
-                    "tytul": "Czy w przypadku wszystkich nagranych [mediów zmiennych w czasie](#mediaOparteNaCzasie), które mają [audiodeskrypcję zsynchronizowaną](#audiodeskrypcjaZsynchronizowana), jest ona odpowiednia?",
+                    "tytul": "Czy w przypadku wszystkich nagranych [mediów opartych na czasie](#mediaOparteNaCzasie), które mają [audiodeskrypcję zsynchronizowaną](#audiodeskrypcjaZsynchronizowana), jest ona odpowiednia?",
                     "testy": {
                       "1": [
-                        "Czy w przypadku wszystkich nagranych [mediów zmiennych w czasie](#mediaOparteNaCzasie), które mają [audiodeskrypcję zsynchronizowaną](#audiodeskrypcjaZsynchronizowana), jest ona odpowiednia?"
+                        "Czy w przypadku wszystkich nagranych [mediów opartych na czasie](#mediaOparteNaCzasie), które mają [audiodeskrypcję zsynchronizowaną](#audiodeskrypcjaZsynchronizowana), jest ona odpowiednia?"
                       ],
                       "2": [
-                        "Czy w przypadku wszystkich zsynchronizowanych [mediów zmiennych w czasie](#mediaOparteNaCzasie), które mają [audiodeskrypcję zsynchronizowaną](#audiodeskrypcjaZsynchronizowana), jest ona odpowiednia?"
+                        "Czy w przypadku wszystkich zsynchronizowanych [mediów opartych na czasie](#mediaOparteNaCzasie), które mają [audiodeskrypcję zsynchronizowaną](#audiodeskrypcjaZsynchronizowana), jest ona odpowiednia?"
                       ]
                     },
                     "odniesienia": [
@@ -1046,7 +1046,7 @@
                     "tytul": "Czy wszystkie [media oparte na czasie](#mediaOparteNaCzasie) są wyraźnie określone (z wyjątkiem przypadków szczególnych)?",
                     "testy": {
                       "1": [
-                        "Czy w przypadku wszystkich [mediów zmiennych w czasie](#mediaOparteNaCzasie) (tylko dźwięk, tylko wideo lub zsynchronizowanych) sąsiednia treść tekstowa pomaga jasno zidentyfikować medium zmienne w czasie (z wyjątkiem przypadków szczególnych)?"
+                        "Czy w przypadku wszystkich [mediów opartych na czasie](#mediaOparteNaCzasie) (tylko dźwięk, tylko wideo lub zsynchronizowanych) sąsiednia treść tekstowa pomaga jasno zidentyfikować medium zmienne w czasie (z wyjątkiem przypadków szczególnych)?"
                       ]
                     },
                     "przypadkiSzczegolne": [
@@ -1166,7 +1166,7 @@
                 {
                   "kryterium": {
                     "numer": 11,
-                    "tytul": "Czy przeglądanie wszystkich [mediów zmiennych w czasie](#mediaOparteNaCzasie) jest, jeśli to konieczne, [kontrolowane przy pomocy klawiatury i dowolnego urządzenia wskazującego](#kontrolowaneDowolneUrzadzenie)?",
+                    "tytul": "Czy przeglądanie wszystkich [mediów opartych na czasie](#mediaOparteNaCzasie) jest, jeśli to konieczne, [kontrolowane przy pomocy klawiatury i dowolnego urządzenia wskazującego](#kontrolowaneDowolneUrzadzenie)?",
                     "testy": {
                       "1": [
                         "Czy każde [medium oparte na czasie](#mediaOparteNaCzasie) ma, jeśli to konieczne, funkcjonalności [kontroli przeglądania](#kontrolaPrzegladania)?"
@@ -1202,10 +1202,10 @@
                 {
                   "kryterium": {
                     "numer": 12,
-                    "tytul": "Czy przeglądanie wszystkich [mediów niezmiennych w czasie](#mediaNieoparteNaCzasie) jest [kontrolowane przy pomocy klawiatury i dowolnego urządzenia wskazującego](#kontrolowaneDowolneUrzadzenie)?",
+                    "tytul": "Czy przeglądanie wszystkich [mediów nieopartych na czasie](#mediaNieoparteNaCzasie) jest [kontrolowane przy pomocy klawiatury i dowolnego urządzenia wskazującego](#kontrolowaneDowolneUrzadzenie)?",
                     "testy": {
                       "1": [
-                        "Czy w przypadku wszystkich [mediów niezmiennych w czasie](#mediaNieoparteNaCzasie), każda funkcjonalność spełnia jeden z tych warunków?",
+                        "Czy w przypadku wszystkich [mediów nieopartych na czasie](#mediaNieoparteNaCzasie), każda funkcjonalność spełnia jeden z tych warunków?",
                         "Funkcjonalność jest [uruchamiana za pomocą klawiatury i dowolnego urządzenia wskazującego.](#kontrolowaneDowolneUrzadzenie)",
                         "Na stronie istnieje funkcjonalność [uruchamiana za pomocą klawiatury i dowolnego urządzenia wskazującego](#kontrolowaneDowolneUrzadzenie) pozwalająca wykonać tę samą akcję."
                       ],
@@ -1243,9 +1243,9 @@
                       ],
                       "2": [
                         "Czy każde medium [oparte na czasie](#mediaOparteNaCzasie) i [nieoparte na czasie](#mediaNieoparteNaCzasie), które ma alternatywę kompatybilną z technologiami wspomagajacymi, spełnia jeden z tych warunków?",
-                        "Alternatywa sąsiaduje z medium [zmiennym](#mediaOparteNaCzasie) lub [niezmiennym w czasie](#mediaNieoparteNaCzasie).",
+                        "Alternatywa sąsiaduje z medium [opartym](#mediaOparteNaCzasie) lub [nieopartym na czasie](#mediaNieoparteNaCzasie).",
                         "Alternatywa jest dostępna przez [łącze lub przycisk przyległy.](#linkPrzylegly)",
-                        "Mechanizm umożliwia zastąpienie medium zmiennego lub niezmiennego w czasie jego alternatywą."
+                        "Mechanizm umożliwia zastąpienie medium opartego lub nieopartego na czasie jego alternatywą."
                       ]
                     },
                     "przypadkiSzczegolne": [
@@ -3059,10 +3059,10 @@
                 {
                   "kryterium": {
                     "numer": 8,
-                    "tytul": "Czy w każdym formularzu [pozycje tego samego rodzaju](#podobnePozycjeNaListachWyboru) na [liście wyboru](#listaWyboru) są pogrupowane w odpowiedni sposób?",
+                    "tytul": "Czy w każdym formularzu [elementy tego samego rodzaju](#podobneElementyNaListachWyboru) na [liście wyboru](#listaWyboru) są pogrupowane w odpowiedni sposób?",
                     "testy": {
                       "1": [
-                        "Czy w każdym formularzu, dla każdego znacznika `select` [pozycje tego samego rodzaju](#podobnePozycjeNaListachWyboru) są pogrupowane przy pomocy znacznika `optgroup`, jeśli to konieczne?"
+                        "Czy w każdym formularzu, dla każdego znacznika `select` [elementy tego samego rodzaju](#podobneElementyNaListachWyboru) są pogrupowane przy pomocy znacznika `optgroup`, jeśli to konieczne?"
                       ],
                       "2": [
                         "Czy w każdym znaczniku `select` każdy znacznik `optgroup` ma atrybut `label`?}"
@@ -3437,13 +3437,13 @@
                 {
                   "kryterium": {
                     "numer": 4,
-                    "tytul": "Czy w każdym [zestawie stron](#zestawStron) [strona „mapa witryny”](#stronaMapaWitryny) jest dostępna w taki sam sposób?",
+                    "tytul": "Czy w każdym [zestawie stron](#zestawStron) [strona „mapa witryny”](#stronaMapaWitryny) jest osiągalna w taki sam sposób?",
                     "testy": {
                       "1": [
-                        "Czy na każdej stronie w [zestawie stron](#zestawStron) [strona „mapa witryny”](#stronaMapaWitryny) jest dostępna z taką samą funkcjonalnością?"
+                        "Czy na każdej stronie w [zestawie stron](#zestawStron) [strona „mapa witryny”](#stronaMapaWitryny) ma taką samą funkcjonalnością?"
                       ],
                       "2": [
-                        "Czy na każdej stronie w [zestawie stron](#zestawStron) łącze do [strony „mapa witryny”](#stronaMapaWitryny) jest umieszczone zawsze w tym samym miejscu na prezentacji?"
+                        "Czy na każdej stronie w [zestawie stron](#zestawStron) łącze do [strony „mapa witryny”](#stronaMapaWitryny) jest umieszczone zawsze w tym samym miejscu  prezentacji?"
                       ],
                       "3": [
                         "Czy na każdej stronie w [zestawie stron](#zestawStron) łącze do [strony „mapa witryny”(#stronaMapaWitryny) pojawia się zawsze w tej samej względnej kolejności w kodzie źródłowym?"
@@ -4103,7 +4103,7 @@
               "tytul": "Czy na każdej stronie internetowej funkcjonalności wymagające ruchu urządzenia lub gestu użytkownika można wykonać w alternatywny sposób (z wyjątkiem przypadków szczególnych)?",
               "testy": {
                 "1": [
-                  "Czy na każdej stronie internetowej funkcje wymagające ruchu urządzenia lub gestu użytkownika można również wykonać za pomocą [elementów interfejsu](#elementInterfejsu) użytkownika (z wyjątkiem przypadków szczególnych)?"
+                  "Czy na każdej stronie internetowej funkcjonalności wymagające ruchu urządzenia lub gestu użytkownika można również wykonać za pomocą [elementów interfejsu](#elementInterfejsu) użytkownika (z wyjątkiem przypadków szczególnych)?"
                 ],
                 "2": [
                   "Czy na każdej stronie internetowej funkcjonalności wymagające gestu użytkownika można również wykonać za pomocą [elementów interfejsu](#elementInterfejsu) użytkownika (z wyjątkiem przypadków szczególnych)?"
@@ -4124,7 +4124,7 @@
               "odniesienia": [
                 {
                   "wcag": [
-                    "9.2.5.4 / 2.5.4 Motion Actuation (A)"
+                    "9.2.5.4 / 2.5.4 Aktywowanie ruchem (A)"
                   ]
                 },
                 {

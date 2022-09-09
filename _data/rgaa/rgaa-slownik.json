@@ -1232,8 +1232,8 @@
           ]
         },
         {
-          "id": "podobnePozycjeNaListachWyboru",
-          "dt": "Podobne pozycje na listach wyboru",
+          "id": "podobneElementyNaListachWyboru",
+          "dt": "Podobne elementy na listach wyboru",
           "dd": [
             "Zestaw elementów na liście rozwijanej (znacznik `select`), które można pogrupować według ich charakteru. Grupowanie ma na celu identyfikację elementów, które mają być traktowane jako całość (na przykład lista filii pogrupowanych według regionów)."
           ]
@@ -1346,6 +1346,13 @@
           ]
         },
         {
+          "id": "procOdswiezania",
+          "dt": "Proces odświeżania",
+          "dd": [
+            "Technika mająca na celu zmianę zawartości jednego lub wielu elementów strony internetowej. Sposób odświeżania może polegać na automatycznym przeładowaniu strony lub odbywać się dynamicznie bez przeładowywania strony (na przykład przy pomocy AJAX). Użytkownik musi mieć możliwość niezależnego kontrolowania każdej procedury odświeżania."
+          ]
+        },
+        {
           "id": "przekierowanie",
           "dt": "Przekierowanie",
           "dd": [
@@ -1390,13 +1397,6 @@
             "Kolejność ta powinna być wykorzystana przy ustalaniu „dostępnej nazwy” przycisku. Przykładowo, nawet w przypadku, gdy istnieje atrybut `title` i fragment tekstu do którego odwołuje się `aria-labelledby`, należy ocenić, że „dostępną nazwę” przyciskowi nada fragment tekstu, do którego odnosi się `aria-labelledby`.",
             "Referencja: <a href=\"http://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-calculation\">Accessible name and description calculation</a>.",
             "Ponadto „dostępna nazwa” zostanie uznana za nieistotną, jeśli jej częścią nie będzie tekst widoczny na przycisku. Na przykład: <button aria-label=\"potwierdzenie zgłoszenia\">zatwierdź zgłoszenie</button> należy uznać  za niespełniające kryterium 11.2."
-          ]
-        },
-        {
-          "id": "procOdswiezania",
-          "dt": "Proces odświeżania",
-          "dd": [
-            "Technika mająca na celu zmianę zawartości jednego lub wielu elementów strony internetowej. Sposób odświeżania może polegać na automatycznym przeładowaniu strony lub odbywać się dynamicznie bez przeładowywania strony (na przykład przy pomocy AJAX). Użytkownik musi mieć możliwość niezależnego kontrolowania każdej procedury odświeżania."
           ]
         }
       ]
