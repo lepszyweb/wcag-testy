@@ -141,7 +141,7 @@ Strony, które powodują powstanie zobowiązań prawnych użytkownika, strony tr
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.3.4 oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 4.1.2 Nazwa, rola, wartość
-Zobacz [5. Treść zmienna](ICT_05_tresc-zmienna.md)
+Zobacz [5. Treść zmienna](ICT_05_tresc-zmienna)
 
 ##  Wskazówki dotyczące usprawniania procesu testowego
 -   W przypadku KS 3.3.1 dopuszczalne techniki obejmują: a) przeniesienie fokusu na komunikat o błędzie informujący użytkownika, że ​​poprzednie pole wymaga korekty i opisujące błąd, b) odświeżenie strony po przesłaniu formularza i wyświetlenie na górze strony opisów i lokalizacji błędów. **Uwaga**: Ponowne wyświetlenie formularza i wskazanie błędnych pól w formularzu jest niewystarczające, aby spełnić to wymaganie. Użytkownik nie powinien przeszukiwać formularza, aby dowiedzieć się, gdzie popełniono błędy.
