@@ -337,7 +337,7 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 -   W przypadku niektórych typów pól formularzy, takich jak pola wprowadzania tekstu, może być konieczne odsunięcie fokusu od pola, aby zaobserwować, czy nie następuje zmiana kontekstu.
 
 
-## Powiaddomeinia o zmianie
+## Powiadomienia o zmianie
 
 ### Test 5.E 4.1.2-powiadomienia-o-zmianie
 
@@ -656,5 +656,5 @@ Jeśli którekolwiek z poniższych stwierdzeń jest **prawdą**, wówczas strona
 - {% include ks/3-3-4.md %}
 - {% include ks/4-1-2.md %}
 
-- [10. Formularze](ICT-10-formularze.md)
-- [5. Treść zmienna](ICT-05-tresc-zmienna.md) |
+- [10. Formularze](ICT-10-formularze)
+- [5. Treść zmienna](ICT-05-tresc-zmienna) |
