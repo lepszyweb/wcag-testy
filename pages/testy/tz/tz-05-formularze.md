@@ -166,7 +166,7 @@ Jeśli poniższe twierdzenie jest **prawdą**, wówczas strona (treść) **speł
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
-| 1.3.1-etykiety-powiązane-programowo | 5.C     | Kombinacja dostępnej nazwy, dostępnego opisu i innych asocjacji programowych (np. powiązania nagłówków kolumn lub wierszy z kolumnami lub wierszami) opisuje każde pole wejściowe i zawierają wszystkie niezbędne instrukcje i wskazówki (tekstowe i graficzne). |
+| 1.3.1-etykiety-powiązane-programowo | 5.C     | Kombinacja dostępnej nazwy, dostępnego opisu i innych asocjacji programowych (np. powiązania nagłówków kolumn lub wierszy z kolumnami lub wierszami) opisuje każde pole formularza i zawiera wszystkie niezbędne instrukcje i wskazówki (tekstowe i graficzne). |
 
 
 #### Cel testu  5.C: 1.3.1-etykiety-powiązane-programowo

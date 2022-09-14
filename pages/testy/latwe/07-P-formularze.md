@@ -9,7 +9,7 @@ folder: testy/latwe
 ---
 
 ## Formularze, etykiety i błędy
-**Uwaga**: Ta sekcja jest bardziej złożona niż inne. Jeśli jest to zbyt skomplikowane, rozważ na razie pominięcie jej i przejście przez pozostałe testy.
+**Uwaga**: Ta sekcja jest bardziej złożona niż inne. Jeśli jest zbyt skomplikowana, rozważ na razie pominięcie jej i przejście przez pozostałe testy.
 
 Etykiety, dostęp z klawiatury, jasne instrukcje i skuteczne usuwanie błędów są ważne dla dostępności formularzy.
 Pola formularzy i inne formanty formularzy mają zwykle widoczne etykiety, takie jak „Adres e-mail:” jako etykieta pola tekstowego.
@@ -19,28 +19,31 @@ Pola formularzy i inne formanty formularzy mają zwykle widoczne etykiety, takie
 Po prawidłowym [oznakowaniu]() tych etykiet ludzie mogą wchodzić z nimi w interakcje za pomocą klawiatury, poleceń głosowych i&nbsp;czytników ekranu. Również sama etykieta staje się klikalna, co zwiększa obszar docelowy i ułatwia wybieranie małych przycisków opcji lub pól wyboru.
 
 ### Co robić:
-Znajdź dowolne formularze na stronie. Formularz może być pojedynczym polem tekstowym, takim jak Wyszukiwanie, lub może być złożonym formularzem z polami tekstowymi, przyciskami opcji, polami wyboru, listami rozwijanymi i przyciskami.
+Znajdź wszystkie formularze na stronie. Formularz może być pojedynczym polem tekstowym, takim jak Wyszukiwanie, lub może być grupą pól tekstowych, przycisków opcji, pól wyboru, list rozwijanych i przycisków.
 
 ### Co sprawdzać:
 
 #### Dostęp z klawiatury
--	Sprawdź, czy wszystkie kontrolki formularza są dostępne z klawiatury, wykonując testy [dostępu z klawiatury](images/andi/06_P_klawiatura.md), w tym sprawdzając, czy możesz dostać się do wszystkich pozycji na dowolnych listach rozwijanych.
+-	Sprawdź, czy wszystkie kontrolki formularza są dostępne z klawiatury, wykonując testy [dostępu z klawiatury](images/andi/06_P_klawiatura.md), 
+-	Sprawdź, czy możesz dostać się do wszystkich pozycji na dowolnych listach rozwijanych.
 
 #### Etykiety
--	Sprawdź, czy do każdej kontrolki formularza jest przypisana etykieta przy użyciu `label`, `for` i `id` , jak pokazano poniżej w sekcji [Sprawdzanie etykiet formularza](#/testy/07_P_formularze?id=sprawdzanie-etykiet-formularza-za-pomoc%c4%85-skryptozak%c5%82adki-form-labels). (Jest to najlepsza praktyka w większości przypadków, choć nie jest to wymóg, ponieważ etykietę kontroli formularza można powiązać na inne sposoby).
+-	Sprawdź, czy do każdej kontrolki formularza jest przypisana etykieta:
+    - za pomocą `label`, `for` i `id` , jak pokazano poniżej w sekcji [Sprawdzanie etykiet formularza](#/testy/07_P_formularze?id=sprawdzanie-etykiet-formularza-za-pomoc%c4%85-skryptozak%c5%82adki-form-labels). (Jest to najlepsza praktyka w większości przypadków, choć nie jest to wymóg, ponieważ etykietę kontroli formularza można powiązać na inne sposoby).
+	- umieszczenie pola formularza wewnątrz znacznika `label`
 -	Sprawdź, czy etykiety są prawidłowo umieszczone. W przypadku języków z kierunkiem pisma od lewej do prawej etykiety powinny zwykle być umieszczone:
--	Po lewej stronie pól tekstowych i list rozwijanych (lub bezpośrednio nad nimi).
+   -	Po lewej stronie pól tekstowych i list rozwijanych (lub bezpośrednio nad nimi).
 
-![Pole z etykietą Adres e-mail](images/andi/07_P_labels-email.png)
+   ![Pole z etykietą Adres e-mail](images/andi/07_P_labels-email.png)
 
--	Po prawej stronie przycisków opcji i pól wyboru.
+   -	Po prawej stronie przycisków opcji i pól wyboru.
 
-![Etykiety w grupie pól](images/andi/07_P_labels-grupapol.png )
+   ![Etykiety w grupie pól](images/andi/07_P_labels-grupapol.png )
 
 #### Wymagane pola i inne instrukcje
 -	Sprawdź, czy wszystkie pola wymagane (obowiązkowe) są wyraźnie wskazane.
--	Sprawdź, czy wskaźnik nie opiera się wyłącznie na kolorze, na przykład jeśli wymagane pola były oznaczone tylko czerwonymi etykietami, nie byłyby one dostępne dla osób, które nie widzą różnych kolorów.
--	Sprawdź, czy wskaźniki pól wymaganych (takie jak gwiazdki '\*' albo słowo „wymagane”) są zawarte w zaznaczonej etykiecie w&nbsp;przypadku pól tekstowych i list rozwijanych lub w legendzie przycisków opcji i pól wyboru, jak pokazano poniżej w sekcji [Sprawdzanie etykiet formularza]().
+-	Sprawdź, czy wskaźnik pola wymaganego nie opiera się wyłącznie na kolorze, na przykład jeśli wymagane pola były oznaczone tylko czerwonymi etykietami, nie byłyby one dostępne dla osób, które nie widzą różnych kolorów.
+-	Sprawdź, czy wskaźniki pól wymaganych (takie jak gwiazdki '\*' albo słowo „wymagane”) są zawarte w zaznaczonej etykiecie w&nbsp;przypadku pól tekstowych i list rozwijanych lub w legendzie przycisków opcji i pól wyboru, jak pokazano poniżej w sekcji [Sprawdzanie etykiet formularza](#sprawdzanie-etykiet-formularza).
 -	Sprawdź, czy instrukcje wypełniania formularza znajdują się w bezpośrednim sąsiedztwie formularza, na przykład:
     - Ogólne instrukcje powinny zwykle znajdować się na górze formularza lub w sekcji, której dotyczą.
     - Instrukcje dotyczące wypełniania pól powinny się znajdować tuż obok pola, nad polem lub pod polem (powinny być również powiązane programowo z polem, aby czytnik ekranu mógł je przekazać osobom niewidomym lub słabowidzącym)
