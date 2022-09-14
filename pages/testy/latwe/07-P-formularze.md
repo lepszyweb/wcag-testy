@@ -29,23 +29,21 @@ Znajdź wszystkie formularze na stronie. Formularz może być pojedynczym polem 
 
 #### Etykiety
 -	Sprawdź, czy do każdej kontrolki formularza jest przypisana etykieta:
-    - za pomocą `label`, `for` i `id` , jak pokazano poniżej w sekcji [Sprawdzanie etykiet formularza](#/testy/07_P_formularze?id=sprawdzanie-etykiet-formularza-za-pomoc%c4%85-skryptozak%c5%82adki-form-labels). (Jest to najlepsza praktyka w większości przypadków, choć nie jest to wymóg, ponieważ etykietę kontroli formularza można powiązać na inne sposoby).
-	- umieszczenie pola formularza wewnątrz znacznika `label`
+ - za pomocą `label`, `for` i `id` , jak pokazano poniżej w sekcji [Sprawdzanie etykiet formularza](#/testy/07_P_formularze?id=sprawdzanie-etykiet-formularza-za-pomoc%c4%85-skryptozak%c5%82adki-form-labels). (Jest to najlepsza praktyka w większości przypadków, choć nie jest to wymóg, ponieważ etykietę kontroli formularza można powiązać na inne sposoby).
+ - umieszczenie pola formularza wewnątrz znacznika `label`
 
 -	Sprawdź, czy etykiety są prawidłowo umieszczone. W przypadku języków z kierunkiem pisma od lewej do prawej etykiety powinny zwykle być umieszczone:
-
-   - Po lewej stronie pól tekstowych i list rozwijanych (lub bezpośrednio nad nimi). <br/> ![Pole z etykietą Adres e-mail](images/andi/07_P_labels-email.png)
-
-   - Po prawej stronie przycisków opcji i pól wyboru. <br/> ![Etykiety w grupie pól](images/andi/07_P_labels-grupapol.png )
+ - Po lewej stronie pól tekstowych i list rozwijanych (lub bezpośrednio nad nimi). <br/> ![Pole z etykietą Adres e-mail](images/andi/07_P_labels-email.png)
+ - Po prawej stronie przycisków opcji i pól wyboru. <br/> ![Etykiety w grupie pól](images/andi/07_P_labels-grupapol.png )
 
 #### Wymagane pola i inne instrukcje
 -	Sprawdź, czy wszystkie pola wymagane (obowiązkowe) są wyraźnie wskazane.
 -	Sprawdź, czy wskaźnik pola wymaganego nie opiera się wyłącznie na kolorze, na przykład jeśli wymagane pola były oznaczone tylko czerwonymi etykietami, nie byłyby one dostępne dla osób, które nie widzą różnych kolorów.
 -	Sprawdź, czy wskaźniki pól wymaganych (takie jak gwiazdki '\*' albo słowo „wymagane”) są zawarte w zaznaczonej etykiecie w&nbsp;przypadku pól tekstowych i list rozwijanych lub w legendzie przycisków opcji i pól wyboru, jak pokazano poniżej w sekcji [Sprawdzanie etykiet formularza](#sprawdzanie-etykiet-formularza).
 -	Sprawdź, czy instrukcje wypełniania formularza znajdują się w bezpośrednim sąsiedztwie formularza, na przykład:
-    - Ogólne instrukcje powinny zwykle znajdować się na górze formularza lub w sekcji, której dotyczą.
-    - Instrukcje dotyczące wypełniania pól powinny się znajdować tuż obok pola, nad polem lub pod polem (powinny być również powiązane programowo z polem, aby czytnik ekranu mógł je przekazać osobom niewidomym lub słabowidzącym)
-    - Wymagane formaty, takie jak daty (rok-miesiąc-dzień w formacie RRRR-MM-DD), powinny być zawarte oznakowanej etykiecie (to jest najlepsza praktyka, ale mogą być również zawarte w odpowiednio oznakowanej wskazówce, która będzie czytana przez czytnik ekranu.
+ - Ogólne instrukcje powinny zwykle znajdować się na górze formularza lub w sekcji, której dotyczą.
+ - Instrukcje dotyczące wypełniania pól powinny się znajdować tuż obok pola, nad polem lub pod polem (powinny być również powiązane programowo z polem, aby czytnik ekranu mógł je przekazać osobom niewidomym lub słabowidzącym)
+ - Wymagane formaty, takie jak daty (rok-miesiąc-dzień w formacie RRRR-MM-DD), powinny być zawarte oznakowanej etykiecie (to jest najlepsza praktyka, ale mogą być również zawarte w odpowiednio oznakowanej wskazówce, która będzie czytana przez czytnik ekranu.
 
 #### Obsługa błędów
 Obsługa niektórych prostych formularzy, takich jak pojedyncze pole wyszukiwania, może nie wiązać się z możliwością popełnienia błędu. Jeśli uważasz, że formularze na sprawdzanej stronie powinny zgłaszać komunikaty o błędach, spróbuj pozostawić wymagane pola puste lub wprowadzić nieprawidłowo sformatowane informacje (takie jak numer telefonu lub adres e-mail), a następnie prześlij formularz i:
