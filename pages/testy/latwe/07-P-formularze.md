@@ -32,13 +32,8 @@ Znajdź wszystkie formularze na stronie. Formularz może być pojedynczym polem 
     - za pomocą `label`, `for` i `id` , jak pokazano poniżej w sekcji [Sprawdzanie etykiet formularza](#/testy/07_P_formularze?id=sprawdzanie-etykiet-formularza-za-pomoc%c4%85-skryptozak%c5%82adki-form-labels). (Jest to najlepsza praktyka w większości przypadków, choć nie jest to wymóg, ponieważ etykietę kontroli formularza można powiązać na inne sposoby).
 	- umieszczenie pola formularza wewnątrz znacznika `label`
 -	Sprawdź, czy etykiety są prawidłowo umieszczone. W przypadku języków z kierunkiem pisma od lewej do prawej etykiety powinny zwykle być umieszczone:
-   -	Po lewej stronie pól tekstowych i list rozwijanych (lub bezpośrednio nad nimi).
-
-   ![Pole z etykietą Adres e-mail](images/andi/07_P_labels-email.png)
-
-   -	Po prawej stronie przycisków opcji i pól wyboru.
-
-   ![Etykiety w grupie pól](images/andi/07_P_labels-grupapol.png )
+   - Po lewej stronie pól tekstowych i list rozwijanych (lub bezpośrednio nad nimi). <br/> ![Pole z etykietą Adres e-mail](images/andi/07_P_labels-email.png)
+   - Po prawej stronie przycisków opcji i pól wyboru. <br/> ![Etykiety w grupie pól](images/andi/07_P_labels-grupapol.png )
 
 #### Wymagane pola i inne instrukcje
 -	Sprawdź, czy wszystkie pola wymagane (obowiązkowe) są wyraźnie wskazane.
