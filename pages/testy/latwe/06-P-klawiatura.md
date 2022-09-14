@@ -1,5 +1,5 @@
 ---
-title: Dostęp do klawiatury i widoczny fokus
+title: Dostęp z klawiatury i widoczny fokus
 tags: nawigacja
 
 sidebar: testy_sidebar
@@ -8,7 +8,7 @@ permalink: 06-P-klawiatura
 folder: testy/latwe
 ---
 
-## Dostęp do klawiatury i widoczny fokus
+## Dostęp z klawiatury i widoczny fokus
 
 Wiele osób nie może korzystać z myszy i w&nbsp;interakcjach z&nbsp;internetem musi polegać na klawiaturze.
 

@@ -16,7 +16,7 @@ Pola formularzy i inne formanty formularzy mają zwykle widoczne etykiety, takie
 
 ![Pole z etykietą Adres e-mail](images/andi/07_P_labels-email.png)
 
-Po prawidłowym [oznakowaniu]() tych etykiet ludzie mogą wchodzić z nimi w interakcje za pomocą klawiatury, poleceń głosowych i&nbsp;czytników ekranu. Również sama etykieta staje się klikalna, co zwiększa obszar docelowy i ułatwia wybieranie małych przycisków opcji lub pól wyboru.
+Po prawidłowym <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.znakowanie}}">oznakowaniu</a> tych etykiet ludzie mogą wchodzić z nimi w interakcje za pomocą klawiatury, poleceń głosowych i&nbsp;czytników ekranu. Również sama etykieta staje się klikalna, co zwiększa obszar docelowy i ułatwia wybieranie małych przycisków opcji lub pól wyboru.
 
 ### Co robić:
 Znajdź wszystkie formularze na stronie. Formularz może być pojedynczym polem tekstowym, takim jak Wyszukiwanie, lub może być grupą pól tekstowych, przycisków opcji, pól wyboru, list rozwijanych i przycisków.
@@ -24,7 +24,7 @@ Znajdź wszystkie formularze na stronie. Formularz może być pojedynczym polem 
 ### Co sprawdzać:
 
 #### Dostęp z klawiatury
--	Sprawdź, czy wszystkie kontrolki formularza są dostępne z klawiatury, wykonując testy [dostępu z klawiatury](images/andi/06_P_klawiatura.md), 
+-	Sprawdź, czy wszystkie kontrolki formularza są dostępne z klawiatury, wykonując testy [dostępu z klawiatury](06-P-klawiatura), 
 -	Sprawdź, czy możesz dostać się do wszystkich pozycji na dowolnych listach rozwijanych.
 
 #### Etykiety
