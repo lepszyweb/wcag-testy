@@ -31,7 +31,7 @@ Znajdź wszystkie formularze na stronie. Formularz może być pojedynczym polem 
 - Sprawdź, czy każde pole formularza ma etykietę lub instrukcję.
 - Sprawdź, czy każda etykieta lub instrukcja jest powiązana z opisywanym polem:
 
-  - za pomocą `label`, `for` i `id` , jak pokazano poniżej w sekcji [Sprawdzanie etykiet formularza](#sprawdzanie-etykiet-formularza-za-pomocą-skryptozakładki-form-labels). (Jest to najlepsza praktyka w większości przypadków, choć nie jest to wymóg, ponieważ etykietę kontroli formularza można powiązać na inne sposoby).
+  - za pomocą `label`, `for` i `id` , jak pokazano poniżej w sekcji [Sprawdzanie etykiet formularza](#sprawdzanie-etykiet-formularza). (Jest to najlepsza praktyka w większości przypadków, choć nie jest to wymóg, ponieważ etykietę kontroli formularza można powiązać na inne sposoby).
   - umieszczenie pola formularza wewnątrz znacznika `label`
 
 - Sprawdź, czy etykiety są prawidłowo umieszczone. W przypadku języków z kierunkiem pisma od lewej do prawej etykiety powinny zwykle być umieszczone:
@@ -73,6 +73,7 @@ Aby sprawdzić dostępność etykiet za pomocą skryptozakładki Form labels:
 3.	W oknie dialogowym zostanie wyświetlony komunikat z informacją, ile znaleziono kontrolek formularzy, w ilu wśród znalezionych stwierdzono błędy oraz ile wymaga przeglądu testera.   
 
    ![Komunikat o liczbie elementów formularza i etykiet](images/andi/07_P_labels-komunikat.png)
+   
    Okno dialogowe informuje o liczbie zidentyfikowanych błędów, całkowitej liczbie kontrolek formularza i liczbie kontrolek, które należy sprawdzić „ręcznie”. W kolejnych krokach musisz spojrzeć na tekst wokół etykiet. Jeśli jest to trudne, możesz pominąć kolejne kroki.
 4.	Sprawdź, czy obok każdej kontrolki znajduje się etykieta wskazująca w atrybucie for na ID kontrolki. Na dwóch ilustracjach poniżej pokazano kilka poprawnych przykładów. Zobacz, że np. w pierwszym przed etykietą „Pole  1” znajduje się wyróżniony kod `<label for id="id-pole1">`, a w kodzie pola masz dokładnie ten sam identyfikator: `<input id="id-pole1">`. Identyfikatory mogą być dowolne, ale muszą do siebie pasować.
 
