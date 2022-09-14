@@ -500,6 +500,9 @@ zestaw stron internetowych
 zgodność
 : {{site.data.glossary.zgodnosc}}
 
+znakowanie
+: {{site.data.glossary.znakowanie}}
+
 zmiany kontekstu
 : {{site.data.glossary.zmiany_kontekstu}}
 
