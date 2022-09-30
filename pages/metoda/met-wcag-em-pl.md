@@ -54,7 +54,7 @@ W wielu sytuacjach konieczna jest ocena dostępności strony internetowej, na pr
 
 ## Stosunek do Wymagań zgodności WCAG 2
 
-WCAG 2 definiują [wymagania dotyczące zgodności](wcag21#52-wymogi-dotyczące-zgodności) dla pojedynczych stron internetowych (a&nbsp;w&nbsp;niektórych przypadkach także zestawów stron internetowych), ale nie opisują, jak oceniać całe witryny. Określają również, w jaki sposób można składać opcjonalne [oświadczenia o zgodności](wcag21#53-oświadczenie-o-zgodności-opcjonalne) w&nbsp;odniesieniu do poszczególnych stron internetowych, serii stron internetowych, takich jak formularz wielostronicowy, oraz wielu powiązanych stron internetowych, takich jak witryna internetowa. Ma to zastosowanie do przypadków, gdy wszystkie strony internetowe objęte oświadczeniem o&nbsp;zgodności zostały ocenione lub utworzone w procesie zapewniającym, że każda spełnia wszystkie wymagania dotyczące zgodności.
+WCAG 2 definiują [wymagania dotyczące zgodności](https://www.w3.org/Translations/WCAG21-pl/#zgodnosc) dla pojedynczych stron internetowych (a&nbsp;w&nbsp;niektórych przypadkach także zestawów stron internetowych), ale nie opisują, jak oceniać całe witryny. Określają również, w jaki sposób można składać opcjonalną [deklarację zgodności](https://www.w3.org/Translations/WCAG21-pl/#conformance-claims) w&nbsp;odniesieniu do poszczególnych stron internetowych, serii stron internetowych, takich jak formularz wielostronicowy, oraz wielu powiązanych stron internetowych, takich jak witryna internetowa. Ma to zastosowanie do przypadków, gdy wszystkie strony internetowe objęte oświadczeniem o&nbsp;zgodności zostały ocenione lub utworzone w procesie zapewniającym, że każda spełnia wszystkie wymagania dotyczące zgodności.
 
 Oświadczenia o zgodności z WCAG 2 dla całych witryn nie można składać na podstawie oceny wybranego podzbioru stron internetowych i samej funkcjonalności, ponieważ zawsze możliwe jest, że na tych stronach pojawią się niezidentyfikowane błędy dotyczące zgodności. Jednak w większości zastosowań tej metodologii do oceny wybiera się tylko próbkę stron internetowych i&nbsp;funkcjonalności witryny. Dlatego w większości sytuacji samo zastosowanie tej metodologii nie daje wystarczających podstaw do stwierdzenia zgodności badanych witryn z  WCAG 2. Wskazówki dotyczące formułowania oświadczeń  na temat wyników zastosowania tej metodologii znajdują się w&nbsp;[kroku 5. c: Przygotuj oświadczenie o zgodności (opcjonalnie)](#krok-5c-przygotuj-oświadczenie-o-zgodności-opcjonalnie).
 
@@ -94,7 +94,7 @@ Do celów tego dokumentu obowiązują następujące terminy i definicje:
 
 Całe procesy
 
-: [Zobacz wymaganie zgodności WCAG 2.1 dla całych procesów.](wcag#523-całe-procesy)
+: [Zobacz wymaganie zgodności WCAG 2.1 dla całych procesów.](https://www.w3.org/Translations/WCAG21-pl/#cc3)
 
   Zgodność oraz poziomy zgodności określa się dla całych procesów.
 
@@ -134,7 +134,7 @@ Stan strony internetowej
 
 Strona internetowa
 
-: [Zobacz definicję strony internetowej w WCAG 2.1 ](slownik#s)
+: [Zobacz definicję strony internetowej w WCAG 2.1](https://www.w3.org/Translations/WCAG21-pl/#dfn-strony-internetowe)
 
   Nieosadzony zasób, uzyskany z pojedynczego identyfikatora URI za pomocą protokołu HTTP wraz z wszelkimi innymi zasobami użytymi do renderowania strony w oprogramowaniu użytkownika lub takimi, które potencjalnie mogą być użyte do renderowania.
 
@@ -158,9 +158,9 @@ Twórca witryny
 
 :  Osoba, zespół ludzi, organizacja, dział wewnętrzny organizacji lub inny podmiot zaangażowany w proces tworzenia witryny, w&nbsp;tym między innymi autorzy treści, projektanci, programiści, programiści, testerzy zapewniania jakości oraz menadżerowie projektu.
 
-Spolegliwa (technologia bazowa)
+Technologia obsługująca dostępność
 
-: [Zobacz definicję „relied upon” w glosariuszu WCAG 2.1 ](https://www.w3.org/TR/WCAG21/#dfn-relied-upon)
+: [Zobacz definicję technologii obsługującej dostępność w słowniku WCAG 2.1](https://www.w3.org/Translations/WCAG21-pl/#dfn-obs-ugujaca-dostepnosc)
 
   Technologia internetowa, które musi być obsługiwana, aby treść spełniała wymogi zgodności. Treść nie będzie zgodna, jeżeli taka technologia zostanie wyłączona z&nbsp;oceny lub nie jest obsługiwana.
 
@@ -176,7 +176,7 @@ Właściciel witryny
 
 Zgodność
 
-: [Porównaj definicję „zgodności” w WCAG 2.1](slownik#z)
+: [Porównaj definicję „zgodności” w WCAG 2.1](https://www.w3.org/Translations/WCAG21-pl#dfn-zgodnosci)
 
 Spełnienie wszystkich wymagań danej normy, wytycznych lub specyfikacji.
 
@@ -194,7 +194,7 @@ Metodologię tę może stosować indywidualny ewaluator posiadający umiejętno�
 
 ## Zaangażowanie użytkowników (opcjonalnie)
 
-Zaangażowanie osób niepełnosprawnych, w tym osób z&nbsp;trudnościami związanymi ze starzeniem się (które nie są doświadczonymi ewaluatorami lub członkami zespołu oceniającego), może pomóc w&nbsp;zidentyfikowaniu dodatkowych barier dostępności które nie są łatwe do wykrycia w&nbsp;drodze oceny eksperckiej. Chociaż nie jest to wymagane do stosowania tej metodologii, ewaluatorzy mogą czasem być zmuszeni do zaangażowania w&nbsp;proces oceny osób doświadczających autentycznych problemów z&nbsp;dostępnością. Więcej wykraczających poza zakres tego dokumentu wskazówek na temat angażowania użytkowników w&nbsp;ocenę dostępności cyfrowej znajduje się w&nbsp;opracowaniu [Involving Users in Evaluating Web Accessibility.](http://www.w3.org/WAI/eval/users)
+Zaangażowanie osób niepełnosprawnych, w tym osób z&nbsp;trudnościami związanymi ze starzeniem się (które nie są doświadczonymi ewaluatorami lub członkami zespołu oceniającego), może pomóc w&nbsp;zidentyfikowaniu dodatkowych barier dostępności które nie są łatwe do wykrycia w&nbsp;drodze oceny eksperckiej. Chociaż nie jest to wymagane do stosowania tej metodologii, ewaluatorzy mogą czasem być zmuszeni do zaangażowania w&nbsp;proces oceny osób doświadczających autentycznych problemów z&nbsp;dostępnością. Więcej wykraczających poza zakres tego dokumentu wskazówek na temat angażowania użytkowników w&nbsp;ocenę dostępności cyfrowej znajduje się w&nbsp;opracowaniu [Włączanie użytkowników do oceny dostępności cyfrowej](https://lepszyweb.pl/blog2/wlaczanie-uzytkownikow-do-oceny-dostepnosci-cyfrowej).
 
 ## Narzędzia oceny (opcjonalnie)
 
@@ -259,7 +259,7 @@ Niektóre witryny są dostępne w&nbsp;wielu wersjach, które są od siebie niez
 
 Responsywne techniki projektowania dostosowują kolejność, przepływ, a czasami także zachowanie treści, tak aby jak najlepiej pasowały do urządzenia, na którym są używane. Na przykład, aby dopasować zawartość i&nbsp;funkcjonalność do rozmiaru rzutni, rozdzielczości ekranu, orientacji ekranu i&nbsp;innych aspektów urządzenia mobilnego oraz kontekstu, w którym jest ono używane. W&nbsp;tej metodologii takie zmiany treści, funkcjonalności, wyglądu i&nbsp;zachowania nie są uważane za niezależne wersje stron internetowych, ale raczej za stany strony internetowej, które należy uwzględnić w zakresie oceny.
 
-**Uwaga**: Należy wziąć pod uwagę urządzenia mobilne, systemy operacyjne i&nbsp;technologie wspomagające w&nbsp;przypadku witryn korzystających z&nbsp;elastycznych technik projektowania, w&nbsp;szczególności w&nbsp;[kroku 1.c: Określ zestaw technologii bazowych](#krok-1c-określ-zestaw-technologii-bazowych-obsługujących-dostępność).
+**Uwaga**: Należy wziąć pod uwagę urządzenia mobilne, systemy operacyjne i&nbsp;technologie wspomagające w&nbsp;przypadku witryn korzystających z&nbsp;elastycznych technik projektowania, w&nbsp;szczególności w&nbsp;[kroku 1.c: Określ podstawowy zestaw technologii obsługujących dostępność](#krok-1c-określ-podstawowy-zestaw-technologii-obsługujących-dostępność).
 
 ## Konkretne konteksty oceny
 
@@ -336,7 +336,7 @@ Częścią inicjowania procesu ewaluacji jest określenie, który poziom zgodno�
 
 **Uwaga**: Często przydatna jest ocena wykraczająca poza wymagany poziom zgodności, aby uzyskać pełniejszy obraz dostępności witryny. Na przykład, chociaż witryna może nie spełniać określonego poziomu zgodności w&nbsp;pełni, ale może spełniać niektóre wymagania z&nbsp;wyższego poziomu zgodności. Posiadanie tych informacji może pomóc w&nbsp;bardziej efektywnym planowaniu przyszłych ulepszeń.
 
-### Krok 1.c. Określ zestaw technologii bazowych obsługujących dostępność
+### Krok 1.c. Określ podstawowy zestaw technologii obsługujących dostępność
 
 **Wymaganie metodologiczne 1.c**: Określ podstawowy zestaw kombinacji przeglądarek, technologii wspomagających i&nbsp;innych <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.program_uzytkownika | strip_html | replace: '*', ''}}">programów użytkownika</a> (np. odtwarzaczy mediów), w&nbsp;których treści i&nbsp;funkcje witryny mają być <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.obslugiwana_przez_dostepnosc | strip_html | replace: '*', ''}}">obsługiwane pod względem dostępności.</a> Na przykład, „FireFox z NVDA”, „Internet Explorer (IE) z JAWS” i&nbsp;„Apple z&nbsp;VoiceOver” mogą być takim podstawowym zestawem.
 
@@ -381,7 +381,7 @@ Zazwyczaj informację dotyczące tego kroku najlepiej jest uzyskać od właścic
 
 **Uwaga**: Aby wykonać ten krok, konieczne jest, aby osoba oceniająca miała dostęp do wszystkich istotnych części witryny. Na przykład, konieczne może być utworzenie kont lub zapewnienie w&nbsp;inny sposób dostępu do zastrzeżonych obszarów witryny internetowej, które są częścią oceny. Zapewnienie ewaluatorom takiego dostępu może wymagać szczególnych środków ostrożności w&nbsp;zakresie bezpieczeństwa i&nbsp;ochrony prywatności.
 
-### Krok 2.a: Zidentyfikuj wspólne strony internetowe witryny
+### Krok 2.a: Określ wspólne strony internetowe witryny
 
 **Wymaganie metodologiczne 2.a**: Określ strony wspólne dla całej ocenianej witryny (mogą to być także stany stron).
 
@@ -389,7 +389,7 @@ Przejrzyj ocenianą witrynę internetową, aby zidentyfikować wszystkie strony 
 
 Zazwyczaj są one połączone bezpośrednio z&nbsp;głównego punktu wejścia (strony głównej) docelowej witryny i&nbsp;często połączone z&nbsp;nagłówkiem, nawigacją i&nbsp;sekcją innych stron internetowych. Wynikiem tego kroku jest lista wszystkich wspólnych stron internetowych strony docelowej.
 
-### Krok 2.b: Zidentyfikuj niezbędne funkcjonalności
+### Krok 2.b: Określ niezbędne funkcjonalności
 
 **Wymaganie metodologiczne 2.b**: Zidentyfikuj niezbędne funkcjonalności badanej witryny.
 
@@ -405,7 +405,7 @@ Niektóre przykłady funkcjonalności strony internetowej obejmują:
  - wypełnianie i przesyłanie formularzy kontaktowych;
  - rejestracja konta użytkownika.
 
-### Krok 2.c: Zidentyfikuj różne typy stron internetowych
+### Krok 2.c: Określ różne typy stron internetowych
 
 **Wymaganie metodologiczne 2.c**: Zidentyfikuj wszystkie typy stron internetowych na witrynie i&nbsp;ich stany.
 
@@ -427,7 +427,7 @@ Niektóre przykłady różnych typów stron i&nbsp;stanów stron internetowych, 
  - strony, które zmieniają wygląd i&nbsp;zachowanie w&nbsp;zależności od użytkownika, urządzenia, przeglądarki, kontekstu i&nbsp;ustawień;
  - strony z dynamiczną treścią, komunikatami o błędach, oknami dialogowymi, wyskakującymi oknami i&nbsp;innymi interakcjami.
 
-### Krok 2.d: Zidentyfikuj użyte technologie internetowe
+### Krok 2.d: Określ użyte technologie internetowe
 
 **Wymaganie metodologiczne 2.d**: Zidentyfikuj użyte do tworzenia treści witryny technologie internetowe, na których opiera się zgodność.
 
@@ -435,7 +435,7 @@ Na tym etapie identyfikuje się technologie internetowe które muszą być obsł
 
 **Uwaga**: Tam, gdzie to możliwe, często przydatne jest również zidentyfikowanie wersji i&nbsp;konfiguracji użytego systemu zarządzania treścią, ponieważ może to być istotne dla wyjaśnienia wyników oceny. Istotne mogą być również wszelkie biblioteki i&nbsp;komponenty użyte do utworzenia strony internetowej, takie jak Dojo, jQuery i&nbsp;inne. Zwłaszcza w&nbsp;przypadku aplikacji internetowych znaczna część obsługi dostępności jest wbudowana w biblioteki i&nbsp;komponenty, a&nbsp;ocena może stać się bardziej efektywna i&nbsp;wydajna po ich zidentyfikowaniu.
 
-### Krok 2.e: Zidentyfikuj inne istotne strony internetowe
+### Krok 2.e: Określ inne istotne strony internetowe
 
 **Wymóg metodologiczny 2.e**: Zidentyfikuj inne strony i stany stron internetowych, które są istotne dla osób z&nbsp;niepełnosprawnościami i&nbsp;dla dostępności witryny.
 
