@@ -6,7 +6,7 @@
   {% for folder in entry.folders %}
   {% if folder.output contains "web" %}
   <li>
-      <a href="./#">{{folder.title}}</a>
+      <a href="#">{{folder.title}}</a>
       <ul>
           {% for folderitem in folder.folderitems %}
           {% if folderitem.output contains "web" %}
@@ -23,7 +23,7 @@
           {% for subfolders in folderitem.subfolders %}
           {% if subfolders.output contains "web" %}
           <li class="subfolders">
-              <a href="./#">{{ subfolders.title }}</a>
+              <a href="#">{{ subfolders.title }}</a>
               <ul>
                   {% for subfolderitem in subfolders.subfolderitems %}
                   {% if subfolderitem.output contains "web" %}
@@ -49,7 +49,7 @@
       {% endfor %}
       <!-- if you aren't using the accordion, uncomment this block:
          <p class="external">
-             <a href="./#" id="collapseAll">Collapse All</a> | <a href="./#" id="expandAll">Expand All</a>
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
          </p>
          -->
 </ul>
