@@ -9,9 +9,9 @@ folder: testy/tz
 
 ## Cel procedury testowej
 
-Celem tej procedury testowej jest sprawdzenie, czy naturalny język lub języki używane na stronie internetowej zostały poprawnie programowo określone.
+Celem tej procedury testowej jest sprawdzenie, czy naturalny język strony i języki części używane na stronie internetowej zostały poprawnie programowo określone.
 
-Poprawne programowe określenie języka lub języków naturalnych używanych na stronie zapewnia, że technologie wspomagające, np. czytniki ekranu, będą poprawnie  interpretować i prezentować informacje.  
+Poprawne programowe określenie języka lub języków naturalnych używanych na stronie zapewnia, że technologie wspomagające, np. czytniki ekranu, będą poprawnie interpretować i prezentować informacje.  
 
 **Uwaga**: „Język naturalny” odnosi się do języka, którego ludzie używają do komunikowania się ze sobą, w przeciwieństwie do języków kodowania używanych do tworzenia oprogramowania i treści internetowych.
 
@@ -41,32 +41,32 @@ Wyniki tego testu służą do ustalenia, czy spełnione jest kryterium sukcesu W
 
 ### Metody i narzędzia testowe 
 1.	ANDI: struktury > więcej szczegółów > język strony.
-2.	[Rejestr Podznaczników Języka (IANA, Internet Assigned Numbers Authority)](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) do sprawdzania poprawności dwu- lub trzyliterowych kodów języka używanych na stronie.
+2.	[Rejestr Podznaczników Języka (IANA, Internet Assigned Numbers Authority)](https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry) do sprawdzania poprawności dwu- lub trzyznakowych kodów języka używanych na stronie.
 
 
 ### Identyfikacja treści
 Aby określić, co należy przetestować:
 
 1.  Określ domyślny naturalny język strony (język, w którym prezentowana jest większość strony).
+2.  Jeśli tekst nie jest widoczny, określ język na podstawie napisów rozszerzonych dla multimediów, lub transkrypcji treści audio, lub tekstów alternatywnych dla obrazów.
 
-2.  Jeśli tekst nie jest widoczny , określ język na podstawie napisów kodowanych dla multimediów, transkrypcji tylko dla dźwięku lub tekstu alternatywnego dla obrazów.
 
 **Uwaga**: „Język naturalny” odnosi się do języka, którego ludzie używają do komunikowania się ze sobą, w przeciwieństwie do języków kodowania używanych do tworzenia oprogramowania i treści internetowych.	
 
 ### Zastosowanie
-Nie możesz uznać (ocenić) wyniku tego testu jako **nie ma zastosowania** (**ND**). Wszystkie strony powinny zawierać pewną treść tekstową, nawet jeśli ta treść jest dostępna tylko programowo. Jeśli tekst nie jest od razu widoczny, sprawdź język związany z napisami kodowanymi dla multimediów, transkrypcję tylko dla dźwięku lub alternatywny tekst dla obrazów.
+Nie możesz uznać (ocenić) wyniku tego testu jako **nie ma zastosowania** (**ND**). Wszystkie strony powinny zawierać pewną treść tekstową, nawet jeśli ta treść jest dostępna tylko programowo. Jeśli tekst nie jest od razu widoczny, sprawdź język związany z napisami rozszerzonymi dla multimediów, transkrypcje tylko dla dźwięku lub teksty alternatywne dla obrazów.
 
 ### Jak testować
 
 1.  Uruchom ANDI: struktury.
 
-2.  2.	Kliknij łącze „więcej szczegółów”, a następnie „język strony”.
+2.  Kliknij łącze „więcej szczegółów”, a następnie „język strony”.
 
     1.  ANDI wyświetli okno dialogowe z listą wartości atrybutu `lang` przypisanego do elementu `<html>` strony.
 
     2.  Jeśli nie ma `lang` lub atrybut jest pusty, ANDI wyświetli w  oknie dialogowym ostrzeżenie.
 
-3.  Zapoznaj się z [Rejestrem Podznaczników Języka (IANA, Internet Assigned Numbers Authority)](https://www.iana.org/assignments/language-subtag-registry),  aby ustalić, czy język jest poprawnie zdefiniowany i odpowiada domyślnemu  naturalnemu językowi strony.
+3.  Zapoznaj się z [Rejestrem Podznaczników Języka (IANA, Internet Assigned Numbers Authority)](https://www.iana.org/assignments/language-subtag-registry), aby ustalić, czy język jest poprawnie zdefiniowany i odpowiada domyślnemu  naturalnemu językowi strony.
 
     1. Naciśnij klawisze CTRL + F, aby otworzyć funkcję wyszukiwania w przeglądarce, i wpisz domyślny język strony.
 	
@@ -76,9 +76,15 @@ Nie możesz uznać (ocenić) wyniku tego testu jako **nie ma zastosowania** (**N
 
 Jeśli **oba** twierdzenia poniżej są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 3.1.1:
 
-1.  Domyślny język podstawowy jest poprawnie określony według [IANA](https://www.iana.org/assignments/language-subtag-registry), **oraz**
+1.  Domyślny język podstawowy jest określony poprawnie - zgodnie z [IANA](https://www.iana.org/assignments/language-subtag-registry), **oraz**
 
 2.  Język określony w atrybucie `lang` pasuje do domyślnego języka naturalnego używanego na stronie.
+
+
+Domyślny język podstawowy jest określony poprawnie (zgodnie z IANA), oraz
+Język określony w atrybucie lang pasuje do domyślnego języka naturalnego używanego na stronie
+
+
 
 ### Uwaga
 
@@ -93,9 +99,7 @@ Jeśli **oba** twierdzenia poniżej są **prawdą**, wówczas strona (treść) *
 
 | Nazwa testu | ID testu | Wymaganie testowe |
 |------------------------|---------|------------------------------------------|
-| 3.1.2-okreslono-jezyk-czesci | 11.B    | Język naturalny każdego segmentu treści, napisanego w innym niż domyślny język strony, może być określony programowo. |
-
-
+| 3.1.2-okreslono-jezyk-czesci | 11.B    | Język naturalny każdego segmentu treści, napisanego w innym niż domyślny język strony, musi być określony programowo. |
 
 
 ### Cel testu 11.B 3.1.2-okreslono-jezyk-czesci
@@ -118,21 +122,23 @@ Aby określić, co należy przetestować:
 
 **Uwaga:**
 
--   Nazwy własne, , terminy techniczne, słowa o nieokreślonym języku oraz słowa lub zwroty, które stały się częścią słownika bezpośrednio sąsiadującego tekstu, nie wymagają atrybutu `lang` innego niż domyślny język strony i nie są objęte tym testem.
+-   Nazwy własne, terminy techniczne, słowa o nieokreślonym języku oraz słowa lub zwroty, które stały się częścią słownika bezpośrednio sąsiadującego tekstu, nie wymagają atrybutu `lang` innego niż domyślny język strony i nie są objęte tym testem.
+
+
 
 ### Zastosowanie
-Test 11.B 3.1.2-okreslono-jezyk-czesci  **nie ma zastosowania**, jeśli 
+Test 11.B 3.1.2-okreslono-jezyk-czesci **nie ma zastosowania**, jeśli: 
 
 - Na stronie jest tylko jeden język.
-- Segment tekstu to bełkot.
-- Tekst jest nazwą własną.
-- Tekst jest terminem technicznym.
-- Segment tekstu jest powszechnie rozumianym słowem lub frazą.
+- Innojęzyczny fragment tekstu to bełkot.
+- Innojęzyczny fragment jest nazwą własną.
+- Innojęzyczny fragment jest terminem technicznym.
+- Innojęzyczny fragment jest powszechnie rozumianym słowem lub frazą.
 
 **Wskazówki**:
 
-- Jednym ze sposobów ustalenia, czy słowo w innym języku naturalnym jest powszechnie rozumiane, jest określenie, czy pojawi się ono w słowniku dla podstawowego języka strony.
-- Określenie języka dla części powszechnie rozumianej nie jest zabronione. Jeśli jednak zostanie to zrobione, wartość języka musi być poprawna.
+- Jednym ze sposobów ustalenia, czy słowo w innym języku naturalnym jest powszechnie rozumiane, jest określenie, czy pojawi się ono w słowniku podstawowego języka strony.
+- Określenie języka dla fragmentu, który jest powszechnie rozumiany, nie jest zabronione. Jeśli jednak zostanie to zrobione, wartość języka musi być poprawna.
 
 ### Jak testować
 
@@ -142,9 +148,9 @@ Test 11.B 3.1.2-okreslono-jezyk-czesci  **nie ma zastosowania**, jeśli
 
     1.  Najedź myszką lub tabulatorem, aby odsłonić początek i koniec elementu.
 
-    2.  ustal, czy cały innojęzyczny segment znajduje się wewnątrz elementu z atrybutem `lang`.
+    2.  Ustal, czy cały innojęzyczny fragment znajduje się wewnątrz elementu z atrybutem `lang`.
 
-3.  Zapoznaj się z [Rejestrem Podznaczników Języka (IANA, Internet Assigned Numbers Authority)](https://www.iana.org/assignments/language-subtag-registry),  aby ustalić, czy język jest poprawnie zdefiniowany i odpowiada domyślnemu naturalnemu językowi innojęzycznego segmentu treści.
+3.  Zapoznaj się z [Rejestrem Podznaczników Języka (IANA, Internet Assigned Numbers Authority)](https://www.iana.org/assignments/language-subtag-registry), aby ustalić, czy język jest poprawnie zdefiniowany i odpowiada domyślnemu naturalnemu językowi innojęzycznego segmentu treści.
 
     1. Naciśnij klawisze CTRL + F, aby otworzyć funkcję wyszukiwania w przeglądarce, i wpisz domyślny język strony.
 	
@@ -155,7 +161,7 @@ Test 11.B 3.1.2-okreslono-jezyk-czesci  **nie ma zastosowania**, jeśli
 
 Jeśli **oba** twierdzenia poniżej są **prawdą**, wówczas strona (treść) **spełnia** wymaganie testowe, jest **zgodna** z KS 3.1.2:
 
-1.  Język segmentu treści, który różni się od podstawowego domyślnego języka strony, jest poprawnie określony według [IANA](https://www.iana.org/assignments/language-subtag-registry), **oraz** 
+1.  Język fragmentu treści, który różni się od podstawowego domyślnego języka strony, jest poprawnie określony według [IANA](https://www.iana.org/assignments/language-subtag-registry), **oraz** 
 2.	Język określony w atrybucie `lang` pasuje do domyślnego języka naturalnego użytego w innojęzycznym segmencie strony na stronie.
 
 

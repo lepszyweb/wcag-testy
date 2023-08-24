@@ -12,7 +12,7 @@ folder: testy/itc
 - {% include ks/3-1-2.md %}
 
 ## Uzasadnienie metody badania
-Domyślny język naturalny (ludzki) dla każdej strony musi być zidentyfikowany programowo. Fragmenty, które używają języka innego niż domyślny, muszą zostać określone programowo.
+Domyślny język naturalny (ludzki) dla każdej strony musi być określony programowo. Fragmenty, które używają języka innego niż domyślny, muszą zostać określone programowo.
 
 ## Ograniczenia, założenia lub wyjątki
 -   W przypadku treści internetowych atrybut języka `lang` może być atrybutem wielu znaczników HTML. Jego struktura to `<[znacznik HTML] lang="[podstawowy podznacznik języka\]">`. Podstawowy podznacznik języka jest pierwszym 2 lub 3 znakowym kodem w wartości atrybutu `lang`. Dialekty określone w podznacznikach języka (dodatkowe 2 lub 3 znaki) nie są częścią tego testu.
@@ -27,23 +27,24 @@ Strony z tekstem (w tym z tekstem alternatywnym).
 1.  Przeglądając treść strony, zidentyfikuj domyślny naturalny język strony. Domyślnym jest język, w którym prezentowana jest większość treści.
 2.  Sprawdź, czy w znaczniku `<html>` strony zdefiniowany jest atrybut `lang`.
 3.  Sprawdź, czy wartość atrybutu `lang` odpowiada określonemu domyślnemu naturalnemu językowi strony.
-    1.  Podznacznik języka podstawowego jest pierwszym 2 lub 3 znakowym kodem w wartości atrybutu *lang*. (Nie sprawdzaj dodatkowych specyfikacji języka, które mogą występować po podznaczniku języka podstawowego).
+    1.  Podznacznik języka podstawowego jest pierwszym 2- lub 3-znakowym kodem w wartości atrybutu *lang*. (Nie sprawdzaj dodatkowych specyfikacji języka, które mogą występować po podznaczniku języka podstawowego).
     2.  Podznacznik języka podstawowego musi być zgodny z urzędowym rejestrem kodów [IANA Language subtag registry](http://www.iana.org/assignments/language-subtag-registry).
 
 ### Wynik testów
-Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.1.1  oraz wymaganie podstawowe nr 15 kończy się niepowodzeniem.
+Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.1.1 oraz wymaganie podstawowe nr 15 kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 3.1.2 Język części
 
 ### Identyfikacja treści
-Zawartość tekstowa, która różni się od domyślnego naturalnego języka strony, w tym teksty alternatywne dla zawartości nietekstowej.
+Treść tekstowa, która różni się od domyślnego naturalnego języka strony, w tym teksty alternatywne dla treści nietekstowych.
 
 ### Instrukcja testowania
 1.  Zidentyfikuj naturalny język treści tekstowej, inny niż domyślny naturalny język strony.
 2.  Sprawdź, czy dla każdego elementu HTML zawierającego segment treści w innym języku niż domyślny naturalny język strony, określony został atrybut `lang`. Uwaga: Element bez ustawionego języka dziedziczy atrybut języka od elementów nadrzędnych.
 3.  Sprawdź, czy dla segmentów treści w innym języku wartość atrybutu `lang` jest zdefiniowana poprawnie.
-    1.  Podznacznik języka podstawowego jest pierwszym 2 lub 3 znakowym kodem w wartości atrybutu `lang`. (Nie sprawdzajj dodatkowych specyfikacji języka, które mogą występować po podznaczniku języka podstawowego).
+    1.  Podznacznik języka podstawowego jest pierwszym 2- lub 3-znakowym kodem w wartości atrybutu `lang`. (Nie sprawdzajj dodatkowych specyfikacji języka, które mogą występować po podznaczniku języka podstawowego).
     2.  Podznacznik języka podstawowego musi być zgodny z urzędowym rejestrem kodów [IANA Language subtag registry](http://www.iana.org/assignments/language-subtag-registry).
+
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.1.2  oraz wymaganie podstawowe nr 15 kończy się niepowodzeniem.
 

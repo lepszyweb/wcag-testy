@@ -5,7 +5,6 @@
 - [Accessible Publishing Knowledge Base. Page Title](http://kb.daisy.org/publishing/docs/html/title.html)
 - [Using TITLE for Accessibility](https://www.accessibilityoz.com/products/ozwiki/page-title-accessibility-failures/)
 - [Titles for Web Pages](https://accessibility.psu.edu/titleshtml/)
-- [Providing an Informative Title](https://www.washington.edu/accessibility/page-or-document-titles/)
 - [Page titles](https://accessibility.18f.gov/page-titles/)
 - [&lt;title&gt;: MDN. The Document Title element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 - [Accessible page title in a single-page React application](https://hugogiraudel.com/2020/01/15/accessible-title-in-a-single-page-react-application/)
