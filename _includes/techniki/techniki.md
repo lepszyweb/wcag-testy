@@ -12,6 +12,7 @@
 [F41: Niespełnienie kryterium sukcesu 2.2.1, 2.2.4 i 3.2.5 z powodu zastosowania meta refresh w celu przeładowania strony](https://www.w3.org/WAI/WCAG21/Techniques/failures/F41)
 [F47: Niespełnienie kryterium sukcesu 2.2.2 z powodu użycia elementu migającego](https://www.w3.org/WAI/WCAG21/Techniques/failures/F47)
 [F52: Niespełnienie kryterium sukcesu 3.2.1 i 3.2.5 z powodu otwarcia nowego okna zaraz po załadowaniu nowej strony](https://www.w3.org/WAI/WCAG21/Techniques/failures/F52)
+[F65: Niespełnienie kryterium sukcesu 1.1.1 z powodu pominięcia atrybutu alt lub tekstu alternatywnego w elementach img, elementach area i polach typu \"image\"](https://www.w3.org/TR/WCAG20-TECHS/F65.html)
 [F77: Niespełnienie kryterium sukcesu 4.1.1 z powodu zduplikowanych wartości ID](https://www.w3.org/WAI/WCAG21/Techniques/failures/F77)
 [F95: Niespełnienie kryterium sukcesu 1.4.13 z powodu braku możliwości wyświetlenia treści po najechaniu kursorem](https://www.w3.org/WAI/WCAG21/Techniques/failures/F95)
 [F96: Błąd spowodowany dostępną nazwą, która nie zawiera widocznego tekstu etykiety](https://www.w3.org/WAI/WCAG21/Techniques/failures/F96'

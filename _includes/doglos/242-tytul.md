@@ -19,8 +19,8 @@ Tytuły stron internetowych są:
 ## Kto odnosi korzyści z tytułów?
 Tytuły są użyteczne dla wszystkich użytkowników, ale szczególnie przydatne są dla:
 -  osób niewidomych i słabowidzących, ponieważ są zawsze pierwszym elementem dokumentu ogłaszanym przez oprogramowanie do odczytywania ekranu.
--  osób z problemami poznawczymi, ograniczoną pamięcią krótkotrwałą i trudnościami trudnościami w&nbsp;czytaniu, bo pomagają rozróżniać dokumenty, gdy otwartych jest wiele okien lub kart,
--  osób z ograniczeniami ruchu, które podczas nawigacji między dokumentami kierują się dźwiękiem, bo pomagają je rozróżniać.
+-  osób z problemami poznawczymi, ograniczoną pamięcią krótkotrwałą i trudnościami w&nbsp;czytaniu, bo pomagają rozróżniać dokumenty, gdy otwartych jest wiele okien lub kart,
+-  osób z ograniczeniami ruchu, które podczas nawigacji między dokumentami kierują się dźwiękiem, bo pomaga je rozróżniać.
 
 {% include note.html content="Gdy brakuje tytułu, technologie pomocnicze ogłaszają zwykle nazwę pliku dokumentu, która często nie ma znaczenia." %}
 
@@ -32,7 +32,7 @@ Tytuły są użyteczne dla wszystkich użytkowników, ale szczególnie przydatne
 
 KS 2.4.2 Tytuł strony zapewnia zgodność z zasadą **funkcjonalności**, ponieważ tytuły pomagają osobom z&nbsp;niepełnosprawnościami łatwo uzyskać informacje o celu i treści strony internetowej, dokumentu lub okna aplikacji. Opisowe tytuły stron, dokumentów i okien aplikacji pomagają użytkownikom szybko zorientować się w ich treści i celu, eliminując potrzebę czytania lub interpretowania treści, aby uzyskać te informacje. Opisowe tytuły stron, dokumentów i okien aplikacji ułatwiają nawigację, gdy jednocześnie otwartych jest wiele okien, dokumentów lub stron internetowych.
    
-Tytuły muszą opisywać temat lub przeznaczenie strony, dokumentu  lub okna aplikacji prostym i zwięzłym językiem.
+Tytuły muszą opisywać temat lub przeznaczenie strony, dokumentu lub okna aplikacji prostym i zwięzłym językiem.
 
 W przypadku dokumentów elektronicznych tytuły mogą być oparte na nazwach plików, jeśli są one wystarczająco opisowe. W przypadku oprogramowania komputerowego (aplikacji natywnych, destkopowych) tytuły są zwykle nazwą głównego okna aplikacji (okna najwyższego poziomu) lub odzwierciedlają przeznaczenie określonych ekranów.  
 
