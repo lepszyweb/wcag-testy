@@ -284,14 +284,15 @@ Powyższy schemat toku pracy przedstawia pięć następujących po sobie kroków
 
 ### Krok 1: Ustal zakres oceny  {#step1}
 
-**Wymóg metodologiczny 1 {#req1} :** Ustal zakres oceny zgodnie z [wymogiem metodologicznym 1.a](#req1a), [wymogiem metodologicznym 1.b](#req1b) i [wymogiem metodologicznym 1.c](#req1c) oraz opcjonalnie z [wymogiem metodologicznym 1.d](#req1d).
+<a id="#req1"></a>
+**Wymóg metodologiczny 1:** Ustal zakres oceny zgodnie z [wymogiem metodologicznym 1.a](#req1a), [wymogiem metodologicznym 1.b](#req1b) i [wymogiem metodologicznym 1.c](#req1c) oraz opcjonalnie z [wymogiem metodologicznym 1.d](#req1d).
 
 Na tym etapie określa się ogólny zakres oceny. Jest to podstawowy krok, który wpływa na kolejne etapy procedury oceny.  Najlepiej ustalić zakres oceny w porozumieniu z zlecającym ocenę (który może, ale _nie musi_ być właścicielem witryny), aby zagwarantować spełnienie oczekiwań co do zakresu oceny. Na tym etapie może być konieczne wstępne rozpoznanie witryny, aby lepiej poznać jej specyfikę i wymagania oceny.  Szczegółowa eksploracja witryny jest przeprowadzana w [kroku 2: Poznaj ocenianą witrynę](#step2).
 	
 
 #### Krok 1.a: Określ zakres stron witryny  {#step1a}
 
-<p id="#req1a"><strong>Wymóg metodologiczny 1.a</strong>: Zdefiniuj [witrynę internetową](#website) do oceny zgodnie z [zakresem stosowania metodologii](#applicability), tak aby dla każdej [strony internetowej](#webpage) było jasne, czy znajduje się ona w zakresie stron podlegających ocenie.</p>
+<p id="#req1a"><strong>Wymóg metodologiczny 1.a</strong>: Zdefiniuj <a href="#website">witrynę internetową</a> do oceny zgodnie z [zakresem stosowania metodologii](#applicability), tak aby dla każdej <a href="#webpage">strony internetowej było jasne, czy znajduje się ona w zakresie stron podlegających ocenie.</p>
 
 Na tym etapie określa się witrynę docelową (strony i stany stron internetowych podlegające ocenie). Zakres witryny jest określany zgodnie z warunkami określonymi w sekcji [Zakres zastosowania](#applicability).
 
