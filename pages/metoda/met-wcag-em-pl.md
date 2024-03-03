@@ -657,7 +657,7 @@ Raporty nadające się do odczytu maszynowego ułatwiają przetwarzanie wyników
 
 * * *
 
-## Załączniki  {appendices}
+## Załączniki  {#appendices}
 
 ### Dodatek A: Współtwórcy  {#contributors}
 
@@ -665,7 +665,7 @@ Dawni i obecni aktywni uczestnicy projektu [Grupy Roboczej ds. Metodologii Oceny
 
 ### Dodatek B: Bibliografia  {#references}
 
-    <dl>
+<dl>
         <dt id="atag20">ATAG20</dt>
         <dd>Richards J, Spellman J, Treviranus J, eds (2013). Wytyczne dla dostępności narzędzi autorskich 2.0. W3C. Dostępne pod adresem: <a href="http://www.w3.org/TR/ATAG20/">http://www.w3.org/TR/ATAG20/</a></dd>
         <dt id="easychecks">Łatwe testy</dt>
@@ -690,4 +690,4 @@ Dawni i obecni aktywni uczestnicy projektu [Grupy Roboczej ds. Metodologii Oceny
         <dd>Cooper M, Kirkpatrick A, O Connor J, eds (2014). Techniki i błędy dla Wytycznych dla dostępności treści internetowych 2.0. W3C. Dostępne pod adresem: <a href="http://www.w3.org/TR/WCAG20-TECHS/">http://www.w3.org/TR/WCAG20-TECHS/</a></dd>
         <dt id="understanding-wcag20">Objaśnienia-WCAG20</dt>
         <dd>Cooper M, Kirkpatrick A, O Connor J, eds (2014). Objaśnienia WCAG 2.0 - Przewodnik po zrozumieniu i wdrożeniu Wytycznych dla dostępności treści internetowych 2.0. W3C. Dostępne pod adresem: <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/">http://www.w3.org/TR/UNDERSTANDING-WCAG20/</a></dd>
-    </dl>
+</dl>
