@@ -95,7 +95,7 @@ Jest to uznawany na całym świecie standard wyjaśniający, w jaki sposób spra
 
 Na potrzeby niniejszego dokumentu stosujemy następujące terminy i definicje:
 
-    <dl>
+<dl>
         <dt id="complete">całe procedury</dt>
         <dd>Z <a href="http://www.w3.org/TR/WCAG20/#cc3">wymagań zgodności <acronym>WCAG</acronym> 2.0 dla całych procedur</a>: <br /><q><em>Gdy strona internetowa jest jedną z&nbsp;serii stron przedstawiających procedurę (czyli sekwencję kroków niezbędną, aby wykonać jakieś zadanie), to wszystkie strony przedstawiające etapy procedury są zgodne na deklarowanym poziomie lub wyższym. (Zgodność nie jest możliwa na deklarowanym poziomie, jeżeli którakolwiek strona w procedurze nie jest zgodna na tym poziomie lub wyższym).</em></q></dd>
 
@@ -151,7 +151,7 @@ Na potrzeby niniejszego dokumentu stosujemy następujące terminy i definicje:
             <p class="note" style="margin-top: 0;"><strong>Uwaga:</strong> W wielu przypadkach zleceniodawcą oceny może być właściciel witryny internetowej lub jej twórca, w innych przypadkach może to być inny podmiot, taki jak zamawiający lub właściciel ankiety monitorującej dostępność. </p>
         </dd>
 
-    </dl>
+</dl>
 	
 ## Korzystanie z metodologii  {#usage}
 
@@ -211,7 +211,7 @@ W powyższym przykładzie, jeśli witryna uniwersytetu jest wyznaczona do oceny 
 
 Metodologia ma zastosowanie do szerokiej gamy typów witryn internetowych. Poniżej przedstawiono uwagi dotyczące konkretnych sytuacji, pamiętając, że witryny internetowe mogą łączyć łączyć kilka różnych kryteriów. Zatem poniższa lista nie jest wyłączna i wyczerpująca:
 
-    <dl>
+<dl>
         <dt id="smallsites">Małe witryny</dt>
         <dd>W przypadku witryn z kilkoma stronami procedura próbkowania zdefiniowana w <a href="#step3" class="termref">kroku 3: Wybierz reprezentatywną próbkę stron</a> prawdopodobnie doprowadzi do wybrania większości lub wszystkich stron internetowych z ocenianej witryny. W przypadkach, w których można ocenić wszystkie strony internetowe, procedurę próbkowania można pominąć, a za wybraną próbkę w pozostałych krokach uznaje się całą witrynę.</dd>
         <dt id="applications">Aplikacje internetowe</dt>
@@ -242,13 +242,13 @@ Metodologia ma zastosowanie do szerokiej gamy typów witryn internetowych. Poni�
                 <strong>Uwaga:</strong> W przypadku witryn korzystających z elastycznych technik projektowania należy wziąć pod uwagę urządzenia mobilne, systemy operacyjne i technologie wspomagające, w szczególności podczas <a href="#step1c" class="termref">kroku 1.c:  Określ poziom bazowy obsługi dostępności</a>.
             </p>
         </dd>
-    </dl>
+</dl>
 
 ### Konkretne konteksty oceny  {#considerations}
 
 Ta metodologia ma być elastyczna, aby ułatwić jej zastosowanie w różnych sytuacjach i kontekstach.  Poniższe rozważania odnoszą się do konkretnych sytuacji i kontekstów oceny.
 
-    <dl>
+<dl>
         <dt id="selfassessment">Samoocena zgodności</dt>
         <dd>Wewnętrzni oceniający oraz oceniający, którzy biorą udział w procesie programowania, często mają łatwiejszy dostęp do programistów i opiekunów witryn, środowisk programistycznych i hostingowych, narzędzi autorskich oraz materiałów wykorzystywanych do programowania i konserwacji. W szczególności przypadki użycia, analizy projektu, specyfikacje techniczne i dokumentacja oraz zasoby testowe mogą zwiększyć efektywność oceny i powinny być wykorzystywane tam, gdzie to możliwe.</dd>
         <dt id="certification">Zewnętrzna ocena zgodności</dt>
@@ -272,7 +272,7 @@ Ta metodologia ma być elastyczna, aby ułatwić jej zastosowanie w różnych sy
         </dd>
         <dt id="largescale">Ocena na dużą skalę</dt>
         <dd>Przeprowadzanie masowej oceny wielu witryn internetowych, na przykład na potrzeby krajowych lub międzynarodowych badań sondażowych, jest zazwyczaj wykonywane głównie za pomocą automatycznych narzędzi oceny.  Stosunkowo niewiele stron internetowych poddawanych jest pełnej kontroli ręcznej.  Takie oceny zwykle nie uwzględniają niezbędnej jakościowej oceny zgodności dla każdej witryny, dla której opracowano tę metodologię.</dd>
-    </dl>
+</dl>
 
 ## Procedura oceny  {#procedure}
 
