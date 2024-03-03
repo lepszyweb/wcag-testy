@@ -356,7 +356,7 @@ Zbadaj ocenianą witrynę internetową, aby zidentyfikować wszystkie strony wsp
 
 #### Krok 2.b: Rozpoznaj podstawowe funkcjonalności witryny   {#step2b}
 
-**Wymaganie metodologiczne2.b {#req2b} :** Określ wstępną listę [podstawowych funkcjonalności](#functionality) ocenianej witryny internetowej.
+**Wymóg metodologiczny 2.b {#req2b} :** Określ wstępną listę [podstawowych funkcjonalności](#functionality) ocenianej witryny internetowej.
 
 Przejrzyj ocenianą witrynę internetową, aby rozpoznać jej podstawowe funkcjonalności. Niektóre funkcjonalności będą łatwe do zidentyfikowania, inne będą wymagały bardziej celowego odkrywania.  Na przykład, łatwiejsze może być znalezienie funkcjonalności zakupu produktów w sklepie internetowym niż funkcjonalności przewidzianej dla sprzedawców do sprzedaży produktów za pomocą sklepu. Wynikiem tego kroku jest lista funkcjonalności, które użytkownicy mogą wykonywać w witrynie. Lista ta zostanie wykorzystana w kolejnych krokach, aby pomóc wybrać do oceny reprezentatywne przypadki stron internetowych.
 
@@ -513,7 +513,7 @@ Wskazówki dotyczące oceny tych wymagań zgodności podano w sekcjach poniżej.
 
 #### Krok 4.a: Sprawdź wszystkie strony początkowe  {#step1a}
 
-**Wymóg metodologiczny 4.a {#req4a} :** Sprawdź, czy każda strona internetowa lub stan strony w wybranej próbce, które nie są częścią żadnej procedury, jest zgodna z każdym z pięciu wymagań zgodności WCAG 2.0 na wymaganym poziomie zgodności.
+**Wymóg metodologiczny 4.a {:#req4a} :** Sprawdź, czy każda strona internetowa lub stan strony w wybranej próbce, które nie są częścią żadnej procedury, jest zgodna z każdym z pięciu wymagań zgodności WCAG 2.0 na wymaganym poziomie zgodności.
 
 Dla każdej strony i stanu strony internetowej w próbce wybranej w [Kroku 3: Wybierz reprezentatywną próbkę](#step3), która nie znajduje się w obrębie lub na końcu całej procedury, sprawdź jej zgodność z każdym z pięciu wymagań zgodności WCAG 2.0, z wymaganym poziomem zgodności ustalonym w [Kroku 1.b: Określ wymagany poziom zgodności](#step1b). Obejmuje to wszystkie elementy strony internetowej lub stanu strony internetowej bez aktywowania jakichkolwiek funkcji, wprowadzania jakichkolwiek danych lub inicjowania procesu w inny sposób. Taka funkcjonalność i interakcja, w tym strony i stany stron internetowych, które znajdują się w obrębie lub na końcu całego procesu, będą oceniane w kolejnym etapie.
 
@@ -543,7 +543,7 @@ Treść strony lub stanu strony internetowej może nie być zgodna z WCAG 2, naw
 
 #### Krok 4.b: Sprawdź wszystkie całe procesy  {#step1a}
 
-**Wymóg metodologiczny 4.b {#req4b} :** Sprawdź, czy wszystkie interakcje dla każdej strony i stanu strony internetowej w [całej procedurze](http://www.w3.org/TR/WCAG20/#cc3) są zgodne z każdym z pięciu wymagań zgodności WCAG 2.0 na wymaganym poziomie zgodności.
+**Wymóg metodologiczny 4.b {:#req4b} :** Sprawdź, czy wszystkie interakcje dla każdej strony i stanu strony internetowej w [całej procedurze](http://www.w3.org/TR/WCAG20/#cc3) są zgodne z każdym z pięciu wymagań zgodności WCAG 2.0 na wymaganym poziomie zgodności.
 
 Dla każdej całej procedury określonej w [Kroku 3.c: Uwzględnij całe procedury](#step3c), postępuj zgodnie ze wskazanymi domyślnymi i rozgałęzionymi sekwencjami stron i stanów stron internetowych i oceń każdy zgodnie z [krokiem 4.a: Sprawdź wszystkie strony początkowe](#step4a). Jednak w tym przypadku nie jest konieczna ocena wszystkich treści, a jedynie treści, które zmieniają się w trakcie procesu.
 
