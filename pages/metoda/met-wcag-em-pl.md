@@ -291,7 +291,7 @@ Na tym etapie określa się ogólny zakres oceny. Jest to podstawowy krok, któr
 
 #### Krok 1.a: Określ zakres stron witryny  {#step1a}
 
-**Wymóg metodologiczny 1.a {#req1a} :** Zdefiniuj [witrynę internetową](#website) do oceny zgodnie z [zakresem stosowania metodologii](#applicability), tak aby dla każdej [strony internetowej](#webpage) było jasne, czy znajduje się ona w zakresie stron podlegających ocenie.
+<p id="#req1a"><strong>Wymóg metodologiczny 1.a</strong>: Zdefiniuj [witrynę internetową](#website) do oceny zgodnie z [zakresem stosowania metodologii](#applicability), tak aby dla każdej [strony internetowej](#webpage) było jasne, czy znajduje się ona w zakresie stron podlegających ocenie.</p>
 
 Na tym etapie określa się witrynę docelową (strony i stany stron internetowych podlegające ocenie). Zakres witryny jest określany zgodnie z warunkami określonymi w sekcji [Zakres zastosowania](#applicability).
 
