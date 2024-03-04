@@ -1,10 +1,41 @@
 ---
-title: Metodologia oceniania zgodności w zakresie dostępności internetowej (WCAG-EM) 1.0
+title: Metodologia oceny zgodności z Wytycznymi dla dostępności treści internetowych (WCAG-EM) 1.0
 summary: "Publikacja jest nieoficjalnym roboczym tłumaczeniem dokumentu W3C Website Accessibility Conformance Evaluation Methodology (WCAG-EM) 1.0"
 sidebar: metoda_sidebar
 permalink: met-wcag-em-pl
 folder: metoda
 ---
+
+Metodologia oceny zgodności z Wytycznymi dla dostępności treści internetowych (WCAG-EM) 1.0
+===========================================================================================
+<div class="transheader">
+{% include note.html content="Niniejszy dokument jest tłumaczeniem angielskiego tekstu z poniższej strony i może zawierać usterki związane z procesem tłumaczenia. W razie jakichkolwiek niezgodności między oryginałem, a tłumaczeniem obowiązująca jest wersja oryginalna: [http://www.w3.org/TR/2014/NOTE-WCAG-EM-20140710/](http://www.w3.org/TR/2014/NOTE-WCAG-EM-20140710/)" %}
+
+
+## Notatka Grupy Roboczej W3C z 10 lipca 2014 r. {.subtitle}
+
+<dl>
+<dt>Ta wersja::</dt>
+<dd><a href="http://www.w3.org/TR/2014/NOTE-WCAG-EM-20140710/">http://www.w3.org/TR/2014/NOTE-WCAG-EM-20140710/</a></dd>
+<dt>Najnowsza wersja:</dt>
+<dl><a href="http://www.w3.org/TR/WCAG-EM/">http://www.w3.org/TR/WCAG-EM/</a></dd>
+<dt>Poprzednia wersja:</dt>
+<dd><a href="http://www.w3.org/TR/2014/WD-WCAG-EM-20140130/">http://www.w3.org/TR/2014/WD-WCAG-EM-20140130/</a></dd>
+<dt>Redakcja:</dt>
+<dd>Eric Velleman, Accessibility Foundation</dd>
+<dd><a href="https://www.w3.org/People/shadi/">Shadi Abou-Zahra</a>, W3C/WAI</dd>
+</dl>
+<p class="copyright">
+            <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Copyright" lang="pl" hreflang="pl">Copyright</a> © 2014
+            <a href="https://www.w3.org/" lang="pl" hreflang="pl"><acronym title="World Wide Web Consortium">W3C</acronym></a><sup>®</sup>
+            (<a href="https://www.csail.mit.edu/" lang="pl" hreflang="pl"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>,
+            <a href="https://www.ercim.eu/" lang="pl" hreflang="pl"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>,
+            <a href="https://www.keio.ac.jp/" lang="pl" hreflang="pl">Keio</a>,
+            <a href="https://ev.buaa.edu.cn/" lang="pl" hreflang="pl">Beihang</a>), All Rights Reserved.
+            Obowiązują zasady W3C dotyczące: <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer" lang="pl" hreflang="pl">odpowiedzialności</a>, <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks" lang="pl" hreflang="pl">znaku towarowego</a> i <a href="https://www.w3.org/Consortium/Legal/copyright-documents" lang="pl" hreflang="pl">korzystania z&nbsp;dokumentów</a>.
+        </p>
+</div>
+* * *
 
 ## Streszczenie  {#abstract}
 
@@ -163,19 +194,19 @@ Zakłada się, że użytkownicy tej metodologii mają solidną wiedzę na temat 
 
 ### Zbiorowa wiedza specjalistyczna (opcjonalnie) {#combined}
 
-    <p>Metodologię tę może stosować indywidualny oceniający, który posiada kwalifikacje opisane w poprzedniej sekcji [(Wymagana wiedza specjalistyczna](#expertise)), lub zespół oceniających posiadających zbiorową wiedzę specjalistyczną. Korzystanie z połączonej wiedzy specjalistycznej różnych oceniających może czasami być konieczne lub korzystne, gdy jeden oceniający sam nie posiada całej wymaganej wiedzy specjalistycznej. Więcej wykraczających poza zakres tego dokumentu wskazówek na temat korzystania ze zbiorowej wiedzy specjalistycznej zespołów oceniających znajduje się w opracowaniu [Korzystanie ze zbiorowej wiedzy specjalistycznej do oceny dostępności stron internetowych](https://www.w3.org/WAI/test-evaluate/combined-expertise/).
+<p>Metodologię tę może stosować indywidualny oceniający, który posiada kwalifikacje opisane w poprzedniej sekcji [(Wymagana wiedza specjalistyczna](#expertise)), lub zespół oceniających posiadających zbiorową wiedzę specjalistyczną. Korzystanie z połączonej wiedzy specjalistycznej różnych oceniających może czasami być konieczne lub korzystne, gdy jeden oceniający sam nie posiada całej wymaganej wiedzy specjalistycznej. Więcej wykraczających poza zakres tego dokumentu wskazówek na temat korzystania ze zbiorowej wiedzy specjalistycznej zespołów oceniających znajduje się w opracowaniu [Korzystanie ze zbiorowej wiedzy specjalistycznej do oceny dostępności stron internetowych](https://www.w3.org/WAI/test-evaluate/combined-expertise/).
 
 ### Włączanie użytkowników (opcjonalnie) {#users}
 
-   Włączanie osób z niepełnosprawnościami, w tym osób z trudnościami związanymi ze starzeniem się (które nie są doświadczonymi testerami lub członkami zespołu oceniającego), może pomóc w rozpoznaniu dodatkowych barier dostępności, które nie są łatwe do wykrycia w drodze oceny eksperckiej. Chociaż nie jest to wymagane do stosowania tej metodologii, oceniający mogą czasem być zmuszeni do zaangażowania w proces oceny osób doświadczających autentycznych problemów z dostępnością. Więcej wykraczających poza zakres tego dokumentu wskazówek na temat angażowania użytkowników w ocenę dostępności znajduje się w opracowaniu [Włączanie użytkowników do oceny dostępności cyfrowej](https://www.w3.org/WAI/test-evaluate/involving-users/).
+Włączanie osób z niepełnosprawnościami, w tym osób z trudnościami związanymi ze starzeniem się (które nie są doświadczonymi testerami lub członkami zespołu oceniającego), może pomóc w rozpoznaniu dodatkowych barier dostępności, które nie są łatwe do wykrycia w drodze oceny eksperckiej. Chociaż nie jest to wymagane do stosowania tej metodologii, oceniający mogą czasem być zmuszeni do zaangażowania w proces oceny osób doświadczających autentycznych problemów z dostępnością. Więcej wykraczających poza zakres tego dokumentu wskazówek na temat angażowania użytkowników w ocenę dostępności znajduje się w opracowaniu [Włączanie użytkowników do oceny dostępności cyfrowej](https://www.w3.org/WAI/test-evaluate/involving-users/).
 
 ### Narzędzia oceny (opcjonalnie)  {#tools}
 
-    Metodologia jest niezależna od jakiegokolwiek konkretnego narzędzia oceny dostępności internetowej, przeglądarki internetowej i innych narzędzi programowych. Chociaż większość testów nie jest w pełni zautomatyzowana, to narzędzia oceny mogą znacznie pomóc oceniającym w procesie oceny i przyczynić się do bardziej efektywnej oceny. Na przykład, niektóre narzędzia oceny dostępności cyfrowej mogą skanować całe witryny, aby pomóc w typowaniu odpowiednich stron do oceny ręcznej. Narzędzia mogą być również pomocne podczas ręcznej (ludzkiej) oceny testów dostępności. Więcej wykraczających poza zakres tego dokumentu wskazówek na temat korzystania z narzędzi oceny zawiera opracowanie [Wybieranie narzędzi do oceny dostępności cyfrowej](https://www.w3.org/WAI/test-evaluate/tools/selecting/)
+Metodologia jest niezależna od jakiegokolwiek konkretnego narzędzia oceny dostępności internetowej, przeglądarki internetowej i innych narzędzi programowych. Chociaż większość testów nie jest w pełni zautomatyzowana, to narzędzia oceny mogą znacznie pomóc oceniającym w procesie oceny i przyczynić się do bardziej efektywnej oceny. Na przykład, niektóre narzędzia oceny dostępności cyfrowej mogą skanować całe witryny, aby pomóc w typowaniu odpowiednich stron do oceny ręcznej. Narzędzia mogą być również pomocne podczas ręcznej (ludzkiej) oceny testów dostępności. Więcej wykraczających poza zakres tego dokumentu wskazówek na temat korzystania z narzędzi oceny zawiera opracowanie [Wybieranie narzędzi do oceny dostępności cyfrowej](https://www.w3.org/WAI/test-evaluate/tools/selecting/)
 
 ## Zakres stosowania   {#tools}
 
-    Metodologia została zaprojektowana do oceny całych [witryn internetowych](#website). Oznacza to, że dla każdej [strony internetowej](#webpage) jest jednoznaczne, czy jest ona częścią witryny, czy nie. Dotyczy to witryn organizacji, podmiotów, osób, wydarzeń, produktów i usług.
+Metodologia została zaprojektowana do oceny całych [witryn internetowych](#website). Oznacza to, że dla każdej [strony internetowej](#webpage) jest jednoznaczne, czy jest ona częścią witryny, czy nie. Dotyczy to witryn organizacji, podmiotów, osób, wydarzeń, produktów i usług.
 
 ### Przykłady witryn internetowych
 
@@ -513,7 +544,7 @@ Dla każdej strony i stanu strony internetowej w próbce wybranej w [kroku 3: Wy
 
 **Uwaga:** Wiele stron i stanów stron internetowych w próbce będzie zawierało takie elementy, jak nagłówek, paski nawigacyjne, formularz wyszukiwania i inne, które występują wielokrotnie. Chociaż wymaganiem jest sprawdzenie [całych stron](https://www.w3.org/TR/WCAG20/#cc2), zazwyczaj te elementy nie muszą być poddawane ponownej ocenie przy każdym wystąpieniu, chyba że pojawiają się lub zachowują inaczej, lub gdy w [kroku 1.d: Określ dodatkowe wymagania oceny (opcjonalnie)](#step1d) zostały określone dodatkowe wymagania oceny.
 
-##### Kryteria sukcesu WCAG 2.0  {#success-criteria}
+##### Kryteria sukcesu WCAG 2.0 {#success-criteria}
 
 Zazwyczaj istnieje kilka sposobów ustalenia, czy kryteria sukcesu WCAG 2.0 zostały spełnione, czy też nie. WAI W3C zapewnia (nienormatywny) zestaw [Technik dla WCAG 2.0](https://www.w3.org/TR/WCAG20-TECHS/), który dokumentuje wystarczające i dodatkowe sposoby spełnienia określonych kryteriów sukcesu WCAG 2.0. W zestawie tym udokumentowano również _typowe błędy_, które opisują znane sposoby prezentacji treści, niespełniające określonych kryteriów sukcesu WCAG 2.0. Więcej wskazówek na temat koncepcji _technik_ WCAG 2.0 znajduje się w opracowaniu [Objaśnienie technik dla kryteriów sukcesu](https://www.w3.org/TR/UNDERSTANDING-WCAG20/understanding-techniques) WCAG.
 
