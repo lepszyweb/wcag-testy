@@ -455,9 +455,11 @@ footer [data-anchorjs-icon]::after {
 .transtitle {
 	font-size: 1.5em;
 	color: #642f6a;
+	text-align: center;
 	
 }
 .subtitle {
 	font-size: 1.3em;
 	color: #642f6a;	
+	text-align: center;	
 }
