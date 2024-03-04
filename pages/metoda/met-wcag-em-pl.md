@@ -9,7 +9,7 @@ folder: metoda
 <div class="transheader">
 {% include note.html content="Ten dokument jest nieoficjalnym tłumaczeniem angielskiego tekstu z poniższej strony i może zawierać usterki związane z procesem tłumaczenia. W razie jakichkolwiek niezgodności między oryginałem, a tłumaczeniem obowiązująca jest wersja oryginalna: [http://www.w3.org/TR/2014/NOTE-WCAG-EM-20140710/](http://www.w3.org/TR/2014/NOTE-WCAG-EM-20140710/)" %}
 
-<p class="transtitle>Metodologia oceny zgodności z Wytycznymi dla dostępności treści internetowych (WCAG-EM) 1.0</p>
+<p class="transtitle">Metodologia oceny zgodności z Wytycznymi dla dostępności treści internetowych (WCAG-EM) 1.0</p>
 <p class="subtitle"> Notatka Grupy Roboczej W3C z 10 lipca 2014 r.</p>
 
 <dl>
