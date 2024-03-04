@@ -6,19 +6,17 @@ permalink: met-wcag-em-pl
 folder: metoda
 ---
 
-Metodologia oceny zgodności z Wytycznymi dla dostępności treści internetowych (WCAG-EM) 1.0
-===========================================================================================
 <div class="transheader">
 {% include note.html content="Niniejszy dokument jest tłumaczeniem angielskiego tekstu z poniższej strony i może zawierać usterki związane z procesem tłumaczenia. W razie jakichkolwiek niezgodności między oryginałem, a tłumaczeniem obowiązująca jest wersja oryginalna: [http://www.w3.org/TR/2014/NOTE-WCAG-EM-20140710/](http://www.w3.org/TR/2014/NOTE-WCAG-EM-20140710/)" %}
 
 
-## Notatka Grupy Roboczej W3C z 10 lipca 2014 r. {.subtitle}
+<p class="subtitle"> Notatka Grupy Roboczej W3C z 10 lipca 2014 r.</p>
 
 <dl>
 <dt>Ta wersja::</dt>
 <dd><a href="http://www.w3.org/TR/2014/NOTE-WCAG-EM-20140710/">http://www.w3.org/TR/2014/NOTE-WCAG-EM-20140710/</a></dd>
 <dt>Najnowsza wersja:</dt>
-<dl><a href="http://www.w3.org/TR/WCAG-EM/">http://www.w3.org/TR/WCAG-EM/</a></dd>
+<dd><a href="http://www.w3.org/TR/WCAG-EM/">http://www.w3.org/TR/WCAG-EM/</a></dd>
 <dt>Poprzednia wersja:</dt>
 <dd><a href="http://www.w3.org/TR/2014/WD-WCAG-EM-20140130/">http://www.w3.org/TR/2014/WD-WCAG-EM-20140130/</a></dd>
 <dt>Redakcja:</dt>
