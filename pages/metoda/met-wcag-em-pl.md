@@ -6,10 +6,11 @@ permalink: met-wcag-em-pl
 folder: metoda
 ---
 
-
+<div class="transheader">
 {% include note.html content="Ten dokument jest nieoficjalnym tłumaczeniem angielskiego tekstu z poniższej strony i może zawierać usterki związane z procesem tłumaczenia. W razie jakichkolwiek niezgodności między oryginałem, a tłumaczeniem obowiązująca jest wersja oryginalna: [http://www.w3.org/TR/2014/NOTE-WCAG-EM-20140710/](http://www.w3.org/TR/2014/NOTE-WCAG-EM-20140710/)" %}
 
-{% include callout.html content="<p class="subtitle"> Notatka Grupy Roboczej W3C z 10 lipca 2014 r.</p>
+<p class="transtitle>Metodologia oceny zgodności z Wytycznymi dla dostępności treści internetowych (WCAG-EM) 1.0</p>
+<p class="subtitle"> Notatka Grupy Roboczej W3C z 10 lipca 2014 r.</p>
 
 <dl>
 <dt>Ta wersja::</dt>
@@ -31,7 +32,7 @@ folder: metoda
             <a href="https://ev.buaa.edu.cn/" lang="pl" hreflang="pl">Beihang</a>), All Rights Reserved.
             Obowiązują zasady W3C dotyczące: <a href="https://www.w3.org/Consortium/Legal/ipr-notice#Legal_Disclaimer" lang="pl" hreflang="pl">odpowiedzialności</a>, <a href="https://www.w3.org/Consortium/Legal/ipr-notice#W3C_Trademarks" lang="pl" hreflang="pl">znaku towarowego</a> i <a href="https://www.w3.org/Consortium/Legal/copyright-documents" lang="pl" hreflang="pl">korzystania z&nbsp;dokumentów</a>.
         </p>
-" type="success" %}
+</div>
 
 
 * * *

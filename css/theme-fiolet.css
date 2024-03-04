@@ -446,3 +446,18 @@ footer [data-anchorjs-icon]::after {
 
 .topics-list {
 }
+
+.transheader {
+    display: block;
+    border: solid #a74eb1; padding: 2%;
+    background: #faf4fa ;}
+
+.transtitle {
+	font-size: 1.5em;
+	color: #642f6a;
+	
+}
+.subtitle {
+	font-size: 1.3em;
+	color: #642f6a;	
+}
