@@ -104,7 +104,7 @@ Poniższe informacje na temat podstaw dostępności stron internetowych, oceny i
   <dd><p>Są to szczególnie ważne materiały, które nakreślają różne podejścia do oceny stron internetowych pod kątem dostępności:</p>
    <ul>
   <li><a href="00-P-wprowadzenie"><strong>Łatwe testy</strong> - pierwszy przegląd dostępności stron internetowych</a> (oryginał: <a href="https://www.w3.org/WAI/test-evaluate/preliminary/">Easy Checks – A First Review of Web Accessibility</a>)</li>
-   <li><a href="https://lepszyweb.pl/blog2/wlaczanie-uzytkownikow-do-oceny-dostepnosci-cyfrowej">Włączanie użytkowników do oceny dostępności cyfrowej</a> (oryginał: <a href="https://www.w3.org/WAI/test-evaluate/involving-users/">nvolving Users in Evaluating Web Accessibility</a>).</li>
+   <li><a href="https://lepszyweb.pl/blog2/wlaczanie-uzytkownikow-do-oceny-dostepnosci-cyfrowej">Włączanie użytkowników do oceny dostępności cyfrowej</a> (oryginał: <a href="https://www.w3.org/WAI/test-evaluate/involving-users/">Involving Users in Evaluating Web Accessibility</a>).</li>
    <li><a href="https://www.w3.org/WAI/test-evaluate/tools/selecting/">Wybieranie narzędzi do oceny dostępności internetowej</a> (w jezyku angielskim).</li>
    <li><a href="https://www.w3.org/WAI/test-evaluate/combined-expertise/">Wykorzystanie zbiorowej wiedzy specjalistycznej do oceny dostępności</a> (w jezyku angielskim).</li>   
   </ul> 
