@@ -8,7 +8,7 @@
    width="980"
    height="480"
    viewBox="0 0 980 480"
-   sodipodi:docname="process.svg"
+   sodipodi:docname="metodologia_21.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,11 @@
        refX="0"
        id="marker7056"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       viewBox="0 0 12.705841 9.5264135"
+       markerWidth="12.705841"
+       markerHeight="9.5264139"
+       preserveAspectRatio="xMidYMid">
       <path
          id="path7054"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
@@ -78,7 +82,11 @@
        refX="0"
        refY="0"
        orient="auto"
-       inkscape:stockid="Arrow2Lend">
+       inkscape:stockid="Arrow2Lend"
+       viewBox="0 0 12.705841 9.5264135"
+       markerWidth="12.705841"
+       markerHeight="9.5264139"
+       preserveAspectRatio="xMidYMid">
       <path
          transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
@@ -120,7 +128,11 @@
        refX="0"
        id="marker3464"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       viewBox="0 0 12.705841 9.5264135"
+       markerWidth="12.705841"
+       markerHeight="9.5264139"
+       preserveAspectRatio="xMidYMid">
       <path
          id="path3462"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
@@ -134,7 +146,11 @@
        refX="0"
        id="marker2288"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       viewBox="0 0 12.705841 9.5264135"
+       markerWidth="11.639625"
+       markerHeight="8.7270002"
+       preserveAspectRatio="xMidYMid">
       <path
          id="path2286"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
@@ -148,7 +164,11 @@
        refX="0"
        refY="0"
        orient="auto"
-       inkscape:stockid="Arrow2Lend">
+       inkscape:stockid="Arrow2Lend"
+       viewBox="0 0 12.705841 9.5264135"
+       markerWidth="12.705841"
+       markerHeight="9.5264139"
+       preserveAspectRatio="xMidYMid">
       <path
          transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
@@ -191,7 +211,11 @@
        refX="0"
        id="marker12456"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       viewBox="0 0 12.705841 9.5264135"
+       markerWidth="12.705841"
+       markerHeight="9.5264139"
+       preserveAspectRatio="xMidYMid">
       <path
          id="path12454"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
@@ -205,7 +229,11 @@
        refX="0"
        refY="0"
        orient="auto"
-       inkscape:stockid="Arrow2Lend">
+       inkscape:stockid="Arrow2Lend"
+       viewBox="0 0 12.705841 9.5264135"
+       markerWidth="12.705841"
+       markerHeight="9.5264139"
+       preserveAspectRatio="xMidYMid">
       <path
          transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
@@ -367,7 +395,11 @@
        refX="0"
        id="marker6917"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       viewBox="0 0 12.705841 9.5264135"
+       markerWidth="12.705841"
+       markerHeight="9.5264139"
+       preserveAspectRatio="xMidYMid">
       <path
          id="path6915"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
@@ -479,7 +511,11 @@
        refX="0"
        refY="0"
        orient="auto"
-       inkscape:stockid="Arrow2Lend">
+       inkscape:stockid="Arrow2Lend"
+       viewBox="0 0 12.705841 9.5264135"
+       markerWidth="12.705841"
+       markerHeight="9.5264139"
+       preserveAspectRatio="xMidYMid">
       <path
          transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
@@ -493,7 +529,11 @@
        refX="0"
        refY="0"
        orient="auto"
-       inkscape:stockid="Arrow2Lend">
+       inkscape:stockid="Arrow2Lend"
+       viewBox="0 0 12.705841 9.5264135"
+       markerWidth="12.705841"
+       markerHeight="9.5264139"
+       preserveAspectRatio="xMidYMid">
       <path
          transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
@@ -563,7 +603,11 @@
        refX="0"
        refY="0"
        orient="auto"
-       inkscape:stockid="Arrow2Lend">
+       inkscape:stockid="Arrow2Lend"
+       viewBox="0 0 12.705841 9.5264135"
+       markerWidth="12.705841"
+       markerHeight="9.5264139"
+       preserveAspectRatio="xMidYMid">
       <path
          transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
@@ -612,9 +656,9 @@
      inkscape:window-height="991"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.58041027"
-     inkscape:cx="412.63915"
-     inkscape:cy="293.75772"
+     inkscape:zoom="1.3507873"
+     inkscape:cx="646.65991"
+     inkscape:cy="229.86595"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
@@ -912,7 +956,7 @@
        y="69.704697"
        x="298.60284"
        sodipodi:role="line"
-       id="tspan2045"> BADANĄ WITRYNĘ</tspan></text>
+       id="tspan2045">OCENIANĄ WITRYNĘ</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:108%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#653977;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -979,16 +1023,21 @@
      inkscape:export-xdpi="89"
      inkscape:export-ydpi="89"
      inkscape:export-filename="C:\Users\zwias_000\Downloads\proceedura_oceny1.png"><tspan
-       id="tspan4264-5"
        sodipodi:role="line"
        x="229.19006"
        y="358.87656"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#653977;fill-opacity:1">2.d: Rozpoznaj zaufane</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#653977;fill-opacity:1"
+       id="tspan5788">2.d: Określ technologie, </tspan><tspan
        sodipodi:role="line"
        x="229.19006"
        y="371.83655"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#653977;fill-opacity:1"
-       id="tspan5788">       technologie</tspan></text>
+       id="tspan1971">       na których można</tspan><tspan
+       sodipodi:role="line"
+       x="229.19006"
+       y="384.79657"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#653977;fill-opacity:1"
+       id="tspan1973">       polegać</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1107,7 +1156,7 @@
        x="607.37164"
        y="161.4679"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#653977;fill-opacity:1"
-       id="tspan1607">       strony początkowe</tspan></text>
+       id="tspan1607">       strony podstawowe</tspan></text>
   <text
      id="text4340-0"
      y="220.54315"
@@ -1202,7 +1251,12 @@
        x="858.91479"
        y="71.720322"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
-       id="tspan2055">RAPORT Z OCENY</tspan></text>
+       id="tspan2055">RAPORT Z WYNIKAMI</tspan><tspan
+       sodipodi:role="line"
+       x="858.91479"
+       y="86.720322"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+       id="tspan1967">OCENY</tspan></text>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5647)"
      d="M 33.595129,294.66361 H 16.173637 l 0.194069,-274.476556 614.114004,-0.71233 0.0124,15.3785"
@@ -1214,7 +1268,7 @@
      inkscape:export-filename="C:\Users\zwias_000\Downloads\proceedura_oceny1.png" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.233px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 377.23968,436.92745 h 14.79953 l -0.2349,-213.62784"
+     d="m 380.48895,436.92745 h 13.55026 l -0.2349,-213.62784"
      id="path5651"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccc"
@@ -1223,7 +1277,7 @@
      inkscape:export-filename="C:\Users\zwias_000\Downloads\proceedura_oceny1.png" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.30408px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 376.43294,294.30248 14.54705,0.0159"
+     d="m 380.19117,294.30248 13.34405,0.0159"
      id="path5653"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc"
@@ -1306,7 +1360,7 @@
      sodipodi:nodetypes="cc"
      inkscape:connector-curvature="0"
      id="path1574"
-     d="m 375.57266,364.65699 h 16.09701"
+     d="m 380.25628,364.65699 13.41339,0"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.37185px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      inkscape:export-filename="C:\Users\zwias_000\Downloads\proceedura_oceny1.png" />
   <text
@@ -1322,12 +1376,12 @@
        y="290.0936"
        x="789.95966"
        sodipodi:role="line"
-       id="tspan1805">5.c: Przygotuj oświadczenie</tspan><tspan
+       id="tspan1805">5.c: Przygotuj deklarację</tspan><tspan
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#653977;fill-opacity:1"
        y="303.05359"
        x="789.95966"
        sodipodi:role="line"
-       id="tspan13782">      o zgodności (opcjonalne)</tspan></text>
+       id="tspan13782">      zgodności (opcjonalne)</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:108%;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#653977;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1374,8 +1428,8 @@
   <path
      inkscape:export-ydpi="89"
      inkscape:export-xdpi="89"
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.13217px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker8950)"
-     d="m 376.37584,223.02143 31.32244,-0.0736"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.132;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3464)"
+     d="m 380.21619,223.02143 27.48209,-0.0736"
      id="path8946"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc"
@@ -1565,7 +1619,7 @@
   <rect
      ry="8.2928753"
      y="345.56644"
-     x="213.58162"
+     x="217.58162"
      height="44.348873"
      width="162.92496"
      id="rect5491"
@@ -1576,7 +1630,7 @@
   <rect
      ry="8.2928753"
      y="275.09128"
-     x="213.58162"
+     x="217.58162"
      height="44.348873"
      width="162.92496"
      id="rect5757"
@@ -1587,7 +1641,7 @@
   <rect
      ry="8.2928753"
      y="202.16905"
-     x="213.58162"
+     x="217.58162"
      height="44.348873"
      width="162.92496"
      id="rect6023"
@@ -1598,7 +1652,7 @@
   <rect
      ry="8.2928753"
      y="129.24683"
-     x="213.58162"
+     x="217.58162"
      height="44.348873"
      width="162.92496"
      id="rect6289"
@@ -1711,7 +1765,7 @@
   <rect
      ry="8.2928753"
      y="417.02045"
-     x="213.58162"
+     x="217.58162"
      height="44.348873"
      width="162.92496"
      id="rect10821"

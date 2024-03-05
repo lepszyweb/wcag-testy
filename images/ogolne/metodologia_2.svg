@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg2"
    version="1.1"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    width="864"
    height="475"
    viewBox="0 0 864 475"
-   sodipodi:docname="metodologia_2.svg">
+   sodipodi:docname="metodologia_2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -535,18 +535,21 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1001"
+     inkscape:window-height="991"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.47761853"
-     inkscape:cx="44.693123"
-     inkscape:cy="-45.734924"
+     inkscape:zoom="1.3509092"
+     inkscape:cx="488.92997"
+     inkscape:cy="308.31088"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      showguides="true"
-     inkscape:guide-bbox="true">
+     inkscape:guide-bbox="true"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
        position="-1023.7558,760.46005"
        orientation="0,1"
@@ -673,7 +676,8 @@
        id="flowPara5733"
        style="font-size:17.5px;line-height:1.25"> </flowPara><flowPara
        id="flowPara5735"
-       style="font-size:17.5px;line-height:1.25"> </flowPara></flowRoot>  <rect
+       style="font-size:17.5px;line-height:1.25"> </flowPara></flowRoot>
+  <rect
      style="opacity:1;fill:#0078b2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.09052956;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="rect4331"
      width="554"
@@ -722,7 +726,7 @@
        x="126.37012"
        y="158.23888"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
-       id="tspan4341">KROK 2    Przeprowadź rekonesans wityny</tspan></text>
+       id="tspan4341">KROK 2    Poznaj ocenianą witynę</tspan></text>
   <rect
      ry="14.159416"
      y="207.92265"
@@ -747,7 +751,7 @@
        x="185.01959"
        y="243.45549"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff"
-       id="tspan4349">KROK 3    Wybierz reprezentatywną próbkę stron</tspan></text>
+       id="tspan4349">KROK 3    Wybierz reprezentatywną próbkę</tspan></text>
   <rect
      style="opacity:1;fill:#bd541c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.09052956;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
      id="rect4353"
@@ -797,7 +801,7 @@
        sodipodi:role="line"
        x="294.19788"
        y="413.12207"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff">KROK 5    Sporządź raport wyników</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff">KROK 5    Sporządź raport z wynikami oceny</tspan></text>
   <path
      style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 154.695,40.836117 v 57.74719"
