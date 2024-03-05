@@ -89,39 +89,6 @@ WCAG 2 definiują [wymagania zgodności](https://www.w3.org/Translations/WCAG21-
 **Deklaracje zgodności z WCAG 2** **w odniesieniu do całych witryn internetowych nie mogą być formułowane na podstawie oceny wybranego podzbioru stron internetowych i samej funkcjonalności**, ponieważ zawsze możliwe jest, że na tych stronach pojawią się niezidentyfikowane błędy dotyczące zgodności. Jednak w większości zastosowań tej metodologii do oceny wybiera się tylko próbkę stron internetowych i funkcjonalności witryny. Dlatego w większości przypadków **samo zastosowanie tej metodologii nie daje wystarczających podstaw do stwierdzenia zgodności ocenianych witryn z WCAG 2**. Wskazówki dotyczące formułowania deklaracji zgoddnoścci w wyniku zastosowania tej metodologii znajdują się w [kroku 5.c: Przygotuj deklarację zgodności (opcjonalnie)](#step5c).
 
 
-### Lektury wprowadzające {#reading}
-
-Poniższe informacje na temat podstaw dostępności stron internetowych, oceny i&nbsp;WCAG 2 są niezbędne do korzystania z&nbsp;tej metodologii. Od osób oceniających, które korzystają z tej metodologii, oczekuje się dogłębnej znajomości wszystkich wymienionych poniżej materiałów:
-
-<dl>
-  <dt id="essentials">Podstawy dostępności Internetu</dt>
-  <dd><p>Poniższe dokumenty przedstawiają podstawowe elementy dostępności internetowej i wyjaśniają, w jaki sposób osoby z&nbsp;niepełnosprawnościami korzystają z&nbsp;Internetu. Są one kluczowe dla zrozumienia szerszego kontekstu oceny dostępności Internetu:</p>
-  <ul>
-  <li><a href="https://www.w3.org/WAI/fundamentals/components/">Podstawowe komponenty dostępności Internetu</a></li>
-   <li><a href="https://www.w3.org/WAI/people-use-web/">Jak osoby z niepełnosprawnością korzystają z Internetu</a> (w jezyku angielskim).</li>
-  </ul>
-  </dd>
-  <dt id="evaluating">Ocena stron internetowych pod kątem dostępności</dt>
-  <dd><p>Są to szczególnie ważne materiały, które nakreślają różne podejścia do oceny stron internetowych pod kątem dostępności:</p>
-   <ul>
-  <li><a href="00-P-wprowadzenie"><strong>Łatwe testy</strong> - pierwszy przegląd dostępności stron internetowych</a> (oryginał: <a href="https://www.w3.org/WAI/test-evaluate/preliminary/">Easy Checks – A First Review of Web Accessibility</a>)</li>
-   <li><a href="https://lepszyweb.pl/blog2/wlaczanie-uzytkownikow-do-oceny-dostepnosci-cyfrowej">Włączanie użytkowników do oceny dostępności cyfrowej</a> (oryginał: <a href="https://www.w3.org/WAI/test-evaluate/involving-users/">nvolving Users in Evaluating Web Accessibility</a>).</li>
-   <li><a href="https://www.w3.org/WAI/test-evaluate/tools/selecting/">Wybieranie narzędzi do oceny dostępności internetowej</a> (w jezyku angielskim).</li>
-   <li><a href="https://www.w3.org/WAI/test-evaluate/combined-expertise/">Wykorzystanie zbiorowej wiedzy specjalistycznej do oceny dostępności</a> (w jezyku angielskim).</li>   
-  </ul> 
-  </dd>
-<dl>
-  <dt id="wcag2">Wytyczne dla dostępności treści internetowych(WCAG) 2</dt>  
-  <dd><p>Jest to uznawany na całym świecie standard wyjaśniający, w jaki sposób sprawić, by treści internetowe były bardziej dostępne dla osób z&nbsp;niepełnosprawnościami. Poniższe materiały są szczególnie ważne dla oceny dostępności stron internetowych:</p>
-   <ul>
-  <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Omówienie WCAG 2</a></li>
-   <li><a href="http://www.w3.org/TR/WCAG20/">Specyfikacja techniczna WCAG 2.0</a>, <a href="https://www.w3.org/TR/WCAG21/">Specyfikacja techniczna WCAG 2.1</a>, <a href="https://www.w3.org/TR/WCAG22/"></a></li> 
-   <li><a href="https://wcag.lepszyweb.pl/"></a>Jak spełnić WCAG 2 (Krótki przewodnik) (oryginał: <a href="https://www.w3.org/WAI/WCAG22/Understanding/">How to Meet WCAG (Quick Reference)(https://www.w3.org/WAI/WCAG22/quickref/)</a></li> 
-   <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/">Objaśnienia WCAG 2.2</a></li>
-  <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/">Techniki dla WCAG 2.2</a></li>   
-  </ul> 
-  </dd>
-</dl>
 
 
 ### Terminy i definicje
@@ -171,7 +138,9 @@ Na potrzeby niniejszego dokumentu stosujemy następujące terminy i definicje:
 </dl>
 
 
+
 ## Korzystanie z metodologii {#usage}
+
 
 Metodologia ta służy do dokładnej oceny witryn internetowych przy użyciu <acronym>WCAG</acronym> 2. Przed oceną całej witryny dobrze jest przeprowadzić wstępną ocenę różnych stron internetowych z ocenianej witryny, aby rozpoznać oczywiste bariery dostępności i zdobyć ogólne rozeznanie w dostępności witryny. [Łatwe testy – wstępny przegląd dostępności internetowej](00-P-wprowadzenie2) opisuje takie podejście do wstępnej oceny, które jest uzupełnieniem tej metodologii (oryginał: ([Easy Checks - A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)).
 
