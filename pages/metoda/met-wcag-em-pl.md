@@ -116,12 +116,13 @@ Poniższe informacje na temat podstaw dostępności stron internetowych, oceny i
    <ul>
   <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Omówienie WCAG 2</a></li>
    <li><a href="http://www.w3.org/TR/WCAG20/">Specyfikacja techniczna WCAG 2.0</a>, <a href="https://www.w3.org/TR/WCAG21/">Specyfikacja techniczna WCAG 2.1</a>, <a href="https://www.w3.org/TR/WCAG22/"></a></li> 
-   <li><a href="https://wcag.lepszyweb.pl/"></a>Jak spełnić WCAG 2 (Krótki przewodnik) (rotyginł: <a href="https://www.w3.org/WAI/WCAG22/Understanding/">How to Meet WCAG (Quick Reference)(https://www.w3.org/WAI/WCAG22/quickref/)</a></li> 
+   <li><a href="https://wcag.lepszyweb.pl/"></a>Jak spełnić WCAG 2 (Krótki przewodnik) (oryginał: <a href="https://www.w3.org/WAI/WCAG22/Understanding/">How to Meet WCAG (Quick Reference)(https://www.w3.org/WAI/WCAG22/quickref/)</a></li> 
    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/">Objaśnienia WCAG 2.2</a></li>
   <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/">Techniki dla WCAG 2.2</a></li>   
   </ul> 
   </dd>
-  </dl>
+</dl>
+
 
 ### Terminy i definicje
 
@@ -168,6 +169,7 @@ Na potrzeby niniejszego dokumentu stosujemy następujące terminy i definicje:
      <p class="note" style="margin-top: 0;"><strong>Uwaga:</strong> W wielu przypadkach zleceniodawcą oceny może być właściciel witryny internetowej lub jej twórca, w&nbsp;innych przypadkach może to być inny podmiot, taki jak zamawiający lub właściciel ankiety monitorującej dostępność. </p>
    </dd>
 </dl>
+
 
 ## Korzystanie z metodologii {#usage}
 
@@ -412,7 +414,7 @@ Przykłady innych odpowiednich stron internetowych i stanów stron internetowych
 -   … z objaśnieniami ustawień, preferencji, opcji, skrótów itp.;
 -   … z danymi kontaktowymi, wskazówkami i instrukcjami pomocy technicznej.
 
-### Krok 3: Wybierz reprezentatywną próbkę stron {#step3}
+### Krok 3: Wybierz reprezentatywną próbkę {#step3}
 
 <p class="req" id="req3"><strong>Wymóg metodologiczny 3:</strong> Wybierz reprezentatywną próbkę stron internetowych z witryny zgodnie z <a href="#req3a" class="termref">wymogiem metodologicznym 3.a</a>, <a href="#req3b" class="termref">wymogiem metodologicznym 3.b</a> oraz <a href="#req3c" class="termref">wymogiem metodologicznym 3.c</a>.</p>
 
@@ -556,7 +558,7 @@ Poddaj ocenie funkcjonalność, wprowadzanie danych, powiadomienia i inne intera
 
 Chociaż poszczególne wystąpienia kryteriów sukcesu WCAG 2 będą się różnić pomiędzy próbkami strukturalnymi i losowo wybranymi, losowo wybrana próbka nie powinna pokazywać nowych _typów treści_, które nie występują w próbce strukturalnej. Również wyniki oceny próbki wybranej losowo nie powinny pokazywać nowych ustaleń w&nbsp;stosunku do wyników oceny próby strukturalnej. Jeśli losowo wybrana próbka zawiera nowe typy treści lub nowe ustalenia z&nbsp;oceny, oznacza to, że próbka strukturalna nie była wystarczająco reprezentatywna dla treści zamieszczonych w&nbsp;witrynie. W&nbsp;takim przypadku oceniający muszą wrócić do [Kroku 3: Wybierz reprezentatywną próbkę](#step3), aby wybrać dodatkowe strony internetowe i&nbsp;stany stron internetowych, które odzwierciedlają nowo zidentyfikowane typy treści i ustalenia. Również ustalenia z&nbsp;[kroku 2: Poznaj ocenianą witrynę](#step2) mogą wymagać odpowiedniego dostosowania. Ten krok powtarza się, dopóki próbka strukturalna nie będzie odpowiednio reprezentatywna dla treści dostarczanych w witrynie.
 
-### Krok 5: Sporządź raport ustaleń z oceny {#step5}
+### Krok 5: Sporządź raport z wynikami oceny {#step5}
 
 <p class="req" id="req5"><strong>Wymóg metodologiczny 5:</strong> Przedstaw wyniki oceny zgodnie z <a href="#req5a" class="termref">wymogiem metodologicznym  5.a</a> oraz opcjonalnie z <a href="#req5b" class="termref">wymogiem metodologicznym 5.b</a>, <a href="#req5c" class="termref">wymogiem metodologicznym 5.c</a>, <a href="#req5d" class="termref">wymogiem metodologicznym 5.d</a> oraz <a href="#req5e" class="termref">wymogiem metodologicznym 5.e</a>.</p>
 
@@ -648,7 +650,7 @@ Chociaż zagregowane wyniki stanowią wskaźnik liczbowy, który pomaga komuniko
 
 #### Krok 5.e: Sporządź wersję raportu do odczytu maszynowego (opcjonalnie) {#step5e}
 
-<p class="req" id="req5e"><strong>Wymóg metodologiczny 5.e:</strong> Sporządź sprawozdanie z wyników oceny nadające się do odczytu maszynowego (opcjonalnie).</p>
+<p class="req" id="req5e"><strong>Wymóg metodologiczny 5.e:</strong> Sporządź raport z wynikami oceny nadające się do odczytu maszynowego (opcjonalnie).</p>
 
 Raporty nadające się do odczytu maszynowego ułatwiają przetwarzanie wyników oceny przez autorów, narzędzia oceny dostępności stron internetowych oraz narzędzia zapewniania jakości. [Język oceny i raportowania (EARL)](https://www.w3.org/WAI/standards-guidelines/earl/) jest formatem do odczytu maszynowego, który został specjalnie zaprojektowany do tego celu. Zaleca się korzystanie z EARL w celu zapewnienia raportów do odczytu maszynowego. Aby dowiedzieć się więcej na temat wykorzystania metadanych, w tym raportów odczytywanych maszynowo, takich jak EARL, zobacz [Objaśnienie metadanych](https://www.w3.org/TR/UNDERSTANDING-WCAG20/appendixC#understanding-metadata) z WCAG 2.
 
