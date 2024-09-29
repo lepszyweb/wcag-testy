@@ -80,7 +80,30 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
 -	Opcja łącza/przyciski w skryptozakładce [ANDI](https://lepszyweb.pl/andi/help/install.html)
 
 #### Techniki WCAG 2.1
-_do opracowania_
+
+**Techniki wystarczające** dla kryterium sukcesu 3.3.2
+
+- [G131: Zapewnienie opisowych etykiet](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
+  - [ARIA1: Użycie dostępnej bogatej aplikacji internetowej, opisanej jako właściwość, aby zapewnić opisową etykietę określaną](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA1)
+  - [ARIA9: Użycie atrybutu aria-labelledby, aby połączyć etykietę kilku węzłów tekstowych](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA9)
+  - [ARIA17: Użycie ról grupowania do identyfikowania powiązanych kontrolek formularzy](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA17)
+  - [G89: Podanie oczekiwanego formatu danych i przykładu](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
+  - [G184: Podanie na początku formularza lub zestawu pól instrukcji tekstowych opisujących niezbędne dane wejściowe](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
+  - [G162: Umieszczanie etykiet w bezpośredniej bliskości kontrolek, aby zmaksymalizować postrzeganie relacji](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
+  - [G83: Zapewnienie opisów tekstowych wskazujących wymagane pola, które nie zostały wypełnione](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
+  - [H90: Wskazanie wymaganych kontrolek formularza za pomocą elementów label i legend
+  - [PDF5: Wskazanie wymaganych kontrolek formularzy w formularzach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF5)
+- [H44: Użycie elementu label do kojarzenia etykiet tekstowych z kontrolkami formularzyhttps://www.w3.org/WAI/WCAG22/Techniques/html/H44)
+- [PDF10: Zapewnianie etykiet dla interaktywnych kontrolek formularzy w dokumentach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF10)
+- [H71: Zapewnienie opisu dla grup kontrolek formularzy przy użyciu elementów fieldset i legend(https://www.w3.org/WAI/WCAG22/Techniques/html/H71)
+- [G167: Użycie sąsiadującego przycisku, aby oznaczyć przeznaczenie pola](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
+> **Uwaga**: Techniki znajdujące się na końcu powyższej listy powinny być uważane za ostateczność i stosowane tylko wtedy, gdy inne techniki nie mogą być zastosowane na stronie. Wcześniejsze techniki są preferowane, ponieważ zwiększają one dostępność dla szerszej grupy użytkowników.
+
+**Techniki pomocnicze** dla kryterium sukcesu 3.3.2
+- [G13: Opisywanie, co się stanie, zanim nastąpi zmiana w formancie formularza, który powoduje zmianę kontekstu](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
+
+**Błędy** kryterium sukcesu 3.3.2
+- [F82: Niespełnienie kryterium sukcesu 3.3.2 poprzez wizualne sformatowanie zestawu pól numeru telefonu, ale bez etykiety tekstowej](https://www.w3.org/WAI/WCAG22/Techniques/failures/F82)
 
 ### Przypadki testowe
 

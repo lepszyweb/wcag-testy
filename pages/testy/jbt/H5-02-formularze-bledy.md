@@ -56,6 +56,8 @@ Kryteria sukcesu: [3.3.1 Identyfikacja błędu](https://wcag.lepszyweb.pl/#error
 
 **Identyfikacja błędów**
 
+**Techniki wystarczające** dla kryterium sukcesu 3.3.1**
+
 - **Sytuacja A**: Jeżeli formularz zawiera pola, w których informacje od użytkownika są wymagane.
   - [G83: Zapewnienie opisów tekstowych wskazujących wymagane pola, które nie zostały wypełnione](https://www.w3.org/WAI/WCAG22/Techniques/general/)
   - [ARIA21: Użycie atrybutu aria-invalid do wskazania pola z błędem](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA21)
