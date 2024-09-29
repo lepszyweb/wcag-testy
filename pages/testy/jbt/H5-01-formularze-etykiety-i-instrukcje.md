@@ -55,7 +55,8 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
 6.	Sprawdź w sekcji *Wyjście ANDI*, czy użytkownik technologii wspomagającej zostanie wystarczająco i odpowiednio poinstruowany, jakie podać dane i w jakim formacie.   
 
 ### Zasoby
-
+- [Forms Tutorial](https://www.w3.org/WAI/tutorials/forms/)
+- [Jim Allan’s Slides on Accessible Forms](https://patterns.tsbvi.edu/forms/1-welcome.html)
 - [Form accessibility: a practical guide](https://itnext.io/form-accessibility-a-practical-guide-4062b7e2dd14)
 - [The Anatomy of Accessible Forms: The Problem with Placeholders](https://www.deque.com/blog/accessible-forms-the-problem-with-placeholders/)
 - [The Anatomy of Accessible Forms: Required Form Fields](https://www.deque.com/blog/anatomy-of-accessible-forms-required-form-fields/)
@@ -63,11 +64,9 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
 - [The Anatomy of Accessible Forms: Error Messages](https://www.deque.com/blog/anatomy-of-accessible-forms-error-messages/)
 - [Forms, Form Validation, and CAPTCHAs](http://web-accessibility.carnegiemuseums.org/code/forms/)
 - [How to make an accessible form: it’s easier than you think](https://www.freecodecamp.org/news/how-to-make-an-accessible-form-its-easier-than-you-think-672d3f4ff573/)
-- [Forms Concepts](https://www.w3.org/WAI/tutorials/forms/)
 - [Creating Accessible Forms](https://webaim.org/techniques/forms/controls)
 - [Designing Accessible Forms](https://blog.prototypr.io/designing-accessible-forms-82f2ea11697f)
 - [Forms, Form Validation, and CAPTCHAs](http://web-accessibility.carnegiemuseums.org/code/forms/)
-- [Jim Allan’s Slides on Accessible Forms](http://www.tsbvi.edu/web/forms/index.html)
 - [A Definitive Guide to Sensible Form Validations](http://form.guide/best-practices/form-validations-definitive-guide.html)
 - [Form data validation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation)
 
@@ -93,9 +92,9 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
   - [G83: Zapewnienie opisów tekstowych wskazujących wymagane pola, które nie zostały wypełnione](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
   - [H90: Wskazanie wymaganych kontrolek formularza za pomocą elementów label i legend
   - [PDF5: Wskazanie wymaganych kontrolek formularzy w formularzach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF5)
-- [H44: Użycie elementu label do kojarzenia etykiet tekstowych z kontrolkami formularzyhttps://www.w3.org/WAI/WCAG22/Techniques/html/H44)
+- [H44: Użycie elementu label do kojarzenia etykiet tekstowych z kontrolkami formularzy](https://www.w3.org/WAI/WCAG22/Techniques/html/H44)
 - [PDF10: Zapewnianie etykiet dla interaktywnych kontrolek formularzy w dokumentach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF10)
-- [H71: Zapewnienie opisu dla grup kontrolek formularzy przy użyciu elementów fieldset i legend(https://www.w3.org/WAI/WCAG22/Techniques/html/H71)
+- [H71: Zapewnienie opisu dla grup kontrolek formularzy przy użyciu elementów fieldset i legend](https://www.w3.org/WAI/WCAG22/Techniques/html/H71)
 - [G167: Użycie sąsiadującego przycisku, aby oznaczyć przeznaczenie pola](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
 > **Uwaga**: Techniki znajdujące się na końcu powyższej listy powinny być uważane za ostateczność i stosowane tylko wtedy, gdy inne techniki nie mogą być zastosowane na stronie. Wcześniejsze techniki są preferowane, ponieważ zwiększają one dostępność dla szerszej grupy użytkowników.
 
