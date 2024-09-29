@@ -90,7 +90,7 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
   - [G184: Podanie na początku formularza lub zestawu pól instrukcji tekstowych opisujących niezbędne dane wejściowe](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
   - [G162: Umieszczanie etykiet w bezpośredniej bliskości kontrolek, aby zmaksymalizować postrzeganie relacji](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
   - [G83: Zapewnienie opisów tekstowych wskazujących wymagane pola, które nie zostały wypełnione](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
-  - [H90: Wskazanie wymaganych kontrolek formularza za pomocą elementów label i legend
+  - [H90: Wskazanie wymaganych kontrolek formularza za pomocą elementów label i legend](https://www.w3.org/WAI/WCAG22/Techniques/html/H90)
   - [PDF5: Wskazanie wymaganych kontrolek formularzy w formularzach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF5)
 - [H44: Użycie elementu label do kojarzenia etykiet tekstowych z kontrolkami formularzy](https://www.w3.org/WAI/WCAG22/Techniques/html/H44)
 - [PDF10: Zapewnianie etykiet dla interaktywnych kontrolek formularzy w dokumentach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF10)
