@@ -52,9 +52,9 @@ Kryteria sukcesu: [3.3.1 Identyfikacja błędu](https://wcag.lepszyweb.pl/#error
 
 #### Pomocne narzędzia:
 
-#### Techniki WCAG 2.1
+#### Techniki WCAG
 
-**Identyfikacja błędów**
+##### Identyfikacja błędów
 
 **Techniki wystarczające** dla kryterium sukcesu 3.3.1**
 
@@ -77,7 +77,7 @@ Kryteria sukcesu: [3.3.1 Identyfikacja błędu](https://wcag.lepszyweb.pl/#error
 - [G139: Zapewnienie mechanizmu, który umożliwia użytkownikom przechodzenie do błędów](https://www.w3.org/WAI/WCAG22/Techniques/general/G139)
 - [G199: Zapewnienie komunikatu o powodzeniu po pomyślnym przesłaniu danych](https://www.w3.org/WAI/WCAG22/Techniques/general/G199)
 
-**Sugestie korekty błędów**
+##### Sugestie korekty błędów
 
 **Techniki wystarczające** dla kryterium sukcesu 3.3.3**
 
