@@ -53,6 +53,66 @@ Kryteria sukcesu: [3.3.1 Identyfikacja błędu](https://wcag.lepszyweb.pl/#error
 #### Pomocne narzędzia:
 
 #### Techniki WCAG 2.1
+
+**Identyfikacja błędów**
+
+- **Sytuacja A**: Jeżeli formularz zawiera pola, w których informacje od użytkownika są wymagane.
+  - [G83: Zapewnienie opisów tekstowych wskazujących wymagane pola, które nie zostały wypełnione](https://www.w3.org/WAI/WCAG22/Techniques/general/)
+  - [ARIA21: Użycie atrybutu aria-invalid do wskazania pola z błędem](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA21)
+  - [SCR18: Zapewnienie sprawdzania poprawności i alertu po stronie klienta](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR18)
+  - [PDF5: Wskazanie wymaganych kontrolek formularzy w formularzach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF5)
+- **Sytuacja B**: Jeżeli informacje dostarczone przez użytkownika muszą być w określonym formacie danych lub mieć określone wartości.
+  - [ARIA18: Użycie atrybutu aria-alertdialog do identyfikacji błędów](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA18)
+  - [ARIA19: Użycie atrybutu role=alert lub role=live do identyfikacji błędów](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA19)
+  - [ARIA21: Użycie atrybutu aria-invalid do wskazania pola z błędem](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA21)
+  - [G84: Zapewnienie komunikatu tekstowego, gdy użytkownik podaje informacje, które nie znajdują się na liście dozwolonych wartości](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
+  - [G85: Zapewnienie komunikatu tekstowego, gdy dane wprowadzane przez użytkownika nie mieszczą się w wymaganym formacie lub zakresie wartości](https://www.w3.org/WAI/WCAG22/Techniques/general/G85)
+  - [SCR18: Zapewnienie sprawdzania poprawności i alertu po stronie klienta](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR18)
+  - [SCR32: Zapewnienie sprawdzania poprawności po stronie klienta i dodawania tekstu błędu przez DOM](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR32)
+  - [PDF22: Wskazywanie, kiedy dane wprowadzone przez użytkownika nie mieszczą się w wymaganym formacie lub wartościach w formularzach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF22)
+
+**Techniki pomocnicze** dla kryterium sukcesu 3.3.1
+- [G139: Zapewnienie mechanizmu, który umożliwia użytkownikom przechodzenie do błędów](https://www.w3.org/WAI/WCAG22/Techniques/general/G139)
+- [G199: Zapewnienie komunikatu o powodzeniu po pomyślnym przesłaniu danych](https://www.w3.org/WAI/WCAG22/Techniques/general/G199)
+
+**Sugestie korekty błędów**
+
+**Techniki wystarczające** dla kryterium sukcesu 3.3.3**
+
+- **Sytuacja A**: Jeżeli obowiązkowe pole nie zawiera żadnych informacji:
+  - [G83: Zapewnienie opisów tekstowych wskazujących wymagane pola, które nie zostały wypełnione](https://www.w3.org/WAI/WCAG22/Techniques/general/G83)
+  - [ARIA2: Identyfikacja wymaganych pól za pomocą właściwości aria-required](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA2)
+  - [PDF5: Wskazanie wymaganych kontrolek formularzy w formularzach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF5)
+- **Sytuacja B**: Jeżeli informacje w danym polu muszą być w określonym formacie danych:
+  - [ARIA18: Użycie atrybutu aria-alertdialog do identyfikacji błędów](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA18)
+  - [G85: Zapewnienie komunikatu tekstowego, gdy dane wprowadzane przez użytkownika nie mieszczą się w wymaganym formacie lub zakresie wartości](https://www.w3.org/WAI/WCAG22/Techniques/general/G85)
+  - [G177: Zapewnienie tekstu sugerującego korektę](https://www.w3.org/WAI/WCAG22/Techniques/general/G177)
+  - [SCR18: Zapewnienie sprawdzania poprawności i alertu po stronie klienta](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR18)
+  - [SCR32: Zapewnienie sprawdzania poprawności po stronie klienta i dodawania tekstu błędu przez DOM](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR32)
+  - [PDF22: Wskazywanie, kiedy dane wprowadzone przez użytkownika nie mieszczą się w wymaganym formacie lub wartościach w formularzach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF22)
+- **Sytuacja C**: Informacje dostarczane przez użytkownika muszą być jednym z ograniczonych zestawów wartości:
+  - [ARIA18: Użycie atrybutu aria-alertdialog do identyfikacji błędów](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA18)
+  - [G84: Zapewnienie komunikatu tekstowego, gdy użytkownik podaje informacje, które nie znajdują się na liście dozwolonych wartości](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
+  - [G177: Zapewnienie tekstu sugerującego korektę](https://www.w3.org/WAI/WCAG22/Techniques/general/G177)
+  - [SCR18: Zapewnienie sprawdzania poprawności i alertu po stronie klienta](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR18)
+  - [SCR32: Zapewnienie sprawdzania poprawności po stronie klienta i dodawania tekstu błędu przez](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR32)
+  - [PDF22: Wskazywanie, kiedy dane wprowadzone przez użytkownika nie mieszczą się w wymaganym formacie lub wartościach w formularzach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF22)
+  
+**Techniki pomocnicze** dla kryterium sukcesu 3.3.3
+
+- [G139: Zapewnienie mechanizmu, który umożliwia użytkownikom przechodzenie do błędów](https://www.w3.org/WAI/WCAG22/Techniques/general/G139)
+- [G199: Zapewnienie komunikatu o powodzeniu po pomyślnym przesłaniu danych](https://www.w3.org/WAI/WCAG22/Techniques/general/G199)
+
+
+
+
+
+
+
+
+
+
+
 _do opracowania_
 
 ### Przypadki testowe
