@@ -86,7 +86,7 @@ Wszystkie aktywne komponenty formularzy.
     -   Przeniesienie fokusu na inny komponent interfejsu po zaznaczeniu elementu na liśccie wyboru
 
 ### Wynik testów
-Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.2.2 oraz test bazowy 10.C-OnInput kończy się niepowodzeniem.
+Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test bazowy 10.C-OnInput kończy się niepowodzeniem.
 
 ## 10.D Procedura testowa dla KS 3.3.1 Identyfikacja błędu
 
