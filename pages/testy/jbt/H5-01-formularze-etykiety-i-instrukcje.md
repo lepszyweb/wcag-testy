@@ -83,8 +83,8 @@ Kryteria sukcesu: [1.1.1. Treść nietekstowa](https://wcag.lepszyweb.pl/#non-te
 **Techniki wystarczające** dla kryterium sukcesu 3.3.2
 
 - [G131: Zapewnienie opisowych etykiet](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
-  - [ARIA1: Użycie dostępnej bogatej aplikacji internetowej, opisanej jako właściwość, aby zapewnić opisową etykietę określaną](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA1)
-  - [ARIA9: Użycie atrybutu aria-labelledby, aby połączyć etykietę kilku węzłów tekstowych](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA9)
+  - [ARIA1: Użycie właściwości aria-describedby, aby zapewnić opisowe etykiety dla kontrolek interfejsu użytkownika](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA1)
+  - [ARIA9: Użycie atrybutu aria-labelledby, aby połączyć etykietę z kilku węzłów tekstowych](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA9)
   - [ARIA17: Użycie ról grupowania do identyfikowania powiązanych kontrolek formularzy](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA17)
   - [G89: Podanie oczekiwanego formatu danych i przykładu](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
   - [G184: Podanie na początku formularza lub zestawu pól instrukcji tekstowych opisujących niezbędne dane wejściowe](https://www.w3.org/WAI/WCAG22/Techniques/general/G84)
