@@ -1,13 +1,12 @@
 ---
 title: 10. Formularze
-
-
 sidebar: testy_sidebar
 permalink: ICT-10-formularze
 folder: testy/itc
 ---
 
 ## Wymagania dostępności
+- {% include ks/1-1-1.md %}
 - {% include ks/1-3-1.md %}
 - {% include ks/2-4-6.md %}
 - {% include ks/3-2-2.md %}
@@ -17,149 +16,180 @@ folder: testy/itc
 - {% include ks/3-3-4.md %}
 - {% include ks/4-1-2.md %}
 
-## Uzasadnienie metody badania
-Przejrzyj instrukcje formularza pod kątem kompletności i programowego powiązania z ich danymi wejściowymi. Wprowadź błędne dane wejściowe i przejrzyj powiadomienia o błędach dostarczone użytkownikowi.
-
+## Objaśnienie metody testowej
+Przejrzyj instrukcje formularza pod kątem kompletności i programowego powiązania z polami formularza. Wprowadź błędne dane i przejrzyj powiadomienia o błędach dostarczone użytkownikowi.
 
 ## Ograniczenia, założenia lub wyjątki
--   Pola formularza tylko do odczytu (np. wstępnie wypełnione) otrzymują fokus klawiatury i można je wybierać, ale nie można ich modyfikować. Pola te muszą być oznaczone i [możliwe do odczytania przez program komputerowy](https://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable) oraz są testowane zgodnie z KS 1.3.1.
--   Wyłączone kontrolki nie otrzymują fokusu klawiatury, nie można ich wybrać ani modyfikować. Nie są one uwzględniane w tym teście.
--   Kliknięcie opcji lub zaznaczenie opcji w formularzu powinno wybrać opcję, ale nie powinno inicjować zmiany kontekstu.
--   [Zmiana kontekstu](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html#context-changedef) została zdefiniowana na stronie [Objaśnienie KS 3.2.1: Po oznaczeniu fokusem](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) jako: znaczące zmiany treści \[strony internetowej\], które dokonywane bez świadomości użytkownika, mogą go dezorientować, jeżeli nie jest on w stanie oglądać całej strony jednocześnie. Zmiany kontekstu obejmują zmiany:
+-   Pola formularza tylko do odczytu (np. wstępnie wypełnione) otrzymują fokus klawiatury i można je wybierać, ale nie można ich modyfikować. Pola te muszą być oznaczone i [programowo określone](https://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable). Są testowane zgodnie z KS 1.3.1.
+-   Wyłączone pola formularza nie otrzymują fokusu klawiatury, nie można ich wybrać ani modyfikować. Nie są one uwzględniane w tym teście.
+-   Kliknięcie opcji lub zaznaczenie opcji w formularzu powinno wybrać opcję, ale nie powinno powodować zmiany kontekstu.
+-   [Zmiana kontekstu](https://wcag.irdpl.pl/understanding/po-otrzymaniu-fokusu.html#dfn-zmiana-kontekstu) została zdefiniowana na stronie [Objaśnienie KS 3.2.1: Po oznaczeniu fokusem](https://wcag.irdpl.pl/understanding/po-otrzymaniu-fokusu.html#dfn-zmiana-kontekstu) jako: duże zmiany treści \[strony internetowej\], dokonywane bez świadomości użytkowników, które mogą ich dezorientować, gdy nie są w stanie przeglądać całej strony jednocześnie. Zmiany kontekstu obejmują zmiany:
     1.  W programie użytkownika (przeglądarce, itp.)
-    2.  Obszaru operacyjnego
-    3.  fokusu
-    4.  Treści, która zmienia sens \[strony internetowej\].
--   **Uwaga:** Zmiana treści nie zawsze oznacza zmianę kontekstu. Zmiana w treści, na przykład rozwinięcie drzewa, dynamicznego menu lub zakładki niekoniecznie zmieniają kontekst, dopóki nie zmienią jednego z powyższych (np. fokusu).
--   **Przykład zmiany kontekstu**: Otwarcie nowego okna, przeniesienie fokusu na inny obiekt, przejście na inną stronę internetową (włączając w to także każdą sytuację, kiedy użytkownikowi tylko wydaje się, że przechodzi na inną stronę internetową) lub znaczące przekształcenie wyglądu strony są przykładami zmiany kontekstu.
+    2.  Obszaru operacyjnego (rzutni, ang. viewport)
+    3.  Fokusu
+    4.  Treści, która zmienia sens strony internetowej.
+-   **Uwaga:** Zmiana treści nie zawsze oznacza zmianę kontekstu. Zmiany nie zawsze oznacza zmianę kontekstu. Zmiany treści, na przykład rozwinięcie drzewa, dynamicznego menu lub karty niekoniecznie zmieniają kontekst, dopóki nie zmienią jednego z powyższych (np. fokusu).
+-   **Przykłady**: Otwarcie nowego okna, przeniesienie fokusu na inny obiekt, przejście na inną stronę internetową (w tym wszystko, co dla użytkownika może wyglądać tak, jakby przeszedł na nową stronę) lub przekształcenie wyglądu strony strony.
 
-## Procedura testu dla KS 1.3.1 Informacje i relacje oraz 4.1.2 Nazwa, rola, wartość
+## 10.A Procedura testowania nazw formularzy 
+
+**Identyfikator testu bazowego:** 10.A-FormName
 
 ### Identyfikacja treści
-1.  Znajdź wszystkie kontrolki formularza (komponenty zbierające dane), takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
-2.  Znajdź wszystkie instrukcje i wskazówki (tekstowe i graficzne) związane z  kontrolkami formularza, w tym dotyczące elementów pogrupowanych, kolejności wypełniania, specjalnych warunków lub kwalifikatorów, instrukcji formatowania itp.
+1.  Znajdź wszystkie komponenty formularza (komponenty zbierające dane), które nie mają `visibility:hidden` lub `display:none` 
+takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
+2.  Znajdź wszystkie instrukcje i wskazówki (tekstowe i graficzne) związane z  komponentami formularza, w tym dotyczące elementów pogrupowanych, kolejności wypełniania, specjalnych warunków lub kwalifikatorów, instrukcji formatowania itp.
 
 ### Instrukcja testowania
-1.  Sprawdź, czy kombinacja [dostępnej nazwy, dostępnego opisu](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation) i innych powiązań programowych (np. powiązanie kolumny i wiersze tabeli) opisuje każdą kontrolkę i zawiera wszystkie niezbędne i odpowiednie instrukcje i wskazówki (tekstowe i graficzne). Odwołaj się do [Mapowania API dostępności HTML 1.0](https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element),  aby uzyskać szczegółowe informacje na temat technik, które przyczyniają się do określenia dostępnej nazwy i dostępnego opisu.
+1.  Sprawdź, czy kombinacja [dostępnej nazwy i dostępnego opisu](https://lepszyweb.pl/blog2/dostepne-nazwy-i-dostepne-opisy) nie jest pusta. [KS 4.1.2]
+2.	Sprawdź, czy niepusta kombinacja dostępnej nazwy i dostępnego opisu opisuje cel formularza. [KS 4.1.2] [Komponenty formularza zawierające treść inną niż tekst powinny być również mapowane na KS 1.1.1.]. Aby uzyskać szczegółowe informacje na temat obliczania dostępnej nazwy i dostępnego opisu, należy zapoznać się z następującymi odniesieniami: 
+  - [Mapowanie interfejsu API dostępności HTML 1.0 dla pola `input`](https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-number-input-type-search-input-type-tel-input-type-email-input-type-url-and-textarea-element-accessible-name-computation)
+  - [Mapowanie interfejsu API dostępności HTML dla  elementów sterujących `input`](https://www.w3.org/TR/html-aam-1.0/#input-type-button-input-type-submit-and-input-type-reset-accessible-name-computation)
+  - [Mapowanie interfejsu API dostępności HTML dla elementów `button`](https://www.w3.org/TR/html-aam-1.0/#button-element-accessible-name-computation)
+  - [Mapowanie interfejsu API dostępności HTML dla `input type="image"`](https://www.w3.org/TR/html-aam-1.0/#input-type-image-accessible-name-computation)
+  - [Mapowanie interfejsu API dostępności HTML dla innych elementów formularza](https://www.w3.org/TR/html-aam-1.0/#other-form-elements-accessible-name-computation)
+3.	Sprawdź, czy wszystkie istotne instrukcje i wskazówki (tekstowe i graficzne) są powiązanie programowe (np. powiązania nagłówków kolumn i/lub wierszy tabeli) ze składnikiem formularza. [SC 1.3.1]
 
 ### Wynik testów
-Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 1.3.1, KS 4.1.2,  oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
+Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test KS 1.3.1, KS 4.1.2 oraz test bazowy 10.A-FormName również zakończy się niepowodzeniem.
 
-## Procedura testu dla KS 2.4.6 Nagłówki i etykiety
+## 10.B Procedura testowania opisowości etykiet
+
+**Identyfikator testu bazowego:** 10.B-FormDescriptiveLabel
 
 ### Identyfikacja treści
-1.  Znajdź wszystkie kontrolki formularza (komponenty zbierające dane), takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
-2.  Znajdź wszystkie instrukcje i wskazówki (tekstowe i graficzne) związane z  kontrolkami formularza, w tym dotyczące elementów pogrupowanych, kolejności wypełniania, specjalnych warunków lub kwalifikatorów, instrukcji formatowania itp.
+1.  Znajdź wszystkie komponenty formularza (zbierające dane), które nie mają `visibility:hidden` lub `display:none`, takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
+2.  Znajdź wszystkie instrukcje i wskazówki (tekstowe i graficzne) związane z  komponentami formularza, w tym dotyczące elementów pogrupowanych, kolejności wypełniania, specjalnych warunków lub kwalifikatorów, instrukcji formatowania itp.
 
 ### Instrukcja testowania
-1.  Sprawdź, czy etykiety i/lub instrukcje dla każdej kontrolki zbierającej dane informują użytkowników, jakie dane wejściowe są oczekiwane i, w stosownych przypadkach, jaki format jest wymagany.
+1.	Sprawdź, czy etykiety (instrukcje i wskazówki) każdego komponentu formularza opisują jego cel, informują użytkowników, jakie dane są oczekiwane i, jeśli ma to zastosowanie, jaki format jest wymagany. [SC 2.4.6]
 
 ### Wynik testów
-Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 2.4.6, KS 4.1.2,  oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
+Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test bazowy 10.B-FormDescriptiveLabel również zakończy się niepowodzeniem.
 
-## Procedura testu dla KS 3.2.2 Podczas wprowadzania danych
+**A co z: test KS 2.4.6, KS 4.1.2,**
+
+## 10.C Procedura testowa dla KS 3.2.2 Podczas wprowadzania danych
+
+**Identyfikator testu bazowego:** 10.C-OnInput
 
 ### Identyfikacja treści
-Wszystkie aktywne komponenty formularza.
+Wszystkie aktywne komponenty formularzy.
 
-### Instrukcja testowania
+### Instrukcje testowania
 1.  Wprowadź dane w każdym polu formularza i opuść pole (klawiszem Tab).
-2.  Zmień wybór lub wartości dla kontrolek formularza, takich jak przyciski opcji, pola wyboru, listy wyboru itp.
-3.  Sprawdź, czy opuszczenie pola lub zmiana wyboru albo wartości w polu (np. wprowadzanie danych w polu tekstowym, zmiana wyboru przycisku opcji)  **NIE**  inicjuje zmiany kontekstu, chyba że użytkownik został poinformowany o takim zachowaniu przed użyciem komponentu. Przykłady zmiany kontekstu:
+2.  Zmień wybór lub wartości w komponentach formularza, takich jak przyciski opcji, pola wyboru, listy wyboru itp.
+3.  Sprawdź, czy opuszczenie komponentu lub zmiana wartości/wyboru w komponencie (np. wprowadzanie danych w polu tekstowym, zmiana wyboru przycisku opcji)  **NIE**  powoduje zmiany kontekstu, chyba że użytkownik został poinformowany o takim zachowaniu przed użyciem komponentu [SC 3.2.2]. Przykłady zmiany kontekstu:
     -   Automatyczne przesłanie formularza po opuszczeniu pola,
     -   Automatyczne przesłanie formularza po opuszczeniu ostatniego pola w formularzu,
     -   Uruchamienie nowego okna, gdy zostanie zmienione zaznaczenie w grupie przycisków opcji
     -   Przeniesienie fokusu na inny komponent interfejsu po zaznaczeniu elementu na liśccie wyboru
 
 ### Wynik testów
-Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.2.2  oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
+Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.2.2 oraz test bazowy 10.C-OnInput kończy się niepowodzeniem.
 
-## Procedura testu dla KS 3.3.1 Identyfikacja błędu
+## 10.D Procedura testowa dla KS 3.3.1 Identyfikacja błędu
+
+**Identyfikator testu bazowego:** 10.D-ErrorIdentification
 
 ### Identyfikacja treści
-Pola zbierające dane z automatycznym wykrywaniem błędów i powiadomianiem.
+Komponenty formularza wejściowego z automatycznym wykrywaniem błędów i powiadamianiem o nich.
+
 
 ### Instrukcja testowania
-1.  Wprowadź nieprawidłowe wartości w polach zbierających dane, aby uruchomić automatyczne wykrywanie błędów, które powodują powiadomienia o błędach, np.:
+1.	Wprowadź nieprawidłowe wartości w komponentach zbierających dane, aby wywołać automatyczne wykrywanie błędów, które skutkuje powiadomieniami o błędach, np. 
     -   w polach oznaczonych jako wymagane
     -   w polach daty (format)
     -   w polach adresów internetowych (URL, e-mail)
     -   w polach przeznaczonych na hasło
 2.  Jeśli błąd we wprowadzaniu danych zostanie wykryty automatycznie, sprawdź, czy powiadomienie o błędzie spełnia wszystkie poniższe warunki:
-    -   użytkownik jest informowany o błędzie (albo natychmiast po opuszczeniu błędnie wypełnionego pola, albo przy próbie przesłania formularza) ORAZ
-    -   błąd jest opisany w tekście, ORAZ
-    -   element z błędem jest zidentyfikowany w tekście.
-
-
-### Wynik testów
-Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.3.1  oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
-
-## Procedura testu dla KS 3.3.2 Etykiety lub instrukcje
-
-### Identyfikacja treści
-1.  Znajdź wszystkie kontrolki formularza (komponenty zbierające dane), takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
-2.  Znajdź wszystkie instrukcje i wskazówki (tekstowe i graficzne) związane z  kontrolkami formularza, w tym dotyczące elementów pogrupowanych, kolejności wypełniania, specjalnych warunków lub kwalifikatorów, instrukcji formatowania itp.
-
-### Instrukcja testowania
-1.  Sprawdź, czy każdy komponent formularza zbierający dane ma etykietę(-y) lub instrukcje.
+    -   użytkownik jest informowany o błędzie (albo natychmiast po opuszczeniu błędnie wypełnionego pola, albo przy próbie przesłania formularza) **oraz**
+    -   błąd jest opisany użytkownikowi w formie tekstowej, **oraz**
+    -   element, w którym występuje błąd, jest oznaczony tekstem.
 
 ### Wynik testów
-Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.3.2  oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
+Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test bazowy 10.D-ErrorIdentification również zakończy się niepowodzeniem.
 
-## Procedura testu dla KS 3.3.3 Sugestie korekty błędów
+## 10.E Procedura testu dla KS 3.3.2 Etykiety lub instrukcje
+
+**Identyfikator testu bazowego:** 10.E-FormHasLabel
 
 ### Identyfikacja treści
-Pola zbierające dane z automatycznym wykrywaniem błędów i powiadomianiem.
+1.  Znajdź wszystkie komponenty formularza (zbierające dane), które nie mają `visibility:hidden` lub `display:none`, takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
+2.  Znajdź wszystkie instrukcje i wskazówki (tekstowe i graficzne) związane z  komponentami formularza, w tym dotyczące elementów pogrupowanych, kolejności wypełniania, specjalnych warunków lub kwalifikatorów, instrukcji formatowania itp.
 
 ### Instrukcja testowania
-1.  Wprowadź nieprawidłowe wartości w polach zbierających dane, aby uruchomić automatyczne wykrywanie błędów, które powodują powiadomienia o błędach, np.:
+
+1.	Sprawdź, czy każdy komponent formularza zbierający dane ma etykietę(-y) lub instrukcje, gdy otrzymuje fokus. [KS 3.3.2]
+
+### Wynik testów
+Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test bazowy 10.E-FormHasLabel również zakończy się niepowodzeniem
+
+## 10.F Procedura testu dla KS 3.3.3 Sugestie korekty błędów
+
+**Identyfikator testu bazowego:** 10.F-ErrorSuggestion
+
+### Identyfikacja treści
+Komponenty formularza wejściowego z automatycznym wykrywaniem błędów i powiadamianiem o nich.
+
+### Instrukcja testowania
+1.	Wprowadź nieprawidłowe wartości w komponentach zbierających dane, aby wywołać automatyczne wykrywanie błędów, które skutkuje powiadomieniami o błędach, np. 
     -   w polach oznaczonych jako wymagane
     -   w polach daty (format)
     -   w polach adresów internetowych (URL, e-mail)
     -   w polach przeznaczonych na hasło
-2.  Przejrzyj wszystkie powiadomienia o błędach.
-3.  Sprawdź, czy podano dodatkowe wskazówki, jak poprawić błędy w polach formularza, które nie zagroziłyby bezpieczeństwu ani przeznaczeniu treści (np. przykłady poprawnych danych, wskazówki, jak poprawić dane wprowadzone przez użytkownika).
-
+2.	Przejrzyj wszystkie powiadomienia o błędach.
+3.	Sprawdź, czy podano dodatkowe wskazówki, jak poprawić błędy w polach formularza, które nie zagroziłyby bezpieczeństwu ani przeznaczeniu treści (np. przykłady poprawnych danych, wskazówki, jak poprawić dane wprowadzone przez użytkownika). [KS 3.3.3]
 
 ### Wynik testów
-Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.3.3 oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
+Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test bazowy 10.F-ErrorSuggestion również zakończy się niepowodzeniem.
 
-## Procedura testu dla KS 3.3.4 Zapobieganie błędom (kontekst prawny, finansowy, związany z podawaniem danych
+## 10.G 10.G Procedura testowa dla KS 3.3.4 Zapobieganie błędom (prawne, finansowe, w danych)
+**Identyfikator testu bazowego:** 10.G-ErrorPrevention
 
 ### Identyfikacja treści
-Strony, które powodują powstanie zobowiązań prawnych użytkownika, strony transakcji finansowych, strony, za pomocą których użytkownik modyfikuje lub usuwa kontrolowane przez siebie dane w systemach przechowywania danych, strony, które przesyłają odpowiedzi użytkowników w testach (quizach).
+- strony, które powodują powstanie zobowiązań prawnych użytkownika, 
+- strony transakcji finansowych, strony, za pomocą których użytkownik modyfikuje lub usuwa kontrolowane przez siebie dane w systemach przechowywania danych, 
+- strony, które przesyłają odpowiedzi użytkowników w testach (quizach).
 
 ### Instrukcja testowania
-1.  Wypełnij pola formularza niezbędne do przesłania, wpisz błędne dane, poleć usunięcie istotnych danych.
-2.  Sprawdź, czy przynajmniej jedno z poniższych założeń jest prawdziwe:
-    1.  **Odwracalność**: Wprowadzenie danych jest odwracalne.
-    2.  **Sprawdzanie**: Dane wprowadzone przez użytkownika są sprawdzane pod kątem błędów, a użytkownik ma możliwość wprowadzenia poprawek.
-    3.  **Potwierdzenie**: Dostępny jest mechanizm sprawdzania, potwierdzania oraz korekty informacji przed jej ostatecznym wysłaniem.
-
+1.	Wypełnij pola formularza niezbędne do przesłania, wpisz błędne dane albo poleć usunięcie danych.
+2.	Sprawdź, czy przynajmniej jedno z poniższych stwierdzeń jest prawdziwe [KS 3.3.4]:
+    a.  **Odwracalność**: Wprowadzenie danych jest odwracalne.
+    b.  **Sprawdzanie**: Dane wprowadzone przez użytkownika są sprawdzane pod kątem błędów, a użytkownik ma możliwość wprowadzenia poprawek.
+    c.  **Potwierdzenie**: Istniejet mechanizm sprawdzania, potwierdzania i korygowania informacji przed jej ostatecznym wysłaniem.
 
 ### Wynik testów
-Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test KS 3.3.4 oraz wymaganie podstawowe nr 10 kończy się niepowodzeniem.
+Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test bazowy 10.G-ErrorPrevention również zakończy się niepowodzeniem.
 
-## Procedura testu dla KS 4.1.2 Nazwa, rola, wartość
-Zobacz [5. Treść zmienna](ICT_05_tresc-zmienna)
+##  Wskazówki dotyczące usprawniania procesów testowych
+-   W przypadku KS 3.3.1 dopuszczalne techniki obejmują: (a) przeniesienie fokusu na komunikat o błędzie informujący użytkownika, że ​​poprzednie pole wymaga korekty i opisujące błąd, (b) odświeżenie strony po przesłaniu formularza i wyświetlenie na górze strony opisów i lokalizacji błędów. **Uwaga**: Ponowne wyświetlenie formularza i wskazanie pól zawierających błędy w formularzu nie jest wystarczające, aby spełnić ten wymóg. Użytkownik nie powinien być zmuszony do przeszukiwania formularza, aby znaleźć miejsca, w których popełniono błędy.
+-   W przypadku KS 3.3.4: ponieważ użytkownik może przejrzeć prosty, jednostronicowy formularz przed naciśnięciem przycisku „Prześlij” na stronie, inny specjalny mechanizm weryfikacji poprawności nie jest wymagany.
 
-##  Wskazówki dotyczące usprawniania procesu testowego
--   W przypadku KS 3.3.1 dopuszczalne techniki obejmują: a) przeniesienie fokusu na komunikat o błędzie informujący użytkownika, że ​​poprzednie pole wymaga korekty i opisujące błąd, b) odświeżenie strony po przesłaniu formularza i wyświetlenie na górze strony opisów i lokalizacji błędów. **Uwaga**: Ponowne wyświetlenie formularza i wskazanie błędnych pól w formularzu jest niewystarczające, aby spełnić to wymaganie. Użytkownik nie powinien przeszukiwać formularza, aby dowiedzieć się, gdzie popełniono błędy.
--   W przypadku KS 3.3.4: ponieważ użytkownik może przejrzeć prosty, 1-stronicowy formularz przed naciśnięciem przycisku wysyłania na stronie, inny specjalny mechanizm weryfikacji poprawności nie jest wymagany.
+## Techniki WCAG 2.2
+Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki WCAG i typowe błędy:
 
-
-## Techniki WCAG 2.1
-Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
-
-- {% include techniki/G115.md %} ORAZ {% include techniki/H49.md %}
 - {% include techniki/G80.md %}
 - {% include techniki/G13.md %}
-- {% include techniki/G131.md %}
-- {% include techniki/H44.md %}
-- {% include techniki/H71.md %}
-- {% include techniki/H65.md %}
-- {% include techniki/SCR19.md %}
 - {% include techniki/G83.md %}
 - {% include techniki/G85.md %}
+- {% include techniki/G115.md %}
+- {% include techniki/G131.md %}
+- {% include techniki/H44.md %}
+- {% include techniki/H65.md %}
+- {% include techniki/H71.md %}
+- {% include techniki/SCR19.md %}
 - {% include techniki/F36.md %}
 - {% include techniki/F37.md %}
+- {% include techniki/F82.md %}
+
+
+
+
+
+
+
+
+
+
+
