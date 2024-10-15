@@ -79,7 +79,7 @@ Procedura testowa „Zgodna wersja alternatywna i brak zakłóceń” obejmuje p
 
 Zapewnianie wielu wersji tej samej treści nie jest wymagane. Jeśli istnieje tylko jedna wersja treści i jest ona zgodna z wymogami WCAG, wówczas inne wersje nie są konieczne.
 
-Gdy treść nie spełnia wymogów dostępności, twórcy te same informacje i funkcje w dostępny sposób. Ale alternatywna wersja treści musi przejść wszystkie obowiązujące testy, aby można ją uznać „zgodną wersję alternatywną”. 
+Gdy treść nie spełnia wymogów dostępności, twórcy mogą dostarczyć alternatywną wersję treści zapewniającą te same informacje i funkcje w dostępny sposób. Ale alternatywna wersja treści musi przejść wszystkie obowiązujące testy, aby można ją uznać „zgodną wersję alternatywną”. 
 
 Aby być „zgodną wersją alternatywną” zgodnie z definicją WCAG, należy spełnić wiele wymagań; ten test jest tylko jednym z nich. 
 
