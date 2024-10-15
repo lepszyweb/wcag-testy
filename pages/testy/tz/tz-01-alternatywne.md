@@ -21,7 +21,7 @@ Na stronie internetowej mogą być zastosowane technologie internetowe, które n
 Celem tej procedury jest sprawdzenie, w przypadku gdy witryna internetowa zawiera alternatywne wersje treści w&nbsp;celu spełnienia wymagań dostępności, 
 
 - czy podana zgodna wersja alternatywna jest rzeczywiście dostępna i równoważna
-- czy wersje spełniają wymagania WCAG dotyczące dotarcia do alternatywnej treści, z wersji niezgodnej do wersji zgodnej i odwrotnie. 
+- czy wersje spełniają wymagania WCAG dotyczące dotarcia do alternatywnej treści, z wersji niezgodnej do wersji zgodnej. 
 
 Zanim alternatywną wersję można uznać za „zgodną wersję alternatywną”, należy ocenić:
 - czy wersja alternatywna jest w pełni dostępna,
@@ -65,8 +65,7 @@ Procedura testowa „Zgodna wersja alternatywna i brak zakłóceń” obejmuje p
 1.	Test 1.A Wersja-alt-zgodna 
 2.  Test 1.B Wersja-alt-rownowazna
 3.  Test 1.C Dostep-z-wersji-niezgodnej
-4.  Test 1.D Dostep-do-wersji-niezgodnej
-5.  Test 1.E Bez-zaklocen
+4.  Test 1.D Bez-zaklocen
 
 ## Dostępność wersji alternatywnej
 
