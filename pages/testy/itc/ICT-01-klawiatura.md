@@ -11,11 +11,11 @@ folder: testy/itc
 - {% include ks/2-1-1.md %}  
 - {% include ks/2-1-2.md %}  
 
--   [Wymaganmie zgodności: 5. Bez zakłóceń](https://www.w3.org/Translations/WCAG21-pl/#cc5) - Poniższe kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ ich niespełnienie może zakłócać korzystanie ze strony: 1.4.2 - Kontrola odtwarzania dźwięku, 2.1.2 - Bez pułapki na klawiaturę, 2.3.1 Trzy błyski lub wartości poniżej progu, 2.2.2: Pauza, zatrzymanie, ukrycie.
+-   [Wymaganie zgodności: 5. Bez zakłóceń](https://www.w3.org/Translations/WCAG21-pl/#cc5) - Poniższe kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ ich niespełnienie może zakłócać korzystanie ze strony: 1.4.2 - Kontrola odtwarzania dźwięku, 2.1.2 - Bez pułapki na klawiaturę, 2.3.1 Trzy błyski lub wartości poniżej progu, 2.2.2: Pauza, zatrzymanie, ukrycie.
 
 
 ## Objaśnienie metody badawczej
-Wymaganie to polega na użyciu klawiatury do sprawdzenia dostępu i kontroli działania wszystkich funkcji treści poprzez sprawdzenie użycia standardowych poleceń klawiaturowych (TAB, Spacja, Enter, Escape, itp.). Jeśli interfejs korzysta z niestandardowych poleceń klawiatury, interfejs musi wyraźnie dokumentować polecenia i informować użytkowników, że polecenia istnieją.
+To wymaganie opiera się na użyciu klawiatury, aby sprawdzić dostęp i możliwość sterowania wykonaniem wszystkich funkcji treści za pomocą samej klawiatury, korzystając ze standardowych poleceń klawiaturowych (TAB, Spacja, Enter, Escape, itp.). Jeśli interfejs wymaga korzystania z niestandardowych poleceń klawiatury, interfejs musi wyraźnie dokumentować te polecenia i informować użytkowników, że polecenia istnieją.
 
 Dostęp i sterowanie za pomocą klawiatury obejmuje możliwość nawigowania do ORAZ z treści interaktywnych przy użyciu  samej klawiatury.
 
@@ -23,10 +23,10 @@ Dostęp i sterowanie za pomocą klawiatury obejmuje możliwość nawigowania do 
 -   Ten test został napisany do wykonania na standardowej klawiaturze fizycznej dla komputera z systemem Windows. Chociaż można wykorzystywać emulatory klawiatury (takie jak klawiatury ekranowe, klawiatury alternatywne, wprowadzanie mowy itp.), instrukcje testowania mogą się różnić. Klawisze myszy (funkcja systemu Windows i Mac OS, która umożliwia sterowanie wskaźnikiem myszy za pomocą klawiatury) nie jest emulatorem klawiatury.
 
 -   Uwagi do KS 2.1.1:
-    -   *Uwaga 1*: Wyjątek ten odnosi się do funkcji podstawowej, a nie do techniki wprowadzania danych. Na przykład, jeśli do wprowadzania tekstu używane jest pismo odręczne, technika wprowadzania (pismo odręczne) wymaga wprowadzania danych zależnych od ścieżki, ale ale funkcja podstawowa (wprowadzanie tekstu) tego nie wymaga.
-    -   *Uwaga 2*: Nie zabrania to i nie powinno zniechęcać do wprowadzania danych za pomocą myszy lub innych metod wprowadzania poza obsługą klawiatury.
+    -   *Uwaga 1*: Ten wyjątek dotyczy danej funkcji, a nie techniki wprowadzania. Na przykład, jeśli do wprowadzania tekstu używa się pisma odręcznego, technika wprowadzania (pismo odręczne) wymaga wprowadzenia informacji w&nbsp;oparciu o ścieżkę, jednak powiązana z tym funkcja (wprowadzenie tekstu) już tego nie wymaga.
+    -   *Uwaga 2*: To nie powinno blokować ani ograniczać użycia interfejsu innymi metodami niż klawiatura, np. za pomocą myszki.
 -   Uwaga do KS 2.1.2:
-    -   *Uwaga 1*: Ponieważ każda treść, która nie spełnia tego kryterium sukcesu, może zakłócać użytkownikowi korzystanie z całej strony, cała treść strony internetowej (niezależnie od tego, czy jest używana do spełnienia innych kryteriów sukcesu, czy nie) musi spełniać to kryterium sukcesu. Patrz Wymaganie zgodności: 5. Brak zakłóceń.
+    -   *Uwaga 1*: Ponieważ każda treść, która nie spełnia tego kryterium sukcesu może utrudnić użytkownikowi skorzystanie z całej strony, cała treść danej strony (bez względu na to, czy spełnia inne kryteria, czy nie) musi spełnić powyższe kryterium. Więcej informacji: [Wymaganie zgodności: 5. Bez zakłóceń](https://www.w3.org/Translations/WCAG21-pl/#cc5).
 
 ## Procedura testowa dla KS 2.1.1 Klawiatura
 
@@ -52,7 +52,7 @@ Identyfikator testu bazowego: *1.B-NoKeyboardTrap*
 
 
 ### Identyfikacja treści
-Wszystki komponenty, na których można ustawić fokus klawiatury.
+Wszystkie komponenty, na których można ustawić fokus klawiatury.
 
 ### Instrukcja testowania
 1.  Sprawdź, czy fokus można zawsze przenieść z elementu na inny. Nie może być ŻADNEJ „PUŁAPKI”, która zakłóca nawigację klawiaturą. [KS 2.1.2, Wymaganie zgodności 5]
@@ -61,11 +61,6 @@ Wszystki komponenty, na których można ustawić fokus klawiatury.
 
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test *1.B-NoKeyboardTrap* kończy się niepowodzeniem.
-
-
-Poradnik: Wskazówki dotyczące usprawnionych procesów testowych
-•	Komponenty, na których można ustawić fokus klawiatury, obejmują łącza, pola formularzy, menu rozwijane, pokazywanie/ukrywanie zawartości, widoki drzewa, wyskakujące okienka/lightboxy, ramki i ramki iframe. Komponenty, które można ustawić ostrość, mogą być również "ukryte", umieszczone poza ekranem i/lub nie mieć widocznych wskaźników ostrości.
-•	Polecenia klawiaturowe obejmują standardowe i niestandardowe polecenia klawiaturowe.
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 
@@ -82,3 +77,5 @@ Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wyst
 
 - {% include techniki/G21.md %}
 - {% include techniki/G202.md %}
+- {% include techniki/F10.md %}
+- {% include techniki/F54.md %}
