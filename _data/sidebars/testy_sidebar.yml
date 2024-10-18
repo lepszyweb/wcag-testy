@@ -227,13 +227,10 @@ entries:
           url: /ICT-01-klawiatura
           output: web, pdf
 
-        - title: 2. Widoczny fokus
-          url: /ICT-02-widoczny-fokus
+        - title: 2. Fokus
+          url: /ICT-02-fokus
           output: web, pdf
 
-        - title: 3. Kolejność fokusu
-          url: /ICT-03-kolejnosc-fokusu
-          output: web, pdf
 
         - title: 4. Treść powtarzalna
           url: /ICT-04-tresc-powtarzalna
