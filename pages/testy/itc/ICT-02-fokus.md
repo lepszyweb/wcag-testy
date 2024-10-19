@@ -22,21 +22,17 @@ Ręczne nawigowanie lub sterowanie komponentami interfejsu tylko za pomocą same
 -   Fokus można przenieść do kontrolki albo za pomocą klawiatury (np. klawiszem Tab), albo myszy (np. kliknięcie pola tekstowego). Przesunięcie wskaźnika myszy nad kontrolkę nie powoduje przeniesienia fokusu, chyba że takie zachowanie zostanie zaimplementowane w skrypcie.
 -   Chociaż jest to powszechna i najlepsza praktyka dla niektórych osób, nie jest wymagane ustawianie fokusu w kolejności od lewej do prawej strony, od góry do dołu.
 -   Kolejność fokusu dotyczy nawigacji do przodu i do tyłu.
--   Bez wyjątku fokus musi musi zostać przeniesiony do modalnych okien dialogowych i pozostawać w oknie dialogowym, dopóki użytkownik nie zamknie okna.
+-   Bez wyjątku fokus musi zostać przeniesiony do modalnych okien dialogowych i pozostawać w oknie dialogowym, dopóki użytkownik nie zamknie okna.
 -   W przypadku niektórych typów kontrolek kliknięcie kontrolki może również uaktywnić kontrolkę (np. przycisk), co z kolei może zainicjować zmianę kontekstu. Kontrolki, które są wyraźnie oznaczone i&nbsp;mają na celu zainicjowanie zmiany kontekstu, nie powodują niepowodzenia tego testu.
 -   W tym teście ocenia się KS 3.2.1 Po oznaczeniu fokusem, wyłącznie przy użyciu klawiatury, aby uniknąć niezamierzonego uruchomienia kontrolek za pomocą myszy.
 -   Częścią tego testu jest także widoczność fokusu na łączach pomijających.
-<!-- 
--   Przełączanie fokusu na odkrywane treści nie jest tutaj testowane. Zobacz [5. Treść zmienna](testy/ICT_05_tresc-zmienna)
--   Technologia wspomagająca będzie przetwarzać regiony aria na żywo bez zmiany fokusu. Żywe regiony (dynamiczne), które nie zawierają treści interaktywnych, nie wymagają zmiany fokusu i nie są uwzględnione w tym teście.
--->
--   [Zmiana kontekstu](https://wcag.irdpl.pl/understanding/po-otrzymaniu-fokusu.html#dfn-zmiana-kontekstu) została zdefiniowana na stronie [Objaśnienie KS 3.2.1: Po otrzymaniu fokusu](https://wcag.irdpl.pl/understanding/po-otrzymaniu-fokusu.html) jako: duże zmiany, dokonywane bez świadomości użytkowników, które mogą ich dezorientować, gdy nie są w stanie przeglądać całej strony jednocześnie. Zmiany kontekstu obejmują zmiany::
+-   [Zmiana kontekstu](https://wcag.irdpl.pl/understanding/po-otrzymaniu-fokusu.html#dfn-zmiana-kontekstu) została zdefiniowana na stronie [Objaśnienie KS 3.2.1: Po otrzymaniu fokusu](https://wcag.irdpl.pl/understanding/po-otrzymaniu-fokusu.html) jako: duże zmiany, dokonywane bez świadomości użytkowników, które mogą ich dezorientować, gdy nie są w stanie przeglądać całej strony jednocześnie. Zmiany kontekstu obejmują zmiany:
     1.  w programie użytkownika (przeglądarce, itp.)
     2.  obszaru operacyjnego
     3.  fokusu
     4.  treści, która zmienia sens strony internetowej..
--   **Uwaga:** Zmiana treści nie zawsze oznacza zmianę kontekstu. Zmiany treści, na przykład rozwinięcie drzewa, dynamicznego menu lub zakładki niekoniecznie zmieniają kontekst, dopóki nie zmienią jednego z powyższych (np. fokusu)..
--   **Przykład zmiany kontekstu**: Otwarcie nowego okna, przeniesienie fokusu na inny obiekt, przejście na inną stronę internetową (włączając w to także każdą sytuację, kiedy użytkownikowi tylko wydaje się, że przechodzi na inną stronę internetową) lub znaczące przekształcenie wyglądu strony są przykładami zmiany kontekstu.
+-   **Uwaga:** Zmiana treści nie zawsze oznacza zmianę kontekstu. Zmiany treści, na przykład rozwinięcie drzewa, dynamicznego menu lub zakładki niekoniecznie zmieniają kontekst, dopóki nie zmienią jednego z powyższych (np. fokusu).
+-   **Przykłady zmiany kontekstu**: Otwarcie nowego okna, przeniesienie fokusu na inny obiekt, przejście na inną stronę internetową (włączając w to także każdą sytuację, kiedy użytkownikowi tylko wydaje się, że przechodzi na inną stronę internetową) lub znaczące przekształcenie wyglądu strony są przykładami zmiany kontekstu.
 
 ## Procedura testu dla KS 2.4.7 Widoczny fokus
 Identyfikator testu bazowego: *2.A-FocusVisible*
@@ -47,16 +43,16 @@ Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, me
 
 ### Instrukcja testowania
 1.  Użyj klawiatury, aby poruszać się po każdym komponencie interfejsu.
-2.  Sprawdź, czy widoczny jest graficzny wskaźnik fokusu, gdy fokus znajduje się na komponencie interfejsu. Wskaźnik fokusu nie może być ograniczony czasowo; dopóki komponent ma fokus klawiatury, wskaźnik fokusu musi pozostać widoczny [KS 2.4.7].
+2.  Sprawdź, czy widoczny jest graficzny wskaźnik fokusu, gdy fokus znajduje się na komponencie interfejsu. Wskaźnik fokusu nie może być ograniczony czasowo; dopóki komponent ma fokus klawiatury, wskaźnik fokusu musi pozostać widoczny.
 
 ### Wynik testów
--   Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test *2.A-FocusVisible* kończy się niepowodzeniem.
+-   Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test podstawowy  *2.A-FocusVisible* kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 2.4.3 Kolejność fokusu
 Identyfikator testu bazowego: *2.B-FocusOrder*
 
 ### Identyfikacja treści
-Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, menu rozwijane, odsłanianie/ukrywanie treści, widoki drzewa, wyskakujące okienka, itp.), których kolejność w sekwencji nawigacji ma znaczenie dla zachowania sensu i funkcjonalności treści.
+Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, menu rozwijane, odsłanianie/ukrywanie treści, widoki drzewa, wyskakujące okienka, itp.), których kolejność w&nbsp;sekwencji nawigacji ma znaczenie dla zachowania sensu i funkcjonalności treści.
 
 
 ### Instrukcja testowania
@@ -81,7 +77,7 @@ Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, me
 1.  Użyj klawiatury, aby przenosić fokus i przejść na stronie przez każdy komponent interaktywny (w tym pola formularzy i listy rozwijane formularzy).
 2.  Sprawdź, czy gdy komponent otrzymuje fokus, nie inicjuje to nieoczekiwanej zmiany kontekstu. Przykłady zmiany kontekstu obejmują:
     -   Automatyczne przesłanie formularza, gdy komponent otrzyma fokus.
-    -   Uruchamienie nowego okna, gdy komponent otrzyma fokus.
+    -   Uruchomienie nowego okna, gdy komponent otrzyma fokus.
     -   Przeniesienie fokusu na inny komponent interfejsu.
 
 ### Wynik testów
