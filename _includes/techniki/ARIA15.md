@@ -1,1 +1,1 @@
-[ARIA15: Używanie atrybutu aria-describedby, aby zapewnić odpowiedniki tekstowe dla obrazów](https://www.w3.org/TR/WCAG20-TECHS/ARIA15.html)
+[ARIA15: Użycie atrybutu aria-describedby, aby zapewnić odpowiedniki tekstowe dla obrazów](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA15)

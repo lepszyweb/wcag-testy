@@ -31,7 +31,7 @@ Celem tego testu podstawowego jest sprawdzenie, czy kontrolki mają określone p
 Identyfikator testu podstawowego: *5.A-ControlName*
 
 ### Identyfikacja treści
-Rozpoznaj kontrolki użytkownika dla każdej odrębnej funkcji. Wyklucz formularze i łącza, ponieważ są one objęte odpowiednio testami podstawowymi [10. Formularze](ICT-10-formularze.md) i testami podstawowymi [14. Łącza](ICT-14-lacza.md)
+Rozpoznaj kontrolki użytkownika dla każdej odrębnej funkcji. Wyklucz formularze i łącza, ponieważ są one objęte odpowiednio testami podstawowymi [10. Formularze](ICT-10-formularze.md) i testami podstawowymi [14. Łącza](ICT-14-lacza.md).
 
 ### Instrukcja testowania
 1.	Sprawdź, czy kombinacja dostępnej nazwy i dostępnego opisu nie jest pusta.
@@ -86,7 +86,7 @@ Znajdź kontrolki użytkownika, których wartość użytkownik może zmienić.  
 Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _5.D-ControlValue_ kończy się niepowodzeniem.
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
--  Zmiany w kontrolkach mogą również obejmować zmiany koloru w celu przekazania informacji. Jeśli tak, ten test powinien sprawdzić, czy nazwa została zaktualizowana, aby odzwierciedlić znaczenie zmienionego koloru. Jeśli kolor zostanie użyty jako jedyny wizualny sposób przekazywania informacji (lub zmian informacji), wówczas treść nie spełnia wymagań KS 1.4.1 Użycie koloru (omówione w punkcie [7. Właściwości zmysłowe](testy/ICT_07_wlasciwosci-zmyslowe.md)).
+-  Zmiany w kontrolkach mogą również obejmować zmiany koloru w celu przekazania informacji. Jeśli tak, ten test powinien sprawdzić, czy nazwa została zaktualizowana, aby odzwierciedlić znaczenie zmienionego koloru. Jeśli kolor zostanie użyty jako jedyny wizualny sposób przekazywania informacji (lub zmian informacji), wówczas treść nie spełnia wymagań KS 1.4.1 Użycie koloru (omówione w punkcie [7. Właściwości zmysłowe](ICT_07_wlasciwosci-zmyslowe.md)).
 - Dostępna nazwa i dostępny opis niektórych kontrolek użytkownika są testowane w innych testach podstawowych, takich jak testy podstawowe [10. Formularze](ICT-10-formularze.md), testy podstawowe [14. Łącza](ICT-14-lacza.md).
 - W przypadku kontrolek użytkownika, które mają dedykowane testy podstawowe, zamapuj je na te testy dla dostępnej nazwy, a nie _5.A-ControlName_.
 - Ten test może wymagać interakcji z kontrolkami w celu oceny zmian w nazwie, roli, stanie, wartości. Pomocne mogą być instrukcje dotyczące interakcji, takie jak plan testów.
