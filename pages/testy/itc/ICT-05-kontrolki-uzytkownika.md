@@ -19,7 +19,7 @@ Celem tego testu podstawowego jest sprawdzenie, czy kontrolki mają określone p
 - Wartość
 
 ## Ograniczenia, założenia lub wyjątki
-- <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.komponent_interfejsu_uzytkownika | strip_html | replace: '*', ''}}">Komponent interfejsu użytkownika</a> to część treści, która jest postrzegana przez użytkowników jako pojedyncza kontrolka dla odrębnej funkcji. Komponentami interfejsu użytkownika są elementy formularzy i łącza, a także komponenty generowane przez skrypty. W tym teście dla zwięzłości użyto terminu „kontrolki użytkownika”.
+- [Komponent interfejsu użytkownika] to część treści, która jest postrzegana przez użytkowników jako pojedyncza kontrolka dla odrębnej funkcji. Komponentami interfejsu użytkownika są elementy formularzy i łącza, a także komponenty generowane przez skrypty. W tym teście dla zwięzłości użyto terminu „kontrolki użytkownika”.
 - Cechy dostępności kontrolki użytkownika muszą być poprawne, jeśli kontrolka użytkownika ulegnie zmianie.
 - Zgodnie z [Objaśnieniem WCAG KS 1.4.1 Użycie koloru] autorzy nie mogą ustawiać stanu odwiedzonych łączy. Element kotwicy nie zawiera atrybutu „odwiedzony”; dlatego autor nie ma możliwości zmiany stanu poprzez ustawienie atrybutu. Wyklucz stany łączy „odwiedzone/nieodwiedzone” z tego testu podstawowego.
 
