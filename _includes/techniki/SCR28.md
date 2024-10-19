@@ -1,1 +1,1 @@
-[SCR28: Korzystanie z rozwijanego i zwijanego menu w celu ominięcia bloku treści](http://www.w3.org/TR/WCAG20-TECHS/SCR28.html)
+[SCR28: Korzystanie z rozwijanego i zwijanego menu w celu ominięcia bloku treści](https://www.w3.org/TR/WCAG20-TECHS/SCR28.html)
