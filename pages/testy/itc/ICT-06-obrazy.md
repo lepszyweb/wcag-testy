@@ -15,7 +15,7 @@ folder: testy/itc
 
 ## Opis metody testowej
 -   Testowanie obrazów ocenia obrazy jako elementy zakodowane, aby ustalić, czy autor treści określił je jako znaczące lub dekoracyjne. Istnieją jednak pewne scenariusze, opisane w testach, w których programowe określenie autora może być nieprawidłowe.
--   Testy wykorzystują wskazówki z samouczka WAI W3C {Images Tutorial](https://www.w3.org/WAI/tutorials/images/)
+-   Testy wykorzystują wskazówki z samouczka WAI W3C [Images Tutorial](https://www.w3.org/WAI/tutorials/images/)
 -   Wszystkie obrazy znaczące i dekoracyjne muszą zostać ocenione. Do obrazu może mieć zastosowanie wiele testów.
 
 ## Ograniczenia, założenia lub wyjątki
@@ -46,8 +46,8 @@ Znajdź wszystkie obrazy (np. elementy `img` lub element z `role="img"`), które
 
 ### Instrukcja testowania
 1.	Sprawdź, czy żaden z poniższych warunków nie jest prawdziwy:
-    a.	Obraz jest projektem strony/formatowaniem i może zostać zignorowany przez technologię wspomagającą bez utraty znaczenia strony.
-    b.	Obraz nie jest widoczny na stronie.
+    -	Obraz jest projektem strony/formatowaniem i może zostać zignorowany przez technologię wspomagającą bez utraty znaczenia strony.
+    -	Obraz nie jest widoczny na stronie.
 2.	Sprawdź, czy NIE określono dla obrazu atrybutu `role="presentation"`.[ SC 4.1.2]
 3. 	Sprawdź, czy NIE określono dla obrazu atrybutu `role="none"`.[ SC 4.1.2]
 4.	Sprawdź, czy niepusta tekstowa alternatywa (połączenie dostępnej nazwy i dostępnego opisu) zapewnia równoważny opis celu obrazu.[SC 1.1.1].
@@ -65,16 +65,16 @@ Znajdź wszystkie obrazy (np. elementy img lub element z role="img" lub element,
 
 ### Instrukcja testowania
 1.	Sprawdź, czy alternatywa pustego tekstu została przypisana programowo przy użyciu jednej z następujących technik [SC 1.1.1]:
-   a.	obraz ma atrybut `role="prezentation"`.
-   b.	obraz ma atrybut `role="none"`.
-   c.	atrybut `aria-hidden' jest ustawiony na wartość "true".
-   d.	obraz ma arybut `alt=""`.
-   e.	Obraz jest wstawiany za pomocą CSS (tzn. jest obrazem tła).
+   -	obraz ma atrybut `role="prezentation"`.
+   -	obraz ma atrybut `role="none"`.
+   -	atrybut `aria-hidden' jest ustawiony na wartość "true".
+   -	obraz ma arybut `alt=""`.
+   -	Obraz jest wstawiany za pomocą CSS (tzn. jest obrazem tła).
 > Uwaga: Jeśli żadna z tych technik nie została użyta, test kończy się niepowodzeniem.
 2.	Sprawdź, czy żaden z poniższych warunków nie jest prawdziwy [SC 1.1.1]:
-   a.	Obraz jest jedynym sposobem na przekazanie istotnych informacji.
-   b.	Obraz jest w kolejności tabulacji.
-   c.	Obraz jest obrazem funkcjonalnym, który inicjuje działanie.
+   -	Obraz jest jedynym sposobem na przekazanie istotnych informacji.
+   -	Obraz jest w kolejności tabulacji.
+   -	Obraz jest obrazem funkcjonalnym, który inicjuje działanie.
 3.	W przypadku obrazów z `role="presentation"` lub `role="none"` sprawdź, czy nie ma niepustych atrybutów tekstu alternatywnego. Obecność takich atrybutów może spowodować, że technologia wspomagająca nie będzie ignorować obrazu, tj. zapewni użytkownikowi alternatywę tekstową obrazu. [SC 1.1.1]
    -	Przykład niepowodzenia 1: `<img role="none" alt="Użyj swoich notatek">`
    -	Przykład niepowodzenia 2: `<img aria-label="żółw" role="prezentation">`
