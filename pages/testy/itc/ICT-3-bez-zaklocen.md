@@ -17,7 +17,7 @@ folder: testy/itc
     -   2.2.2 - Pauza, zatrzymanie, ukrycie.
 
 ## Objaśnienie metody badania
-O wynikach tego testu podstawowego określają wyniki testów dla KS 1.4.2 (21.4-AudioControl), KS 2.1.2 (1.2-NoKeyboadTrap), KS 2.3.1 (9.1-Flashes) i KS 2.2.2 (21.2-MovingInfo i 21.3-AutoUpdate).
+Wynikach tego testu podstawowego określają wyniki testów dla KS 1.4.2 (21.4-AudioControl), KS 2.1.2 (1.2-NoKeyboadTrap), KS 2.3.1 (9.1-Flashes) i KS 2.2.2 (21.2-MovingInfo i 21.3-AutoUpdate).
 
 ## Ograniczenia, założenia lub wyjątki
 
@@ -25,7 +25,7 @@ Brak.
 
 ## Procedura testu dla Wymagania zgodności 5
 
-Identyfikator testu bazowego: 3.A-Bez-zaklocen
+Identyfikator testu bazowego: *3.A-Bez-zaklocen*
 
 ### Identyfikacja treści
 Wyniki testów podstawowych 21.D-AudioControl, 1.B-NoKeyboardTrap, 9.A-Flashes, 21.B-MovingInfo i&nbsp;21.C-AutoUpdate.
