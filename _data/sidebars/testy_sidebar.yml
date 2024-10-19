@@ -231,6 +231,9 @@ entries:
           url: /ICT-02-fokus
           output: web, pdf
 
+        - title: 3. Bez zakłóceń
+          url: /ICT-3-bez-zaklocen
+          output: web, pdf
 
         - title: 4. Treść powtarzalna
           url: /ICT-04-tresc-powtarzalna
@@ -316,9 +319,7 @@ entries:
           url: /ICT-24-parsowanie
           output: web, pdf
 
-        - title: 25. Brak zakłóceń
-          url: /ICT-25-brak-zaklocen
-          output: web, pdf
+
 
         - title: Dodatek A. Tabela porównawcza
           url: /ICT-26-dodatekA
