@@ -239,8 +239,8 @@ entries:
           url: /ICT-04-tresc-powtarzalna
           output: web, pdf
 
-        - title: 5. Treść zmienna
-          url: /ICT-05-tresc-zmienna
+        - title: 5. Kontrolki użytkownika
+          url: /ICT-05-kontrolki-uzytkownika
           output: web, pdf
 
         - title: 6. Obrazy
