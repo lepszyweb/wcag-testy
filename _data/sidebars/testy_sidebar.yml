@@ -232,7 +232,7 @@ entries:
           output: web, pdf
 
         - title: 3. Bez zakłóceń
-          url: /ICT-3-bez-zaklocen
+          url: /ICT-03-bez-zaklocen
           output: web, pdf
 
         - title: 4. Treść powtarzalna
