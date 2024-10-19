@@ -14,7 +14,7 @@ folder: testy/itc
 - {% include ks/3-2-4.md %}
 
 ## Objaśnienie metody badania
-Aby umożliwić równe korzystanie ze strony przez użytkowników osbługujących ją wyłącznie z klawiatury, musi istnieć metoda umożliwiająca obejście powtarzających się treści bez konieczności użycia dodatkowych narzędzi. Powszechnie stosowaną metodą omijania powtarzalnych treści są łącza wewnętrzne (do miejsc na tej samej stronie), ale inne metody, takie jak ukrywanie menu i drzewo nawigacji, są dopuszczalne. Powtarzające się treści są również oceniane pod kątem spójnej kolejności względnej.
+Aby umożliwić równe korzystanie ze strony przez użytkowników obsługujących ją wyłącznie z klawiatury, musi istnieć metoda umożliwiająca obejście powtarzających się treści bez konieczności użycia dodatkowych narzędzi. Powszechnie stosowaną metodą omijania powtarzalnych treści są łącza wewnętrzne (do miejsc na tej samej stronie), ale inne metody, takie jak ukrywanie menu i drzewo nawigacji, są dopuszczalne. Powtarzające się treści są również oceniane pod kątem spójnej kolejności względnej.
 
 ## Ograniczenia, założenia lub wyjątki
 - Małe sekcje, takie jak powtarzające się pojedyncze słowa, frazy lub pojedyncze łącza, nie są uważane za bloki w sensie używanym w tym wymaganiu.
@@ -27,7 +27,7 @@ Aby umożliwić równe korzystanie ze strony przez użytkowników osbługującyc
   - {% include techniki/H69.md %}
 
 ## Procedura testu dla KS 2.4.1 Możliwość pominięcia bloków
-Identyfikator testu bazowego: *4.A-BypassBlocks*
+Identyfikator testu podstawowego: *4.A-BypassBlocks*
 ### Identyfikacja treści
 Bloki treści, które powtarzają się na wielu stronach, w tym zestawy łączy nawigacyjnych, nagłówki stron i banery.
 
@@ -53,7 +53,7 @@ Mechanizmy nawigacyjne, które powtarzają się na wielu stronach (które mogą,
 2. Sprawdź, czy każdy powtarzający się mechanizm nawigacyjny występuje w tej samej kolejności względnej, co inne powtarzające się komponenty interfejsu na każdej stronie internetowej, na której się pojawia.
 
 ### Wynik testów
-Jeżeli którykolwiek z powyższych testó zakończy się niepowodzeniem, wówczas test podstawowy *4.B-ConsistentNavigation* kończy się niepowodzeniem.
+Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test podstawowy *4.B-ConsistentNavigation* kończy się niepowodzeniem.
 
 ## Procedura testu dla KS 3.2.4 Spójna identyfikacja
 Identyfikator testu podstawowego: *4.C-ConsistentIdentification*
@@ -70,11 +70,11 @@ Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówcz
 
 -   Niektóre metody pomijania bloków mogą wymagać określonego skrótu klawiaturowego (np. domyślnie do nawigacji między ramkami jest to klawisz F6 ).
 -   Jeśli istnieje metodę pomijania, ale nie można jej aktywować za pomocą klawiatury, jest to również błąd wymagania podstawowego 1. Dostęp z klawiatury (Test 1.A).
--   Jeśli metoda pomijania jest w porządku tabbulacji, ale nie jest widoczna, gdy ustawiany jest fokus klawiatury, jest to błąd wymagania podstawowego 2. Widoczny fokus.
+-   Jeśli metoda pomijania jest w porządku tabulacji, ale nie jest widoczna, gdy ustawiany jest fokus klawiatury, jest to błąd wymagania podstawowego 2. Widoczny fokus.
 -   Jeśli na jednej stronie istnieje potrzeba zastosowania wielu metod obejścia, każda z nich musi opisywać swoje przeznaczenie, aby spełnić wymagania wymaganie podstawowe 14.A. Na przykład strona z powtarzającymi się łączami powinna mieć opisową metodę obejścia. Jeśli istnieje również blok powtarzającej się treści, powinien on mieć oddzielnie opisaną metodę obejścia.
 
 ## Techniki WCAG 2.2
-Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
+Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
 
 - {% include techniki/F31.md %}
 - {% include techniki/G1.md %}
