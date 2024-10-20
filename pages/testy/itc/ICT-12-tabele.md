@@ -90,7 +90,7 @@ Znajdź treść/dane przedstawione wizualnie w tabeli, która po linearyzacji pr
     - **Nie ma** żadnych elementów z `role="columnheader"` lub `role="rowheader"`. Ponieważ te role są jawne, zastosowanie `role="presentation"` lub `role="none"` do elementu nadrzędnego nie zostanie odziedziczone (zgodnie z [Presentational Roles Conflict Resolution](https://www.w3.org/TR/wai-aria-1.3/#conflict_resolution_presentation_none), „Jeśli dozwolony element podrzędny ma jawną rolę nieprezentacyjną, programy użytkownika MUSZĄ zignorować odziedziczoną rolę prezentacyjną i uwidocznić element z jego jawną rolą”.) 
 
 ### Wynik testów
-Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _12.C-LayoutTable_ rónież kończy się niepowodzeniem.
+Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _12.C-LayoutTable_ również kończy się niepowodzeniem.
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 
