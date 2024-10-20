@@ -276,7 +276,7 @@ entries:
           output: web, pdf
 
         - title: 14. Łącza i przyciski
-          url: /ICT-14-lacza-przyciski
+          url: /ICT-14-lacza
           output: web, pdf
 
         - title: 15. Język

@@ -1,1 +1,1 @@
-[ARIA8: Używanie atrybutu aria-label, aby wskazać cel linku](https://www.w3.org/TR/WCAG20-TECHS/ARIA8.html)
+[ARIA8: Użycie atrybutu aria-label, aby wskazać cel łącza](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA8)
