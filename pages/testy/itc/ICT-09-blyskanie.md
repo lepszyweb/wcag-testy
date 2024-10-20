@@ -3,7 +3,7 @@ title: 9. Błyskanie
 
 
 sidebar: testy_sidebar
-permalink: ICT-09-błyskanie
+permalink: ICT-09-blyskanie
 folder: testy/itc
 ---
 ## Wymagania dostępności
