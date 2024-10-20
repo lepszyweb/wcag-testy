@@ -36,7 +36,7 @@ Zapoznaj się z instrukcjami dotyczącymi formularza pod kątem kompletności i 
 
 ## 10.A Procedura testowania nazw formularzy 
 
-**Identyfikator testu bazowego:** 10.A-FormName
+Identyfikator testu podstawowego: _10.A-FormName_
 
 ### Identyfikacja treści
 1.  Znajdź wszystkie komponenty formularza (komponenty zbierające dane), które nie mają atrybutu `visibility:hidden` lub `display:none`, takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
@@ -57,7 +57,7 @@ Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test 
 
 ## 10.B Procedura testowania opisowości etykiet
 
-**Identyfikator testu bazowego:** 10.B-FormDescriptiveLabel
+Identyfikator testu podstawowego: _10.B-FormDescriptiveLabel_
 
 ### Identyfikacja treści
 1.  Znajdź wszystkie komponenty formularza (zbierające dane), które nie mają atrybutu `visibility:hidden` lub `display:none`, takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
@@ -71,7 +71,7 @@ Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test 
 
 ## 10.C Procedura testowania wprowadzania danych
 
-**Identyfikator testu bazowego:** 10.C-OnInput
+Identyfikator testu podstawowego: _10.C-OnInput_
 
 ### Identyfikacja treści
 Wszystkie aktywne komponenty formularzy.
@@ -82,15 +82,15 @@ Wszystkie aktywne komponenty formularzy.
 3.  Sprawdź, czy opuszczenie komponentu lub zmiana wartości/wyboru w komponencie (np. wprowadzanie danych w polu tekstowym, zmiana wyboru przycisku opcji)  **NIE**  powoduje zmiany kontekstu, chyba że użytkownik został poinformowany o takim zachowaniu przed użyciem komponentu [SC 3.2.2]. Przykłady zmiany kontekstu:
     -   Automatyczne przesłanie formularza po opuszczeniu pola,
     -   Automatyczne przesłanie formularza po opuszczeniu ostatniego pola w formularzu,
-    -   Uruchamienie nowego okna, gdy zostanie zmienione zaznaczenie w grupie przycisków opcji
-    -   Przeniesienie fokusu na inny komponent interfejsu po zaznaczeniu elementu na liśccie wyboru
+    -   Uruchomienie nowego okna, gdy zostanie zmienione zaznaczenie w grupie przycisków opcji
+    -   Przeniesienie fokusu na inny komponent interfejsu po zaznaczeniu elementu na liście wyboru
 
 ### Wynik testów
 Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _10.C-OnInput_ również kończy się niepowodzeniem.
 
 ## 10.D Procedura testowania identyfikacji błędów
 
-**Identyfikator testu bazowego:** 10.D-ErrorIdentification
+Identyfikator testu podstawowego: _10.D-ErrorIdentification_
 
 ### Identyfikacja treści
 Znajdź komponenty formularzy z automatycznym wykrywaniem błędów i powiadamianiem o nich.
@@ -111,7 +111,7 @@ Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówc
 
 ## 10.E Procedura testowania widoczności etykiet i instrukcji
 
-Identyfikator testu bazowego: _10.E-FormHasLabel_
+Identyfikator testu podstawowego: _10.E-FormHasLabel_
 
 ### Identyfikacja treści
 1.  Znajdź wszystkie komponenty formularza (zbierające dane), które nie mają atrybutu `visibility:hidden` lub `display:none`, takie jak pola tekstowe, przyciski opcji, pola wyboru, pola tylko do odczytu i listy wielokrotnego wyboru.
@@ -126,7 +126,7 @@ Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test 
 
 ## 10.F Procedura testowania sugestii korekty błędów
 
-Identyfikator testu bazowego: _10.F-ErrorSuggestion_
+Identyfikator testu podstawowego: _10.F-ErrorSuggestion_
 
 ### Identyfikacja treści
 Znajdź komponenty formularzy z automatycznym wykrywaniem błędów i powiadamianiem o nich.
@@ -154,7 +154,7 @@ Znajdź strony, które powodują powstanie zobowiązań prawnych użytkownika, s
 2.	Sprawdź, czy spełniony jest co najmniej jeden z poniższych warunków [KS 3.3.4]:
     a.  **Odwracalność**: Wprowadzenie danych jest odwracalne.
     b.  **Sprawdzanie**: Dane wprowadzone przez użytkownika są sprawdzane pod kątem błędów, a użytkownik ma możliwość wprowadzenia poprawek.
-    c.  **Potwierdzenie**: Istniejet mechanizm sprawdzania, potwierdzania i korygowania informacji przed jej ostatecznym wysłaniem.
+    c.  **Potwierdzenie**: Istnieje mechanizm sprawdzania, potwierdzania i korygowania informacji przed jej ostatecznym wysłaniem.
 
 ### Wynik testów
 Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _10.G-ErrorPrevention_ również kończy się niepowodzeniem.
