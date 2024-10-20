@@ -13,7 +13,7 @@ folder: testy/itc
 - {% include ks/1-4-1.md %} 
 
 ## Opis metody testowej
-------------------------------
+
 Użytkownicy, których dotyczy ten wymóg, są osobami widzącymi i nie są to wyłącznie użytkownicy technologii wspomagających, w tym osoby z zaburzeniami widzenia kolorów. Niektórzy użytkownicy korzystający z technologii wspomagających mogą nie mieć możliwości określenia kształtu, rozmiaru, lokalizacji lub postrzegania dźwięku. Aby określić adekwatność instrukcji lub treści i uwzględnić wszelkie ograniczenia postrzegania sensorycznego lub kolorów, wymagana jest kontrola wzrokowa.  
 
 ## Ograniczenia, założenia lub wyjątki
@@ -70,7 +70,6 @@ Znajdź wszelkie krótkie sygnały dźwiękowe/dźwiękowe, które służą jako
 Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _7.C-AudibleCues_ kończy się niepowodzeniem.
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
-----------------------------------------------------------
 -   Treści, w których użyto koloru, muszą mieć dodatkową wskazówkę wizualną.
 -   Instrukcje, które opierają się na charakterystyce sensorycznej, muszą zawierać wskazówkę niesensoryczną.
 -   Wyświetlenie treści w skali szarości może pomóc w identyfikacji treści wykorzystujących wyłącznie kolor do przekazywania informacji.
