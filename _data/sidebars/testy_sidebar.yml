@@ -268,7 +268,7 @@ entries:
           output: web, pdf
 
         - title: 12. Tabele
-          url: /ICT-12-tabele-danych
+          url: /ICT-12-tabele
           output: web, pdf
 
         - title: 13. Struktura treści

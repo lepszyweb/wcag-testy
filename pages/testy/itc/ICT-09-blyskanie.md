@@ -52,7 +52,7 @@ Jeśli wszystkie powyższe testy zakończą się niepowodzeniem, test podstawowy
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 - Jeśli treść będzie wyświetlana lub wyświetlana w znacznie różnych rozmiarach lub odległościach (np. treść responsywna przeznaczona do wyświetlania na pulpicie, w telefonie komórkowym i/lub innych wyświetlaczach), treść należy ocenić dla każdego scenariusza.
 
-## Techniki WCAG 2.1
+## Techniki WCAG 2.2
 Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
 
 - {% include techniki/G15.md %}
