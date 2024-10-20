@@ -47,12 +47,12 @@ Wizualnie widoczne nagłówki, które oznaczają sekcje treści. Nagłówki są 
 
 ### Instrukcja testowania
 1.  Sprawdź, czy wszystkie wizualne nagłówki są [możliwe do odczytania przez program komputerowy](https://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable) i czy programowe poziomy nagłówków logicznie pasują do wizualnej prezentacji nagłówka w strukturze nagłówka:
-    1.  Ważniejsze działy powinny mieć wyższy priorytet poziomu nagłówka. Na przykład, &lt;h1&gt; jest poziomem wyższym niż &lt;h2&gt;, który jest wyższy niż &lt;h3&gt;.
-    2.  Nagłówki z jednakowym lub wyższym poziomem rozpoczynają nowe sekcję; nagłówki z niższym poziomem rozpoczynają nowe podsekcje, które są częścią sekcji wyższego poziomu.
-    3.  HTML lub ARIA programowo określają każdy nagłówek. Gdy używane są oba sposoby znakowania, poziomy nagłówków muszą się zgadzać.
+    -  Ważniejsze działy powinny mieć wyższy priorytet poziomu nagłówka. Na przykład, &lt;h1&gt; jest poziomem wyższym niż &lt;h2&gt;, który jest wyższy niż &lt;h3&gt;.
+    -  Nagłówki z jednakowym lub wyższym poziomem rozpoczynają nowe sekcję; nagłówki z niższym poziomem rozpoczynają nowe podsekcje, które są częścią sekcji wyższego poziomu.
+    -  HTML lub ARIA programowo określają każdy nagłówek. Gdy używane są oba sposoby znakowania, poziomy nagłówków muszą się zgadzać.
         -   [H42](https://www.w3.org/WAI/WCAG22/Techniques/html/H42): każdy nagłówek może być oznaczony od `<h1>` do `<h6>`.
         -   [ARIA12](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA12): każdy nagłówek może być oznaczony atrybutami role="heading" ”nagłówek” i aria-level="\#\". 
-    3.  Gdy stosowane są obie techniki, ARIA ma pierwszeństwo, a poziom nagłówka jest wskazywany przez poziom ARIA.
+    -  Gdy stosowane są obie techniki, ARIA ma pierwszeństwo, a poziom nagłówka jest wskazywany przez poziom ARIA.
 	
 ### Wynik testów
 Jeśli powyższy test zakończy się niepowodzeniem, test podstawowy _13.B-VisHeadingProg_ również  kończy się niepowodzeniem.
@@ -84,9 +84,9 @@ Widoczne wizualnie listy, które są wyświetlane jako grupa elementów, zwykle 
 
 ### Instrukcja testowania
 1.  Dla każdej widocznej wizualnej listy:
-    1.  Sprawdź, czy treść, która ma wygląd listy (z punktorami lub bez), a nie zawiera elementów w uporządkowanej kolejności, została oznaczone jako lista nieuporządkowana objętą znacznikiem `<ul>`, a każdy element na liście jest programowo elementem listy `<li>`. [KS 1.3.1]
-    2.  Sprawdź, czy treść, które ma wygląd listy numerowanej, została oznaczona jako lista uporządkowana znacznikiem `<ol>`, a każdy element na liście jest programowo elementem listy `<li>`. [KS 1.3.1].
-    3.  Sprawdź, czy treść, które prezentują grupy elementów powiązanych na zasadzie nazwa-wartość, są oznakowane jako listy opisów znacznikiem `<dl>`, każdy termin jest programowo terminem opisu (znacznik `<dt>`) a każdy opis jest programowo opisem definicji (znacznik `<dd>`. [KS 1.3.1]
+    -  Sprawdź, czy treść, która ma wygląd listy (z punktorami lub bez), a nie zawiera elementów w uporządkowanej kolejności, została oznaczone jako lista nieuporządkowana objętą znacznikiem `<ul>`, a każdy element na liście jest programowo elementem listy `<li>`. [KS 1.3.1]
+    -  Sprawdź, czy treść, które ma wygląd listy numerowanej, została oznaczona jako lista uporządkowana znacznikiem `<ol>`, a każdy element na liście jest programowo elementem listy `<li>`. [KS 1.3.1].
+    -  Sprawdź, czy treść, które prezentują grupy elementów powiązanych na zasadzie nazwa-wartość, są oznakowane jako listy opisów znacznikiem `<dl>`, każdy termin jest programowo terminem opisu (znacznik `<dt>`) a każdy opis jest programowo opisem definicji (znacznik `<dd>`. [KS 1.3.1]
 **Uwaga**: Każdy termin może mieć więcej niż jeden opis.
 
 ### Wynik testów
