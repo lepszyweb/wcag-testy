@@ -275,7 +275,7 @@ entries:
           url: /ICT-13-struktura-tresci
           output: web, pdf
 
-        - title: 14. Łącza i przyciski
+        - title: 14. Łącza
           url: /ICT-14-lacza
           output: web, pdf
 
