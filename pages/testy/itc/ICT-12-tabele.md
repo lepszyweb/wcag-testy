@@ -20,7 +20,7 @@ Jeśli elementy `<table>` są używane do celów układu, niedozwolone sa eleme
 -   **Tabele danych** to tabele, w których informacje w komórce wymagają nagłówka wiersza lub kolumny, aby odpowiednio opisać zawartość komórki. Jeśli tabela jest używana do rozmieszczania na stronie komponentów ze względu na estetykę wizualną, wówczas jest traktowana jako **tabelę układu**.
 -   Może się wydawać, że niektóre treści wymagają wizualnej struktury tabeli danych, ale linearyzacja treści i&nbsp;wyświetlenie kodu ujawnia, że treść jest zrozumiała bez tabeli. 
 -   Technikę **tabeli układu** można stosować w  projektach responsywnych. Te elementy wykorzystują CSS i/lub inne metody stylizacji do prezentacji treści w kolumnach lub wierszach. Przekazywane informacje nie opierają się na programowych relacjach między nagłówkami kolumn lub wierszy, niezbędnych do ich zrozumienia. Taka treść nie jest tabelą danych i nie powinna wykorzystywać elementu tabeli, atrybutu ARIA `role="table"` ani powiązanych atrybutów tabeli danych. Powinna być badana przy użyciu innych testów podstawowych, takich jak [13. Struktura treści](13_StrukturaTresci) lub ewentualnie [10. Formularze (powiązane instrukcje)](ICT_10_formularze).
--   Wiersze powiązanych danych muszą mieć nagłówek wiersza, aby użytkownicy technologii wspomagających mogli zrozumieć relacje między komórkami danych wiersza. Nie każda tabela wymaga nagłówka wiersza. Na przykład miesiąc kalendarzowy to tabela danych, zwykle zwykle z&nbsp;dniami tygodnia jako nagłówkami kolumn. Daty w wierszach nie są powiązane, więc zazwyczaj nie ma nagłówka wiersza. Gdyby jednak w każdym wierszu znajdowała się komórka wskazująca kolejny tydzień roku, komórka ta służyłaby jako nagłówek wiersza dla dat w&nbsp;tym wierszu.
+-   Wiersze powiązanych danych muszą mieć nagłówek wiersza, aby użytkownicy technologii wspomagających mogli zrozumieć relacje między komórkami danych wiersza. Nie każda tabela wymaga nagłówka wiersza. Na przykład miesiąc kalendarzowy to tabela danych, zwykle z&nbsp;dniami tygodnia jako nagłówkami kolumn. Daty w wierszach nie są powiązane, więc zazwyczaj nie ma nagłówka wiersza. Gdyby jednak w każdym wierszu znajdowała się komórka wskazująca kolejny tydzień roku, komórka ta służyłaby jako nagłówek wiersza dla dat w&nbsp;tym wierszu.
 -   Gdy w instrukcjach testu podstawowego wskazano atrybut ARIA `role`, odnosi się to do pierwszej prawidłowej wartości atrybutu `role` w znaczniku.
 
 ## 12.A Procedura testowania roli tabeli danych
@@ -34,7 +34,6 @@ Znajdź treść/dane, które są wizualnie przedstawione w tabeli, rozmieszczone
 
 ### Instrukcja testowania
 
-#### Tabele danych
 1.  **Tabela**: Sprawdź, czy każda tabela danych ma rolę programową `table`, który określa ją jako tabelę danych, zdefiniowaną za pomocą jednej z wymienionych poniżej technik. Jeśli używana jest więcej niż jedna technika, wybierz pierwszą jawnie zdefiniowaną rolę i wykonaj pozostałe testy przy użyciu tego wyboru. [KS 4.1.2]
     -   HTML: znacznik `<table>`, który nie ma jawnie zdefiniowanego atrybutu roli i którego rola może być zmieniona z roli tabeli na inną, np. role="presentation" lub role="none".
     -   ARIA: atrybut `role="table"`
@@ -84,11 +83,11 @@ Znajdź treść/dane przedstawione wizualnie w tabeli, która po linearyzacji pr
 
 ### Instrukcje testowe
 1.  Sprawdź, czy tabela służy wyłącznie do celów układu (rozmieszczenia elementów):
-    1.  **Nie** wyznacza tabeli układu za pomocą atrybutu `role="table"` i powiązanych atrybutów tabeli ARIA.
-	2. **Nie ma** elementów nagłówka tabeli HTML i/lub powiązanych atrybutów (np. `<th>`, `summary`, `<caption>`, `scope` i/lub `headers`), **chyba** że spełniony jest co najmniej jeden z poniższych warunków:
-		1. element HTML `<table>` ma atrybut `role="prezentation"`
-		2. element HTML `<table>` ma atrybut `role="none"`
-	3. **Nie ma** żadnych elementów z `role="columnheader"` lub `role="rowheader"`. Ponieważ te role są jawne, zastosowanie `role="presentation"` lub `role="none"` do elementu nadrzędnego nie zostanie odziedziczone (zgodnie z [Presentational Roles Conflict Resolution](https://www.w3.org/TR/wai-aria-1.3/#conflict_resolution_presentation_none), „Jeśli dozwolony element podrzędny ma jawną rolę nieprezentacyjną, programy użytkownika MUSZĄ zignorować odziedziczoną rolę prezentacyjną i uwidocznić element z jego jawną rolą”.) 
+    -  **Nie** wyznacza tabeli układu za pomocą atrybutu `role="table"` i powiązanych atrybutów tabeli ARIA.
+    - **Nie ma** elementów nagłówka tabeli HTML i/lub powiązanych atrybutów (np. `<th>`, `summary`, `<caption>`, `scope` i/lub `headers`), **chyba** że spełniony jest co najmniej jeden z poniższych warunków:
+        - element HTML `<table>` ma atrybut `role="prezentation"`
+        - element HTML `<table>` ma atrybut `role="none"`
+    - **Nie ma** żadnych elementów z `role="columnheader"` lub `role="rowheader"`. Ponieważ te role są jawne, zastosowanie `role="presentation"` lub `role="none"` do elementu nadrzędnego nie zostanie odziedziczone (zgodnie z [Presentational Roles Conflict Resolution](https://www.w3.org/TR/wai-aria-1.3/#conflict_resolution_presentation_none), „Jeśli dozwolony element podrzędny ma jawną rolę nieprezentacyjną, programy użytkownika MUSZĄ zignorować odziedziczoną rolę prezentacyjną i uwidocznić element z jego jawną rolą”.) 
 
 ### Wynik testów
 Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _12.C-LayoutTable_ rónież kończy się niepowodzeniem.
@@ -99,7 +98,7 @@ Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test p
 - Testy podstawowe 12.A i 12.C należy przeprowadzić dla każdej tabeli danych.
 
 ## Techniki WCAG 2.2
-Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki WCAG i typowe błędy:
+Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
 
 - {% include techniki/H43.md %}
 - {% include techniki/H51.md %}

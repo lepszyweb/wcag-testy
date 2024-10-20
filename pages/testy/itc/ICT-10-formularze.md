@@ -164,7 +164,7 @@ Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test 
 -   W przypadku KS 3.3.4: ponieważ użytkownik może przejrzeć prosty, jednostronicowy formularz przed naciśnięciem przycisku „Prześlij” na stronie, inny specjalny mechanizm weryfikacji poprawności nie jest wymagany.
 
 ## Techniki WCAG 2.2
-Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki WCAG i typowe błędy:
+Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
 
 - {% include techniki/G13.md %}
 - {% include techniki/G80.md %}

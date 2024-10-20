@@ -40,7 +40,7 @@ Jeżeli którakolwiek z powyższych testów zakończy się niepowodzeniem, wówc
 Brak
 
 ## Techniki WCAG 2.2
-Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki WCAG i typowe błędy:
+Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
 
 - {% include techniki/G88.md %}
 - {% include techniki/H25.md %}
