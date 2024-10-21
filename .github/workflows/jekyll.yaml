@@ -18,6 +18,8 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
+      - name: version
+        run: bundle -v
 
       - name: Install dependencies
         run: bundle install
