@@ -37,7 +37,7 @@ Zgodna wersja alternatywna musi spełniać wszystkie części definicji, aby uzn
 -   Aby spełnić Wymóg zgodności 1 dla poziomu AA, strona internetowa musi spełniać wszystkie kryteria sukcesu poziomu A i poziomu AA albo istnieje jest alternatywna wersja zgodna z poziomem AA.
 
 ## 20.A Procedura testowania Zgodnej wersji alternatywnej
-**Identyfikator testu bazowego:** 20.A-ConformingAltVersion
+Identyfikator testu bazowego: _20.A-ConformingAltVersion_
 
 ### Identyfikacja treści
 Wiele wersji tej samej treści.
@@ -53,15 +53,15 @@ Wiele wersji tej samej treści.
 5.	Sprawdź, czy treść wskazuje, że istnieje zgodna wersja alternatywna. 
 	
 ### Wynik testów
-Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas nie istnieje **zgodna wersja alternatywna** a wymaganie bazowe 20.A-ConformingAltVersion NIE MA ZASTOSOWANIA (wynikiem testu jest **NIE DOTYCZY**).
+Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas nie istnieje **zgodna wersja alternatywna**, a wymaganie podstawowe _20.A-ConformingAltVersion_ NIE MA ZASTOSOWANIA (wynikiem testu jest **NIE DOTYCZY**).
 
-##  Wskazówki dotyczące usprawniania procesu testowego
+##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 
--   Jeśli zapewniona jest zgodna wersja alternatywna, to niezgodne wersje tej treści są testowane tylko pod kątem [Wymagania zgodności nr 5 Brak zakłóceń](25_BrakZaklocen.md). Nie jest konieczne wykonywanie innych testów podstawowych na wersjach niezgodnych.
+-   Jeśli zapewniona jest zgodna wersja alternatywna, to niezgodne wersje tej treści są testowane tylko pod kątem [Wymagania zgodności 5 Bez zakłóceń](ICT-03-bez-zaklocen.md). Nie jest konieczne wykonywanie innych testów podstawowych na wersjach niezgodnych.
 -   Jeśli istnieją zgodne wersje alternatywne, należy podjąć decyzję, czy wersja niezgodna wymaga przetestowania i w jakim zakresie. Aby zaoszczędzić czas i wysiłek, zaleca się, aby był to jeden z pierwszych testów.
 
 ## Techniki WCAG 2.2
-Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
+Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
 
 - {% include techniki/C29.md %}
 - {% include techniki/G136.md %}

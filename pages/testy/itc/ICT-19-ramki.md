@@ -11,9 +11,9 @@ folder: testy/itc
 - {% include ks/4-1-2.md %}
 
 ## Opis metody testowej
-HTML  obejmuje elementy zwane ramkami i ramkami liniowymi (`iframe`, inaczej liniow, łączona, pływająca, lokalna, wbudowana). Ramki są używane do osadzania na stronie treści ze źródeł zewnętrznych. Na przykład często spotyka się osadzanie ramki z treścią audio lub wideo z innej strony.
+HTML  obejmuje elementy zwane ramkami i ramkami liniowymi (`iframe`, inaczej liniowa, łączona, pływająca, lokalna, wbudowana). Ramki są używane do osadzania na stronie treści ze źródeł zewnętrznych. Na przykład często spotyka się osadzanie ramki z treścią audio lub wideo z innej strony.
 
-O ile użytkownicy widzący mogą rozpoznać strukturę prezentowaną za przez ramki i i elementy `iframe`, to użytkownicy czytników ekranu muszą polegać na elementach programowych, które powinny przekazać informację o treści ramek. Ta procedura testowa służy ocenie, czy treść elementów `<frame>` lub `<iframe>` została w kodzie przedstawiona odpowiednio dla technologii wspomagajacej.   
+O ile użytkownicy widzący mogą rozpoznać strukturę prezentowaną za przez ramki i i elementy `iframe`, to użytkownicy czytników ekranu muszą polegać na elementach programowych, które powinny przekazać informację o treści ramek. Ta procedura testowa służy ocenie, czy treść elementów `<frame>` lub `<iframe>` została w kodzie przedstawiona odpowiednio dla technologii wspomagającej.   
 
 ## Ograniczenia, założenia lub wyjątki
 -   W HTML5 element  `<frame>` jest oznaczony jako przestarzały. Element `<iframe>` jest częścią specyfikacji HTML5. Mimo że element `<frame>` jest przestarzały, testerzy mogą nadal spotykać strony internetowe lub aplikacje mobilne z przestarzałym kodem, który choć jest nieaktualny, może i powinien być nadal dostępny.
@@ -54,6 +54,6 @@ Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test p
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 brak
 
-## Techniki WCAG 2.1
+## Techniki WCAG 2.2
 Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
 - {% include techniki/H64.md %}
