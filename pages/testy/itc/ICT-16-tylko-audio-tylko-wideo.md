@@ -66,7 +66,7 @@ Nagrane treści tylko wideo. Nie uwzględniaj multimediów, które są wyraźnie
 ### Wynik testów
 Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _16.B-VideoOnlyAlt_ również kończy się niepowodzeniem.
 
-## 16.C Procedura testowa dla _tylko audio_ jako alternatywy medialnej (nagranie)
+## 16.C Procedura testowa dla _tylko audio_ jako alternatywy dla tekstu (nagranie)
 Identyfikator testu podstawowego: _16.C-AudioMediaAlternative_
 
 ### Identyfikacja treści
@@ -80,7 +80,7 @@ Nagranie _tylko audio_, który jest wyraźnie oznaczone jako alternatywa medialn
 ### Wynik testów
 Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, oznacza to, że nagranie _tylko audio_ nie jest alternatywą medialną dla tekstu. Wykonaj procedurę testową testu podstawowego 16.A Procedura testu dla _tylko audio_ (nagranie).
 
-## 16.D Procedura testowa dla _tylko wideo_ jako alternatywy medialnej (nagranie)
+## 16.D Procedura testowa dla _tylko wideo_ jako alternatywy dla tekstu (nagranie)
 Identyfikator testu podstawowego: _16.D-VideoMediaAlternative_
 
 ### Identyfikacja treści
@@ -89,7 +89,7 @@ Nagranie _tylko wideo_, które jest wyraźnie oznaczone jako alternatywa multime
 ### Instrukcja testowania
 1.	Znajdź tekst, dla którego _tylko wideo_ jest alternatywą.
 2.	Odtwórz nagranie oznaczone jako równoważna alternatywa dla tekstu.
-3.	Sprawdź, czy nagranie _tylko wideo_  prezentuje informacje równoważne informacjom znajdującym się w tekście.
+3.	Sprawdź, czy nagranie _tylko wideo_ prezentuje informacje równoważne informacjom znajdującym się w&nbsp;tekście.
 
 ### Wynik testów
 Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, oznacza to, że tekst tylko wideo nie jest alternatywą dla multimediów. Wykonaj procedurę testową testu podstawowego 16.B Procedura testowa _tylko dla wideo_ (nagranie).
