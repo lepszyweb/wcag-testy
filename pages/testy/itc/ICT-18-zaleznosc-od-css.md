@@ -37,7 +37,7 @@ Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test p
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 -   Testy te nie powinny być wykonywane poprzez wyłączenie wszystkich CSS. Treść nie musi być wpostrzegalna i funkcjonalna przy wyłączonych wszystkich CSS.
 
-## Techniki WCAG 2.1
+## Techniki WCAG 2.2
 Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
 
 - {% include techniki/G57.md %}
