@@ -15,9 +15,9 @@ Badanie treści alternatywnej w celu oceny jej równoważności z treściami tyl
 
 ## Ograniczenia, założenia lub wyjątki
 
--   **Alternatywa medialna dla tekstu** to media, które nie przedstawiają więcej informacji niż jest już przedstawione w tekście (bezpośrednio lub za pośrednictwem alternatywy tekstowej). 
+-   **Alternatywa medialna dla tekstu** to media, które nie przedstawiają więcej informacji niż jest już przedstawione w tekście (bezpośrednio lub za pośrednictwem alternatyw tekstowych). 
 
-> **Uwaga**: Alternatywy medialna dla tekstu są przeznaczone dla osób, które korzystają z alternatywnych reprezentacji tekstu. Alternatywy multimedialne dla tekstu mogą być _tylko audio_, _tylko wideo_ (w tym wideo w języku migowym) lub _audio-wideo_.
+> **Uwaga**: Media alternatywne dla tekstu są przeznaczone dla osób, które korzystają z alternatywnych reprezentacji tekstu. Media alternatywne dla tekstu mogą być _tylko audio_, _tylko wideo_ (w tym wideo w języku migowym) lub _audio-wideo_.
 
 ### Tylko audio
 -   **Tylko audio** to prezentacja oparta na czasie, która zawiera tylko dźwięk (bez obrazu i bez interakcji).
