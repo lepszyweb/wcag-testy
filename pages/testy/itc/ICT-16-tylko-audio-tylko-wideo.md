@@ -40,9 +40,6 @@ Identyfikator testu podstawowego: _16.A-AudioOnlyTranscript_
 ### Identyfikacja treści
 Nagrane treści _tylko audio_. Nie uwzględniaj multimediów, które są wyraźnie oznaczone jako alternatywa dla tekstu.
 
-### Identyfikacja treści
-Nagrane treści tylko audio.
-
 ### Instrukcja testowania
 1.  Sprawdź, czy treść zawiera transkrypcję dla treści tylko audio. [KS 1.2.1]
 2.  Sprawdź, czy transkrypcja jest tekstem (np. plik PDF z samym obrazem tekstu nie wystarczy do zaliczenia tego testu). [KS 1.2.1]
@@ -75,7 +72,7 @@ Nagranie _tylko audio_, który jest wyraźnie oznaczone jako alternatywa medialn
 ### Instrukcja testowania
 1.	Znajdź tekst, dla którego _tylko audio_ jest alternatywą.
 2.	Odtwórz nagranie oznaczone jako równoważna alternatywa dla tekstu.
-3.	Sprawdź, czy nagranie _tylko audio_  prezentuje informacje równoważne informacjom znajdującym się w tekście.
+3.	Sprawdź, czy nagranie _tylko audio_  prezentuje informacje równoważne informacjom znajdującym się w&nbsp;tekście.
 
 ### Wynik testów
 Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, oznacza to, że nagranie _tylko audio_ nie jest alternatywą medialną dla tekstu. Wykonaj procedurę testową testu podstawowego 16.A Procedura testu dla _tylko audio_ (nagranie).
@@ -98,8 +95,8 @@ Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, oznacz
 -   Testy podstawowe 16.A i 16.C są testami dla plików _tylko audio_. Sensowne może być wykonanie Testu 16.C przed Testem 16.A.
 -   Testy podstawowe 16.B i 16.D są testami dla plików _tylko wideo_. Sensowne może być przeprowadzenie Testu 16.D przed Testem 16.B.
 
-### Techniki WCAG 2.1
-Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
+### Techniki WCAG 2.2
+Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
 
 - {% include techniki/G158.md %}
 - {% include techniki/G159.md %}
