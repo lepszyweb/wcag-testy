@@ -1,5 +1,5 @@
 ---
-title: 17. Multimedia zsynchronizowane
+title: 17. Media zsynchronizowane
 
 
 sidebar: testy_sidebar
@@ -70,7 +70,7 @@ Identyfikator testu podstawowego: _17.C-MediaPlayerADLevel_
 Odtwarzacz multimedialny, który wyświetla wideo ze zsynchronizowanym dźwiękiem i ma elementy sterujące wyborem programu.
 
 ### Instrukcja testowania
-1.	Sprawdź, czy czy kontrolka użytkownika umożliwiająca wybór znajduje się na tym samym poziomie menu, co kontrolki użytkownika służące do regulacji głośności lub wyboru programu. [Sekcja 508 503.4.2]
+1.	Sprawdź, czy kontrolka użytkownika umożliwiająca wybór znajduje się na tym samym poziomie menu, co kontrolki użytkownika służące do regulacji głośności lub wyboru programu. [Sekcja 508 503.4.2]
 
 ### Wynik testów
 Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _17.C-MediaPlayerADLevel_ również kończy się niepowodzeniem.
@@ -106,7 +106,7 @@ Nagrane multimedia zsynchronizowane. Nie uwzględniaj multimediów, które są w
 Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _17.E-ADPrerecorded_ również kończy się niepowodzeniem.
 
 
-## 17.F Procedura testu dla dla napisów rozszerzonych (na żywo)
+## 17.F Procedura testu dla napisów rozszerzonych (na żywo)
 Identyfikator testu podstawowego: _17.F-CaptionsLive_
 
 ### Identyfikacja treści
