@@ -26,6 +26,9 @@ alert
 alternatywa dla mediów opartych na czasie
 : {{site.data.glossary.alternatywa_dla_mediow_opartych_na_czasie}}
 
+alternatywa dla tekstu
+: {{site.data.glossary.alternatywa_dla_tekstu}}
+
 alternatywa tekstowa
 : {{site.data.glossary.alternatywa_tekstowa}}
 
