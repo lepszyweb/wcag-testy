@@ -1,6 +1,6 @@
 ---
 title: 16. Tylko audio i tylko wideo
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-16-tylko-audio-tylko-wideo

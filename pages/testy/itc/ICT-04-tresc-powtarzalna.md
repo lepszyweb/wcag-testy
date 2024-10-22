@@ -1,6 +1,6 @@
 ---
 title: 4. Treść powtarzalna
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-04-tresc-powtarzalna
@@ -13,7 +13,7 @@ folder: testy/itc
 - {% include ks/3-2-3.md %}  
 - {% include ks/3-2-4.md %}
 
-## Objaśnienie metody badania
+## Opis metody testowej
 Aby umożliwić równe korzystanie ze strony przez użytkowników obsługujących ją wyłącznie z klawiatury, musi istnieć metoda umożliwiająca obejście powtarzających się treści bez konieczności użycia dodatkowych narzędzi. Powszechnie stosowaną metodą omijania powtarzalnych treści są łącza wewnętrzne (do miejsc na tej samej stronie), ale inne metody, takie jak ukrywanie menu i drzewo nawigacji, są dopuszczalne. Powtarzające się treści są również oceniane pod kątem spójnej kolejności względnej.
 
 ## Ograniczenia, założenia lub wyjątki

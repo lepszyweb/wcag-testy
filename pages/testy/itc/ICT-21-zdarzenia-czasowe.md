@@ -1,6 +1,6 @@
 ---
 title: 21. Zdarzenia czasowe
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-21-zdarzenia-czasowe
@@ -12,7 +12,7 @@ folder: testy/itc
 - {% include ks/1-4-2.md %}
 - {% include ks/2-2-1.md %}
 - {% include ks/2-2-2.md %}
--   [WCAG. Wymaganie zgodności 5: Bez zakłóceń](https://wcag.irdpl.pl/guidelines/22/#cc5) - Poniższe kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w&nbsp;innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ ich niespełnienie może zakłócać korzystanie ze strony:
+-   [5.2 Wymagania dotyczące zgodności: Bez zakłóceń](https://wcag.irdpl.pl/guidelines/22/#cc5) - Poniższe kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w&nbsp;innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ ich niespełnienie może zakłócać korzystanie ze strony:
     -   1.4.2 - Kontrola odtwarzania dźwięku,
     -   2.1.2 - Bez pułapki na klawiaturę,
     -   2.3.1 - Trzy błyski lub wartości poniżej progu, oraz

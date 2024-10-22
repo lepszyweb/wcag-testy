@@ -1,6 +1,6 @@
 ---
 title: 1. Dostęp z klawiatury
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-01-klawiatura
@@ -10,11 +10,10 @@ folder: testy/itc
 ## Wymagania dostępności
 - {% include ks/2-1-1.md %}  
 - {% include ks/2-1-2.md %}  
-
 -   [Wymaganie zgodności: 5. Bez zakłóceń](https://www.w3.org/Translations/WCAG21-pl/#cc5) - Poniższe kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ ich niespełnienie może zakłócać korzystanie ze strony: 1.4.2 - Kontrola odtwarzania dźwięku, 2.1.2 - Bez pułapki na klawiaturę, 2.3.1 Trzy błyski lub wartości poniżej progu, 2.2.2: Pauza, zatrzymanie, ukrycie.
 
 
-## Objaśnienie metody badawczej
+## Opis metody testowej
 To wymaganie opiera się na użyciu klawiatury, aby sprawdzić dostęp i możliwość sterowania wykonaniem wszystkich funkcji treści za pomocą samej klawiatury, korzystając ze standardowych poleceń klawiaturowych (TAB, Spacja, Enter, Escape, itp.). Jeśli interfejs wymaga korzystania z niestandardowych poleceń klawiatury, interfejs musi wyraźnie dokumentować te polecenia i informować użytkowników, że polecenia istnieją.
 
 Dostęp i sterowanie za pomocą klawiatury obejmuje możliwość nawigowania do ORAZ z treści interaktywnych przy użyciu  samej klawiatury.

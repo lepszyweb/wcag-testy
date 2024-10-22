@@ -1,6 +1,6 @@
 ---
 title: 9. Błyskanie
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-09-blyskanie

@@ -1,6 +1,6 @@
 ---
 title: 17. Media zsynchronizowane
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-17-media-zsynchronizowane
@@ -13,7 +13,6 @@ folder: testy/itc
 - {% include ks/1-2-4.md %}
 - {% include ks/1-2-5.md %}
 - [Sekcja 508 503.4 Elementy sterujące napisami i audiodeskrypcją](https://www.federalregister.gov/d/2017-00395/p-630): W przypadku gdy technologia internetowa wyświetla obraz z zsynchronizowanym dźwiękiem, technologia zapewnia kontrolę użytkownika dla napisów kodowanych i&nbsp;audiodeskrypcji zgodnych z 503.4.
-
 - [Sekcja 508 503.4.1 Elementy sterujące napisami](https://www.federalregister.gov/d/2017-00395/p-631): W przypadku gdy elementy sterujące użytkownika służą do regulacji głośności, ICT zapewnia elementy sterujące użytkownika do wyboru napisów na tym samym poziomie menu, co elementy sterujące użytkownika do wyboru głośności lub programu.
 - [Sekcja 508 503.4.2 Elementy sterujące audiodeskrypcją](https://www.federalregister.gov/d/2017-00395/p-632): W przypadku gdy do wyboru programu przewidziane są elementy sterujące użytkownika, ICT zapewnia użytkownikowi elementy sterujące do wyboru audiodeskrypcji na tym samym poziomie menu, co elementy sterujące użytkownika do wyboru głośności lub programu.
 

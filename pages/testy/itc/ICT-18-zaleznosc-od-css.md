@@ -1,6 +1,6 @@
 ---
 title: 18. Zależność od CSS
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-18-zaleznosc-od-css
@@ -24,7 +24,7 @@ Obraz tła CSS jest teraz objęty [procedurą testową 6.B dla obrazów z pustym
 Identyfikator testu podstawowego: _18.B-CSSPositionedContent_
 
 ### Identyfikacja treści
-Znaczące treść pozycjonowana za pomocą CSSS
+Znaczące treść pozycjonowana za pomocą CSS
 
 ### Instrukcja testowania
 
@@ -32,10 +32,10 @@ Znaczące treść pozycjonowana za pomocą CSSS
 2.	Sprawdź, czy znaczenie treści (w kontekście) jest zachowane bez właściwości CSS `position`. [KS 1.3.2]
 
 ### Wynik testów
-Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _18.B-CSSPositionedContent_również kończy się niepowodzeniem.
+Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _18.B-CSSPositionedContent_ również kończy się niepowodzeniem.
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
--   Testy te nie powinny być wykonywane poprzez wyłączenie wszystkich CSS. Treść nie musi być wpostrzegalna i funkcjonalna przy wyłączonych wszystkich CSS.
+-   Testy te nie powinny być wykonywane poprzez wyłączenie wszystkich CSS. Treść nie musi być postrzegalna i funkcjonalna przy wyłączonych wszystkich CSS.
 
 ## Techniki WCAG 2.2
 Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:

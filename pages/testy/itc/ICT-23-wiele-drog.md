@@ -1,6 +1,6 @@
 ---
 title: 23. Wiele dróg
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-23-wiele-drog
@@ -11,7 +11,7 @@ folder: testy/itc
 - {% include ks/2-4-5.md %}
 
 ## Opis metody testowej
-Ten test podstwowy wymaga ręcznego sprawdzenia kilku różnych technik służacych lokalizacji strony w zestawie stron.
+Ten test podstawowy wymaga ręcznego sprawdzenia kilku różnych technik służących lokalizacji strony w zestawie stron.
 
 ## Ograniczenia, założenia lub wyjątki
 

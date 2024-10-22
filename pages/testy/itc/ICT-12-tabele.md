@@ -1,6 +1,6 @@
 ---
 title: 12. Tabele
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-12-tabele

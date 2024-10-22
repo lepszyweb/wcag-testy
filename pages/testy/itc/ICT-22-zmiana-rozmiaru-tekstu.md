@@ -1,6 +1,6 @@
 ---
 title: 22. Zmiana rozmiaru tekstu
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-22-zmiana-rozmiaru-tekstu

@@ -1,6 +1,6 @@
 ---
 title: 5. Kontrolki użytkownika
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-05-kontrolki-uzytkownika
@@ -11,7 +11,7 @@ folder: testy/itc
 ## Wymagania dostępności
 - {% include ks/4-1-2.md %}  
 
-## Objaśnienie metody badania
+## Opis metody testowej
 Celem tego testu podstawowego jest sprawdzenie, czy kontrolki mają określone poniższe cechy dostępności:
 - Nazwa
 - Rola

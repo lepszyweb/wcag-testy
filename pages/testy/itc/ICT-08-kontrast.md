@@ -1,6 +1,6 @@
 ---
 title: 8. Kontrast
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-08-kontrast

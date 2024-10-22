@@ -1,6 +1,6 @@
 ---
 title: 7. Właściwości zmysłowe
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-07-wlasciwosci-zmyslowe

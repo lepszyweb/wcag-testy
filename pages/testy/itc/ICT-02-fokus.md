@@ -1,6 +1,6 @@
 ---
 title: 2. Fokus
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-02-fokus
@@ -12,7 +12,7 @@ folder: testy/itc
 - {% include ks/2-4-7.md %}
 - {% include ks/3-2-1.md %}   
 
-## Objaśnienie metody badania
+## Opis metody testowej
 Ręczne nawigowanie lub sterowanie komponentami interfejsu tylko za pomocą samej klawiatury umożliwi testerowi rozpoznanie, kiedy nie ma wizualnego rozróżnienia między elementem z fokusem a resztą dokumentu. Korzystanie z&nbsp; klawiatury do nawigacji ułatwia kontrolę kolejności ustawiania fokusu.
 
 ## Ograniczenia, założenia lub wyjątki

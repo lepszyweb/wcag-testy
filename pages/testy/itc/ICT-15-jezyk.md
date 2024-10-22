@@ -1,6 +1,6 @@
 ---
 title: 15. Język
-
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-15-jezyk
@@ -11,7 +11,7 @@ folder: testy/itc
 - {% include ks/3-1-1.md %}
 - {% include ks/3-1-2.md %}
 
-## Opis metody testowania
+## Opis metody testowej
 Domyślny naturalny (ludzki) język dla każdej strony musi być określony programowo. Fragmenty, które używają języka innego niż domyślny, muszą być określone programowo.
 
 ## Ograniczenia, założenia lub wyjątki

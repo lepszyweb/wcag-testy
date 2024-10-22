@@ -1,6 +1,6 @@
 ---
-title: 19. Ramki i ramki wbudowane
-
+title: 19. Ramki
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-19-ramki

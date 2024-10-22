@@ -1,6 +1,6 @@
 ---
 title: 3. Bez zakłóceń
-summary: "Tłumaczenie jest w trakcie aktualizacji"
+last_updated: 22 października 2024
 
 sidebar: testy_sidebar
 permalink: ICT-03-bez-zaklocen
