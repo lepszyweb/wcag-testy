@@ -2,6 +2,7 @@
 title: Wprowadzenie
 summary: "Naszym celem jest realna pomoc w przeprowadzaniu testów dostępności stron internetowych."
 sidebar: testy_sidebar
+last_updated: 22 października 2024
 permalink: testy-wprowadzenie
 folder: testy
 toc: false
@@ -27,7 +28,13 @@ Zestawy testów zgrupowane zostały w dwóch sekcjach:
   - [Wielopoziomowa ocena zgodności](MSU_00_wprowadzenie): uproszczony protokół testów zgodności stosowany na [Michigan&nbsp;State&nbsp;University](https://uarc.msu.edu/resources/tools)
   - [Pomocnik adepta dostępności](1-0-0_wprowadzenie): zestaw testów zgodności z&nbsp;WCAG 2.0 opracowany przez [Stowarzyszenie Twoje nowe możliwości](http://www.tnm.org.pl/)
 
-Celem sekcji **Bazy źródłowe** jest zgromadzenie różnych zestawów testów, dzięki którym można tworzyć własne opisy testów oraz wzbogacać i korygować opisy w bazie testów podstawowych. W zbiorze baz źródłowych może znaleźć się każdy zwarty testów i&nbsp;procedur testowych przetłumaczonych na język polski, o ile nie są opublikowane w&nbsp;zwartej formie w innym miejscu.   
+Oprócz zamieszczonych w tej witrynie, Pracownia Dostępności Cyfrowej LepszyWeb udostępnia również przetłumaczone na język polski francuskie Ogólne ramy poprawy dostępności:
+
+- [**RGAA 3.2017**](https://rgaa.lepszyweb.pl/rgaa3-kryteria.html)
+- [**RGAA 4.0*](https://rgaa.lepszyweb.pl/rgaa4-kryteria.html)
+- [**RGAA 4.1*](https://rgaa.lepszyweb.pl/index.html)
+
+Celem sekcji **Bazy źródłowe** jest zgromadzenie różnych zestawów testów, dzięki którym można tworzyć własne opisy testów oraz wzbogacać i korygować opisy w bazie testów podstawowych. W zbiorze baz źródłowych może znaleźć się każdy zwarty zestaw testów i&nbsp;procedur testowych przetłumaczonych na język polski, o ile nie są opublikowane w&nbsp;zwartej formie w innym miejscu.   
 
 ## Jak możesz pomóc?
 - **Zostań współtwórcą**. Zaproponuj i opracuj test lub zestaw testów. Prześlij swoje propozycje. Skorzystaj z [szablonu opisu testu](szablon-opisu-testu)
