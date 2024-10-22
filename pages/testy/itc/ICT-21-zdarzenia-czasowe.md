@@ -44,9 +44,6 @@ Identyfikator testu podstawowego: _21.A-TimingAdjustable_
 ### Identyfikacja treści
 Wykryj wszelkie przypadki ograniczeń czasowych treści (nie uwzględniaj wyjątków opisanych powyżej).
 
-### Identyfikacja treści
-Wszelkie przypadki ograniczeń czasowych treści (z wyjątkiem wyjątków opisanych powyżej).
-
 ### Instrukcja testowania
 Dla każdego wystąpienia ograniczenia czasu:
 1.  Przed upływem limitu czasu sprawdź, czy spełniono przynajmniej jeden z poniższych warunków [KS 2.2.1]:
@@ -96,18 +93,18 @@ Jeżeli żaden z warunków powyżej nie jest spełniony, test podstawowy _21.C-A
 Identyfikator testu podstawowego: _21.D-AudioControl_
 
 ### Identyfikacja treści
-Elementy strony odtwarzajace dźwięk dłużej niż 3 sekundy.
+Elementy strony odtwarzające dźwięk dłużej niż 3 sekundy.
 ### Instrukcje testowe
 1.  Sprawdź jedną z poniższych możliwości
-    1.  na poczatku strony lub w funkcjach dostępności do platformy istnieje mechanizm wstrzymania lub zatrzymania dźwięku, **ALBO**
-    2.  na poczatku strony lub w funkcjach dostępności do platformy istnieje mechanizm regulacji głośności niezależny od ogólnego poziomu głośności systemu.
+    -  na początku strony lub w funkcjach dostępności do platformy istnieje mechanizm wstrzymania lub zatrzymania dźwięku, **ALBO**
+    -  na początku strony lub w funkcjach dostępności do platformy istnieje mechanizm regulacji głośności niezależny od ogólnego poziomu głośności systemu.
 
 ### Wynik testów
 Jeżeli żaden z warunków powyżej nie jest spełniony, test podstawowy _21.D-AudioControl_ kończy się niepowodzeniem.
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 
--   Przypomnij testerom, że w przypadku przekroczenia limitu czasu wskaźnik fokusu powinien powinien się przemieścić  do komunikatu o limicie czasu, aby spełnić kryteria sukcesu dotyczące dostępności klawiatury i kolejności fokusu.
+-   Przypomnij testerom, że w przypadku przekroczenia limitu czasu wskaźnik fokusu powinien się przemieścić  do komunikatu o limicie czasu, aby spełnić kryteria sukcesu dotyczące dostępności klawiatury i kolejności fokusu.
 -   W niektórych przypadkach może być konieczne skontaktowanie się z autorami aplikacji w celu wyjaśnienia warunków przekroczenia limitu czasu.
 -   Błędy KS 1.4.2 lub 2.2.2 powodują  również niespełnienie [Wymagania dotyczącego zgodności: Bez zakłóceń](https://www.w3.org/TR/WCAG20/#cc5) i powinny być zaznaczone w raporcie z testów, aby wskazać poważny wpływ na dostępność.
 -   Przed rozpoczęciem testu przeglądarki muszą być skonfigurowane tak, aby zezwalały na odtwarzanie dźwięku. Instrukcje dotyczą wyłącznie zgodnych mechanizmów przeglądarki. Wyniki testu mogą zależeć od przeglądarki.
