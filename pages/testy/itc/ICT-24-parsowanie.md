@@ -18,8 +18,10 @@ folder: testy/itc
 
 ## Ograniczenia, założenia lub wyjątki
 
-Z [Erraty do WCAG 2.0](https://www.w3.org/WAI/WCAG20/errata/): Kryterium sukcesu 4.1.1 zostało pierwotnie przyjęte w celu rozwiązania problemów związanych z bezpośrednim analizowaniem HTML przez technologie wspomagające. Od czasu napisania tego kryterium Standard HTML przyjął konkretne wymaganiaregulujące sposób, w jaki programy użytkownika muszą obsługiwać niekompletne znaczniki, nieprawidłowe zagnieżdżanie elementów, zduplikowane atrybuty i nieunikalne identyfikatory. 
-Mimo że standard HTML traktuje niektóre z tych przypadków jako niezgodne dla autorów, uważa się, że „zezwala na te funkcje” do celów tego kryterium sukcesu, ponieważ specyfikacja wymaga, aby programy użytkownika obsługiwały te przypadki w sposób spójny. W praktyce kryterium to samo w sobie nie zapewnia już żadnych korzyści osobom osobom z niepełnosprawnościami. 
+Z [Erraty do WCAG 2.0](https://www.w3.org/WAI/WCAG20/errata/): Kryterium sukcesu 4.1.1 zostało pierwotnie przyjęte w celu rozwiązania problemów związanych z bezpośrednim analizowaniem HTML przez technologie wspomagające. Od czasu napisania tego kryterium Standard HTML przyjął konkretne wymagania regulujące sposób, w jaki programy użytkownika muszą obsługiwać niekompletne znaczniki, nieprawidłowe zagnieżdżanie elementów, zduplikowane atrybuty i nieunikalne identyfikatory. 
+
+Mimo że standard HTML traktuje niektóre z tych przypadków jako niezgodne dla autorów, uważa się, że „zezwala na te funkcje” do celów tego kryterium sukcesu, ponieważ specyfikacja wymaga, aby programy użytkownika obsługiwały te przypadki w sposób spójny. W praktyce kryterium to samo w sobie nie zapewnia już żadnych korzyści osobom  z niepełnosprawnościami.
+
 Problemy, takie jak brakujące role z powodu nieprawidłowo zagnieżdżonych elementów lub nieprawidłowe stany lub nazwy z powodu zduplikowanego identyfikatora, są objęte innymi kryteriami sukcesu i powinny być zgłaszane w ramach tych kryteriów, a nie jako problemy z 4.1.1.
 
 ## Procedura testu dla KS 4.1.1 Parsowanie
