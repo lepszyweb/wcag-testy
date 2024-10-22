@@ -27,8 +27,7 @@ Dostęp i sterowanie za pomocą klawiatury obejmuje możliwość nawigowania do 
 -   Uwaga do KS 2.1.2:
     -   *Uwaga 1*: Ponieważ każda treść, która nie spełnia tego kryterium sukcesu może utrudnić użytkownikowi skorzystanie z całej strony, cała treść danej strony (bez względu na to, czy spełnia inne kryteria, czy nie) musi spełnić powyższe kryterium. Więcej informacji: [Wymaganie zgodności: 5. Bez zakłóceń](https://www.w3.org/Translations/WCAG21-pl/#cc5).
 
-## Procedura testowa dla KS 2.1.1 Klawiatura
-
+## 1.A Procedura testowa dostępu z klawiatury
 Identyfikator testu bazowego: *1.A-KeyboardAccess*
 
 ### Identyfikacja treści
@@ -45,7 +44,7 @@ Wszystkie funkcje treści, które są dostępne za pomocą myszy, muszą być do
 ### Wynik testów
 Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test *1.A-KeyboardAccess* kończy się niepowodzeniem.
 
-## Procedura testu dla KS 2.1.2 Bez pułapki na klawiaturę
+## 1B. Procedura testowa pułapki na klawiaturę
 
 Identyfikator testu bazowego: *1.B-NoKeyboardTrap*
 

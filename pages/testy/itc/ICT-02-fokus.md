@@ -34,7 +34,7 @@ Ręczne nawigowanie lub sterowanie komponentami interfejsu tylko za pomocą same
 -   **Uwaga:** Zmiana treści nie zawsze oznacza zmianę kontekstu. Zmiany treści, na przykład rozwinięcie drzewa, dynamicznego menu lub zakładki niekoniecznie zmieniają kontekst, dopóki nie zmienią jednego z powyższych (np. fokusu).
 -   **Przykłady zmiany kontekstu**: Otwarcie nowego okna, przeniesienie fokusu na inny obiekt, przejście na inną stronę internetową (włączając w to także każdą sytuację, kiedy użytkownikowi tylko wydaje się, że przechodzi na inną stronę internetową) lub znaczące przekształcenie wyglądu strony są przykładami zmiany kontekstu.
 
-## Procedura testu dla KS 2.4.7 Widoczny fokus
+## 2.A Procedura testowa widoczności fokusu
 Identyfikator testu bazowego: *2.A-FocusVisible*
 
 ### Identyfikacja treści
@@ -48,7 +48,7 @@ Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, me
 ### Wynik testów
 -   Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test podstawowy  *2.A-FocusVisible* kończy się niepowodzeniem.
 
-## Procedura testu dla KS 2.4.3 Kolejność fokusu
+## 2.B Procedura testowa kolejności fokusu
 Identyfikator testu bazowego: *2.B-FocusOrder*
 
 ### Identyfikacja treści
@@ -67,7 +67,7 @@ Komponenty interfejsu dostępne dla klawiatury (np. łącza, pola formularzy, me
 ### Wynik testów
 Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test podstawowy *2.B-FocusOrder* kończy się niepowodzeniem.
 
-## Procedura testu dla KS 3.2.1 Po otrzymaniu fokusu
+## 2.C Procedura testowania Po otrzymaniu fokusu
 Identyfikator testu podstawowego: *2.C-OnFocus*
 
 ### Identyfikacja treści

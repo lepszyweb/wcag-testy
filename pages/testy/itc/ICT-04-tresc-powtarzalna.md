@@ -26,7 +26,7 @@ Aby umożliwić równe korzystanie ze strony przez użytkowników obsługującyc
   - {% include techniki/ARIA11.md %}
   - {% include techniki/H69.md %}
 
-## Procedura testu dla KS 2.4.1 Możliwość pominięcia bloków
+## 4.A Procedura testowa możliwości pominięcia bloków
 Identyfikator testu podstawowego: *4.A-BypassBlocks*
 ### Identyfikacja treści
 Bloki treści, które powtarzają się na wielu stronach, w tym zestawy łączy nawigacyjnych, nagłówki stron i banery.
@@ -42,7 +42,7 @@ Bloki treści, które powtarzają się na wielu stronach, w tym zestawy łączy 
 ### Wynik testów
 Jeżeli którakolwiek z powyższych prób zakończy się niepowodzeniem, wówczas test podstawowy *4.A-BypassBlocks* kończy się niepowodzeniem.
 
-## Procedura testu dla KS 3.2.3 Spójna nawigacja
+## 4B. Procedura testowa spójności nawigacji
 Identyfikator testu podstawowego: *4.B-ConsistentNavigation*
 
 ### Identyfikacja treści
@@ -55,7 +55,7 @@ Mechanizmy nawigacyjne, które powtarzają się na wielu stronach (które mogą,
 ### Wynik testów
 Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test podstawowy *4.B-ConsistentNavigation* kończy się niepowodzeniem.
 
-## Procedura testu dla KS 3.2.4 Spójna identyfikacja
+## 4C. Procedura testowa spójności identyfikacji
 Identyfikator testu podstawowego: *4.C-ConsistentIdentification*
 ### Identyfikacja treści
 Komponenty, które mają te same funkcje w zestawie stron internetowych.

@@ -23,7 +23,7 @@ Wyniki tego testu podstawowego ustala się na podstawie wyników testów dla KS 
 
 Brak.
 
-## Procedura testu dla Wymagania zgodności 5
+## 3.A Procedura testu dla Wymagania zgodności 5
 
 Identyfikator testu bazowego: *3.A-Bez-zaklocen*
 
