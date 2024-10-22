@@ -12,7 +12,7 @@ folder: testy/itc
 - {% include ks/1-4-2.md %}
 - {% include ks/2-2-1.md %}
 - {% include ks/2-2-2.md %}
--   [5.2 Wymagania dotyczące zgodności: Bez zakłóceń](https://wcag.irdpl.pl/guidelines/22/#cc5) - Poniższe kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w&nbsp;innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ ich niespełnienie może zakłócać korzystanie ze strony:
+-   [5.2 Wymagania zgodności: Bez zakłóceń](https://wcag.irdpl.pl/guidelines/22/#cc5) - Poniższe kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w&nbsp;innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ ich niespełnienie może zakłócać korzystanie ze strony:
     -   1.4.2 - Kontrola odtwarzania dźwięku,
     -   2.1.2 - Bez pułapki na klawiaturę,
     -   2.3.1 - Trzy błyski lub wartości poniżej progu, oraz
@@ -31,11 +31,11 @@ Określ, czy i w jaki sposób użytkownik może modyfikować ograniczenia czasow
 -   Poruszanie się, przesuwanie, migotanie lub automatyczna aktualizacja treści są uważane za „niezbędne”, jeżeli ich usunięcie zasadniczo zmieniłoby informacje lub funkcje, a informacji i funkcji nie można uzyskać w inny sposób, który byłby zgodny z wymogami dostępności.
 -   Uwagi do KS 2.2.2 Wstrzymywanie (pauza), zatrzymywanie, ukrywanie:
     -   *Uwaga 1*: Wytyczna 2.3 zawiera więcej informacji na temat treści migoczącej lub zawierającej błyski.
-    -   *Uwaga 2*: Ponieważ każda treść, która nie spełnia tego kryterium sukcesu może utrudnić użytkownikowi skorzystanie z całej strony, cała zawartość danej strony (bez względu na to, czy spełnia inne kryteria, czy nie) musi spełnić powyższe kryterium. Więcej informacji: [Wymagania dotyczące zgodności: Bez zakłóceń](https://wcag.irdpl.pl/guidelines/22/#cc5).
+    -   *Uwaga 2*: Ponieważ każda treść, która nie spełnia tego kryterium sukcesu może utrudnić użytkownikowi skorzystanie z całej strony, cała zawartość danej strony (bez względu na to, czy spełnia inne kryteria, czy nie) musi spełnić powyższe kryterium. Więcej informacji: [Wymagania zgodności: Bez zakłóceń](https://wcag.irdpl.pl/guidelines/22/#cc5).
     -   *Uwaga 3:* Treść, która jest aktualizowana okresowo przez aplikację lub przesyłana w sposób ciągły do programu użytkownika, nie musi być przechowywana lub przedstawiana, w czasie pomiędzy wstrzymaniem a wznowieniem prezentacji, ponieważ może to być technicznie niemożliwe, a w wielu przypadkach mogłoby wprowadzać użytkownika w błąd.
     -   *Uwaga 4:* Animacja, która pojawia się w czasie poprzedzającym załadowanie treści, może być uznana za istotną, jeśli wszyscy użytkownicy nie mogą dokonać interakcji w tym czasie oraz jeśli brak wskazania etapu załadowania mógłby wprowadzić użytkownika w błąd lub mogłoby mu się wydawać, że załadowanie treści zostało zawieszone albo przerwane.
 -   Uwaga do KS 1.4.2 Kontrola odtwarzania dźwięku:
-    -   *Uwaga 1*: Ponieważ każda treść, która nie spełnia tego kryterium sukcesu może utrudnić użytkownikowi odczytanie całej strony, wszelkie treści na stronie (bez względu na to, czy spełniają inne kryteria sukcesu, czy nie) muszą spełnić niniejsze kryterium. Więcej informacji: [Wymagania dotyczące zgodności: Bez zakłóceń](https://www.w3.org/TR/WCAG20/#cc5)
+    -   *Uwaga 1*: Ponieważ każda treść, która nie spełnia tego kryterium sukcesu może utrudnić użytkownikowi odczytanie całej strony, wszelkie treści na stronie (bez względu na to, czy spełniają inne kryteria sukcesu, czy nie) muszą spełnić niniejsze kryterium. Więcej informacji: [Wymagania zgodności: Bez zakłóceń](https://www.w3.org/TR/WCAG20/#cc5)
 -   Zgodnie z [Objaśnieniem KS 1.4.2 Kontrola odtwarzania dźwięku](https://wcag.irdpl.pl/understanding/kontrola-odtwarzania-dzwieku.html): Kontrola nad głośnością obejmuje możliwość zmniejszenia jej do zera. Wyciszenie głośności systemu nie oznacza „wstrzymania lub zatrzymania” automatycznego odtwarzania dźwięku. Zarówno „pauza lub stop”, jak i kontrola głośności dźwięku muszą być niezależne od ogólnej głośności systemu.
 
 ## 21.A Procedura testowa możliwości dostosowania czasu
