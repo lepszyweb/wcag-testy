@@ -10,7 +10,7 @@ folder: testy/itc
 ## Wymagania dostępności
 - {% include ks/1-4-4.md %}
 
-## Uzasadnienie metody badania
+## Opis metody testowej
 Ten test podstawowy wymaga oceny wizualnej treści i funkcjonalności po zmianie rozmiaru tekstu.
 
 ## Ograniczenia, założenia lub wyjątki
@@ -19,10 +19,11 @@ Ten test podstawowy wymaga oceny wizualnej treści i funkcjonalności po zmianie
 
 ## 22.A Procedura testowa zmiany rozmiaru tekstu
 Identyfikator testu podstawowego: _22.A-ResizeText_
+
 ### Identyfikacja treści
 Cały tekst na stronie.
 
-###Instrukcje testowe
+### Instrukcje testowe
 1.  Sprawdź, czy istnieje mechanizm zmiany rozmiaru, skalowania lub powiększania treści co najmniej do 200% oryginalnego rozmiaru. Znane rozwiązania obejmują:
     -   funkcja powiększania treści lub funkcja zmiany rozmiaru tekstu w przeglądarce,
 	-   funkcje dostępności zapewniane przez platformę lub system operacyjny,
@@ -41,7 +42,7 @@ Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test p
 brak
 
 ## Techniki WCAG 2.2
-Opracowując tę procedurę testową, wzięto pod uwagę następujące wystarczające techniki i typowe defekty:
+Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
 
 - {% include techniki/G178.md %}
 - {% include techniki/G179.md %}
