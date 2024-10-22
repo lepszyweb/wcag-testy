@@ -33,12 +33,14 @@ Zmiany wprowadzone w najnowszej wersji Podstawy testowania TIK odnoszą się gł
 **Oznacza to**, że jeśli ktoś chce skorzystać z Podstaw testowania TIK, by opracować swój własny proces testowy, zgodny z wymogami określonymi w polskiej ustawie o dostępności cyfrowej stron internetowych i aplikacji mobilnych, musi **uzupełnić** ten zestaw testów co najmniej o testy sprawdzające zgodność z kryteriami sukcesu na poziomie A i AA dodanymi w WCAG 2.1.  
 
 
-Licencja *ICT Testing Baseline* pozwala na ich wykorzystanie bez ograniczeń, między innymi daje prawo do używania, kopiowania, modyfikowania, łączenia, publikowania, rozpowszechniania, udzielania podlicencji i/lub sprzedawania kopii pod warunkiem uznania praw autorskich twórców i stosowanych zastrzerzeń dotyczących nieudzielania jakichkolwiek gwarancji związanych z użytkowniem.
+Licencja *ICT Testing Baseline* pozwala na ich wykorzystanie bez ograniczeń, między innymi daje prawo do używania, kopiowania, modyfikowania, łączenia, publikowania, rozpowszechniania, udzielania podlicencji i/lub sprzedawania kopii pod warunkiem uznania praw autorskich twórców i stosowanych zastrzeżeń dotyczących nieudzielania jakichkolwiek gwarancji związanych z użytkowaniem.
 
 Korzystając z tej licencji, przedstawiamy do wykorzystania polską adaptację *ICT Testing Baseline* , licząc, że:
 
-- **po pierwsze**, będą pomocne w ocenianiu dostępnosci stron internetowych i aplikacji mobilnych oraz
+- **po pierwsze**, będą pomocne w ocenianiu dostępności stron internetowych i aplikacji mobilnych oraz
 - **po drugie**, pomogą w stworzeniu polskiej bazy podstawowych testów dostępności cyfrowej.
+
+Aktualne portfolio Podstaw testowania znajdziesz na stronie [ICT Testing Baseline Portfolio](https://ictbaseline.access-board.gov/).
 
 Jeśli chcesz dowiedzieć się więcej na temat amerykańskich rozwiązań, odwiedź [Section 508 Testing](http://www.dhs.gov/compliance-test-processes).
 
