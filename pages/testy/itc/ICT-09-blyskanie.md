@@ -8,7 +8,7 @@ folder: testy/itc
 ---
 ## Wymagania dostępności
 - {% include ks/2-3-1.md %}
--   [Wymaganie zgodności: 5. Bez zakłóceń](https://www.w3.org/Translations/WCAG21-pl/#cc5) - Poniższe kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ ich niespełnienie może zakłócać korzystanie ze strony: 1.4.2 - Kontrola odtwarzania dźwięku, 2.1.2 - Bez pułapki na klawiaturę, 2.3.1 Trzy błyski lub wartości poniżej progu, 2.2.2: Pauza, zatrzymanie, ukrycie.
+-   [5.2 Wymagania dotyczące zgodności: Bez zakłóceń](https://www.w3.org/Translations/WCAG21-pl/#cc5) - Poniższe kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ ich niespełnienie może zakłócać korzystanie ze strony: 1.4.2 - Kontrola odtwarzania dźwięku, 2.1.2 - Bez pułapki na klawiaturę, 2.3.1 Trzy błyski lub wartości poniżej progu, 2.2.2: Pauza, zatrzymanie, ukrycie.
 
 ## Opis metody testowej
 Miganie może być spowodowane czynnikami niezależnymi od autorów (np. działaniem wyświetlacza użytkownika, renderowaniem obrazu przez komputer lub problemami z łącznością). Nie ma niezawodnego, bezpłatnego i powszechnie dostępnego rozwiązania do określania wynikowej częstotliwości migania dla tego rodzaju czynników.
@@ -26,8 +26,6 @@ Ten test dotyczy migania powodowanego przez samą treść, w tym:
 - Migające elementy, które spełniają to wymaganie, nadal muszą spełniać wymagania KS 2.2.2 Pauza, zatrzymanie, ukrycie, jeśli miganie trwa dłużej niż 5 sekund ([Wymaganie podstawowe 21. Limity czasu](ICT_21_limity-czasu.md)).
 - Uwaga z KS 2.3.1:
     - Uwaga 1: Ponieważ każda treść, która nie spełnia tego kryterium sukcesu może utrudnić użytkownikowi korzystanie z całej strony, cała treść danej strony (bez względu na to, czy spełnia inne kryteria, czy nie) musi spełnić to kryterium sukcesu. Zobacz: [Wymogi zgodności: Bez zakłóceń](https://wcag.irdpl.pl/guidelines/22/#cc5).
-
-	
 
 ## 9.A Procedura testowa dla trzech błysków lub poniżej progu
 Identyfikator testu bazowego: _9.A-Flashes_

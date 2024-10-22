@@ -1,1 +1,1 @@
-[SCR1: Umożliwienie użytkownikowi przedłużenia domyślnego limitu czasowego](https://www.w3.org/TR/WCAG20-TECHS/SCR1.html)
+[SCR1: Umożliwienie użytkownikowi przedłużenia domyślnego limitu czasowego](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR1)

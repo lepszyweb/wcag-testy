@@ -295,7 +295,7 @@ entries:
           url: /ICT-18-zaleznosc-od-css
           output: web, pdf
 
-        - title: 19. Ramki i iFrames
+        - title: 19. Ramki
           url: /ICT-19-ramki
           output: web, pdf
 
@@ -303,8 +303,8 @@ entries:
           url: /ICT-20-wersje-alternatywne
           output: web, pdf
 
-        - title: 21. Limity czasu
-          url: /ICT-21-limity-czasu
+        - title: 21. Zdarzenia czasowe
+          url: /ICT-21-zdarzenia-czasowe
           output: web, pdf
 
         - title: 22. Zmiana rozmiaru tekstu

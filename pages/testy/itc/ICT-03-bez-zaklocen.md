@@ -10,7 +10,7 @@ folder: testy/itc
 
 ## Wymagania dostępności
 
--   [WCAG. Wymaganie zgodności 5: Bez zakłóceń](https://wcag.irdpl.pl/guidelines/22/#cc5) - Poniższe kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w&nbsp;innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ ich niespełnienie może zakłócać korzystanie ze strony:
+-   [5.2 Wymagania dotyczące zgodności: Bez zakłóceń](https://wcag.irdpl.pl/guidelines/22/#cc5) - Poniższe kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w&nbsp;innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ ich niespełnienie może zakłócać korzystanie ze strony:
     -   1.4.2 - Kontrola odtwarzania dźwięku,
     -   2.1.2 - Bez pułapki na klawiaturę,
     -   2.3.1 - Trzy błyski lub wartości poniżej progu, oraz
