@@ -11,7 +11,7 @@ folder: testy/itc
 - {% include ks/1-3-1.md %}
 - {% include ks/4-1-2.md %}
 
-## Opis metody testowania
+## Uzasadnienie metody testowej
 W przypadku użytkowników technologii wspomagających tabele danych muszą jawnie kojarzyć dane tabeli z&nbsp;nagłówkami wierszy i kolumn tabeli za pomocą znaczników programowych. Znaczniki tabel ułatwiają także nawigację użytkownikom technologii wspomagających, zapewniając programowe punkty orientacyjne za pomocą nagłówków kolumn i wierszy.
 
 Jeśli elementy `<table>` są używane do celów układu, niedozwolone sa elementy struktury tabeli danych, takie jak `<th>`, `<caption>` lub `summary`.

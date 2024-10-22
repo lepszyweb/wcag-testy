@@ -19,7 +19,7 @@ Według zdefiniowanych w WCAG [wymogów zgodności](wcag21#5-zgodność") strona
         -  wersja niezgodna jest osiągalna tylko z wersji zgodnej, **lub**
         -  wersja niezgodna może być osiągalna tylko z wersji zgodnej, która zawiera również mechanizm umożliwiający dostęp do wersji zgodnej.
 
-## Opis metody testowania
+## Uzasadnienie metody testowej
 Zgodna wersja alternatywna musi spełniać wszystkie części definicji, aby uznać ją za „wersję zapewniająca zgodność” („zgodną wersję alternatywną”).
 
 ## Ograniczenia, założenia lub wyjątki

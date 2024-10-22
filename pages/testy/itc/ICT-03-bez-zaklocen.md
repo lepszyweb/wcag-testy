@@ -16,7 +16,7 @@ folder: testy/itc
     -   2.3.1 - Trzy błyski lub wartości poniżej progu, oraz
     -   2.2.2 - Pauza, zatrzymanie, ukrycie.
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 Wyniki tego testu podstawowego ustala się na podstawie wyników testów dla KS 1.4.2 (21.4-AudioControl), KS 2.1.2 (1.2-NoKeyboadTrap), KS 2.3.1 (9.1-Flashes) i KS 2.2.2 (21.2-MovingInfo i 21.3-AutoUpdate).
 
 ## Ograniczenia, założenia lub wyjątki

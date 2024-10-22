@@ -17,7 +17,7 @@ folder: testy/itc
 - {% include ks/3-3-4.md %}
 - {% include ks/4-1-2.md %}
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 Zapoznaj się z instrukcjami dotyczącymi formularza pod kątem kompletności i programowego powiązania z ich danymi wejściowymi. Wprowadź błędne dane i przejrzyj powiadomienia o błędach dostarczone użytkownikowi.
 
 ## Ograniczenia, założenia lub wyjątki

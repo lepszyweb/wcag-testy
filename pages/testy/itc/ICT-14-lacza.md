@@ -11,7 +11,7 @@ folder: testy/itc
 - {% include ks/2-4-4.md %}
 - {% include ks/4-1-2.md %}
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 Łącza, w tym elementy skryptowe, muszą mieć znaczący tekst (powiązany bezpośrednio lub znajdujący się w&nbsp;kontekście), który opisuje ich przeznaczenie lub funkcję. Aby powiązany tekst był dostępny dla technologii wspomagających, informacje muszą być 
 <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.okreslony_programowo | strip_html | replace: '*', ''}}">określone programowo</a> (możliwe do odczytania przez program komputerowy)
 

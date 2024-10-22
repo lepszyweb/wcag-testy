@@ -11,7 +11,7 @@ folder: testy/itc
 - {% include ks/3-1-1.md %}
 - {% include ks/3-1-2.md %}
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 Domyślny naturalny (ludzki) język dla każdej strony musi być określony programowo. Fragmenty, które używają języka innego niż domyślny, muszą być określone programowo.
 
 ## Ograniczenia, założenia lub wyjątki

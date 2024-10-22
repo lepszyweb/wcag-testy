@@ -10,7 +10,7 @@ folder: testy/itc
 ## Wymagania dostępności
 - {% include ks/1-4-4.md %}
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 Ten test podstawowy wymaga oceny wizualnej treści i funkcjonalności po zmianie rozmiaru tekstu.
 
 ## Ograniczenia, założenia lub wyjątki

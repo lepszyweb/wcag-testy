@@ -10,7 +10,7 @@ folder: testy/itc
 ## Wymagania dostępności
 - {% include ks/4-1-2.md %}
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 HTML  obejmuje elementy zwane ramkami i ramkami liniowymi (`iframe`, inaczej liniowa, łączona, pływająca, lokalna, wbudowana). Ramki są używane do osadzania na stronie treści ze źródeł zewnętrznych. Na przykład często spotyka się osadzanie ramki z treścią audio lub wideo z innej strony.
 
 O ile użytkownicy widzący mogą rozpoznać strukturę prezentowaną za przez ramki i i elementy `iframe`, to użytkownicy czytników ekranu muszą polegać na elementach programowych, które powinny przekazać informację o treści ramek. Ta procedura testowa służy ocenie, czy treść elementów `<frame>` lub `<iframe>` została w kodzie przedstawiona odpowiednio dla technologii wspomagającej.   

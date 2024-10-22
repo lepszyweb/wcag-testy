@@ -11,7 +11,7 @@ folder: testy/itc
 ## Wymagania dostępności
 - {% include ks/1-4-3.md %}  
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 Ten test jest przeprowadzany w celu oceny równego dostępu do informacji dla wszystkich użytkowników, w tym tych, którzy mogą mieć trudności z rozróżnieniem elementów o niskim kontraście.
 
 ## Ograniczenia, założenia lub wyjątki

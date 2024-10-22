@@ -12,7 +12,7 @@ folder: testy/itc
 - {% include ks/1-3-3.md %}  
 - {% include ks/1-4-1.md %} 
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 
 Użytkownicy, których dotyczy ten wymóg, są osobami widzącymi i nie są to wyłącznie użytkownicy technologii wspomagających, w tym osoby z zaburzeniami widzenia kolorów. Niektórzy użytkownicy korzystający z technologii wspomagających mogą nie mieć możliwości określenia kształtu, rozmiaru, lokalizacji lub postrzegania dźwięku. Aby określić adekwatność instrukcji lub treści i uwzględnić wszelkie ograniczenia postrzegania sensorycznego lub kolorów, wymagana jest kontrola wzrokowa.  
 

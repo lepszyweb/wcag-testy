@@ -10,7 +10,7 @@ folder: testy/itc
 ## Wymagania dostępności
 - {% include ks/1-3-2.md %}
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 Znaczące informacje dostarczane wyłącznie przez CSS mogą nie być odwzorowane w Obiektowym Modelu Dokumentów (DOM). Informacje równoważne muszą być dostępne bez CSS.
 
 ## Ograniczenia, założenia lub wyjątki

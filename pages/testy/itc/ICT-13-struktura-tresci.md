@@ -11,7 +11,7 @@ folder: testy/itc
 - {% include ks/2-4-6.md %}
 - {% include ks/1-3-1.md %}
 
-## Opis metody testowania
+## Uzasadnienie metody testowej
 
 -   Widoczne nagłówki muszą być [możliwe do odczytania przez program komputerowy](https://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable), reprezentować strukturę treści i opisywać treść, która następuje po nagłówkach.
 -   Widoczne listy wizualne  muszą być [możliwe do odczytania przez program komputerowy](https://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable), zgodnie z ich typami (uporządkowane, nieuporządkowane, listy definicji).

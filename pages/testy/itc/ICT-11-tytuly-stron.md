@@ -10,7 +10,7 @@ folder: testy/itc
 ## Wymagania dostępności
 - {% include ks/2-4-2.md %}
 
-## Opis metody testowania
+## Uzasadnienie metody testowej
 Element `<title>` definiuje tytuł dokumentu i jest wymagany we wszystkich dokumentach HTML/XHTML. Ten test sprawdza istnienie opisowego tytułu dla strony internetowej.
 
 ## Ograniczenia, założenia lub wyjątki

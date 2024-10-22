@@ -10,7 +10,7 @@ folder: testy/itc
 ## Wymagania dostępności
 - {% include ks/1-2-1.md %}
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 Badanie treści alternatywnej w celu oceny jej równoważności z treściami tylko audio lub tylko wideo obejmuje zazwyczaj ręczne, poznawcze porównanie oryginalnej treści z jej alternatywą (lub alternatywami).
 
 ## Ograniczenia, założenia lub wyjątki

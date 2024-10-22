@@ -18,7 +18,7 @@ folder: testy/itc
     -   2.3.1 - Trzy błyski lub wartości poniżej progu, oraz
     -   2.2.2 - Pauza, zatrzymanie, ukrycie.
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 Określ, czy i w jaki sposób użytkownik może modyfikować ograniczenia czasowe, automatyczne odtwarzanie i automatyczną aktualizację.
 
 ## Ograniczenia, założenia lub wyjątki

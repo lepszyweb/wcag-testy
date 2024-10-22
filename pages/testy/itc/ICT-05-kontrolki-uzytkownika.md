@@ -11,7 +11,7 @@ folder: testy/itc
 ## Wymagania dostępności
 - {% include ks/4-1-2.md %}  
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 Celem tego testu podstawowego jest sprawdzenie, czy kontrolki mają określone poniższe cechy dostępności:
 - Nazwa
 - Rola

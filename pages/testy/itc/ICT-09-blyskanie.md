@@ -10,7 +10,7 @@ folder: testy/itc
 - {% include ks/2-3-1.md %}
 -   [5.2 Wymagania zgodności: Bez zakłóceń](https://www.w3.org/Translations/WCAG21-pl/#cc5) - Poniższe kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ ich niespełnienie może zakłócać korzystanie ze strony: 1.4.2 - Kontrola odtwarzania dźwięku, 2.1.2 - Bez pułapki na klawiaturę, 2.3.1 Trzy błyski lub wartości poniżej progu, 2.2.2: Pauza, zatrzymanie, ukrycie.
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 Miganie może być spowodowane czynnikami niezależnymi od autorów (np. działaniem wyświetlacza użytkownika, renderowaniem obrazu przez komputer lub problemami z łącznością). Nie ma niezawodnego, bezpłatnego i powszechnie dostępnego rozwiązania do określania wynikowej częstotliwości migania dla tego rodzaju czynników.
 
 Ten test dotyczy migania powodowanego przez samą treść, w tym:

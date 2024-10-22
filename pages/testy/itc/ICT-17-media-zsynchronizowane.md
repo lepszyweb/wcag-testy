@@ -16,7 +16,7 @@ folder: testy/itc
 - [Sekcja 508 503.4.1 Elementy sterujące napisami](https://www.federalregister.gov/d/2017-00395/p-631): W przypadku gdy elementy sterujące użytkownika służą do regulacji głośności, ICT zapewnia elementy sterujące użytkownika do wyboru napisów na tym samym poziomie menu, co elementy sterujące użytkownika do wyboru głośności lub programu.
 - [Sekcja 508 503.4.2 Elementy sterujące audiodeskrypcją](https://www.federalregister.gov/d/2017-00395/p-632): W przypadku gdy do wyboru programu przewidziane są elementy sterujące użytkownika, ICT zapewnia użytkownikowi elementy sterujące do wyboru audiodeskrypcji na tym samym poziomie menu, co elementy sterujące użytkownika do wyboru głośności lub programu.
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 Badanie napisów i audiodeskrypcji w celu oceny ich równoważności zsynchronizowaną treścią multimedialną zazwyczaj obejmuje ręczne poznawcze porównanie oryginalnej treści z jej alternatywami. Media, które są wyraźnie oznaczone jako alternatywa medialna dla tekstu, są testowane w celu oceny równoważności z tekstem, a jeśli nie są równoważne, należy przeprowadzić testy dla napisów i audiodeskrypcji.
 
 ## Ograniczenia, założenia lub wyjątki

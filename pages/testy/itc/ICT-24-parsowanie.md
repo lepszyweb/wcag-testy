@@ -10,7 +10,7 @@ folder: testy/itc
 ## Wymogi dostępności
 - {% include ks/4-1-1.md %}
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 - WCAG 2.2 wycofały KS 4.1.1 Parsowanie, ponieważ nie jest ono już potrzebne, gdyż błędy dostępności w technologiach wspomagających bezpośrednio parsujących HTML już nie istnieją lub są uwzględnione w innych kryteriach.
 - Sekcja 508 nie jest bezpośrednio objęta WCAG 2.2, ponieważ odnosi się do WCAG 2.0 Poziom A i AA, Zalecenie W3C, 11 grudnia 2008. KS 4.1.1 Parsowanie nie jest przestarzałe w WCAG 2.0, a kryterium jest wymogiem sekcji 508. Jednak ten test podstawowy będzie zawierał Erratę WCAG 2.0, która stwierdza „To kryterium powinno być uważane za zawsze spełnione dla każdej treści wykorzystującej HTML lub XML”.
 

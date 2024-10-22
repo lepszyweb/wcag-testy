@@ -10,7 +10,7 @@ folder: testy/itc
 ## Wymagania dostępności
 - {% include ks/2-4-5.md %}
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 Ten test podstawowy wymaga ręcznego sprawdzenia kilku różnych technik służących lokalizacji strony w zestawie stron.
 
 ## Ograniczenia, założenia lub wyjątki

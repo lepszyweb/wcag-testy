@@ -13,7 +13,7 @@ folder: testy/itc
 - {% include ks/1-4-5.md %}  
 - {% include ks/4-1-2.md %}  
 
-## Opis metody testowej
+## Uzasadnienie metody testowej
 -   Testowanie obrazów ocenia obrazy jako elementy zakodowane, aby ustalić, czy autor treści określił je jako znaczące lub dekoracyjne. Istnieją jednak pewne scenariusze, opisane w testach, w których programowe określenie autora może być nieprawidłowe.
 -   Testy wykorzystują wskazówki z samouczka WAI W3C [Images Tutorial](https://www.w3.org/WAI/tutorials/images/)
 -   Wszystkie obrazy znaczące i dekoracyjne muszą zostać ocenione. Do obrazu może mieć zastosowanie wiele testów.
