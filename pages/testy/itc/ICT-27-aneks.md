@@ -44,8 +44,8 @@ Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wyst
 
 
 - {% include techniki/G18.md %}
-- {% include techniki/145.md %}
-- {% include techniki/174.md %}
+- {% include techniki/G145.md %}
+- {% include techniki/G174.md %}
 - {% include techniki/G207.md %}
 - {% include techniki/209.md %}
 - {% include techniki/F78.md %}
