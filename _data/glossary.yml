@@ -215,6 +215,8 @@ rola: "(ang. 'role'). Tekst lub liczba, poprzez którą oprogramowanie może okr
 
 rozszerzona_audiodeskrypcja: "(ang. 'extended audio description'). Audiodeskrypcja, dodawana do materiału wideo poprzez zatrzymanie odtwarzacza (pauza), dzięki czemu jest czas na wstawienie dodatkowego opisu. <br/>**Uwaga**: Ta technika jest stosowana tylko wówczas, gdy sensu materiału wideo nie da się zachować bez dodatkowej audiodeskrypcji, a przerwy dialogami i narracją są zbyt krótkie."
 
+ruch_przeciagania: "(ang. 'dragging movement'). Operacja, podczas której wskaźnik styka się z elementem podczas zdarzenia w dół, a element (lub reprezentacja jego położenia) podąża za wskaźnikiem aż do zdarzenia w górę. <br/>Przykładami elementów przeciąganych są elementy list, elementy tekstowe i obrazy."
+
 rzetelnosc: "Właściwość strony internetowej lub aplikacji mobilnej polegająca na starannym, dokładnym, zgodnym ze standardami kodowaniu treści, umożliwiającym ich interpretowanie przez różne rodzaje oprogramowania użytkownika."
 
 sekcja: "(ang. 'section'). Samodzielna porcja pisanej treści, obejmująca jeden lub więcej powiązanych tematów lub myśli.<br>*Uwaga*: Sekcja może składać się z jednego lub więcej akapitów, a także zawierać grafikę, tabele, listy i podsekcje."
@@ -254,6 +256,9 @@ tekst: "(ang. 'text'). Ciąg znaków, który można programowo określić, gdzie
 tekst_alternatywny: "(ang. 'text alternative'). Tekst skojarzony programistycznie z treścią nietekstową lub odnoszący się do tekstu programistycznie skojarzonego z treścią nietekstową. Tekst programowo skojarzony to taki tekst, którego położenie może być programowo określone w stosunku do treści nietekstowej. <br>*Przykład*: Obraz wykresu jest opisany w następującym po nim akapicie. Krótki tekst alternatywny dla wykresu informuje, że takie objaśnienie znajduje się zaraz za nim (w kolejności treści)."
 
 tekst_formatowany: "Tekst, którego formatowanie jest kontrolowane przez arkusz stylów."
+
+test_funkcji_poznawczych: "Zadanie wymagające od użytkownika zapamiętywania, manipulowania lub przepisywania informacji. Przykładami są między innymi"
+
 
 tlumaczenie_jezyka_migowego: "(ang. 'sign language interpretation'). Tłumaczenie języka, najczęściej mówionego, na język migowy. <br/>**Uwaga**: Prawdziwe języki migowe są niezależnymi językami i nie mają nic wspólnego z&nbsp;językami mówionymi z danego kraju lub regionu."
 
