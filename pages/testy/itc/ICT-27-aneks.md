@@ -25,8 +25,8 @@ folder: testy/itc
 - {% include ks/4-1-3.md %} 
 
 ### WCAG 2.2
-- {% include ks/2-4-11.md %} 
+<!-- - {% include ks/2-4-11.md %} 
 - {% include ks/2-5-7.md %} 
 - {% include ks/3-2-6.md %} 
 - {% include ks/3-3-7.md %} 
-- {% include ks/3-3-8.md %} 
+- {% include ks/3-3-8.md %}  -->
