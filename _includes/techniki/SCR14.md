@@ -1,1 +1,1 @@
-[SCR14: Użycie skryptów do opcjonalnych nieistotnych alertów](https://www.w3.org/TR/WCAG20-TECHS/SCR14.html)
+[SCR14: Użycie skryptów do opcjonalnych nieistotnych alertów](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR14.html)

@@ -1,0 +1,1 @@
+[SCR39: Sprawianie, że treść z fokusem lub wskazywana (hover) może być odrzucona, wskazywana i widoczna](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR39)
