@@ -47,7 +47,7 @@ Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wyst
 - {% include techniki/G145.md %}
 - {% include techniki/G174.md %}
 - {% include techniki/G207.md %}
-- {% include techniki/209.md %}
+- {% include techniki/G209.md %}
 - {% include techniki/F78.md %}
 
 ## Wymagania dostępności
@@ -143,3 +143,5 @@ Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wyst
 - {% include techniki/G194.md %}
 - {% include techniki/G199.md %}
 - {% include techniki/F103.md %}
+
+
