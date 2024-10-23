@@ -46,7 +46,7 @@ cala_strona: "(ang. 'Full page'). Zgodność oraz poziomy zgodności dotyczą ca
 
 cale_procesy: "(ang. 'complete processes'). Wszystkie kroki, etapy składające się na cały proces, procedurę. Zgodność oraz poziom zgodności dotyczy całych procesów. Proces spełnia wymogi zgodności na określonym poziomie tylko wtedy, gdy wszystkie strony prezentujące etapy procesu spełniają wymogi co najmniej na tym samym poziomie. Gdy tylko niektóre etapy procesu spełniają wymogi zgodności na wyższym poziomie, to cały proces (i strony, na których jest obsługiwany) spełnia wyniki na niższym poziomie. Inaczej - zgodność na określonym poziomie nie jest osiągnięta, jeżeli którakolwiek ze stron prezentujących którykolwiek z etapów procesu nie spełnia wszystkich wymogów zgodności na tym poziomie."
 
-cel: "(ang. 'target'). Region wyświetlacza, który zaakceptuje akcję wskaźnika, taki jak obszar interaktywny komponentu interfejsu użytkownika. <br>Jeżeli dwa lub więcej celów dotykowych nakładają się na siebie, pokrywający się obszar nie powinien być uwzględniany przy pomiarze wielkości celu, chyba że nakładające się cele wykonują tę samą czynność lub otwierają tę samą stronę."
+cel: "(ang. 'target'). Obszar wyświetlacza, który zaakceptuje akcję wskaźnika, taki jak obszar interaktywny komponentu interfejsu użytkownika <br/>Uwaga: Jeżeli dwa lub więcej celów dotykowych nakładają się na siebie, pokrywający się obszar nie powinien być uwzględniany przy pomiarze wielkości celu, chyba że nakładające się cele wykonują tę samą czynność lub otwierają tę samą stronę."
 
 cel_lacza: "(ang. 'link purpose'). Oczekiwany skutek aktywacji łącza."
 
@@ -89,6 +89,8 @@ jezyk_migowy: "(ang. 'sign language'). Język stosujący kombinację gestów dł
 kompatybilnosc: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą tej stronie lub aplikacji współpracę z możliwie największą liczbą programów, w tym z narzędziami i programami wspomagającymi osoby niepełnosprawne."
 
 komponent_interfejsu_uzytkownika: "Część treści postrzegana przez użytkowników jako pojedynczy element sterowania konkretną funkcją, z którym użytkownik może wchodzić w interakcje, na przykład przycisk, łącze, pole tekstowe (proste komponenty interfejsu), rozwijane menu, okna dialogowe, karty, karuzele, panele rozwijane (złożone komponenty interfejsu). Komponent interfejsu może być oparty na natywnych elementach HTML lub elementach zaprogramowanych z użyciem JavaScript i&nbsp;API ARIA. Inaczej: element interfejsu użytkownika"
+
+komunikat_o_stanie: "(ang. 'status message'). Zmiana treści, która nie jest zmianą kontekstu i która dostarcza użytkownikowi informacji o&nbsp;powodzeniu lub wynikach działania, o&nbsp;stanie oczekiwania aplikacji, o&nbsp;postępie procesu lub o&nbsp;istnieniu błędów."
 
 komunikaty_o_stanie: "(ang. 'status message'). Zmiana treści, która nie jest zmianą kontekstu i która dostarcza użytkownikowi informacji o&nbsp;powodzeniu lub wynikach działania, o&nbsp;stanie oczekiwania aplikacji, o&nbsp;postępie procesu lub o&nbsp;istnieniu błędów."
 
@@ -156,6 +158,8 @@ obszar_wyszukiwania: "Obszar strony, punkt orientacyjny, zawierający wyszukiwar
 
 obszar_roboczy: "(ang. 'viewport'). Inaczej *obszar operacyjny* - powierzchnia wewnątrz okna przeglądarki, z wyłączeniem paskó narzędzi, zakładek i podobnych elementów. Obszar, w którym oprogramowanie użytkownika prezentuje treść. <br>**Uwaga 1**: Oprogramowanie użytkownika prezentuje treść w jednym lub więcej obszarze roboczym. Do obszarów roboczych zaliczamy okna, ramki, głośniki, wirtualne okulary. Obszar roboczy może zawierać w sobie inny obszar roboczy, (na przykład osadzone ramki). Komponenty interfejsu użytkownika generowane przez oprogramowanie użytkownika, jak podpowiedzi, menu i komunikaty, nie są obszarem roboczym."
 
+minimalna_obwiednia: "(ang. 'bounding box') Najmniejszy otaczający prosokąt wyrównany do osi poziomej, w którym znajdują się wszystkie punkty kształtu. W przypadku elementów, które zawijają się do wielu wierszy jako część zdania lub bloku tekstu (takich jak łącza hipertekstowe), obwiednia jest oparta na tym, jak komponent wyglądałby w pojedynczym wierszu."
+
 odpowiednik: "Treść jest „odpowiednikiem” innej treści, jeśli obie spełniają taką samą funkcję lub mają ten sam cel do prezentacji użytkownikowi. W kontekście dostępności cyfrowej odpowiednik treści musi spełniać zasadniczo taką samą funkcję dla osób z niepełnosprawnościami (tak dalece, jak to jest wykonalne, biorąc pod uwagę rodzaj niepełnosprawności i stan technologii, jaką treść orginalna spełnia dla osób bez niepełnosprawności. Zauważ, że ta definicja odpowiednika treści koncentruje się naspełnieniu tej samej funkcji. Jeśli obraz jest częścią łącza i zrozumienie go jest niezbędne do odgadnięcia dokąd wiedzie, odpowiednik musi także dać użytkownikom pojęcie o jego przeznaczeniu. Dostarczenie odpowiednika dla niedostępnych treści jest jednym z podstawowych sposobów, jaki autorzy mogą wykorzystać do zapewnienia dostępności cyfrowej swoich dokumentów."
 
 ogolnie_niejednoznaczny_dla_uzytkownikow: "(ang. 'ambiguous to users in general'). Cel nie może być określony na podstawie treści łącza lub treści strony wyświetlanej równocześnie z łączem (tzn. że użytkownicy bez niepełnosprawności wiedzą, co kryje się pod danym linkiem dopiero po kliknięciu na niego). <br>*Przykład:* Słowo guawa w tym zdaniu „Najwięksi eksporterzy guawy” jest linkiem. Tak umieszczony link może oznaczać przeniesienie do  definicji guawy, listy eksporterów guawy lub zdjęcia przedstawiającego ludzi zbierających guawę. Dopóki link nie zostanie kliknięty, zarówno użytkownicy pełnosprawni, jak i niepełnosprawni, nie wiedzą co się pod nim kryje."
@@ -174,6 +178,8 @@ piksel_CSS: "(ang. 'CSS pixel'). Piksel referencyjny (piksel odniesienia, ang. '
 
 podstawowy_poziom_edukacji: "(ang. 'primary education level'). Sześcioletni okres edukacji rozpoczynający się w wieku 5-7 lat, możliwie bez wcześniejszej edukacji. <br>**Uwaga**: Definicja oparta jest o Międzynarodową Standardową Klasyfikację Kształcenia UNESCO."
 
+pojedynczy_wskaznik: "(ang. 'single pointer'. Wprowadzanie danych wskaźnikiem, które działa z jednym punktem kontaktu z ekranem, w tym pojedyncze stuknięcia i kliknięcia, podwójne stuknięcia i kliknięcia, długie naciśnięcia i gesty oparte na ścieżce"
+
 pomoc_kontekstowa: "(ang. 'context-sensitive help'). Tekst pomocy dostarczający informacji na temat aktualnie wykonywanej czynności. <br>**Uwaga**: Jasno sformułowane etykiety mogą być traktowane jak pomoc kontekstowa."
 
 postrzegalnosc: "Właściwość strony internetowej lub aplikacji mobilnej umożliwiającą jej odbiór przez użytkownika za pomocą słuchu, wzroku lub dotyku."
@@ -184,6 +190,8 @@ poziom_gimnazjalny: "(ang. 'lower secondary education level'). Dwu- lub trzyletn
 
 prawidlowa_kolejnosc_odczytu: "(ang. 'correct reading sequence')
 Kolejność słów i akapitów zaprezentowana w taki sposób, żeby kolejność ich odczytu nie zmieniała sensu treści całego przekazu tekstowego."
+
+prezentacja: "(ang. 'presentation'). Renderowanie treści w sposób, który jest postrzegalny dla użytkownika."
 
 procedura: "(ang. 'process'). Seria czynności użytkownika, gdzie każda czynność jest niezbędna do zakończenia działania.<br>*Przykład 1:* Zakończona sukcesem procedura korzystania ze stron sklepu internetowego wymaga od użytkownika obejrzenia alternatywnych produktów, cen i ofert, wybrania produktów, złożenia zamówienia, ustalenia warunków dostawy oraz podania informacji o wysyłce i płatności.<br>*Przykład 2:* Strona rejestracji konta wymaga przejścia testu Turinga, a następnie wypełnienia formularza rejestracyjnego."
 
@@ -198,6 +206,8 @@ przedstawianie: "(ang. 'presentation'). Renderowanie treści w sposób, który j
 punkt_dotyku: "(ang. 'pointer inputs'). Punkt kontaktu z powierzchnią. Może to być palec (lub łokieć, ucho, nos, cokolwiek, ale najczęściej jednak palec) lub rysik."
 
 punkt_orientacyjny: "(ang. 'landmark'). Typ obszaru strony, do którego użytkownik może chcieć uzyskać szybki dostęp. Treść w takim obszarze różni się od innych obszarów na stronie i jest odpowiednia do określonego celu użytkownika, takiego jak nawigacja, wyszukiwanie, przeglądanie treści podstawowej itp."
+
+region: "(ang. 'region') Postrzegalna, programowo określona część treści. <br/>W HTML każdy obszar oznaczony jako punkt orientacyjny jest regionem."
 
 relacja: "(ang. 'relationships'). Posiadające znaczenie skojarzenie pomiędzy różnymi elementami treści."
 
@@ -278,7 +288,9 @@ WAI-ARIA: "Specyfikacja techniczna opublikowana przez World Wide Web Consortium 
 
 WCAG: "Akronim (skrót) od angielskiego tytułu zbioru dokumentów [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) – opublikowanego przez WAI, zawierający zalecenia dotyczące tworzenia dostępnych treści internetowych. 15 października 2012 roku wytyczne WCAG w wersji 2.0 zyskały status międzynarodowej normy ISO/IEC 40500:2012."
 
-wersja_alternatywna_zapewniajaca_zgodnosc: "(ang. 'conforming alternate version'). Wersja tej samej treści, strony lub witryny, która<br>1) spełnia wszystkie kryteria sukcesu na określonym poziomie (A, AA lub AAA),  <br>2) zawiera równoważne informacje i funkcjonalności w tym samym języku oraz <br>- jest tak samo aktualna, jak wersja „niezgodna”, <br>dla której przynajmniej jeden z poniższych warunków jest spełniony <br>- wersja zgodna jest osiągalna z wersji niezgodnej za pomocą mechanizmu obsługującego dostępność albo wersja niezgodna jest osiągalna jedynie z wersji zgodnej, albo  wersja niezgodna jest osiągalna tylko z wersji zgodnej, o ile zawiera mechanizm osiągnięcia wersji zgodnej."
+wejscie_wskaznika: "(ang. 'pointer inputs'). Dane wejściowe z urządzenia, które może kierować określone współrzędne (lub zestaw współrzędnych) na ekranie, takie jak mysz, pióro lub kontakt dotykowy"
+
+wersja_alternatywna_zapewniajaca_zgodnosc: "(ang. 'conforming alternate version'). Wersja tej samej treści, strony lub witryny, która<br>1) spełnia wszystkie kryteria sukcesu na określonym poziomie (A, AA lub AAA),  <br>2) zawiera równoważne informacje i funkcjonalności w tym samym języku oraz <br>- jest tak samo aktualna, jak wersja „niezgodna”, <br>dla której przynajmniej jeden z poniższych warunków jest spełniony <br>- zgodna wersja może być osiągnięta ze strony niezgodnej za pomocą mechanizmu obsługującego dostępność, lub <br>- niezgodna wersja może być osiągalna tylko z wersji zgodnej, lub<br>- niezgodna wersja może być osiągalna tylko z wersji zgodnej, o ile zawiera mechanizm osiągnięcia wersji zgodnej."
 
 wideo: "Technologia poruszających się lub następujących po sobie obrazów. Treści przekazywane elektronicznie złożone z sekwencji obrazów, technika rejestrowania i przekazywania sygnałów wizyjnych. <br>**Uwaga**: wideo może być stworzone za pomocą animacji lub fotografii, lub obu naraz."
 
@@ -307,7 +319,15 @@ wzgledna_luminancja: "(ang. 'relative luminance'). Względna jasność punktu w 
 
 zagrozenie: "(ang. 'emergency'). Nagła, nieoczekiwana sytuacja lub zdarzenie, wymagające natychmiastowej reakcji dla ochrony zdrowia, bezpieczeństwa lub mienia."
 
+zdarzenie_w_dol: "(ang. 'down-event'). Zdarzenie platformy wywoływane w momencie naciśnięcia przycisku urządzenia wskazującego (wskaźnika), gdy wskaźnik znajduje się wewnątrz elementu. <br />Zdarzenie może mieć na różnych platformach różne nazwy, takie jak „touchstart” lub „mousedown”."
+
+zdarzenie_w_gore: "(ang. 'up-event'). Zdarzenie platformy wywoływane, gdy przycisk wyzwalający urządzenia wskazującego (wskaźnika) zostanie zwolniony), gdy wskaźnik znajduje się wewnątrz elementu <br />Zwolnienie nacisku może mieć różne nazwy na różnych platformach, takie jak „touchend” lub „mouseup”.""
+
+
 zestaw_stron_internetowych: "(ang. 'set of web pages') Zbiór stron internetowych, które mają wspólny cel i które są tworzone przez tego samego autora, grupę lub organizację. <br>Przykładem jest publikacja podzielona na wiele stron internetowych, gdzie każda strona zawiera jeden rozdział lub inną znaczącą część pracy. Publikacja jest logicznie pojedynczą, ciągłą jednostką i zawiera funkcje nawigacyjne, które umożliwiają dostęp do pełnego zestawu stron. <br>**Uwaga:** Różne wersje językowe będą traktowane jako różne zestawy stron internetowych."
+
+
+zgodna_wersja_alternatywna: "(ang. 'conforming alternate version'). Wersja tej samej treści, strony lub witryny, która<br>1) spełnia wszystkie kryteria sukcesu na określonym poziomie (A, AA lub AAA),  <br>2) zawiera równoważne informacje i funkcjonalności w tym samym języku oraz <br>- jest tak samo aktualna, jak wersja „niezgodna”, <br>dla której przynajmniej jeden z poniższych warunków jest spełniony <br>- zgodna wersja może być osiągnięta ze strony niezgodnej za pomocą mechanizmu obsługującego dostępność, lub <br>- niezgodna wersja może być osiągalna tylko z wersji zgodnej, lub<br>- niezgodna wersja może być osiągalna tylko z wersji zgodnej, o ile zawiera mechanizm osiągnięcia wersji zgodnej."
 
 zgodnosc: "(ang. 'conformance'). Spełnienie wszystkich wymagań danej normy, wytycznych lub specyfikacji."
 

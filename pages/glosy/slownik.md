@@ -86,6 +86,9 @@ cała strona:
 całe procesy
 : {{site.data.glossary.cale_procesy}}
 
+cel
+: {{site.data.glossary.cel}}
+
 cel łącza
 : {{site.data.glossary.cel_lacza}}
 
@@ -156,6 +159,9 @@ kompatybilność
 
 komponent interfejsu użytkownika
 : {{site.data.glossary.komponent_interfejsu_uzytkownika}}
+
+komunikat o stanie
+: {{site.data.glossary.komunikat_o_stanie}}
 
 komunikaty o stanie
 : {{site.data.glossary.komunikaty_o_stanie}}
@@ -327,6 +333,9 @@ punkt orientacyjny
 : {{site.data.glossary.punkt_orientacyjny}}
 
 ## R
+region
+: {{site.data.glossary.region}}
+
 relacja
 : {{site.data.glossary.relacja}}
 
@@ -453,6 +462,9 @@ W3C
 WCAG
 : {{site.data.glossary.WCAG}}
 
+wejście wskaźnika
+: {{site.data.glossary.wejscie_wskaznika}}
+
 wersja alternatywna zapewniająca zgodność
 : {{site.data.glossary.wersja_alternatywna_zapewniajaca_zgodnosc}}
 
@@ -497,8 +509,17 @@ względna luminancja
 zagrożenie
 : {{site.data.glossary.zagrozenie}}
 
+zdarzenie w dół
+: {{site.data.glossary.zdarzenie_w_dol}}
+
+zdarzenie w górę
+: {{site.data.glossary.zdarzenie_w_gore}}
+
 zestaw stron internetowych
 : {{site.data.glossary.zestaw_stron_internetowych}}
+
+zgodna wersja alternatywna
+: {{site.data.glossary.zgodna_wersja_alternatywna}}
 
 zgodność
 : {{site.data.glossary.zgodnosc}}
