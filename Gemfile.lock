@@ -259,13 +259,12 @@ GEM
       faraday (>= 0.17.3, < 3)
     securerandom (0.3.1)
     simpleidn (0.2.3)
-    terminal-table (1.8.0)
-      unicode-display_width (~> 1.1, >= 1.1.1)
+    terminal-table (1.6.0)
     typhoeus (1.4.1)
       ethon (>= 0.9.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    unicode-display_width (1.8.0)
+    unicode-display_width (2.6.0)
     uri (0.13.1)
     webrick (1.8.2)
 
@@ -275,6 +274,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  unicode-display_width
 
 BUNDLED WITH
    2.1.4
