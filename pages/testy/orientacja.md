@@ -3,205 +3,61 @@ title: Orientacja
 last_updated: 22 października 2024
 toc: false
 sidebar: testy_sidebar
-permalink: orientacja
+permalink: Orientacja
 folder: testy
 ---
 
 ## Wymagania dostępności
 - {% include ks/1-3-4.md %} 
 
-## Dostępność wersji alternatywnej
-Identyfikator testu podstawowego: _orientacja-wyswietlacza_ / _testID-050_ 
-
-### Test 1.A Wersja-alt-zgodna
+## Test Orientacja wyświetlania
+Identyfikator testu podstawowego: _orientacja-wyswietlania_ / _testID-050_ 
 
 | Nazwa testu | ID testu | Warunek testowy |
 |------------------------|---------|---------------------------------------|
-| orientacja-wyswietlacza | 1.A | Treść wyświetla się w orientacji wybranej przez użytkownika (pionowej lub poziomej) bez utraty informacji lub funkcji|
+| orientacja-wyswietlania | ??? | Treść wyświetla się w orientacji wybranej przez użytkownika (pionowej lub poziomej) bez utraty informacji lub funkcji|
 
-### Cel testu
-Niektóre urządzenia (głównie mobilne) mogą dynamicznie zmieniać orientację ekranu, gdy zmienia się orientacja samego urządzenia. O ile takie zachowanie doskonale przydaje się w przypadku treści tekstowych, to może mieć negatywny wpływ w przypadku treści, które wymagają konkretnej orientacji urządzenia, np. gry oparte na orientacji urządzenia. 
+## Cel testu
+Celem tego testu jest sprawdzenie, czy treści oferowane przez stronę internetową mogą być odtwarzane niezależnie od orientacji ekranu (pionowej lub poziomej). Jeśli użytkownik zdecyduje się zablokować całe urządzenie w konkretnej orientacji, wszystkie strony muszą uwzględnić to ustawienie i odpowiednio wyświetlić treść.
 
-Celem tego testu jest sprawdzenie, czy treści oferowane przez stronę internetową mogą być odtwarzane niezależnie od orientacji ekranu (pionowej lub poziomej) oraz upewnienie się, że zmiana orientacji wyświetlania nie powoduje utraty informacji lub funkcji.
+<!-- Niektóre urządzenia (głównie mobilne) mogą dynamicznie zmieniać orientację ekranu, gdy zmienia się orientacja samego urządzenia. O ile takie zachowanie doskonale przydaje się w przypadku treści tekstowych, to może mieć negatywny wpływ w przypadku treści, które wymagają konkretnej orientacji urządzenia, np. gry oparte na orientacji urządzenia. -->
 
-Jeśli użytkownik zdecyduje się zablokować całe urządzenie w konkretnej orientacji, wszystkie strony muszą uwzględnić to ustawienie i odpowiednio wyświetlić treść.
+## Oczekiwania, ograniczenia lub wyjątki
 
-## Zastosowanie
-
-### Oczekiwania, ograniczenia lub wyjątki
-
-### Identyfikacja treści
-
-## Jak testować
-
-### Metody i narzędzia testowe 
-
-### Procedura testowa
-
-### Ocena wyników
-Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełnia** wymagania zgodności, jeśli twierdzenie poniżej jest **fałszywe**, ten warunek testowy **nie ma zastosowania**.
-
-
-## Założenia, ograniczenia lub wyjątki
-
-- Treść jest czytelna i użyteczna niezależnie od orientacji ekranu.
+- Treść jest czytelna i użyteczna niezależnie od orientacji ekranu, z wyjątkiem sytuacji, gdy konkretna orientacja wyświetlania ma <a href="#" data-toggle="tooltip" data-original-title="{{site.data.glossary.istotny | strip_html | replace: '*', ''}}">istotne</a> znaczenie. 
+   - **Uwaga do KS 1.3.4**: Przykłady, w których konkretna orientacja wyświetlania może mieć istotne znaczenie, to np. czek bankowy, aplikacja na pianino, slajdy do projektora czy telewizora lub treść rzeczywistości wirtualnej, gdy treść nie musi być ograniczona do orientacji poziomej lub pionowej.
+   -  **Wyjątek**. Wyjątek odnosi się do poniższych dwóch sytuacji, w których treść może być w pełni czytelna i użyteczna tylko w określonej orientacji lub gdy technologia ogranicza możliwe orientacje: 
+      - gdy treść wymaga konkretnej (zwykle poziomej) orientacji wyświetlania, aby można jej efektywnie użyć, np. aplikacja do gry na pianinie wymaga prezentacji w widoku poziomym, aby zapewnić wystarczającą ilość miejsca na klawisze (w przecinym przypadku klawiszy byłoby zbyt mało albo byłyby zbyt wąskie);
+      - gdy treść jest przeznaczona dla określonego środowiska, które jest dostępne tylko w jednej orientacji (np. telewizor, okulary wirtualne), wówczas możliwe orientacje ogranicza technologia.
 - Termin „orientacja ekranu” odnosi się do tego, czy obszar widoku przeglądarki znajduje się w trybie poziomym (czyli szerokość obszaru widoku jest większa od jego wysokości), czy w trybie pionowym (wysokość obszaru widoku jest większa od jego szerokości).
 - Kryterium sukcesu dotyczy tylko treści internetowych, nie dotyczy ustawień specyficznych dla urządzenia, których ktoś może użyć, aby ograniczyć swoje urządzenie do określonej orientacji. Innymi słowy, autorzy powinni tworzyć treści, które automatycznie dostosowują się do orientacji urządzenia, na którym są wyświetlane.
-- Zmiany zakresu widocznych informacji lub funkcji wynikające z wielkości wyświetlacza nie są objęte tym kryterium, które koncentruje się na ograniczeniach orientacji.
+- Zmiany zakresu widocznych informacji lub funkcji wynikające z wielkości wyświetlacza nie są objęte tym kryterium, które koncentruje się na ograniczeniach orientacji. Zmiana orientacji może wymagać przewijania ekranu w dół, aby zobaczyć całą treść.
 
-### Identyfikacja treści
+## Identyfikacja treści
+Wszystkie treści, **z wyjątkiem sytuacji**, gdy do przeglądania i obsługi treści konieczny jest widok pionowy albo poziomy.
+Ogranicz badanie tylko do zachowania się treści w urządzeniach, które umożliwiają zmianę orientacji ekranu.
 
-### Zastosowanie:
-Test 1.A Wersja-alt-zgodna **nie ma zastosowania**, jeśli istnieje tylko jedna wersja treści.
+## Zastosowanie:
+Test _orientacja-wyswietlania_ **nie ma zastosowania** do treści, które muszą być wyświetlone w konkretnej orientacji widoku (ekranu).
 
-### Jak testować:
-
-
-### Ocena wyników
-Jeśli twierdzenie poniżej jest **prawdą**, wówczas strona (treść) **spełnia** wymagania zgodności, jeśli twierdzenie poniżej jest **fałszywe**, ten warunek testowy **nie ma zastosowania**.
-
-## Techniki WCAG 2.2
-Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
-
-- {% include techniki/G214.md %}
-- {% include techniki/F97.md %}
-- {% include techniki/F100.md %}
-
-
-
-## Wymagania dostępności
-- {% include ks/1-3-4.md %} 
-
-## Uzasadnienie metody testowej
-
-
-
-
-Intencją tego kryterium sukcesu jest zapewnienie, że treść wyświetla się w orientacji wybranej przez użytkownika (pionowej lub poziomej). 
-Celem tego kryterium sukcesu jest to, żeby autorzy nigdy nie ograniczali orientacji treści, zapewniając w ten sposób, że zawsze będzie dopasowana do orientacji wyświetlacza urządzenia.
-Niektórzy użytkownicy mają swoje urządzenia zamontowane w stałej orientacji (np. na ramieniu wózka inwalidzkiego). Dlatego strony internetowe i aplikacje muszą wspierać obie orientacje, nie ograniczając możliwości zmiany orientacji. 
-
-
-
-
-•	Aplikacje nie ograniczają zmian orientacji wyświetlacza.
-•	Aplikacje nie polegają na ruchu urządzenia.
-
-Treść nie wymaga określonego ułożenia wyświetlacza (pionowego lub poziomego), poza uzasadnionymi wyjątkami 
-
-	
-
-
-Zmiany orientacji i testowanie ruchu są zwykle przeprowadzane na urządzeniach mobilnych. Gdy urządzenie mobilne jest przechylone o 90 stopni, jego czujniki wyzwalają zmianę orientacji treści. Jest to oczekiwane zachowanie na poziomie platformy, więc test zapewnia, że aplikacja nie blokuje wyświetlania treści zarówno w orientacji poziomej, jak i pionowej.
-
-W ten sam sposób, w jaki platforma oferuje blokadę, aby zapobiec przypadkowemu wywołaniu zmiany orientacji przez użytkownika, wszelkie działania w aplikacji, które są wyzwalane przez ruch, muszą zawierać mechanizm wyłączający aktywację ruchem. 
-
-
-Sprawdź, czy aplikacja zapewnia inny niż detekcja ruchu sposób aktywacji.
-
-
-
-
-Niektóre strony internetowe i aplikacje automatycznie ustawiają orientację ekranu, blokują go w tej orientacji i oczekują, że użytkownicy zareagują obracając swoje urządzenie, aby dopasować się do niego, co może sprawiać problemy. 
-
-
-
-
-
-Do sprawdzenia
-Sprawdź, czy wszystkie treści i funkcje są dostępne w obu orientacjach (bez utraty informacji, bez obciętych elementów).
-
-Oczekiwany wynik
-
-
-Jest to istotne dla użytkowników, którzy mają ekran zamontowany poziomo na wózku inwalidzkim i nie mogą go obrócić.
-
-1 na 3 osoby używa powiększonej czcionki. Orientacja pozioma ułatwia czytanie tekstu przy użyciu (bardzo) dużej czcionki.
-
-## Założenia, ograniczenia lub wyjątki
-
-
-
- może mieć istotne znaczenie, np. czek bankowy, aplikacja na pianino, slajdy do projektora czy telewizora lub przedstawienie rzeczywistości wirtualnej, której treść niekoniecznie jest ograniczona do orientacji poziomej lub pionowej.
+## Jak testować:
+1. Sprawdź, czy treść można przeglądać i obsługiwać w widoku poziomym.
+2. Sprawdź, czy treść można przeglądać i obsługiwać w widoku pionowym.  
+3. Jeśli w treści, programie użytkownika, systemie operacyjnym lub urządzeniu występują jakiekolwiek kontrolki, które ograniczają lub zezwalają na zmiany orientacji,
+   - Sprawdź, czy po użyciu kontrolki następuje zmiana orientacji treści.
+   - Sprawdź, czy treść można przeglądać i obsługiwać w widoku poziomym.
+   - Sprawdź, czy treść można przeglądać i obsługiwać w widoku pionowym.
+   - Sprawdź, czy zmiana orientacji widoku nie powoduje utraty informacji lub funkcji.
+4. Jeśli pojawi się komunikat z prośbą o zmianę orientacji urządzenia, sprawdź czy do przeglądania i obsługi treści konieczna jest żądana orientacja urządzenia (orientacja widoku). 
  
-   - Technologie takie jak wirtualna rzeczywistość wykorzystują ekrany w goglach, które nie mogą zmienić orientacji względem oczu użytkownika.
+## Ocena wyników
+Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść) **spełnia** warunki testowe i test podstawowy _orientacja-wyswietlania_ kończy się wynikiem **zaliczony**.
+Jeśli którekolwiek twierdzenie poniżej jest **fałszywe**, wówczas strona (treść) **nie spełnia** warunków testowych i test podstawowy _orientacja-wyswietlania_ kończy się niepowodzeniem (wynikiem **niezaliczony**).
 
-      Wyjątek dotyczący rzeczy uznanych za istotne ma na celu sytuacje, w których treść byłaby zrozumiała tylko w określonej orientacji lub gdy technologia ogranicza możliwe orientacje. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## #.X Procedura testowa dla dowolna orientacja wyświetlacza
-Identyfikator testu podstawowego: _7.A-dowolna-orientacja-wyswietlacza_
-
-### Identyfikacja treści
-Cała treść strony internetowej lub ekranu w aplikacji mobilnej
-Użyj do testu urządzenia, które umożliwia zmianę orientacji wyświetla nia, np. smartfona, tabletu.
-
-### Instrukcja testowania
-
-1. Sprawdź, czy do przeglądania i obsługi treści konieczny jest widok pionowy, czy poziomy.
-
-1. Otwórz treść w widoku poziomym. 
-   - Sprawdź, czy treść jest zorientowana dla tego widoku.
-2. Otwórz treść w widoku pionowym. 
-   - Sprawdź, czy treść jest zorientowana dla tego widoku.
-
-Jeśli w treści, programie użytkownika, systemie operacyjnym lub urządzeniu występują jakiekolwiek kontrolki, które ograniczają lub zezwalają na zmiany orientacji, sprawdź, czy kontrolki te można skonfigurować tak, aby sprawdzenia nr 1 i 2 były prawdziwe.
-
-
-Oczekiwane rezultaty
-Jeśli sprawdzenie nr 1 lub sprawdzenie nr 2 jest fałszywe, a sprawdzenia nr 3 i 4 są fałszywe, wówczas obowiązuje ten warunek niepowodzenia i treść nie spełnia kryterium sukcesu.
-
-
-
-Procedura
-W przypadku treści, które nie zmieniają orientacji podczas obracania urządzenia:
-
-Sprawdź, czy w interfejsie użytkownika znajduje się kontrolka umożliwiająca zmianę orientacji treści.
-Sprawdź, czy po użyciu elementu sterującego następuje zmiana orientacji zawartości.
-Oczekiwane rezultaty
-Sprawdzenia nr 1 i nr 2 są prawdziwe.
-
-Procedura
-Otwórz zawartość w widoku poziomym. Sprawdź, czy pojawi się komunikat z prośbą o zmianę orientacji urządzenia.
-Otwórz zawartość w widoku pionowym. Sprawdź, czy pojawi się komunikat z prośbą o zmianę orientacji urządzenia.
-Sprawdź, czy do przeglądania i obsługi treści konieczny jest widok pionowy czy poziomy.
-Oczekiwane rezultaty
-Jeśli sprawdzenie nr 1 lub nr 2 jest prawdą, a sprawdzenie nr 3 jest fałszem, wówczas ten warunek testowy ma zastosowanie i treść nie spełnia kryterium sukcesu.
-
-
-### Wynik testów
-Jeśli WSZYSTKIE powyższe testy zakończą się niepowodzeniem, test podstawowy _7.A-Color_ kończy się niepowodzeniem.
-
-
-##  Wskazówki dotyczące usprawniania procesu testowego
+1. Użycie kontrolek zmiany oientacji, jeśli istnieją, powoduje zmianę orientacji treści.
+2. Treść można przeglądać zarówno w widoku poziomym, jak i w widoku pionowym.
+3. Zmiana orientacji widoku nie powoduje utraty informacji lub funkcji.
+4. Żądana orientacja widoku (ekranu), jeśli ma miejsce, jest konieczna do przeglądania i obsługi treści. 
 
 ## Techniki WCAG 2.2
 Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
