@@ -3,7 +3,7 @@ title: 25. Brak zakłóceń
 
 
 sidebar: testy_sidebar
-permalink: ICT-25-brak-zaklocen
+permalink: ICT-27-aneks
 folder: testy/itc
 ---
 

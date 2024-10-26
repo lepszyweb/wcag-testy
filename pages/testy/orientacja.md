@@ -3,7 +3,7 @@ title: Orientacja
 last_updated: 22 października 2024
 toc: false
 sidebar: testy_sidebar
-permalink: Orientacja
+permalink: orientacja
 folder: testy
 ---
 
