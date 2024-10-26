@@ -1,0 +1,1 @@
+[SCR34: Obliczanie rozmiaru i pozycji w sposób skalujący się z rozmiarem tekstu](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR34)

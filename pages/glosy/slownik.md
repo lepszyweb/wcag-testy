@@ -348,6 +348,9 @@ rola
 rozszerzona audiodeskrypcja
 : {{site.data.glossary.rozszerzona_audiodeskrypcja}}
 
+ruch przeciągania
+: {{site.data.glossary.ruch_przeciagania}}
+
 rzetelność
 : {{site.data.glossary.rzetelnosc}}
 
