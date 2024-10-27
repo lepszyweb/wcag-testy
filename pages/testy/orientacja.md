@@ -54,7 +54,7 @@ Test _orientacja-wyswietlania_ **nie ma zastosowania** do treści, które muszą
 
 ### Ocena wyników
 Jeśli wszystkie twierdzenia poniżej są **prawdą**, wówczas strona (treść) **spełnia** warunki testowe i test podstawowy _orientacja-wyswietlania_ kończy się wynikiem **zaliczony**.
-Jeśli którekolwiek twierdzenie poniżej jest **fałszywe**, wówczas strona (treść) **nie spełnia** warunków testowych i test podstawowy _orientacja-wyswietlania_ kończy się niepowodzeniem (wynikiem **niezaliczony**).
+Jeśli którekolwiek twierdzenie poniżej jest **fałszywe**, wówczas strona (treść) **nie spełnia** warunków testowych i test podstawowy _orientacja-wyswietlania_ kończy się wynikiem **niezaliczony**).
 
 1. Użycie kontrolek zmiany orientacji, jeśli istnieją, powoduje zmianę orientacji treści.
 2. Treść można przeglądać zarówno w widoku poziomym, jak i w widoku pionowym.
