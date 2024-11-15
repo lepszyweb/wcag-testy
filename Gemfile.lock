@@ -270,7 +270,7 @@ GEM
     unicode-display_width (3.0.1)
       unicode-emoji (~> 4.0)
     unicode-emoji (4.0.3)
-    uri (1.0.1)
+    uri (1.0.2)
     webrick (1.9.0)
 
 PLATFORMS
