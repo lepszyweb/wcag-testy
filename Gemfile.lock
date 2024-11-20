@@ -269,7 +269,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (3.1.0)
       unicode-emoji (~> 4.0)
-    unicode-emoji (4.0.3)
+    unicode-emoji (4.0.4)
     uri (1.0.2)
     webrick (1.9.0)
 
