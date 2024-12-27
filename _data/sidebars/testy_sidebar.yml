@@ -318,12 +318,118 @@ entries:
         - title: 24. Parsowanie
           url: /ICT-24-parsowanie
           output: web, pdf
-
-
-
         - title: Dodatek A. Tabela porównawcza
           url: /ICT-26-dodatekA
           output: web
+
+  - title: Dokumenty elektroniczne
+    output: web, pdf
+
+    folderitems:
+    - title: Podstawa testowania
+      url: /doc-wprowadzenie
+      output: web
+
+      subfolders:
+      - title: Baza testów
+        output: web
+        subfolderitems:
+
+        - title: 1. Dostęp z klawiatury
+          url: /01-klawiatura-doc
+          output: web, pdf
+
+        - title: 2. Fokus
+          url: /02-fokus-doc
+          output: web, pdf
+
+        - title: 3. Bez zakłóceń
+          url: /03-bez-zaklocen-doc
+          output: web, pdf
+
+        - title: 4. Treść powtarzalna
+          url: /04-tresc-powtarzalna-doc
+          output: web, pdf
+
+        - title: 5. Kontrolki użytkownika
+          url: /05-kontrolki-uzytkownika-doc
+          output: web, pdf
+
+        - title: 6. Obrazy
+          url: /06-obrazy-doc
+          output: web, pdf
+
+        - title: 7. Właściwości zmysłowe
+          url: /07-wlasciwosci-zmyslowe-doc
+          output: web, pdf
+
+        - title: 8. Kontrast
+          url: /08-kontrast-doc
+          output: web, pdf
+
+        - title: 9. Błyskanie
+          url: /09-blyskanie-doc
+          output: web, pdf
+
+        - title: 10. Formularze
+          url: /10-formularze-doc
+          output: web, pdf
+
+        - title: 11. Tytuły dokumentów
+          url: /11-tytuly-doc
+          output: web, pdf
+
+        - title: 12. Tabele
+          url: /12-tabele-doc
+          output: web, pdf
+
+        - title: 13. Struktura treści
+          url: /13-struktura-tresci-doc
+          output: web, pdf
+
+        - title: 14. Łącza
+          url: /14-lacza-doc
+          output: web, pdf
+
+        - title: 15. Język
+          url: /15-jezyk-doc
+          output: web, pdf
+
+        - title: 16. Tylko audio i tylko wideo
+          url: /16-tylko-audio-tylko-wideo-doc
+          output: web, pdf
+
+        - title: 17. Media zsynchronizowane
+          url: /17-media-zsynchronizowane-doc
+          output: web, pdf
+
+        - title: 18. Zależność od CSS
+          url: /18-znaczaca-kolejnosc-doc
+          output: web, pdf
+
+        - title: 19. Ramki
+          url: /19-ramki-doc
+          output: web, pdf
+
+        - title: 20. Zgodna wersja alternatywna
+          url: /20-wersje-alternatywne-doc
+          output: web, pdf
+
+        - title: 21. Zdarzenia czasowe
+          url: /21-zdarzenia-czasowe-doc
+          output: web, pdf
+
+        - title: 22. Zmiana rozmiaru tekstu
+          url: /22-zmiana-rozmiaru-tekstu-doc
+          output: web, pdf
+
+        - title: 23. Wiele dróg
+          url: /23-wiele-drog-doc
+          output: web, pdf
+
+        - title: 24. Parsowanie
+          url: /24-parsowanie-doc
+          output: web, pdf
 
   - title: Zaufany Tester
     output: web, pdf

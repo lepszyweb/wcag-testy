@@ -25,7 +25,7 @@ Identyfikator testu podstawowego: _15.A-LanguagePage_
 Strony z tekstem (w tym z tekstem alternatywnym).
 
 ### Instrukcja testowania
-1.  Określ domyślny język użytkownika strony, przeglądając treść strony strony. Domyślnym jest język, w którym prezentowana jest większość treści.
+1.  Określ domyślny język użytkownika strony, przeglądając treść strony. Domyślnym jest język, w którym prezentowana jest większość treści.
 2.  Sprawdź, czy w znaczniku `<html>` strony zdefiniowany jest atrybut `lang`. [KS 3.1.1]
 3.  Sprawdź, czy wartość atrybutu `lang` odpowiada określonemu domyślnemu naturalnemu językowi strony. [KS 3.1.1]
     1.  Podznacznik języka podstawowego jest pierwszym 2- lub 3-znakowym kodem w wartości atrybutu *lang*. (Nie sprawdzaj dodatkowych specyfikacji języka, które mogą występować po podznaczniku języka podstawowego).

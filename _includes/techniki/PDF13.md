@@ -1,0 +1,1 @@
+[PDF13: Zapewnianie tekstu zastępczego za pomocą wpisu /Alt dla łączy w dokumentach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF13)

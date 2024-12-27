@@ -1,0 +1,1 @@
+[PDF15: Zapewnianie przycisków Wyślij w przesyłanych formularzach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF15)

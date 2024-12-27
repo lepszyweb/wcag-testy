@@ -1,0 +1,1 @@
+[PDF14: Zapewnianie nagłówków i stopek w dokumentach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF14)

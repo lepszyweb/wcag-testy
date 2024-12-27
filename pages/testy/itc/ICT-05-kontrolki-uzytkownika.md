@@ -51,7 +51,7 @@ Znajdź kontrolki użytkownika dla każdej odrębnej funkcji, które mają jawny
 Przykładami są formularze, łącza i przełączniki.
 
 ### Instrukcja testowania
-1.	Sprawdź, czy rola kontrolki użytkownika jest poprawna i odpowiednia do jego funkcji. 
+1.	Sprawdź, czy rola kontrolki użytkownika jest poprawna i odpowiednia do jej funkcji. 
 
 ### Wynik testów
 Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _5.B-ControlRole_ kończy się niepowodzeniem.
@@ -79,7 +79,7 @@ Znajdź kontrolki użytkownika, których wartość użytkownik może zmienić.  
 
 ### Instrukcja testowania
 1.	Sprawdź, czy wartość kontrolki użytkownika jest poprawna.
-2.	Sprawdź, czy wartość kontrolki może być zmieniana. W zależności od formantu, zmiana wartości może być wykonana poprzez wprowadzenie liczby, wybór z listy opcji itp.
+2.	Sprawdź, czy wartość kontrolki może być zmieniana. W zależności od kontrolki, zmiana wartości może być wykonana poprzez wprowadzenie liczby, wybór z listy opcji itp.
 3.	Sprawdź, czy wartość kontrolki użytkownika jest poprawna po zmianie wartości zainicjowanej przez użytkownika.
 
 ### Wynik testów

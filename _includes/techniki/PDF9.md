@@ -1,1 +1,1 @@
-[PDF9: Zapewnianie nagłówków poprzez oznaczanie zawartości znacznikami nagłówków w dokumentach PDF](https://www.w3.org/WAI/WCAG21/Techniques/pdf/PDF9.html)
+[PDF9: Zapewnianie nagłówków poprzez oznaczanie treści znacznikami nagłówków w dokumentach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF9)

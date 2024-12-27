@@ -1,0 +1,1 @@
+[PDF16: Ustawienie domyślnego języka za pomocą wpisu /Lang w katalogu dokumentów dokumentu PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF16)

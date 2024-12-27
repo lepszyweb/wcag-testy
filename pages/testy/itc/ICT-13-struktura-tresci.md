@@ -71,7 +71,7 @@ Nagłówki [określone programowo](https://www.w3.org/TR/WCAG21/#dfn-programmati
 Jeżeli powyższy testzakończy się niepowodzeniem, wówczas test podstawowy _13.C-ProgHeadingVisual_ kończy się niepowodzeniem.
 
 
-## 13.D Procedura badawcza dla wykazów widocznych wizualnie
+## 13.D Procedura testowa dla wykazów widocznych wizualnie
 Identyfikator testu podstawowego: _13.D-List_
 
 ### Identyfikacja treści

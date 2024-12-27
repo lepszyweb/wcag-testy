@@ -1,0 +1,1 @@
+[PDF18: Określanie tytułu dokumentu przy użyciu wpisu Tytuł w słowniku informacji o dokumencie we właściwościach dokumentu PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF18)

@@ -1,0 +1,1 @@
+[PDF20: Użycie edytora tabel Adobe Acrobat Pro do naprawiania tabel z błędami](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF20)

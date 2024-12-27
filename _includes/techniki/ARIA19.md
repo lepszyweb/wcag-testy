@@ -1,1 +1,1 @@
-[ARIA19: Używanie atrybutu role=alert lub role=live do identyfikacji błędów](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA19.html) 
+[ARIA19: Użycie atrybutu role=alert lub role=live do identyfikacji błędów](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA19.html) 

@@ -1,0 +1,1 @@
+[PDF22: Wskazywanie, kiedy dane wprowadzone przez użytkownika nie mieszczą się w wymaganym formacie lub wartościach w formularzach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF22)

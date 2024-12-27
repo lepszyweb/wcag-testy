@@ -1,0 +1,1 @@
+[PDF19: Określanie języka fragmentu lub frazy za pomocą wpisu Lang w dokumentach PDF](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF19)
