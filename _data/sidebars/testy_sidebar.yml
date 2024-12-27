@@ -403,7 +403,7 @@ entries:
           url: /17-media-zsynchronizowane-doc
           output: web, pdf
 
-        - title: 18. Zależność od CSS
+        - title: 18. Znacząca treść i kolejność
           url: /18-znaczaca-kolejnosc-doc
           output: web, pdf
 
