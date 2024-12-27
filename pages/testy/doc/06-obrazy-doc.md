@@ -115,7 +115,7 @@ brak
 ## Techniki WCAG 2.2
 Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
 
-- {% include techniki/C95.md %}
+- {% include techniki/C9.md %}
 - {% include techniki/G143.md %}
 - {% include techniki/G144.md %}
 - {% include techniki/H36.md %}
