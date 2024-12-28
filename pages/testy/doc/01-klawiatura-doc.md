@@ -33,10 +33,6 @@ Identyfikator testu bazowego: *1.A-KeyboardAccess*
 
 ### Identyfikacja treści
 
-<p id="d1aIC">All functionality of the content that is available by mouse control must be keyboard accessible. Determine the functionality of visible and hidden interactive document components (links, form fields, drop down menus, show/hide content, tree views, pop ups, etc.) available using a mouse (hover and/or click).</p>
-
-Identyfikator testu bazowego: *1.A-KeyboardAccess*
-
 ### Identyfikacja treści
 <p id="d1aIC">Wszystkie funkcje treści, które są dostępne za pomocą myszy, muszą być dostępne za pomocą klawiatury. Określ funkcjonalność widocznych i ukrytych interaktywnych komponentów dokumentu (np. łącza, pola formularzy, menu rozwijane, odsłanianie/ukrywanie treści, widoki drzewa, wyskakujące okienka itp.) dostępnych za pomocą myszy (najechanie kursorem i/lub kliknięcie).</p>
 

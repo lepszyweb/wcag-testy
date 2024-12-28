@@ -21,7 +21,7 @@ folder: testy/doc
 
 ## Ograniczenia, założenia lub wyjątki
 
--   Dokument, w którym znajduje się tylko jeden nagłówek, nie ma struktury na poziomie nagłówków i nie może być testowana pod kątem struktury nagłówków.
+-   Dokument, w którym znajduje się tylko jeden nagłówek, nie ma struktury na poziomie nagłówków i nie może być testowany pod kątem struktury nagłówków.
 -   Dokument może mieć więcej niż jeden nagłówek poziomu 1 lub nie mieć nagłówka poziomu 1.
 -   Nagłówek poziomu 1 w dokumencie nie musi być zgodny z tytułem dokumentu.
 -   Kolejność poziomów nagłówków nie zawsze może być zgodna z porządkiem liczenia, a mimo to będzie prawidłowa, ponieważ odnosi się do struktury wizualnej/ważkości podanej za pomocą widocznych nagłówków na stronie. Na przykład nagłówek poziomu 2 może być zastosowany dla oznaczenia struktury nawigacyjnej, która poprzedza tytuł nagłówka poziomu 1 w dokumencie. Podobnie, po nagłówku poziomu 1 może następować nagłówek poziomu 3 bez nagłówka poziomu 2 między nimi.
@@ -38,7 +38,7 @@ Identyfikator testu podstawowego: _13.A-HeadingDescriptive_
 1.  Sprawdź, czy każdy nagłówek opisuje temat lub cel następującej po nim treści. [KS 2.4.6]
 
 ### Wynik testów
-<p id="d13aTR">Jeśli powyższy test zakończy się niepowodzeniem, test podstawowy  _13.A-HeadingDescriptive_ również kończy się niepowodzeniem.</p>
+<p id="d13aTR">Jeśli powyższy test zakończy się niepowodzeniem, test podstawowy  <em>13.A-HeadingDescriptive</em> również kończy się niepowodzeniem.</p>
 
 ## 13.B Procedura testowa dla programowych nagłówków wizualnych
 Identyfikator testu podstawowego: _13.B-VisHeadingProg_
@@ -49,7 +49,7 @@ Identyfikator testu podstawowego: _13.B-VisHeadingProg_
 Wizualnie widoczne nagłówki, które oznaczają sekcje treści. Nagłówki są często pisane większą, pogrubioną czcionką, oddzieloną od akapitów dodatkowymi odstępami (choć nie zawsze). Zwróć uwagę na hierarchię i strukturę każdego nagłówka w odniesieniu do innych nagłówków na stronie.
 
 ### Instrukcja testowania
-1.	Sprawdź, czy wszystkie nagłówki wizualne są określane programowo i czy programowe poziomy nagłówków logicznie pasują do wizualnej prezentacji nagłówka w strukturze nagłówka [SC 1.3.1]:
+1.	Sprawdź, czy wszystkie nagłówki wizualne są określane programowo i czy programowe poziomy nagłówków logicznie pasują do wizualnej prezentacji nagłówka w strukturze nagłówka [KS 1.3.1]:
 
 1.  Sprawdź, czy wszystkie wizualne nagłówki są [możliwe do odczytania przez program komputerowy](https://www.w3.org/TR/WCAG21/#dfn-programmatically-determinable) i czy programowe poziomy nagłówków logicznie pasują do wizualnej prezentacji nagłówka w strukturze nagłówka:
     -  Ważniejsze działy powinny mieć wyższy priorytet poziomu nagłówka. Na przykład, nagłówek poziomu 1 jest poziomem wyższym niż nagłówek poziomu 2, który jest wyższy niż nagłówek poziomu 3.
@@ -57,7 +57,7 @@ Wizualnie widoczne nagłówki, które oznaczają sekcje treści. Nagłówki są 
 
 ### Wynik testów
 
-<p id="d13bTR">Jeśli powyższy test zakończy się niepowodzeniem, test podstawowy _13.B-VisHeadingProg_ również  kończy się niepowodzeniem.</p>
+<p id="d13bTR">Jeśli powyższy test zakończy się niepowodzeniem, test podstawowy <em>13.B-VisHeadingProg</em> również  kończy się niepowodzeniem.</p>
 
 
 ## 13.C Procedura testowa dla nagłówków określonych programowo
@@ -67,10 +67,10 @@ Identyfikator testu podstawowego: _13.C-ProgHeadingVisual_
 Programowo określane nagłówki: od nagłówka poziomu 1 do nagłówka poziomu 6.
 
 ### Instrukcja testowania
-1.  Sprawdź, czy każdy każdy programowo określany nagłówek służy również jako wizualny nagłówek na stronie. Treść, która nie jest nagłówkiem wizualnym, nie powinna być oznakowana jako nagłówek (na przykład znacznika nagłówka nie należy używać do wyróżniania elementu, który nie jest tytułem dla następującej po nim treści). [KS 1.3.1]
+1.  Sprawdź, czy każdy programowo określany nagłówek służy również jako wizualny nagłówek na stronie. Treść, która nie jest nagłówkiem wizualnym, nie powinna być oznakowana jako nagłówek (na przykład znacznika nagłówka nie należy używać do wyróżniania elementu, który nie jest tytułem dla następującej po nim treści). [KS 1.3.1]
 
 ### Wynik testów
-<p id="d13cTR">Jeżeli powyższy testzakończy się niepowodzeniem, wówczas test podstawowy _13.C-ProgHeadingVisual_ kończy się niepowodzeniem.</p>
+<p id="d13cTR">Jeżeli powyższy testzakończy się niepowodzeniem, wówczas test podstawowy <em>13.C-ProgHeadingVisual</em> kończy się niepowodzeniem.</p>
 
 ## 13.D Procedura testowa dla wykazów widocznych wizualnie
 Identyfikator testu podstawowego: _13.D-List_
@@ -88,7 +88,7 @@ Widoczne wizualnie listy, które są wyświetlane jako grupa elementów, zwykle 
 
 
 ### Wynik testów
-<p id="d13dTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _13.D-List_ również kończy się niepowodzeniem.</p>
+<p id="d13dTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>13.D-List</em> również kończy się niepowodzeniem.</p>
 
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
