@@ -25,29 +25,29 @@ W tej sekcji przedstawiono [wymagania sekcji 508](https://www.access-board.gov/i
 
 #### E205.2 Treść publiczna
 
-Treści elektroniczne skierowane do ogółu społeczeństwa muszą być zgodne z wymogami dostępności określonymi w [E205.4](#e205.4-accessibility-standard).
+Treści elektroniczne skierowane do ogółu społeczeństwa muszą spełniać wymogi dostępności określone w [E205.4](#e205.4-accessibility-standard).
 
 #### E205.3 Oficjalna komunikacja agencji
 
-Treści elektroniczne, które nie są publicznie dostępne, są zgodne z wymogami dostępności określonymi w [E205.4](#e205.4-accessibility-standard), gdy takie treści stanowią oficjalną działalność i są przekazywane przez agencję za pośrednictwem co najmniej jednego z poniższych::
+Treści elektroniczne, które nie są skierowane do ogółu społeczeństwa, muszą być zgodne z wymogami dostępności określonymi w [E205.4](#e205.4-accessibility-standard), jeśli takie treści stanowią treść urzędową i są przekazywane przez agencję za pośrednictwem jednego lub kilku z następujących kanałów:
 
 <ol type="A">
     <li>Powiadomienie alarmowe</li>
     <li>Wstępna lub ostateczna decyzja rozstrzygająca roszczenie lub postępowanie administracyjne.</li>
-    <li>Wewnętrzne lub zewnętrzne ogłoszenie programu lub polityki.</li>
-    <li>Powiadomienie o korzyściach, uprawnieniach do programu, możliwościach zatrudnienia lub działaniach personalnych.</li>
+    <li>Ogłoszenia dotyczące programu lub polityki wewnętrznej lub zewnętrznej.</li>
+    <li>Powiadomienia o świadczeniach, kwalifikowalności do programu, możliwościach zatrudnienia lub działaniach personalnych.</li>
     <li>Formalne potwierdzenie odbioru.</li>
-    <li>Kwestionariusz ankiety.</li>
-    <li>Szablon lub formularz.</li>
+    <li>Kwestionariusze ankiety.</li>
+    <li>Szablony lub formularze.</li>
     <li>Materiały edukacyjne lub szkoleniowe; lub</li>
-    <li>Zawartość intranetowa zaprojektowana jako strona internetowa.</li>
+    <li>Zawartość intranetu zaprojektowana w formie strony internetowej.</li>
 </ol>
 
 #### E205.4 Standard dostępności
 
-Treść elektroniczna powinna być zgodna z kryteriami sukcesu i wymaganiami zgodności na poziomie A i AA w WCAG 2.2 (włączone przez odniesienie, [patrz 702.10.1](https://www.access-board.gov/ict/#702.10.1)).
+Treści elektroniczne muszą być zgodne z kryteriami sukcesu poziomu A i AA oraz wymogami zgodności określonymi w WCAG 2.2 (włączone przez odniesienie, [patrz 702.10.1](https://www.access-board.gov/ict/#702.10.1)).
 
-**WYJĄTEK:**Dokumenty niebędące stronami internetowymi nie muszą być zgodne z następującymi czterema kryteriami sukcesu WCAG 2.2:
+**WYJĄTEK:** Dokumenty niebędące stronami internetowymi nie muszą być zgodne z następującymi czterema kryteriami sukcesu WCAG 2.2:
 
 -   2.4.1 Możliwość pomijania bloków
 -   2.4.5 Wiele dróg
@@ -55,7 +55,6 @@ Treść elektroniczna powinna być zgodna z kryteriami sukcesu i wymaganiami zgo
 -   3.2.4 Spójna identyfikacja.
 
 ##### E205.4.1 Zastępowanie słów przy stosowaniu WCAG do dokumentów niebędących dokumentami internetowymi
-
 
 W przypadku dokumentów niebędących dokumentami internetowymi, wszędzie tam, gdzie w kryteriach sukcesu i wymaganiach zgodności WCAG 2.2 poziomu A i AA pojawia się termin „strona internetowa” lub „strona”, terminy te zastępuje się terminem „dokument”. Ponadto w Kryterium sukcesu w punkcie 1.4.2 wyrażenie „na danej stronie” zastępuje się wyrażeniem „w dokumencie”.
 
