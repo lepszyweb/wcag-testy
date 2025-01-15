@@ -1,6 +1,6 @@
 ---
 title: 2. Fokus (dokumenty)
-last_updated: 26 grudnia 2024
+last_updated: 15 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 02-fokus-doc
@@ -50,7 +50,7 @@ Identyfikator testu bazowego: *2.A-FocusVisible*
 </ol>
 
 ### Wynik testów
-<p id="d2aTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test podstawowy  *2.A-FocusVisible* kończy się niepowodzeniem.</p>
+<p id="d2aTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test podstawowy  <em>2.A-FocusVisible</em> kończy się niepowodzeniem.</p>
 
 
 ## 2.B Procedura testowa kolejności fokusu
@@ -69,7 +69,7 @@ Identyfikator testu podstawowego: *2.B-FocusOrder*
 2.  Sprawdź, czy kolejność ustawiania fokusu zachowuje znaczenie i użyteczność dokumentu. [KS 2.4.3]
 
 ### Wynik testów
-<p id="d2bTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test podstawowy *2.B-FocusOrder* kończy się niepowodzeniem.</p>
+<p id="d2bTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test podstawowy <em>2.B-FocusOrder</em> kończy się niepowodzeniem.</p>
 
 ## 2.C Procedura testowania Po otrzymaniu fokusu
 Identyfikator testu podstawowego: *2.C-OnFocus*
@@ -86,12 +86,12 @@ Identyfikator testu podstawowego: *2.C-OnFocus*
     -   Przeniesienie fokusu na inny komponent interfejsu.
 
 ### Wynik testów
-<p id="d2cTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy *2.C-OnFocus* kończy się niepowodzeniem.</p>
+<p id="d2cTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>2.C-OnFocus</em> kończy się niepowodzeniem.</p>
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 
 -   Wyrazistość widocznego fokusu jest subiektywna, a minimalnym poziomem jest domyślne ustawienie  aplikacji (lub platformy systemu operacyjnego) do wskazywania fokusu. Aplikacje mogą również inaczej przedstawiać fokus w określonych sytuacjach.
--   Ten test można przeprowadzić równocześnie z testem [1. Dostęp z klawiatury](testy/ICT_01_klawiatura-dokumenty.md).
+-   Ten test można przeprowadzić równocześnie z testem [1. Dostęp z klawiatury](testy/01-klawiatura-doc.md).
 -   Podczas testowania nie powinny być włączone żadne modyfikacje fokusu w środowisku testowym. Niektóre narzędzia testowe dodają widoczny kontur wokół elementów, które otrzymują fokus. Chociaż narzędzia testujące mogą pomóc testerom w śledzeniu fokusu, żadne wskaźniki dostarczone przez narzędzie testujące nie powinny być używane jako wskaźniki widoczności fokusu potwierdzające spełnienia tego wymagania.
 -   Biorąc pod uwagę zmienność sposobu, w jaki aplikacje mogą prezentować fokus w określonych sytuacjach, raporty z testów powinny zawierać szczegółowe informacje o środowisku testowym, w tym o aplikacji i jej wersji.
 -   Kolejność tabulacji, która początkowo wydaje się nielogiczna, może nadal spełniać to wymaganie ze względu na logikę biznesową specyficzną dla danej aplikacji.

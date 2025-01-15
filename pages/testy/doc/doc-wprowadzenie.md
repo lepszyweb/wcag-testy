@@ -1,6 +1,6 @@
 ---
 title: "Podstawa testowania TIK dla dokumentów elektronicznych"
-last_updated: 15 stycznia 2024
+last_updated: 15 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: doc-wprowadzenie

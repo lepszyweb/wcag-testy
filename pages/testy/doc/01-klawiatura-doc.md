@@ -1,6 +1,6 @@
 ---
 title: "1. Dostęp z klawiatury (Dokumenty)"
-last_updated: 26 grudnia 2024
+last_updated: 15 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 01-klawiatura-doc
@@ -16,7 +16,7 @@ folder: testy/doc
 
 ## Uzasadnienie metody testowej
 
-To wymaganie opiera się na użyciu klawiatury w celu sprawdzenia dostępu i możliwości sterowania wykonaniem wszystkich funkcji treści w pierwszej kolejności poprzez sprawdzenie użycia standardowych poleceń klawiaturowych (TAB, Spacja, Enter, Escape, itp.). Jeśli w dokumencie użyto niestandardowych poleceń klawiaturowych, musi on wyraźnie udokumentować te polecenia i uświadomić użytkownikom, że polecenia te istnieją.
+To wymaganie opiera się na użyciu klawiatury w celu sprawdzenia dostępu i możliwości sterowania wykonaniem wszystkich funkcji treści w pierwszej kolejności poprzez sprawdzenie użycia standardowych poleceń klawiaturowych (<kbd>TAB</kbd>, <kbd>Spacja</kbd>, <kbd>Enter</kbd>, <kbd>Escape</kbd>, itp.). Jeśli w dokumencie użyto niestandardowych poleceń klawiaturowych, musi on wyraźnie udokumentować te polecenia i uświadomić użytkownikom, że polecenia te istnieją.
 
 Dostęp i sterowanie za pomocą klawiatury obejmuje możliwość przechodzenia DO **oraz** Z treści interaktywnych przy użyciu  samej klawiatury.
 
