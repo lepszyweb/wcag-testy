@@ -25,7 +25,7 @@ W tej części przedstawiono [wymagania Sekcji 508](https://www.access-board.gov
 
 #### E205.2 Treść publiczna
 
-Treści elektroniczne skierowane do ogółu społeczeństwa muszą spełniać wymogi dostępności określone w [E205.4](#e205.4-accessibility-standard).
+Treści elektroniczne skierowane do ogółu społeczeństwa muszą spełniać wymogi dostępności określone w [E205.4](#e2054-standard-dostępności).
 
 #### E205.3 Oficjalna komunikacja agencji
 
