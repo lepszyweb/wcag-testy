@@ -1,13 +1,11 @@
 ---
 title: 10. Formularze (dokumenty)
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 10-formularze-doc
 folder: testy/doc
 ---
-
-# 10. Formularze
 
 ## Wymagania dostępności
 - {% include ks/1-1-1.md %}
@@ -31,8 +29,8 @@ Zapoznaj się z instrukcjami dotyczącymi formularza pod kątem kompletności i 
 -   [Zmiana kontekstu](https://wcag.irdpl.pl/understanding/po-otrzymaniu-fokusu.html#dfn-zmiana-kontekstu) została zdefiniowana na stronie [Objaśnienie KS 3.2.1: Po oznaczeniu fokusem](https://wcag.irdpl.pl/understanding/po-otrzymaniu-fokusu.html#dfn-zmiana-kontekstu) jako: poważna zmiana treści \[strony internetowej\], która, jeśli zostanie dokonana bez świadomości użytkowników, może dezorientować osoby, które nie są w stanie jednocześnie wyświetlić całej strony. Zmiany kontekstu obejmują zmiany:
     1.  W programie użytkownika (przeglądarce, itp.)
     2.  okno ekranu
-    3.  Fokusu
-    4.  Treści, która zmienia znaczenie dokumentu.
+    3.  fokusu
+    4.  treści, która zmienia znaczenie dokumentu.
     -   **Uwaga:** Zmiana treści nie zawsze oznacza zmianę kontekstu. Zmiany nie zawsze oznacza zmianę kontekstu. Zmiany treści, na przykład rozwinięcie drzewa, dynamicznego menu lub karty niekoniecznie zmieniają kontekst, dopóki nie zmienią jednego z powyższych (np. fokusu).
     -   **Przykłady**: Otwarcie nowego okna, przeniesienie fokusu na inny obiekt, przejście do innego dokumentu (w tym wszystko, co dla użytkownika może wyglądać tak, jakby przeszedł do innego dokumentu) lub przekształcenie wyglądu dokumentu.
 -   Zgodnie z [Objaśnieniem KS 3.3.2: Etykiety lub instrukcje](https://wcag.irdpl.pl/understanding/podczas-wprowadzania-danych.html), to kryterium sukcesu nie ma zastosowania do łączy lub innych kontrolek (takich jak widżet rozwijania/zwijania lub podobne komponenty interaktywne), które nie są powiązane z wprowadzaniem danych.
@@ -47,11 +45,11 @@ Identyfikator testu podstawowego: _10.A-FormName_
 
 ### Instrukcja testowania
 1.  Sprawdź, czy kombinacja [dostępnej nazwy i dostępnego opisu](https://lepszyweb.pl/blog2/dostepne-nazwy-i-dostepne-opisy) nie jest pusta. [KS 4.1.2]
-2.	Sprawdź, czy niepusta kombinacja dostępnej nazwy i dostępnego opisu opisuje cel formularza. [KS 4.1.2] [Komponenty formularza zawierające treść inną niż tekst powinny być również mapowane na KS 1.1.1]. 
+2.	Sprawdź, czy niepusta kombinacja dostępnej nazwy i dostępnego opisu opisuje cel formularza. [KS 4.1.2]. (Komponenty formularza zawierające treść inną niż tekst powinny być również mapowane na KS 1.1.1). 
 3.	Sprawdź, czy wszystkie istotne instrukcje i wskazówki (tekstowe i graficzne) są powiązanie programowe (np. powiązania nagłówków kolumn i/lub wierszy tabeli) ze składnikiem formularza. [KS 1.3.1]
 
 ### Wynik testów
-<p id="d10aTR">Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _10.A-FormName_ również kończy się niepowodzeniem.</p>
+<p id="d10aTR">Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>10.A-FormName</em> również kończy się niepowodzeniem.</p>
 
 ## 10.B Procedura testowania opisowości etykiet
 Identyfikator testu podstawowego: _10.B-FormDescriptiveLabel_
@@ -66,7 +64,7 @@ Identyfikator testu podstawowego: _10.B-FormDescriptiveLabel_
 </ol>
 
 ### Wynik testów
-<p id="d10bTR">Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy 10.B-FormDescriptiveLabel również kończy się niepowodzeniem.</p>
+<p id="d10bTR">Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>10.B-FormDescriptiveLabel</em> również kończy się niepowodzeniem.</p>
 
 ## 10.C Procedura testowania wprowadzania danych
 Identyfikator testu podstawowego: _10.C-OnInput_
@@ -84,7 +82,7 @@ Identyfikator testu podstawowego: _10.C-OnInput_
     -   Przeniesienie fokusu na inny komponent interfejsu po zaznaczeniu elementu na liście wyboru
 	
 ### Wynik testów
-<p id="d10cTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _10.C-OnInput_ również kończy się niepowodzeniem.</p>
+<p id="d10cTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>10.C-OnInput</em> również kończy się niepowodzeniem.</p>
 
 ## 10.D Procedura testowania identyfikacji błędów
 Identyfikator testu podstawowego: _10.D-ErrorIdentification_
@@ -104,7 +102,7 @@ Identyfikator testu podstawowego: _10.D-ErrorIdentification_
     -   element, w którym występuje błąd, jest oznaczony tekstem.
 
 ### Wynik testów
-<p id="d10dTR">Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test podstawowy _10.D-ErrorIdentification_ również kończy się niepowodzeniem.</p>
+<p id="d10dTR">Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test podstawowy <em>10.D-ErrorIdentification</em> również kończy się niepowodzeniem.</p>
 
 ## 10.E Procedura testowania widoczności etykiet i instrukcji
 Identyfikator testu podstawowego: _10.E-FormHasLabel_
@@ -118,7 +116,7 @@ Identyfikator testu podstawowego: _10.E-FormHasLabel_
 1.	Sprawdź, czy każdy komponent formularza zbierający dane ma widoczne etykiety lub instrukcje, gdy otrzymuje fokus. [KS 3.3.2]
 
 ### Wynik testów
-<p id="d10eTR">Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _10.E-FormHasLabel_ również kończy się niepowodzeniem</p>
+<p id="d10eTR">Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>10.E-FormHasLabel</em> również kończy się niepowodzeniem</p>
 
 ## 10.F Procedura testowania sugestii korekty błędów
 Identyfikator testu podstawowego: _10.F-ErrorSuggestion_
@@ -136,7 +134,7 @@ Identyfikator testu podstawowego: _10.F-ErrorSuggestion_
 3.	Sprawdź, czy podano dodatkowe wskazówki, jak poprawić błędy w polach formularza, które nie zagroziłyby bezpieczeństwu ani przeznaczeniu treści (np. przykłady poprawnych danych, wskazówki, jak poprawić dane wprowadzone przez użytkownika). [KS 3.3.3]
 
 ### Wynik testów
-<p id="d10fTR">Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _10.F-ErrorSuggestion_ również kończy się niepowodzeniem.</p>
+<p id="d10fTR">Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>10.F-ErrorSuggestion</em> również kończy się niepowodzeniem.</p>
 
 ## 10.G Procedura testowania zapobiegania błędom (prawnym, finansowym, w danych)
 Identyfikator testu podstawowego: _10.G-ErrorPrevention_
@@ -152,7 +150,7 @@ Identyfikator testu podstawowego: _10.G-ErrorPrevention_
     c.  **Potwierdzenie**: Istnieje mechanizm sprawdzania, potwierdzania i korygowania informacji przed jej ostatecznym wysłaniem.
 
 ### Wynik testów
-<p id="d10gTR">Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _10.G-ErrorPrevention_ również kończy się niepowodzeniem.</p>
+<p id="d10gTR">Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>10.G-ErrorPrevention</em> również kończy się niepowodzeniem.</p>
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesów testowych
 -   W przypadku KS 3.3.1 dopuszczalne techniki obejmują: (a) przeniesienie fokusu na komunikat o błędzie informujący użytkownika, że ​​poprzednie pole wymaga korekty i opisujące błąd, (b) odświeżenie strony po przesłaniu formularza i wyświetlenie na górze strony opisów i lokalizacji błędów. **Uwaga**: Ponowne wyświetlenie formularza i wskazanie pól zawierających błędy w formularzu nie jest wystarczające, aby spełnić ten wymóg. Użytkownik nie powinien być zmuszony do przeszukiwania formularza, aby znaleźć miejsca, w których popełniono błędy.
