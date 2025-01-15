@@ -7,8 +7,6 @@ permalink: 03-bez-zaklocen-doc
 folder: testy/doc
 ---
 
-# 3. Bez zakłóceń
-
 ## Wymagania dostępności
 
 -   [5.2 Wymagania zgodności: Bez zakłóceń](https://wcag.irdpl.pl/guidelines/22/#cc5) - Poniższe kryteria sukcesu dotyczą wszystkich treści na stronie, włącznie z treściami, które w&nbsp;innych przypadkach nie są podstawą spełnienia wymogów zgodności, ponieważ ich niespełnienie może zakłócać korzystanie ze strony:

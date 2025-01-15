@@ -7,8 +7,6 @@ permalink: 02-fokus-doc
 folder: testy/doc
 ---
 
-## 2. Fokus
-
 ## Wymagania dostępności
 - {% include ks/2-4-3.md %}  
 - {% include ks/2-4-7.md %}

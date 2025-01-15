@@ -1,6 +1,6 @@
 ---
 title: 5. Kontrolki użytkownika (dokumenty)
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 05-kontrolki-uzytkownika-doc
@@ -20,7 +20,8 @@ Celem tego testu podstawowego jest sprawdzenie, czy w przypadku kontrolek użytk
 - Wartość
 
 ## Ograniczenia, założenia lub wyjątki
-- [Komponent interfejsu użytkownika] to część treści, która jest postrzegana przez użytkowników jako pojedynczy element sterowania konkretną funkcją. Komponentami interfejsu użytkownika są elementy formularzy i łącza, a także komponenty generowane przez skrypty. W tym teście dla zwięzłości użyto terminu „kontrolki użytkownika”.
+- [Komponent interfejsu użytkownika](https://www.w3.org/Translations/WCAG21-pl/#dfn-komponentu-interfejsu-uzytkownika) to
+fragment treści internetowej postrzegany przez użytkownika jako pojedynczy element sterowania konkretną funkcją. Komponentami interfejsu użytkownika są elementy formularzy i łącza, a także komponenty generowane przez skrypty. W tym teście dla zwięzłości użyto terminu „kontrolka użytkownika”.
 - Cechy dostępności kontrolki użytkownika muszą być poprawne, jeśli kontrolka użytkownika ulegnie zmianie.
 - Zgodnie z [Objaśnieniem WCAG KS 1.4.1 Użycie koloru](https://wcag.irdpl.pl/understanding/uzycie-koloru.html) autorzy nie mogą ustawiać stanu odwiedzonych łączy. Element kotwicy nie zawiera atrybutu „odwiedzony”; dlatego autor nie ma możliwości zmiany stanu poprzez ustawienie atrybutu. Wyklucz stany łączy „odwiedzone/nieodwiedzone” z tego testu podstawowego.
 
@@ -29,21 +30,7 @@ Identyfikator testu podstawowego: *5.A-ControlName*
 
 ### Identyfikacja treści
 
-<p id="d5aIC">Rozpoznaj kontrolki użytkownika dla każdej odrębnej funkcji. Wyklucz formularze i łącza, ponieważ są one objęte odpowiednio testami podstawowymi [10. Formularze (dokumenty)](ICT-10-formularze-dokumenty.md) i testami podstawowymi [14. Łącza (dokumenty)](ICT-14-lacza-dokumenty.md).</p>
-
-#### Test Instructions
-
-<ol id="d5aTI">
-    <li id="d5aTI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
-    <li id="d5aTI-2">Check that the non-empty combination of the accessible name and accessible description describes the control's purpose. [SC 4.1.2]</li>
-    <li id="d5aTI-3">If the name of the user control changes on user interaction, repeat the previous test steps and check that the accessible name is correct after the change.
-        <ul>
-            <li>Depending on the control, a change of name may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
-            <li>Examples include entering a response in a form field for country changes the name of a button to "Save Changes", and selecting a control toggles its functionality from sorting ascending to descending.</li>
-        </ul>
-    </li>
-</ol>
-
+<p id="d5aIC">Rozpoznaj kontrolki użytkownika dla każdej odrębnej funkcji. Wyklucz formularze i łącza, ponieważ są one objęte odpowiednio testami podstawowymi [10. Formularze (dokumenty)](10-formularze-doc.md) i testami podstawowymi [14. Łącza (dokumenty)](14-lacza-doc.md).</p>
 
 ### Instrukcja testowania
 1.	Sprawdź, czy kombinacja dostępnej nazwy i dostępnego opisu nie jest pusta. [KS 4.1.2]
@@ -54,7 +41,7 @@ Identyfikator testu podstawowego: *5.A-ControlName*
 
 ### Wynik testów
 
-<p id="d5aTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _5.A-Nazwa-kontrolki_ kończy się niepowodzeniem.</p>
+<p id="d5aTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>5.A-ControlName</em> kończy się niepowodzeniem.</p>
 
 ## 5.B Procedura testowania roli kontrolki
 Identyfikator testu podstawowego: _5.B-ControlRole_
@@ -72,7 +59,7 @@ Przykładami są kontrolki formularzy, łącza i przełączniki.</p>
 
 ### Wynik testów
 
-<p id="d5bTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _5.B-ControlRole_ kończy się niepowodzeniem.</p>
+<p id="d5bTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>5.B-ControlRole</em> kończy się niepowodzeniem.</p>
 
 ## 5.C Procedura testowania stanu kontrolki
 Identyfikator testu Podstawowego: _5.C-ControlState_
@@ -89,7 +76,7 @@ Identyfikator testu Podstawowego: _5.C-ControlState_
 
 ### Wynik testów
 
-<p id="d5cTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _5.C-ControlState_ kończy się niepowodzeniem.</p>
+<p id="d5cTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>5.C-ControlState</em> kończy się niepowodzeniem.</p>
 
 ## 5.D Procedura testowania wartości kontrolki
 Identyfikator testu bazowego: _5.D-ControlValue_
@@ -104,13 +91,13 @@ Identyfikator testu bazowego: _5.D-ControlValue_
 3.	Sprawdź, czy wartość kontrolki użytkownika jest poprawna po zmianie wartości zainicjowanej przez użytkownika. [KS 4.1.2]
 
 ### Wynik testów
-<p id="d5dTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _5.D-ControlValue_ kończy się niepowodzeniem.</p>
+<p id="d5dTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>5.D-ControlValue</em> kończy się niepowodzeniem.</p>
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
--  Zmiany w kontrolkach mogą również obejmować zmiany koloru w celu przekazania informacji. Jeśli tak, ten test powinien sprawdzić, czy nazwa została zaktualizowana, aby odzwierciedlić znaczenie zmienionego koloru. Jeśli kolor zostanie użyty jako jedyny wizualny sposób przekazywania informacji (lub zmian informacji), wówczas treść nie spełnia wymagań KS 1.4.1 Użycie koloru (omówione w punkcie [7. Właściwości zmysłowe (dokumenty)](ICT_07_wlasciwosci-zmyslowe-dokumenty.md)).
-- Dostępna nazwa i dostępny opis niektórych kontrolek użytkownika są testowane w innych testach podstawowych, takich jak testy podstawowe [10. Formularze (dokumenty)](ICT-10-formularze-dokumenty.md), testy podstawowe [14. Łącza (dokumenty)](ICT-14-lacza-dokumenty.md).
+-  Zmiany w kontrolkach mogą również obejmować zmiany koloru w celu przekazania informacji. Jeśli tak, ten test powinien sprawdzić, czy nazwa została zaktualizowana, aby odzwierciedlić znaczenie zmienionego koloru. Jeśli kolor zostanie użyty jako jedyny wizualny sposób przekazywania informacji (lub zmian informacji), wówczas treść nie spełnia wymagań KS 1.4.1 Użycie koloru (omówione w punkcie [7. Właściwości zmysłowe (dokumenty)](07-wlasciwosci-zmyslowe-doc.md)).
+- Dostępna nazwa i dostępny opis niektórych kontrolek użytkownika są testowane w innych testach podstawowych, takich jak testy podstawowe [10. Formularze (dokumenty)](10-formularze-doc.md), testy podstawowe [14. Łącza (dokumenty)](14-lacza-doc.md).
 - W przypadku kontrolek użytkownika, które mają dedykowane testy podstawowe, zamapuj je na te testy dla dostępnej nazwy, a nie _5.A-ControlName_.
-- Ten test może wymagać interakcji z kontrolkami w celu oceny zmian w nazwie, roli, stanie, wartości. Pomocne mogą być instrukcje dotyczące interakcji, takie jak plan testów.
+- Ten test może wymagać interakcji z kontrolkami w celu oceny zmian w nazwie, roli, stanie, wartościach. Pomocne mogą być instrukcje dotyczące interakcji, takie jak plan testów.
 
 ## Techniki WCAG 2.2
 Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:

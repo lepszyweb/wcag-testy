@@ -7,8 +7,6 @@ permalink: 01-klawiatura-doc
 folder: testy/doc
 ---
 
-# 1. Dostęp z klawiatury
-
 ## Wymagania dostępności
 - {% include ks/2-1-1.md %}  
 - {% include ks/2-1-2.md %}  
