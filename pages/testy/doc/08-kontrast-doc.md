@@ -31,7 +31,7 @@ Ten test jest przeprowadzany w celu oceny równego dostępu do informacji dla ws
 Identyfikator testu podstawowego: _8.A-ContrastMinimum_
 
 ### Identyfikacja treści
-<p id="d8aIC">Cały widoczny tekst **ORAZ** obrazy tekstu (z wyjątkiem wymienionych w sekcji Ograniczenia, założenia lub wyjątki powyżej).</p>
+<p id="d8aIC">Cały widoczny tekst <b>ORAZ</b> obrazy tekstu (z wyjątkiem wymienionych w sekcji Ograniczenia, założenia lub wyjątki powyżej).</p>
 
 
 ### Instrukcja testowania
@@ -43,13 +43,13 @@ Identyfikator testu podstawowego: _8.A-ContrastMinimum_
 
 ### Wynik testów
 
-<p id="d8aTR">Jeśli oba powyższe testy zakończą się niepowodzeniem, test podstawowy _8.A-ContrastMinimum_ kończy się niepowodzeniem.</p>
+<p id="d8aTR">Jeśli oba powyższe testy zakończą się niepowodzeniem, test podstawowy <em>8.A-ContrastMinimum</em> kończy się niepowodzeniem.</p>
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 
--   Istnieje wiele narzędzi do badania kontrastu kolorów, które mogą wykonać algorytmy niezbędne do określenia kontrastu. [Zobacz wystraczającą technikę G18](https://www.w3.org/TR/WCAG20-TECHS/G18.html), aby uzyskać informacje na temat możliwych narzędzi testujących, które wykorzystują odpowiedni algorytm.
+-   Istnieje wiele narzędzi do badania kontrastu kolorów, które mogą wykonać algorytmy niezbędne do określenia kontrastu. [Zobacz technikę wystarczającą G18](https://www.w3.org/TR/WCAG20-TECHS/G18.html), aby uzyskać informacje na temat możliwych narzędzi testujących, które wykorzystują odpowiedni algorytm.
 -   Używaj narzędzi oceny kontrastu, które nie zaokrąglają wartości. Stosunek 4,499:1 nie spełniłby progu 4,5:1.
--   [WCAG 2.2 - Objaśnienie KS 1.4.3. Kontrast (minimum)](https://wcag.irdpl.pl/understanding/kontrast-minimum.html): sugeruje, aby oceniając to kryterium sukcesu, uzyskiwać rozmiar czcionki w punktach z programu użytkownika lub obliczyć na podstawie wskaźników czcionki w taki sam sposób, w jaki robią to programy użytkownika, a nie z badania tekstu przedstawionego na ekranie.
+-   [WCAG 2.2 - Objaśnienie KS 1.4.3. Kontrast (minimum)](https://wcag.irdpl.pl/understanding/kontrast-minimum.html) sugeruje, aby oceniając to kryterium sukcesu, uzyskiwać rozmiar czcionki w punktach z programu użytkownika lub obliczyć na podstawie wskaźników czcionki w taki sam sposób, w jaki robią to programy użytkownika, a nie z badania tekstu przedstawionego na ekranie.
 -   Chociaż tekst zawarty w logo renderowanym jako obrazy jest zwolniony z tego wymogu, obraz musi nadal zapewniać tekst alternatywny (np. w postaci atrybutu alt).
 
 ## Techniki WCAG 2.2
