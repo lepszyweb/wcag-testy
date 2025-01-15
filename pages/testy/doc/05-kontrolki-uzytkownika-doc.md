@@ -7,8 +7,6 @@ permalink: 05-kontrolki-uzytkownika-doc
 folder: testy/doc
 ---
 
-# 5. Kontrolki użytkownika
-
 ## Wymagania dostępności
 - {% include ks/4-1-2.md %}  
 

@@ -23,7 +23,7 @@ Użytkownicy, których dotyczy ten wymóg, mogą być osobami widzącymi i nie s
 - Zgodnie z [Objaśnieniem KS 1.4.1 Użycie koloru](https://wcag.irdpl.pl/understanding/uzycie-koloru.html), gdy sam kolor jest zastosowany do rozróżnienia łączy odwiedzonych i nieodwiedzonych, nie powoduje to niespełnienia tego kryterium sukcesu.
 - Zgodnie z [Objaśnieniem KS 1.4.1 Użycie koloru](https://wcag.irdpl.pl/understanding/uzycie-koloru.html), użycie kolorów różniących się odcieniem i jasnością o współczynniku kontrastu 3:1 lub większym spełnia ten wymóg. Jeśli jednak poznanie treści zależy od zdolności użytkownika do dokładnego postrzegania lub rozróżniania określonego koloru, wymagany będzie dodatkowy wskaźnik wizualny, niezależnie od odpowiedniego współczynnika kontrastu między tymi kolorami.
 -   KS 1.3.3 ma zastosowanie do instrukcji i nie może być spełnione poprzez podanie wielu cech sensorycznych (np. koloru i kształtu).
--   Test sygnałów dźwiękowych obejmuje krótkie dźwięki używane do powiadamiania użytkownika, takie jak sygnały potwierdzenia i powiadomienia o błędach. Dźwięk w mediach opartych na czasie jest omówiony w teście podstawowym [16. Tylko audio i tylko wideo]().
+-   Test sygnałów dźwiękowych obejmuje krótkie dźwięki używane do powiadamiania użytkownika, takie jak sygnały potwierdzenia i powiadomienia o błędach. Dźwięk w mediach opartych na czasie jest omówiony w teście podstawowym [16. Tylko audio i tylko wideo](16-tylko-audio-tylko-wideo-doc.md).
 
 
 ## 7.A Procedura testowa użycia koloru
@@ -35,19 +35,17 @@ Identyfikator testu podstawowego: _7.A-Color_
 ### Instrukcja testowania
 1.	Sprawdź, czy spełniony jest co najmniej jeden z poniższych warunków:
     1.  Treść wykorzystująca kolor do przekazania znaczenia zapewnia również widoczny na ekranie odpowiednik tekstowy opisujący kolor lub znaczenie przekazywane przez kolor, gdy użytkownik musi być w stanie dokładnie dostrzec lub rozróżnić określony kolor. [KS 1.4.1]
-    2.  Treść wykorzystująca kolor do przekazania znaczenia zapewnia również inne wizualne odróżnienie (np. kształt, położenie, rozmiar, podkreślenie) z wyraźnym wskazaniem jego znaczenia, gdy użytkownik musi być w stanie dokładnie dostrzec lub rozróżnić określony kolor. [SC 1.4.1]
+    2.  Treść wykorzystująca kolor do przekazania znaczenia zapewnia również inne wizualne odróżnienie (np. kształt, położenie, rozmiar, podkreślenie) z wyraźnym wskazaniem jego znaczenia, gdy użytkownik musi być w stanie dokładnie dostrzec lub rozróżnić określony kolor. [KS 1.4.1]
     3.  Treść wykorzystująca tylko różnicę w kolorach do przekazania znaczenia używa kolorów (odcieni) o współczynniku kontrastu 3:1 lub większym. Treść ta nie wymaga od użytkownika umiejętności dokładnego postrzegania lub rozróżniania konkretnego koloru. [KS 1.4.1]
 
 ### Wynik testów
-<p id="d7aTR">Jeśli WSZYSTKIE powyższe testy zakończą się niepowodzeniem, test podstawowy _7.A-Color_ kończy się niepowodzeniem.</p>
+<p id="d7aTR">Jeśli WSZYSTKIE powyższe testy zakończą się niepowodzeniem, test podstawowy <em>7.A-Color</em> kończy się niepowodzeniem.</p>
 
 ## 7.B  Procedura testowa użycia cech sensorycznych
 Identyfikator testu podstawowego: _7.B-SensoryCharacteristics_
 
 ### Identyfikacja treści
 <p id="d7bIC">Znajdź instrukcje (wskazówki) dotyczące rozumienia i obsługi treści, które opierają się na informacjach sensorycznych w celu przekazywania informacji. Mogą to być odwołania do kształtu, rozmiaru, wizualnej lokalizacji, orientacji lub dźwięku.</p>
-
-
 
 ### Instrukcja testowania
 1.  Sprawdź, czy instrukcje zawierają dodatkowe informacje, które pozwalają na zlokalizowanie, rozpoznanie i zrozumienie elementu bez jakiejkolwiek wiedzy o jego kształcie, rozmiarze lub względnej pozycji. [KS 1.3.3] Na przykład:
@@ -56,10 +54,10 @@ Identyfikator testu podstawowego: _7.B-SensoryCharacteristics_
     -   Wybierz przycisk „Anuluj” w prawym dolnym rogu, aby zamknąć tę sesję (podana także nazwa przycisku).
 2.  Sprawdź, czy wszelkie wskazówki dźwiękowe dostarczają również wskazówek wizualnych i/lub tekstowych określonych programowo. Na przykład,
     -   „Rozpocznij quiz po usłyszeniu sygnału dźwiękowego i pojawieniu się zegara”.
+
 ### Wynik testów
 
-<p id="d7bTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _7.B-SensoryCharacteristics_ kończy się niepowodzeniem.</p>
-
+<p id="d7bTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>7.B-SensoryCharacteristics</em> kończy się niepowodzeniem.</p>
 
 ## 7.C Procedura testowa użycia sygnałów dźwiękowych
 Identyfikator testu bazowego: _7.C-AudibleCues_
@@ -67,25 +65,13 @@ Identyfikator testu bazowego: _7.C-AudibleCues_
 ### Identyfikacja treści
 <p id="d7cIC">Znajdź wszelkie krótkie sygnały dźwiękowe/dźwiękowe, które służą jako powiadomienie dla użytkownika, takie jak sygnał dźwiękowy oznaczający wystąpienie błędu lub sygnał dźwiękowy wskazujący wiadomość przychodzącą.</p>
 
-#### Test Instructions
-
-<ol id="d7cTI">
-    <li id="d7cTI-1">Check that a text alternative that describes the purpose of the sound is provided with the audible cue. [SC 1.1.1]<br>
-        For example:
-        <ul>
-            <li>A short beep and an asterisk appear on a required field to notify the user that the field must be completed.</li>
-            <li>As a timer counts down, a bell rings and a "Two minutes left!" message appears on the screen.</li>
-        </ul>
-    </li>
-</ol>
-
 ### Instrukcja testowania
-1.  Sprawdź, czy tekst alternatywny, który opisuje przeznaczenie dźwięku, jest wyposażony we wskazówkę dźwiękową. [KS 1.1.1]Na przykład:
+1.  Sprawdź, czy tekst alternatywny, który opisuje przeznaczenie dźwięku, jest wyposażony we wskazówkę dźwiękową. [KS 1.1.1]<br />Na przykład:
     -   W wymaganym polu rozlega się krótki sygnał dźwiękowy i gwiazdka, aby powiadomić użytkownika, że pole musi zostać wypełnione.
     -   Gdy minutnik odlicza czas, rozlega się dzwonek, a na ekranie pojawia się komunikat „Zostały dwie minuty!”.
 
 ### Wynik testów
-<p id="d7cTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _7.C-AudibleCues_ kończy się niepowodzeniem.</p>
+<p id="d7cTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>7.C-AudibleCues</em> kończy się niepowodzeniem.</p>
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 -   Treści, w których użyto koloru, muszą mieć dodatkową wskazówkę wizualną.
