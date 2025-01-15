@@ -1,13 +1,13 @@
 ---
 title: 3. Bez zakłóceń (dokumenty)
-last_updated: 22 grudnia 2024
+last_updated: 15 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 03-bez-zaklocen-doc
 folder: testy/doc
 ---
 
-## 3. Bez zakłóceń
+# 3. Bez zakłóceń
 
 ## Wymagania dostępności
 
@@ -18,7 +18,7 @@ folder: testy/doc
     -   2.2.2 - Pauza, zatrzymanie, ukrycie.
 
 ## Uzasadnienie metody testowej
-Wyniki tego testu podstawowego ustala się na podstawie wyników testów dla KS 1.4.2 (21.4-AudioControl), KS 2.1.2 (1.B-NoKeyboardTrap), KS 2.3.1 (9.A-Flashes) i KS 2.2.2 (21.B-MovingInfo i 21.C-AutoUpdate).
+Wyniki tego testu podstawowego ustala się na podstawie wyników testów dla KS 1.4.2 (21.D Kontrola odtwarzania dźwięku), KS 2.1.2 (1B. Pułapka na klawiaturę), KS 2.3.1 (9.A Błyskanie) i KS 2.2.2 (21.B-Ruchome informacje i 21.C Automatyczna aktualizacja treści).
 
 ## Ograniczenia, założenia lub wyjątki
 
@@ -30,18 +30,17 @@ Identyfikator testu bazowego: *3.A-Bez-zaklocen*
 
 ### Identyfikacja treści
 
-<p id="d3aIC">Wyniki testów podstawowych <a href="{{site.baseurl}}/document-baselines/21TimedEventsDocs/#21d-test-procedure-for-audio-control">21.D-AudioControl</a>, <a href="{{site.baseurl}}/document-baselines/01KeyboardDocs/#1b-test-procedure-for-no-keyboard-trap">1.B-NoKeyboardTrap</a>, <a href="{{site.baseurl}}/document-baselines/09FlashingDocs/#9a-test-procedure-for-three-flashes-or-below-threshold">9.A-Flashes</a>, <a href="{{site.baseurl}}/document-baselines/21TimedEventsDocs/#21b-test-procedure-for-moving-information">21.B-MovingInfo</a>, and <a href="{{site.baseurl}}/document-baselines/21TimedEventsDocs/#21c-test-procedure-for-auto-updating-information">21.C-AutoUpdate</a>.</p>
+<p id="d3aIC">Wyniki testów podstawowych <a href="{{site.baseurl}}/21-zdarzenia-czasowe-doc/#21d-procedura-testowa-kontroli-odtwarzania-d%C5%BAwi%C4%99ku">21.D Kontrola odtwarzania dźwięku</a>, <a href="{{site.baseurl}}/01-klawiatura-doc/#1b-procedura-testowa-pu%C5%82apki-na-klawiatur%C4%99">1B. Pułapka na klawiaturę</a>, <a href="{{site.baseurl}}/09-blyskanie-doc#9a-procedura-testowa-dla-trzech-b%C5%82ysk%C3%B3w-lub-poni%C5%BCej-progu">9.A Błyskanie</a>, <a href="{{site.baseurl}}/21-zdarzenia-czasowe-doc#21b-procedura-testowa-ruchomych-informacji">21.B-Ruchome informacje</a>, oraz <a href="{{site.baseurl}}/21-zdarzenia-czasowe-doc#21c-procedura-testowa-automatycznej-aktualizacji-tre%C5%9Bci">21.C Automatyczna aktualizacja treści</a>.</p>
 
 ### Instrukcja testowania
-1.  
 
 <ol id="d3aTI">
     <li id="d3aTI-1">Sprawdź, czy wszystkie powyższe testy zakończyły się powodzeniem (zostały zaliczone). [CR5]</li>
 </ol>
 
-#### Test Results
+#### Wynik testów
 
-<p id="d3aTR">Jeżeli którakolwiek z testów zakończył się niepowodzeniem, wówczas test podstawowy *3.A-Bez-zaklocen* kończy się niepowodzeniem.</p>
+<p id="d3aTR">Jeżeli którakolwiek z testów zakończył się niepowodzeniem, wówczas test podstawowy <em>3.A-Bez-zaklocen</em> kończy się niepowodzeniem.</p>
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 -   Wszystkie testy wskazane w tym teście podstawowym muszą się zakończyć pomyślnie, aby cały test został uznany za zaliczony.
