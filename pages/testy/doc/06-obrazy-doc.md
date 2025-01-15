@@ -7,8 +7,6 @@ permalink: 06-obrazy-doc
 folder: testy/doc
 ---
 
-## 6. Obrazy
-
 ## Wymagania dostępności
 - {% include ks/1-1-1.md %}  
 - {% include ks/1-4-5.md %}  
@@ -32,9 +30,7 @@ Identyfikator testu podstawowego: _6.A-MeaningfulImage_
 
 ### Identyfikacja treści
 
-#### Identify Content
-
-<p id="d6aIC">Znajdź wszystkie obrazy, które mają niepustą alternatywę tekstową (kombinację dostępnej nazwy i dostępnego opisu) zgodnie z [mapowaniami API dostępności HTML 1.0 dla img](https://www.w3.org/TR/html-aam-1.0/#img-element)</a>.</p>
+Znajdź wszystkie obrazy, które mają niepustą alternatywę tekstową (kombinację dostępnej nazwy i dostępnego opisu) zgodnie z [mapowaniami API dostępności HTML 1.0 dla img](https://www.w3.org/TR/html-aam-1.0/#img-element).
 
 ### Instrukcja testowania
 1.	Potwierdź, że żaden z poniższych warunków nie jest prawdziwy:
@@ -43,7 +39,7 @@ Identyfikator testu podstawowego: _6.A-MeaningfulImage_
 2.	Sprawdź, czy niepusta tekstowa alternatywa (połączenie dostępnej nazwy i dostępnego opisu) zapewnia równoważny opis celu obrazu.[SC 1.1.1].
 
 ### Wynik testów
-<p id="d6aTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _6.A-MeaningfulImage_ kończy się niepowodzeniem.</p>
+<p id="d6aTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>6.A-MeaningfulImage</em> kończy się niepowodzeniem.</p>
 
 ## 6.B Procedura testowa dla obrazów z pustą alternatywą tekstową
 Identyfikator testu podstawowego: _6.B-DecorativeImage_
@@ -51,26 +47,8 @@ Identyfikator testu podstawowego: _6.B-DecorativeImage_
 ### Identyfikacja treści
 <p id="d6bIC">Znajdź wszystkie obrazy (w tym obrazy tła), które mają pustą alternatywę tekstową.</p>
 
-#### Test Instructions
-
-<ol id="d6bTI">
-    <li id="d6bTI-1">Check that the empty text alternative has been programmatically assigned using one of the following techniques [SC 1.1.1]:
-        <ol>
-            <li id="d6bTI-1a">The image is marked as decorative.</li>
-            <li id="d6bTI-1b">The image is marked as an artifact.</li>
-            <li id="d6bTI-1c">The image is only part of the background, header, footer, or on a hidden layer.</li>
-        </ol>
-    </li>
-    <li id="d6bTI-2">Check that none of the following is true [SC 1.1.1]:
-        <ol>
-            <li id="d6bTI-2a">The image is the only way to convey meaningful information.</li>
-            <li id="d6bTI-2b">The image is in the tab order.</li>
-            <li id="d6bTI-2c">The image is a functional image that initiates action.</li>
-        </ol>
-    </li>
-</ol>
 ### Instrukcja testowania
-1.	Sprawdź, czy alternatywa pustego tekstu została przypisana programowo przy użyciu jednej z następujących technik [KS 1.1.1]:
+1.	Sprawdź, czy alternatywa pustego tekstu została przypisana programowo przy użyciu jednej z poniższych technik [KS 1.1.1]:
    -	Obraz jest oznaczony jako dekoracyjny.
    -	Obraz jest oznaczony jako artefakt.
    -	Obraz jest tylko częścią tła, nagłówka, stopki lub znajduje się na ukrytej warstwie.
@@ -81,13 +59,12 @@ Identyfikator testu podstawowego: _6.B-DecorativeImage_
 
 ### Wynik testów
 
-
-<p id="d6bTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _6.B-DecorativeImage_ kończy się niepowodzeniem.</p>
+<p id="d6bTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>6.B-DecorativeImage</em> kończy się niepowodzeniem.</p>
 
 ## 6.C Procedura testowa dla captcha - nie dotyczy dokumentów
 Identyfikator testu podstawowego: _6.C-Captcha_
 
-<p>Captcha nie są zaimplementowane w dokumentach innych niż internetowe, więc ten test nie ma zastosowania. Nie został on usunięty w celu zachowania harmonizacji z ICT Testing Baseline for Web.</p>
+<p>Captcha nie są zaimplementowane w dokumentach innych niż internetowe, więc ten test nie ma zastosowania. Nie został on usunięty w celu zachowania spójności z Podstawą testowania Web.</p>
 
 ### Wynik testów
 
@@ -107,7 +84,7 @@ Identyfikator testu podstawowego: _6.D-ImageText_
 
 ### Wynik testów
 
-<p id="d6dTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _6.D-ImageText_ kończy się niepowodzeniem.</p>
+<p id="d6dTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>6.D-ImageText</em> kończy się niepowodzeniem.</p>
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 brak
