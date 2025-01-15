@@ -1,13 +1,11 @@
 ---
 title: 9. Błyskanie (dokument)
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 09-blyskanie-doc
 folder: testy/doc
 ---
-
-# 9. Błyskanie
 
 ## Wymagania dostępności
 - {% include ks/2-3-1.md %}
@@ -34,7 +32,7 @@ Identyfikator testu bazowego: _9.A-Flashes_
 
 ### Identyfikacja treści
 
-<p id="d9aIC">Wizualnie określ zawartość, która [błyska](https://wcag.irdpl.pl/understanding/trzy-blyski-lub-wartosci-ponizej-progu.html#dfn-blysk).</p>
+Wizualnie określ zawartość, która [błyska](https://wcag.irdpl.pl/understanding/trzy-blyski-lub-wartosci-ponizej-progu.html#dfn-blysk).
 
 ### Instrukcja testowania
 1. Ustaw program użytkownika na standardowym poziomie powiększania, np. 100% w przeglądarce.
