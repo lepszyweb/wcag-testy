@@ -1,6 +1,6 @@
 ---
 title: 12. Tabele (dokumenty)
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 12-tabele-doc
@@ -16,12 +16,12 @@ folder: testy/doc
 ## Uzasadnienie metody testowej
 W przypadku użytkowników technologii wspomagających tabele danych muszą jawnie kojarzyć dane tabeli z&nbsp;nagłówkami wierszy i kolumn tabeli za pomocą znaczników programowych. Znaczniki tabel ułatwiają także nawigację użytkownikom technologii wspomagających, zapewniając programowe punkty orientacyjne za pomocą nagłówków kolumn i wierszy.
 
-Jeśli elementy tabeli są używane do celów układu, niedozwolone sa elementy struktury tabeli danych, takie jak nagłówki kolumn/wierszy, podpisy, podsumowania nie są dozwolone.
+Jeśli elementy tabeli są używane do celów układu, niedozwolone są elementy struktury tabeli danych, takie jak nagłówki kolumn/wierszy, podpisy, podsumowania nie są dozwolone.
 
 ## Ograniczenia, założenia lub wyjątki
 -   **Tabele danych** to tabele, w których informacje w komórce wymagają nagłówka wiersza lub kolumny, aby odpowiednio opisać zawartość komórki. Jeśli tabela jest używana do rozmieszczania na stronie komponentów ze względu na estetykę wizualną, wówczas jest traktowana jako **tabela układu**.
 -   Może się wydawać, że niektóre treści wymagają wizualnej struktury tabeli danych, ale linearyzacja treści ujawnia, że treść jest zrozumiała bez tabeli. 
--   Technikę **tabeli układu** można stosować w  projektach responsywnych. Te elementy używają metod stylizacji do prezentacji treści w kolumnach lub wierszach. Przekazywane informacje nie opierają się na programowych relacjach między nagłówkami kolumn lub wierszy, niezbędnych do ich zrozumienia. Taka treść nie jest tabelą danych i nie powinna i nie powinna mieć programowych atrybutów tabeli danych. Powinna być badana przy użyciu innych testów podstawowych, takich jak [13. Struktura treści](13_StrukturaTresci) lub ewentualnie [10. Formularze (powiązane instrukcje)](ICT_10_formularze).
+-   Technikę **tabeli układu** można stosować w  projektach responsywnych. Te elementy używają metod stylizacji do prezentacji treści w kolumnach lub wierszach. Przekazywane informacje nie opierają się na programowych relacjach między nagłówkami kolumn lub wierszy, niezbędnych do ich zrozumienia. Taka treść nie jest tabelą danych i nie powinna i nie powinna mieć programowych atrybutów tabeli danych. Powinna być badana przy użyciu innych testów podstawowych, takich jak [13. Struktura treści](13-struktura-tresci-doc.md) lub ewentualnie [10. Formularze (powiązane instrukcje)](10-formularze-doc.md).
 -   Wiersze powiązanych danych muszą mieć nagłówek wiersza, aby użytkownicy technologii wspomagających mogli zrozumieć relacje między komórkami danych wiersza. Nie każda tabela wymaga nagłówka wiersza. Na przykład miesiąc kalendarzowy to tabela danych, zwykle z&nbsp;dniami tygodnia jako nagłówkami kolumn. Daty w wierszach nie są powiązane, więc zazwyczaj nie ma nagłówka wiersza. Gdyby jednak w każdym wierszu znajdowała się komórka wskazująca kolejny tydzień roku, komórka ta służyłaby jako nagłówek wiersza dla dat w&nbsp;tym wierszu.
 -   Złożone tabele danych to tabele, które zawierają co najmniej jeden z tych elementów: wiele kolumn nagłówków wierszy, wiele wierszy nagłówków kolumn oraz podzielone lub scalone komórki. Te tabele muszą zawierać formatowanie, które ustanawia programowo określane relacje.
 

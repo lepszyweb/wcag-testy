@@ -42,7 +42,7 @@ Wizualnie określ zawartość, która [błyska](https://wcag.irdpl.pl/understan
    - Częstotliwość przekracza 3 Hz lub nie można jej określić, a spełniony jest co najmniej jeden z poniższych warunków:
     1.  Łączny obszar błysków występujących jednocześnie zajmuje nie więcej niż prostokąt o wymiarach 341 x 256 pikseli w dowolnym miejscu wyświetlanego obszaru ekranu, gdy treść jest wyświetlana w rozdzielczości 1024 x 768 pikseli.
     2.  Błysk nie obejmuje „błysków ogólnych” (para przeciwstawnych zmian względnej luminancji wynoszących 10% lub więcej maksymalnej względnej luminancji (1,0), w przypadku gdy względna jasność ciemniejszego obrazu jest mniejsza niż 0,80; i gdzie „para przeciwstawnych zmian” oznacza wzrost, po którym następuje spadek, lub spadek, po którym następuje wzrost)
-    3.  błysk nie zawiera żadnej „pary przeciwstawnych przejść obejmujących nasyconą czerwień” (para przeciwstawnych przejść, gdzie jedno przejście jest do lub ze stanu o wartości R/(R + G + B) większej lub równej 0,8, a różnica między stanami jest większa niż 0,2 (bez jednostek) na diagramie chromatyczności CIE 1976 UCS. [[ISO_9241-391]])
+    3.  błysk nie zawiera żadnej „pary przeciwstawnych przejść obejmujących nasyconą czerwień” (para przeciwstawnych przejść, gdzie jedno przejście jest do lub ze stanu o wartości R/(R + G + B) większej lub równej 0,8, a różnica między stanami jest większa niż 0,2 (bez jednostek) na diagramie chromatyczności CIE 1976 UCS. ([ISO_9241-391](https://www.iso.org/standard/56350.html))
 
 ### Wynik testów
 <p id="d9aTR">Jeśli wszystkie powyższe testy zakończą się niepowodzeniem, test podstawowy <em>9.A-Flashes</em> kończy się niepowodzeniem.</p>

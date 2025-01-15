@@ -1,13 +1,12 @@
 ---
 title: 11. Tytuły dokumentów (dokumenty)
-last_updated: 22 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 11-tytuly-doc
 folder: testy/doc
 ---
 
-## 11. Tytuły dokumentów
 
 ## Wymagania dostępności
 - {% include ks/2-4-2.md %}
@@ -32,7 +31,7 @@ Identyfikator testu podstawowego: _11.A-PageTitled_
 2.  Sprawdź, czy tytuł dokumentu opisuje jego treść lub przeznaczenie. [KS 2.4.2]
 
 ### Wynik testów
-<p id="d11aTR">Jeżeli którakolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test podstawowy _11.A-PageTitled_ kończy się niepowodzeniem.</p>
+<p id="d11aTR">Jeżeli którakolwiek z powyższych testów zakończy się niepowodzeniem, wówczas test podstawowy <em>11.A-PageTitled</em> kończy się niepowodzeniem.</p>
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesów testowych
 Brak
