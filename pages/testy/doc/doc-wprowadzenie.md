@@ -1,6 +1,6 @@
 ---
 title: "Podstawa testowania TIK dla dokumentów elektronicznych"
-last_updated: 26 grudnia 2024
+last_updated: 15 stycznia 2024
 
 sidebar: testy_sidebar
 permalink: doc-wprowadzenie
@@ -11,15 +11,15 @@ folder: testy/doc
 
 ## Wprowadzenie
 
-Definicja [documentu](https://www.access-board.gov/ict/#defDocument) według sekcji 508:
+Definicja [dokumentu](https://www.access-board.gov/ict/#defDocument) według Sekcji 508:
 
 > Logicznie odrębny zbiór treści (taki jak plik, zestaw plików lub media strumieniowe), który: funkcjonuje jako pojedyncza jednostka, a nie zbiór; nie jest częścią oprogramowania; i nie zawiera własnego oprogramowania do pobierania i prezentowania treści dla użytkowników. Przykłady dokumentów obejmują między innymi listy, wiadomości e-mail, arkusze kalkulacyjne, prezentacje, podcasty, obrazy i filmy.
 
-Podstawa testowania dla dokumentów elektronicznych odnosi się wszystkie dokumentów [niebędących dokumentami internetowymi](https://www.access-board.gov/ict/#defNonWebDocument). (Dokument niebędący stroną internetową, zdefiniowany w sekcji 508, to dokument, który nie jest: stroną internetową, osadzony na stronie internetowej lub używany do renderowania lub funkcjonowania stron internetowych). Wersja 1.0 została wydana 30 września 2024 roku.
+Podstawa testowania dla dokumentów elektronicznych odnosi się wszystkie dokumentów [niebędących dokumentami internetowymi](https://www.access-board.gov/ict/#defNonWebDocument). (Dokument niebędący stroną internetową, zdefiniowany w Sekcji 508, to dokument, który nie jest: stroną internetową, osadzony na stronie internetowej lub używany do renderowania lub funkcjonowania stron internetowych). Wersja 1.0 została wydana 30 września 2024 roku.
 
-## Wymagania sekcji 508 dotyczące dokumentów
+## Wymagania Sekcji 508 dotyczące dokumentów
 
-W tej sekcji przedstawiono [wymagania sekcji 508](https://www.access-board.gov/ict/#E205-content) dotyczące treści elektronicznych.
+W tej części przedstawiono [wymagania Sekcji 508](https://www.access-board.gov/ict/#E205-content) dotyczące treści elektronicznych.
 
 ### E205 - Treść elektroniczna
 
@@ -29,7 +29,7 @@ Treści elektroniczne skierowane do ogółu społeczeństwa muszą spełniać wy
 
 #### E205.3 Oficjalna komunikacja agencji
 
-Treści elektroniczne, które nie są skierowane do ogółu społeczeństwa, muszą być zgodne z wymogami dostępności określonymi w [E205.4](#e205.4-accessibility-standard), jeśli takie treści stanowią treść urzędową i są przekazywane przez agencję za pośrednictwem jednego lub kilku z następujących kanałów:
+Treści elektroniczne, które nie są skierowane do ogółu społeczeństwa, muszą być zgodne z wymogami dostępności określonymi w [E205.4](#e2054-standard-dostępności), jeśli takie treści stanowią treść urzędową i są przekazywane przez agencję za pośrednictwem jednego lub kilku z następujących kanałów:
 
 <ol type="A">
     <li>Powiadomienie alarmowe</li>
@@ -60,11 +60,12 @@ W przypadku dokumentów niebędących dokumentami internetowymi, wszędzie tam, 
 
 ## Niezależność od formatu pliku dokumentu i narzędzi testowych
 
-Podobnie jak Podstawa testowania TIK dla Internetu, Podstawa testowania TIK dla dokumentów elektronicznych jest niezależna od narzędzi testowych. Każdy test bazowy identyfikuje testowany wymóg dostępności, zawartość dokumentu podlegającą ocenie oraz instrukcje krok po kroku dotyczące określania wyników testu. Agencje mogą stosować dowolne narzędzia, które są zgodne z tym poziomem bazowym, aby zapewnić spójne i wiarygodne wyniki testów.
+Podobnie jak Podstawa testowania TIK dla Web, Podstawa testowania TIK dla dokumentów elektronicznych jest niezależna od narzędzi testowych. Każdy test bazowy identyfikuje testowany wymóg dostępności, zawartość dokumentu podlegającą ocenie oraz instrukcje krok po kroku dotyczące określania wyników testu. Agencje mogą stosować dowolne narzędzia, które są zgodne z tym poziomem bazowym, aby zapewnić spójne i wiarygodne wyniki testów.
 
 ## Autorzy Podstawy testowania
 
-Autorem tej podstawy testowania jest Federalna Wspólnota Praktyk Dostępnych Dokumentów Elektronicznych (AED COP) i Techniczny Komitet Doradczy ds. Wykorzystuje on ramy Baseline for Web, mając na celu poprawę zgodności dostępności dokumentów elektronicznych.
+Autorem tej podstawy testowania jest Federalna Wspólnota Praktyk Dostępnych Dokumentów Elektronicznych (AED COP) i Techniczny Komitet Doradczy ds. Wykorzystuje on ramy Podstawy testowania TIK dla Web, mając na celu poprawę zgodności dostępności dokumentów elektronicznych.
 
 ## Docelowi odbiorcy
-Podstawa testowania dla dokumentów elektronicznych jest najlepiej wykorzystywany przez twórców metodologii testowania. Jest mało prawdopodobne, aby pojedyncza metodologia testowania mogła skutecznie testować wiele formatów plików. Na przykład, metodologia testowa dla PDF może nie być przydatna dla Worda lub innego formatu pliku. Aby upewnić się, że metodologia testowania testuje wszystkie wymagania sekcji 508, należy uwzględnić każdy test podstawowy w metodologii testowania. 
+Podstawa testowania dla dokumentów elektronicznych  jest najlepszym rozwiązaniem dla twórców metodologii testowania. Jest mało prawdopodobne, aby pojedyncza metodologia testowania mogła skutecznie testować wiele formatów plików. Na przykład, metodologia testowa dla PDF może nie być przydatna dla Worda lub innego formatu pliku. Aby upewnić się, że metodologia testowania testuje wszystkie wymagania Sekcji 508, należy w metodologii testowania uwzględnić każdy test podstawowy. 
+
