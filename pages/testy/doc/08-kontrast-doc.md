@@ -1,13 +1,11 @@
 ---
 title: 8. Kontrast (dokumenty)
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 08-kontrast-doc
 folder: testy/doc
 ---
-
-# 8. Kontrast
 
 ## Wymagania dostępności
 - {% include ks/1-4-3.md %}  

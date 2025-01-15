@@ -1,6 +1,6 @@
 ---
 title: 6. Obrazy (dokumenty)
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 06-obrazy-doc

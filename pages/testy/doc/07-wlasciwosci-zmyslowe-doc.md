@@ -1,13 +1,11 @@
 ---
 title: 7. Właściwości zmysłowe
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 07-wlasciwosci-zmyslowe-doc
 folder: testy/doc
 ---
-
-# 7. Właściwości zmysłowe
 
 ## Wymagania dostępności
 - {% include ks/1-1-1.md %}  
