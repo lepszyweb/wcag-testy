@@ -1,6 +1,6 @@
 ---
 title: 17. Media zsynchronizowane (dokument)
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 17-media-zsynchronizowane-doc
@@ -48,7 +48,7 @@ Identyfikator testu podstawowego: _17.A-MediaPlayerCCADControls_
 2.	Sprawdź, czy istnieje kontrolka użytkownika umożliwiająca wybór audiodeskrypcji. [Sekcja 508 503.4]
 
 ### Wynik testów
-<p id="d17aTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _17.A-MediaPlayerCCADControls_ również kończy się niepowodzeniem.</p>
+<p id="d17aTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>17.A-MediaPlayerCCADControls</em> również kończy się niepowodzeniem.</p>
 
 ## 17.B Procedura testowa dla poziomu kontroli napisów odtwarzacza multimedialnego
 Identyfikator testu podstawowego: _17.B-MediaPlayerCCLevel_
@@ -60,7 +60,7 @@ Identyfikator testu podstawowego: _17.B-MediaPlayerCCLevel_
 1.	Sprawdź, czy kontrolka użytkownika umożliwiająca wybór napisów rozszerzonych znajduje się na tym samym poziomie menu, co kontrolki użytkownika służące do regulacji głośności lub wyboru programu. [Sekcja 508 503.4.1]
 
 ### Wynik testów
-<p id="d17bTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _17.B-MediaPlayerCCLevel_ również kończy się niepowodzeniem.</p>
+<p id="d17bTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>17.B-MediaPlayerCCLevel</em> również kończy się niepowodzeniem.</p>
 
 
 ## 17.C Procedura testowa dla poziomu kontroli audiodeskrypcji odtwarzacza multimedialnego
@@ -73,7 +73,7 @@ Identyfikator testu podstawowego: _17.C-MediaPlayerADLevel_
 1.	Sprawdź, czy kontrolka użytkownika umożliwiająca wybór znajduje się na tym samym poziomie menu, co kontrolki użytkownika służące do regulacji głośności lub wyboru programu. [Sekcja 508 503.4.2]
 
 ### Wynik testów
-<p id="d17cTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _17.C-MediaPlayerADLevel_ również kończy się niepowodzeniem.</p>
+<p id="d17cTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>17.C-MediaPlayerADLevel</em> również kończy się niepowodzeniem.</p>
 
 ## 17.D Procedura testowa dla napisów rozszerzonych (nagranie)
 Identyfikator testu podstawowego: _17.D-CaptionsPrerecorded_
@@ -91,7 +91,7 @@ Identyfikator testu podstawowego: _17.D-CaptionsPrerecorded_
 
 
 ### Wynik testów
-<p id="d17dTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _17.D-CaptionsPrerecorded_ również kończy się niepowodzeniem.</p>
+<p id="d17dTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>17.D-CaptionsPrerecorded</em> również kończy się niepowodzeniem.</p>
 
 ## 17.E Procedura testu dla audiodeskrypcji (nagranie)
 Identyfikator testu podstawowego: _17.E-ADPrerecorded_
@@ -104,7 +104,7 @@ Identyfikator testu podstawowego: _17.E-ADPrerecorded_
 2.  Sprawdź, czy dźwięk (z włączoną audiodeskrypcją) odpowiednio opisuje ważną treść wizualną w medium, w tym informuje o działaniach, postaciach, zmianach scen, tekście na ekranie i innych treściach wizualnych. [KS 1.2.5]
 
 ### Wynik testów
-<p id="d17eTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _17.E-ADPrerecorded_ również kończy się niepowodzeniem.</p>
+<p id="d17eTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>17.E-ADPrerecorded</em> również kończy się niepowodzeniem.</p>
 
 ## 17.F Procedura testu dla napisów rozszerzonych (na żywo)
 Identyfikator testu podstawowego: _17.F-CaptionsLive_
@@ -120,7 +120,7 @@ Identyfikator testu podstawowego: _17.F-CaptionsLive_
     -  Porównaj dźwięk z napisami rozszerzonymi, aby ocenić dokładność, synchronizację czasową i równoważność. Mniejsza dokładność napisów do transmisji na żywo może być akceptowalna ze względu na ograniczone możliwości tworzenia napisów w czasie rzeczywistym.
 
 ### Wynik testów
-<p id="d17fTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _17.F-CaptionsLive_ również kończy się niepowodzeniem.</p>
+<p id="d17fTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>17.F-CaptionsLive</em> również kończy się niepowodzeniem.</p>
 
 ## 17.G Procedura testowa dla zsynchronizowanego multimedium jako alternatywy dla tekstu (nagranie)
 Identyfikator testu podstawowego: 17.G-SyncMediaAlternative
@@ -136,11 +136,11 @@ Identyfikator testu podstawowego: 17.G-SyncMediaAlternative
 4.	Sprawdź, czy w tekście znajdują się znaczące informacje wizualne prezentowane w nagraniu multimedialnym.
 
 ### Wynik testów
-<p id="d17gTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, oznacza to, że multimedia nie jest alternatywą medialną dla tekstu. Wykonaj procedurę testową testu podstawowego 17.D Procedura testowa dla napisów rozszerzonych (nagranie) i procedurę testową 17.E Procedura testu dla audiodeskrypcji (nagranie).</p>
+<p id="d17gTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, oznacza to, że multimedia nie jest alternatywą medialną dla tekstu. Wykonaj procedurę testową testu podstawowego <em>17.D-CaptionsPrerecorded</em> i procedurę testową <em>_17.E-ADPrerecorded_.</p>
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 
--   Testowanie zsynchronizowanych multimediów różni się od testów podstawowych [16. Tylko audio i tylko wideo](testy/ICT_16_tylko-audio-tylko-wideo.md).
+-   Testowanie zsynchronizowanych multimediów różni się od testów podstawowych [16. Tylko audio i tylko wideo](16-tylko-audio-tylko-wideo-doc.md).
 -   Zsynchronizowane odtwarzacze multimedialne mogą być programami (aplikacjami) lub komponentami HTML.
 -   Na poziomie AA kryterium sukcesu 1.2.5 ma zastosowanie do multimediów zsynchronizowanych. Powiązane wymaganie poziomu A, KS 1.2.3, należy oznaczyć w raporcie z testu jako „Nie dotyczy”. Dopuszczalne jest, aby procesy testowe dodawały test dla KS 1.2.3 (ocenianie pełnego tekstu alternatywnego pod kątem równoważności). Dodanie takiego testu przekroczyłoby podstawowe wymagania testowe i nie wpłynęłoby na wynik testu podstawowego nr 17.
 -   Wszystkie zsynchronizowane multimedia powinny zostać przetestowane. Jeśli nagrane wcześniej multimedia są oznaczone jako alternatywa dla tekstu, upewnij się, że zawierają one informacje równoważne z tekstem. Jeśli tak nie jest, to nie jest to medialna alternatywa dla tekstu. Przetestuj multimedia pod kątem napisów i audiodeskrypcji. Sensowne może być wykonanie testu 17.G przed testowaniem napisów i audiodeskrypcji.
