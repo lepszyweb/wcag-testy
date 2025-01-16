@@ -1,13 +1,11 @@
 ---
 title: 15. Język (dokument)
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 15-jezyk-doc
 folder: testy/doc
 ---
-
-## 15. Język
 
 ## Wymagania dostępności
 - {% include ks/3-1-1.md %}
@@ -31,7 +29,7 @@ Identyfikator testu podstawowego: _15.A-LanguageDocument_
 2.  Sprawdź, czy wartość właściwości Język odpowiada określonemu domyślnemu naturalnemu językowi dokumentu. [KS 3.1.1]
 
 ### Wynik testów
-<p id="d15aTR">Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _15.A-LanguagePage_ również kończy się niepowodzeniem.</p>
+<p id="d15aTR">Jeżeli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>15.A-LanguagePage</em>również kończy się niepowodzeniem.</p>
 
 
 ## 15.B Procedura testowa dla języka części
@@ -48,7 +46,7 @@ Identyfikator testu podstawowego: _15.B-LanguageParts_
 **Uwaga**: Element bez ustawionego języka dziedziczy swoją właściwość Język z domyślnych ustawień języka dokumentu.
 
 ### Wynik testów
-<p id="d15bTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy  _15.B-LanguageParts_ również kończy się niepowodzeniem.</p>
+<p id="d15bTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy  <em>15.B-LanguageParts</em> również kończy się niepowodzeniem.</p>
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 Brak.

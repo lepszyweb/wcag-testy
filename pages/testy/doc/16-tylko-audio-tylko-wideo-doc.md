@@ -1,12 +1,11 @@
 ---
 title: 16. Tylko audio i tylko wideo  (dokument)
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 16-tylko-audio-tylko-wideo-doc
 folder: testy/doc
 ---
-## 16. Tylko audio i tylko wideo
 
 ## Wymagania dostępności
 - {% include ks/1-2-1.md %}
@@ -22,24 +21,24 @@ Badanie treści alternatywnej w celu oceny jej równoważności z treściami tyl
 
 ### Tylko audio
 -   **Tylko audio** to prezentacja oparta na czasie, która zawiera tylko dźwięk (bez obrazu i bez interakcji).
--   Jeśli dźwięk jest zsynchronizowany z wideo, slajdami, animacjami lub innymi mediami wizualnymi opartymi na czasie, zamiast tego testu, wykonaj test [17. Media zsynchronizowane](ICT_17_media-zsynchronizowane)
+-   Jeśli dźwięk jest zsynchronizowany z wideo, slajdami, animacjami lub innymi mediami wizualnymi opartymi na czasie, zamiast tego testu, wykonaj test [17. Media zsynchronizowane](17-media-zsynchronizowane-doc.md)
 -   Dźwięk oznaczony jako alternatywa multimedialna dla tekstu nie wymaga dodatkowego opisu, jeśli jest rzeczywiście równoważny z tekstem.
 -   Odpowiednik tekstowy nie jest wymagany w przypadku dźwięku, który jest dostarczany jako odpowiednik dla wideo bez informacji dźwiękowych. Na przykład nie jest wymagany opis wideo, które jest dostarczane jako alternatywa dla filmu niemego.
 -   Krótkie dźwięki używane do powiadamiania użytkownika, takie jak sygnały potwierdzające i powiadomienia o błędach, nie są objęte tym testem.
--   Informacje i/lub instrukcje przekazywane wyłącznie w formie treści audio muszą zawierać równoważne wskazówki programowe i/lub tekstowe; sprawdzenie tego wymogu odbywa się zgodnie z [17. Media zsynchronizowane.](ICT_17_media-zsynchronizowane).
+-   Informacje i/lub instrukcje przekazywane wyłącznie w formie treści audio muszą zawierać równoważne wskazówki programowe i/lub tekstowe; sprawdzenie tego wymogu odbywa się zgodnie z [17. Media zsynchronizowane](17-media-zsynchronizowane-doc.md).
 
 ### Tylko wideo
 -   **Tylko wideo** to prezentacja oparta na czasie, która zawiera tylko wideo (bez dźwięku i bez interakcji).
 -   W prezentacji tylko wideo informacje są przedstawiane na różne sposoby, w tym za pomocą animacji, tekstu lub grafiki, scenerii i tła, działań i mimiki ludzi, zwierząt itp.
 -   Wideo oznaczone jako alternatywa medialna dla tekstu nie wymaga dodatkowego opisu, jeśli jest rzeczywiście równoważne z tekstem.
--   Jeżeli filmowi towarzyszą dźwięki o określonym czasie trwania lub znaczące dialogi, nie jest to _tylko wideo_. Odpowiednimi w takim przypadku są testy [17. Media zsynchronizowane](ICT_17_media-zsynchronizowane)
--   _Tylko wideo_ może przedstawiać informacje ruchome, migające, przewijane lub automatycznie aktualizowane. Jednak do prezentacji podobnych treści można zastosować inne metody. W obu przypadkach, niezależnie od tego, czy treść jest prezentowana wyłącznie w formie wideo, czy inną metodą, musi istnieć możliwość wstrzymania, zatrzymania lub ukrycia treści. Sprawdzenia tego wymogu odbywa się zgodnie z [21. Zdarzenia czasowe](ICT_21_limity-czasu).
+-   Jeżeli filmowi towarzyszą dźwięki o określonym czasie trwania lub znaczące dialogi, nie jest to _tylko wideo_. Odpowiednimi w takim przypadku są testy [17. Media zsynchronizowane](17-media-zsynchronizowane-doc.md)
+-   _Tylko wideo_ może przedstawiać informacje ruchome, migające, przewijane lub automatycznie aktualizowane. Jednak do prezentacji podobnych treści można zastosować inne metody. W obu przypadkach, niezależnie od tego, czy treść jest prezentowana wyłącznie w formie wideo, czy inną metodą, musi istnieć możliwość wstrzymania, zatrzymania lub ukrycia treści. Sprawdzenia tego wymogu odbywa się zgodnie z [21. Zdarzenia czasowe](21-zdarzenia-czasowe-doc.md).
 
 ## 16.A Procedura testu dla _tylko audio_ (nagranie)
 Identyfikator testu podstawowego: _16.A-AudioOnlyTranscript_
 
 ### Identyfikacja treści
-<p id="d16aIC">Nagrane treści _tylko audio_. Nie uwzględniaj multimediów, które są wyraźnie oznaczone jako alternatywa dla tekstu.</p>
+Nagrane treści _tylko audio_. Nie uwzględniaj multimediów, które są wyraźnie oznaczone jako alternatywa dla tekstu.
 
 ### Instrukcja testowania
 1.  Sprawdź, czy treść zawiera transkrypcję dla treści tylko audio. [KS 1.2.1]
@@ -48,7 +47,7 @@ Identyfikator testu podstawowego: _16.A-AudioOnlyTranscript_
 4.  Sprawdź, czy informacje w transkrypcji są dokładnym i kompletnym odzwierciedleniem treści tylko audio i  oprócz dialogu zawierają istotne dźwięki, takie jak trzaskanie drzwiami, wycie syren, identyfikacja osób wypowiadających kwestie w dialogu itp. [KS 1.2.1]
 
 ### Wynik testów
-<p id="d16aTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _16.A-AudioOnlyTranscript_ również kończy się niepowodzeniem.</p>
+<p id="d16aTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>16.A-AudioOnlyTranscript</em> również kończy się niepowodzeniem.</p>
 
 ## 16.B Procedura testowa _tylko dla wideo_ (nagranie)
 Identyfikator testu podstawowego: _16.B-VideoOnlyAlt_
@@ -63,13 +62,13 @@ Identyfikator testu podstawowego: _16.B-VideoOnlyAlt_
 3.  Sprawdź, czy informacje zawarte w alternatywie zawierają te same informacje, które są wyświetlane w prezentacji tylko wideo (np. jeżeli film wideo zawiera wiele znaków, alternatywna musi określać, który znak jest powiązany z każdą przedstawioną czynnością). [KS 1.2.1]
 
 ### Wynik testów
-<p id="d16bTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _16.B-VideoOnlyAlt_ również kończy się niepowodzeniem.</p>
+<p id="d16bTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>16.B-VideoOnlyAlt</em> również kończy się niepowodzeniem.</p>
 
 ## 16.C Procedura testowa dla _tylko audio_ jako alternatywy dla tekstu (nagranie)
 Identyfikator testu podstawowego: _16.C-AudioMediaAlternative_
 
 ### Identyfikacja treści
-<p id="d16cIC">Nagranie _tylko audio_, który jest wyraźnie oznaczone jako alternatywa medialna dla tekstu.</p>
+Nagranie _tylko audio_, który jest wyraźnie oznaczone jako alternatywa medialna dla tekstu.
 
 ### Instrukcja testowania
 1.	Znajdź tekst, dla którego _tylko audio_ jest alternatywą.
@@ -77,13 +76,13 @@ Identyfikator testu podstawowego: _16.C-AudioMediaAlternative_
 3.	Sprawdź, czy nagranie _tylko audio_  prezentuje informacje równoważne informacjom znajdującym się w&nbsp;tekście.
 
 ### Wynik testów
-<p id="d16cTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, oznacza to, że nagranie _tylko audio_ nie jest alternatywą medialną dla tekstu. Wykonaj procedurę testową testu podstawowego 16.A Procedura testu dla _tylko audio_ (nagranie).</p>
+<p id="d16cTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, oznacza to, że nagranie <em>tylko audio</em> nie jest alternatywą medialną dla tekstu. Wykonaj procedurę testową testu podstawowego <em>_16.A-AudioOnlyTranscript_</em>.</p>
 
 ## 16.D Procedura testowa dla _tylko wideo_ jako alternatywy dla tekstu (nagranie)
 Identyfikator testu podstawowego: _16.D-VideoMediaAlternative_
 
 ### Identyfikacja treści
-<p id="d16dIC">Nagranie _tylko wideo_, które jest wyraźnie oznaczone jako alternatywa multimedialna dla tekstu.</p>
+Nagranie _tylko wideo_, które jest wyraźnie oznaczone jako alternatywa multimedialna dla tekstu.
 
 ### Instrukcja testowania
 1.	Znajdź tekst, dla którego _tylko wideo_ jest alternatywą.
@@ -91,7 +90,7 @@ Identyfikator testu podstawowego: _16.D-VideoMediaAlternative_
 3.	Sprawdź, czy nagranie _tylko wideo_ prezentuje informacje równoważne informacjom znajdującym się w&nbsp;tekście.
 
 ### Wynik testów
-<p id="d16dTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, oznacza to, że tekst tylko wideo nie jest alternatywą dla multimediów. Wykonaj procedurę testową testu podstawowego 16.B Procedura testowa _tylko dla wideo_ (nagranie).</p>
+<p id="d16dTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, oznacza to, że tekst tylko wideo nie jest alternatywą dla multimediów. Wykonaj procedurę testową testu podstawowego <em>16.B-VideoOnlyAlt</em>.</p>
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 -   Testy podstawowe 16.A i 16.C są testami dla plików _tylko audio_. Sensowne może być wykonanie Testu 16.C przed Testem 16.A.
