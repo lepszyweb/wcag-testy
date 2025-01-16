@@ -1,21 +1,18 @@
 ---
-title: 24. Parsowanie (dokumenty)
-last_updated: 26 grudnia 2024
+title: 24. Popfrawność kodu (dokumenty)
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 24-parsowanie-doc
 folder: testy/doc
 ---
 
-## 24. Parsowanie (dokumenty)
-
-
 ## Wymogi dostępności
 - {% include ks/4-1-1.md %}
 
 ## Uzasadnienie metody testowej
-- WCAG 2.2 wycofały KS 4.1.1 Parsowanie, ponieważ nie jest ono już potrzebne, gdyż błędy dostępności w technologiach wspomagających bezpośrednio parsujących HTML już nie istnieją lub są uwzględnione w innych kryteriach.
-- Sekcja 508 nie jest bezpośrednio objęta WCAG 2.2, ponieważ odnosi się do WCAG 2.0 Poziom A i AA, Zalecenie W3C, 11 grudnia 2008. KS 4.1.1 Parsowanie nie jest przestarzałe w WCAG 2.0, a kryterium jest wymogiem sekcji 508. Jednak ten test podstawowy będzie zawierał Erratę WCAG 2.0, która stwierdza „To kryterium powinno być uważane za zawsze spełnione dla każdej treści wykorzystującej HTML lub XML”.
+- WCAG 2.2 wycofały KS 4.1.1 Poprawność kodu, ponieważ nie jest ono już potrzebne, gdyż błędy dostępności w technologiach wspomagających bezpośrednio parsujących HTML już nie istnieją lub są uwzględnione w innych kryteriach.
+- Sekcja 508 nie jest bezpośrednio objęta WCAG 2.2, ponieważ odnosi się do WCAG 2.0 Poziom A i AA, Zalecenie W3C, 11 grudnia 2008. KS 4.1.1 Poprawność kodu nie jest przestarzałe w WCAG 2.0, a kryterium jest wymogiem sekcji 508. Jednak ten test podstawowy będzie zawierał Erratę WCAG 2.0, która stwierdza „To kryterium powinno być uważane za zawsze spełnione dla każdej treści wykorzystującej HTML lub XML”.
 
 <!-- Ten test podstawowy wymaga, aby treść nie zawierała błędów w składni elementów i atrybutów oraz zapewniała prawidłowo zagnieżdżone znaczniki początku/końca, aby uniknąć błędów, które uniemożliwiają programom użytkowników niezawodne przetwarzanie zawartości. Jeśli treści nie można przetworzyć w strukturę danych, wówczas różne programy użytkownika, w tym technologie wspomagające, mogą ją prezentować  odmiennie lub w ogóle nie potrafią jej przetworzyć.-->
 
@@ -27,7 +24,7 @@ Mimo że standard HTML traktuje niektóre z tych przypadków jako niezgodne dla 
 
 Problemy, takie jak brakujące role z powodu nieprawidłowo zagnieżdżonych elementów lub nieprawidłowe stany lub nazwy z powodu zduplikowanego identyfikatora, są objęte innymi kryteriami sukcesu i powinny być zgłaszane w ramach tych kryteriów, a nie jako problemy z 4.1.1.
 
-## Procedura testu dla KS 4.1.1 Parsowanie
+## Procedura testu dla KS 4.1.1 Poprawność kodu
 Identyfikator testu podstawowego: _24.A-Parsing_
 ### Identyfikacja treści
 Cała treść dokumentu
@@ -36,7 +33,7 @@ Cała treść dokumentu
 1.	Nie są wymagane żadne testy.
 
 ### Wynik testów
-<p id="d24aTR">Test podstawowy _24.A-Parsowanie_ zawsze kończy się pomyślnie.</p>
+<p id="d24aTR">Test podstawowy <em>24.A-Parsowanie</em> zawsze kończy się pomyślnie.</p>
 
 ## Porada: Wskazówki dotyczące usprawniania procesu testów
 

@@ -7,8 +7,6 @@ permalink: 17-media-zsynchronizowane-doc
 folder: testy/doc
 ---
 
-## 17. Media zsynchronizowane
-
 ## Wymagania dostępności
 - {% include ks/1-2-2.md %}
 - {% include ks/1-2-3.md %}

@@ -7,8 +7,6 @@ permalink: 20-wersje-alternatywne-doc
 folder: testy/doc
 ---
 
-## 20. Zgodna wersja alternatywna
-
 ## Wymagania dostępności
 -   [Wymagania zgodności: Zgodna wersja alternatywna](https://wcag.irdpl.pl/understanding/zgodnosc#conforming-alt-versions): Wersja alternatywna zapewniająca zgodność - Poziom AA: w przypadku zgodności z poziomem AA, treść spełnia wszystkie kryteria sukcesu na poziomie A i poziomie AA lub zapewniona jest wersja alternatywna zgodna z poziomem AA („zgodna wersja alternatywna”). Wymóg zgodności \#1 pozwala na włączenie w zakres zgodności stron niezgodnych, o ile mają one „zgodną wersję alternatywną", czyli wersję tej samej treści, która:
     1.  spełnia wszystkie kryteria sukcesu na wyznaczonym poziomie **oraz**

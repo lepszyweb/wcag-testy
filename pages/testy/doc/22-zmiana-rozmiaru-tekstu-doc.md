@@ -1,13 +1,11 @@
 ---
 title: 22. Zmiana rozmiaru tekstu (dokument)
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 22-zmiana-rozmiaru-tekstu-doc
 folder: testy/doc
 ---
-
-# 22. Zmiana rozmiaru tekstu
 
 ## Wymagania dostępności
 - {% include ks/1-4-4.md %}
@@ -38,7 +36,7 @@ Cały tekst w dokumencie.
     -   cała treść jest dostępna
 
 ### Wynik testów
-<p id="d22aTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _22.A-ResizeText_ również kończy się niepowodzeniem.</p>
+<p id="d22aTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy <em>22.A-ResizeText</em> również kończy się niepowodzeniem.</p>
 
 ## Poradnik: Wskazówki dotyczące usprawniania procesu testów
 brak

@@ -1,13 +1,11 @@
 ---
 title: 21. Zdarzenia czasowe (dokumenty)
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 21-zdarzenia-czasowe-doc
 folder: testy/doc
 ---
-
-## 21. Zdarzenia czasowe (dokumenty)
 
 ## Wymagania dostępności
 - {% include ks/1-4-2.md %}
@@ -55,7 +53,7 @@ Dla każdego wystąpienia ograniczenia czasu:
         -   może wydłużyć limit limitu czasu co najmniej dziesięciokrotnie.
 
 ### Wynik testów
-<p id="d21aTR">Jeżeli żaden z powyższych warunków nie jest spełniony, test podstawowy _21.A-TimingAdjustable_ kończy się niepowodzeniem.</p>
+<p id="d21aTR">Jeżeli żaden z powyższych warunków nie jest spełniony, test podstawowy <em>21.A-TimingAdjustable</em> kończy się niepowodzeniem.</p>
 
 ## 21.B Procedura testowa ruchomych informacji 
 Identyfikator testu podstawowego: _21.B-MovingInfo_
@@ -71,7 +69,7 @@ Wszelkie ruchome, migające lub przewijane informacje, które spełniają WSZYST
 1.  Sprawdź, czy istnieje mechanizm umożliwiający użytkownikowi ich wstrzymanie, zatrzymanie lub ukrycie. [KS 2.2.2]
 
 ### Wynik testów
-<p id="d21bTR">Jeżeli powyższy warunek nie jest spełniony, test podstawowy _21.B-MovingInfo_ kończy się niepowodzeniem.</p>
+<p id="d21bTR">Jeżeli powyższy warunek nie jest spełniony, test podstawowy <em>21.B-MovingInfo</em> kończy się niepowodzeniem.</p>
 
 ## 21.C Procedura testowa automatycznej aktualizacji treści
 Identyfikator testu podstawowego: _21.C-AutoUpdate_
@@ -88,7 +86,7 @@ Wszelkie treści, które aktualizują się automatycznie, spełniające WSZYSTKI
 	- kontrolowanie częstotliwości aktualizacji.
 
 ### Wynik testów
-<p id="d21cTR">Jeżeli żaden z warunków powyżej nie jest spełniony, test podstawowy _21.C-AutoUpdate_ kończy się niepowodzeniem.</p>
+<p id="d21cTR">Jeżeli żaden z warunków powyżej nie jest spełniony, test podstawowy <em>21.C-AutoUpdate</em> kończy się niepowodzeniem.</p>
 
 ## 21.D Procedura testowa kontroli odtwarzania dźwięku 
 Identyfikator testu podstawowego: _21.D-AudioControl_
@@ -101,7 +99,7 @@ Elementy strony odtwarzające dźwięk dłużej niż 3 sekundy.
     -  Na początku dokumentu lub w funkcjach dostępności do platformy istnieje mechanizm regulacji głośności niezależny od ogólnego poziomu głośności systemu.
 
 ### Wynik testów
-<p id="d21dTR">Jeżeli żaden z warunków powyżej nie jest spełniony, test podstawowy _21.D-AudioControl_ kończy się niepowodzeniem.</p>
+<p id="d21dTR">Jeżeli żaden z warunków powyżej nie jest spełniony, test podstawowy <em>21.D-AudioControl</em> kończy się niepowodzeniem.</p>
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 
