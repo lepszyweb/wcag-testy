@@ -1,6 +1,6 @@
 ---
 title: 13. Struktura treści (dokumenty)
-last_updated: 23 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 13-struktura-tresci-doc
@@ -70,7 +70,7 @@ Programowo określane nagłówki: od nagłówka poziomu 1 do nagłówka pozio
 1.  Sprawdź, czy każdy programowo określany nagłówek służy również jako wizualny nagłówek na stronie. Treść, która nie jest nagłówkiem wizualnym, nie powinna być oznakowana jako nagłówek (na przykład znacznika nagłówka nie należy używać do wyróżniania elementu, który nie jest tytułem dla następującej po nim treści). [KS 1.3.1]
 
 ### Wynik testów
-<p id="d13cTR">Jeżeli powyższy testzakończy się niepowodzeniem, wówczas test podstawowy <em>13.C-ProgHeadingVisual</em> kończy się niepowodzeniem.</p>
+<p id="d13cTR">Jeżeli powyższy test zakończy się niepowodzeniem, wówczas test podstawowy <em>13.C-ProgHeadingVisual</em> kończy się niepowodzeniem.</p>
 
 ## 13.D Procedura testowa dla wykazów widocznych wizualnie
 Identyfikator testu podstawowego: _13.D-List_
@@ -79,7 +79,7 @@ Identyfikator testu podstawowego: _13.D-List_
 Widoczne wizualnie listy, które są wyświetlane jako grupa elementów, zwykle znajdujących się jeden pod drugim. Wyklucz menu nawigacyjne. Określ typ listy:
 -   **Lista nieuporządkowana** nie są numerowane ani literowane. List nieuporządkowanych używa się w przypadkach, gdy kolejność elementów nie jest istotna, ani nie ma konieczności odwoływania się do konkretnych pozycji na liście według liczby/litery.
 -   **Lista uporządkowana** jest numerowana lub literowana sekwencyjnie, a jeśli to konieczne, także hierarchicznie (np. 1, 2, 2a, 2ai, itd.). List uporządkowanych używa się tam, gdzie ważna jest kolejność albo konieczne jest odwoływanie się do konkretnych pozycji na liście według liczby/litery.
--   **Lista opisów** (asocjacji, dawniej definicji) (dl) używa się do grupowania dowolnych danych w zestawy nazwa-wartość. Rolę grupy nazwa-wartość mogą spełniać terminy i ich definicje, elementy metadanych i ich wartości oraz dowolne inne grupy danych, na przykład autorzy i tytuły ich książek. Są one powszechne stosowane w słownikach.
+-   **Lista opisów** (asocjacji, dawniej definicji, <code>dl</code>) używa się do grupowania dowolnych danych w zestawy nazwa-wartość. Rolę grupy nazwa-wartość mogą spełniać terminy i ich definicje, elementy metadanych i ich wartości oraz dowolne inne grupy danych, na przykład autorzy i tytuły ich książek. Są one powszechne stosowane w słownikach.
 
 ### Instrukcja testowania
 1.  Dla każdej widocznej wizualnej listy:
