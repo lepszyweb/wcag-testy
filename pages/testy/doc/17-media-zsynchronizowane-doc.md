@@ -136,7 +136,7 @@ Identyfikator testu podstawowego: 17.G-SyncMediaAlternative
 4.	Sprawdź, czy w tekście znajdują się znaczące informacje wizualne prezentowane w nagraniu multimedialnym.
 
 ### Wynik testów
-<p id="d17gTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, oznacza to, że multimedia nie jest alternatywą medialną dla tekstu. Wykonaj procedurę testową testu podstawowego <em>17.D-CaptionsPrerecorded</em> i procedurę testową <em>_17.E-ADPrerecorded_.</p>
+<p id="d17gTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, oznacza to, że multimedia nie jest alternatywą medialną dla tekstu. Wykonaj procedurę testową testu podstawowego <em>17.D-CaptionsPrerecorded</em> i procedurę testową <em>17.E-ADPrerecorded</em>.</p>
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 
