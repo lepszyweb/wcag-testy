@@ -1,5 +1,5 @@
 ---
-title: 24. Popfrawność kodu (dokumenty)
+title: 24. Poprawność kodu (dokumenty)
 last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
