@@ -1,19 +1,15 @@
 ---
 title: 14. Łącza (dokument)
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 14-lacza-doc
 folder: testy/doc
 ---
-## 14. Łącza
 
 ## Wymagania dostępności
 - {% include ks/2-4-4.md %}
 - {% include ks/4-1-2.md %}
-
-### Test Method Rationale
-
 
 ## Uzasadnienie metody testowej
 Łącza i przyciski, w tym elementy skryptowe, muszą mieć znaczący tekst (powiązany bezpośrednio lub znajdujący się w&nbsp;kontekście), który opisuje ich przeznaczenie lub funkcję. Aby powiązany tekst był dostępny dla technologii wspomagających, informacje muszą być możliwe do odczytania przez program komputerowy (możliwe do określenia programowo).
@@ -39,7 +35,7 @@ Identyfikator testu bazowego: _14.A-LinkPurpose_
 	- tekstu, który znajduje się w komórce nagłówka tabeli skojarzonej z komórką tabeli zawierającą łącze
 
 ### Wynik testów
-<p id="d14aTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy  _14.A-LinkPurpose_ również kończy się niepowodzeniem.</p>
+<p id="d14aTR">Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy  <em>14.A-LinkPurpose</em> również kończy się niepowodzeniem.</p>
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 -   W przypadku, gdy łącze prowadzi do dokumentu lub aplikacji internetowej, nazwa dokumentu lub aplikacji internetowej wystarcza do opisania celu łącza (czyli odesłanie do dokumentu lub aplikacji internetowej).

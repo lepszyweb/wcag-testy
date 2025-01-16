@@ -7,9 +7,6 @@ permalink: 13-struktura-tresci-doc
 folder: testy/doc
 ---
 
-
-# 13. Struktura treści
-
 ## Wymagania dostępności
 - {% include ks/2-4-6.md %}
 - {% include ks/1-3-1.md %}
