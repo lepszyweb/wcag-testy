@@ -1,6 +1,6 @@
 ---
 title: 20. Zgodna wersja alternatywna (dokumenty)
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 20-wersje-alternatywne-doc
@@ -59,7 +59,7 @@ Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, wówcz
 
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 
--   Jeśli zapewniona jest zgodna wersja alternatywna, to niezgodne wersje tej treści są testowane tylko pod kątem [Wymagania zgodności 5 Bez zakłóceń](ICT-03-bez-zaklocen-dokumenty.md). Nie jest konieczne wykonywanie innych testów podstawowych na wersjach niezgodnych.
+-   Jeśli zapewniona jest zgodna wersja alternatywna, to niezgodne wersje tej treści są testowane tylko pod kątem [Wymagania zgodności 5 Bez zakłóceń](03-bez-zaklocen-doc.md). Nie jest konieczne wykonywanie innych testów podstawowych na wersjach niezgodnych.
 -   Jeśli istnieją zgodne wersje alternatywne, należy podjąć decyzję, czy wersja niezgodna wymaga przetestowania i w jakim zakresie. Aby zaoszczędzić czas i wysiłek, zaleca się, aby był to jeden z pierwszych testów.
 
 ## Techniki WCAG 2.2

@@ -1,13 +1,12 @@
 ---
 title: 18. Znacząca treść i kolejność (dokument)
-last_updated: 26 grudnia 2024
+last_updated: 16 stycznia 2025
 
 sidebar: testy_sidebar
 permalink: 18-znaczaca-kolejnosc-doc
 folder: testy/doc
 ---
 
-## 18. Znacząca treść i kolejność
 
 - {% include ks/1-3-1.md %}
 - {% include ks/1-3-2.md %}
