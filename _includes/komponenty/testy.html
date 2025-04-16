@@ -1,0 +1,173 @@
+<div id="criteres">
+    <div id="toc">
+
+        <ul id="topics-list">
+        {% assign temat = "" %}
+        {% for tematy in site.data.rgaa.kryteria.tematy %}
+            {% if temat != tematy.temat %}
+                {% assign temat = tematy.temat %}
+                <li><a href="#temat{{ tematy.numer }}">{{ tematy.numer }}. {{ tematy.temat }}</a></li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+    {% assign temat = "" %}
+    {% for tematy in site.data.rgaa.kryteria.tematy %}
+        {% if temat != tematy.temat %}
+            {% assign temat = tematy.temat %}
+            <h3 id="temat{{ tematy.numer }}">{{ tematy.numer }}. {{ tematy.temat }}</h3>
+        {% endif %}
+
+        {% for kryteria in tematy.kryteria %}
+            {% assign critLevel = "" %}
+            {% for sc in kryteria.kryterium.odniesienia[0].wcag %}
+                {% assign splitSc = sc | split: " " %}
+                {% assign level = splitSc | slice: -1 %}
+                {% capture level %}{{ level }}{% endcapture %}
+                {% assign levelSize = level | size %}
+                {% assign levelSize = levelSize | minus: 2 %}
+                {% assign level = level | slice: 1, levelSize %} 
+                {% if critLevel == "" or critLevel == "AA" %}
+                    {% assign critLevel = level %}
+                {% endif %}
+            {% endfor %}
+
+        <article id="kryt-{{ tematy.numer }}-{{ kryteria.kryterium.numer }}" data-level="{{ critLevel }}" class="is-visible">
+            <h4 class="critere">Kryterium {{ tematy.numer }}.{{ kryteria.kryterium.numer }}. {{ kryteria.kryterium.tytul | replace: "(#", "(/rgaa-slownik#" | markdownify  | remove: '<p>' | remove: '</p>' }}</h4>
+                <ul class="tests is-hidden">
+                    {% assign testNum = 1 %}
+                    {% for test in kryteria.kryterium.testy %}
+                        <li id="test-{{ tematy.numer }}-{{ kryteria.kryterium.numer }}-{{ testNum }}">
+                            <span class="test">Test {{ tematy.numer }}.{{ kryteria.kryterium.numer }}.{{ test.first }}</span>: {{ test[1].first | replace: "(#", "(/rgaa-slownik#" | markdownify }}
+                            {% if test[1].size > 1 %}
+                            <ul>
+                                {% for condition in test[1] %}
+                                    {% unless condition == test[1].first %}
+                                        <li>{{ condition | replace: "(#", "(/rgaa-slownik#" | markdownify }}</li>
+                                    {% endunless %}
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                        </li>
+                        {% assign testNum = testNum | plus: 1 %}
+                    {% endfor %}
+                </ul>
+            <div class="aside is-hidden">
+                {% if kryteria.kryterium.przypadkiSzczegolne %}
+                    <h5>Przypadki szczególne</h5>
+                    {% for cp in kryteria.kryterium.przypadkiSzczegolne %}
+                        {% if cp.first %}
+                        <ul>
+                            {% for li in cp.first[1] %}
+                                {% if li.first %}
+                                <ul>
+                                    {% for subLi in li.first[1] %}
+									<li>{{ subLi | replace: "(#kryt", "(/rgaa-kryteria#kryt" | replace: "(#test", "(/rgaa-kryteria#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}</li>
+                                    {% endfor %}
+                                </ul>
+                                {% else %}
+                                <li>{{ li | replace: "(#kryt", "(/rgaa-kryteria#kryt" | replace: "(#test", "(/rgaa-kryteria#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}</li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                        {% else %}
+                            {{ cp | replace: "(#kryt", "(/rgaa-kryteria#kryt" | replace: "(#test", "(/rgaa-kryteria#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                {% if kryteria.kryterium.notaTechniczna %}
+                    <h5>Uwagi techniczne</h5>
+                    {% for nt in kryteria.kryterium.notaTechniczna %}
+                        {% if nt.first %}
+                        <ul>
+                            {% for li in nt.first[1] %}
+                                {% if li.first %}
+                                <ul>
+                                    {% for subLi in li.first[1] %}
+                                    <li>{{ subLi | replace: "(#kryt", "(/rgaa-kryteria#kryt" | replace: "(#test", "(/rgaa-kryteria#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}</li>
+                                    {% endfor %}
+                                </ul>
+                                {% else %}
+                                <li>{{ li | replace: "(#kryt", "(/rgaa-kryteria#kryt" | replace: "(#test", "(/rgaa-kryteria#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}</li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                        {% else %}
+                            {{ nt | replace: "(#kryt", "(/rgaa-kryteria#kryt" | replace: "(#test", "(/rgaa-kryteria#test" | replace: "(#", "(/rgaa-slownik#" | markdownify }}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                <h5>Mapowanie do WCAG 2.1</h5>
+                <ul><li><span>Kryterium sukcesu WCAG 2.1: </span>
+                    <span lang="pl">
+                         {% assign level = "" %}
+                         {% for sc in kryteria.kryterium.odniesienia[0].wcag %}
+                             {% assign splitSc = sc | split: " " %}
+                             {% assign max = splitSc.size %}
+                             {% assign scwcag = splitSc | slice: 2, max %}
+                             {% assign scwcag = scwcag | join: " " %}
+                             {% assign max = max | minus: 4 %}
+                             {% assign slug = splitSc | slice: 3, max %}
+                             {% assign slug = slug | join: " " %}
+                         <!--     {% assign link = splitSc | slice: 2, max %}
+                             {% assign link = link | join: " " %} -->
+                             {% if sc == kryteria.kryterium.odniesienia[0].wcag.last %}
+                                 <a href="https://wcag.lepszyweb.pl#{{ slug | slugify }}">{{ scwcag }}</a>.
+                             {% else %}
+                                 <a href="https://wcag.lepszyweb.pl#{{ slug | slugify }}">{{ scwcag }}</a>, 
+                             {% endif %}
+                         {% endfor %}
+                    </span>
+                </li>
+                {% if kryteria.kryterium.odniesienia[1].techniki.size > 0 %}
+                <li><span>Technika(i) wystarczająca(e) lub defekty WCAG 2.1: </span>
+                    <span>
+                         {% for technika in kryteria.kryterium.odniesienia[1].techniki %}
+                             {% assign firstLetter = technika | slice: 0 %}
+                             {% case firstLetter %}
+                                 {% when "A" %}
+                                     {% assign path = "aria" %}
+                                 {% when "C" %}
+                                     {% assign path = "css" %}
+                                 {% when "F" %}
+                                     {% assign path = "failures" %}
+                                 {% when "G" %}
+                                     {% assign path = "general" %}
+                                 {% when "H" %}
+                                     {% assign path = "html" %}
+                                 {% when "S" %}
+                                    {% assign secondLetter = technika | slice: 1 %}
+                                     {% if "C" == secondLetter %}
+                                         {% assign path = "client-side-script" %}
+                                     {% else %}
+                                         {% assign path = "smil" %}
+                                     {% endif %}
+                             {% endcase %}
+                             {% if technika == kryteria.kryterium.odniesienia[1].techniki.last %}
+                                 <a href="https://www.w3.org/WAI/WCAG21/Techniques/{{ path }}/{{ technika }}">{{ technika }}</a>.
+                             {% else %}
+                                 <a href="https://www.w3.org/WAI/WCAG21/Techniques/{{ path }}/{{ technika }}">{{ technika }}</a>, 
+                             {% endif %}
+                         {% endfor %}
+                    </span>
+                    </li>
+                    {% endif %}
+                 </ul>
+                 <h5>Mapowanie do EN 301 549 V2.1.2 (2018-08)</h5>
+                 <ul>
+                    {% for sc in kryteria.kryterium.odniesienia[0].wcag %}
+                    <li>
+                        {% if sc == kryteria.kryterium.odniesienia[0].wcag.last %}
+                            {{ sc }}.
+                        {% else %}
+                            {{ sc }}, 
+                        {% endif %}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </article>
+        {% endfor %}
+        <a class="back-to-topics" href="#topics-list">Powrót do listy tematów</a>
+    {% endfor %}
+</div>

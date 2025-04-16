@@ -34,23 +34,23 @@ folder: metoda
     </p>
 </div>
 
-## Uwagi tłumacza
+<h2 id="uwagi-tlumacza">Uwagi tłumacza</h2>
 
-{% include callout.html content="**Uwaga 1:** Wszystkie odniesienia do WCAG 2.0 zostały zastąpione w tłumaczeniu odniesieniami do WCAG 2, wskazujac tym samym także na WCAG 2.1 i WCAG 2.2.
+{% include callout.html content="**Uwaga 1:** Dokument został opublikowany w 2014 roku, gdy aktualnym standardem były WCAG 2.0. W tłumaczeniu zachowane zostały wszystkie odniesienia do WCAG 2.0 
 <br />
 <br />**Uwaga 2:** W przypadkach gdy istnieją polskie tłumaczenia przywoływanych dokumentów, odnośniki do wersji oryginalnych zostały zastąpione odnośnikami do wersji polskich." type="success" %}
 
-## Streszczenie  {#abstract}
+<h2 id="abstract">Streszczenie</h2>
 
 Ten dokument zawiera wskazówki dla oceny, w jaki sposób witryny internetowe są zgodne z [Wytycznymi dla dostępności treści internetowych (WCAG) 2.1](https://www.w3.org/Translations/WCAG21-pl/). Opisuje procedurę oceny stron internetowych oraz zawiera wskazówki, które pomogą oceniającym stosować dobre praktyki. Nie zawiera instrukcji oceny poszczególnych aspektów treści internetowych, do których odnoszą się kryteria sukcesu WCAG 2. Ten dokument jest jednym z serii materiałów informacyjnych WAI W3C na temat [oceny stron internetowych pod kątem dostępności](https://www.w3.org/WAI/test-evaluate/), które uzupełniają [Dokumenty WCAG 2](https://www.w3.org/WAI/standards-guidelines/wcag/docs/). Nie definiuje dodatkowych wymagań WCAG 2, nie zastępuje ich, ani nie zmienia w żaden sposób.
 
-Metodologia opisana w tym dokumencie jest przeznaczona dla osób, które mają doświadczenie w ocenie dostępności za pomocą WCAG 2 i ich zasobów pomocniczych. Zawiera wskazówki dotyczące dobrych praktyk w zakresie definiowania zakresu oceny, poznania ocenianej witryny, wyboru reprezentatywnych próbek próbek stron z witryn, w przypadku których nie jest możliwe ocenienie całej treści, audytu wybranych próbek i raportowania wyników oceny. Jest przeznaczona przede wszystkim do oceny istniejących witryn internetowych, na przykład, aby dowiedzieć się o ich dostępności i monitorować poziom dostępności. Może być również przydatna na wcześniejszych etapach projektowania i tworzenia stron internetowych. Dotyczy to statycznych i dynamicznie generowanych stron internetowych, witryn i aplikacji mobilnych oraz innych typów stron internetowych. Nie wskazuje konkretnych technologii internetowych, narzędzi oceny, przeglądarek internetowych, technologii wspomagających ani innego oprogramowania, które należy wykorzystać do oceny. Nadaje się do stosowania w różnych kontekstach oceny, w tym do samooceny i oceny przez podmioty zewnętrzne.
+Metodologia opisana w tym dokumencie jest przeznaczona dla osób, które mają doświadczenie w ocenie dostępności za pomocą WCAG 2 i ich zasobów pomocniczych. Zawiera wskazówki dotyczące dobrych praktyk w zakresie definiowania zakresu oceny, poznania ocenianej witryny, wyboru reprezentatywnych próbek stron z witryn, w przypadku których nie jest możliwe ocenienie całej treści, audytu wybranych próbek i raportowania wyników oceny. Jest przeznaczona przede wszystkim do oceny istniejących witryn internetowych, na przykład, aby dowiedzieć się o ich dostępności i monitorować poziom dostępności. Może być również przydatna na wcześniejszych etapach projektowania i tworzenia stron internetowych. Dotyczy to statycznych i dynamicznie generowanych stron internetowych, witryn i aplikacji mobilnych oraz innych typów stron internetowych. Nie wskazuje konkretnych technologii internetowych, narzędzi oceny, przeglądarek internetowych, technologii wspomagających ani innego oprogramowania, które należy wykorzystać do oceny. Nadaje się do stosowania w różnych kontekstach oceny, w tym do samooceny i oceny przez podmioty zewnętrzne.
 
-## Status dokumentu  {#status}
+<h2 id="status">Status dokumentu</h2>
 
 {% include note.html content="W tej części opisano status tego dokumentu w momencie jego publikacji. Inne dokumenty mogą zastąpić ten dokument. Listę aktualnych publikacji W3C i najnowszą wersję tego raportu technicznego można znaleźć w&nbsp;[indeksie raportów technicznych W3C](https://www.w3.org/TR/) pod adresem https://www.w3.org/TR/." %}
 
-Ten dokument jest [Notatką Grupy Roboczej](https://www.w3.org/2023/Process-20231103/#WGNote) opracowaną przez [Grupę zadaniową ds. metodologii oceny WCAG 2.0 (Eval TF)](https://www.w3.org/WAI/ER/2011/eval/eval-tf), oraz [Grupę Roboczą ds. wytycznych dla dostępności treści internetowych (WCAG WG)](https://www.w3.org/WAI/GL/) i [Grupy Roboczej ds. narzędzi oceny i naprawy (ERT WG)](https://www.w3.org/WAI/ER/). Zawiera wskazówki informacyjne na temat oceny zgodnie z&nbsp;[Wytycznymi dla dostępności treści internetowych (WCAG) 2](https://www.w3.org/Translations/WCAG21-pl/).
+Ten dokument jest [Notatką Grupy Roboczej](https://www.w3.org/2023/Process-20231103/#WGNote) opracowaną przez [Zespół zadaniowy ds. metodologii oceny WCAG 2.0 (Eval TF)](https://www.w3.org/WAI/ER/2011/eval/eval-tf), wspólną zespół [Grupy Roboczej ds. Wytycznych dla dostępności treści internetowych (WCAG WG)](https://www.w3.org/WAI/GL/) oraz [Grupy Roboczej ds. narzędzi oceny i naprawy (ERT WG)](https://www.w3.org/WAI/ER/). Zawiera wskazówki informacyjne na temat oceny zgodnie z&nbsp;[Wytycznymi dla dostępności treści internetowych (WCAG) 2](https://www.w3.org/Translations/WCAG21-pl/).
 
 Jako Notatka Grupy Roboczej ten materiał jest stabilny. Na obecnym etapie Grupa Robocza nie planuje dalszych zmian. Jeśli jednak zajdzie taka potrzeba, dokument może zostać zaktualizowany. Uwagi otrzymane na temat tego dokumentu pomogą Grupie Roboczej zdecydować, czy aktualizacje są potrzebne lub zostaną  wzięte pod uwagę w&nbsp;przypadku planowania ponownej publikacji. Wszelkie uwagi, w&nbsp;tym wykryte błędy, należy wysyłać na publiczną listę mailingową [public-wcag-em-comments@w3.org](mailto:public-wcag-em-comments@w3.org) (publicznie widoczne [archiwum listy mailingowej](https://lists.w3.org/Archives/Public/public-wcag-em-comments/). W&nbsp;komentarzach należy podać następujące informacje: lokalizację w dokumencie, sugerowaną zmianę oraz uzasadnienie komentarza.
 
@@ -60,7 +60,7 @@ Publikacja w formie Notatki Grupy Roboczej nie oznacza poparcia przez Członków
 
 Ten dokument został opracowany przez dwie grupy działające w ramach [Polityki patentowej W3C z 5 lutego 2004 roku](https://www.w3.org/Consortium/Patent-Policy-20040205/). Grupy nie oczekują, że dokument ten stanie się Rekomendacją W3C. W3C prowadzi [pełną listę zgłoszonych publicznie patentów WCAG WG](https://www.w3.org/groups/wg/ag/ipr/) oraz [pełną listę zgłoszonych publicznie patentów ERT WG](https://www.w3.org/groups/wg/ertwg/ipr/) wykonanych w związku z produktami każdej grupy; strony te zawierają również instrukcje zgłaszania patentu. Osoby, które twierdzą, że posiadają faktyczną wiedzę na temat patentów zawierających [istotne zastrzeżenia](https://www.w3.org/Consortium/Patent-Policy-20040205/#def-essential), muszą ujawnić informacje zgodnie z&nbsp;rozdziałem [6 Polityki patentowej W3C](https://www.w3.org/Consortium/Patent-Policy-20040205/#sec-Disclosure).
 
-## Wprowadzenie  {#introduction}
+<h2 id="introduction">Wprowadzenie</h2>
 
 Ocena stopnia, w jakim strona internetowa jest zgodna z [Wytycznymi dla dostępności treści internetowych (WCAG) 2](https://www.w3.org/Translations/WCAG21-pl/), jest procesem składającym się z kilku etapów. Na działania prowadzone w ramach tych etapów wpływ ma wiele czynników, takich jak: rodzaj strony internetowej (np. statyczna, dynamiczna, responsywna, mobilna, itp.); jej rozmiar, złożoność oraz technologie wykorzystywane do stworzenia strony internetowej (np. <acronym title="Hipertekstowy Język Znaczników">HTML</acronym>, <acronym title="Bogate Dostępne Aplikacje Internetowe">WAI-ARIA</acronym>, <acronym title="Przenośny Format Dokumentów">PDF</acronym>, itp.); poziom wiedzy oceniających na temat procesu zastosowanego w projektowaniu i tworzeniu witryny internetowej; oraz główny cel oceny (np. wydanie deklaracji dostępności, zaplanowanie procesu przeprojektowania, przeprowadzenie badań itp.)
 
@@ -68,7 +68,8 @@ Ta metodologia opisuje kroki, które są wspólne dla procesów kompleksowej oce
 
 **Ta metodologia w żaden sposób nie uzupełnia, ani nie zmienia wymagań określonych w normatywnym standardzie WCAG 2**, ani też nie dostarcza instrukcji oceny poszczególnych aspektów treści internetowych. Metodologia może być stosowana w połączeniu z technikami spełniania kryteriów sukcesu WCAG 2, takimi jak [Techniki dla <acronym>WCAG</acronym> 2](https://www.w3.org/WAI/WCAG22/Techniques/) udokumentowane przez WAI W3C, ale nie wymaga stosowania tego, ani żadnego innego konkretnego zestawu technik.
 
-## Cele metodologii  {#purpose}
+
+<h2 id="purpose">Cele metodologii</h2>
 
 W wielu sytuacjach konieczna jest ocena dostępności witryny internetowej, na przykład przed wydaniem, nabyciem lub przeprojektowaniem witryny, a także w celu okresowego monitorowania dostępności witryny. Ta metodologia jest przeznaczona dla każdego, kto chce stosować wspólne podejście do oceny zgodności witryn internetowych z WCAG 2. W kręgu osób, które mogą być zainteresowane metodologią, są:
 
@@ -82,13 +83,13 @@ W wielu sytuacjach konieczna jest ocena dostępności witryny internetowej, na p
  - Trenerzy i edukatorzy ds. dostępności cyfrowej, którzy chcą uczyć podejścia do oceny dostępności witryn internetowych.
  - Twórcy witryn internetowych, autorzy treści, projektanci i inne osoby, które chcą dowiedzieć się więcej na temat dostępności i&nbsp;oceny witryn internetowych.
 
-## Stosunek do wymogów zgodności z WCAG 2  {#context}
+<h2 id="context">Stosunek do wymogów zgodności z WCAG 2</h2>
 
 WCAG 2 definiują [wymagania zgodności](https://www.w3.org/Translations/WCAG21-pl/#conformance-reqs) dla pojedynczych stron internetowych (a&nbsp;w&nbsp;niektórych przypadkach także zestawów stron internetowych), ale nie opisują, jak oceniać całe witryny. Określają również, w jaki sposób można składać opcjonalne [deklaracje zgodności](https://www.w3.org/Translations/WCAG21-pl/#conformance-claims) w&nbsp;odniesieniu do pojedynczych stron internetowych, serii stron internetowych, takich jak formularz wielostronicowy, oraz wielu powiązanych stron internetowych, takich jak witryna internetowa. Ma to zastosowanie do przypadków, gdy wszystkie strony internetowe objęte deklaracją zgodności zostały ocenione lub utworzone w procesie zapewniającym, że każda spełnia wszystkie wymagania dotyczące zgodności.
 
 **Deklaracje zgodności z WCAG 2** **w odniesieniu do całych witryn internetowych nie mogą być formułowane na podstawie oceny wybranego podzbioru stron internetowych i samej funkcjonalności**, ponieważ zawsze możliwe jest, że na tych stronach pojawią się niezidentyfikowane błędy dotyczące zgodności. Jednak w większości zastosowań tej metodologii do oceny wybiera się tylko próbkę stron internetowych i funkcjonalności witryny. Dlatego w większości przypadków **samo zastosowanie tej metodologii nie daje wystarczających podstaw do stwierdzenia zgodności ocenianych witryn z WCAG 2**. Wskazówki dotyczące formułowania deklaracji zgodności w wyniku zastosowania tej metodologii znajdują się w [kroku 5.c: Przygotuj deklarację zgodności (opcjonalnie)](#step5c).
 
-### Lektury wprowadzające {#reading}
+<h3 id="reading">Lektury wprowadzające</h3>
 
 Poniższe informacje na temat podstaw dostępności stron internetowych, oceny i&nbsp;WCAG 2 są niezbędne do korzystania z&nbsp;tej metodologii. Od osób oceniających, które korzystają z tej metodologii, oczekuje się dogłębnej znajomości wszystkich wymienionych poniżej materiałów:
 
@@ -114,7 +115,7 @@ Poniższe informacje na temat podstaw dostępności stron internetowych, oceny i
   <dd><p>Jest to uznawany na całym świecie standard wyjaśniający, w jaki sposób sprawić, by treści internetowe były bardziej dostępne dla osób z&nbsp;niepełnosprawnościami. Poniższe materiały są szczególnie ważne dla oceny dostępności stron internetowych:</p>
    <ul>
   <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Omówienie WCAG 2</a></li>
-   <li><a href="http://www.w3.org/TR/WCAG20/">Specyfikacja techniczna WCAG 2.0</a>, <a href="https://www.w3.org/TR/WCAG21/">Specyfikacja techniczna WCAG 2.1</a>, <a href="https://www.w3.org/TR/WCAG22/"></a></li> 
+   <li><a href="http://www.w3.org/TR/WCAG20/">Specyfikacja techniczna WCAG 2.0</a>, <a href="https://www.w3.org/TR/WCAG21/">Specyfikacja techniczna WCAG 2.1</a>, <a href="https://www.w3.org/TR/WCAG22/">Specyfikacja techniczna WCAG 2.2</a></li> 
    <li><a href="https://wcag.lepszyweb.pl/"></a>Jak spełnić WCAG 2 (Krótki przewodnik) (oryginał: <a href="https://www.w3.org/WAI/WCAG22/Understanding/">How to Meet WCAG (Quick Reference)(https://www.w3.org/WAI/WCAG22/quickref/)</a></li> 
    <li><a href="https://www.w3.org/WAI/WCAG22/Understanding/">Objaśnienia WCAG 2.2</a></li>
   <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/">Techniki dla WCAG 2.2</a></li>   
@@ -124,10 +125,9 @@ Poniższe informacje na temat podstaw dostępności stron internetowych, oceny i
   </dl>
 
 
+<h3 id="terms">Terminy i definicje</h3>
 
-### Terminy i definicje
-
-Na potrzeby niniejszego dokumentu stosujemy następujące terminy i definicje:
+Na potrzeby tego dokumentu stosujemy następujące terminy i definicje:
 
 <dl>
   <dt id="complete">całe procedury</dt>
@@ -172,33 +172,33 @@ Na potrzeby niniejszego dokumentu stosujemy następujące terminy i definicje:
 </dl>
 
 
-
-## Korzystanie z metodologii {#usage}
-
+<h3 id="usage">Korzystanie z metodologii</h3>
 
 Metodologia ta służy do dokładnej oceny witryn internetowych przy użyciu <acronym>WCAG</acronym> 2. Przed oceną całej witryny dobrze jest przeprowadzić wstępną ocenę różnych stron internetowych z ocenianej witryny, aby rozpoznać oczywiste bariery dostępności i zdobyć ogólne rozeznanie w dostępności witryny. [Łatwe testy – wstępny przegląd dostępności internetowej](00-P-wprowadzenie2) opisuje takie podejście do wstępnej oceny, które jest uzupełnieniem tej metodologii (oryginał: ([Easy Checks - A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)).
 
-### Wymagana wiedza specjalistyczna {#expertise}
+<h3 id="expertise">Wymagana wiedza specjalistyczna</h3>
 
 Zakłada się, że użytkownicy tej metodologii mają solidną wiedzę na temat oceniania treści internetowych przy użyciu <acronym>WCAG</acronym> 2, dostępnego projektowania internetowego, technologii wspomagających oraz tego, jak osoby z różnymi rodzajami niepełnosprawności korzystają z Internetu. Obejmuje to zrozumienie technologii internetowych, barier dostępności, których doświadczają osoby z&nbsp;niepełnosprawnościami, technologii wspomagających i strategii adaptacyjnych stosowanych przez osoby z&nbsp;niepełnosprawnościami, oraz technik oceny, narzędzi i metod rozpoznawania barier dla osób z niepełnosprawnościami. W&nbsp;szczególności zakłada się, że użytkownicy tej metodologii są dogłębnie zaznajomieni ze wszystkimi materiałami wymienionymi w rozdziale [Lektury wprowadzające](#reading).
 
-### Zbiorowa wiedza specjalistyczna (opcjonalnie) {#combined}
+
+<h3 id="combined">Zbiorowa wiedza specjalistyczna (opcjonalnie)</h3>
 
 Metodologię może stosować indywidualnie każdy, kto posiada kwalifikacje opisane w poprzedniej sekcji [(Wymagana wiedza specjalistyczna](#expertise)), lub zespół oceniających, który posiada zbiorową wiedzę specjalistyczną. Korzystanie ze&nbsp;zbiorowej wiedzy specjalistycznej różnych oceniających może czasami być konieczne lub korzystne, gdy jeden oceniający sam nie posiada całej wymaganej wiedzy specjalistycznej. Więcej wykraczających poza zakres tego dokumentu wskazówek na temat korzystania ze zbiorowej wiedzy specjalistycznej zespołów oceniających znajduje się w opracowaniu [Korzystanie ze zbiorowej wiedzy specjalistycznej do oceny dostępności stron internetowych](https://www.w3.org/WAI/test-evaluate/combined-expertise/).
 
-### Włączanie użytkowników (opcjonalnie) {#users}
+<h3 id="users">Włączanie użytkowników</h3>
 
 Włączanie w proces oceny osób z niepełnosprawnościami, w tym osób z trudnościami związanymi ze starzeniem się (które nie są doświadczonymi testerami lub członkami zespołu oceniającego), może pomóc w rozpoznaniu dodatkowych barier dostępności, które nie są łatwe do wykrycia w drodze oceny eksperckiej. Chociaż nie jest to wymagane w tej metodologii, oceniający mogą czasem być zmuszeni do zaangażowania w proces oceny osób doświadczających autentycznych problemów z&nbsp;dostępnością. Więcej wykraczających poza zakres tego dokumentu wskazówek na temat angażowania użytkowników w&nbsp;ocenę dostępności znajduje się w opracowaniu [Włączanie użytkowników do oceny dostępności cyfrowej](https://www.w3.org/WAI/test-evaluate/involving-users/).
 
-### Narzędzia oceny (opcjonalnie) {#tools}
+<h3 id="tools">Narzędzia oceny (opcjonalnie)</h3>
 
 Metodologia jest niezależna od jakiegokolwiek konkretnego narzędzia oceny dostępności internetowej, przeglądarki internetowej i innych narzędzi programowych. Chociaż większość testów nie jest w pełni zautomatyzowana, to narzędzia oceny mogą znacznie pomóc oceniającym w procesie oceny i przyczynić się do bardziej efektywnej oceny. Na przykład, niektóre narzędzia oceny dostępności cyfrowej mogą skanować całe witryny, aby pomóc w typowaniu odpowiednich stron do oceny ręcznej. Narzędzia mogą być również pomocne podczas ręcznej (ludzkiej) oceny testów dostępności. Więcej wykraczających poza zakres tego dokumentu wskazówek na temat korzystania z narzędzi oceny zawiera opracowanie [Wybieranie narzędzi do oceny dostępności cyfrowej](https://www.w3.org/WAI/test-evaluate/tools/selecting/)
 
-## Zakres stosowania {#tools}
+
+<h3 id="applicability">Zakres stosowania</h3>
 
 Metodologia została zaprojektowana do oceny całych [witryn internetowych](#website). Oznacza to, że dla każdej [strony internetowej](#webpage) jest jednoznaczne, czy jest ona częścią witryny, czy nie. Dotyczy to witryn organizacji, podmiotów, osób, wydarzeń, produktów i usług.
 
-### Przykłady witryn internetowych
+<h3 id="example_websites">Przykłady witryn internetowych</h3>
 
 Oto kilka konkretnych przykładów witryn internetowych:
 
@@ -211,11 +211,11 @@ Oto kilka konkretnych przykładów witryn internetowych:
 
 Witryna może być częścią większej witryny, jak na przykład sklep internetowy w&nbsp;przykładach powyżej. Witryna może być także wyraźnie oddzielną wersją witryny, taką jak wersja mobilna lub wersja w&nbsp;języku holenderskim, jak pokazano w&nbsp;przykładach powyżej. Metodologia może być zastosowana do każdej takiej możliwej do określenia witryny, niezależnie od tego, czy jest ona częścią większej witryny, czy też nie. Precyzyjne określenie witryny jest ustalane w&nbsp;ramach [kroku 1.a](#step1a).
 
-### Zasady uwzględniania stron w ocenie {#enclosure}
+<h3 id="enclosure">Zasady uwzględniania stron w ocenie</h3>
 
 W przypadku, gdy do oceny została wyznaczona witryna internetowa, istotne jest, aby wszystkie strony internetowe, stany stron internetowych i funkcjonalności objęte zakresem jej definicji były uwzględnione w ocenie. Wyłączenie takich aspektów witryny z zakresu oceny prawdopodobnie byłoby sprzeczne z wymogami zgodności <acronym>WCAG</acronym> 2 dla [całych witryn](https://www.w3.org/Translations/WCAG21-pl/#cc2) i [całych procedur](https://www.w3.org/Translations/WCAG21-pl/#cc3) lub w inny sposób zniekształcałoby wyniki oceny.
 
-#### Przykład włączania witryny do oceny {#example_enclosure}
+<h4 id="example_enclosure">Przykład włączania witryny do oceny</h4>
 
 ![Schemat witryny uniwersytetu ilustrujący zasadę uwzględniania stron w ocenie objaśniony w następnym akapicie.](./images/ogolne/metodologia_3.svg)
 
@@ -223,7 +223,7 @@ Powyższy schemat pokazuje witrynę uniwersytetu złożoną z odrębnych obszar�
 
 W tym przykładzie, jeśli witryna uniwersytetu jest wyznaczona do oceny w całości, to wszystkie przedstawione obszary są objęte oceną. Obejmuje to wszelkie zagregowane i osadzone treści, takie jak mapy kampusu, formularze płatności internetowej i fora dyskusyjne, także jeśli takie części pochodzą ze źródeł zewnętrznych. Jeśli natomiast tylko określony obszar witryny, taki jak „Kursy”, zostanie wyznaczony do oceny, wówczas zakresem oceny objęte są wszystkie części tego obszaru, a więc obszary poświęcone każdemu z kursów, a także strony internetowe wspólne dla wszystkich obszarów witryny uniwersytetu. W tym przypadku zakres oceny obejmowałby wszystkie przedstawione kursy, a także konkretne strony internetowe, które są [wspólne](#common) dla wszystkich obszarów witryny uniwersytetu.
 
-### Konkretne typy witryn {#specialcases}
+<h3 id="specialcases">Konkretne typy witryn</h3>
 
 Metodologia ma zastosowanie do szerokiej gamy typów witryn internetowych. Poniżej przedstawiono rozważania dotyczące konkretnych sytuacji, zwracając uwagę, że strony internetowe mogą łączyć kilka aspektów. W&nbsp;związku z&nbsp;tym poniższa lista nie jest wyłączna i wyczerpująca:
 
@@ -248,7 +248,7 @@ Metodologia ma zastosowanie do szerokiej gamy typów witryn internetowych. Poni�
   </dd>
 </dl>
 
-### Konkretne konteksty oceny {#considerations}
+<h3 id="considerations">Konkretne konteksty oceny</h3>
 
 Ta metodologia ma być elastyczna, aby ułatwić jej zastosowanie w różnych sytuacjach i kontekstach.  Poniższe rozważania odnoszą się do konkretnych sytuacji i kontekstów oceny.
 
@@ -277,7 +277,7 @@ Ta metodologia ma być elastyczna, aby ułatwić jej zastosowanie w różnych sy
   <dd>Przeprowadzanie masowej oceny wielu witryn internetowych, na przykład na potrzeby krajowych lub międzynarodowych badań sondażowych, jest zazwyczaj wykonywane głównie za pomocą automatycznych narzędzi oceny. Stosunkowo niewiele stron internetowych poddawanych jest pełnej kontroli ręcznej. Takie oceny zwykle nie uwzględniają niezbędnej jakościowej oceny zgodności dla każdej witryny, dla której opracowano tę metodologię.</dd>
 </dl>
 
-## Procedura oceny {#procedure}
+<h2 id="procedure">Procedura oceny</h2>
 
 W tej części opisano etapy i czynności związane z procedurą oceny. Etapy te niekoniecznie muszą następować po sobie. Dokładna kolejność działań wykonywanych w kolejnych etapach oceny również zależy od rodzaju witryny, celu oceny i procedury stosowanej przez oceniającego. Niektóre działania mogą się pokrywać lub mogą być prowadzone równolegle.  Poniższy schemat ilustruje iteracje pomiędzy etapami zdefiniowanymi w tej części:
 
@@ -285,13 +285,13 @@ W tej części opisano etapy i czynności związane z procedurą oceny. Etapy te
 
 Powyższy schemat toku pracy przedstawia pięć następujących po sobie kroków:  1. Ustal zakres oceny; 2. Poznaj ocenianą witrynę; 3. Wybierz reprezentatywną próbkę; 4. Wykonaj audyt wybranej próbki i 5. Sporządź raport z oceny. Każdy krok ma strzałkę do następnego kroku i strzałki do wszystkich poprzednich kroków. Ilustruje to, w jaki sposób osoby oceniające przechodzą od jednego kroku do następnego i mogą powrócić do każdego poprzedniego kroku, gdy podczas procesu oceny zostaną ujawnione nowe informacje.
 
-### Krok 1: Ustal zakres oceny {#step1}
+<h3 id="step1">Krok 1: Ustal zakres oceny</h3>
 
 <p class="req" id="req1"><strong>Wymóg metodologiczny 1:</strong> Ustal zakres oceny zgodnie z <a href="#req1a" class="termref">wymogiem metodologicznym 1.a</a>, <a href="#req1b" class="termref">wymogiem metodologicznym 1.b</a> i <a href="#req1c" class="termref">wymogiem metodologicznym 1.c</a> oraz opcjonalnie z <a href="#req1d" class="termref">wymogiem metodologicznym 1.d</a>.</p>
 
 Na tym etapie określa się ogólny zakres oceny. Jest to podstawowy krok, który wpływa na kolejne etapy procedury oceny.  Najlepiej ustalić zakres oceny w porozumieniu z zlecającym ocenę (który może, ale _nie musi_ być właścicielem witryny), aby zagwarantować spełnienie oczekiwań co do zakresu oceny. Na tym etapie może być konieczne wstępne rozpoznanie witryny, aby lepiej poznać jej specyfikę i wymagania oceny.  Szczegółowa eksploracja witryny jest przeprowadzana w [kroku 2: Poznaj ocenianą witrynę](#step2).
 
-#### Krok 1.a: Określ zakres stron witryny {#step1a}
+<h4 id="step1a">Krok 1.a: Określ zakres stron witryny</h4>
 
 <p class="req" id="req1a"><strong>Wymóg metodologiczny 1.a:</strong> Zdefiniuj <a href="#website" class="termref">witrynę internetową</a> do oceny zgodnie z <a href="#applicability" class="termref">zakresem stosowania</a>, tak aby dla każdej <a href="#webpage" class="termref">strony internetowej</a> było jasne, czy znajduje się ona w zakresie stron podlegających ocenie.</p>
 
@@ -305,7 +305,7 @@ Ważne jest również udokumentowanie wszelkich szczególnych aspektów z punktu
 *   Mobilne i językowe wersje witryny;
 *   Wyodrębnione obszary, np. sklep internetowy, które pomimo innego adresu URI są uznawane za część witryny wyznaczonej do oceny (takie obszary mogą być trudne do zidentyfikowania).
 
-#### Krok 1.b: Określ wymagany poziom zgodności {#step1b}
+<h4 id="step1b">Krok 1.b: Określ wymagany poziom zgodności</h4>
 
 <p class="req" id="req1b"><strong>Wymóg metodologiczny 1.b:</strong> Określ wymagany <a href="https://www.w3.org/TR/WCAG20/#cc1">poziom zgodności</a> z <acronym>WCAG</acronym> 2 («A», «AA» lub «AAA»).</p>
 
@@ -313,7 +313,7 @@ Częścią rozpoczęcia procesu oceny jest określenie, który poziom zgodności
 
 **Uwaga:** Często przydatna jest ocena wykraczająca poza wymagany poziom zgodności, aby uzyskać pełniejszy obraz dostępności witryny. Na przykład, chociaż witryna może nie spełniać całkowicie określonego poziomu zgodności, ale może spełniać niektóre wymagania z wyższego poziomu zgodności. Posiadanie tych informacji może pomóc w bardziej efektywnym planowaniu przyszłych ulepszeń.
 
-#### Krok 1.c: Określ poziom obsługi dostępności {#step1c}
+<h4 id="step1c">Krok 1.c: Określ poziom obsługi dostępności</h4>
 
 <p class="req" id="req1c"><strong>Wymóg metodologiczny 1.c:</strong> Określ podstawowy zestaw kombinacji przeglądarek, technologii wspomagających i innych <a href="https://www.w3.org/TR/WCAG20/#useragentdef">programów użytkownika</a> (np. odtwarzaczy mediów), w których treści i cechy witryny mają być <a href="https://www.w3.org/TR/WCAG20/#accessibility-supporteddef">obsługiwane pod względem dostępności</a>.</p>
 
@@ -325,7 +325,7 @@ W trakcie tego etapu oceniający określa minimalny zestaw kombinacji systemów 
 
 **Uwaga:** W przypadku niektórych witryn internetowych w sieciach zamkniętych, takich jak witryna intranetowa, w których znani są zarówno użytkownicy, jak i komputery używane do uzyskania dostępu do witryny, bazowa lista technologii może być ograniczona do systemów operacyjnych, przeglądarek internetowych i technologii wspomagających  używanych w ramach tej zamkniętej sieci.  Jednak w większości przypadków bazowa lista technologii jest znacznie szersza i obejmuje większość aktualnie używanych przez osoby z niepełnosprawnościami w danym regionie geograficznym i społeczności językowej programów użytkownika i innych technologii.
 
-#### Krok 1.d: Określ dodatkowe wymagania oceny (opcjonalnie) {#step1d}
+<h4 id="step1d">Krok 1.d: Określ dodatkowe wymagania oceny (opcjonalnie</h4>
 
 <p class="req" id="req1d"><strong>Wymóg metodologiczny 1.d:</strong> Określ wszelkie dodatkowe wymagania dotyczące oceny uzgodnione przez <a href="#evaluator" class="termref">oceniającego</a> i <a href="#commissioner" class="termref">zlecającego ocenę</a> (opcjonalnie).</p>
 
@@ -340,7 +340,7 @@ Zlecający ocenę może być zainteresowany dodatkowymi informacjami wykraczają
 
 Takie dodatkowe wymagania dotyczące oceny, które zostały uzgodnione z oceniającym, muszą zostać wyjaśnione na wczesnym etapie i udokumentowane. Należy je również odzwierciedlić w raporcie wynikowym, na przykład w celu wyjaśnienia, w jaki sposób dokonano wyboru próbki do audytu.
 
-### Krok 2: Poznaj ocenianą witrynę {#step2}
+<h3 id="step2">Krok 2: Poznaj ocenianą witrynę</h3>
 
 <p class="req" id="req2"><strong>Wymóg metodologiczny 2:</strong> Zapoznaj się z witryną internetową, która ma być oceniana zgodnie z <a href="#req2a" class="termref">wymogiem metodologicznym 2.a</a>, <a href="#req2b" class="termref">wymogiem metodologicznym 2.b</a>, <a href="#req2c" class="termref">wymogiem metodologicznym 2.c</a>, <a href="#req2d" class="termref">wymogiem metodologicznym 2.d</a> oraz <a href="#req2e" class="termref">wymogiem metodologicznym 2.e</a>.</p>
 
@@ -348,15 +348,15 @@ Na tym etapie oceniający przegląda witrynę, która ma zostać poddana ocenie,
 
 **Uwaga:** Przeprowadzenie wstępnych pobieżnych testów podczas tego kroku pomaga zidentyfikować strony internetowe, które później będą  istotne dla bardziej szczegółowej oceny. Na przykład, oceniający może zidentyfikować strony, które wydają się być pozbawione kontrastu kolorów, strony z zaburzoną strukturą dokumentu lub niespójną nawigacją.
 
-**Uwaga:** Aby wykonać ten krok, konieczne jest, aby oceniający miał dostęp do wszystkich istotnych części witryny.   Na przykład, konieczne może być utworzenie kont lub zapewnienie w inny sposób dostępu do zastrzeżonych obszarów witryny internetowej, które są częścią oceny. Zapewnienie oceniającym takiego dostępu może wymagać szczególnych środków ostrożności w zakresie bezpieczeństwa i ochrony prywatności.
+**Uwaga:** Aby wykonać ten krok, konieczne jest, aby oceniający miał dostęp do wszystkich istotnych części witryny. Na przykład, konieczne może być utworzenie kont lub zapewnienie w inny sposób dostępu do zastrzeżonych obszarów witryny internetowej, które są częścią oceny. Zapewnienie oceniającym takiego dostępu może wymagać szczególnych środków ostrożności w zakresie bezpieczeństwa i ochrony prywatności.
 
-#### Krok 2.a: Rozpoznaj wspólne strony witryny {#step2a}
+<h4 id="step2a">Krok 2.a: Rozpoznaj wspólne strony witryny</h4>
 
 <p class="req" id="req2a"><strong>Wymóg metodologiczny 2.a:</strong> Określ <a href="#common" class="termref">strony wspólne</a> dla całej ocenianej witryny (mogą to być także stany stron internetowych).</p>
 
 Zbadaj ocenianą witrynę internetową, aby zidentyfikować wszystkie strony wspólne dla całej witryny. W aplikacjach internetowych mogą to być również stany stron internetowych. Zazwyczaj są one linkowane bezpośrednio z głównego punktu wejścia (strony głównej) ocenianej witryny i często połączone z nagłówkiem, nawigacją i sekcją innych stron internetowych. Wynikiem tego kroku jest lista wszystkich [wspólnych stron](#common) internetowych ocenianej witryny.
 
-#### Krok 2.b: Rozpoznaj niezbędne funkcjonalności witryny {#step2b}
+<h4 id="step2b">Krok 2.b: Rozpoznaj niezbędne funkcjonalności witryny</h4>
 
 <p class="req" id="req2b"><strong>Wymaganie metodologiczne2.b:</strong> Określ wstępną listę <a href="#functionality" class="termref">niezbędnych funkcjonalności</a> ocenianej witryny internetowej.</p>
 
@@ -364,7 +364,7 @@ Przejrzyj ocenianą witrynę internetową, aby rozpoznać jej podstawowe funkcjo
 
 **Uwaga:** Celem tego kroku nie jest wyczerpująca lista wszystkich funkcjonalności witryny internetowej, ale określenie tych, które są niezbędne do osiągnięcia celu ocenianej witryny.  Będzie to miało wpływ na późniejszy wybór stron internetowych i ich ocenę. Inne funkcjonalności również zostaną uwzględnione w ocenie, ale na skutek innych mechanizmów selekcji.
 
-##### Przykłady funkcjonalności witryny internetowej {#example_functionality}
+<h5 id="example_functionality">Przykłady funkcjonalności witryny internetowej</h5>
 
 Niektóre przykłady funkcjonalności witryny obejmują:
 
@@ -623,8 +623,6 @@ Zapis ten może obowiązywać globalnie dla całej oceny, dla poszczególnych st
 
 **Uwaga:** Zapisy dotyczące specyfikacji oceny mogą zawierać poufne informacje, takie jak kod wewnętrzny, hasła i kopie danych. Mogą one wymagać szczególnych środków ostrożności w zakresie bezpieczeństwa i ochrony prywatności.
 
-#### Krok 5.c: Przygotuj deklarację zgodności (opcjonalnie) {#step5c}
-
 <h4 id="step5c">Krok 5.c: Przygotuj deklarację zgodności (opcjonalnie)</h4>
 
 **Przypomnienie:** W większości przypadków samo zastosowanie tej metodologii nie skutkuje [deklaracjami zgodności z WCAG 2.0](http://www.w3.org/TR/WCAG20/#conformance-claims) badanych witryn; zobacz [Związek z deklaracjami zgodności z WCAG 2.0](#context), aby uzyskać więcej informacji.
@@ -644,8 +642,6 @@ Deklaracje zgodności według tej metodologii mogą być również składane, gd
 
 7.  **Obszary strony internetowej**, które nie są zgodne z WCAG 2;
 8.  **Powód niezgodności** z **WCAG 2:** „treści stron trzecich” lub „brak wsparcia dla języków”.
-
-#### Krok 5.d: Podaj zagregowany wynik (opcjonalnie) {#step5d}
 
 <h4 id="step5d">Krok 5.d: Podaj zagregowany wynik (opcjonalnie)</h4>
 
