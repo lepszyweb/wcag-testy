@@ -81,7 +81,7 @@ Dokumenty osadzane na stronach internetowych za pomocą ramek i ramek wbudowanyc
 ## Tytuły innych dokumentów
 
 ### Dokumenty biurowe
-<p>Cyfrowe dokumenty biurowe utworzone w programach MS Word, Libre Office Writter i&nbsp;innych powinny zawierać tytuł dokumentu umieszczony na początku dokumentu <s>i&nbsp;oznakowany stylem <strong>Nagłówek 1</strong></s></p>.
+<p>Cyfrowe dokumenty biurowe utworzone w programach MS Word, Libre Office Writter i&nbsp;innych powinny zawierać tytuł dokumentu umieszczony na początku dokumentu <s>i&nbsp;oznakowany stylem <strong>Nagłówek 1</strong></s></p>
 
 Ponadto, tytuły tych dokumentów powinny być umieszczone w metadanych, które wypełnia się w&nbsp;specjalnym oknie informacji o&nbsp;dokumencie.  
 
