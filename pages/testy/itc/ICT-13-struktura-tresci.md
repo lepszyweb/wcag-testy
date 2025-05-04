@@ -92,9 +92,9 @@ Widoczne wizualnie listy, które są wyświetlane jako grupa elementów, zwykle 
 ### Wynik testów
 Jeśli którykolwiek z powyższych testów zakończy się niepowodzeniem, test podstawowy _13.D-List_ również kończy się niepowodzeniem.
 
-
 ##  Poradnik: Wskazówki dotyczące usprawniania procesu testowego
 - Nie ma testu sprawdzającego, czy listy programowe są listami widocznymi wizualnie.
+
 ## Techniki WCAG 2.2
 Przy opracowywaniu tej procedury testowej, wzięto pod uwagę następujące wystarczające techniki i typowe błędy:
 
