@@ -26,7 +26,10 @@ jobs:
       - name: Update Bundler version in lockfile
         run: |
           gem install bundler -v 2.6.9 --no-document
-          bundle _2.6.9_ update --bundler
+          bundle _2.6.9_ lock --bundler 2.6.9
+
+          echo "Bundler version in Gemfile.lock:"
+          tail -n 2 Gemfile.lock
 
       - name: Commit Bundler update
         run: |
@@ -61,6 +64,7 @@ jobs:
     permissions:
       pages: write
       id-token: write
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
