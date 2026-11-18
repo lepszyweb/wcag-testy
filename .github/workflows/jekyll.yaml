@@ -10,8 +10,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
+
+    env:
+      BUNDLE_VERSION: '2.6.9'
 
     steps:
       - name: Checkout repository
@@ -26,10 +30,31 @@ jobs:
       - name: Update Bundler version in lockfile
         run: |
           gem install bundler -v 2.6.9 --no-document
-          bundle _2.6.9_ lock --bundler 2.6.9
+
+          echo "Active Bundler:"
+          bundle _2.6.9_ --version
+
+          ruby -e '
+            path = "Gemfile.lock"
+            content = File.read(path)
+
+            updated = content.sub(
+              /^BUNDLED WITH\r?\n[ \t]*\S+[ \t]*$/,
+              "BUNDLED WITH\n   2.6.9"
+            )
+
+            abort "ERROR: BUNDLED WITH section not found" if updated == content
+
+            File.write(path, updated)
+          '
 
           echo "Bundler version in Gemfile.lock:"
           tail -n 2 Gemfile.lock
+
+          grep -A 1 '^BUNDLED WITH$' Gemfile.lock | grep -q '2.6.9' || {
+            echo "ERROR: Incorrect Bundler version in Gemfile.lock"
+            exit 1
+          }
 
       - name: Commit Bundler update
         run: |
@@ -61,6 +86,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+
     permissions:
       pages: write
       id-token: write
