@@ -11,9 +11,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-
     env:
       BUNDLE_VERSION: '2.6.9'
 
@@ -26,49 +23,6 @@ jobs:
         with:
           ruby-version: '3.3'
           bundler: '2.6.9'
-
-      - name: Update Bundler version in lockfile
-        run: |
-          gem install bundler -v 2.6.9 --no-document
-
-          echo "Active Bundler:"
-          bundle _2.6.9_ --version
-
-          ruby -e '
-            path = "Gemfile.lock"
-            content = File.read(path)
-
-            updated = content.sub(
-              /^BUNDLED WITH\r?\n[ \t]*\S+[ \t]*$/,
-              "BUNDLED WITH\n   2.6.9"
-            )
-
-            abort "ERROR: BUNDLED WITH section not found" if updated == content
-
-            File.write(path, updated)
-          '
-
-          echo "Bundler version in Gemfile.lock:"
-          tail -n 2 Gemfile.lock
-
-          grep -A 1 '^BUNDLED WITH$' Gemfile.lock | grep -q '2.6.9' || {
-            echo "ERROR: Incorrect Bundler version in Gemfile.lock"
-            exit 1
-          }
-
-      - name: Commit Bundler update
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          git add Gemfile.lock
-
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: update Bundler version in lockfile"
-            git push
-          else
-            echo "Gemfile.lock is already up to date."
-          fi
 
       - name: Install dependencies
         run: bundle _2.6.9_ install
